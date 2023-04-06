@@ -232,4 +232,34 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>  
+    
+    <xsl:template match="tei:listEvent">
+            <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:event">
+        <div class="{tei:idno/@type}">
+        <h1>
+            <xsl:choose>
+                <xsl:when test="starts-with(tei:idno/text(), 'http')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="tei:idno/text()"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="tei:head"/>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="tei:head"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </h1>
+        <p>
+            <xsl:value-of select="tei:desc"/>
+        </p>    
+        </div>
+    </xsl:template>
 </xsl:stylesheet>

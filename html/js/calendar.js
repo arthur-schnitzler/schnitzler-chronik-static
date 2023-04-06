@@ -55,7 +55,7 @@ const calendar = new Calendar('#calendar', {
       for (let i = 0; i < entries.length; i++) {
         let linkTitle = entries[i].name;
         let linkId = entries[i].linkId;
-        let numberInSeriesOfLetters = entries[i].tageszaehler;
+        let numberInSeriesOfLetters = 1;
         numbersTitlesAndIds.push({ 'i': i, 'position': numberInSeriesOfLetters, 'linkTitle': linkTitle, 'id': linkId });
       }
 
