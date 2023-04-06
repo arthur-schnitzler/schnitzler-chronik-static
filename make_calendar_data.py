@@ -12,7 +12,13 @@ for x in tqdm(files, total=len(files)):
     doc = TeiReader(x)
     item['name'] = doc.any_xpath('//tei:title[@level="a"]/text()')[0]
     try:
-        item['startDate'] = doc.any_xpath('//tei:title/@when-iso/text()')[0]
+        item['startDate'] = doc.any_xpath('//tei:title[@level="a"]/@when-iso')[0]
+    except:
+        continue
+    try:
+        item['tageszaehler'] = doc.any_xpath('//tei:title[@level="a"]/@when-iso')[0]
+        item['id'] = tail.replace('.xml', '.html')
+        data.append(item)
     except:
         continue
 
@@ -20,5 +26,4 @@ print(f"writing calendar data to {out_file}")
 with open(out_file, 'w',  encoding='utf8') as f:
     my_js_variable = f"var calendarData = {json.dumps(data, ensure_ascii=False)}"
     f.write(my_js_variable)
-
 
