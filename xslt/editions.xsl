@@ -5,6 +5,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:local="http://dse-static.foo.bar"
+    xmlns:mam="whatever"
     version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     
@@ -12,8 +13,8 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
-    <xsl:import href="./partials/aot-options.xsl"/>
-
+    <xsl:import href="./partials/LOD-idnos.xsl"/>
+    
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
     </xsl:variable>
@@ -88,10 +89,6 @@
                                             </h1>
                                         </xsl:if>
                                     </div>
-                                </div>
-                                <div id="editor-widget">
-                                    <p>Text Editor</p>
-                                    <xsl:call-template name="annotation-options"></xsl:call-template>
                                 </div>
                             </div>
                             <div class="card-body">                                
@@ -238,6 +235,19 @@
     </xsl:template>
     
     <xsl:template match="tei:event">
+        <xsl:variable name="idnos-of-current" as="node()">
+            <xsl:element name="nodeset">
+                <xsl:for-each select="tei:idno">
+                    <xsl:copy-of select="."/>
+                </xsl:for-each>
+            </xsl:element>
+        </xsl:variable>
+        <p>
+        <xsl:call-template name="mam:idnosToLinks">
+            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+        </xsl:call-template>
+        </p>
+        
         <div class="{tei:idno[1]/@type}">
         <h1>
             <xsl:choose>
