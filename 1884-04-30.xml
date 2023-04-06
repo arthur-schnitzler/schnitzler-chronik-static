@@ -3,12 +3,13 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever">
+     xmlns:foo="whatever"
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler – Tag für Tag</title>
-            <title level="a" when-iso="1884-04-30">[Language: en]Wednesday, 30th April 1884</title>
+            <title level="a" when-iso="1884-04-30">Mittwoch, 30. April 1884</title>
             <respStmt>
                <resp>providing the content</resp>
                <name>Kristina Fink</name>
