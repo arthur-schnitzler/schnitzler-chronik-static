@@ -16,7 +16,6 @@ for x in tqdm(files, total=len(files)):
     except:
         continue
     try:
-        item['tageszaehler'] = doc.any_xpath('//tei:title[@level="a"]/@when-iso')[0]
         item['id'] = tail.replace('.xml', '.html')
         data.append(item)
     except:
