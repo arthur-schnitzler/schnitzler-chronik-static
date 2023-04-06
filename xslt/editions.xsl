@@ -238,7 +238,7 @@
     </xsl:template>
     
     <xsl:template match="tei:event">
-        <div class="{tei:idno/@type}">
+        <div class="{tei:idno[1]/@type}">
         <h1>
             <xsl:choose>
                 <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
