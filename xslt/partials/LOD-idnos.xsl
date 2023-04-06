@@ -153,6 +153,35 @@
                 <xsl:text> </xsl:text>
             </xsl:if>
         </xsl:for-each>
+        <xsl:for-each select="$relevant-uris/descendant::item[@type = 'print']">
+            <xsl:variable name="abbr" select="child::abbr"/>
+            <xsl:if test="$idnos-of-current/descendant::tei:idno[@type = $abbr][1]">
+                <xsl:variable name="current-idno" as="node()"
+                    select="$idnos-of-current/descendant::tei:idno[@type = $abbr][1]"/>
+                <xsl:variable name="uri-color" select="child::color" as="xs:string?"/>
+                    <xsl:element name="span">
+                        <xsl:attribute name="class">
+                            <xsl:text>badge rounded-pill</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="style">
+                            <xsl:text>background-color: </xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="$uri-color">
+                                    <xsl:value-of select="$uri-color"/>
+                                    <xsl:text>; </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>black; </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text> color: white</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="./caption"/>
+                    </xsl:element>
+                <xsl:text> </xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+        
     </xsl:template>
     <xsl:function name="mam:wikidata2wikipedia">
         <xsl:param name="wikidata-entry" as="xs:string"/>
