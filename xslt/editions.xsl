@@ -241,10 +241,10 @@
         <div class="{tei:idno/@type}">
         <h1>
             <xsl:choose>
-                <xsl:when test="starts-with(tei:idno/text(), 'http')">
+                <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
-                            <xsl:value-of select="tei:idno/text()"/>
+                            <xsl:value-of select="tei:idno[1]/text()"/>
                         </xsl:attribute>
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
