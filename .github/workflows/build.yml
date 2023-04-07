@@ -25,6 +25,7 @@ jobs:
         mv ant-contrib-1.0b3.jar /usr/share/ant/lib
     - name: Build the app
       run: |
+        ./transform.sh
         ant
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
