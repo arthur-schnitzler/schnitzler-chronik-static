@@ -8,3 +8,4 @@ mv ./schnitzler-tage-main/editions/data .
 rm -rf ./data/xslts
 rm main.zip
 rm -rf ./schnitzler-tage-main
+
