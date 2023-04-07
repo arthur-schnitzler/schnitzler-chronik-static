@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,9 +75,16 @@
             </event>
             <event when-iso="1914-07-08">
                <head>Arthur Schnitzler an Eugen Deimel, 8.7.1914</head>
-               <desc>Heinz P. Adamek (Hg.):
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/124896847">Deimel, Eugen</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Heinz P. Adamek (Hg.):
                In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen
-               Verlag: Wien 2003</desc>
+               Verlag: Wien 2003</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#w6429315-92be-4f82-b2f1-926125f9bfa5"/>
             </event>
             <event when-iso="1914-07-08">

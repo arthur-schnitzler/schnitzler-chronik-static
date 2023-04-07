@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,9 +75,16 @@
             </event>
             <event when-iso="1901-12-15">
                <head>Arthur Schnitzler an Louise Dumont, 15.12.1901</head>
-               <desc>Gertrude
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118681192">Dumont, Louise</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Gertrude
                     Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und
-                    Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013.</desc>
+                    Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013.</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#w300e3d7-7902-4a11-b0c7-2b0b441db98d"/>
             </event>
             <event when-iso="1901-12-15">

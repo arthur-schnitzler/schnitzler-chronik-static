@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -77,6 +77,71 @@
                <head>Grillparzerstraße</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+            </event>
+            <event when-iso="1893-11-03">
+               <head>Hermann Bahr an Arthur Schnitzler, 3. 11. 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2138">Johann Lukas Schönlein</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29821">Artifex</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29819">Spaziergang</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29424">Deutsche Zeitung</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb76">Salesianergasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb198">Pelikangasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00278.html</idno>
+            </event>
+            <event when-iso="1893-11-03">
+               <head>Arthur Schnitzler an Hermann Bahr, 3. 11. 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29819">Spaziergang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29821">Artifex</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00279.html</idno>
             </event>
             <event when-iso="1893-11-03">
                <head>Tagebuch, 3. November 1893</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -72,6 +72,78 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1921-02-17">
+               <head>Arthur Schnitzler an Stefan Großmann, 17. 2. 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11527">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11581">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5339">Leopold Kunschak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12762">Ignaz Seipel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb46573">Hänischs Reigen. Eine unsittliche Szenenfolge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33201">Reigen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33205">Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den »Reigen«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36376">Neues Wiener Journal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb46580">Der Reigen der Gassenjungen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb46493">Das Tage-Buch</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02363.html</idno>
+            </event>
+            <event when-iso="1921-02-17">
+               <head>Arthur Schnitzler an Stefan Grossmann, 17. 2. 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118542664">Grossmann, Stefan</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
             </event>
             <event when-iso="1921-02-17">
                <head>Tagebuch, 17. Februar 1921</head>

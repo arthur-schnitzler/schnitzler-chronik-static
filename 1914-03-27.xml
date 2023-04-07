@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -74,15 +74,84 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1914-03-27">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 27. 3. [1914]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11771">Rudolf Holzer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb47709">Gute Mütter. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb41943">Südbahnstrecke</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29444">Raimund-Preis</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb413">Südbahnhotel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40884">Rax</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb27068">Schneeberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb860">Graz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1003">Niederösterreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb519">Oberösterreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02167.html</idno>
+            </event>
+            <event when-iso="1914-03-27">
                <head>Fink und Fliederbusch, Typoskript</head>
                <desc>Publikation in Vorbereitung</desc>
                <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
             </event>
             <event when-iso="1914-03-27">
                <head>Fritz Unruh an Arthur Schnitzler, 27.3.1914</head>
-               <desc>Ulrich K.
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118625527">Unruh, Fritz</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Ulrich K.
                     Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern
-                    Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</desc>
+                    Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#dc95034c-3e70-47e1-9072-3fc75d84b47a"/>
             </event>
             <event when-iso="1914-03-27">

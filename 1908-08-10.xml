@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,9 +80,16 @@
             </event>
             <event when-iso="1908-08-10">
                <head>Edmund Reinhardt an Arthur Schnitzler, 10.8.1908</head>
-               <desc>Renate Wagner
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116420278">Reinhardt, Edmund</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Renate Wagner
                     (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen
-                    Mitarbeitern. Otto Müller Verlag, Salzburg: 1971.</desc>
+                    Mitarbeitern. Otto Müller Verlag, Salzburg: 1971.</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d"/>
             </event>
             <event when-iso="1908-08-10">

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,11 +75,18 @@
             </event>
             <event when-iso="1900-12-05">
                <head>Theodor Herzl an Arthur Schnitzler, 5.12.1900</head>
-               <desc>Theodor Herzl:
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Theodor Herzl:
                     Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in
                     Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen
                     1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive,
-                    Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)</desc>
+                    Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b"/>
             </event>
             <event when-iso="1900-12-05">

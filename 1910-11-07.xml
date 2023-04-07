@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -74,12 +74,55 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1910-11-07">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 7. 11. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11370">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36415">Zur Psychopathologie des Alltagslebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb860">Graz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01978.html</idno>
+            </event>
+            <event when-iso="1910-11-07">
                <head>Erhalt von Zinaida Vengerova an Arthur Schnitzler, 3. 11. 1910</head>
-               <desc>Die
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName>Vengerova, Zinaida</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Die
                     Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
-                    Vengerova. Herausgegeben von Herausgegeben von Konstantin Asadowski und Martin
-                    Anton Müller. In: Hofmannsthal-Jahrbuch für diezur europäischen Moderne, Bd. 30
-                    (2022), S. 7–91.</desc>
+                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
+                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
+                    (2022), S. 7–91.</bibl>
+               </desc>
                <idno type="schnitzler-cmif"
                      subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,19 @@
             </event>
             <event when-iso="1895-11-09">
                <head>Theodor Herzl an Arthur Schnitzler, 9.11.1895</head>
-               <desc>Theodor Herzl:
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Theodor Herzl:
                     Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer
                     in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho.
                     Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein,
                     Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter
-                    Band)</desc>
+                    Band)</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#j4f39377-ae1d-48c1-9afa-6e4618284c9a"/>
             </event>
             <event when-iso="1895-11-09">

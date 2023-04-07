@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,10 +75,17 @@
             </event>
             <event when-iso="1902-08-05">
                <head>Arthur Schnitzler an Alfred Kerr, 5.8.1902</head>
-               <desc>Alfred Kerr, Arthur
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11856157X">Kerr, Alfred</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Alfred Kerr, Arthur
                     Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.«
                     Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5,
-                    September/Oktober 2017, S. 581–618.</desc>
+                    September/Oktober 2017, S. 581–618.</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#g14221ae-8633-4ad0-944c-44805d2c1459"/>
             </event>
             <event when-iso="1902-08-05">

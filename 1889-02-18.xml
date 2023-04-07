@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,11 +75,18 @@
             </event>
             <event when-iso="1889-02-18">
                <head>Adolf Sonnenthal an Arthur Schnitzler, 18.2.1889</head>
-               <desc>Adolf von
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/119343207">Sonnenthal, Adolf</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Adolf von
                     Sonnenthals Briefwechsel. Nach den Originalen herausgegeben von Hermine von
                     Sonnenthal. Zweiter Band. Stuttgart, Berlin: Deutsche Verlags-Anstalt 1912.
                     (Ausschließlich die fünf Briefe von und an Arthur Schnitzler hier
-                    verzeichnet)</desc>
+                    verzeichnet)</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#g83efe7f-a9d8-49c4-ba69-8fdab0a99e4b"/>
             </event>
             <event when-iso="1889-02-18">

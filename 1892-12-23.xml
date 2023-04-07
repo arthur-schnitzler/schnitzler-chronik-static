@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -79,10 +79,53 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
             </event>
             <event when-iso="1892-12-23">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 23. 12. [1892]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18523">Paul Horn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19509">Dorothea Kohnberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb41118">Carl Schroeder</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16312">Bertha Flegmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41121">Aspasia</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00144.html</idno>
+            </event>
+            <event when-iso="1892-12-23">
                <head>Eugen Deimel an Arthur Schnitzler, 23.12.1892</head>
-               <desc>Heinz P. Adamek (Hg.):
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/124896847">Deimel, Eugen</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Heinz P. Adamek (Hg.):
                In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen
-               Verlag: Wien 2003</desc>
+               Verlag: Wien 2003</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#w6429315-92be-4f82-b2f1-926125f9bfa5"/>
             </event>
             <event when-iso="1892-12-23">

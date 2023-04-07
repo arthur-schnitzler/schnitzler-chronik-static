@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -72,6 +72,86 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1922-12-28">
+               <head>Arthur Schnitzler an Thomas Mann, 28. 12. 1922</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Thomas Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24825">Thomas Seltzer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33600">Von deutscher Republik. Gerhart Hauptmann zum sechzigsten Geburtstag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36156">Die neue Rundschau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33247">Der Zauberberg. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb42889">The New York Society for the Suppression of Vice</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29586">Brandt &amp; Kirkpatrick</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43430">Tschechische Republik</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34478">Slowakei</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43570">Dänemark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44335">Schweden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02394.html</idno>
+            </event>
+            <event when-iso="1922-12-28">
+               <head>Arthur Schnitzler an Heinrich Mann, 28. 12. 1922</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/137103433">Mann, Heinrich</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
             </event>
             <event when-iso="1922-12-28">
                <head>Tagebuch, 28. Dezember 1922</head>

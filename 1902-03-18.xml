@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -74,10 +74,17 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1902-03-18">
-               <head>Richard Schaukal an Arthur Schnitzler, nach 15.3.1902und vor 20.3.1902</head>
-               <desc>Reinhard Urbach:
+               <head>Richard Schaukal an Arthur Schnitzler, nach 15.3.1902 und vor 20.3.1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118606662">Schaukal, Richard</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Reinhard Urbach:
                     Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern
-                    Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43.</desc>
+                    Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43.</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#s68ac8da-2b04-4b21-afc4-b597655696e0"/>
             </event>
             <event when-iso="1902-03-18">

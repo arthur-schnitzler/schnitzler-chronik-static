@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -72,6 +72,119 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1896-11-21">
+               <head>Arthur Schnitzler an Paul Goldmann, 21. 11. 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb89007">Rena R. Schlein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb89004">Leo P. Reckford</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4216">Alfred Dreyfus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21481">Lucien Millevoye</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb88979">Félix Fénéon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb88985">Rowland Strong</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb88967">Die Enthüllungen über die Affaire Dreyfus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88971">Die Affaire Dreyfus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88975">Dreyfus, die öffentliche Meinung und die deutsche Regierung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89001">Justice!</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88998">La Patrie. Organe de la défense nationale</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88988">[Duell Goldmann – Millevoye]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88993">Le Petit Parisien. Journal quotidien du soir</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41265">Wiener Zeitung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30287">Ritterlichkeit</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb42671">rue Feydeau</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02684.html</idno>
+            </event>
+            <event when-iso="1896-11-21">
+               <head>Paul Goldmann an Arthur Schnitzler, 21. 11. 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21481">Lucien Millevoye</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02689.html</idno>
+            </event>
+            <event when-iso="1896-11-21">
+               <head>Arthur Schnitzler an Paul Goldmann, 21. 11. 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116755105">Goldmann, Paul</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
             </event>
             <event when-iso="1896-11-21">
                <head>Tagebuch, 21. November 1896</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-06.">06.04.2023</date>
+            <date when-iso="2023-04-07.">07.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,11 +85,18 @@
             </event>
             <event when-iso="1927-08-24">
                <head>Arthur Schnitzler an Hedy Kempny, 24.8.1927</head>
-               <desc>Hedy Kempny und
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11872181X">Kempny, Hedy</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Hedy Kempny und
                     Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
                     ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
                     Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
-                    1984. (Neue Frau)</desc>
+                    1984. (Neue Frau)</bibl>
+               </desc>
                <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
             </event>
             <event when-iso="1927-08-24">
