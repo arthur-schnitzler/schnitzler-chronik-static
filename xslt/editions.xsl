@@ -10,7 +10,6 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/LOD-idnos.xsl"/>
-    
     <xsl:variable name="teiSource">
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>
@@ -21,14 +20,13 @@
         <xsl:value-of select=".//tei:title[@level = 'a'][1]/text()"/>
     </xsl:variable>
     <xsl:template match="/">
-        <xsl:variable name="datum-iso" select="descendant::tei:titleStmt/tei:title/@when-iso" as="xs:date"/>
+        <xsl:variable name="datum-iso" select="descendant::tei:titleStmt/tei:title/@when-iso"
+            as="xs:date"/>
         <xsl:variable name="prev">
-            <xsl:value-of select="concat($datum-iso - xs:dayTimeDuration('P1D'), '.html')"
-            />
+            <xsl:value-of select="concat($datum-iso - xs:dayTimeDuration('P1D'), '.html')"/>
         </xsl:variable>
         <xsl:variable name="next">
-            <xsl:value-of select="concat($datum-iso + xs:dayTimeDuration('P1D'), '.html')"
-            />
+            <xsl:value-of select="concat($datum-iso + xs:dayTimeDuration('P1D'), '.html')"/>
         </xsl:variable>
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@level = 'a'][1]/text()"/>
@@ -235,8 +233,7 @@
         <xsl:apply-templates select="tei:event[tei:idno/@type = 'schnitzler-briefe']"/>
         <xsl:apply-templates select="tei:event[tei:idno/@type = 'schnitzler-orte']"/>
         <xsl:apply-templates
-            select="tei:event[not(tei:idno/@type = 'Arthur-Schnitzler-digital') and not(tei:idno/@type = 'schnitzler-tagebuch') and not(tei:idno/@type = 'schnitzler-briefe') and not(tei:idno/@type = 'schnitzler-orte')]"
-        />
+            select="tei:event[not(tei:idno/@type = 'Arthur-Schnitzler-digital') and not(tei:idno/@type = 'schnitzler-tagebuch') and not(tei:idno/@type = 'schnitzler-briefe') and not(tei:idno/@type = 'schnitzler-orte')]"/>
         <div class="weiteres" style="margin-top=1em;">
             <ul>
                 <li>
@@ -244,7 +241,7 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level = 'a'][1]/@when-iso, '-',''))"
+                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level = 'a'][1]/@when-iso, '-', ''))"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
@@ -258,7 +255,7 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level = 'a'][1]/@when-iso, '-',''))"
+                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level = 'a'][1]/@when-iso, '-', ''))"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
@@ -319,28 +316,312 @@
                     <legend>Weitere Angaben</legend>
                 </xsl:otherwise>
             </xsl:choose>
-            <p><strong>
-                <xsl:choose>
-                    <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
-                        <xsl:element name="a">
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="tei:idno[1]/text()"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
+            <p>
+                <strong>
+                    <xsl:choose>
+                        <xsl:when
+                            test="starts-with(tei:idno[1]/text(), 'http') or starts-with(tei:idno[1]/text(), 'doi')">
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="tei:idno[1]/text()"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="tei:head"/>
+                            </xsl:element>
+                        </xsl:when>
+                        <xsl:otherwise>
                             <xsl:value-of select="tei:head"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </strong>
+            </p>
+            <p>
+                <xsl:if test="not(normalize-space(tei:desc) = '')">
+                    <xsl:apply-templates select="tei:desc" mode="desc"/>
+                </xsl:if>
+            </p>
+        </div>
+    </xsl:template>
+    <xsl:template match="tei:listPerson" mode="desc">
+        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <li>
+            <xsl:for-each select="tei:person/tei:persName">
+                <xsl:choose>
+                    <xsl:when
+                        test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb')  and $type = 'schnitzler-cmif'">
+                        <xsl:variable name="normalize-gnd-ohne-http"
+                            select="replace(@ref, 'https', 'http')" as="xs:string"/>
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: olive;</xsl:text>
+                                <xsl:text> color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: olive;</xsl:text>
+                                <xsl:text> color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="$type = 'schnitzler-briefe'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:when test="$type = 'schnitzler-bahr'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', replace(@ref, 'pmb', ''), '/detail')"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
                         </xsl:element>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="tei:head"/>
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
                     </xsl:otherwise>
                 </xsl:choose>
-            </strong></p>
-            <p>
-                <xsl:value-of select="tei:desc"/>
-            </p>
-        </div>
-        
+            </xsl:for-each>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:listOrg" mode="desc">
+        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <li>
+            <xsl:for-each select="tei:org/tei:orgName">
+                <xsl:choose>
+                    <xsl:when
+                        test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $type = 'schnitzler-cmif'">
+                        <xsl:variable name="normalize-gnd-ohne-http"
+                            select="replace(@ref, 'https', 'http')" as="xs:string"/>
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: olive;</xsl:text>
+                                <xsl:text> color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: olive;</xsl:text>
+                                <xsl:text> color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="$type = 'schnitzler-briefe'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:when test="$type = 'schnitzler-bahr'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/institution/', replace(@ref, 'pmb', ''), '/detail')"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:listPlace" mode="desc">
+        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <li>
+            <xsl:for-each select="tei:place/tei:placeName">
+                <xsl:choose>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: olive;</xsl:text>
+                                <xsl:text> color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="$type = 'schnitzler-briefe'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:when test="$type = 'schnitzler-bahr'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/', replace(@ref, 'pmb', ''), '/detail')"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:listBibl" mode="desc">
+        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <li>
+            <xsl:for-each select="tei:bibl/tei:title[1]">
+                <xsl:choose>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: olive;</xsl:text>
+                                <xsl:text> color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="$type = 'schnitzler-briefe'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:when test="$type = 'schnitzler-bahr'">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/', replace(@ref, 'pmb', ''), '/detail')"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:bibl[parent::tei:desc]" mode="desc">
+        <li>
+            <xsl:text>Erscheinungsort: </xsl:text>
+            <i>
+                <xsl:value-of select="."/>
+            </i>
+        </li>
     </xsl:template>
 </xsl:stylesheet>
