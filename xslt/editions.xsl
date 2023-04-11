@@ -65,11 +65,6 @@
                                         <h1 align="center">
                                             <xsl:value-of select="$doc_title"/>
                                         </h1>
-                                        <h3 align="center">
-                                            <a href="{$teiSource}">
-                                                <i class="fas fa-download" title="show TEI source"/>
-                                            </a>
-                                        </h3>
                                     </div>
                                     <div class="col-md-2 col-lg-2 col-sm-12"
                                         style="text-align:right">
@@ -176,7 +171,10 @@
                 </xsl:if>
             </xsl:element>
         </xsl:for-each>
-        <div class="weiteres" style="margin-top:1.5em;">
+        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($eventtype, .))]]">
+            <xsl:apply-templates/>
+        </xsl:for-each>
+        <div class="weiteres" style="margin-top:2.5em;">
             <h3>Weiteres</h3>
             <ul>
                 <li>
@@ -266,18 +264,36 @@
     </xsl:template>
     <xsl:template match="tei:event/tei:desc" mode="desc">
         <xsl:if
-            test="child::tei:listPerson or child::tei:listWork or child::tei:listPlace or child::tei:listOrg">
+            test="child::tei:listPerson or child::tei:listBibl or child::tei:listPlace or child::tei:listOrg">
             <ul>
                 <xsl:apply-templates
-                    select="child::tei:listPerson | child::tei:listWork | child::tei:listPlace | child::tei:listOrg" mode="desc"
-                />
+                    select="child::tei:listPerson | child::tei:listBibl | child::tei:listPlace | child::tei:listOrg"
+                    mode="desc"/>
             </ul>
         </xsl:if>
-        <xsl:apply-templates select="tei:*[not(starts-with(name(), 'list'))]"/>
+        <xsl:if test="tei:*[not(self::tei:listPerson or self::tei:listBibl or self::tei:listPlace or self::tei:listOrg)]">
+        <xsl:apply-templates
+            select="tei:*[not(self::tei:listPerson or self::tei:listBibl or self::tei:listPlace or self::tei:listOrg)]" mode="desc"
+        />
+        </xsl:if>
+        <xsl:if test="text()[not(normalize-space(.)='')]">
+            <p>
+                <xsl:value-of select="normalize-space(text()[not(normalize-space(.)='')])"/>
+            </p>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:listPerson" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+        <xsl:variable name="type-farbe">
+            <xsl:choose>
+                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>blue</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <li>
             <xsl:for-each select="tei:person/tei:persName">
                 <xsl:choose>
@@ -357,12 +373,22 @@
                         </xsl:if>
                     </xsl:otherwise>
                 </xsl:choose>
+                <xsl:text> </xsl:text>
             </xsl:for-each>
         </li>
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+        <xsl:variable name="type-farbe">
+            <xsl:choose>
+                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>blue</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <li>
             <xsl:for-each select="tei:org/tei:orgName">
                 <xsl:choose>
@@ -401,6 +427,7 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
                                 <xsl:value-of select="$type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
@@ -441,12 +468,22 @@
                         </xsl:if>
                     </xsl:otherwise>
                 </xsl:choose>
+                <xsl:text> </xsl:text>
             </xsl:for-each>
         </li>
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+        <xsl:variable name="type-farbe">
+            <xsl:choose>
+                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>blue</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <li>
             <xsl:for-each select="tei:place/tei:placeName">
                 <xsl:choose>
@@ -497,14 +534,24 @@
                         </xsl:if>
                     </xsl:otherwise>
                 </xsl:choose>
+                <xsl:text> </xsl:text>
             </xsl:for-each>
         </li>
     </xsl:template>
-    <xsl:template match="tei:listBibl" mode="desc">
+    <xsl:template match="tei:desc/tei:listBibl" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+        <xsl:variable name="type-farbe">
+            <xsl:choose>
+                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>blue</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <li>
-            <xsl:for-each select="tei:bibl/tei:title[1]">
+            <xsl:for-each select="descendant::tei:title">
                 <xsl:choose>
                     <xsl:when test="starts-with(@ref, 'pmb')">
                         <xsl:element name="span">
@@ -553,15 +600,15 @@
                         </xsl:if>
                     </xsl:otherwise>
                 </xsl:choose>
+                <xsl:text> </xsl:text>
             </xsl:for-each>
         </li>
     </xsl:template>
     <xsl:template match="tei:bibl[parent::tei:desc]" mode="desc">
-        <li>
-            <xsl:text>Erscheinungsort: </xsl:text>
+         <p><xsl:text>Erscheinungsort: </xsl:text>
             <i>
                 <xsl:value-of select="."/>
             </i>
-        </li>
+         </p>
     </xsl:template>
 </xsl:stylesheet>
