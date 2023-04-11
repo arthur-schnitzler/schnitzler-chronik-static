@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="tei2html">
     <property name="target" value="./html"/>
+    <property name="index" value="./data/1891-04-27.xml"/>
+    
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -9,10 +11,10 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <!--<xslt in="${index}" out="${target}/index.html" style="./xslt/index.xsl">
+    <xslt in="${index}" out="${target}/index.html" style="./xslt/index.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>-->
+    </xslt>
     <xslt in="./xslt/editions.xsl" out="${target}/calendar.html" style="./xslt/calendar.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>

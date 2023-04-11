@@ -124,91 +124,6 @@
                             <xsl:apply-templates/>
                         </div>
                     </xsl:for-each>
-                    <!-- <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
-                        
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="./@xml:id"/>
-                            </xsl:attribute>
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select=".//tei:orgName[1]/text()"/>
-                                        </h5>
-                                        
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="org_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
-                    <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
-                        <xsl:variable name="xmlId">
-                            <xsl:value-of select="data(./@xml:id)"/>
-                        </xsl:variable>
-                        
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select="normalize-space(string-join(.//tei:persName[1]//text()))"/>
-                                            <xsl:text> </xsl:text>
-                                            <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </h5>
-                                        
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="person_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
-                    <xsl:for-each select=".//tei:back//tei:place[@xml:id]">
-                        <xsl:variable name="xmlId">
-                            <xsl:value-of select="data(./@xml:id)"/>
-                        </xsl:variable>
-                        
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select="normalize-space(string-join(.//tei:placeName[1]/text()))"/>
-                                            <xsl:text> </xsl:text>
-                                            <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="place_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each> -->
                     <xsl:call-template name="html_footer"/>
                 </div>
                 <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
@@ -223,18 +138,46 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:div">
-        <div id="{local:makeId(.)}" style="margin-top=1em;">
+        <div id="{local:makeId(.)}" style="margin-top:1.5em;">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="tei:listEvent">
-        <xsl:apply-templates select="tei:event[tei:idno/@type = 'Arthur-Schnitzler-digital']"/>
-        <xsl:apply-templates select="tei:event[tei:idno/@type = 'schnitzler-tagebuch']"/>
-        <xsl:apply-templates select="tei:event[tei:idno/@type = 'schnitzler-briefe']"/>
-        <xsl:apply-templates select="tei:event[tei:idno/@type = 'schnitzler-orte']"/>
-        <xsl:apply-templates
-            select="tei:event[not(tei:idno/@type = 'Arthur-Schnitzler-digital') and not(tei:idno/@type = 'schnitzler-tagebuch') and not(tei:idno/@type = 'schnitzler-briefe') and not(tei:idno/@type = 'schnitzler-orte')]"/>
-        <div class="weiteres" style="margin-top=1em;">
+        <xsl:variable name="eventtype"
+            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-bahr,schnitzler-orte,schnitzler-cmif'"/>
+        <xsl:variable name="current-group" select="." as="node()"/>
+        <xsl:for-each select="tokenize($eventtype, ',')">
+            <xsl:variable name="e-type" as="xs:string" select="."/>
+            <xsl:element name="div">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="$e-type"/>
+                </xsl:attribute>
+                <xsl:if test="not(position() = 1)">
+                    <xsl:attribute name="style">
+                        <xsl:text>margin-top: 3.5em;</xsl:text>
+                    </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="$current-group/tei:event/tei:idno[@type = $e-type][1]">
+                    <xsl:variable name="idnos-of-current" as="node()">
+                        <xsl:element name="nodeset">
+                            <xsl:copy-of
+                                select="$current-group/tei:event/tei:idno[@type = $e-type][1]"/>
+                        </xsl:element>
+                    </xsl:variable>
+                    <p>
+                        <xsl:call-template name="mam:idnosToLinks">
+                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                        </xsl:call-template>
+                    </p>
+                    <div style="margin-left: 10px">
+                        <xsl:apply-templates
+                            select="$current-group/tei:event[tei:idno/@type = $e-type]"/>
+                    </div>
+                </xsl:if>
+            </xsl:element>
+        </xsl:for-each>
+        <div class="weiteres" style="margin-top:1.5em;">
+            <h3>Weiteres</h3>
             <ul>
                 <li>
                     <xsl:text>Zeitungen vom </xsl:text>
@@ -296,61 +239,50 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:event">
-        <div class="{tei:idno[1]/@type}">
+        <h3>
             <xsl:choose>
-                <xsl:when test="tei:idno[@type]">
-                    <xsl:variable name="idnos-of-current" as="node()">
-                        <xsl:element name="nodeset">
-                            <xsl:for-each select="tei:idno">
-                                <xsl:copy-of select="."/>
-                            </xsl:for-each>
-                        </xsl:element>
-                    </xsl:variable>
-                    <p>
-                        <xsl:call-template name="mam:idnosToLinks">
-                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                        </xsl:call-template>
-                    </p>
+                <xsl:when
+                    test="starts-with(tei:idno[1]/text(), 'http') or starts-with(tei:idno[1]/text(), 'doi')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="tei:idno[1]/text()"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="tei:head"/>
+                    </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
-                    <legend>Weitere Angaben</legend>
+                    <xsl:value-of select="tei:head"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <p>
-                <strong>
-                    <xsl:choose>
-                        <xsl:when
-                            test="starts-with(tei:idno[1]/text(), 'http') or starts-with(tei:idno[1]/text(), 'doi')">
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="tei:idno[1]/text()"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="tei:head"/>
-                            </xsl:element>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="tei:head"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </strong>
-            </p>
-            <p>
-                <xsl:if test="not(normalize-space(tei:desc) = '')">
-                    <xsl:apply-templates select="tei:desc" mode="desc"/>
-                </xsl:if>
-            </p>
-        </div>
+        </h3>
+        <p>
+            <xsl:if test="not(normalize-space(tei:desc) = '')">
+                <xsl:apply-templates select="tei:desc" mode="desc"/>
+            </xsl:if>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:event/tei:desc" mode="desc">
+        <xsl:if
+            test="child::tei:listPerson or child::tei:listWork or child::tei:listPlace or child::tei:listOrg">
+            <ul>
+                <xsl:apply-templates
+                    select="child::tei:listPerson | child::tei:listWork | child::tei:listPlace | child::tei:listOrg" mode="desc"
+                />
+            </ul>
+        </xsl:if>
+        <xsl:apply-templates select="tei:*[not(starts-with(name(), 'list'))]"/>
     </xsl:template>
     <xsl:template match="tei:listPerson" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
         <li>
             <xsl:for-each select="tei:person/tei:persName">
                 <xsl:choose>
                     <xsl:when
-                        test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb')  and $type = 'schnitzler-cmif'">
+                        test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $type = 'schnitzler-cmif'">
                         <xsl:variable name="normalize-gnd-ohne-http"
                             select="replace(@ref, 'https', 'http')" as="xs:string"/>
                         <xsl:element name="span">
@@ -358,8 +290,9 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
-                                <xsl:text>background-color: olive;</xsl:text>
-                                <xsl:text> color: white;</xsl:text>
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="style">
@@ -383,8 +316,9 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
-                                <xsl:text>background-color: olive;</xsl:text>
-                                <xsl:text> color: white;</xsl:text>
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="style">
@@ -428,6 +362,7 @@
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
         <li>
             <xsl:for-each select="tei:org/tei:orgName">
                 <xsl:choose>
@@ -440,8 +375,9 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
-                                <xsl:text>background-color: olive;</xsl:text>
-                                <xsl:text> color: white;</xsl:text>
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="style">
@@ -465,8 +401,8 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
-                                <xsl:text>background-color: olive;</xsl:text>
-                                <xsl:text> color: white;</xsl:text>
+                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="style">
@@ -510,6 +446,7 @@
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
         <li>
             <xsl:for-each select="tei:place/tei:placeName">
                 <xsl:choose>
@@ -519,8 +456,9 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
-                                <xsl:text>background-color: olive;</xsl:text>
-                                <xsl:text> color: white;</xsl:text>
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="style">
@@ -564,6 +502,7 @@
     </xsl:template>
     <xsl:template match="tei:listBibl" mode="desc">
         <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="type-farbe" select="key('only-relevant-uris', $type, $relevant-uris)/*:color"/>
         <li>
             <xsl:for-each select="tei:bibl/tei:title[1]">
                 <xsl:choose>
@@ -573,8 +512,9 @@
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
-                                <xsl:text>background-color: olive;</xsl:text>
-                                <xsl:text> color: white;</xsl:text>
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
                                 <xsl:attribute name="style">
