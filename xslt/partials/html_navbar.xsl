@@ -7,7 +7,7 @@
     <xsl:include href="./params.xsl"/>
     <xsl:template match="/" name="nav_bar">
         <div class="wrapper-fluid wrapper-navbar sticky-top hide-reading" id="wrapper-navbar">
-            <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+            <a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->

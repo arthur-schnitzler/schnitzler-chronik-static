@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.univie.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://communications.univie.ac.at/fileadmin/user_upload/d_oeffentlichkeitsarbeit/Logos/2016-02/Uni_Logo_2016.jpg" alt="Universität Wien Logo" style="max-width: 160px; height: auto; vertical-align: middle;" title="Universität Wien" /></a>
+                                        <a href="https://www.arthur-schnitzler.de/"><img class="card-img-right flex-auto d-md-block" src="https://www.arthur-schnitzler.de/themes/schnitzler-interimswebsite/img/arthur-schnitzler-digital-de.png" alt="Arthur Schnitzler digital" style="max-width: 160px; height: auto; vertical-align: middle;" title="Arthur Schnitzler digital" /></a>
                                         <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Project partner</p>
                                         </div>-->
