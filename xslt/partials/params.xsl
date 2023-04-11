@@ -6,6 +6,6 @@
     <xsl:param name="project_short_title">schnitzler-tage</xsl:param>
     <xsl:param name="github_url">https://github.com/arthur-schnitzler/schnitzler-tage-static</xsl:param>
     <xsl:param name="html_title">schnitzler-tage</xsl:param>
-    <xsl:param name="project_logo">images/fundament_logo.svg</xsl:param>
-    <xsl:param name="base_url">https://schnitzler-tageb.acdh.oeaw.ac.at</xsl:param>
+    <xsl:param name="project_logo">images/schnitzler-tage.svg</xsl:param>
+    <xsl:param name="base_url">https://schnitzler-tage.acdh.oeaw.ac.at</xsl:param>
 </xsl:stylesheet>
