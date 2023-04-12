@@ -41,6 +41,11 @@
     </replace>
     <copy todir="${target}" flatten="true">
         <fileset dir="./data/">
+            <include name="**/*.json"/>
+        </fileset>
+    </copy>
+    <copy todir="${target}" flatten="true">
+        <fileset dir="./data/">
             <include name="**/*.xml"/>
         </fileset>
     </copy>
