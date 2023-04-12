@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="container-fluid" style="margin:2em auto;">
-                    <div style="max-width: 650px;'" id="body">
+                    <div style="max-width: 650px; margin: auto;'" id="body">
                         <p class="mt-3">In den letzten Jahren wurden von mehreren
                             Forschungsprojekten Texte von Arthur Schnitzler (1862–1931) ediert und
                             digitalisiert.</p>
@@ -52,7 +52,7 @@
                             stellt ein einfaches Frontend dar, über
                             welches veröffentlichte Informationen zu jedem Tag seines Lebens
                             abgerufen werden können. Die Daten stehen sowohl als HTML-Ansicht, als auch als
-                            JSON-Datei bereit: <ul>
+                            JSON-Datei bereit, beispielsweise: <ul>
                                 <li><a href="1927-11-07.html">1927-11-07.html</a></li>
                                 <li><a href="1927-11-07.json">1927-11-07.json</a></li>
                             </ul>
