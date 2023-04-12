@@ -108,7 +108,7 @@ a {
 }
 
 .container-fluid {
-/*    max-width: 1200px; */
+   max-width: 1200px; 
 }
 
 .italic {
@@ -456,7 +456,8 @@ resolution
         margin-top: .5rem;
     }
     .img-fluid {
-        max-width: 3.5rem !important;
+        max-width: 135% !important;
+        max-height: 135% !important;
     }
 /* 
 #########################################
@@ -492,7 +493,8 @@ resolution or low resolution screens
         padding: 1em 0;
     }
     .img-fluid {
-        max-width: 2rem !important;
+        max-width: 120% !important;
+        max-height: 120% !important;
     }
     .custom-logo-link {
         margin-bottom: 0;
