@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -146,12 +146,70 @@
             </event>
             <event when-iso="1914-03-07">
                <head>Tagebuch, 7. März 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-07.html</idno>
             </event>
             <event when-iso="1914-03-07">
                <head>Bahr an Schnitzler, 7. 3. 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb976">Czernowitz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46224">Lviv</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb833">Brünn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb797">Berchtesgaden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb834">Darmstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb734">Bayreuth</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041340.html</idno>
             </event>
          </listEvent>

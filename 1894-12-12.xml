@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,12 +89,85 @@
             </event>
             <event when-iso="1894-12-12">
                <head>Tagebuch, 12. Dezember 1894</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14199">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19143">Else Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19623">Wladimir Schamberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21214">Josefine Lydia von Weisswasser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-12.html</idno>
             </event>
             <event when-iso="1894-12-12">
                <head>Schnitzler an Else Singer, 12. 12. 1894</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2581">Else Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3869">Ludwig von Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3904">Franz von Stuck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3105">Wilhelm Karczag</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32490">Die Secessionisten im Künstlerhaus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31495">Frühling</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31497">Der Krieg</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31499">Das Alter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31529">Entsagung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30081">Maria Stuart</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30247">Faust</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041380.html</idno>
             </event>
          </listEvent>

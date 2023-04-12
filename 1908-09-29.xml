@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,21 @@
             </event>
             <event when-iso="1908-09-29">
                <head>Tagebuch, 29. September 1908</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16485">Grete Jacques</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-29.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,7 +104,53 @@
             </event>
             <event when-iso="1910-04-10">
                <head>Tagebuch, 10. April 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14549">Eugen Dumont</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16326">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16517">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16632">Arthur Kahane</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41611">Cristinas Heimreise. Komödie</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-04-10.html</idno>
             </event>
          </listEvent>

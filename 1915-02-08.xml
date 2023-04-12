@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,42 @@
             </event>
             <event when-iso="1915-02-08">
                <head>Tagebuch, 8. Februar 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13589">Ernst Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19046">Carl Ramshorn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19783">Alice Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19784">Ferdinand Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13671">Friedrich von Bernhardi</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30863">Flucht in die Finsternis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30649">Der blinde Geronimo und sein Bruder</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78343">Die Quellen des künstlerischen Schaffens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78629">Deutschland und der nächste Krieg</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79046">Kaiser Joseph II. und seine Zeit</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-02-08.html</idno>
             </event>
          </listEvent>

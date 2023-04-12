@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,38 @@
             </event>
             <event when-iso="1908-06-24">
                <head>Tagebuch, 24. Juni 1908</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13121">Pedro Antonio de Alarcón y Ariza</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17512">Jonas Lie</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18282">Wolfgang Amadeus Mozart</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb79576">Der Dreispitz</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79890">Auf Irrwegen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77196">Briefe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92476">Ratzes</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb988">Seis am Schlern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-24.html</idno>
             </event>
          </listEvent>

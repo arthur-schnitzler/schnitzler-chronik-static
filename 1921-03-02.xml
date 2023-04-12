@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1921-03-02">
                <head>Tagebuch, 2. März 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16936">Paul Knepler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17509">Robert Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19707">Josefine Schipper</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21387">Alfred von Winterstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30051">Der Geist im Wort und der Geist in der Tat</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33754">Der Mörder. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30057">Das Schicksal des Freiherrn von Leisenbohg. Novellette</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb881">Mannheim</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-03-02.html</idno>
             </event>
          </listEvent>

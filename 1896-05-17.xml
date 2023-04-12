@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -342,12 +342,99 @@
             </event>
             <event when-iso="1896-05-17">
                <head>Tagebuch, 17. Mai 1896</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14878">Ida Falk</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17118">Luigi Krauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21012">August Wärndorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19129">Reichezer</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44413">Brühl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90845">Heiligenkreuz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90217">Alland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb47414">Neuhaus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91135">Leobersdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90803">Günselsdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-05-17.html</idno>
             </event>
             <event when-iso="1896-05-17">
                <head>Hofmannsthal an Schnitzler, 17. 5. [1896]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18404">Anna von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12358">Friedrich Nietzsche</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4332">Jean Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4336">Platon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4337">Pindaros</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11461">Johann Wolfgang von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24686">Christine Schönberger</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb636">Tlumatsch</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb644">Galizien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041435.html</idno>
             </event>
          </listEvent>

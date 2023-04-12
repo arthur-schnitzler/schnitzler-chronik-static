@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -144,7 +144,44 @@
             </event>
             <event when-iso="1912-11-12">
                <head>Tagebuch, 12. November 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15936">Ludwig Hartau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19603">Max Schach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13428">Victor Barnowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb36041">Liebelei (Filmplan, 1912)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92455">Potsdamerstr.</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91975">Unter den Linden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-12.html</idno>
             </event>
          </listEvent>

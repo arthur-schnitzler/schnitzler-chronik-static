@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,50 @@
             </event>
             <event when-iso="1913-01-19">
                <head>Tagebuch, 19. Januar 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13288">Ludmilla Assing</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15569">Stanislaus Gonschorowski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19821">Hans Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19828">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21231">Isabella Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14481">Anna Donath</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78593">Fürst Hermann von Pückler-Muskau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30695">Symphonie Nr. 7 A-Dur op. 92</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-01-19.html</idno>
             </event>
          </listEvent>

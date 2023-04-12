@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,7 +103,56 @@
             </event>
             <event when-iso="1909-08-29">
                <head>Tagebuch, 29. August 1909</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13925">Paul Brann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15810">Béla Haas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15972">Ludwig von Hatvany-Deutsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16326">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16632">Arthur Kahane</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20408">Ernst Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18011">Alfred Karl Mayer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77900">Lysistrate</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90589">Englischer Garten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50607">Gedonstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-29.html</idno>
             </event>
          </listEvent>

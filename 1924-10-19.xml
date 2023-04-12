@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,7 +111,39 @@
             </event>
             <event when-iso="1924-10-19">
                <head>Tagebuch, 19. Oktober 1924</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18137">Dora Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18713">Lili Perger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20054">Thomas Seltzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13548">Mirjam Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13549">Naëmah Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20413">Gotthold Stern</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35745">Aphoristisches</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-10-19.html</idno>
             </event>
          </listEvent>

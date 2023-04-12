@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,41 @@
             </event>
             <event when-iso="1910-03-12">
                <head>Tagebuch, 12. März 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17227">Hans Kux</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18563">Berthold Oppenheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18010">Mayer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21612">Felix Zweig</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29893">Excentric</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30655">Das neue Lied</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44176">Olomouc</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-12.html</idno>
             </event>
          </listEvent>

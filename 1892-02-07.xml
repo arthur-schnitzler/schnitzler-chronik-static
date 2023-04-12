@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,58 @@
             </event>
             <event when-iso="1892-02-07">
                <head>Tagebuch, 7. Februar 1892</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15541">Adalbert von Goldschmidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18547">Rosa Olden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19126">Emanuel Reicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20982">Albert Vogl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30749">Die Frage an das Schicksal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-02-07.html</idno>
             </event>
             <event when-iso="1892-02-07">
                <head>Hofmannsthal an Bahr, [nach dem 7. 2. 1892?]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041466.html</idno>
             </event>
          </listEvent>

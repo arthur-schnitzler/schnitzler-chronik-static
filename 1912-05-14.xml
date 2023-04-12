@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,7 +136,47 @@
             </event>
             <event when-iso="1912-05-14">
                <head>Tagebuch, 14. Mai 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13087">Géza dell’Adami</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14372">Decambi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15134">Albert Frankfurter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15135">Ella Frankfurter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15172">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20129">Adolf Georg Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16834">Theobald von Khuen-Belasi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19600">Scarpa</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78440">Die Traumdeutung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91944">Trieste</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91403">Villa Opicina</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-14.html</idno>
             </event>
          </listEvent>

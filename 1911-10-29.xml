@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,65 @@
             </event>
             <event when-iso="1911-10-29">
                <head>Tagebuch, 29. Oktober 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15691">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16880">Arthur Klein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17285">Eveline Landing</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19783">Alice Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19784">Ferdinand Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20114">Rudolf von Simolin-Bathory</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14923">Leo Feld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18464">Nikolaus Njegus</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31357">Episode</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30213">Die Hirtenflöte. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-29.html</idno>
             </event>
          </listEvent>

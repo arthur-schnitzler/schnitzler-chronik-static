@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,39 @@
             </event>
             <event when-iso="1930-02-19">
                <head>Tagebuch, 19. Februar 1930</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14443">Paul Diel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16908">Margarete von Klimbacher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17110">Lili Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20490">Oscar Straus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17562">Ruth Lindberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30753">Landsknecht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77136">Marietta</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-02-19.html</idno>
             </event>
          </listEvent>

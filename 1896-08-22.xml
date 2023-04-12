@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,7 +97,30 @@
             </event>
             <event when-iso="1896-08-22">
                <head>Tagebuch, 22. August 1896</head>
-               <desc/>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29845">Die Gefährtin. Schauspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31781">Der goldene Esel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31783">Aus meinem Leben. Dichtung und Wahrheit</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49158">Warnemünde</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-08-22.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,12 +107,77 @@
             </event>
             <event when-iso="1913-05-23">
                <head>Tagebuch, 23. Mai 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16569">Jacques Jolowicz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21601">Otto Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17639">Arthur Loewe</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91552">Purkersdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-05-23.html</idno>
             </event>
             <event when-iso="1913-05-23">
                <head>Stefan Zweig an Schnitzler, 23. 5. 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30486">Frau Bertha Garlan. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30313">Gesammelte Werke</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb728">Kochgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb386">Universität Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041274.html</idno>
             </event>
          </listEvent>

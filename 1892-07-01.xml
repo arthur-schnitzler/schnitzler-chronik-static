@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,33 @@
             </event>
             <event when-iso="1892-07-01">
                <head>Tagebuch, 1. Juli 1892</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14932">Benedikt Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19070">Josefine Rauch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19721">Marie Schleinzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13611">Ferry Bératon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20304">St.</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb42">Leidingers Restauration</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-07-01.html</idno>
             </event>
          </listEvent>

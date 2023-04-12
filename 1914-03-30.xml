@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -148,12 +148,87 @@
             </event>
             <event when-iso="1914-03-30">
                <head>Tagebuch, 30. März 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15134">Albert Frankfurter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15781">Leonie Guttmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16557">Friedrich Jodl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20532">Alberto Stringa</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21219">Otto Weizsaecker</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13699">Anton Bettelheim</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-30.html</idno>
             </event>
             <event when-iso="1914-03-30">
                <head>Schnitzler an Bahr, 30. 3. 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30039">Gurre-Lieder</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb150">Sternwartestraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb263">Florenz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb994">Genua</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb995">Antwerpen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44016">Niederlande</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041131.html</idno>
             </event>
          </listEvent>

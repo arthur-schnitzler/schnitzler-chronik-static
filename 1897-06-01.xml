@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,32 @@
             </event>
             <event when-iso="1897-06-01">
                <head>Tagebuch, 1. Juni 1897</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14967">Ludwig Feuerbach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20772">Leo N. von Tolstoi</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb34996">Krieg und Frieden</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58725">Flushing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb890">Hannover</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-01.html</idno>
             </event>
          </listEvent>

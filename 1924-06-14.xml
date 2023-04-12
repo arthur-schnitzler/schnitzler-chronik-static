@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,39 @@
             </event>
             <event when-iso="1924-06-14">
                <head>Tagebuch, 14. Juni 1924</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13378">André Baillon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18981">Marcel Proust</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14325">Ernst Robert Curtius</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14923">Leo Feld</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32131">Spiel im Morgengrauen. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80113">Histoire d'une Marie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80347">Balzac</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31897">Der Widerspenstigen Zähmung</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-06-14.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,7 +105,56 @@
             </event>
             <event when-iso="1908-06-12">
                <head>Tagebuch, 12. Juni 1908</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17901">Felix Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17904">Julie Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19283">Helene Ritscher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13376">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17822">Irene Mandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb59476">Bilder aus der deutschen Vergangenheit. Aus dem Jahrhundert des großen Krieges</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-12.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,50 @@
             </event>
             <event when-iso="1923-02-21">
                <head>Tagebuch, 21. Februar 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13708">Biach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19920">Schütz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21541">Ludwig Zerkovitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21558">Zifferer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19826">Josef Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90775">Grossau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45549">Nagykanizsa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43471">Budapest</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb948">Payerbach</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-21.html</idno>
             </event>
          </listEvent>

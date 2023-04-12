@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,42 @@
             </event>
             <event when-iso="1901-07-23">
                <head>Tagebuch, 23. Juli 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14211">Theodor Christomannos</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17216">Selma Kurz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20424">Maximilian Sternberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20550">Stuckart</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15502">Goetz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17644">Georg Löwenbach</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90999">Cardano</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91003">Carezza</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-07-23.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,12 +91,121 @@
             </event>
             <event when-iso="1895-10-12">
                <head>Tagebuch, 12. Oktober 1895</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14363">Jakob Julius David</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31905">Ein Regentag. Charakterbild</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-10-12.html</idno>
             </event>
             <event when-iso="1895-10-12">
                <head>Bahr: [Liebelei], 12. 10. 1895</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11431">Giuseppe Giacosa</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20456">Karl Borromäus Lindau</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11999">Leopold Krenn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2702">Heinrich Laube</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10854">Eduard von Bauernfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13180">Carl von Zeska</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2868">Victor Kutschera</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4076">Otto Eisenschitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11610">Ernst Hartmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2850">Stella Hohenfels</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31711">Rechte der Seele</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32630">Das arme Mädel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31745">Der Nazi</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32310">Das Burgtheater. Ein Beitrag zur Deutschen Theater-Geschichte</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31565">Burgtheater (Liebelei, Schauspiel in drei Acten von Arthur Schnitzler. Rechte der Seele, Schauspiel in einem Act von Guiseppe Giacosa. Zum ersten Mal aufgeführt am 9. October)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36340">Die Zeit. Wiener Wochenschrift</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31839">Wiener Theater (1892–1898)</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb773">Türkei</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb37">Theater an der Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29246">Burgmusik</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030011.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -241,17 +241,191 @@
             </event>
             <event when-iso="1894-10-20">
                <head>Tagebuch, 20. Oktober 1894</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17108">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18637">Édouard Pailleron</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19685">Friedrich Schik</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20563">Hermann Sudermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31527">Comödianten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-20.html</idno>
             </event>
             <event when-iso="1894-10-20">
                <head>Beer-Hofmann an Schnitzler, 20. 10. 1894</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12201">Guy de Maupassant</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32211">Der Abonnent</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30397">Die Schmetterlingsschlacht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31989">Dora</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb962">Baia</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb595">Neapel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb919">Capri</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb629">Sorrent</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb310">Grand Hotel Bauer-Grünwald</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44205">Pallanza</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29209">Die Zeit. Wiener Wochenschrift</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29763">Deutscher Schulverein</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041512.html</idno>
             </event>
             <event when-iso="1894-10-20">
                <head>Schnitzler an Beer-Hofmann, 20. 10. 1894</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12899">Hermann Sudermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27711">?? [Schreibkraft für Arthur Schnitzler]</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28508">Edmund Heding</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21858">Ludwig Nerz</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30397">Die Schmetterlingsschlacht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30255">Die Ehre</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31327">Sodom’s Ende</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31329">Heimat</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31909">Burgtheater (»Die Schmetterlingsschlacht«. Komödie in vier Akten von Hermann Sudermann. Zum ersten Mal aufgeführt am 6. October 1894)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31527">Comödianten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb595">Neapel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51">I., Innere Stadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb623">Hôtel Hassler</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb451">Sizilien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041379.html</idno>
             </event>
          </listEvent>

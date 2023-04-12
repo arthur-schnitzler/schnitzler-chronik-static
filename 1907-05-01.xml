@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1907-05-01">
                <head>Tagebuch, 1. Mai 1907</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15102">Margarethe Fränkel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15526">Eva Marie Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17324">Adolf Lantz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18104">Richard Metzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20219">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21014">Friedrich Wärndorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21130">Frank Wedekind</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13428">Victor Barnowsky</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76464">Hidalla</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-05-01.html</idno>
             </event>
          </listEvent>

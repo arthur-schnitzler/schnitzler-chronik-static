@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -187,12 +187,82 @@
             </event>
             <event when-iso="1909-08-28">
                <head>Tagebuch, 28. August 1909</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15810">Béla Haas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16222">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16326">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16632">Arthur Kahane</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20240">Albert von Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20986">Karl Gustav Vollmoeller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21135">Paul Wegener</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31585">Die natürliche Tochter</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-28.html</idno>
             </event>
             <event when-iso="1909-08-28">
                <head>Schnitzler an Bahr, 28. 8. 1909</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2306">Heinrich Kley</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb134">Zell am Ziller</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb471">Alte Mariensäule</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb423">Tirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041111.html</idno>
             </event>
          </listEvent>

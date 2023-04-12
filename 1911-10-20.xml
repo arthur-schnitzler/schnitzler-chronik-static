@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -202,7 +202,53 @@
             </event>
             <event when-iso="1911-10-20">
                <head>Tagebuch, 20. Oktober 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13127">Desiderata d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13129">Eugen d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13131">Ida d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16910">Gustav Klimt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17425">Max Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15493">Carl Godlewski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16038">Emilie Heim</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92436">Pappenheimstr.</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-20.html</idno>
             </event>
          </listEvent>

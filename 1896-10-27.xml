@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -184,7 +184,36 @@
             </event>
             <event when-iso="1896-10-27">
                <head>Tagebuch, 27. Oktober 1896</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16222">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18569">Franz Oppenheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19288">Rudolf Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20219">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16574">Paul Jonas</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-27.html</idno>
             </event>
          </listEvent>

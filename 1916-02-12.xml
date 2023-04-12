@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,105 @@
             </event>
             <event when-iso="1916-02-12">
                <head>Tagebuch, 12. Februar 1916</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14927">Else Feldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16009">Friedrich Hebbel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18916">Josef Popper-Lynkeus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17728">Otto Ludwig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19065">Walther Rathenau</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30893">Der letzte Brief eines Literaten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30913">Der Schrei, den niemand hört</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30911">Deutschlands Rohstoffversorgung</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-02-12.html</idno>
             </event>
             <event when-iso="1916-02-12">
                <head>Tagebuch von Schnitzler, 12. 2. 1916</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2135">Josef Popper-Lynkeus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2404">Friedrich Hebbel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12129">Otto Ludwig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11829">Else Jerusalem</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2496">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12471">Walther Rathenau</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12740">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3197">Else Feldmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30893">Der letzte Brief eines Literaten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30911">Deutschlands Rohstoffversorgung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30913">Der Schrei, den niemand hört</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb280">Renaissancetheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041369.html</idno>
             </event>
          </listEvent>

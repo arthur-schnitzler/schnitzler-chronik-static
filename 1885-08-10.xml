@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,27 @@
             </event>
             <event when-iso="1885-08-10">
                <head>Tagebuch, 10. August 1885</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17900">Else Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18604">Karl de O’Sullivan-Grass</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21463">Charlotte Wolter</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb34344">Weißenbach am Attersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-08-10.html</idno>
             </event>
          </listEvent>

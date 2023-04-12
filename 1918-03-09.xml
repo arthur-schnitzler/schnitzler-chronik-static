@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,33 @@
             </event>
             <event when-iso="1918-03-09">
                <head>Tagebuch, 9. März 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13663">Alfred Bernau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18560">Annie Oppelt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19227">Gertrude Felice von Landesberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19392">Friedrich Rosenthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb35512">Ungarn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45359">Arad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-03-09.html</idno>
             </event>
          </listEvent>

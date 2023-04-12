@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -173,17 +173,105 @@
             </event>
             <event when-iso="1901-09-12">
                <head>Tagebuch, 12. September 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16819">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-09-12.html</idno>
             </event>
             <event when-iso="1901-09-12">
                <head>Bahr an Schnitzler, 12. 9. 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2161">Emerich von Bukovics</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29865">Die Frau mit dem Dolche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30488">Das schöne Mädchen. Pantomime</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30081">Maria Stuart</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb683">Steyrerhof</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb709">Rotenturmstraße</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041239.html</idno>
             </event>
             <event when-iso="1901-09-12">
                <head>Schnitzler an Bahr, 10.–12. 9. 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11848">Heinrich Kadelburg</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29865">Die Frau mit dem Dolche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29873">Der Puppenspieler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041039.html</idno>
             </event>
          </listEvent>

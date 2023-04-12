@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,12 +140,65 @@
             </event>
             <event when-iso="1893-01-01">
                <head>Tagebuch, 1. Januar 1893</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14646">Gisela von Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16475">Paul Jacobsohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16996">Innozenz Kohnberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17900">Else Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21449">Richard von Wolff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14942">Friedrich Michael Fels</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18657">Bernhard? Panzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19824">Johann Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-01-01.html</idno>
             </event>
             <event when-iso="1893-01-01">
                <head>Bahr: [Undatierte Notiz, 1893?]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041519.html</idno>
             </event>
          </listEvent>

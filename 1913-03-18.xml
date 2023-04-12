@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,7 +90,36 @@
             </event>
             <event when-iso="1913-03-18">
                <head>Tagebuch, 18. März 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13202">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13478">Wilhelm Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19182">Maurice Rémon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30863">Flucht in die Finsternis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31447">Stunde des Erkennens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-18.html</idno>
             </event>
          </listEvent>

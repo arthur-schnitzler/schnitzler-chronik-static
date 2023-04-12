@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,62 @@
             </event>
             <event when-iso="1923-11-30">
                <head>Tagebuch, 30. November 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13589">Ernst Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14291">Richard Nikolaus von Coudenhove-Kalergi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14440">Denis Diderot</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16545">Charles van Jersel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20872">Agnes Ulmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20987">Voltaire</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21412">Hugo Wittmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17080">Mathilde von Kralik-Meyrswalden</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78146">Pan-Europa</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77965">Die Herrenhofsaga</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90771">Grinzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92285">Himmelstr.</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-11-30.html</idno>
             </event>
          </listEvent>

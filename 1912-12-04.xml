@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1912-12-04">
                <head>Tagebuch, 4. Dezember 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14318">Julia Bertha Culp</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16069">Hugo Heller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17998">Isidor Mautner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19364">Richard Rosenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18089">Erich Merten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb36101">Komödiantin</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30313">Gesammelte Werke</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76537">Briefwechsel zwischen Varnhagen und Rahel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb55724">Indien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90952">Java</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-04.html</idno>
             </event>
          </listEvent>

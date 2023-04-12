@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -167,17 +167,81 @@
             </event>
             <event when-iso="1892-02-01">
                <head>Tagebuch, 1. Februar 1892</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13587">Clothilde Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19866">Arthur Schopenhauer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76961">Über die Weiber</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-02-01.html</idno>
             </event>
             <event when-iso="1892-02-01">
                <head>Bahr an Schnitzler, [Anfang Februar? 1892]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12491">Emanuel Reicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11491">Adalbert von Goldschmidt</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041147.html</idno>
             </event>
             <event when-iso="1892-02-01">
                <head>Hofmannsthal an Schnitzler, [1. 2.? 1892]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31837">Die Blinden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31951">Der Garten der Bérenice</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31953">Die sieben Prinzessinnen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31945">Die Überwindung des Naturalismus</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041410.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1920-11-05">
                <head>Tagebuch, 5. November 1920</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14337">Ernst Czuczka</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17000">Richard Kola</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17784">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18225">Ferenc Molnár</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18916">Josef Popper-Lynkeus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19294">Eugen Robert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21243">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21387">Alfred von Winterstein</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77980">Der Teufel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb451">Sizilien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-11-05.html</idno>
             </event>
          </listEvent>

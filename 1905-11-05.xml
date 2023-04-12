@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,50 @@
             </event>
             <event when-iso="1905-11-05">
                <head>Tagebuch, 5. November 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14875">Emil Faktor</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15172">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19547">Hugo Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20682">Heinrich Teweles</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21547">Alice Ziegler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13097">Friedrich Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21169">Alois Weinert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21548">Ernst Ziegler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29893">Excentric</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30649">Der blinde Geronimo und sein Bruder</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92599">Wenzelsplatz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-11-05.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,22 @@
             </event>
             <event when-iso="1895-04-01">
                <head>Tagebuch, 1. April 1895</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19351">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17849">Gustav Maran</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16888">Johann Klein</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-04-01.html</idno>
             </event>
          </listEvent>

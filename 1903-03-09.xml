@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,12 +80,55 @@
             </event>
             <event when-iso="1903-03-09">
                <head>Tagebuch, 9. März 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16130">Aura Hertwig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21546">Mirjam Horwitz</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-03-09.html</idno>
             </event>
             <event when-iso="1903-03-09">
                <head>Aufzeichnung von Bahr, 9. 3. 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28117">Herakleitos</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3817">Hermann Diels</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb39477">Lebendige Stunden (Vier Einakter: »Lebendige Stunden«, »Die Frau mit dem Dolche«, »Die letzten Masken«, »Literatur« von Arthur Schnitzler. Im Deutschen Volkstheater zum ersten Male aufgeführt am 14. März 1903)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31405">Herakleitos von Ephesos</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041524.html</idno>
             </event>
          </listEvent>

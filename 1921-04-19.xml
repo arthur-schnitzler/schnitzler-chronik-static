@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,48 @@
             </event>
             <event when-iso="1921-04-19">
                <head>Tagebuch, 19. April 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13733">Helene Binder</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15894">Knut Hamsun</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16759">Wassili I. Katschalow</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21330">Ernst Wilhartitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21593">Amalie Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20392">Wilhelm Stekel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31555">Die Brüder Karamasow</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78050">Spiel des Lebens</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-04-19.html</idno>
             </event>
          </listEvent>

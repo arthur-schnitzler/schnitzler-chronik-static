@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,36 @@
             </event>
             <event when-iso="1901-02-05">
                <head>Tagebuch, 5. Februar 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20305">Aur. St.</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21521">Luise Zehngraf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33784">Die Gouvernante</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36093">Marionetten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76511">Die Gedenktafel der Prinzessin Anna</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-02-05.html</idno>
             </event>
          </listEvent>

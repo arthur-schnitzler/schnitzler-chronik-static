@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,59 @@
             </event>
             <event when-iso="1888-04-16">
                <head>Tagebuch, 16. April 1888</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13508">Beck</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15236">Siegwart Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15241">Friedrich III. von Preussen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16022">Jeanette Heeger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17364">Sigmund Lautenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17601">Lizzie</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20115">Simon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21617">Rudolf Gottlieb</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19368">Ernst von Rosenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20681">Franz Tewele</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30143">Das Abenteuer seines Lebens. Ein einaktiges Lustspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80363">Coppélia</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81266">Der Kurmärker und die Picarde 1815</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-04-16.html</idno>
             </event>
          </listEvent>

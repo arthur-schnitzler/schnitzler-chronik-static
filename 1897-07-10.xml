@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,12 +97,97 @@
             </event>
             <event when-iso="1897-07-10">
                <head>Tagebuch, 10. Juli 1897</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15178">Rosa Freudenthal</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-10.html</idno>
             </event>
             <event when-iso="1897-07-10">
                <head>Schnitzler an Marie Reinhard, [10.] 7. 1897</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19337">Leopoldine Kirchrath</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2461">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2284">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2601">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12179">Gustav Maran</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22666">Victoria Pohl-Meiser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12348">Gilbert Otto Neumann-Hofer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23215">Therese Reinhard</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32340">Aschermittwoch. Schwank</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb390">Franzensbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49079">Andermatt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb864">Leipzig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb672">Bad Goisern</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb912">Ebensee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb18">Lessing-Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041583.html</idno>
             </event>
          </listEvent>

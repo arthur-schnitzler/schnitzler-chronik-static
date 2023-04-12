@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,12 +89,64 @@
             </event>
             <event when-iso="1903-11-08">
                <head>Tagebuch, 8. November 1903</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91735">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-08.html</idno>
             </event>
             <event when-iso="1903-11-08">
                <head>Aufzeichnung von Bahr, 8. 11. 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3511">Marcus Tullius Cicero</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3516">Horaz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27882">Friedrich Waerndorfer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29949">Wirkung in die Ferne</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31079">Cicero und Horaz</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31399">Der Halkyonier</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31081">Die Packerln</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29893">Excentric</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb29">Hotel Sacher</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041442.html</idno>
             </event>
          </listEvent>

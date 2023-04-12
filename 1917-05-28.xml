@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,7 +114,65 @@
             </event>
             <event when-iso="1917-05-28">
                <head>Tagebuch, 28. Mai 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14579">Antonín Dvořák</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14963">Wilhelm Feuchtwang</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16480">Elisabeth Jacobus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16481">Erna Jacobus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19347">Rosa</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18009">Mayer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77146">Fidelio op. 72, Ouvertüre</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77190">Symphonie Nr. 8 F-Dur op. 93</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb69">XIX., Döbling</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92452">Pokornygasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-05-28.html</idno>
             </event>
          </listEvent>

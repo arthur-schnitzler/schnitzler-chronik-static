@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,12 +132,72 @@
             </event>
             <event when-iso="1901-10-28">
                <head>Tagebuch, 28. Oktober 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35702">Abendspaziergang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33786">Die grüne Krawatte</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-10-28.html</idno>
             </event>
             <event when-iso="1901-10-28">
                <head>Schnitzler an Bahr, 28. 10. 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10883">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2161">Emerich von Bukovics</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11851">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2185">Albert Gutmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29865">Die Frau mit dem Dolche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041043.html</idno>
             </event>
          </listEvent>

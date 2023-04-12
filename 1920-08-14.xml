@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,12 +122,115 @@
             </event>
             <event when-iso="1920-08-14">
                <head>Tagebuch, 14. August 1920</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17509">Robert Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb390">Franzensbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45594">Kiew</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-14.html</idno>
             </event>
             <event when-iso="1920-08-14">
                <head>Aufzeichnung von Bahr, 14. 8. 1920</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11024">Anton Bruckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13152">Hugo Wolf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12163">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11342">Theodor Fontane</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28765">Matthias Grünewald</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28792">Reinhold Rainalter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28786">Krziwelzky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11297">Claude Farrère</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28768">Friederike Rochowanski</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13682">Rosa Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30347">A Letter From Germany [Salzburg, September, 1920]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30121">Tagebuch. 7. August. 8. August. 10. August [1920]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30125">Burgtheater [Wiener Literarische Anstalt]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32566">Mademoiselle Dax, jeune fille</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30129">Jedermann. Das Spiel vom Sterben des reichen Mannes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb269">Aigen</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29705">The London Mercury</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29320">Neues Wiener Journal</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041588.html</idno>
             </event>
          </listEvent>

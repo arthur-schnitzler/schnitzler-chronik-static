@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,102 @@
             </event>
             <event when-iso="1923-05-06">
                <head>Tagebuch, 6. Mai 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16988">Karl Kofler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17034">Felix Kopetzky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17509">Robert Lichtenstern</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb36545">Krems</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb531">Wachau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91796">Spitz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91223">Melk</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49880">St. Pölten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91592">Riederberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-06.html</idno>
             </event>
             <event when-iso="1923-05-06">
                <head>Bahr an S. Fischer, [6.] 5. 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2142">Gabriele D’Annunzio</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2657">Hedwig Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Thomas Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2381">George Bernard Shaw</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30813">Selbstbildnis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31213">Romeo und Julia</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb161">Barerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb944">Meersburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041348.html</idno>
             </event>
          </listEvent>

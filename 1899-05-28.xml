@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -204,12 +204,89 @@
             </event>
             <event when-iso="1899-05-28">
                <head>Tagebuch, 28. Mai 1899</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91530">Prater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91749">Sigmundsherberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91618">Rosenburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-05-28.html</idno>
             </event>
             <event when-iso="1899-05-28">
                <head>Bahr: [Versandliste Wenn es euch gefällt?], [vor dem 28. 5. 1899?]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2202">Wilhelm Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28238">Hans Koppel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3162">Julius Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12460">Eduard Pötzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3579">Leopold Jacobson</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11687">Ludwig Hevesi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12920">Ottokar Tann-Bergler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32582">Wenn es euch gefällt. Wiener Revue in drei Bildern und einem Vorspiel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb19">Etablissement Ronacher</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29296">Carl Konegen</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030087.html</idno>
             </event>
          </listEvent>

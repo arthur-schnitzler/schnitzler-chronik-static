@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,68 @@
             </event>
             <event when-iso="1914-01-11">
                <head>Tagebuch, 11. Januar 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13092">Alfred Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13337">Julius Bab</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15172">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15855">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15980">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16041">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18282">Wolfgang Amadeus Mozart</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19821">Hans Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21387">Alfred von Winterstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21614">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19135">Theodor Reik</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20885">Fritz von Unruh</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81159">Arthur Schnitzler als Psycholog</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb64219">Döbling</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92317">Kahlenbergerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92292">Hohe Warte</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-01-11.html</idno>
             </event>
          </listEvent>

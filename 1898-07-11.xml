@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,7 +100,33 @@
             </event>
             <event when-iso="1898-07-11">
                <head>Tagebuch, 11. Juli 1898</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14076">Rudolf Burger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91735">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36189">Krieglach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91026">Kindberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90665">Frohnleiten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb860">Graz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-11.html</idno>
             </event>
          </listEvent>

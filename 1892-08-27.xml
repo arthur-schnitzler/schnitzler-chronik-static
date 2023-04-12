@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,33 @@
             </event>
             <event when-iso="1892-08-27">
                <head>Tagebuch, 27. August 1892</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18901">Ignaz Pollitzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21031">Karl Joseph? Wagner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14675">Eisbgs</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17629">Isidor von Löti-Kélenföld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20665">Hans Temple</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-08-27.html</idno>
             </event>
          </listEvent>

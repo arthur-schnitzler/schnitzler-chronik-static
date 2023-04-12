@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,7 +104,45 @@
             </event>
             <event when-iso="1908-09-23">
                <head>Tagebuch, 23. September 1908</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13080">Hans Abels</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14673">Oskar Friedrich Eirich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16736">Ludwig Karpath</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19197">Johann Ress</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19615">Alice Schalek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20068">Franz Servaes</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81252">Das Fräulein</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-23.html</idno>
             </event>
          </listEvent>

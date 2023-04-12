@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,17 +145,112 @@
             </event>
             <event when-iso="1902-01-09">
                <head>Tagebuch, 9. Januar 1902</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15937">Wilhelm von Hartel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20737">Christiane von Thun-Hohenstein-Salm-Reifferscheidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20855">Friedrich Uhl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-09.html</idno>
             </event>
             <event when-iso="1902-01-09">
                <head>Bahr an Schnitzler, 9. 1. 1902</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29865">Die Frau mit dem Dolche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb683">Steyrerhof</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb709">Rotenturmstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29677">Franz-Grillparzer-Preis</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041245.html</idno>
             </event>
             <event when-iso="1902-01-09">
                <head>Tagebuch von Schnitzler, 9. 1. 1902</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26046">Christiane von Thun-Hohenstein-Salm-Reifferscheidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2953">Wilhelm von Hartel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10883">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12987">Friedrich Uhl</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29677">Franz-Grillparzer-Preis</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041198.html</idno>
             </event>
          </listEvent>

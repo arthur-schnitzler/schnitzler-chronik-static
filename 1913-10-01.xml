@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1913-10-01">
                <head>Tagebuch, 1. Oktober 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14206">Joseph Anton Christ</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14605">Ernst Eckbauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17958">Paul Marx</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18204">Eduard Mörike</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30863">Flucht in die Finsternis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78670">Schauspielerleben im achtzehnten Jahrhundert. Erinnerungen. Zum ersten Male veröffentlicht von Rudolf Schirmer</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79002">Briefe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91574"/>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34344">Weißenbach am Attersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90683">Gadenweith</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-01.html</idno>
             </event>
          </listEvent>

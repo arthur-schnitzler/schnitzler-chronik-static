@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,7 +111,50 @@
             </event>
             <event when-iso="1918-11-13">
                <head>Tagebuch, 13. November 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15999">Joseph Haydn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16299">Marie Hofteufel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21157">Alexander von Weilen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21320">Auguste Wilbrandt-Baudius</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78489">Symphonie Nr. 100 G-Dur H. I 100 (Militär-Symphonie)</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-11-13.html</idno>
             </event>
          </listEvent>

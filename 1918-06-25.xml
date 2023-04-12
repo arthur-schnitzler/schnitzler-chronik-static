@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,62 @@
             </event>
             <event when-iso="1918-06-25">
                <head>Tagebuch, 25. Juni 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15976">Carl B. Haug</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16709">Friedrich Kapper</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19351">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19727">Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19828">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19874">Werner Schott</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14069">Berta Burg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77559">Die Meistersinger von Nürnberg, Ouvertüre</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-06-25.html</idno>
             </event>
          </listEvent>

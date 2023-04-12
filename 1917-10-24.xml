@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1917-10-24">
                <head>Tagebuch, 24. Oktober 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14021">Alphons Aimé Brun</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14023">Fritz Brun</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15980">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17365">Elisabeth Lauterburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14302">Oliver Cromwell</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17253">Selma Lagerlöf</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76931">Winterballade</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb484">Zürich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44293">Griechenland</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-10-24.html</idno>
             </event>
          </listEvent>

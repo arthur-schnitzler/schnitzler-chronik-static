@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,7 +117,47 @@
             </event>
             <event when-iso="1909-06-09">
                <head>Tagebuch, 9. Juni 1909</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17287">Ludmilla Lándori</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17324">Adolf Lantz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17958">Paul Marx</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20803">Otto Tressler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76804">Tantris der Narr. Drama in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31489">John Gabriel Borkman</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92506">Sacher</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-09.html</idno>
             </event>
          </listEvent>

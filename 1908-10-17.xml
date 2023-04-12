@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,59 @@
             </event>
             <event when-iso="1908-10-17">
                <head>Tagebuch, 17. Oktober 1908</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13344">Johann Sebastian Bach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16512">Georg Jantschge</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17087">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20872">Agnes Ulmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21211">Adolf Weisse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16159">Julius Herzka</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17825">Ludwig Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21061">Charlotte Waldow</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16735">Moriz Károlyi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18306">Paula Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-10-17.html</idno>
             </event>
          </listEvent>

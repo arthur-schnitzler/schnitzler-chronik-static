@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,50 @@
             </event>
             <event when-iso="1918-04-28">
                <head>Tagebuch, 28. April 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15374">Margarete Gelbard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20113">Georg Simmel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21593">Amalie Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21601">Otto Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17425">Max Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb81313">Kant und Goethe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90913">Penzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92533">Sofienalpe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91641">Salmannsdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-04-28.html</idno>
             </event>
          </listEvent>

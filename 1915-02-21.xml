@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,50 @@
             </event>
             <event when-iso="1915-02-21">
                <head>Tagebuch, 21. Februar 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15149">Franz Ferdinand von Österreich-Este</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15827">Habsburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19783">Alice Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19784">Ferdinand Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30863">Flucht in die Finsternis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30649">Der blinde Geronimo und sein Bruder</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77679">Das Lied von der Erde</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91832">Stein an der Donau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-02-21.html</idno>
             </event>
          </listEvent>

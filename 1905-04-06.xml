@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,48 @@
             </event>
             <event when-iso="1905-04-06">
                <head>Tagebuch, 6. April 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13344">Johann Sebastian Bach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13369">Jakob Baechtold</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14008">Anton Bruckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17766">Étienne Jacques Macdonald</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20343">Hermann Stehr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17709">Fanny Lubelsky</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80111">Gottfried Kellers Leben. Seine Briefe und Tagebücher</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30701">Symphonie Nr. 8 c-Moll WAB 108</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80943">Memoiren des Marschalls Macdonald</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78477">Meta Konegen. Drama</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-04-06.html</idno>
             </event>
          </listEvent>

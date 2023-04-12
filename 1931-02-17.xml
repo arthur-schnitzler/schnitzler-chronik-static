@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -113,7 +113,53 @@
             </event>
             <event when-iso="1931-02-17">
                <head>Tagebuch, 17. Februar 1931</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14724">Vivian Ellis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14957">Isidor Fett</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17719">Emil Lucka</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20453">Otto Stoessl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20867">Ludwig Ullmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16277">Norbert Hoffmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80427">Jim und Jill</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb96">Meissl &amp; Schadn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-02-17.html</idno>
             </event>
          </listEvent>

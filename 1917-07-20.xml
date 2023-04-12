@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,30 @@
             </event>
             <event when-iso="1917-07-20">
                <head>Tagebuch, 20. Juli 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15374">Margarete Gelbard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18570">Leopold Oppenheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19784">Ferdinand Schmutzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19794">Richard Schnabel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-07-20.html</idno>
             </event>
          </listEvent>

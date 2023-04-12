@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,36 @@
             </event>
             <event when-iso="1896-02-02">
                <head>Tagebuch, 2. Februar 1896</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16036">Emil Heilbut</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16222">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19126">Emanuel Reicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19724">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21465">Ernst von Wolzogen</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-02.html</idno>
             </event>
          </listEvent>

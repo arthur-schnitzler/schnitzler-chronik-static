@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,7 +97,41 @@
             </event>
             <event when-iso="1910-02-09">
                <head>Tagebuch, 9. Februar 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15894">Knut Hamsun</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16646">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21614">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16486">Norbert Jacques</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78022">Benoni</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78864">Funchal. Eine Geschichte der Sehnsucht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76767">Der verwandelte Komödiant</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91776">Sonnwendstein</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-09.html</idno>
             </event>
          </listEvent>

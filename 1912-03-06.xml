@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -81,7 +81,39 @@
             </event>
             <event when-iso="1912-03-06">
                <head>Tagebuch, 6. März 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_18282">Wolfgang Amadeus Mozart</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17999">Jenny Mautner</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77229">Violinsonate Nr. 1 B-Dur KV 8</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77228">Violinsonate Nr. 15 A-Dur KV 61</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-03-06.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,7 +132,71 @@
             </event>
             <event when-iso="1922-05-13">
                <head>Tagebuch, 13. Mai 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13715">Oskar Bie</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15643">Leo Greiner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16462">Hans Jacob</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17046">Arnold Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17324">Adolf Lantz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17746">Stefan Lux</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18140">Karl Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19435">Alfred Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19436">Fritz Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21231">Isabella Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16786">Rudolf Kayser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20811">Irene Triesch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30717">Komödie der Worte. Drei Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-13.html</idno>
             </event>
          </listEvent>

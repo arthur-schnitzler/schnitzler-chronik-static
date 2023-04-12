@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,44 @@
             </event>
             <event when-iso="1896-06-24">
                <head>Tagebuch, 24. Juni 1896</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19804">Franziska Schneider</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21047">Olga Waissnix</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15605">Christian Dietrich Grabbe</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18780">Rudolf Pick</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13877">Cesare Borgia</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16912">Friedrich Maximilian von Klinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18148">Buonarroti Michelangelo</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78340">Don Juan und Faust</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb992">Bad Vöslau</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-06-24.html</idno>
             </event>
          </listEvent>

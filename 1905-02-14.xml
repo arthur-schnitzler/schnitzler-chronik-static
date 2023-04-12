@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,36 @@
             </event>
             <event when-iso="1905-02-14">
                <head>Tagebuch, 14. Februar 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13344">Johann Sebastian Bach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14821">Herbert Eulenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15755">Gustav Gurschner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30655">Das neue Lied</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30683">Die Weissagung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76740">Anna Walewska. Tragödie</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-02-14.html</idno>
             </event>
          </listEvent>

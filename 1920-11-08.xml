@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,65 @@
             </event>
             <event when-iso="1920-11-08">
                <head>Tagebuch, 8. November 1920</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13663">Alfred Bernau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14496">Käthe Dorsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15368">Anton Geiringer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18297">Hans Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19925">Heinz Schulbaur</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13428">Victor Barnowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76993">Weh dem, der lügt!</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30279">Der Thor und der Tod</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77588">Flamme</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76823">Richard III.</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-11-08.html</idno>
             </event>
          </listEvent>

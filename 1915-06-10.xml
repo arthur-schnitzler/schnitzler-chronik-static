@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1915-06-10">
                <head>Tagebuch, 10. Juni 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15023">Otto Flake</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15532">Carlo Goldoni</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16186">Paul Heyse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16272">Ernst Theodor Amadeus Hoffmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32097">Das Bacchusfest</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76797">Goethes Briefe an Frau von Stein</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80613">Mein Leben und mein Theater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78574">Der neue Pitaval</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb865">Klosterneuburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46976">Kierling</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90881">Hintersdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1246">St. Andrä-Wördern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-06-10.html</idno>
             </event>
          </listEvent>

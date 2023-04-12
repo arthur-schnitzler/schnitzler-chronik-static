@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,7 +110,45 @@
             </event>
             <event when-iso="1903-08-17">
                <head>Tagebuch, 17. August 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14835">Otto Eysler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17209">Arthur Kuranda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17693">Ernestine Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18825">August von Plappart-Leenherr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17155">Otto von Krumhaar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19370">Ida Rosenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20549">Moritz Stuckart</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91229">Passo della Mendola</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90488">Cles</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90126">Malé</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb427">Madonna di Campiglio</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-17.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,83 @@
             </event>
             <event when-iso="1912-12-18">
                <head>Tagebuch, 18. Dezember 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17108">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17731">Karl Lueger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17819">Ferdinand Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18105">Wladimir Metzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19197">Johann Ress</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20925">Leo Van-Jung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21593">Amalie Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14748">Alexander Engel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17014">Else von Kolschitzky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33710">Mein Freund Ypsilon</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30753">Landsknecht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33031">Parsifal</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92151">Asperngasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44258">Hallein</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb521">Bad Gastein</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90753">Graben</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-18.html</idno>
             </event>
          </listEvent>

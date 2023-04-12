@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,77 @@
             </event>
             <event when-iso="1919-05-25">
                <head>Tagebuch, 25. Mai 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14052">Hans von Bülow</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14784">Friederike Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16736">Ludwig Karpath</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17998">Isidor Mautner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18560">Annie Oppelt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18694">Bernhard Paumgartner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20094">Rudolf Sieghart</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20508">Pauline Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20509">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21023">Cosima Wagner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21034">Richard Wagner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14786">Rudolf Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15417">Geymüller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20885">Fritz von Unruh</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb667">Garmisch-Partenkirchen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb798">Mozarteum</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-05-25.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,7 +106,59 @@
             </event>
             <event when-iso="1930-11-19">
                <head>Tagebuch, 19. November 1930</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13643">Elisabeth Bergner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14234">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18140">Karl Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20076">Ludwig Sgal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13139">Ruth Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13548">Mirjam Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13549">Naëmah Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30953">Der Sekundant</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30157">Wie es euch gefällt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92362">Laubenheimerstr.</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-11-19.html</idno>
             </event>
          </listEvent>

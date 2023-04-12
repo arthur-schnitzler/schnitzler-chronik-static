@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,127 @@
             </event>
             <event when-iso="1922-03-11">
                <head>Tagebuch, 11. März 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13758">Elsa Björkman-Goldschmidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13918">Eveline Brandeis-Weikersheim</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb36008">Thalhof-Festspiel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-11.html</idno>
             </event>
             <event when-iso="1922-03-11">
                <head>Bahr an S. Fischer, 11. 3. 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4617">Paul Cassirer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20045">Landauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4621">Ernst Peter Tal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4624">Hans Haas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11704">Ludwig Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12851">Adalbert Stifter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2657">Hedwig Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32766">Faust. Der Tragödie dritter Teil. 2. Auflage, mit Nachspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30897">Himmelfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29933">Das Konzert. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30269">Die Kinder. Eine Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32216">Der Unmensch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31601">Ehelei</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30047">Tagebuch [Kolumne im Neuen Wiener Journal]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30813">Selbstbildnis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30049">Brief an Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32023">Stifter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30715">Wien</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29750">Erich Reiß</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29212">Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29404">Moderne Welt</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041346.html</idno>
             </event>
          </listEvent>

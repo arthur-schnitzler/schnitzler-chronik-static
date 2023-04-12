@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1920-12-17">
                <head>Tagebuch, 17. Dezember 1920</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13552">Hans Beerli</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13663">Alfred Bernau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15234">Paul Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16401">Walter Huber</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18387">Severin Nemec</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19351">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19364">Richard Rosenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16046">Albert Heine</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17876">Bernhard Marholm</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-12-17.html</idno>
             </event>
          </listEvent>

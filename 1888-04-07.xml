@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,7 +92,36 @@
             </event>
             <event when-iso="1888-04-07">
                <head>Tagebuch, 7. April 1888</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13508">Beck</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15099">Bernhard Fraenkel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17115">Hermann Krause</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18287">Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19351">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19591">Baron Sauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19325">Rössler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb80366">Die Reise um die Welt in 80 Tagen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-04-07.html</idno>
             </event>
          </listEvent>

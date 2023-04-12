@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,74 @@
             </event>
             <event when-iso="1922-10-27">
                <head>Tagebuch, 27. Oktober 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14789">Leo Erichsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15142">Oskar Benjamin Frankl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15408">August Gessner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16980">Josef Körner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17278">Julius von Landesberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17279">Rudolf Landesberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19495">Rita Sacchetto</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19547">Hugo Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21173">Heinrich Weinhuber</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21243">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13097">Friedrich Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19951">Fritz Schwabacher</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33061">Die dreifache Warnung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb56576">Arthur Schnitzlers Gestalten und Probleme</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb677">Breslau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90286">Außig</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-10-27.html</idno>
             </event>
          </listEvent>

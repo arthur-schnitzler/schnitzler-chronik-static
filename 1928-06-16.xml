@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,7 +111,59 @@
             </event>
             <event when-iso="1928-06-16">
                <head>Tagebuch, 16. Juni 1928</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13196">Lou Andreas-Salomé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13920">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15499">Johann Wolfgang von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21243">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15415">Siegfried Geyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30051">Der Geist im Wort und der Geist in der Tat</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32049">Zug der Schatten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91151">Lindau (Bad Ischl)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91470">Pfandl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92225">Elisabethpromenade</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-06-16.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -123,17 +123,153 @@
             </event>
             <event when-iso="1903-11-03">
                <head>Tagebuch, 3. November 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13473">Ludwig Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19411">Peter Rotenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33784">Die Gouvernante</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-03.html</idno>
             </event>
             <event when-iso="1903-11-03">
                <head>Aufzeichnung von Bahr, 3. 11. 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3475">Hugo Haberfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3499">Anton Edlinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3501">Caroline Pichler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041440.html</idno>
             </event>
             <event when-iso="1903-11-03">
                <head>Tagebuch von Josef Redlich, 3. 11. 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28719">George Otto Baronet Trevelyan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4660">Thomas Babington Macaulay</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3634">Hermann Oldenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4478">Ludwig Max Goldberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12775">Rudolf Sieghart</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11955">Ernest von Koerber</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb54783">Joseph Unger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4653">Julius Anton Glaser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4657">Anton von Schmerling</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28724">Therese von Leon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28727">Ida von Leon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28729">Martha von Leon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28731">Marie Therese von Leon</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32506">The Life and Letters of Lord Macaulay</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32502">Die Literatur des alten Indien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32504">Das Land der unbegrenzten Möglichkeiten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb980">Sárvár</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb35512">Ungarn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb892">Davos</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041586.html</idno>
             </event>
          </listEvent>

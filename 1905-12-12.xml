@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,42 @@
             </event>
             <event when-iso="1905-12-12">
                <head>Tagebuch, 12. Dezember 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14643">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15102">Margarethe Fränkel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15526">Eva Marie Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15980">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20822">Pjotr Iljitsch Tschaikowski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19551">Marcell Salzer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77541">Streichquartett Nr. 3 es-Moll op. 30</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-12-12.html</idno>
             </event>
          </listEvent>

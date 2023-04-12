@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,33 @@
             </event>
             <event when-iso="1911-04-30">
                <head>Tagebuch, 30. April 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17863">Julian Marcuse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18544">Hans Olden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18547">Rosa Olden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20037">Ilse von Seilern-Aspang</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30213">Die Hirtenflöte. Novelle</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-30.html</idno>
             </event>
          </listEvent>

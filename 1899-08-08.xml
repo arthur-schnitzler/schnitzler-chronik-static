@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,7 +129,25 @@
             </event>
             <event when-iso="1899-08-08">
                <head>Tagebuch, 8. August 1899</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90446">Caprile</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90084">Fedaia</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90208">Alba-Penia</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90436">Campitello di Fassa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40362">Vigo di Fassa</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-08.html</idno>
             </event>
          </listEvent>

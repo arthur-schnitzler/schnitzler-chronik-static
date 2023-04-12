@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,74 @@
             </event>
             <event when-iso="1919-07-06">
                <head>Tagebuch, 6. Juli 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13344">Johann Sebastian Bach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14694">Max Eisler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15204">Oscar Fried</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19093">Emil Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19523">Camille Saint-Saëns</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19886">Franz Schreker</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21130">Frank Wedekind</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15038">Carl Fleischmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78418">Le déluge op. 45</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81276">Der Schatzgräber</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb170">Neuwaldegg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92533">Sofienalpe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91572">Raxalpe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44394">Weidlingbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91641">Salmannsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb574">Kahlenberg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-07-06.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1910-08-08">
                <head>Tagebuch, 8. August 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13478">Wilhelm Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16646">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18753">Felix Philippi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19182">Maurice Rémon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16572">Clara Jonas</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33754">Der Mörder. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33792">Die Mörderin</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77436">Pariser Schattenspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb60890">Götz Krafft. Die Geschichte einer Jungend</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91735">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-08-08.html</idno>
             </event>
          </listEvent>

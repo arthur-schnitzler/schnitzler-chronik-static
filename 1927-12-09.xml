@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,7 +91,47 @@
             </event>
             <event when-iso="1927-12-09">
                <head>Tagebuch, 9. Dezember 1927</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14360">Honoré Daumier</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15306">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16902">Felix Klemperer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14576">Henri Duvernois</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20322">Ellis Stampe-Bendix</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb79315">Morte la bête</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76640">Filmromantik</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-12-09.html</idno>
             </event>
          </listEvent>

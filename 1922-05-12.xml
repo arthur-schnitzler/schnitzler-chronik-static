@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,68 @@
             </event>
             <event when-iso="1922-05-12">
                <head>Tagebuch, 12. Mai 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15306">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15978">Benvenuto Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18140">Karl Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18153">Paul Mierau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18968">Klaus Pringsheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19288">Rudolf Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19294">Eugen Robert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20244">Oskar Speier</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20842">Hedwig Tusar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20843">Vlastimil Tusar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18395">Johann Nepomuk Nestroy</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76637">Des Esels Schatten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77429">Einen Jux will er sich machen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91087">Kurfürstendamm</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90508">Dahlem</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-12.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,7 +91,50 @@
             </event>
             <event when-iso="1922-08-08">
                <head>Tagebuch, 8. August 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14149">Caspary</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14178">Joseph Chapiro</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15253">Efraim Frisch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18295">Gerda Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19909">Julius Wolfgang Schülein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19911">Suzanne Schülein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21254">Otto Wernicke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21528">Karl Zeiß</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14846">Erwin Faber</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76800">Urfaust</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-08-08.html</idno>
             </event>
          </listEvent>

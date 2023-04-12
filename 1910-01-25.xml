@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,71 @@
             </event>
             <event when-iso="1910-01-25">
                <head>Tagebuch, 25. Januar 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14472">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15338">Julius von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16326">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16344">Martha Honig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19906">Ernst von Schuch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20011">Nikolaus von Seebach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21232">Zinaida A. Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18358">Ella Naschauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80174">Der gute König Dagobert</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90550">Dresden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92444">Pfob</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-01-25.html</idno>
             </event>
          </listEvent>

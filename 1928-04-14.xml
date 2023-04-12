@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1928-04-14">
                <head>Tagebuch, 14. April 1928</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14129">Arnoldo Cappellini</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14510">Theodore Dreiser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15028">Edmond Fleg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17154">Richard Krum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17535">Wilhelm Liepmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18639">Maurice Paléologue</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19505">Ludwig Sachs</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19556">Settimio Sampò</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb58224">Eine amerikanische Tragödie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79326">Pourquoi je suis juif</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81093">Am Zarenhof während des Weltkrieges. Tagebücher und Betrachtungen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91944">Trieste</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-14.html</idno>
             </event>
          </listEvent>

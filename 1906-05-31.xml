@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,7 +117,50 @@
             </event>
             <event when-iso="1906-05-31">
                <head>Tagebuch, 31. Mai 1906</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14959">David Feuchtwang</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16041">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16705">Olga Kappelmacher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17049">Koritschoner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77171">Streichquartett Nr. 10 Es-Dur op. 74</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80494">Kanzelreden</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92223">Edelhofgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-31.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,7 +105,45 @@
             </event>
             <event when-iso="1919-05-26">
                <head>Tagebuch, 26. Mai 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13690">Pierre Berton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18209">Alexander Moissi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21047">Olga Waissnix</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13167">Adolf Altmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16862">Henry Kistemaekers</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79250">La rencontre</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79370">L’occident</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77400">Und das Licht leuchtet in der Finsternis</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-05-26.html</idno>
             </event>
          </listEvent>

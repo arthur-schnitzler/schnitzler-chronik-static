@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,7 +105,62 @@
             </event>
             <event when-iso="1931-09-16">
                <head>Tagebuch, 16. September 1931</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13263">Laura Arnold</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14682">Anna Eisenmenger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15412">Emil Geyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19038">Luise Rainer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21243">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21584">Anna von Zsolnay</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21586">Paul von Zsolnay</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20755">Tischbein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21583">Amanda von Zsolnay</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30953">Der Sekundant</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76587">Phaea</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-16.html</idno>
             </event>
          </listEvent>

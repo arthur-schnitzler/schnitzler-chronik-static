@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,59 @@
             </event>
             <event when-iso="1921-09-14">
                <head>Tagebuch, 14. September 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15990">Gertrude Sophie Hausmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15992">Marianne Hausmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16446">Stefano Infessura</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18282">Wolfgang Amadeus Mozart</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13987">Max Brod</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20595">Anton Swoboda</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30321">Theaterroman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77192">Trio für 2 Oboen und Englischhorn C-Dur op. 87</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78521">Heidentum – Christentum – Judentum. Ein Bekenntnisbuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79561">Römisches Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77204">Klarinettenquintett A-Dur KV 581</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92338">Klostergasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-09-14.html</idno>
             </event>
          </listEvent>

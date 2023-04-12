@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,41 @@
             </event>
             <event when-iso="1893-07-07">
                <head>Tagebuch, 7. Juli 1893</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17985">Guy de Maupassant</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13118">Franz von Aichelburg-Labia</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15248">Carl Adolph Friese</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92569">Trenkelbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb874">Gmunden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92359">Langwies</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-07.html</idno>
             </event>
          </listEvent>

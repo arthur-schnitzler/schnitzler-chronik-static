@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,7 +86,50 @@
             </event>
             <event when-iso="1930-08-03">
                <head>Tagebuch, 3. August 1930</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15551">Franz Goldstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17036">Oskar Koplowitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17726">Emil Ludwig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19500">Edmond Fleury Sachs</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19501">Emma Sachs</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78103">Schliemann</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78100">Aus meiner Werkstatt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44374">Sankt Moritz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49137">Katowice</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-08-03.html</idno>
             </event>
          </listEvent>

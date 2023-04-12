@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -125,7 +125,27 @@
             </event>
             <event when-iso="1899-07-11">
                <head>Tagebuch, 11. Juli 1899</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14734">Marie Elsinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16848">Richard Kirch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30403">Paracelsus. Versspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30019">Das Friedensfest</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-07-11.html</idno>
             </event>
          </listEvent>

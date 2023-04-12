@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -113,17 +113,126 @@
             </event>
             <event when-iso="1905-03-01">
                <head>Tagebuch, 1. März 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15776">Edmund von Gutmann-Gelse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17893">Markbreiter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-01.html</idno>
             </event>
             <event when-iso="1905-03-01">
                <head>Bahr: Widmungsexemplar Sanna, März 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29901">Sanna. Schauspiel in fünf Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041579.html</idno>
             </event>
             <event when-iso="1905-03-01">
                <head>Schnitzler: [Leseliste], [frühestens März 1905]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31707">Die neuen Menschen. Ein Schauspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31991">Die gute Schule. Seelenstände</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32244">Die große Sünde</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30963">Die Mutter. In drei Acten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30175">Russische Reise</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31275">Studien zur Kritik der Moderne</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32440">Zur Kritik der Moderne</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31945">Die Überwindung des Naturalismus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32246">Fin de Siècle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32248">Neben der Liebe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31999">Theater. Ein Wiener Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29947">Wirkung in die Ferne und Anderes</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29881">Der Krampus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29851">Der Franzl. Fünf Bilder aus dem Leben eines guten Mannes</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29901">Sanna. Schauspiel in fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32276">[Leseliste]</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030052.html</idno>
             </event>
          </listEvent>

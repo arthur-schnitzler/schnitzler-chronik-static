@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,59 @@
             </event>
             <event when-iso="1918-05-09">
                <head>Tagebuch, 9. Mai 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13457">Albert Bassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15903">Anna Hansa</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17956">Joseph Marx</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19296">Richard Robert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19886">Franz Schreker</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20509">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20925">Leo Van-Jung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15685">Wilhelm Grosz</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30717">Komödie der Worte. Drei Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81277">Die Gezeichneten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb64219">Döbling</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44394">Weidlingbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92533">Sofienalpe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91641">Salmannsdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-05-09.html</idno>
             </event>
          </listEvent>

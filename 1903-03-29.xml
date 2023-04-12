@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,12 +140,80 @@
             </event>
             <event when-iso="1903-03-29">
                <head>Tagebuch, 29. März 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19511">Luise von Sachsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb986">Lindau am Bodensee</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-03-29.html</idno>
             </event>
             <event when-iso="1903-03-29">
                <head>Bahr an Schnitzler, [29.] 3. 1903</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11201">Eleonora Duse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2202">Wilhelm Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2947">Moritz Epstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2196">Emil von Jettel-Ettenach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30107">Die Duse. (Als Gast im Carl-Theater vom 31. März bis 8. April 1903)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30109">L’autre danger</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30591">L’autre danger</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30111">Theater und Kunst. (Burgtheater) [Die Braut von Messina]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30593">Die Braut von Messina</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30113">Sezession. (Siebzehnte Ausstellung der Vereinigung bildender Künstler Österreichs)</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041256.html</idno>
             </event>
          </listEvent>

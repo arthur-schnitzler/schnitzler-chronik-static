@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,62 @@
             </event>
             <event when-iso="1915-01-17">
                <head>Tagebuch, 17. Januar 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13229">Georges Antoine</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15505">Hermann Goetz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15766">Marie Gutheil-Schoder</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19333">Romain Rolland</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20532">Alberto Stringa</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21146">Friedrich Weidemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21614">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14481">Anna Donath</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35916">Leb wohl</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35974">Protest</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80601">Der Widerspenstigen Zähmung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30935">Falstaff</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92025">Vorderbrühl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-01-17.html</idno>
             </event>
          </listEvent>

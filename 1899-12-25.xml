@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,7 +107,41 @@
             </event>
             <event when-iso="1899-12-25">
                <head>Tagebuch, 25. Dezember 1899</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16165">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18303">Leopoldine Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21448">Ludwig Wolff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33872">Um eine Stunde</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb42614">Gläubiger</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30661">Die Meistersinger von Nürnberg</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77841">Mondscheinsonate</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-12-25.html</idno>
             </event>
          </listEvent>

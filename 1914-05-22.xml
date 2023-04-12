@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,41 @@
             </event>
             <event when-iso="1914-05-22">
                <head>Tagebuch, 22. Mai 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16404">Ricarda Huch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18228">Helmuth von Moltke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14894">Fasting</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17242">Eugène Labiche</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20823">Anton Pavlovič Čechov</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77471">Aus der Triumphgasse. Lebensskizzen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81025">Briefe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77563">Richard Wagner an Minna Wagner</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44016">Niederlande</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-22.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -151,7 +151,50 @@
             </event>
             <event when-iso="1923-02-20">
                <head>Tagebuch, 20. Februar 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13471">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17105">Carl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17507">Franz Josef Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18297">Hans Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19358">Karl Rosen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19920">Schütz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20980">Adolf? Vogel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77586">Der Vampyr oder Die Gejagten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb948">Payerbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92432">Orthofstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-20.html</idno>
             </event>
          </listEvent>

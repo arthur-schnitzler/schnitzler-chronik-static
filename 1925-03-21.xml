@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,7 +105,50 @@
             </event>
             <event when-iso="1925-03-21">
                <head>Tagebuch, 21. März 1925</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15786">Edmonde Guy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20602">Georg Szell</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20746">John Tiller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14718">Julius Elias</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16144">Emil Herz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21298">Paul Wiegler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30751">Die Frau des Richters. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30817">Therese. Chronik eines Frauenlebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80655">Noch und Noch</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-21.html</idno>
             </event>
          </listEvent>

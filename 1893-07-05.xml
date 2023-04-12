@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -153,7 +153,41 @@
             </event>
             <event when-iso="1893-07-05">
                <head>Tagebuch, 5. Juli 1893</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14661">Regina Eibenschütz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16709">Friedrich Kapper</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21323">Ignaz Wild</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18076">Adalbert von Mengershausen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19611">Hermine von Schaffgotsch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30749">Die Frage an das Schicksal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90254">Anzenau</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-05.html</idno>
             </event>
          </listEvent>

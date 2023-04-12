@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1916-02-27">
                <head>Tagebuch, 27. Februar 1916</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15702">Alfred Grünfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16736">Ludwig Karpath</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18745">Hans Pfitzner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19588">Emil Georg Konrad von Sauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19942">Robert Schumann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20509">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21476">Ludwig Wüllner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18517">Siegfried Ochs</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78453">Manfred-Ouvertüre op. 115</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78462">Symphonie Nr. 4 d-Moll op. 120</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb65558">Durrës</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-02-27.html</idno>
             </event>
          </listEvent>

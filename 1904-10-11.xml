@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,59 @@
             </event>
             <event when-iso="1904-10-11">
                <head>Tagebuch, 11. Oktober 1904</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14101">George Gordon Noël Lord Byron</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17965">Emil Matern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17993">Fritz Mauthner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18066">Felix Mendelssohn-Bartholdy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19828">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21542">Stefan Żeromski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21545">Erich Ziegel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19411">Peter Rotenstern</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77466">Tagebücher und Briefe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78238">Der wilde Jockey und Anderes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92515">Schellingg.</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-11.html</idno>
             </event>
          </listEvent>

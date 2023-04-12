@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,39 @@
             </event>
             <event when-iso="1894-09-02">
                <head>Tagebuch, 2. September 1894</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13477">Stephan? Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92482">Rettenbach Wildnis</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91852">Strobl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb61000">Sankt Wolfgang im Salzkammergut</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb893">Cambridge</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44197">Oxford</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-02.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,7 +88,56 @@
             </event>
             <event when-iso="1925-08-11">
                <head>Tagebuch, 11. August 1925</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16807">Hedy Kempny</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17507">Franz Josef Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17037">Louise Koppel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40362">Vigo di Fassa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb465">Riva del Garda</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40260">Bozen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb562">Genf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-08-11.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,45 @@
             </event>
             <event when-iso="1925-06-27">
                <head>Tagebuch, 27. Juni 1925</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17037">Louise Koppel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40260">Bozen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91003">Carezza</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90170">Predazzo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91608">Passo di Rolle</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44311">San Martino di Castrozza</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90462">Cavalese</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90278">Auer</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-06-27.html</idno>
             </event>
          </listEvent>

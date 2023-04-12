@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,50 @@
             </event>
             <event when-iso="1923-02-13">
                <head>Tagebuch, 13. Februar 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13618">Alban Berg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17401">Franz Lehár</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17784">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20045">Gilbert Vivian Seldes</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20692">Scofield Thayer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30751">Die Frau des Richters. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78511">Die gelbe Jacke</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80946">Lieder</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92603">Wiednertheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92506">Sacher</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-13.html</idno>
             </event>
          </listEvent>

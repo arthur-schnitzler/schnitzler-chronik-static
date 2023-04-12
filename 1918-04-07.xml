@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,44 @@
             </event>
             <event when-iso="1918-04-07">
                <head>Tagebuch, 7. April 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17784">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14257">Sidonie-Gabrielle Colette</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79289">La vagabonde</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79381">Histoire de Gil Blas de Santillane</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91641">Salmannsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92533">Sofienalpe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90913">Penzing</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-04-07.html</idno>
             </event>
          </listEvent>

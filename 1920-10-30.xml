@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,65 @@
             </event>
             <event when-iso="1920-10-30">
                <head>Tagebuch, 30. Oktober 1920</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13414">Moritz Bárd</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14816">Karl Ettlinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16326">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16883">Bruno Klein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18075">Karl Menger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20380">Emil Steininger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20711">Hans Thimig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17662">Franz Löwy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18356">Napoleon Bonaparte</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77181">Streichquartett Nr. 6 B-Dur op. 18,6</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44016">Niederlande</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44335">Schweden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-10-30.html</idno>
             </event>
          </listEvent>

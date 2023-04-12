@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,12 +80,98 @@
             </event>
             <event when-iso="1916-04-17">
                <head>Tagebuch, 17. April 1916</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14334">Therese Czillag</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14473">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15324">Elsa Marguerite Galafrès</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30919">Aus der Mode</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30897">Himmelfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30921">Der verlorene Sohn</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-04-17.html</idno>
             </event>
             <event when-iso="1916-04-17">
                <head>Tagebuch von Schnitzler, 17. 4. 1916</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11165">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11394">Elsa Marguerite Galafrès</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27946">Therese Csillag</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30919">Aus der Mode</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30921">Der verlorene Sohn</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30897">Himmelfahrt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb37">Theater an der Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb281">Franz Hartmann, Leidingers Nachfolger</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041373.html</idno>
             </event>
          </listEvent>

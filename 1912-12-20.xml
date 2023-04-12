@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,7 +91,50 @@
             </event>
             <event when-iso="1912-12-20">
                <head>Tagebuch, 20. Dezember 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14626">Paul Eger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16185">Alfred Walter von Heymel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16797">Margarethe Keller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15115">Clemens von Franckenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30781">Der Vorige</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76473">Ariadne auf Naxos</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30907">Ariadne auf Naxos. Oper in einem Aufzug</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb834">Darmstadt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-20.html</idno>
             </event>
          </listEvent>

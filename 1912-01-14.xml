@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,12 +80,105 @@
             </event>
             <event when-iso="1912-01-14">
                <head>Tagebuch, 14. Januar 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14829">Hanns Heinz Ewers</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18328">Aranka Munk</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19058">Rappaport</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30359">Der Mann von vierzig Jahren</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-01-14.html</idno>
             </event>
             <event when-iso="1912-01-14">
                <head>Tagebuch von Schnitzler, 14. 1. 1912</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2757">Aranka Munk</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21676">Marie Munk</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11281">Hanns Heinz Ewers</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13648">Julius Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13644">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23061">Rappaport</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23062">Rappaport</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2753">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13653">Stefanie Bachrach</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31695">Alraune</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30359">Der Mann von vierzig Jahren</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb634">Hotel Erzherzog Johann</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb94">Meiereiwiese Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041076.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -204,12 +204,82 @@
             </event>
             <event when-iso="1904-01-08">
                <head>Schnitzler an Bahr, 8. 1. 1904</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2199">Stephan Epstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2211">André Antoine</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15946">Henriette Estelle Epstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11723">Bernhard Hoetger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb450">rue de l’Assomption</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb7">Secession</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041068.html</idno>
             </event>
             <event when-iso="1904-01-08">
                <head>Hofmannsthal an Schnitzler, [8.–9. 1. 1904]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2216">Norbert von Ortner-Rodenstätt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13682">Rosa Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb219">Sanatorium Schloss Marbach am Bodensee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041446.html</idno>
             </event>
          </listEvent>

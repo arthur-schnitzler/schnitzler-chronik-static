@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,7 +99,30 @@
             </event>
             <event when-iso="1892-03-12">
                <head>Tagebuch, 12. März 1892</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18791">Rudolf Eduard von Cuny-Pierron</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20976">Rosina Vita</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13611">Ferry Bératon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18616">Max Otto</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb81210">Kanonenfutter</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-03-12.html</idno>
             </event>
          </listEvent>

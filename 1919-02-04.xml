@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,157 @@
             </event>
             <event when-iso="1919-02-04">
                <head>Tagebuch, 4. Februar 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14785">Lazar Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16041">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16517">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17108">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18297">Hans Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19562">Friedrich Sander</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19850">Karl Schönherr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21377">Ludwig Winter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13428">Victor Barnowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18301">Josef Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30783">Der Schöpfer</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-02-04.html</idno>
             </event>
             <event when-iso="1919-02-04">
                <head>Tagebuch von Schnitzler, 4. 2. 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb27966">Friedrich Sander</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15971">Lazar Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3103">Rudolf Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21724">Josef Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12327">Hans Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10833">Victor Barnowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27211">Ludwig Winter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11988">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11632">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2601">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3105">Wilhelm Karczag</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12749">Karl Schönherr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30783">Der Schöpfer</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb240">Konzerthaus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041326.html</idno>
             </event>
          </listEvent>

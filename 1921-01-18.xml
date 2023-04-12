@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,38 @@
             </event>
             <event when-iso="1921-01-18">
                <head>Tagebuch, 18. Januar 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13663">Alfred Bernau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19925">Heinz Schulbaur</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15919">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17562">Ruth Lindberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21425">Lina Woiwode</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33205">Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den »Reigen«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-01-18.html</idno>
             </event>
          </listEvent>

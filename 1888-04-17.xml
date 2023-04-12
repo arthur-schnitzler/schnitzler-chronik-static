@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,33 @@
             </event>
             <event when-iso="1888-04-17">
                <head>Tagebuch, 17. April 1888</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16186">Paul Heyse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17375">Julius Lazarus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13310">Émile Augier</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13682">Max Bernstein</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb63090">Der Schierling. Lustspiel in 2 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76975">Coeur-Dame</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77313">Zwischen Lipp' und Bechersrand</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-04-17.html</idno>
             </event>
          </listEvent>

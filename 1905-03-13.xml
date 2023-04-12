@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,7 +109,32 @@
             </event>
             <event when-iso="1905-03-13">
                <head>Tagebuch, 13. März 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13449">Ferdinand Baruch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16009">Friedrich Hebbel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20270">Emanuel Spiro</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21250">Fritz Werner</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb34235">Die Nibelungen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41212">Korfu</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-13.html</idno>
             </event>
          </listEvent>

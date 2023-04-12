@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,7 +127,47 @@
             </event>
             <event when-iso="1922-03-13">
                <head>Tagebuch, 13. März 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15821">Aurelie Haberfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17904">Julie Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19633">Bernhard Scharrer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19616">Leon Schalit</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30749">Die Frage an das Schicksal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31357">Episode</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb313">Polen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36553">Brazil</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90593">England</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-13.html</idno>
             </event>
          </listEvent>

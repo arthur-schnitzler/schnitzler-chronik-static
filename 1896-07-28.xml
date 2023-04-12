@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,7 +140,22 @@
             </event>
             <event when-iso="1896-07-28">
                <head>Tagebuch, 28. Juli 1896</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb1119">Stockholm</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb62297">Saltsjöbaden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91302">Mosebacke torg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92559">Strömparterre</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-28.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,12 +100,61 @@
             </event>
             <event when-iso="1913-07-20">
                <head>Tagebuch, 20. Juli 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16993">Ignaz Kohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19105">Jean François Regnard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20728">Ludovica von Thürheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15877">Mary Halton</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb81153">Les folies amoureuses</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81152">Le joueur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79182">Mein Leben. Erinnerungen aus Österreichs großer Welt. Band 1 (1788–1819)</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-20.html</idno>
             </event>
             <event when-iso="1913-07-20">
                <head>Bahr an Schnitzler, 20. 7. 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb5">Gemäldegalerie Alte Meister</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb454">Äußerer Stein</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041339.html</idno>
             </event>
          </listEvent>

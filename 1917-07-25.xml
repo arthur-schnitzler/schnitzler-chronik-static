@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,74 @@
             </event>
             <event when-iso="1917-07-25">
                <head>Tagebuch, 25. Juli 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13192">Franz von Andlaw</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20112">Hermine Simandt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20530">August Strindberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19170">Anna Reiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20772">Leo N. von Tolstoi</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30753">Landsknecht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78576">Mein Tagebuch. Auszüge aus Aufschreibungen der Jahre 1811 bis 1861</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30651">Streichquartett Nr. 5 A-Dur op. 18,5</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77073">Heiraten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb59336">Lebens-Stufen. Kindheit, Knabenalter, Jünglingsjahre</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91239">Michaelerberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90753">Graben</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92330">Kärntnerstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-07-25.html</idno>
             </event>
          </listEvent>

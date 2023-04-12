@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,12 +109,44 @@
             </event>
             <event when-iso="1904-09-01">
                <head>Tagebuch, 1. September 1904</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20925">Leo Van-Jung</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-01.html</idno>
             </event>
             <event when-iso="1904-09-01">
                <head>Plan von Schnitzler zu Das Wort, September 1904</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb4798">Marie Lang</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4801">Heinrich Lang</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28816">Ida Oberndorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28817">Lilith Lang</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25665">Frida Strindberg</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30615">Das Wort. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030065.html</idno>
             </event>
          </listEvent>

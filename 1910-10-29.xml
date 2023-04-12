@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -147,7 +147,32 @@
             </event>
             <event when-iso="1910-10-29">
                <head>Tagebuch, 29. Oktober 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15977">Gabriele von Haugwitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19804">Franziska Schneider</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21047">Olga Waissnix</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33061">Die dreifache Warnung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb48637">Mantova</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90500">Cremona</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-29.html</idno>
             </event>
          </listEvent>

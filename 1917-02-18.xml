@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,56 @@
             </event>
             <event when-iso="1917-02-18">
                <head>Tagebuch, 18. Februar 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13730">Jean Billiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15833">Else Speidel-Haeberle</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20892">Rudolf Urbantschitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21593">Amalie Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30751">Die Frau des Richters. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30717">Komödie der Worte. Drei Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30759">Goethes Briefwechsel mit seiner Frau</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb176">Dornbacher Park</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44335">Schweden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb682">Dubrovnik</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43471">Budapest</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-02-18.html</idno>
             </event>
          </listEvent>

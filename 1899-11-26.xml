@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,96 @@
             </event>
             <event when-iso="1899-11-26">
                <head>Tagebuch, 26. November 1899</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13202">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16222">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-11-26.html</idno>
             </event>
             <event when-iso="1899-11-26">
                <head>Bahr: Theater und Kunst [Liebelei im Burgtheater], 26. 11. 1899</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2249">Arnold Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10905">Max Bernstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12265">Friedrich Mitterwurzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11610">Ernst Hartmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27259">Lotte Witt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12971">Otto Tressler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12746">Hermann Schöne</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31727">Blau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31729">Die Journalisten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32077">Theater und Kunst [Liebelei]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41552">Österreichische Volks-Zeitung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030016.html</idno>
             </event>
          </listEvent>

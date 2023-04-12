@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,7 +92,71 @@
             </event>
             <event when-iso="1925-10-16">
                <head>Tagebuch, 16. Oktober 1925</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14912">Franz Karl Feilchenfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15306">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15691">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16918">Eugen Klöpfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18140">Karl Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18643">Max Pallenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18856">Alfred Polgar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20581">Mathilde Sussin</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20392">Wilhelm Stekel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13548">Mirjam Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80380">Don Pasquale</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81354">Die Träume der Dichter</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90508">Dahlem</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90466">Charlottenburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-10-16.html</idno>
             </event>
          </listEvent>

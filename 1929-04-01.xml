@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,7 +100,59 @@
             </event>
             <event when-iso="1929-04-01">
                <head>Tagebuch, 1. April 1929</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14469">Alfred Döblin</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16165">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18424">Wilhelm Neumann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18866">Karl Friedrich Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18867">Magda Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18865">Hermann Erich Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16277">Norbert Hoffmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18885">Johann Pollak</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30817">Therese. Chronik eines Frauenlebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32049">Zug der Schatten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb302">Mariahilferstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-04-01.html</idno>
             </event>
          </listEvent>

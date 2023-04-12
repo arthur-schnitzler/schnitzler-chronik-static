@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1913-08-05">
                <head>Tagebuch, 5. August 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15736">Emma Gütersloh</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16316">Christian Hold</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17681">Hilde Lorant</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19418">Lilly Roth</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21593">Amalie Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21601">Otto Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17200">Adalbert von Kunzek-Lichton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77658">Symphonie Nr. 7 h-Moll D 759 (Unvollendete)</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92507">Saluga</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92260">Gronghera</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-05.html</idno>
             </event>
          </listEvent>

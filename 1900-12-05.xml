@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,12 +91,97 @@
             </event>
             <event when-iso="1900-12-05">
                <head>Tagebuch, 5. Dezember 1900</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb677">Breslau</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-05.html</idno>
             </event>
             <event when-iso="1900-12-05">
                <head>Bahr: Der Schleier der Beatrice, 5. 12. 1900</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4958">Theodor Ferdinand Bock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11441">Alexander Girardi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10854">Eduard von Bauernfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11518">Franz Grillparzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2412">William Shakespeare</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32626">Der Übermensch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31749">Fortunat</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31603">Weh’ dem, der lügt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30997">Der Schleier der Beatrice. (Schauspiel in fünf Akten von Arthur Schnitzler. Zum ersten Male aufgeführt am Breslauer Lobe-Theater am 1. Dez. 1900)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41321">Neues Wiener Tagblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30991">Premièren. Winter 1900 bis Sommer 1901</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb525">Lobe-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb896">Bologna</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030012.html</idno>
             </event>
          </listEvent>

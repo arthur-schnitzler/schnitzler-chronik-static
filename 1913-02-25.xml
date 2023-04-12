@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,30 @@
             </event>
             <event when-iso="1913-02-25">
                <head>Tagebuch, 25. Februar 1913</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_20942">Giuseppe Verdi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16111">Abel Hermant</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31429">Große Szene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78251">Les grands bourgeois</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76696">Missa da Requiem</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-02-25.html</idno>
             </event>
          </listEvent>

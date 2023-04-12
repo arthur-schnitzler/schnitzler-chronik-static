@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -131,7 +131,42 @@
             </event>
             <event when-iso="1923-05-11">
                <head>Tagebuch, 11. Mai 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15885">Louis Leonor Hammerich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16657">Marc Kalckar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb958">Skodsborg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb959">Marienlyst</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44252">Gilleleje</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90877">Hillerød</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-11.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,47 @@
             </event>
             <event when-iso="1919-11-16">
                <head>Tagebuch, 16. November 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13546">Theodor Beer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13845">Hermann von Boetticher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15326">Galileo Galilei</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17509">Robert Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18297">Hans Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18916">Josef Popper-Lynkeus</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78651">Die Liebe Gottes. Ein ernstes Spiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77587">Die Sterne</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1223">Bern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-11-16.html</idno>
             </event>
          </listEvent>

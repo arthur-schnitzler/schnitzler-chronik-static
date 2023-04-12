@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,7 +104,30 @@
             </event>
             <event when-iso="1909-01-20">
                <head>Tagebuch, 20. Januar 1909</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13925">Paul Brann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14515">Theo Drill-Oridge</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17827">Richard Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19745">Paul Schmedes</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13131">Ida d’Albert</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb89424">Andalusia</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-20.html</idno>
             </event>
          </listEvent>

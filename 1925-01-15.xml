@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,7 +120,77 @@
             </event>
             <event when-iso="1925-01-15">
                <head>Tagebuch, 15. Januar 1925</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13415">Emilie Bardach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14435">Leo von Di Pauli-Treuheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15566">Theodor Gomperz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16336">Bettina Holzapfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16337">Rudolf Maria Holzapfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16432">Henrik Ibsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16887">Irma Klein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17286">Gottlieb Landolf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19915">Richard Schüller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16090">Leopold von Hennet</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17941">Hugo Marti</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21134">Carl Wegelin</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33061">Die dreifache Warnung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80718">Panideal</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb1223">Bern</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92170">Blumenbergstr.</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb667">Garmisch-Partenkirchen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-15.html</idno>
             </event>
          </listEvent>

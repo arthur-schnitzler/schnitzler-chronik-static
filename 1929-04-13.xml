@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,12 +107,149 @@
             </event>
             <event when-iso="1929-04-13">
                <head>Tagebuch, 13. April 1929</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13075">Itshe Vagman</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16277">Norbert Hoffmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18077">Adolphe Menjou</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80355">Serenade</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb888">Warschau</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-04-13.html</idno>
             </event>
             <event when-iso="1929-04-13">
                <head>Schnitzler an Heinrich Schnitzler, 13. 4. 1929</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12936">Wilhelm Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695">Johann Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13149">Else Wohlgemuth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28595">Karl Maria von Thun-Hohenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11836">Leopold Jessner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28574">Leo Dunin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13004">Conrad Veidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10821">Ewald Balser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10934">Theodor Billroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10812">Wilhelm Backhaus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5960">Ruth Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32055">Die letzte Kompagnie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29873">Der Puppenspieler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29913">Der Faun</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31659">Schöne Seelen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32127">Klavierkonzert Nr. 2 b-Dur op. 83</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb590">Veldes</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb265">Dalmatien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49118">Vent</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb607">Stubaital</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb591">Matrei am Brenner</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb364">Matrei in Osttirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb897">Lienz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041461.html</idno>
             </event>
          </listEvent>

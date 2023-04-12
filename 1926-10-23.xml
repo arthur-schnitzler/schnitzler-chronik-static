@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,7 +90,47 @@
             </event>
             <event when-iso="1926-10-23">
                <head>Tagebuch, 23. Oktober 1926</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20933">Clément Vautel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14257">Sidonie-Gabrielle Colette</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16355">Franz Horch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21298">Paul Wiegler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30051">Der Geist im Wort und der Geist in der Tat</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32131">Spiel im Morgengrauen. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80161">Ein Walzertraum</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79290">Mitsou</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79535">Mon curé chez les riches</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-10-23.html</idno>
             </event>
          </listEvent>

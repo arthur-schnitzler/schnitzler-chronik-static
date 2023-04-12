@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,12 +86,75 @@
             </event>
             <event when-iso="1928-04-25">
                <head>Tagebuch, 25. April 1928</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19505">Ludwig Sachs</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-25.html</idno>
             </event>
             <event when-iso="1928-04-25">
                <head>Aufzeichnung von Bahr, 25. 4. 1928</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11304">Hans Feigl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11171">Konrad Dreher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11068">Pedro Calderón de la Barca</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28802">Carl Anton Reichel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28805">Maria Rabl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30817">Therese. Chronik eines Frauenlebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31561">Goethedämmerung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb765">Johann-Strauß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb753">Hirschau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb711">St. Ludwig (München)</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29204">Marianische Männerkongregation</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29197">Wiener Bibliophilengesellschaft</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29196">Reclams Universum</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041601.html</idno>
             </event>
          </listEvent>

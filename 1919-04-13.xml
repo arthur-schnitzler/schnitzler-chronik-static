@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,45 @@
             </event>
             <event when-iso="1919-04-13">
                <head>Tagebuch, 13. April 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15204">Oscar Fried</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19886">Franz Schreker</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20509">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13929">Felix Braun</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13939">Alexander Brauner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20944">Émile Verhaeren</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb56883">Ein Walzertraum</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80546">Auswanderer</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-04-13.html</idno>
             </event>
          </listEvent>

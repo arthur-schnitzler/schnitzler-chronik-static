@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,39 @@
             </event>
             <event when-iso="1908-09-04">
                <head>Tagebuch, 4. September 1908</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16344">Martha Honig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18364">Eugen Nathorff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19597">Nettie von Scanavi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21387">Alfred von Winterstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18358">Ella Naschauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44311">San Martino di Castrozza</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-04.html</idno>
             </event>
          </listEvent>

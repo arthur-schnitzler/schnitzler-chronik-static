@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,65 @@
             </event>
             <event when-iso="1919-06-25">
                <head>Tagebuch, 25. Juni 1919</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13657">Richard Arnold Bermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13774">Franz Blei</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14317">César A. Cui</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14320">Thomas Andrew Cuninghame</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18209">Alexander Moissi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20711">Hans Thimig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13411">Henri Barbusse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18672">Ernestine Patak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15345">Hugo Ganz</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76902">Logik des Herzens. Lustspiel in vier Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80345">Quartett</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb982">Saint-Germain-en-Laye</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44053">New York City</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb468">Europa</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-06-25.html</idno>
             </event>
          </listEvent>

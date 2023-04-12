@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,12 +95,107 @@
             </event>
             <event when-iso="1928-03-21">
                <head>Tagebuch, 21. März 1928</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13753">Georg Bittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13925">Paul Brann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15395">Paul Géraldy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16355">Franz Horch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30299">Abenteurernovelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30939">Son mari. Comedie en trois actes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-03-21.html</idno>
             </event>
             <event when-iso="1928-03-21">
                <head>Tagebuch von Schnitzler, 21. 3. 1928</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10788">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12435">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3138">Paul Géraldy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10998">Paul Brann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3239">Georg Bittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11774">Franz Horch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30299">Abenteurernovelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30939">Son mari. Comedie en trois actes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40">Theater in der Josefstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb495">Hotel Weißer Hahn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041384.html</idno>
             </event>
          </listEvent>

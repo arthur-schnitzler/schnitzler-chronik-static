@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,19 +94,159 @@
             </event>
             <event when-iso="1897-11-15">
                <head>Tagebuch, 15. November 1897</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-11-15.html</idno>
             </event>
             <event when-iso="1897-11-15">
                <head>Bahr: [Notizen zur Lesung von Die Toten schweigen], [Mitte November
                      1897]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28037">Heinrich Leoster</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27870">Maximillian Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28040">Sigmund Geiringer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2968">Adolph Donath</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10854">Eduard von Bauernfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11524">Ferdinand Gross</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11469">Alfred Gold</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12651">Rudolf Schildkraut</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12926">Fritz Telmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2157">Leo Ebermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3261">Leonhard Fanto</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11771">Rudolf Holzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12790">Isidor Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29833">Die Toten schweigen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31307">Eine neue litterarische Schule</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30969">Quer durch den Wurstelprater</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb440">Wallgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb441">Gonzagagasse</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29304">Reichswehr</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29206">Cosmopolis</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041402.html</idno>
             </event>
             <event when-iso="1897-11-15">
                <head>Bahr: [Aufzeichnung zur 2. Lesung im Bösendorfer-Saal], [Mitte November?
                      1897]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2888">Paul Wertheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12858">Otto Stoessl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12832">Rudolf Steiner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3293">Gustav Waniek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21867">Neuberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3297">Josef Lenobel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11524">Ferdinand Gross</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27662">Ignaz Kugel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3300">Julius Löwy</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29304">Reichswehr</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041401.html</idno>
             </event>
          </listEvent>

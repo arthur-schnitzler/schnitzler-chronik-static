@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,53 @@
             </event>
             <event when-iso="1911-02-12">
                <head>Tagebuch, 12. Februar 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14589">Sigmund Dynes</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15073">Theodor Fontane</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15823">Leo Haberfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17283">Ernst Landesmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20280">Jacques Spitzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20282">Salomon Spitzer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30201">Doktor Gräsler, Badearzt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30321">Theaterroman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78378">Irrungen, Wirrungen. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb833">Brünn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-02-12.html</idno>
             </event>
          </listEvent>

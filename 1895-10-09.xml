@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,105 @@
             </event>
             <event when-iso="1895-10-09">
                <head>Tagebuch, 9. Oktober 1895</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13128">Eduard Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13581">Marianne Benedict</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16296">Oskar Hofmeister</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17493">Josef Lewinsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18190">Friedrich Mitterwurzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18266">Josef Moser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19372">Leopold Rosenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20204">Adolf von Sonnenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20925">Leo Van-Jung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14363">Jakob Julius David</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15845">Baronin Hahn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18320">Franziska Mütter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80075">Die Frauen und das Studium der Medicin</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31711">Rechte der Seele. Schauspiel in einem Act</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-10-09.html</idno>
             </event>
             <event when-iso="1895-10-09">
                <head>Tagebuch von Leopold von Andrian, [9. 10.? 1895]</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11431">Giuseppe Giacosa</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16063">F.</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31711">Rechte der Seele</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041496.html</idno>
             </event>
          </listEvent>

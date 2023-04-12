@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,12 +80,99 @@
             </event>
             <event when-iso="1917-02-22">
                <head>Tagebuch, 22. Februar 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16009">Friedrich Hebbel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20201">Kurt Sonnenfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20509">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13376">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30817">Therese. Chronik eines Frauenlebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30905">Die Stimme. Schauspiel in 3 Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31577">Agnes Bernauer</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31917">Streichquartett Nr. 1 b-Dur D 18</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-02-22.html</idno>
             </event>
             <event when-iso="1917-02-22">
                <head>Tagebuch von Schnitzler, 22. 2. 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12870">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12163">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3109">Kurt Sonnenfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12729">Franz Peter Schubert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2404">Friedrich Hebbel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30905">Die Stimme. Schauspiel in 3 Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30257">Der Sohn. Aus den Papieren eines Arztes</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31917">Streichquartett Nr. 1 b-Dur D 18</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31577">Agnes Bernauer</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb552">Station Stadtpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041538.html</idno>
             </event>
          </listEvent>

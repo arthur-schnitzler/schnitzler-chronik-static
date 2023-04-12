@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,45 @@
             </event>
             <event when-iso="1915-07-23">
                <head>Tagebuch, 23. Juli 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15855">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17803">Efim Manassewitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20778">Alfred Topolanski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16894">Margot Vallo</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17822">Irene Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17064">Wilhelm Korvin</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91083">Küb</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb948">Payerbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49072">Prein an der Rax</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-07-23.html</idno>
             </event>
          </listEvent>

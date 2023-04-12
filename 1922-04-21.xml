@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,65 @@
             </event>
             <event when-iso="1922-04-21">
                <head>Tagebuch, 21. April 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14199">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16469">Lucy von Jacobi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17044">von Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17943">Hans Martin</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18388">Johanna Nemetschke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19226">Emil Alphons Rheinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21057">Tilly Waldegg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21131">Tilly Wedekind</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30163">Weihnachts-Einkäufe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29893">Excentric</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92467">Pschorrbräu</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92487">Rissersee</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-04-21.html</idno>
             </event>
          </listEvent>

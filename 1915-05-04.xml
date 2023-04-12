@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,38 @@
             </event>
             <event when-iso="1915-05-04">
                <head>Tagebuch, 4. Mai 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16437">August Wilhelm Iffland</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17423">Karoline Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19364">Richard Rosenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19824">Johann Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78853">Der Spieler. Ein Schauspiel in fünf Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92023">Vosges</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-05-04.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,78 @@
             </event>
             <event when-iso="1917-05-26">
                <head>Tagebuch, 26. Mai 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18916">Josef Popper-Lynkeus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20374">Margit Steiner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13096">Friedrich Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-05-26.html</idno>
             </event>
             <event when-iso="1917-05-26">
                <head>Tagebuch von Schnitzler, 26. 5. 1917</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2135">Josef Popper-Lynkeus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13653">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2753">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13648">Julius Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13644">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3618">Adolf Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10746">Friedrich Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25409">Margit Steiner</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33838">Jugend in Wien</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041542.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,17 +106,111 @@
             </event>
             <event when-iso="1921-11-23">
                <head>Tagebuch, 23. November 1921</head>
-               <desc/>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30205">Komödie der Verführung. In drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29865">Die Frau mit dem Dolche</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-11-23.html</idno>
             </event>
             <event when-iso="1921-11-23">
                <head>Olga an Arthur Schnitzler, 23. 11. 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2284">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4809">Ernst von Feuchtersleben</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2753">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22098">Helene Odilon</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32015">Zur Diätetik der Seele</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041669.html</idno>
             </event>
             <event when-iso="1921-11-23">
                <head>Aufzeichnung von Bahr, 23. 11. 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11227">Paul Eger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3739">Leo N. von Tolstoi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4736">Dmitrij Umanskij</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30079">Tagebuch. 17. November [1921]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30097">Tagebuch. 18. November [1921]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30101">Tagebuch. 19. November [1921]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30889">Denkwürdigkeiten, Erinnerungen und Briefe. Band 1</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb237">Schloss Leopoldskron</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29320">Neues Wiener Journal</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041591.html</idno>
             </event>
          </listEvent>

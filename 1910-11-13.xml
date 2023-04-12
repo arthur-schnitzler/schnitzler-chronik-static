@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1910-11-13">
                <head>Tagebuch, 13. November 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15212">Heinrich Friedjung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18691">Max Paulsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18964">Alfred Francis Přibram</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20330">Friedrich Gottlieb Stapß</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15148">Franz I.</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18356">Napoleon Bonaparte</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13115">Aloys von Aehrenthal-Lexa</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30213">Die Hirtenflöte. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb64219">Döbling</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb574">Kahlenberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46476">Tata</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-13.html</idno>
             </event>
          </listEvent>

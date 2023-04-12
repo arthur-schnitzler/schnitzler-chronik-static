@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,7 +80,56 @@
             </event>
             <event when-iso="1923-05-17">
                <head>Tagebuch, 17. Mai 1923</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17567">Gustaf Linden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20140">Walter Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20586">Nils Oscar Svahn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20657">Elvira Beda Teller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13191">Anna Lisa Andersson</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17568">Olga Linden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18473">Carl Nordberger</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31393">Die Büchse der Pandora. Tragödie in drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb1119">Stockholm</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb62679">Östermalmsgatan</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90593">England</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90529">Djurgården</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-17.html</idno>
             </event>
          </listEvent>

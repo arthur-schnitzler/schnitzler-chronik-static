@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,57 @@
             </event>
             <event when-iso="1922-09-15">
                <head>Tagebuch, 15. September 1922</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13171">Hans Altmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14331">Ottokar von Czernin-Chudenitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15231">Max Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17505">Margarethe Lichtenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18030">Richard Mayr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20038">Ignaz Seipel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20454">Marie Elisabeth Stößler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18028">Bertha Marie Mayr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb797">Berchtesgaden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92039">Wallersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90765">Gremsmühlen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-09-15.html</idno>
             </event>
          </listEvent>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,17 +106,227 @@
             </event>
             <event when-iso="1911-10-30">
                <head>Tagebuch, 30. Oktober 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14626">Paul Eger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14848">Marius Faber</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17220">Adolf Kussmaul</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17228">Jaroslav Kvapil</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18034">Hermine Medelsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19547">Hugo Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19782">Gustav Schmoranz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20682">Heinrich Teweles</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30351">Jan Hus</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-30.html</idno>
             </event>
             <event when-iso="1911-10-30">
                <head>Arthur an Olga Schnitzler, 30. 10. 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12932">Heinrich Teweles</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12611">Hugo Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14384">Charlotte Bondy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10729">Gustav Schmoranz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12011">Jaroslav Kvapil</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2749">Alois Jirásek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12749">Karl Schönherr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27818">Olga Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28296">Wolfgang Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27821">Louise Engel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30351">Jan Hus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31311">Liebelei. Oper in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30353">Dichtung und Dichter der Zeit</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90">Palasthotel Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91">Neues Deutsches Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92">Národní divadlo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb38444">Tschechoslowakei</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb474">Čelakovského sady</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41285">Česká Lípa</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041402.html</idno>
             </event>
             <event when-iso="1911-10-30">
                <head>Tagebuch von Schnitzler, 30. 10. 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12932">Heinrich Teweles</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10729">Gustav Schmoranz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12011">Jaroslav Kvapil</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2749">Alois Jirásek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12611">Hugo Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27818">Olga Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27821">Louise Engel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16067">Marius Faber</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2252">Lotte Medelsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11227">Paul Eger</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30351">Jan Hus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30353">Dichtung und Dichter der Zeit</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30355">Jugenderinnerungen eines alten Arztes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90">Palasthotel Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91">Neues Deutsches Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92">Národní divadlo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb93">Hotel Blauer Stern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041074.html</idno>
             </event>
          </listEvent>

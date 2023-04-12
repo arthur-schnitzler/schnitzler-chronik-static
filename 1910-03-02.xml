@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1910-03-02">
                <head>Tagebuch, 2. März 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13914">Johannes Brahms</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16653">Max Kalbeck</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16801">Leon Kellner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20078">William Shakespeare</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21375">Josef von Winter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19903">Wilhelmine Schubert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77660">Walzerreigen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb60068">Messerschmidtgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59367">Schafberg (St. Gilgen)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-02.html</idno>
             </event>
          </listEvent>

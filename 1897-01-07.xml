@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,12 +92,85 @@
             </event>
             <event when-iso="1897-01-07">
                <head>Tagebuch, 7. Januar 1897</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-01-07.html</idno>
             </event>
             <event when-iso="1897-01-07">
                <head>Schnitzler an Otto Brahm, 7. 1. 1897</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4200">Babette Reinhold</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27707">?? [Schriftsteller, der Schnitzler Trauerspiel schickte 1897]</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12311">Alfred de Musset</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11168">Maurice Donnay</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2299">Agnes Sorma</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29829">Das Tschaperl</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31735">Die versunkene Glocke</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29971">Die Wildente</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29825">Jugend. Ein Liebesdrama</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31509">Lorenzaccio</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31537">Die Verliebten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041384.html</idno>
             </event>
          </listEvent>

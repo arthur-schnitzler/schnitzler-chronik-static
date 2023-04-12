@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,36 @@
             </event>
             <event when-iso="1921-03-07">
                <head>Tagebuch, 7. März 1921</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14178">Joseph Chapiro</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16469">Lucy von Jacobi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17440">G. Lenotre</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15369">Friedrich Geiringer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20563">Hermann Sudermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77027">Le drame de Varennes juin 1791 d'après des documents inédits et les relations des témoins oculaires</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-03-07.html</idno>
             </event>
          </listEvent>

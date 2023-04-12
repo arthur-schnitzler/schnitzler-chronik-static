@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -98,7 +98,24 @@
             </event>
             <event when-iso="1928-08-25">
                <head>Tagebuch, 25. August 1928</head>
-               <desc/>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb80938">Tagebuch-Aufzeichnungen von Ludwig II., König von Bayern</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80973">Benjamin Disraeli, Lord Beaconsfield</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90895">Hohenschwangau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb596">Füssen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-08-25.html</idno>
             </event>
          </listEvent>

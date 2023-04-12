@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,7 +92,74 @@
             </event>
             <event when-iso="1910-07-01">
                <head>Tagebuch, 1. Juli 1910</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13489">Bernhard Baumeister</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15172">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16008">Christine Hebbel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17397">Heinrich Lefler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18752">Charles-Louis Philippe</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19364">Richard Rosenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20929">Karl August von Varnhagen-Ense</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20055">Ignaz Semmelweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21463">Charlotte Wolter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35765">Belastet</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79433">Dans la petite ville</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30867">Henry IV, Part 1</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30297">Tagebücher</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-01.html</idno>
             </event>
          </listEvent>

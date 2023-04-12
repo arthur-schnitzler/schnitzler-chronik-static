@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,44 @@
             </event>
             <event when-iso="1924-01-26">
                <head>Tagebuch, 26. Januar 1924</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16432">Henrik Ibsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17917">Eugenie John</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18973">Hans Prinzhorn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15210">Egon Friedell</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20563">Hermann Sudermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30205">Komödie der Verführung. In drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81138">Bildnerei der Geisteskranken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77267">Die Denkmalsweihe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-01-26.html</idno>
             </event>
          </listEvent>

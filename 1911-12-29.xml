@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,47 @@
             </event>
             <event when-iso="1911-12-29">
                <head>Tagebuch, 29. Dezember 1911</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19314">Auguste Rodin</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19352">Justine Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21387">Alfred von Winterstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21480">Wilhelm Max Wundt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30319">Der Komödiant</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77142">Die Geschöpfe des Prometheus, Ouvertüre C-Dur op. 43</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76540">Gedichte</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb864">Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-12-29.html</idno>
             </event>
          </listEvent>

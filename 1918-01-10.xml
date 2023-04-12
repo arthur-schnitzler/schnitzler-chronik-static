@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,62 @@
             </event>
             <event when-iso="1918-01-10">
                <head>Tagebuch, 10. Januar 1918</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14785">Lazar Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15766">Marie Gutheil-Schoder</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20172">Bedřich Smetana</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21328">Anton Wildgans</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15442">Alexander Girardi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20538">Oskar Strnad</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20690">Wilhelm Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21074">Karl Wallner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18298">Hermann Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18970">Elisabeth Prinzhorn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19392">Friedrich Rosenthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-01-10.html</idno>
             </event>
          </listEvent>

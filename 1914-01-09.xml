@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,56 @@
             </event>
             <event when-iso="1914-01-09">
                <head>Tagebuch, 9. Januar 1914</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15172">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15185">Marya Freund</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18589">Amelie Oser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21597">Fritz Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18081">Adolph von Menzel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19135">Theodor Reik</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20885">Fritz von Unruh</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31447">Stunde des Erkennens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81159">Arthur Schnitzler als Psycholog</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76584">Louis Ferdinand, Prinz von Preußen. Ein Drama</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-01-09.html</idno>
             </event>
          </listEvent>

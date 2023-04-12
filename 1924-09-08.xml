@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,12 +75,112 @@
             </event>
             <event when-iso="1924-09-08">
                <head>Tagebuch, 8. September 1924</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14284">Felix Costa</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16811">Ferdinand Kende</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17667">Alfred Lohner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19402">Adolfo Rossi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21527">Sigmund Zeisler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30269">Die Kinder. Eine Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb880">Chicago</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-09-08.html</idno>
             </event>
             <event when-iso="1924-09-08">
                <head>Tagebuch von Schnitzler, 8. 9. 1924</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb20400">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19273">Ferdinand Kende</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23619">Adolfo Rossi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12435">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15108">Felix Costa</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12104">Alfred Lohner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27442">Joseph Zeisler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27980">Teresa Zeisler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30269">Die Kinder. Eine Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb233">Schloßtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb880">Chicago</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb234">Krautstofl</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36907">Paul Zsolnay Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041336.html</idno>
             </event>
          </listEvent>

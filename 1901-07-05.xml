@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,7 +140,50 @@
             </event>
             <event when-iso="1901-07-05">
                <head>Bahr an Schnitzler, 5. 7. 1901</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12460">Eduard Pötzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11330">Gustave Flaubert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2207">Gustav Davis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2176">Phillipp II. von Spanien</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2181">Diego Rodríguez de Silva y Velázquez</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29304">Reichswehr</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29394">Kikeriki</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041238.html</idno>
             </event>
          </listEvent>

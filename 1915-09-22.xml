@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,7 +75,57 @@
             </event>
             <event when-iso="1915-09-22">
                <head>Tagebuch, 22. September 1915</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14286">Hilde Coste</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15032">Artur Fleischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15396">Alfred Gerasch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15412">Emil Geyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17222">Mathilde Kutschera</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18035">Lotte Medelsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18884">Jacob Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19283">Helene Ritscher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20742">Jakob Tiedtke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21059">Harry Walden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31429">Große Szene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76946">Die ungleichen Schalen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-09-22.html</idno>
             </event>
          </listEvent>

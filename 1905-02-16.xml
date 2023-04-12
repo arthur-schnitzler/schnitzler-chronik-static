@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-07.">07.04.2023</date>
+            <date when-iso="2023-04-12.">12.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,7 +106,53 @@
             </event>
             <event when-iso="1905-02-16">
                <head>Tagebuch, 16. Februar 1905</head>
-               <desc/>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13473">Ludwig Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13993">Emilio? Broglio</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16836">Hermann Kienzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17260">Arturo Lambri</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17531">Robert Lienau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18500">Gustav Nowy von Wallersberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19407">Medardo Rosso</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20523">Anna Sikora</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14189">Maria Luigi Zenobio Cherubini</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14792">Dora Erl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb80302">Der Wasserträger</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb48365">Ljubljana</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb966">Istanbul</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-02-16.html</idno>
             </event>
          </listEvent>
