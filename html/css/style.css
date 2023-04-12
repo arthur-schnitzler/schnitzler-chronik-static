@@ -72,9 +72,6 @@ cite {
     padding: .5em .5em .5em 0;
 }
 
-.custom-logo-link {
-    margin-bottom: -2em;
-}
 
 body {
     border-top-width: 0;
@@ -539,3 +536,23 @@ low resolution
 #########################################
 */
 }
+
+/*** calendar ***/
+
+
+#years-table .btn-light:focus, #years-table .btn-light.focus {
+    background: #C67F53;
+    text-decoration-thickness: 4px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.yearbtn {
+    padding: 2px;
+    font-size: 0.9rem;
+    border: none;
+    background-color: transparent;
+
+}
+

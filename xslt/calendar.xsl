@@ -40,13 +40,13 @@
                             </div>
                             <div class="card-body containingloader">
                                 <div class="row">
-                                    <div class="col-sm-2 yearscol">
+                                    <div class="col-sm-2 yearscol" >
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <p style="text-align:center;font-weight:bold;margin-bottom:0;">Jahr</p>
                                             </div>
                                         </div>
-                                        <div class="row justify-content-md-center" id="years-table">
+                                        <div class="row justify-content-md-center" id="years-table" >
                                             
                                         </div>
                                     </div>
@@ -57,14 +57,15 @@
                             </div>
                         </div>
                     </div>
-                     <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Die Briefe in Kalenderansicht</h5>
+                                    <h5 class="modal-title">Kalenderansicht</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Briefe eines bestimmten Tages suchen.
+                                    <p>
+                                        Das erklärt sich doch von selbst?
                                     </p>
                                 </div>
                                 <div class="modal-footer">
@@ -73,6 +74,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <script type="text/javascript" src="js/calendar.js" charset="UTF-8"/>
                     <div id="loadModal"/>
                     <xsl:call-template name="html_footer"/>
