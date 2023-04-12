@@ -62,7 +62,7 @@
                                 <h6 class="font-weight-bold">HELPDESK</h6>
                                 <p>Bei Fragen, Anmerkungen, Kritik, aber gerne auch Lob, wenden Sie sich bitte an den ACDH-CH Helpdesk.</p>
                                 <p>
-                                    <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ASK US!</a>
+                                    <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">e-Mail</a>
                                 </p>
                             </div>
                         </div>

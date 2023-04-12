@@ -326,7 +326,7 @@
                             </xsl:element>
                         </xsl:element>
                     </xsl:when>
-                    <xsl:when test="starts-with(@ref, 'pmb')">
+                    <xsl:when test="starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
                                 <xsl:text>badge rounded-pill</xsl:text>
@@ -341,23 +341,9 @@
                                     <xsl:text>color: white; </xsl:text>
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
-                                    <xsl:choose>
-                                        <xsl:when test="$type = 'schnitzler-briefe'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:when test="$type = 'schnitzler-bahr'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', replace(@ref, 'pmb', ''), '/detail')"
-                                            />
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                    <xsl:value-of
+                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                    />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
                                     <xsl:text>_blank</xsl:text>
@@ -366,6 +352,7 @@
                             </xsl:element>
                         </xsl:element>
                     </xsl:when>
+                    
                     <xsl:otherwise>
                         <xsl:value-of select="."/>
                         <xsl:if test="not(position() = last())">
@@ -436,23 +423,9 @@
                                     <xsl:text>color: white; </xsl:text>
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
-                                    <xsl:choose>
-                                        <xsl:when test="$type = 'schnitzler-briefe'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:when test="$type = 'schnitzler-bahr'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/institution/', replace(@ref, 'pmb', ''), '/detail')"
-                                            />
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                    <xsl:value-of
+                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                    />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
                                     <xsl:text>_blank</xsl:text>
@@ -502,23 +475,9 @@
                                     <xsl:text>color: white; </xsl:text>
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
-                                    <xsl:choose>
-                                        <xsl:when test="$type = 'schnitzler-briefe'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:when test="$type = 'schnitzler-bahr'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/', replace(@ref, 'pmb', ''), '/detail')"
-                                            />
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                    <xsl:value-of
+                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                    />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
                                     <xsl:text>_blank</xsl:text>
@@ -568,23 +527,9 @@
                                     <xsl:text>color: white; </xsl:text>
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
-                                    <xsl:choose>
-                                        <xsl:when test="$type = 'schnitzler-briefe'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-briefe.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:when test="$type = 'schnitzler-bahr'">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-bahr.acdh.oeaw.ac.at/', @ref, '.html')"
-                                            />
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/', replace(@ref, 'pmb', ''), '/detail')"
-                                            />
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                    <xsl:value-of
+                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                    />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
                                     <xsl:text>_blank</xsl:text>
