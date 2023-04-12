@@ -108,7 +108,7 @@ a {
 }
 
 .container-fluid {
-    max-width: 1200px;
+/*    max-width: 1200px; */
 }
 
 .italic {
@@ -284,10 +284,11 @@ div.dataTables_filter {
     font-family: "Font Awesome 5 Free" !important;
 }
 
-.img-fluid {
-    max-width: 6rem !important;
-}
 
+.img-fluid {
+    max-width: 160% !important;
+    max-height: 160% !important;
+}
 .card {
     margin: 2em auto;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
@@ -556,3 +557,16 @@ low resolution
 
 }
 
+/*** navbar ***/
+.navbar {
+    border-bottom: 5px solid #C67F53;
+    background-color: white;
+    z-index: 99}
+
+.navbar .navbar-brand {
+        padding-right: 0}
+    
+.navbar .navbar-brand img {
+        height: 5rem;
+        max-height: unset}
+    
