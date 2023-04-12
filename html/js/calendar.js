@@ -3,7 +3,7 @@ function getYear(item) {
 }
 
 function createyearcell(val) {
-  return (val !== undefined) ? `<div class="col-xs-6">\
+  return (val !== undefined) ? `<div class="col-xs-6 " style="width: auto;">\
   <button id="ybtn${val}" class="btn btn-light rounded-0 yearbtn" value="${val}" onclick="updateyear(this.value)">${val}</button>\
 </div>` : '';
 }
