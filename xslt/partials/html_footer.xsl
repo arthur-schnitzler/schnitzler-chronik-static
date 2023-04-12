@@ -26,7 +26,7 @@
                                 <br/>
                                 Austrian Centre for Digital Humanities and Cultural Heritage
                                 <br/>
-                                Austrian Academy of Sciences
+                                Österreichische Akademie der Wissenschaften
                             </p>
                             <p>
                                 Bäckerstraße 13
@@ -46,15 +46,7 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.fwf.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 140px; height: auto; margin-top:1em;" title="FWF Der Wissenschaftsfond" /></a>
-                                        <!--<div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Project partner</p>
-                                        </div>-->
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.arthur-schnitzler.de/"><img class="card-img-right flex-auto d-md-block" src="https://www.arthur-schnitzler.de/themes/schnitzler-interimswebsite/img/arthur-schnitzler-digital-de.png" alt="Arthur Schnitzler digital" style="max-width: 160px; height: auto; vertical-align: middle; background-color: #801e23;" title="Arthur Schnitzler digital" /></a>
+                                        <a href="https://www.arthur-schnitzler.de/"><img class="card-img-right flex-auto d-md-block" src="https://www.arthur-schnitzler.de/themes/schnitzler-interimswebsite/img/arthur-schnitzler-digital-de.png" alt="Arthur Schnitzler digital" style="max-width: 300px; height: auto; vertical-align: middle; background-color: #801e23;" title="Arthur Schnitzler digital" /></a>
                                         <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Project partner</p>
                                         </div>-->
@@ -68,7 +60,7 @@
                         <div class="row">
                             <div class="textwidget custom-html-widget">
                                 <h6 class="font-weight-bold">HELPDESK</h6>
-                                <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities topics.</p>
+                                <p>Bei Fragen, Anmerkungen, Kritik, aber gerne auch Lob, wenden Sie sich bitte an den ACDH-CH Helpdesk.</p>
                                 <p>
                                     <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ASK US!</a>
                                 </p>

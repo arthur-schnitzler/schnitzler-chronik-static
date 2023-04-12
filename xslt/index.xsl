@@ -113,6 +113,9 @@
                             sondern in den jeweiligen Online-Editionen, die durch Anbindung an die
                             vorliegende Ressource einfach zu jedem Tag weitere Informationen aus dem
                             Leben Schnitzlers verlinken können.</p>
+                        <p class="mt-3"/>
+                        <p class="mt-3" style="text-align:right; font-style: italic;">Martin Anton Müller, Laura Untner<br/>Wien, April 2023</p>
+
                     </div></div>
                     <div class="container-fluid" style="margin:2em auto;">
                         <div class="row wrapper img_bottom">
