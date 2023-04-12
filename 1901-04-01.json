@@ -1,0 +1,119 @@
+{
+ "date":
+ {
+ "when-iso":
+ "1901-04-01",
+ "written":
+ "Montag, 1. April 1901"
+},
+"listEvent":
+ [{
+ "type":
+ "schnitzler-orte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/445/",
+ "head":
+ "Rom"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01104.html",
+ "head":
+ "Arthur Schnitzler, Jakob Wassermann an Richard Beer-Hofmann, 1. 4. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Sankt Paul vor den Mauern",
+ "ref":
+ "pmb50766"}
+ ]}
+
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 1. 4. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Schnitzler, Olga",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."}
+
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-04-01.html",
+ "head":
+ "Tagebuch, 1. April 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "Maysedergasse",
+ "ref":
+ "pmb92397"}
+ ,  {
+ "placeName":
+ "Vatican City",
+ "ref":
+ "pmb91997"}
+ ]}
+
+}] 
+}

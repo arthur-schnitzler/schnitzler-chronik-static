@@ -1,0 +1,77 @@
+{
+ "date":
+ {
+ "when-iso":
+ "1912-05-19",
+ "written":
+ "Sonntag, 19. Mai 1912"
+},
+"listEvent":
+ [{
+ "type":
+ "schnitzler-orte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig"
+}, {
+ "type":
+ "schnitzler-orte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34050/",
+ "head":
+ "Hotel de l’Europe"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "head":
+ "Arthur Schnitzler an Eugen Deimel, 19.5.1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Deimel, Eugen",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"}
+
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-19.html",
+ "head":
+ "Tagebuch, 19. Mai 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Markusplatz",
+ "ref":
+ "pmb92388"}
+ ]}
+
+}] 
+}

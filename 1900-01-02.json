@@ -1,0 +1,134 @@
+{
+ "date":
+ {
+ "when-iso":
+ "1900-01-02",
+ "written":
+ "Dienstag, 2. Januar 1900"
+},
+"listEvent":
+ [{
+ "type":
+ "schnitzler-orte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/790/",
+ "head":
+ "Tuchlauben"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02901.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 2. 1. [1900]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Saxonia",
+ "ref":
+ "pmb40853"}
+ ,  {
+ "placeName":
+ "Stresemannstraße",
+ "ref":
+ "pmb40854"}
+ ]}
+
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#zd58d226-ca44-4dfa-b10c-81551ef4de77",
+ "head":
+ "Arthur Schnitzler an Rainer Maria Rilke, 2.1.1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rainer Maria Rilke",
+ "ref":
+ "https://d-nb.info/gnd/118601024"}],
+ "bibl":
+ "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."}
+
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-01-02.html",
+ "head":
+ "Tagebuch, 2. Januar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "person_14056"},
+ {
+ "persName":
+ "Selma Kurz",
+ "ref":
+ "person_17216"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "person_19729"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tuchlauben",
+ "ref":
+ "pmb790"}
+ ]}
+
+}] 
+}
