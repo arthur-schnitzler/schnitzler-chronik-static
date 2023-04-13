@@ -294,7 +294,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
+        <li><i>Erwähnte Personen: </i>
             <xsl:for-each select="tei:person/tei:persName">
                 <xsl:choose>
                     <xsl:when
@@ -376,7 +376,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
+        <li><i>Erwähnte Institutionen: </i>
             <xsl:for-each select="tei:org/tei:orgName">
                 <xsl:choose>
                     <xsl:when
@@ -457,7 +457,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
+        <li><i>Erwähnte Orte: </i>
             <xsl:for-each select="tei:place/tei:placeName">
                 <xsl:choose>
                     <xsl:when test="starts-with(@ref, 'pmb')">
@@ -509,7 +509,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
+        <li><i>Erwähnte Werke: </i>
             <xsl:for-each select="descendant::tei:title">
                 <xsl:choose>
                     <xsl:when test="starts-with(@ref, 'pmb')">

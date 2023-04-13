@@ -565,7 +565,9 @@ low resolution
 .navbar {
     border-bottom: 5px solid #C67F53;
     background-color: white;
-    z-index: 99}
+    z-index: 99;
+    height: 85px;
+}
 
 .navbar .navbar-brand {
         padding-right: 0}

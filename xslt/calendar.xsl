@@ -31,9 +31,6 @@
                             <div class="card-header" style="text-align:center">
                                 <h1 style="display:inline-block;margin-bottom:0;padding-right:5px;">
                                     Kalender</h1>
-                                <a>
-                                    <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
-                                </a>
                                 <a style="padding-left:5px;" href="js-data/calendarData.js">
                                     <i class="fas fa-download" title="Data"/>
                                 </a>
