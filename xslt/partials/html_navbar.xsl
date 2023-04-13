@@ -12,8 +12,9 @@
                         itemprop="logo"/>
                 </a>
                 <!-- end custom logo -->
-                <span style="text-align: right; margin-left: 10em;">
+                <span style="text-align: right; margin-left: 10em; margin-right: 10em;">
                     <a title="Kalender" class="nav-link" href="calendar.html">Kalender</a>
+
                 </span>
             </nav>
             <!-- .site-navigation -->
