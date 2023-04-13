@@ -6,7 +6,7 @@
     <xsl:template match="/" name="nav_bar">
         <div class="wrapper-fluid wrapper-navbar sticky-top hide-reading" id="wrapper-navbar">
             <a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar">
                 <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
                     <img src="{$project_logo}" class="img-fluid" alt="Schnitzler Tage"
                         itemprop="logo"/>
