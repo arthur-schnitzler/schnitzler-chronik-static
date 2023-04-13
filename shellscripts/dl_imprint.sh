@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REDMINE_ID=18716
-IMPRINT_XML=./data/imprint.xml
+REDMINE_ID=21628
+IMPRINT_XML=../imprint.xml
 rm ${IMPRINT_XML}
 echo '<?xml version="1.0" encoding="UTF-8"?>'
 echo "<root>" >> ${IMPRINT_XML}
