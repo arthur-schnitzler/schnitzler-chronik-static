@@ -29,9 +29,10 @@
                                     <h3><i>Eine digitale Ressource zu den einzelnen Tagen 
                                         seines Lebens.
                                     </i></h3>
+                                    <p style="text-align: right">
                                     <a href="#body">
-                                        <button class="btn btn-round">Weiter</button>
-                                    </a>
+                                        <button class="btn btn-round" style="background-color: #C67F53; color: white; font-weight: bolder;">Weiter</button>
+                                    </a></p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12">
@@ -43,7 +44,9 @@
                         </div>
                     </div>
                     <div class="container-fluid" style="margin:2em auto;">
-                    <div style="max-width: 650px; margin: auto;'" id="body">
+                        <div style="max-width: 650px; margin: auto;"><span style="display: block;
+                                position: relative;
+                                top: -250px; visibility: hidden" id="body"/>
                         <p class="mt-3">In den letzten Jahren wurden von mehreren
                             Forschungsprojekten Texte von Arthur Schnitzler (1862–1931) ediert und
                             digitalisiert.</p>
