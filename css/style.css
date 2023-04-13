@@ -456,9 +456,13 @@ resolution
         margin-top: .5rem;
     }
     .img-fluid {
-        max-width: 135% !important;
-        max-height: 135% !important;
+        max-width: 120% !important;
+        max-height: 120% !important;
     }
+    
+    .navbar .navbar-brand img {
+        height: 4rem;
+        max-height: unset}
 /* 
 #########################################
 add rules for smallest tablet high
