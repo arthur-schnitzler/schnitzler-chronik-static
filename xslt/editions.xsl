@@ -19,9 +19,10 @@
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@level = 'a'][1]/text()"/>
     </xsl:variable>
+    <xsl:variable name="datum-iso" select="descendant::tei:titleStmt/tei:title/@when-iso"
+        as="xs:date"/>
     <xsl:template match="/">
-        <xsl:variable name="datum-iso" select="descendant::tei:titleStmt/tei:title/@when-iso"
-            as="xs:date"/>
+        
         <xsl:variable name="prev">
             <xsl:value-of select="concat($datum-iso - xs:dayTimeDuration('P1D'), '.html')"/>
         </xsl:variable>
@@ -182,7 +183,7 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level = 'a'][1]/@when-iso, '-', ''))"
+                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
@@ -196,7 +197,7 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level = 'a'][1]/@when-iso, '-', ''))"
+                                select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
@@ -210,7 +211,7 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://correspsearch.net/de/suche.html?d=', ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level='a'][1]/@when-iso, '&amp;x=1&amp;w=0')"
+                                select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
@@ -224,7 +225,7 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://correspsearch.net/de/suche.html?d=', ancestor::tei:TEI/descendant::tei:titleStmt/tei:title[@level='a'][1]/@when-iso, '&amp;x=1&amp;w=0')"
+                                select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
