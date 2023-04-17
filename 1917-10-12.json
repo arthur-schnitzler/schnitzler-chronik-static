@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L02275.html",
  "head":
@@ -48,13 +56,17 @@
  "Wien",
  "ref":
  "pmb50"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Stefan Zweig an Arthur Schnitzler, 12.10.1917",
  "desc":
@@ -66,11 +78,15 @@
  "ref":
  "https://d-nb.info/gnd/118637479"}],
  "bibl":
- "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"}
-
-}, {
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-10-12.html",
  "head":
@@ -110,6 +126,6 @@
  "Symphonie Nr. 5 c-Moll op. 67",
  "ref":
  "pmb77188"}
- ]}
-
+ ]
+}
 }] 

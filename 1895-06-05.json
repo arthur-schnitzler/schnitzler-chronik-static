@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L00449.html",
  "head":
@@ -52,13 +60,17 @@
  "Brühl",
  "ref":
  "pmb44413"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Samuel Fischer an Arthur Schnitzler, 5.6.1895",
  "desc":
@@ -70,11 +82,15 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"}
-
-}, {
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-05.html",
  "head":
@@ -99,6 +115,6 @@
  "Prater",
  "ref":
  "pmb91530"}
- ]}
-
+ ]
+}
 }] 

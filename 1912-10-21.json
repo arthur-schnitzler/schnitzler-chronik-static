@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L02582.html",
  "head":
@@ -47,23 +55,30 @@
  "Josefstädter Straße",
  "ref":
  "pmb51915"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
  "https://www.schnitzler-edition.net",
  "head":
- "Die Schwestern oder Casanova in Spa, Typoskript",
- "desc":
-{}
-
-}, {
+ "Die Schwestern oder Casanova in Spa, Typoskript"",
+ "text":
+ "Publikation in Vorbereitung"
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Karin Michaëlis an Arthur Schnitzler, 21.10.1912",
  "desc":
@@ -75,11 +90,15 @@
  "ref":
  "https://d-nb.info/gnd/11539396X"}],
  "bibl":
- "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."}
-
-}, {
+ "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-10-21.html",
  "head":
@@ -149,6 +168,6 @@
  "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
  "ref":
  "pmb30819"}
- ]}
-
+ ]
+}
 }] 

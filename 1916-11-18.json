@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-11-18.html",
  "head":
@@ -115,11 +123,15 @@
  "Salzburg",
  "ref":
  "pmb30"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "caption":
+ "Schnitzler/Bahr",
  "idno":
  "https://schnitzler-bahr.acdh.oeaw.ac.at/D041382.html",
  "head":
@@ -267,6 +279,6 @@
  "Konzerthaus",
  "ref":
  "pmb240"}
- ]}
-
+ ]
+}
 }] 

@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L01122.html",
  "head":
@@ -58,13 +66,17 @@
  "Berlin",
  "ref":
  "pmb168"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#s68ac8da-2b04-4b21-afc4-b597655696e0",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Richard Schaukal, 20.5.1901",
  "desc":
@@ -76,11 +88,15 @@
  "ref":
  "https://d-nb.info/gnd/118606662"}],
  "bibl":
- "Reinhard Urbach: Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43."}
-
-}, {
+ "Reinhard Urbach: Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-05-20.html",
  "head":
@@ -110,6 +126,6 @@
  "XIII., Hietzing",
  "ref":
  "pmb63"}
- ]}
-
+ ]
+}
 }] 

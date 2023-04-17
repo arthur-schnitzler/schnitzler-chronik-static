@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L00928.html",
  "head":
@@ -170,11 +178,15 @@
  "Bozen",
  "ref":
  "pmb40260"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L00929.html",
  "head":
@@ -209,13 +221,17 @@
  "Villa Platzer",
  "ref":
  "pmb40788"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Olga Schnitzler, 21. 6. 1899",
  "desc":
@@ -227,11 +243,15 @@
  "ref":
  "https://d-nb.info/gnd/116848723"}],
  "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."}
-
-}, {
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-06-21.html",
  "head":
@@ -263,6 +283,6 @@
  "persName":
  "Richard Specht",
  "ref":
- "person_20238"}]}
-
+ "person_20238"}]
+}
 }] 

@@ -1,20 +1,32 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/790/",
  "head":
  "Tuchlauben"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L02901.html",
  "head":
@@ -57,13 +69,17 @@
  "Stresemannstraße",
  "ref":
  "pmb40854"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#zd58d226-ca44-4dfa-b10c-81551ef4de77",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Rainer Maria Rilke, 2.1.1900",
  "desc":
@@ -75,11 +91,15 @@
  "ref":
  "https://d-nb.info/gnd/118601024"}],
  "bibl":
- "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."}
-
-}, {
+ "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-01-02.html",
  "head":
@@ -119,6 +139,6 @@
  "Tuchlauben",
  "ref":
  "pmb790"}
- ]}
-
+ ]
+}
 }] 

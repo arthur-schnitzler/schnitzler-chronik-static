@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L02228.html",
  "head":
@@ -47,13 +55,17 @@
  "Meidlinger Hauptstraße",
  "ref":
  "pmb1239"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#gc49cd7e-1c35-4af4-808b-831b06a17f3d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Theodor Reik an Arthur Schnitzler, 18.5.1916",
  "desc":
@@ -65,11 +77,15 @@
  "ref":
  "https://d-nb.info/gnd/118599216"}],
  "bibl":
- "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."}
-
-}, {
+ "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-05-18.html",
  "head":
@@ -117,6 +133,6 @@
  "Russland",
  "ref":
  "pmb34438"}
- ]}
-
+ ]
+}
 }] 

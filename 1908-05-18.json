@@ -1,15 +1,23 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Samuel Fischer an Arthur Schnitzler, 18.5.1908",
  "desc":
@@ -21,13 +29,17 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"}
-
-}, {
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Samuel Fischer an Arthur Schnitzler, 18.5.1908",
  "desc":
@@ -39,11 +51,15 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"}
-
-}, {
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-18.html",
  "head":
@@ -93,11 +109,15 @@
  "Der Weg ins Freie. Roman",
  "ref":
  "pmb29923"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "caption":
+ "Schnitzler/Bahr",
  "idno":
  "https://schnitzler-bahr.acdh.oeaw.ac.at/L041563.html",
  "head":
@@ -195,6 +215,6 @@
  "Physiatrisches Sanatorium (Lahmann)",
  "ref":
  "pmb580"}
- ]}
-
+ ]
+}
 }] 

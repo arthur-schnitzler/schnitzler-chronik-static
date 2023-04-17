@@ -1,20 +1,32 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/652/",
  "head":
  "Prag"
-}, {
+}{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/90550/",
  "head":
  "Dresden"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L02042.html",
  "head":
@@ -60,13 +72,17 @@
  "Leipzig",
  "ref":
  "pmb864"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Olga Schnitzler, 1. 11. 1911",
  "desc":
@@ -78,11 +94,15 @@
  "ref":
  "https://d-nb.info/gnd/116848723"}],
  "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."}
-
-}, {
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-11-01.html",
  "head":
@@ -145,11 +165,15 @@
  "Dresden",
  "ref":
  "pmb90550"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "caption":
+ "Schnitzler/Bahr",
  "idno":
  "https://schnitzler-bahr.acdh.oeaw.ac.at/L041581.html",
  "head":
@@ -190,6 +214,6 @@
  "Ernst Rowohlt Verlag",
  "ref":
  "pmb29756"}
- ]}
-
+ ]
+}
 }] 

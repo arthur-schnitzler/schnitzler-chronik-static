@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L01188.html",
  "head":
@@ -70,13 +78,17 @@
  "Wollzeile",
  "ref":
  "pmb338"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Theodor Herzl an Arthur Schnitzler, 25.11.1901",
  "desc":
@@ -88,11 +100,15 @@
  "ref":
  "https://d-nb.info/gnd/118550241"}],
  "bibl":
- "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"}
-
-}, {
+ "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-11-25.html",
  "head":
@@ -140,6 +156,6 @@
  "Rodaun",
  "ref":
  "pmb173"}
- ]}
-
+ ]
+}
 }] 

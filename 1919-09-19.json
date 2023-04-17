@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L02326.html",
  "head":
@@ -90,13 +98,17 @@
  "Oper",
  "ref":
  "pmb15"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Olga Schnitzler, 19.9.1919",
  "desc":
@@ -108,13 +120,17 @@
  "ref":
  "https://d-nb.info/gnd/116848723"}],
  "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"}
-
-}, {
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Hedy Kempny an Arthur Schnitzler, 19.9.1919",
  "desc":
@@ -126,11 +142,15 @@
  "ref":
  "https://d-nb.info/gnd/11872181X"}],
  "bibl":
- "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"}
-
-}, {
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-09-19.html",
  "head":
@@ -188,11 +208,15 @@
  "Kreuzberg",
  "ref":
  "pmb91067"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "caption":
+ "Schnitzler/Bahr",
  "idno":
  "https://schnitzler-bahr.acdh.oeaw.ac.at/L041653.html",
  "head":
@@ -420,6 +444,6 @@
  "Breitenstein am Semmering",
  "ref":
  "pmb36503"}
- ]}
-
+ ]
+}
 }] 

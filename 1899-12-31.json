@@ -1,20 +1,32 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/790/",
  "head":
  "Tuchlauben"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L03030.html",
  "head":
@@ -34,13 +46,17 @@
  "Wien",
  "ref":
  "pmb50"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#sb5b8e07-e0c8-47e6-8add-494150f56e37",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Franziska Lawner an Arthur Schnitzler, 31.12.1899",
  "desc":
@@ -52,11 +68,15 @@
  "ref":
  "https://d-nb.info/gnd/1190590301"}],
  "bibl":
- "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."}
-
-}, {
+ "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-12-31.html",
  "head":
@@ -96,6 +116,6 @@
  "Mignon",
  "ref":
  "pmb81418"}
- ]}
-
+ ]
+}
 }] 

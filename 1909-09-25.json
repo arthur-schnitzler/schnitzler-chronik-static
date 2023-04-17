@@ -1,25 +1,36 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
  "https://www.schnitzler-edition.net",
  "head":
- "Große Szene, Typoskript",
- "desc":
-{}
-
-}, {
+ "Große Szene, Typoskript"",
+ "text":
+ "Publikation in Vorbereitung"
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Max Reinhardt, 25.9.1909",
  "desc":
@@ -31,11 +42,15 @@
  "ref":
  "https://d-nb.info/gnd/118599380"}],
  "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."}
-
-}, {
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-09-25.html",
  "head":
@@ -55,6 +70,6 @@
  "Herbot",
  "ref":
  "pmb35894"}
- ]}
-
+ ]
+}
 }] 

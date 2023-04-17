@@ -1,13 +1,21 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
  "idno":
  "https://schnitzler-briefe.acdh.oeaw.ac.at/L00689.html",
  "head":
@@ -78,13 +86,17 @@
  "Goldschmiedgasse",
  "ref":
  "pmb39602"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Marie Reinhard, 22.6.1897",
  "desc":
@@ -96,13 +108,17 @@
  "ref":
  "https://d-nb.info/gnd/123368790"}],
  "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"}
-
-}, {
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Olga Waissnix an Arthur Schnitzler, 22.6.1897",
  "desc":
@@ -114,13 +130,17 @@
  "ref":
  "https://d-nb.info/gnd/118628526"}],
  "bibl":
- "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"}
-
-}, {
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Marie Reinhard, 22. 6. 1897",
  "desc":
@@ -132,11 +152,15 @@
  "ref":
  "https://d-nb.info/gnd/123368790"}],
  "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."}
-
-}, {
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-22.html",
  "head":
@@ -161,11 +185,15 @@
  "XIV., Penzing",
  "ref":
  "pmb64"}
- ]}
-
-}, {
+ ]
+}
+}{
  "type":
  "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "caption":
+ "Schnitzler/Bahr",
  "idno":
  "https://schnitzler-bahr.acdh.oeaw.ac.at/L041386.html",
  "head":
@@ -416,6 +444,6 @@
  "Neue Freie Presse",
  "ref":
  "pmb29351"}
- ]}
-
+ ]
+}
 }] 

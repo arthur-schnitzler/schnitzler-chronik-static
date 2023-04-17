@@ -1,22 +1,34 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_T1_0013",
  "head":
  "Fräulein Else, msl. Werkniederschrift"
-}, {
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Samuel Fischer, 20.10.1923",
  "desc":
@@ -28,11 +40,15 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"}
-
-}, {
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-10-20.html",
  "head":
@@ -77,6 +93,6 @@
  "Tagebuch",
  "ref":
  "pmb33243"}
- ]}
-
+ ]
+}
 }] 

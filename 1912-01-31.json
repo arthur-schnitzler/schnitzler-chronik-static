@@ -1,26 +1,37 @@
 [{
  "type":
  "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
  "Wien"
-}, {
+}{
  "type":
  "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
  "https://www.schnitzler-edition.net",
  "head":
  "Professor Bernhardi, K5 part. msl. Werkniederschrift 2, Diktat zwischen 25.01.1912
-            und 01.02.1912",
- "desc":
-{}
-
-}, {
+            und 01.02.1912"",
+ "text":
+ "Publikation in Vorbereitung"
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Fritz Unruh an Arthur Schnitzler, 31.1.1912",
  "desc":
@@ -32,13 +43,17 @@
  "ref":
  "https://d-nb.info/gnd/118625527"}],
  "bibl":
- "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."}
-
-}, {
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}
+}{
  "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
  "head":
  "Otto Brahm an Arthur Schnitzler, 31.1.1912",
  "desc":
@@ -50,11 +65,15 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."}
-
-}, {
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}{
  "type":
  "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "caption":
+ "Tagebuch",
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-01-31.html",
  "head":
@@ -92,6 +111,6 @@
  "Deutsches Volkstheater",
  "ref":
  "pmb92202"}
- ]}
-
+ ]
+}
 }] 
