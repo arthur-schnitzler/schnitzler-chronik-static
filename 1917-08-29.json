@@ -1,56 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "manual",
- "color":
- "",
- "caption":
- "",
- "idno":
- "doi.org/10.5771/9783968217109",
- "head":
- "Robert Adam: Besuch bei Schnitzler, 29. 8. 1917",
- "text":
- "In: Besuche bei Arthur Schnitzler Private Aufzeichnungen von Albert
-                     Ehrenstein, Victor Klemperer und Robert Adam. Mitgeteilt von Martin Anton
-                     Müller. In: Hofmannsthal. Jahrbuch zur europäischen Moderne, Band 27, 2019, S.
-                     131–164. "
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Samuel Fischer an Arthur Schnitzler, 29.8.1917",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Samuel Fischer",
- "ref":
- "https://d-nb.info/gnd/118691406"}],
- "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -117,4 +66,59 @@
  "pmb43520"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Samuel Fischer an Arthur Schnitzler, 29.8.1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "https://d-nb.info/gnd/118691406"}],
+ "bibl":
+ ", "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}, {
+ "type":
+ "manual",
+ "color":
+ "",
+ "caption":
+ "",
+ "idno":
+ "doi.org/10.5771/9783968217109",
+ "head":
+ "Robert Adam: Besuch bei Schnitzler, 29. 8. 1917",
+ "text":
+ "In: Besuche bei Arthur Schnitzler Private Aufzeichnungen von Albert
+                     Ehrenstein, Victor Klemperer und Robert Adam. Mitgeteilt von Martin Anton
+                     Müller. In: Hofmannsthal. Jahrbuch zur europäischen Moderne, Band 27, 2019, S.
+                     131–164. "
+}, ] 

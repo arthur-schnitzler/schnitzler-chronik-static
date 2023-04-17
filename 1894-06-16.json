@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-06-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-06-16.html",
  "head":
- "Wien"
+ "Tagebuch, 16. Juni 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese Krones",
+ "ref":
+ "pmb80652"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -101,41 +123,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-06-16",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-06-16.html",
- "head":
- "Tagebuch, 16. Juni 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"}],
- "listBibl":
-  [
- {
- "title":
- "Therese Krones",
- "ref":
- "pmb80652"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -194,4 +181,20 @@
  "pmb571"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

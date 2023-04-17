@@ -1,16 +1,101 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-06-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-06-24.html",
  "head":
- "Wien"
+ "Tagebuch, 24. Juni 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Otto von Egger-Möllwald",
+ "ref":
+ "person_14632"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Johanna Wilheim",
+ "ref":
+ "person_21334"},
+ {
+ "persName":
+ "Berta von Egger-Möllwald",
+ "ref":
+ "person_14631"},
+ {
+ "persName":
+ "Margot Vallo",
+ "ref":
+ "person_16894"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Klavierkonzert Nr. 5 Es-Dur op. 73",
+ "ref":
+ "pmb77150"}
+ ,  {
+ "title":
+ "Der abenteuerliche Simplicissimus Teutsch",
+ "ref":
+ "pmb80632"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -239,104 +324,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-06-24",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-06-24.html",
- "head":
- "Tagebuch, 24. Juni 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ludwig van Beethoven",
- "ref":
- "person_13555"},
- {
- "persName":
- "Otto von Egger-Möllwald",
- "ref":
- "person_14632"},
- {
- "persName":
- "Else Speidel-Haeberle",
- "ref":
- "person_15833"},
- {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"},
- {
- "persName":
- "Agnes Ulmann",
- "ref":
- "person_20872"},
- {
- "persName":
- "Johanna Wilheim",
- "ref":
- "person_21334"},
- {
- "persName":
- "Berta von Egger-Möllwald",
- "ref":
- "person_14631"},
- {
- "persName":
- "Margot Vallo",
- "ref":
- "person_16894"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"}],
- "listBibl":
-  [
- {
- "title":
- "Klavierkonzert Nr. 5 Es-Dur op. 73",
- "ref":
- "pmb77150"}
- ,  {
- "title":
- "Der abenteuerliche Simplicissimus Teutsch",
- "ref":
- "pmb80632"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -418,4 +405,20 @@
  "pmb860"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

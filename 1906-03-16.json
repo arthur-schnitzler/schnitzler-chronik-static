@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01591",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01591.html",
- "head":
- "Charlotte Ehrenstein an Arthur Schnitzler, [16. 3.? 1906]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Charlotte Ehrenstein",
- "ref":
- "pmb15716"},
- {
- "persName":
- "Sigmund Kornfeld",
- "ref":
- "pmb8305"},
- {
- "persName":
- "Albert Ehrenstein",
- "ref":
- "pmb11230"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Alexander Ehrenstein",
- "ref":
- "pmb15712"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -71,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/MAR_D1_0002",
  "head":
- "Marionetten, Bucherstdruck, 1906"
+ "Marionetten, Bucherstdruck, 1906",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -180,4 +120,70 @@
  "pmb91304"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01591",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01591.html",
+ "head":
+ "Charlotte Ehrenstein an Arthur Schnitzler, [16. 3.? 1906]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Ehrenstein",
+ "ref":
+ "pmb15716"},
+ {
+ "persName":
+ "Sigmund Kornfeld",
+ "ref":
+ "pmb8305"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Alexander Ehrenstein",
+ "ref":
+ "pmb15712"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,31 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/885/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/885/",
- "head":
- "Lugano"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/49781/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/49781/",
- "head":
- "Locarno"
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -84,4 +58,36 @@
  "pmb92410"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/885/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/885/",
+ "head":
+ "Lugano",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49781/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49781/",
+ "head":
+ "Locarno",
+ "desc":
+{
+}
+}, ] 

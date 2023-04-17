@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00652",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00652.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 16. 3. 1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Georg Hirschfeld",
- "ref":
- "pmb11701"}],
- "listPlace":
-  [
- {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Wollzeile",
- "ref":
- "pmb338"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -122,6 +59,56 @@
  "Hermine von Schaffgotsch",
  "ref":
  "person_19611"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00652",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00652.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 16. 3. 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ]
 }
 }, {
  "type":
@@ -235,4 +222,20 @@
  "ref":
  "pmb11740"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

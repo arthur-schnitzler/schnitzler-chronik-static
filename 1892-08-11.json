@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-08-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-08-11.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 11. August 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ,  {
+ "placeName":
+ "Schönbrunn",
+ "ref":
+ "pmb92518"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -53,42 +80,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1892-08-11",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-08-11.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 11. August 1892",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wiesbaden",
- "ref":
- "pmb883"}
- ,  {
- "placeName":
- "Schönbrunn",
- "ref":
- "pmb92518"}
- ,  {
- "placeName":
- "XII., Meidling",
- "ref":
- "pmb62"}
- ]
 }
-}] 
+}, ] 

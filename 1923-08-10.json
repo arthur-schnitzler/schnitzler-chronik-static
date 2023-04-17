@@ -1,31 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/228/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/228/",
- "head":
- "Baden-Baden"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/491/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/491/",
- "head":
- "Herchenbachstraße"
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -67,4 +41,36 @@
  "pmb228"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/228/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/228/",
+ "head":
+ "Baden-Baden",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/491/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/491/",
+ "head":
+ "Herchenbachstraße",
+ "desc":
+{
+}
+}, ] 

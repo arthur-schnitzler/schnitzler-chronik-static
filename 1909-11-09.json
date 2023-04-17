@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01886",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01886.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 11. [1909]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Otto Brahm",
- "ref":
- "pmb10986"}],
- "listPlace":
-  [
- {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Semmering",
- "ref":
- "pmb189"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -74,38 +11,6 @@
  "Flucht in die Finsternis, Manuskript",
  "text":
  "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm, Georg Hirschfeld, Jakob Wassermann an Arthur Schnitzler, 9.11.1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"},
- {
- "persName":
- "Georg Hirschfeld",
- "ref":
- "https://d-nb.info/gnd/101708122"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "https://d-nb.info/gnd/118629387"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -234,4 +139,103 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01886",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01886.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 11. [1909]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm, Georg Hirschfeld, Jakob Wassermann an Arthur Schnitzler, 9.11.1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "https://d-nb.info/gnd/101708122"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "https://d-nb.info/gnd/118629387"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

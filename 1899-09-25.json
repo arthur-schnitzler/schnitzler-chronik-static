@@ -1,30 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/883/",
+ "entry__1899-09-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/883/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-25.html",
  "head":
- "Wiesbaden"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/43055/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/43055/",
- "head":
- "Hôtel du Parc &amp; Bristol"
-}, {
+ "Tagebuch, 25. September 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ,  {
+ "placeName":
+ "Neroberg",
+ "ref":
+ "pmb92418"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -147,30 +149,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-09-25",
+ "entity/883/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-25.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/883/",
  "head":
- "Tagebuch, 25. September 1899",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Wiesbaden",
- "ref":
- "pmb883"}
- ,  {
- "placeName":
- "Neroberg",
- "ref":
- "pmb92418"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43055/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43055/",
+ "head":
+ "Hôtel du Parc &amp; Bristol",
+ "desc":
+{
+}
+}, ] 

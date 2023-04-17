@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01721",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01721.html",
- "head":
- "Arthur Schnitzler an Hermann Bahr, 11. 10. 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Gustav Kadelburg",
- "ref":
- "pmb11845"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listBibl":
-  [
- {
- "title":
- "Die gelbe Nachtigall",
- "ref":
- "pmb30021"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -129,6 +63,59 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01721",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01721.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 11. 10. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Gustav Kadelburg",
+ "ref":
+ "pmb11845"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die gelbe Nachtigall",
+ "ref":
+ "pmb30021"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -180,4 +167,20 @@
  "pmb133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

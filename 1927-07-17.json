@@ -1,140 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02489",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02489.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 17. 7. 1927",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "pmb10860"},
- {
- "persName":
- "Rosa Menczel",
- "ref":
- "pmb21304"},
- {
- "persName":
- "Philipp Menczel",
- "ref":
- "pmb3119"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Hasenauerstraße",
- "ref":
- "pmb383"}
- ]
-}
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02490",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02490.html",
- "head":
- "Richard Beer-Hofmann an Arthur Schnitzler, 17. 7. 1927",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Philipp Menczel",
- "ref":
- "pmb3119"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Bad Gastein",
- "ref":
- "pmb521"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Olga Schnitzler, 17. 7. 1927",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -236,4 +101,143 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02489",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02489.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 17. 7. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Rosa Menczel",
+ "ref":
+ "pmb21304"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "pmb3119"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02490",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02490.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 17. 7. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "pmb3119"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 17. 7. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, ] 

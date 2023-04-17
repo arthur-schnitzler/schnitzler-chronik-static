@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/860/",
+ "entry__1898-07-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/860/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-12.html",
  "head":
- "Graz"
-}, {
+ "Tagebuch, 12. Juli 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Burger",
+ "ref":
+ "person_14076"},
+ {
+ "persName":
+ "Ludwig Geiger",
+ "ref":
+ "person_15366"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Litteratur der Renaissance und des Humanismus in Italien und Deutschland",
+ "ref":
+ "pmb80576"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ,  {
+ "placeName":
+ "Schloßberg",
+ "ref":
+ "pmb91689"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -93,60 +138,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1898-07-12",
+ "entity/860/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/860/",
  "head":
- "Tagebuch, 12. Juli 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Rudolf Burger",
- "ref":
- "person_14076"},
- {
- "persName":
- "Ludwig Geiger",
- "ref":
- "person_15366"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listBibl":
-  [
- {
- "title":
- "Therese. Chronik eines Frauenlebens",
- "ref":
- "pmb30817"}
- ,  {
- "title":
- "Litteratur der Renaissance und des Humanismus in Italien und Deutschland",
- "ref":
- "pmb80576"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Graz",
- "ref":
- "pmb860"}
- ,  {
- "placeName":
- "Schloßberg",
- "ref":
- "pmb91689"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

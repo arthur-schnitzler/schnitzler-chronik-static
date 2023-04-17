@@ -1,30 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/470/",
+ "entry__1909-07-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-07.html",
  "head":
- "Edlach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/714/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/714/",
- "head":
- "Hotel Edlacherhof"
-}, {
+ "Tagebuch, 7. Juli 1909",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -87,25 +84,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1909-07-07",
+ "entity/470/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
  "head":
- "Tagebuch, 7. Juli 1909",
+ "Edlach",
  "desc":
-{"listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ]
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof",
+ "desc":
+{
+}
+}, ] 

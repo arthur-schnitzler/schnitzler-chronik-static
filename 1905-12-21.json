@@ -1,48 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01570",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01570.html",
- "head":
- "Albert Ehrenstein an Arthur Schnitzler, 21. 12. 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Albert Ehrenstein",
- "ref":
- "pmb11230"}],
- "listBibl":
-  [
- {
- "title":
- "Amok",
- "ref":
- "pmb33448"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -124,4 +81,50 @@
  "pmb58"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01570",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01570.html",
+ "head":
+ "Albert Ehrenstein an Arthur Schnitzler, 21. 12. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Amok",
+ "ref":
+ "pmb33448"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

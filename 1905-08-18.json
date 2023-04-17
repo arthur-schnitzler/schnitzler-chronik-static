@@ -1,16 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91735/",
+ "entry__1905-08-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-08-18.html",
  "head":
- "Semmering"
+ "Tagebuch, 18. August 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ,  {
+ "placeName":
+ "Pinkenkogel",
+ "ref":
+ "pmb91482"}
+ ,  {
+ "placeName":
+ "Breitenstein am Semmering",
+ "ref":
+ "pmb36503"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -86,51 +118,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1905-08-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-08-18.html",
- "head":
- "Tagebuch, 18. August 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"}],
- "listPlace":
-  [
- {
- "placeName":
- "Semmering",
- "ref":
- "pmb91735"}
- ,  {
- "placeName":
- "Pinkenkogel",
- "ref":
- "pmb91482"}
- ,  {
- "placeName":
- "Breitenstein am Semmering",
- "ref":
- "pmb36503"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -202,4 +189,20 @@
  "pmb133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering",
+ "desc":
+{
+}
+}, ] 

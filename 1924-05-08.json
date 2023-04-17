@@ -1,93 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02412",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02412.html",
- "head":
- "Hugo von Hofmannsthal, Gerty von Hofmannsthal, Christiane von Hofmannsthal an Arthur Schnitzler, 8. 5. 1924",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"},
- {
- "persName":
- "Christiane von Hofmannsthal",
- "ref":
- "pmb3220"}],
- "listPlace":
-  [
- {
- "placeName":
- "Palermo",
- "ref":
- "pmb901"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Maria Santissima Assunta",
- "ref":
- "pmb44846"}
- ,  {
- "placeName":
- "Monte Pellegrino",
- "ref":
- "pmb44844"}
- ,  {
- "placeName":
- "Mittelmeer",
- "ref":
- "pmb41016"}
- ,  {
- "placeName":
- "Dubrovnik",
- "ref":
- "pmb682"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -177,4 +89,95 @@
  "pmb90411"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02412",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02412.html",
+ "head":
+ "Hugo von Hofmannsthal, Gerty von Hofmannsthal, Christiane von Hofmannsthal an Arthur Schnitzler, 8. 5. 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Christiane von Hofmannsthal",
+ "ref":
+ "pmb3220"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Palermo",
+ "ref":
+ "pmb901"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Maria Santissima Assunta",
+ "ref":
+ "pmb44846"}
+ ,  {
+ "placeName":
+ "Monte Pellegrino",
+ "ref":
+ "pmb44844"}
+ ,  {
+ "placeName":
+ "Mittelmeer",
+ "ref":
+ "pmb41016"}
+ ,  {
+ "placeName":
+ "Dubrovnik",
+ "ref":
+ "pmb682"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

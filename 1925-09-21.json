@@ -1,91 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02449",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02449.html",
- "head":
- "Stefan Großmann an Arthur Schnitzler, 21. 9. 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Großmann",
- "ref":
- "pmb11527"},
- {
- "persName":
- "Leopold Schwarzschild",
- "ref":
- "pmb46596"}],
- "listOrg":
-  [
- {
- "orgName":
- "Das Tage-Buch",
- "ref":
- "pmb37544"}
- ,  {
- "orgName":
- "Frankfurter Zeitung",
- "ref":
- "pmb29442"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Beuthstrasse",
- "ref":
- "pmb46598"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -172,4 +86,93 @@
  "pmb113"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02449",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02449.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, 21. 9. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Leopold Schwarzschild",
+ "ref":
+ "pmb46596"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Das Tage-Buch",
+ "ref":
+ "pmb37544"}
+ ,  {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Beuthstrasse",
+ "ref":
+ "pmb46598"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

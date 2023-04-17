@@ -1,98 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01990",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01990.html",
- "head":
- "Arthur Schnitzler an Robert Adam, 3. 12. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert Adam",
- "ref":
- "pmb12438"}],
- "listBibl":
-  [
- {
- "title":
- "Neidhard",
- "ref":
- "pmb33580"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "XII., Meidling",
- "ref":
- "pmb62"}
- ,  {
- "placeName":
- "Meidlinger Hauptstraße",
- "ref":
- "pmb1239"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Richard Rosenbaum, 3. 12. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Rosenbaum",
- "ref":
- "https://d-nb.info/gnd/11662177X"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -199,4 +106,101 @@
  "pmb92506"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01990",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01990.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 3. 12. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Neidhard",
+ "ref":
+ "pmb33580"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Richard Rosenbaum, 3. 12. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "https://d-nb.info/gnd/11662177X"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

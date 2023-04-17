@@ -1,78 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01572",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01572.html",
- "head":
- "Adolf Treibl an Arthur Schnitzler, 15 1. 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Adolf Treibl",
- "ref":
- "pmb29150"},
- {
- "persName":
- "Albert Ehrenstein",
- "ref":
- "pmb11230"},
- {
- "persName":
- "Alexander Ehrenstein",
- "ref":
- "pmb15712"},
- {
- "persName":
- "Charlotte Ehrenstein",
- "ref":
- "pmb15716"},
- {
- "persName":
- "Alfred Adler",
- "ref":
- "pmb5925"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Oberdöbling",
- "ref":
- "pmb34550"}
- ,  {
- "placeName":
- "Sanatorium Obersteiner",
- "ref":
- "pmb34552"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -146,4 +73,80 @@
  "pmb77686"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01572",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01572.html",
+ "head":
+ "Adolf Treibl an Arthur Schnitzler, 15 1. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adolf Treibl",
+ "ref":
+ "pmb29150"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Alexander Ehrenstein",
+ "ref":
+ "pmb15712"},
+ {
+ "persName":
+ "Charlotte Ehrenstein",
+ "ref":
+ "pmb15716"},
+ {
+ "persName":
+ "Alfred Adler",
+ "ref":
+ "pmb5925"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Oberdöbling",
+ "ref":
+ "pmb34550"}
+ ,  {
+ "placeName":
+ "Sanatorium Obersteiner",
+ "ref":
+ "pmb34552"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

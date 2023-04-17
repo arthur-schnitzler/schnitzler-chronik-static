@@ -1,31 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/988/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/988/",
- "head":
- "Seis am Schlern"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/467/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/467/",
- "head":
- "Villa Heufler"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -37,28 +11,6 @@
  "Professor Bernhardi, Zeitungsausschnitt 1",
  "text":
  "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Deutsches Theater an Arthur Schnitzler, 22.8.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Deutsches Theater",
- "ref":
- ""}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -107,4 +59,59 @@
  "pmb41156"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/467/",
+ "head":
+ "Villa Heufler",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Deutsches Theater an Arthur Schnitzler, 22.8.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Deutsches Theater",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, ] 

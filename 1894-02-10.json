@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-02-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-02-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. Februar 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Platonische Liebe",
+ "ref":
+ "pmb35903"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -134,37 +156,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-02-10",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-02-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 10. Februar 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Platonische Liebe",
- "ref":
- "pmb35903"}
- ]
 }
-}] 
+}, ] 

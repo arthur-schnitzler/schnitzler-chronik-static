@@ -1,16 +1,53 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-04-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-26.html",
  "head":
- "Wien"
+ "Tagebuch, 26. April 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Bertha Sanét",
+ "ref":
+ "person_19569"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -76,56 +113,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-04-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-26.html",
- "head":
- "Tagebuch, 26. April 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Markus Hajek",
- "ref":
- "person_15855"},
- {
- "persName":
- "Margarethe Kainz",
- "ref":
- "person_16647"},
- {
- "persName":
- "Bertha Sanét",
- "ref":
- "person_19569"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -182,4 +169,20 @@
  "pmb873"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

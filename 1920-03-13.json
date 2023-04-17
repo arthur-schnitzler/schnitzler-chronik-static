@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1920-03-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-03-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. März 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Manon Gropius",
+ "ref":
+ "person_15674"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Harry Walden",
+ "ref":
+ "person_21059"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Worte. Drei Einakter",
+ "ref":
+ "pmb30717"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -71,57 +113,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1920-03-13",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-03-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 13. März 1920",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Manon Gropius",
- "ref":
- "person_15674"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Harry Walden",
- "ref":
- "person_21059"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Komödie der Worte. Drei Einakter",
- "ref":
- "pmb30717"}
- ,  {
- "title":
- "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
- "ref":
- "pmb30819"}
- ]
 }
-}] 
+}, ] 

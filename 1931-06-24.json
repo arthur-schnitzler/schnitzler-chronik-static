@@ -1,31 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp930",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp930.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 23.–25. Juni 1931"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -101,6 +75,22 @@
 }
 }, {
  "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp930",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp930.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 23.–25. Juni 1931",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -169,4 +159,20 @@
  "pmb30951"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

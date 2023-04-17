@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/860/",
+ "entry__1898-07-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/860/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-15.html",
  "head":
- "Graz"
-}, {
+ "Tagebuch, 15. Juli 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mariatrost",
+ "ref":
+ "pmb91209"}
+ ,  {
+ "placeName":
+ "Stiftingthal",
+ "ref":
+ "pmb92551"}
+ ,  {
+ "placeName":
+ "Abtissendorf",
+ "ref":
+ "pmb90184"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -196,6 +228,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/860/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/860/",
+ "head":
+ "Graz",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -214,51 +262,7 @@
  "ref":
  ""}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-07-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-15.html",
- "head":
- "Tagebuch, 15. Juli 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Caroline Burger",
- "ref":
- "person_14073"}],
- "listPlace":
-  [
- {
- "placeName":
- "Mariatrost",
- "ref":
- "pmb91209"}
- ,  {
- "placeName":
- "Stiftingthal",
- "ref":
- "pmb92551"}
- ,  {
- "placeName":
- "Abtissendorf",
- "ref":
- "pmb90184"}
- ]
-}
-}] 
+}, ] 

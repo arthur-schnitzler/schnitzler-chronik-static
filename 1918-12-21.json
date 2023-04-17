@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02317",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02317.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 12. [1918?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "pmb22728"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ,  {
- "title":
- "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
- "ref":
- "pmb30819"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Stallburggasse",
- "ref":
- "pmb34024"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -144,4 +78,73 @@
  "pmb30203"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02317",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02317.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 12. [1918?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Stallburggasse",
+ "ref":
+ "pmb34024"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

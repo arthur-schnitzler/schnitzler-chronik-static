@@ -1,30 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1899-06-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-06-16.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/92111/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/92111/",
- "head":
- "Würnitz"
-}, {
+ "Tagebuch, 16. Juni 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "person_14283"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Steindl",
+ "ref":
+ "person_20364"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Würnitz",
+ "ref":
+ "pmb92111"}
+ ,  {
+ "placeName":
+ "Schleinbach",
+ "ref":
+ "pmb91687"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -149,52 +173,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-06-16",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-06-16.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 16. Juni 1899",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Auguste Chlum",
- "ref":
- "person_14199"},
- {
- "persName":
- "Moritz Coschell",
- "ref":
- "person_14283"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Steindl",
- "ref":
- "person_20364"}],
- "listPlace":
-  [
- {
- "placeName":
- "Würnitz",
- "ref":
- "pmb92111"}
- ,  {
- "placeName":
- "Schleinbach",
- "ref":
- "pmb91687"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92111/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92111/",
+ "head":
+ "Würnitz",
+ "desc":
+{
+}
+}, ] 

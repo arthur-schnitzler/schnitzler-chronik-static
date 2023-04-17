@@ -1,29 +1,30 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91735/",
+ "entry__1906-09-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-09-17.html",
  "head":
- "Semmering"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/413/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/413/",
- "head":
- "Südbahnhotel"
+ "Tagebuch, 17. September 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -94,33 +95,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-09-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-09-17.html",
- "head":
- "Tagebuch, 17. September 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"}]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -182,4 +156,36 @@
  "pmb220"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/413/",
+ "head":
+ "Südbahnhotel",
+ "desc":
+{
+}
+}, ] 

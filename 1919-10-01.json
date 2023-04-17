@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1919-10-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-10-01.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 1. Oktober 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Cronbach",
+ "ref":
+ "person_14309"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -146,6 +173,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#n0827e77-245d-4359-a0b0-5b601a5370ee",
@@ -164,46 +207,7 @@
  "ref":
  "https://d-nb.info/gnd/11872181X"}],
  "bibl":
+ ", "source":
  "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1919-10-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-10-01.html",
- "head":
- "Tagebuch, 1. Oktober 1919",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Cronbach",
- "ref":
- "person_14309"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"}],
- "listBibl":
-  [
- {
- "title":
- "Der Gang zum Weiher. Dramatische Dichtung",
- "ref":
- "pmb30775"}
- ,  {
- "title":
- "Jugend in Wien",
- "ref":
- "pmb33838"}
- ]
-}
-}] 
+}, ] 

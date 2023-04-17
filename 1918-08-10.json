@@ -1,72 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02294",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02294.html",
- "head":
- "Robert Adam an Arthur Schnitzler, 10. 8. 1918",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert Adam",
- "ref":
- "pmb12438"}],
- "listOrg":
-  [
- {
- "orgName":
- "Privatbibliothek der Wiener Justizbeamten",
- "ref":
- "pmb29587"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
- "manual",
- "color":
- "",
- "caption":
- "",
- "idno":
- "doi.org/10.5771/9783968217109",
- "head":
- "Robert Adam: Besuch bei Schnitzler, 10. 8. 1918",
- "text":
- "In: Besuche bei Arthur Schnitzler Private Aufzeichnungen von Albert
-                     Ehrenstein, Victor Klemperer und Robert Adam. Mitgeteilt von Martin Anton
-                     Müller. In: Hofmannsthal. Jahrbuch zur europäischen Moderne, Band 27, 2019, S.
-                     131–164. "
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -118,4 +51,74 @@
  "pmb667"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02294",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02294.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 10. 8. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Privatbibliothek der Wiener Justizbeamten",
+ "ref":
+ "pmb29587"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "manual",
+ "color":
+ "",
+ "caption":
+ "",
+ "idno":
+ "doi.org/10.5771/9783968217109",
+ "head":
+ "Robert Adam: Besuch bei Schnitzler, 10. 8. 1918",
+ "text":
+ "In: Besuche bei Arthur Schnitzler Private Aufzeichnungen von Albert
+                     Ehrenstein, Victor Klemperer und Robert Adam. Mitgeteilt von Martin Anton
+                     Müller. In: Hofmannsthal. Jahrbuch zur europäischen Moderne, Band 27, 2019, S.
+                     131–164. "
+}, ] 

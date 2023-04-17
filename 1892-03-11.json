@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-03-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-03-11.html",
  "head":
- "Wien"
+ "Tagebuch, 11. März 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -219,41 +241,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-03-11",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-03-11.html",
- "head":
- "Tagebuch, 11. März 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Jeanette Heeger",
- "ref":
- "person_16022"}],
- "listBibl":
-  [
- {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -448,4 +435,20 @@
  "pmb29661"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

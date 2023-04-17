@@ -1,120 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02135",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02135.html",
- "head":
- "Arthur Schnitzler an Robert Adam, 5. 5. 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert Adam",
- "ref":
- "pmb12438"}],
- "listBibl":
-  [
- {
- "title":
- "Fatme",
- "ref":
- "pmb33582"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "VIII., Josefstadt",
- "ref":
- "pmb58"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Zistersdorf",
- "ref":
- "pmb44400"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Niederösterreich",
- "ref":
- "pmb1003"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Samuel Fischer, 5.5.1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Samuel Fischer",
- "ref":
- "https://d-nb.info/gnd/118691406"}],
- "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Wilhelm Heller, 5. 5. 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Wilhelm Heller",
- "ref":
- ""}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -191,4 +76,124 @@
  "pmb45258"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02135",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02135.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 5. 5. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fatme",
+ "ref":
+ "pmb33582"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Zistersdorf",
+ "ref":
+ "pmb44400"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Niederösterreich",
+ "ref":
+ "pmb1003"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Samuel Fischer, 5.5.1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "https://d-nb.info/gnd/118691406"}],
+ "bibl":
+ ", "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Wilhelm Heller, 5. 5. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Heller",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, ] 

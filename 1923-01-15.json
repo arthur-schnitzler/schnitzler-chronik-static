@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0091",
  "head":
- "Wien"
+ "Fräulein Else, hsl. Werkniederschrift, 15.01.1923, 28.01.1923, 29.01.1923 o.
+            30.01.1923",
+ "desc":
+{
+}
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-01-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-15.html",
+ "head":
+ "Tagebuch, 15. Januar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Kende",
+ "ref":
+ "person_16811"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -119,59 +166,18 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
- "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
- "idno":
- "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0091",
- "head":
- "Fräulein Else, hsl. Werkniederschrift, 15.01.1923, 28.01.1923, 29.01.1923 o.
-            30.01.1923"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1923-01-15",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-15.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 15. Januar 1923",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ferdinand Kende",
- "ref":
- "person_16811"},
- {
- "persName":
- "Robert Lichtenstern",
- "ref":
- "person_17509"}],
- "listBibl":
-  [
- {
- "title":
- "Fräulein Else",
- "ref":
- "pmb29941"}
- ,  {
- "title":
- "Die Frau des Richters. Novelle",
- "ref":
- "pmb30751"}
- ,  {
- "title":
- "Traumnovelle",
- "ref":
- "pmb30851"}
- ]
 }
-}] 
+}, ] 

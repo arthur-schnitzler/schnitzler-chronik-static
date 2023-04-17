@@ -1,53 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp897",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp897.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 5.–12. April 1931"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Elisabeth Bergner, 9. 4. 1931",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Elisabeth Bergner",
- "ref":
- "https://d-nb.info/gnd/11850956X"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -111,4 +63,59 @@
  "pmb30321"}
  ]
 }
-}] 
+}{
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp897",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp897.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 5.–12. April 1931",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Elisabeth Bergner, 9. 4. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth Bergner",
+ "ref":
+ "https://d-nb.info/gnd/11850956X"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, ] 

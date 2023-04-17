@@ -1,16 +1,63 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1896-09-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-21.html",
  "head":
- "Wien"
+ "Tagebuch, 21. September 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "person_14597"},
+ {
+ "persName":
+ "Karl Langkammer",
+ "ref":
+ "person_17312"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Ernst von Wolzogen",
+ "ref":
+ "person_21465"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Ein unbeschriebenes Blatt",
+ "ref":
+ "pmb31301"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -142,88 +189,6 @@
  "Wien",
  "ref":
  "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 21.9.1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-09-21",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-21.html",
- "head":
- "Tagebuch, 21. September 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Leo Ebermann",
- "ref":
- "person_14597"},
- {
- "persName":
- "Karl Langkammer",
- "ref":
- "person_17312"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Ernst von Wolzogen",
- "ref":
- "person_21465"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Die Gefährtin. Schauspiel in einem Akt",
- "ref":
- "pmb29845"}
- ,  {
- "title":
- "Ein unbeschriebenes Blatt",
- "ref":
- "pmb31301"}
  ]
 }
 }, {
@@ -364,4 +329,43 @@
  "pmb29774"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 21.9.1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

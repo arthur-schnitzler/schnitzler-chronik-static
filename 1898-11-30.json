@@ -1,17 +1,67 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1898-11-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-11-30.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 30. November 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "person_17493"},
+ {
+ "persName":
+ "August von Plappart-Leenherr",
+ "ref":
+ "person_18825"},
+ {
+ "persName":
+ "Eduard Wlassack",
+ "ref":
+ "person_21416"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Stella Hohenfels",
+ "ref":
+ "person_16302"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pfob",
+ "ref":
+ "pmb92444"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -109,65 +159,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1898-11-30",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-11-30.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 30. November 1898",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Josef Lewinsky",
- "ref":
- "person_17493"},
- {
- "persName":
- "August von Plappart-Leenherr",
- "ref":
- "person_18825"},
- {
- "persName":
- "Eduard Wlassack",
- "ref":
- "person_21416"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Stella Hohenfels",
- "ref":
- "person_16302"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ,  {
- "title":
- "Das Vermächtnis. Schauspiel in drei Akten",
- "ref":
- "pmb30219"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pfob",
- "ref":
- "pmb92444"}
- ]
 }
-}] 
+}, ] 

@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34401/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34401/",
- "head":
- "Altaussee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34387/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34387/",
- "head":
- "Villa Annerl"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Stefan Zweig an Arthur Schnitzler, 25.9.1916",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Zweig",
- "ref":
- "https://d-nb.info/gnd/118637479"}],
- "bibl":
- "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -83,4 +35,59 @@
  "ref":
  "person_18881"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34401/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34401/",
+ "head":
+ "Altaussee",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34387/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34387/",
+ "head":
+ "Villa Annerl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 25.9.1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "https://d-nb.info/gnd/118637479"}],
+ "bibl":
+ ", "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}
+}, ] 

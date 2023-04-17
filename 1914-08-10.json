@@ -1,17 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/49990/",
+ "entry__1914-08-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/49990/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-08-10.html",
  "head":
- "Bad Ragaz"
-}, {
+ "Tagebuch, 10. August 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Stunde des Erkennens",
+ "ref":
+ "pmb31447"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Buchs",
+ "ref":
+ "pmb859"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -118,40 +143,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1914-08-10",
+ "entity/49990/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-08-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/49990/",
  "head":
- "Tagebuch, 10. August 1914",
+ "Bad Ragaz",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"}],
- "listBibl":
-  [
- {
- "title":
- "Stunde des Erkennens",
- "ref":
- "pmb31447"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Buchs",
- "ref":
- "pmb859"}
- ]
 }
-}] 
+}, ] 

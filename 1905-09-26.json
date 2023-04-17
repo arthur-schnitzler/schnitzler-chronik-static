@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91735/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91735/",
- "head":
- "Semmering"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Karl Vollmoeller, 26. 9. 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Karl Vollmoeller",
- "ref":
- "https://d-nb.info/gnd/118805681"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -56,4 +21,43 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Karl Vollmoeller, 26. 9. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Vollmoeller",
+ "ref":
+ "https://d-nb.info/gnd/118805681"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

@@ -1,17 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-12-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-12-28.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 28. Dezember 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Italian Riviera",
+ "ref":
+ "pmb90942"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -74,45 +104,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-12-28",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-12-28.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 28. Dezember 1906",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"},
- {
- "persName":
- "Leo Van-Jung",
- "ref":
- "person_20925"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Italian Riviera",
- "ref":
- "pmb90942"}
- ]
 }
-}] 
+}, ] 

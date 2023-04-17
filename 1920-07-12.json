@@ -1,17 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1920-07-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. Juli 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Ergas",
+ "ref":
+ "person_14786"},
+ {
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "person_20885"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -58,6 +72,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
@@ -76,6 +106,7 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
+ ", "source":
  "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
 }
 }, {
@@ -98,33 +129,7 @@
  "ref":
  "https://d-nb.info/gnd/118625527"}],
  "bibl":
+ ", "source":
  "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1920-07-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-12.html",
- "head":
- "Tagebuch, 12. Juli 1920",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Rudolf Ergas",
- "ref":
- "person_14786"},
- {
- "persName":
- "Fritz von Unruh",
- "ref":
- "person_20885"}]
-}
-}] 
+}, ] 

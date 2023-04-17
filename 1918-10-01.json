@@ -1,16 +1,51 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1918-10-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-10-01.html",
  "head":
- "Wien"
+ "Tagebuch, 1. Oktober 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexandrine von Pitha",
+ "ref":
+ "person_18814"},
+ {
+ "persName":
+ "Benjamine Gelinek",
+ "ref":
+ "person_15379"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -107,54 +142,6 @@
  "Pöstlingberg",
  "ref":
  "pmb44280"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1918-10-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-10-01.html",
- "head":
- "Tagebuch, 1. Oktober 1918",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alexandrine von Pitha",
- "ref":
- "person_18814"},
- {
- "persName":
- "Benjamine Gelinek",
- "ref":
- "person_15379"}],
- "listBibl":
-  [
- {
- "title":
- "Der Gang zum Weiher. Dramatische Dichtung",
- "ref":
- "pmb30775"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Baden bei Wien",
- "ref":
- "pmb662"}
- ,  {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
  ]
 }
 }, {
@@ -407,4 +394,20 @@
  "pmb31593"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

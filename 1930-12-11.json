@@ -1,66 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp863",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp863.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 8.–11. Dezember 1930"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp864",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp864.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 11.–15. Dezember 1930"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Samuel Fischer an Arthur Schnitzler, 11.12.1930",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Samuel Fischer",
- "ref":
- "https://d-nb.info/gnd/118691406"}],
- "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -99,4 +38,75 @@
  "pmb81248"}
  ]
 }
-}] 
+}{
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp863",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp863.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 8.–11. Dezember 1930",
+ "desc":
+{
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp864",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp864.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 11.–15. Dezember 1930",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Samuel Fischer an Arthur Schnitzler, 11.12.1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "https://d-nb.info/gnd/118691406"}],
+ "bibl":
+ ", "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}, ] 

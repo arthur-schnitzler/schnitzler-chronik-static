@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02318",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02318.html",
- "head":
- "Arthur Schnitzler an Georg Engländer, 10. 1. 1919",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Georg Engländer",
- "ref":
- "pmb2260"},
- {
- "persName":
- "Peter Altenberg",
- "ref":
- "pmb2147"}],
- "listBibl":
-  [
- {
- "title":
- "Wie ich es sehe",
- "ref":
- "pmb30965"}
- ,  {
- "title":
- "Vita ipsa",
- "ref":
- "pmb33684"}
- ,  {
- "title":
- "Märchen des Lebens",
- "ref":
- "pmb33686"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -149,4 +83,73 @@
  "pmb33838"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02318",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02318.html",
+ "head":
+ "Arthur Schnitzler an Georg Engländer, 10. 1. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Engländer",
+ "ref":
+ "pmb2260"},
+ {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Wie ich es sehe",
+ "ref":
+ "pmb30965"}
+ ,  {
+ "title":
+ "Vita ipsa",
+ "ref":
+ "pmb33684"}
+ ,  {
+ "title":
+ "Märchen des Lebens",
+ "ref":
+ "pmb33686"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

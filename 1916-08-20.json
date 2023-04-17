@@ -1,30 +1,67 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/34401/",
+ "entry__1916-08-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34401/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-08-20.html",
  "head":
- "Altaussee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34387/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34387/",
- "head":
- "Villa Annerl"
-}, {
+ "Tagebuch, 20. August 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Heyse",
+ "ref":
+ "person_16186"},
+ {
+ "persName":
+ "Hans Horst Meyer",
+ "ref":
+ "person_18116"},
+ {
+ "persName":
+ "Johanna Nemetschke",
+ "ref":
+ "person_18388"},
+ {
+ "persName":
+ "Paul Weingarten",
+ "ref":
+ "person_21171"},
+ {
+ "persName":
+ "Auguste Wilbrandt-Baudius",
+ "ref":
+ "person_21320"},
+ {
+ "persName":
+ "Fritz Rothschild",
+ "ref":
+ "person_19431"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Galizien",
+ "ref":
+ "pmb644"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -106,65 +143,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1916-08-20",
+ "entity/34401/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-08-20.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/34401/",
  "head":
- "Tagebuch, 20. August 1916",
+ "Altaussee",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paul Heyse",
- "ref":
- "person_16186"},
- {
- "persName":
- "Hans Horst Meyer",
- "ref":
- "person_18116"},
- {
- "persName":
- "Johanna Nemetschke",
- "ref":
- "person_18388"},
- {
- "persName":
- "Paul Weingarten",
- "ref":
- "person_21171"},
- {
- "persName":
- "Auguste Wilbrandt-Baudius",
- "ref":
- "person_21320"},
- {
- "persName":
- "Fritz Rothschild",
- "ref":
- "person_19431"}],
- "listBibl":
-  [
- {
- "title":
- "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
- "ref":
- "pmb30819"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Galizien",
- "ref":
- "pmb644"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34387/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34387/",
+ "head":
+ "Villa Annerl",
+ "desc":
+{
+}
+}, ] 

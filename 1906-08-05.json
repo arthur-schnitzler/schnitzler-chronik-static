@@ -1,17 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/959/",
+ "entry__1906-08-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-05.html",
  "head":
- "Marienlyst"
-}, {
+ "Tagebuch, 5. August 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der tote Gabriel",
+ "ref":
+ "pmb33760"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hornbæk",
+ "ref":
+ "pmb44089"}
+ ,  {
+ "placeName":
+ "Ålsgårde",
+ "ref":
+ "pmb90178"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -86,45 +116,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-08-05",
+ "entity/959/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
  "head":
- "Tagebuch, 5. August 1906",
+ "Marienlyst",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"}],
- "listBibl":
-  [
- {
- "title":
- "Der tote Gabriel",
- "ref":
- "pmb33760"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Hornbæk",
- "ref":
- "pmb44089"}
- ,  {
- "placeName":
- "Ålsgårde",
- "ref":
- "pmb90178"}
- ]
 }
-}] 
+}, ] 

@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Robert Musil, 12. 2. 1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert Musil",
- "ref":
- "https://d-nb.info/gnd/118585916"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Fritz Unruh an Arthur Schnitzler, 12.2.1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Fritz Unruh",
- "ref":
- "https://d-nb.info/gnd/118625527"}],
- "bibl":
- "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -163,4 +106,66 @@
  "pmb30"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Robert Musil, 12. 2. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Musil",
+ "ref":
+ "https://d-nb.info/gnd/118585916"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 12.2.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Unruh",
+ "ref":
+ "https://d-nb.info/gnd/118625527"}],
+ "bibl":
+ ", "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}
+}, ] 

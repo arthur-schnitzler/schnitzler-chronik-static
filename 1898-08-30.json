@@ -1,43 +1,37 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/886/",
+ "entry__1898-08-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/886/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-30.html",
  "head":
- "Mailand"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44210/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44210/",
- "head":
- "Parma"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/896/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/896/",
- "head":
- "Bologna"
-}, {
+ "Tagebuch, 30. August 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ,  {
+ "placeName":
+ "Parma",
+ "ref":
+ "pmb44210"}
+ ,  {
+ "placeName":
+ "Bologna",
+ "ref":
+ "pmb896"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,35 +83,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1898-08-30",
+ "entity/886/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-30.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/886/",
  "head":
- "Tagebuch, 30. August 1898",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Mailand",
- "ref":
- "pmb886"}
- ,  {
- "placeName":
- "Parma",
- "ref":
- "pmb44210"}
- ,  {
- "placeName":
- "Bologna",
- "ref":
- "pmb896"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44210/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44210/",
+ "head":
+ "Parma",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/896/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/896/",
+ "head":
+ "Bologna",
+ "desc":
+{
+}
+}, ] 

@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Gustaf Linden, 29.12.1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustaf Linden",
- "ref":
- "https://d-nb.info/gnd/117024562"}],
- "bibl":
- "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Fritz Unruh an Arthur Schnitzler, 29.12.1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Fritz Unruh",
- "ref":
- "https://d-nb.info/gnd/118625527"}],
- "bibl":
- "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -120,4 +63,66 @@
  "pmb30863"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 29.12.1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustaf Linden",
+ "ref":
+ "https://d-nb.info/gnd/117024562"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 29.12.1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Unruh",
+ "ref":
+ "https://d-nb.info/gnd/118625527"}],
+ "bibl":
+ ", "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}
+}, ] 

@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1911-01-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-08.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 8. Januar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "person_18893"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Die Ahnfrau",
+ "ref":
+ "pmb76987"}
+ ,  {
+ "title":
+ "Neidhard",
+ "ref":
+ "pmb33580"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -66,47 +98,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1911-01-08",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-08.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 8. Januar 1911",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Robert Adam",
- "ref":
- "person_18893"}],
- "listBibl":
-  [
- {
- "title":
- "Abenteurernovelle",
- "ref":
- "pmb30299"}
- ,  {
- "title":
- "Theaterroman",
- "ref":
- "pmb30321"}
- ,  {
- "title":
- "Die Ahnfrau",
- "ref":
- "pmb76987"}
- ,  {
- "title":
- "Neidhard",
- "ref":
- "pmb33580"}
- ]
 }
-}] 
+}, ] 

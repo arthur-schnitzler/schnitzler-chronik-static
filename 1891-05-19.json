@@ -1,73 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00013",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00013.html",
- "head":
- "Richard Beer-Hofmann an Arthur Schnitzler, 19. 5. 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "pmb12740"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"}],
- "listPlace":
-  [
- {
- "placeName":
- "Brünn",
- "ref":
- "pmb833"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Hotel Neuhauser",
- "ref":
- "pmb40154"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -144,4 +76,75 @@
  "pmb91530"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00013",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00013.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 19. 5. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brünn",
+ "ref":
+ "pmb833"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Neuhauser",
+ "ref":
+ "pmb40154"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

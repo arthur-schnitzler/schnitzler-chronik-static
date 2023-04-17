@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1895-09-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-09-15.html",
  "head":
- "Wien"
+ "Tagebuch, 15. September 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hippolyte Taine",
+ "ref":
+ "person_20622"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "West-östlicher Divan",
+ "ref":
+ "pmb33937"}
+ ,  {
+ "title":
+ "Hamburgische Dramaturgie",
+ "ref":
+ "pmb53335"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -302,41 +324,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1895-09-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-09-15.html",
- "head":
- "Tagebuch, 15. September 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hippolyte Taine",
- "ref":
- "person_20622"}],
- "listBibl":
-  [
- {
- "title":
- "West-östlicher Divan",
- "ref":
- "pmb33937"}
- ,  {
- "title":
- "Hamburgische Dramaturgie",
- "ref":
- "pmb53335"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -543,4 +530,20 @@
  "pmb840"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

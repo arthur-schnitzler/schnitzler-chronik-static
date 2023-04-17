@@ -1,56 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44317/",
+ "entry__1907-08-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44317/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-13.html",
  "head":
- "Carbonin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/41013/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41013/",
- "head":
- "Misurina"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91932/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91932/",
- "head":
- "Passo Tre Croci"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34199/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34199/",
- "head":
- "Cortina d'Ampezzo"
-}, {
+ "Tagebuch, 13. August 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Carl Guttmann",
+ "ref":
+ "person_15780"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Carl Fleischmann",
+ "ref":
+ "person_15038"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carbonin",
+ "ref":
+ "pmb44317"}
+ ,  {
+ "placeName":
+ "Misurina",
+ "ref":
+ "pmb41013"}
+ ,  {
+ "placeName":
+ "Passo Tre Croci",
+ "ref":
+ "pmb91932"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -135,70 +151,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1907-08-13",
+ "entity/44317/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/44317/",
  "head":
- "Tagebuch, 13. August 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Carl Guttmann",
- "ref":
- "person_15780"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Carl Fleischmann",
- "ref":
- "person_15038"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Carbonin",
- "ref":
- "pmb44317"}
- ,  {
- "placeName":
- "Misurina",
- "ref":
- "pmb41013"}
- ,  {
- "placeName":
- "Passo Tre Croci",
- "ref":
- "pmb91932"}
- ,  {
- "placeName":
- "Cortina d'Ampezzo",
- "ref":
- "pmb34199"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41013/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41013/",
+ "head":
+ "Misurina",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91932/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91932/",
+ "head":
+ "Passo Tre Croci",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34199/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34199/",
+ "head":
+ "Cortina d'Ampezzo",
+ "desc":
+{
+}
+}, ] 

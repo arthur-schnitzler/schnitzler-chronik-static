@@ -1,17 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/967/",
+ "entry__1898-08-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-24.html",
  "head":
- "Luzern"
-}, {
+ "Tagebuch, 24. August 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -247,16 +257,20 @@
 }
 }, {
  "type":
- "",
+ "schnitzler-orte",
  "color":
- "",
+ "#045344",
+ "filename":
+ "entity/967/",
  "caption":
- "",
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
  "head":
- "Schnitzler schreibt nicht erhaltenen Brief an Paul
-                     Goldmann, zwischen 21. und 27. 8. 1898",
- "text":
- "L02861"
+ "Luzern",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-cmif",
@@ -277,29 +291,19 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "",
  "color":
- "#037a33",
- "filename":
- "entry__1898-08-24",
+ "",
  "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-24.html",
+ "",
  "head":
- "Tagebuch, 24. August 1898",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Luzern",
- "ref":
- "pmb967"}
- ]
-}
-}] 
+ "Schnitzler schreibt nicht erhaltenen Brief an Paul
+                     Goldmann, zwischen 21. und 27. 8. 1898",
+ "text":
+ "L02861"
+}, ] 

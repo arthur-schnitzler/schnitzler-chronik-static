@@ -1,16 +1,40 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1891-12-06",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-12-06.html",
  "head":
- "Wien"
+ "Tagebuch, 6. Dezember 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Lucienne Valenais",
+ "ref":
+ "person_20905"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -63,43 +87,6 @@
  "ref":
  "pmb14"}
  ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1891-12-06",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-12-06.html",
- "head":
- "Tagebuch, 6. Dezember 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Lucienne Valenais",
- "ref":
- "person_20905"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}]
 }
 }, {
  "type":
@@ -178,4 +165,20 @@
  "ref":
  "pmb27773"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

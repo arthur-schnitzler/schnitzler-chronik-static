@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45260/",
+ "entry__1912-08-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-14.html",
  "head":
- "Brijuni"
-}, {
+ "Tagebuch, 14. August 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Franz Colmers",
+ "ref":
+ "person_14259"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Otto Lenz",
+ "ref":
+ "person_17444"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Monte Cipro",
+ "ref":
+ "pmb92408"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,70 +159,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1912-08-14",
+ "entity/45260/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-14.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
  "head":
- "Tagebuch, 14. August 1912",
+ "Brijuni",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Peter Altenberg",
- "ref":
- "person_13162"},
- {
- "persName":
- "Franz Colmers",
- "ref":
- "person_14259"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Otto Lenz",
- "ref":
- "person_17444"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Paula Schmidl",
- "ref":
- "person_19756"},
- {
- "persName":
- "Otto Zuckerkandl",
- "ref":
- "person_21601"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Monte Cipro",
- "ref":
- "pmb92408"}
- ]
 }
-}] 
+}, ] 

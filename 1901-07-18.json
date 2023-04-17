@@ -1,29 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/946/",
+ "entry__1901-07-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/946/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-07-18.html",
  "head":
- "Vahrn"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/40264/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40264/",
- "head":
- "Franzensfeste"
+ "Tagebuch, 18. Juli 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Franzensfeste",
+ "ref":
+ "pmb40264"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -109,41 +118,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-07-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-07-18.html",
- "head":
- "Tagebuch, 18. Juli 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"}],
- "listPlace":
-  [
- {
- "placeName":
- "Franzensfeste",
- "ref":
- "pmb40264"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -225,4 +199,36 @@
  "pmb664"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/946/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/946/",
+ "head":
+ "Vahrn",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40264/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40264/",
+ "head":
+ "Franzensfeste",
+ "desc":
+{
+}
+}, ] 

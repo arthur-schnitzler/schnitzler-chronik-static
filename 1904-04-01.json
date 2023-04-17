@@ -1,61 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01389",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01389.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, [1. 4.? 1904]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Karl Gustav Vollmoeller",
- "ref":
- "pmb13014"}],
- "listBibl":
-  [
- {
- "title":
- "Catherina – Gräfin von Armagnac und ihre beiden Liebhaber",
- "ref":
- "pmb40229"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -102,6 +46,49 @@
  "Linz",
  "ref":
  "pmb91153"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01389",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01389.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [1. 4.? 1904]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Karl Gustav Vollmoeller",
+ "ref":
+ "pmb13014"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Catherina – Gräfin von Armagnac und ihre beiden Liebhaber",
+ "ref":
+ "pmb40229"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
@@ -164,4 +151,20 @@
  "pmb49091"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

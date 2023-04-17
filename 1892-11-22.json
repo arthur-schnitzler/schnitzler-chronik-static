@@ -1,30 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-11-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-11-22.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
-}, {
+ "Tagebuch, 22. November 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Bertha Flegmann",
+ "ref":
+ "person_15029"},
+ {
+ "persName":
+ "Alexander Singer",
+ "ref":
+ "person_20130"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pfob",
+ "ref":
+ "pmb92444"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -117,42 +131,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1892-11-22",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-11-22.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 22. November 1892",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Bertha Flegmann",
- "ref":
- "person_15029"},
- {
- "persName":
- "Alexander Singer",
- "ref":
- "person_20130"}],
- "listPlace":
-  [
- {
- "placeName":
- "Pfob",
- "ref":
- "pmb92444"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

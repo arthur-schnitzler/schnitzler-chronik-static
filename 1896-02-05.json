@@ -1,29 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1896-02-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-05.html",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/41234/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41234/",
- "head":
- "Hotel Westminster"
+ "Tagebuch, 5. Februar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "person_20219"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Hotel zum Freihafen",
+ "ref":
+ "pmb77930"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -173,41 +182,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-02-05",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-05.html",
- "head":
- "Tagebuch, 5. Februar 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Agnes Sorma",
- "ref":
- "person_20219"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Hotel zum Freihafen",
- "ref":
- "pmb77930"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -264,4 +238,36 @@
  "pmb77"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41234/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41234/",
+ "head":
+ "Hotel Westminster",
+ "desc":
+{
+}
+}, ] 

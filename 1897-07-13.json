@@ -1,30 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1897-07-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-13.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/414/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/414/",
- "head":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)"
-}, {
+ "Tagebuch, 13. Juli 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Altmann",
+ "ref":
+ "person_13175"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Andermatt",
+ "ref":
+ "pmb49079"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -185,6 +214,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#d2b0f559-bde7-4114-82b9-741a8810c463",
@@ -203,61 +264,7 @@
  "ref":
  "https://d-nb.info/gnd/118628526"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1897-07-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-13.html",
- "head":
- "Tagebuch, 13. Juli 1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Altmann",
- "ref":
- "person_13175"},
- {
- "persName":
- "Rosa Freudenthal",
- "ref":
- "person_15178"},
- {
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listPlace":
-  [
- {
- "placeName":
- "Andermatt",
- "ref":
- "pmb49079"}
- ]
-}
-}] 
+}, ] 

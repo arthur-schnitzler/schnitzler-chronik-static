@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1911-01-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-19.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 19. Januar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -141,42 +168,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1911-01-19",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-19.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 19. Januar 1911",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"}],
- "listBibl":
-  [
- {
- "title":
- "Doktor Gräsler, Badearzt",
- "ref":
- "pmb30201"}
- ,  {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ]
 }
-}] 
+}, ] 

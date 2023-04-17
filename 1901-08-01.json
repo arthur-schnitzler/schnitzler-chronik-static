@@ -1,17 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/946/",
+ "entry__1901-08-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/946/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-08-01.html",
  "head":
- "Vahrn"
-}, {
+ "Tagebuch, 1. August 1901",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -63,25 +73,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1901-08-01",
+ "entity/946/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-08-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/946/",
  "head":
- "Tagebuch, 1. August 1901",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Vahrn",
- "ref":
- "pmb946"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

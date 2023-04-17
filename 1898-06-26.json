@@ -1,17 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1898-06-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-06-26.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 26. Juni 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -164,6 +181,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -182,36 +215,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-06-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-06-26.html",
- "head":
- "Tagebuch, 26. Juni 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listPlace":
-  [
- {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ]
-}
-}] 
+}, ] 

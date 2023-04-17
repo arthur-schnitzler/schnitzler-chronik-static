@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-07-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. Juli 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Berger",
+ "ref":
+ "person_13631"},
+ {
+ "persName":
+ "Anatole France",
+ "ref":
+ "person_15108"},
+ {
+ "persName":
+ "Karl Zahn",
+ "ref":
+ "person_21510"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Thaïs",
+ "ref":
+ "pmb78236"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -527,42 +554,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-07-12",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 12. Juli 1910",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Josef Berger",
- "ref":
- "person_13631"},
- {
- "persName":
- "Anatole France",
- "ref":
- "person_15108"},
- {
- "persName":
- "Karl Zahn",
- "ref":
- "person_21510"}],
- "listBibl":
-  [
- {
- "title":
- "Thaïs",
- "ref":
- "pmb78236"}
- ]
 }
-}] 
+}, ] 

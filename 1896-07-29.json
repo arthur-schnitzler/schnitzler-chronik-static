@@ -1,43 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/40705/",
+ "entry__1896-07-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40705/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-29.html",
  "head":
- "Grand Hotel Stockholm"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/1119/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/1119/",
- "head":
- "Stockholm"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91983/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91983/",
- "head":
- "Uppsala"
-}, {
+ "Tagebuch, 29. Juli 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ,  {
+ "placeName":
+ "Uppsala",
+ "ref":
+ "pmb91983"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -189,57 +205,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1896-07-29",
+ "entity/40705/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/40705/",
  "head":
- "Tagebuch, 29. Juli 1896",
+ "Grand Hotel Stockholm",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Johann Schnitzler",
- "ref":
- "person_19824"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listPlace":
-  [
- {
- "placeName":
- "Stockholm",
- "ref":
- "pmb1119"}
- ,  {
- "placeName":
- "Uppsala",
- "ref":
- "pmb91983"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1119/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1119/",
+ "head":
+ "Stockholm",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91983/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91983/",
+ "head":
+ "Uppsala",
+ "desc":
+{
+}
+}, ] 

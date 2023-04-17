@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-10-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-25.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 25. Oktober 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Friedrich Schik",
+ "ref":
+ "person_19685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kabale und Liebe",
+ "ref":
+ "pmb31599"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -274,37 +296,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-10-25",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-25.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 25. Oktober 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Friedrich Schik",
- "ref":
- "person_19685"}],
- "listBibl":
-  [
- {
- "title":
- "Kabale und Liebe",
- "ref":
- "pmb31599"}
- ]
 }
-}] 
+}, ] 

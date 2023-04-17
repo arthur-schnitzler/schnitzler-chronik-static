@@ -1,49 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01383",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01383.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, [zwischen 15. und
-                  20. 3.? 1904]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -89,4 +45,51 @@
  "ref":
  "person_19424"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01383",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01383.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [zwischen 15. und
+                  20. 3.? 1904]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

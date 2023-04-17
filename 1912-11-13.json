@@ -1,17 +1,77 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1912-11-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. November 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Fontane",
+ "ref":
+ "person_15073"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Ernst Wurmser",
+ "ref":
+ "person_21481"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Wilhelm Kestranek",
+ "ref":
+ "person_16827"},
+ {
+ "persName":
+ "Heinz Salfner",
+ "ref":
+ "person_19530"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Unwiederbringlich. Roman",
+ "ref":
+ "pmb78385"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -130,75 +190,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1912-11-13",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 13. November 1912",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Theodor Fontane",
- "ref":
- "person_15073"},
- {
- "persName":
- "Dora Michaelis",
- "ref":
- "person_18137"},
- {
- "persName":
- "Ernst Wurmser",
- "ref":
- "person_21481"},
- {
- "persName":
- "Victor Barnowsky",
- "ref":
- "person_13428"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"},
- {
- "persName":
- "Wilhelm Kestranek",
- "ref":
- "person_16827"},
- {
- "persName":
- "Heinz Salfner",
- "ref":
- "person_19530"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ,  {
- "title":
- "Unwiederbringlich. Roman",
- "ref":
- "pmb78385"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ]
 }
-}] 
+}, ] 

@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -21,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_*D01",
  "head":
- "Doktor Gräsler, Badearzt, erschl. Druckfahne (Berliner Tageblatt)"
+ "Doktor Gräsler, Badearzt, erschl. Druckfahne (Berliner Tageblatt)",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -62,4 +52,20 @@
  "pmb30863"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

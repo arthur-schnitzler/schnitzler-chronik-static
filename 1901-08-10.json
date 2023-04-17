@@ -1,16 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/946/",
+ "entry__1901-08-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/946/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-08-10.html",
  "head":
- "Vahrn"
+ "Tagebuch, 10. August 1901",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -256,34 +271,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-08-10",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-08-10.html",
- "head":
- "Tagebuch, 10. August 1901",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -400,4 +387,20 @@
  "pmb657"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/946/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/946/",
+ "head":
+ "Vahrn",
+ "desc":
+{
+}
+}, ] 

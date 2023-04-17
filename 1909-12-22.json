@@ -1,75 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01907",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01907.html",
- "head":
- "Arthur Schnitzler an Hermann Bahr, 22. 12. 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Otto Brahm, 22.12.1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -160,6 +90,41 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01907",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01907.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 22. 12. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -193,4 +158,43 @@
  "pmb133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 22.12.1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

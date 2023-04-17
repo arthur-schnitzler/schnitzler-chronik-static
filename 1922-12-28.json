@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1922-12-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-12-28.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 28. Dezember 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Jefferson Asch",
+ "ref":
+ "person_13272"},
+ {
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Siegfried von Strakosch-Feldringen",
+ "ref":
+ "person_20469"},
+ {
+ "persName":
+ "Margarethe Nauheim",
+ "ref":
+ "person_18367"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ,  {
+ "title":
+ "Bambi. Eine Lebensgeschichte aus dem Walde",
+ "ref":
+ "pmb76504"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -124,6 +166,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
@@ -142,61 +200,7 @@
  "ref":
  "https://d-nb.info/gnd/137103433"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1922-12-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-12-28.html",
- "head":
- "Tagebuch, 28. Dezember 1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Joseph Jefferson Asch",
- "ref":
- "person_13272"},
- {
- "persName":
- "Sigmund Freud",
- "ref":
- "person_15172"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Siegfried von Strakosch-Feldringen",
- "ref":
- "person_20469"},
- {
- "persName":
- "Margarethe Nauheim",
- "ref":
- "person_18367"}],
- "listBibl":
-  [
- {
- "title":
- "Traumnovelle",
- "ref":
- "pmb30851"}
- ,  {
- "title":
- "Bambi. Eine Lebensgeschichte aus dem Walde",
- "ref":
- "pmb76504"}
- ]
-}
-}] 
+}, ] 

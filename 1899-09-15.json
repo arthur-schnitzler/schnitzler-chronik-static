@@ -1,17 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45258/",
+ "entry__1899-09-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-15.html",
  "head":
- "München"
-}, {
+ "Tagebuch, 15. September 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Elsinger",
+ "ref":
+ "person_14734"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,32 +105,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-09-15",
+ "entity/45258/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-15.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
  "head":
- "Tagebuch, 15. September 1899",
+ "München",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Elsinger",
- "ref":
- "person_14734"}],
- "listBibl":
-  [
- {
- "title":
- "Das Vermächtnis. Schauspiel in drei Akten",
- "ref":
- "pmb30219"}
- ]
 }
-}] 
+}, ] 

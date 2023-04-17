@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91153/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91153/",
- "head":
- "Linz"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Olga Schnitzler, 8. 4. 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -126,4 +78,59 @@
  "pmb130"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91153/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91153/",
+ "head":
+ "Linz",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 8. 4. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

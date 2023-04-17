@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/847/",
+ "entry__1905-03-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/847/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-07.html",
  "head":
- "Ajaccio"
+ "Tagebuch, 7. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else Markbreiter",
+ "ref":
+ "person_17900"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "person_18356"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ajaccio",
+ "ref":
+ "pmb847"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -73,41 +95,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1905-03-07",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-07.html",
- "head":
- "Tagebuch, 7. März 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Else Markbreiter",
- "ref":
- "person_17900"},
- {
- "persName":
- "Napoleon Bonaparte",
- "ref":
- "person_18356"}],
- "listPlace":
-  [
- {
- "placeName":
- "Ajaccio",
- "ref":
- "pmb847"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -161,4 +148,20 @@
  "pmb220"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/847/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/847/",
+ "head":
+ "Ajaccio",
+ "desc":
+{
+}
+}, ] 

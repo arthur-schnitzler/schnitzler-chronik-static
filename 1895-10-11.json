@@ -1,61 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00504",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00504.html",
- "head":
- "Ferdindand von Saar an Arthur Schnitzler, 11. 10. 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ferdinand von Saar",
- "ref":
- "pmb12602"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "XIX., Döbling",
- "ref":
- "pmb69"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -122,4 +66,63 @@
  "pmb58"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00504",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00504.html",
+ "head":
+ "Ferdindand von Saar an Arthur Schnitzler, 11. 10. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand von Saar",
+ "ref":
+ "pmb12602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ "pmb69"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Theodor Herzl an Arthur Schnitzler, 23.12.1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Herzl",
- "ref":
- "https://d-nb.info/gnd/118550241"}],
- "bibl":
- "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -60,4 +25,43 @@
  "ref":
  "person_19832"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 23.12.1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "https://d-nb.info/gnd/118550241"}],
+ "bibl":
+ ", "source":
+ "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
+}
+}, ] 

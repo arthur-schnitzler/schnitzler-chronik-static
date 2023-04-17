@@ -1,43 +1,72 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp220",
+ "entry__1925-06-21",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp220.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-06-21.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 20.–21. Juni 1925"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp221",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp221.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 21.–23. Juni 1925"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 21. Juni 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Joseph Schwarz",
+ "ref":
+ "person_19974"},
+ {
+ "persName":
+ "Carl Friedberg",
+ "ref":
+ "person_15207"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kaiser Josef II.",
+ "ref":
+ "pmb30843"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden-Baden",
+ "ref":
+ "pmb228"}
+ ,  {
+ "placeName":
+ "Fremersberg",
+ "ref":
+ "pmb90651"}
+ ,  {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -140,70 +169,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1925-06-21",
+ "ckp220",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-06-21.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp220.html",
  "head":
- "Tagebuch, 21. Juni 1925",
+ "Tagebuch von Clara Katharina Pollaczek, 20.–21. Juni 1925",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Joseph Schwarz",
- "ref":
- "person_19974"},
- {
- "persName":
- "Carl Friedberg",
- "ref":
- "person_15207"},
- {
- "persName":
- "Wilhelm Grosz",
- "ref":
- "person_15685"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Kaiser Josef II.",
- "ref":
- "pmb30843"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Baden-Baden",
- "ref":
- "pmb228"}
- ,  {
- "placeName":
- "Fremersberg",
- "ref":
- "pmb90651"}
- ,  {
- "placeName":
- "New York City",
- "ref":
- "pmb44053"}
- ]
 }
-}] 
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp221",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp221.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 21.–23. Juni 1925",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

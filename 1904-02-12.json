@@ -1,88 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/168/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
- "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01372",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01372.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 12. 2. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Otto Brahm",
- "ref":
- "pmb10986"},
- {
- "persName":
- "Rudolf Rittner",
- "ref":
- "pmb12530"}],
- "listPlace":
-  [
- {
- "placeName":
- "Konstanz",
- "ref":
- "pmb849"}
- ,  {
- "placeName":
- "Hotel Continental",
- "ref":
- "pmb399"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Deutsches Theater Berlin",
- "ref":
- "pmb3"}
- ,  {
- "placeName":
- "Schumannstraße",
- "ref":
- "pmb307"}
- ,  {
- "placeName":
- "Konzilgebäude",
- "ref":
- "pmb452"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -171,6 +88,76 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01372",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01372.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 12. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Konstanz",
+ "ref":
+ "pmb849"}
+ ,  {
+ "placeName":
+ "Hotel Continental",
+ "ref":
+ "pmb399"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Schumannstraße",
+ "ref":
+ "pmb307"}
+ ,  {
+ "placeName":
+ "Konzilgebäude",
+ "ref":
+ "pmb452"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -239,4 +226,20 @@
  "pmb307"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, ] 

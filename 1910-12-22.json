@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-12-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-12-22.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 22. Dezember 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "person_13547"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "person_15750"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Komödiant",
+ "ref":
+ "pmb30319"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -96,50 +131,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-12-22",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-12-22.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 22. Dezember 1910",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Gabriel Beer-Hofmann",
- "ref":
- "person_13547"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Robert Gund",
- "ref":
- "person_15750"}],
- "listBibl":
-  [
- {
- "title":
- "Der Komödiant",
- "ref":
- "pmb30319"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ]
 }
-}] 
+}, ] 

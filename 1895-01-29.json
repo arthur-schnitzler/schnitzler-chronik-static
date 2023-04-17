@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00418",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00418.html",
- "head":
- "Richard Beer-Hofmann an Arthur Schnitzler, 29. 1. 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"}],
- "listPlace":
-  [
- {
- "placeName":
- "I., Innere Stadt",
- "ref":
- "pmb51"}
- ,  {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Frankgasse",
- "ref":
- "pmb397"}
- ,  {
- "placeName":
- "Raimund-Theater",
- "ref":
- "pmb77"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -122,6 +59,56 @@
  "Bad Ischl",
  "ref":
  "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00418",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00418.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 29. 1. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
  ]
 }
 }, {
@@ -187,4 +174,20 @@
  "pmb213"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

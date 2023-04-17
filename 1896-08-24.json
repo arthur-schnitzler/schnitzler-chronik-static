@@ -1,69 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/168/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
- "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02691",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02691.html",
- "head":
- "Paul Goldmann an Arthur Schnitzler, [24. 8. 1896?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "Otto Brahm",
- "ref":
- "pmb10986"}],
- "listBibl":
-  [
- {
- "title":
- "Freiwild. Schauspiel in 3 Akten",
- "ref":
- "pmb29899"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Deutsches Theater Berlin",
- "ref":
- "pmb35597"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -145,4 +81,71 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02691",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02691.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, [24. 8. 1896?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, ] 

@@ -1,30 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/682/",
+ "entry__1900-03-31",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/682/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-31.html",
  "head":
- "Dubrovnik"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/92731/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/92731/",
- "head":
- "Ombla"
-}, {
+ "Tagebuch, 31. März 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Bum",
+ "ref":
+ "person_14061"},
+ {
+ "persName":
+ "Josef Halban",
+ "ref":
+ "person_15857"},
+ {
+ "persName":
+ "Alois Strasser",
+ "ref":
+ "person_20475"},
+ {
+ "persName":
+ "Emmerich Ullmann",
+ "ref":
+ "person_20865"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dubrovnik",
+ "ref":
+ "pmb682"}
+ ,  {
+ "placeName":
+ "Ombla",
+ "ref":
+ "pmb92731"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -76,52 +100,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-03-31",
+ "entity/682/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-31.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/682/",
  "head":
- "Tagebuch, 31. März 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Anton Bum",
- "ref":
- "person_14061"},
- {
- "persName":
- "Josef Halban",
- "ref":
- "person_15857"},
- {
- "persName":
- "Alois Strasser",
- "ref":
- "person_20475"},
- {
- "persName":
- "Emmerich Ullmann",
- "ref":
- "person_20865"}],
- "listPlace":
-  [
- {
- "placeName":
  "Dubrovnik",
- "ref":
- "pmb682"}
- ,  {
- "placeName":
- "Ombla",
- "ref":
- "pmb92731"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92731/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92731/",
+ "head":
+ "Ombla",
+ "desc":
+{
+}
+}, ] 

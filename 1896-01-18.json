@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00529",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00529.html",
- "head":
- "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lou Andreas-Salomé",
- "ref":
- "pmb10762"}],
- "listPlace":
-  [
- {
- "placeName":
- "I., Innere Stadt",
- "ref":
- "pmb51"}
- ,  {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Frankgasse",
- "ref":
- "pmb397"}
- ,  {
- "placeName":
- "Café Griensteidl",
- "ref":
- "pmb34"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -121,4 +58,70 @@
  "pmb29917"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00529",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00529.html",
+ "head":
+ "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "pmb10762"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Café Griensteidl",
+ "ref":
+ "pmb34"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

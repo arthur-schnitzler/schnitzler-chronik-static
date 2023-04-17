@@ -1,120 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02372",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02372.html",
- "head":
- "Arthur Schnitzler an Georg Brandes, 28. 12. 1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Georg Brandes",
- "ref":
- "pmb10992"},
- {
- "persName":
- "Johann Wolfgang von Goethe",
- "ref":
- "pmb11461"},
- {
- "persName":
- "William Shakespeare",
- "ref":
- "pmb2412"}],
- "listBibl":
-  [
- {
- "title":
- "Wolfgang Goethe",
- "ref":
- "pmb32093"}
- ,  {
- "title":
- "William Shakespeare",
- "ref":
- "pmb32159"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Gustaf Linden, 28.12.1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustaf Linden",
- "ref":
- "https://d-nb.info/gnd/117024562"}],
- "bibl":
- "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Oskar Bergstroem, 28. 12. 1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Oskar Bergstroem",
- "ref":
- ""}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -196,4 +81,124 @@
  "pmb44016"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02372",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02372.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 28. 12. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Wolfgang Goethe",
+ "ref":
+ "pmb32093"}
+ ,  {
+ "title":
+ "William Shakespeare",
+ "ref":
+ "pmb32159"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 28.12.1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustaf Linden",
+ "ref":
+ "https://d-nb.info/gnd/117024562"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Oskar Bergstroem, 28. 12. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Bergstroem",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, ] 

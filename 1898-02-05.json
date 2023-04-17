@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00773",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00773.html",
- "head":
- "Max Burckhard an Arthur Schnitzler, 5. 2. 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "pmb11036"}],
- "listBibl":
-  [
- {
- "title":
- "Freiwild. Schauspiel in 3 Akten",
- "ref":
- "pmb29899"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Carl-Theater",
- "ref":
- "pmb118"}
- ,  {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -119,4 +58,68 @@
  "pmb29899"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00773",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00773.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, 5. 2. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ "pmb118"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

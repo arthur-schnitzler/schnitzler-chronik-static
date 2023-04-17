@@ -1,17 +1,77 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-11-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-20.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 20. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Ernst Hardt",
+ "ref":
+ "person_15922"},
+ {
+ "persName":
+ "Victor Léon",
+ "ref":
+ "person_17448"},
+ {
+ "persName":
+ "Marcellin Marbot",
+ "ref":
+ "person_17851"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Karl Gustav Vollmoeller",
+ "ref":
+ "person_20986"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -135,75 +195,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1908-11-20",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-20.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 20. November 1908",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Ernst Hardt",
- "ref":
- "person_15922"},
- {
- "persName":
- "Victor Léon",
- "ref":
- "person_17448"},
- {
- "persName":
- "Marcellin Marbot",
- "ref":
- "person_17851"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Karl Gustav Vollmoeller",
- "ref":
- "person_20986"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ]
 }
-}] 
+}, ] 

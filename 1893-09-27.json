@@ -1,29 +1,56 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-09-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-09-27.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
+ "Tagebuch, 27. September 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "person_20779"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -158,59 +185,6 @@
  "Alte Pinakothek",
  "ref":
  "pmb511"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-09-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-09-27.html",
- "head":
- "Tagebuch, 27. September 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Carl von Torresani-Lanzenfeld",
- "ref":
- "person_20779"}],
- "listBibl":
-  [
- {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
  ]
 }
 }, {
@@ -722,4 +696,36 @@
  "pmb29366"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

@@ -1,43 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/39752/",
+ "entry__1898-08-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/39752/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-05.html",
  "head":
- "Tegernsee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/54930/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/54930/",
- "head":
- "Egern"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34048/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34048/",
- "head":
- "Hotel Post"
-}, {
+ "Tagebuch, 5. August 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Egern",
+ "ref":
+ "pmb54930"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -200,32 +191,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1898-08-05",
+ "entity/39752/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/39752/",
  "head":
- "Tagebuch, 5. August 1898",
+ "Tegernsee",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listPlace":
-  [
- {
- "placeName":
- "Egern",
- "ref":
- "pmb54930"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/54930/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/54930/",
+ "head":
+ "Egern",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34048/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34048/",
+ "head":
+ "Hotel Post",
+ "desc":
+{
+}
+}, ] 

@@ -1,29 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/954/",
+ "entry__1903-08-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/954/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-20.html",
  "head":
- "Trient"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90428/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90428/",
- "head":
- "Caldonazzo"
+ "Tagebuch, 20. August 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Trient",
+ "ref":
+ "pmb954"}
+ ,  {
+ "placeName":
+ "Caldonazzo",
+ "ref":
+ "pmb90428"}
+ ,  {
+ "placeName":
+ "Lavarone",
+ "ref":
+ "pmb461"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -67,46 +81,6 @@
  "Veitlissengasse",
  "ref":
  "pmb220"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-08-20",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-20.html",
- "head":
- "Tagebuch, 20. August 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"}],
- "listPlace":
-  [
- {
- "placeName":
- "Trient",
- "ref":
- "pmb954"}
- ,  {
- "placeName":
- "Caldonazzo",
- "ref":
- "pmb90428"}
- ,  {
- "placeName":
- "Lavarone",
- "ref":
- "pmb461"}
  ]
 }
 }, {
@@ -247,4 +221,36 @@
  "pmb29675"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/954/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/954/",
+ "head":
+ "Trient",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90428/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90428/",
+ "head":
+ "Caldonazzo",
+ "desc":
+{
+}
+}, ] 

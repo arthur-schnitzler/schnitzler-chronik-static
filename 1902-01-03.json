@@ -1,16 +1,91 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1902-01-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-03.html",
  "head":
- "Berlin"
+ "Tagebuch, 3. Januar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "person_14283"},
+ {
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "person_14730"},
+ {
+ "persName":
+ "Efraim Frisch",
+ "ref":
+ "person_15253"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Moritz Heimann",
+ "ref":
+ "person_16041"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Paul Martin Marton",
+ "ref":
+ "person_17946"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Das Verlöbnis. Geschichte eines Knaben",
+ "ref":
+ "pmb43467"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -156,116 +231,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#w300e3d7-7902-4a11-b0c7-2b0b441db98d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Louise Dumont an Arthur Schnitzler, 3.1.1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Louise Dumont",
- "ref":
- "https://d-nb.info/gnd/118681192"}],
- "bibl":
- "Gertrude Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-01-03",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-03.html",
- "head":
- "Tagebuch, 3. Januar 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Auguste Chlum",
- "ref":
- "person_14199"},
- {
- "persName":
- "Moritz Coschell",
- "ref":
- "person_14283"},
- {
- "persName":
- "Arthur Eloesser",
- "ref":
- "person_14730"},
- {
- "persName":
- "Efraim Frisch",
- "ref":
- "person_15253"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Moritz Heimann",
- "ref":
- "person_16041"},
- {
- "persName":
- "Alfred Kerr",
- "ref":
- "person_16819"},
- {
- "persName":
- "Paul Martin Marton",
- "ref":
- "person_17946"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ,  {
- "title":
- "Lebendige Stunden. Vier Einakter",
- "ref":
- "pmb29863"}
- ,  {
- "title":
- "Das Verlöbnis. Geschichte eines Knaben",
- "ref":
- "pmb43467"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Zürich",
- "ref":
- "pmb484"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -375,4 +340,43 @@
  "pmb29308"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w300e3d7-7902-4a11-b0c7-2b0b441db98d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Louise Dumont an Arthur Schnitzler, 3.1.1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Dumont",
+ "ref":
+ "https://d-nb.info/gnd/118681192"}],
+ "bibl":
+ ", "source":
+ "Gertrude Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013."
+}
+}, ] 

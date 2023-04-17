@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1897-09-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-09-04.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 4. September 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Oscar Stoerk",
+ "ref":
+ "person_20449"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien Mauer",
+ "ref":
+ "pmb91217"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -93,55 +133,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1897-09-04",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-09-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 4. September 1897",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Rosa Freudenthal",
- "ref":
- "person_15178"},
- {
- "persName":
- "Oscar Stoerk",
- "ref":
- "person_20449"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"}],
- "listBibl":
-  [
- {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien Mauer",
- "ref":
- "pmb91217"}
- ]
 }
-}] 
+}, ] 

@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#r622db06-4f0b-4c00-a846-4d10842e4354",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Annie Quensel an Arthur Schnitzler, 10.4.1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Annie Quensel",
- "ref":
- ""}],
- "bibl":
- "Bernd Kürschner: Arthur Schnitzler und die schwedische Kinderhilfsorganisation Rädda Barnen. In: Text &amp; Kontext. Jahrbuch für germanistische Literaturforschung in Skandinavien, Jg. 36, 2014, 151–172."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -78,4 +43,43 @@
  "pmb36043"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#r622db06-4f0b-4c00-a846-4d10842e4354",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Annie Quensel an Arthur Schnitzler, 10.4.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Annie Quensel",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Bernd Kürschner: Arthur Schnitzler und die schwedische Kinderhilfsorganisation Rädda Barnen. In: Text &amp; Kontext. Jahrbuch für germanistische Literaturforschung in Skandinavien, Jg. 36, 2014, 151–172."
+}
+}, ] 

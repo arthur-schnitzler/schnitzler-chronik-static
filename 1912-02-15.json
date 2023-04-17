@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -24,50 +11,6 @@
  "Professor Bernhardi, K5 part. msl. Werkniederschrift 2",
  "text":
  "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Fritz von Unruh, 15. 2. 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Fritz von Unruh",
- "ref":
- "https://d-nb.info/gnd/118625527"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Otto Brahm, 15.2.1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -96,4 +39,66 @@
  "pmb30203"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Fritz von Unruh, 15. 2. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "https://d-nb.info/gnd/118625527"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 15.2.1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

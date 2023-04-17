@@ -1,109 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91735/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91735/",
- "head":
- "Semmering"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/413/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/413/",
- "head":
- "Südbahnhotel"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01943",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01943.html",
- "head":
- "Franz Blei an Arthur Schnitzler, 10. 7. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franz Blei",
- "ref":
- "pmb10955"},
- {
- "persName":
- "Georg Müller",
- "ref":
- "pmb5601"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Leopold von Andrian-Werburg",
- "ref":
- "pmb10765"}],
- "listBibl":
-  [
- {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ,  {
- "title":
- "Die Mutter. In drei Acten",
- "ref":
- "pmb30963"}
- ,  {
- "title":
- "Der Garten der Erkenntnis",
- "ref":
- "pmb30435"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Forte dei Marmi",
- "ref":
- "pmb44248"}
- ,  {
- "placeName":
- "Casa Vignolo",
- "ref":
- "pmb1170"}
- ,  {
- "placeName":
- "Josephsplatz",
- "ref":
- "pmb1168"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -195,4 +91,114 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01943",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01943.html",
+ "head":
+ "Franz Blei an Arthur Schnitzler, 10. 7. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Blei",
+ "ref":
+ "pmb10955"},
+ {
+ "persName":
+ "Georg Müller",
+ "ref":
+ "pmb5601"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Die Mutter. In drei Acten",
+ "ref":
+ "pmb30963"}
+ ,  {
+ "title":
+ "Der Garten der Erkenntnis",
+ "ref":
+ "pmb30435"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Forte dei Marmi",
+ "ref":
+ "pmb44248"}
+ ,  {
+ "placeName":
+ "Casa Vignolo",
+ "ref":
+ "pmb1170"}
+ ,  {
+ "placeName":
+ "Josephsplatz",
+ "ref":
+ "pmb1168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/413/",
+ "head":
+ "Südbahnhotel",
+ "desc":
+{
+}
+}, ] 

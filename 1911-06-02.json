@@ -1,78 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02021",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02021.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 6. [1911]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Christiane von Hofmannsthal",
- "ref":
- "pmb3220"},
- {
- "persName":
- "Raimund von Hofmannsthal",
- "ref":
- "pmb3241"},
- {
- "persName":
- "Franz von Hofmannsthal",
- "ref":
- "pmb3244"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listPlace":
-  [
- {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -146,4 +73,80 @@
  "pmb30201"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02021",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02021.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 6. [1911]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Christiane von Hofmannsthal",
+ "ref":
+ "pmb3220"},
+ {
+ "persName":
+ "Raimund von Hofmannsthal",
+ "ref":
+ "pmb3241"},
+ {
+ "persName":
+ "Franz von Hofmannsthal",
+ "ref":
+ "pmb3244"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

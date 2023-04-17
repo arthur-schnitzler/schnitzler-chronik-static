@@ -1,30 +1,74 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp702",
+ "entry__1926-06-02",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp702.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-06-02.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 31. Mai 1929 – 8. Juni 1926"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 2. Juni 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Paul Wiegler",
+ "ref":
+ "person_21298"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kaltenleutgeben",
+ "ref":
+ "pmb44102"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Klosterneuburg",
+ "ref":
+ "pmb865"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -107,72 +151,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1926-06-02",
+ "ckp702",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-06-02.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp702.html",
  "head":
- "Tagebuch, 2. Juni 1926",
+ "Tagebuch von Clara Katharina Pollaczek, 31. Mai 1929 – 8. Juni 1926",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Egbertje Alida Brevée",
- "ref":
- "person_13969"},
- {
- "persName":
- "Max Reinhardt",
- "ref":
- "person_19154"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Anna Donath",
- "ref":
- "person_14481"},
- {
- "persName":
- "Paul Wiegler",
- "ref":
- "person_21298"}],
- "listPlace":
-  [
- {
- "placeName":
- "Kaltenleutgeben",
- "ref":
- "pmb44102"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Klosterneuburg",
- "ref":
- "pmb865"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

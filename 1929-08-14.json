@@ -1,30 +1,72 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp712",
+ "entry__1929-08-14",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp712.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-08-14.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 8.–17. August 1929"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 14. August 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Beer",
+ "ref":
+ "person_13545"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Alois Böhm",
+ "ref":
+ "person_13830"},
+ {
+ "persName":
+ "Otto Paul Schinnerer",
+ "ref":
+ "person_19704"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ "pmb53718"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,70 +146,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1929-08-14",
+ "ckp712",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-08-14.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp712.html",
  "head":
- "Tagebuch, 14. August 1929",
+ "Tagebuch von Clara Katharina Pollaczek, 8.–17. August 1929",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Rudolf Beer",
- "ref":
- "person_13545"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Alois Böhm",
- "ref":
- "person_13830"},
- {
- "persName":
- "Otto Paul Schinnerer",
- "ref":
- "person_19704"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Die Dreigroschenoper",
- "ref":
- "pmb53718"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Meran",
- "ref":
- "pmb43520"}
- ,  {
- "placeName":
- "Deutsches Volkstheater",
- "ref":
- "pmb92202"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,5 +1,28 @@
 [{
  "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-09-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-09-15.html",
+ "head":
+ "Tagebuch, 15. September 1902",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
+ "type":
  "schnitzler-orte",
  "color":
  "#045344",
@@ -10,7 +33,10 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-cmif",
@@ -31,6 +57,7 @@
  "ref":
  "https://d-nb.info/gnd/11856157X"}],
  "bibl":
+ ", "source":
  "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
 }
 }, {
@@ -53,29 +80,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-09-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-09-15.html",
- "head":
- "Tagebuch, 15. September 1902",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}] 
+}, ] 

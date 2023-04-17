@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01988",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01988.html",
- "head":
- "Bertha von Suttner an Arthur Schnitzler, Dezember 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Bertha von Suttner",
- "ref":
- "pmb12906"},
- {
- "persName":
- "Taussig",
- "ref":
- "pmb51940"}],
- "listPlace":
-  [
- {
- "placeName":
- "Zedlitzgasse",
- "ref":
- "pmb49286"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -93,4 +45,55 @@
  "ref":
  "person_16293"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01988",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01988.html",
+ "head":
+ "Bertha von Suttner an Arthur Schnitzler, Dezember 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "pmb12906"},
+ {
+ "persName":
+ "Taussig",
+ "ref":
+ "pmb51940"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zedlitzgasse",
+ "ref":
+ "pmb49286"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44271/",
+ "entry__1893-08-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44271/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-17.html",
  "head":
- "Pressbaum"
-}, {
+ "Tagebuch, 17. August 1893",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -43,6 +53,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44271/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44271/",
+ "head":
+ "Pressbaum",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -61,29 +87,7 @@
  "ref":
  "https://d-nb.info/gnd/118840819"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-08-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-17.html",
- "head":
- "Tagebuch, 17. August 1893",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}] 
+}, ] 

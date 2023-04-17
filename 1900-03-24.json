@@ -1,17 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1900-03-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-24.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 24. März 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Paul Horn",
+ "ref":
+ "person_16363"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Therese Horn",
+ "ref":
+ "person_16366"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "H.gasse",
+ "ref":
+ "pmb92266"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -86,52 +123,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-03-24",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-24.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 24. März 1900",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Georg Brandes",
- "ref":
- "person_13920"},
- {
- "persName":
- "Paul Horn",
- "ref":
- "person_16363"},
- {
- "persName":
- "Leopoldine Müller",
- "ref":
- "person_18303"},
- {
- "persName":
- "Therese Horn",
- "ref":
- "person_16366"}],
- "listPlace":
-  [
- {
- "placeName":
- "H.gasse",
- "ref":
- "pmb92266"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1915-08-06",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-08-06.html",
  "head":
- "Bad Ischl"
-}, {
+ "Tagebuch, 6. August 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irmgard Kaufmann",
+ "ref":
+ "person_16449"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Alexander Girardi",
+ "ref":
+ "person_15442"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "person_16339"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kolowratshöhe",
+ "ref":
+ "pmb92339"}
+ ,  {
+ "placeName":
+ "Mannheim",
+ "ref":
+ "pmb881"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -68,57 +110,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1915-08-06",
+ "entity/213/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-08-06.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
  "head":
- "Tagebuch, 6. August 1915",
+ "Bad Ischl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Irmgard Kaufmann",
- "ref":
- "person_16449"},
- {
- "persName":
- "Berta Zuckerkandl",
- "ref":
- "person_21594"},
- {
- "persName":
- "Alexander Girardi",
- "ref":
- "person_15442"},
- {
- "persName":
- "Rudolf Holzer",
- "ref":
- "person_16339"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"}],
- "listPlace":
-  [
- {
- "placeName":
- "Kolowratshöhe",
- "ref":
- "pmb92339"}
- ,  {
- "placeName":
- "Mannheim",
- "ref":
- "pmb881"}
- ]
 }
-}] 
+}, ] 

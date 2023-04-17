@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1918-04-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-04-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. April 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Steiner",
+ "ref":
+ "person_20372"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -78,47 +110,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1918-04-12",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-04-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 12. April 1918",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Franz Steiner",
- "ref":
- "person_20372"},
- {
- "persName":
- "Berta Zuckerkandl",
- "ref":
- "person_21594"},
- {
- "persName":
- "Marianne Giustiniani",
- "ref":
- "person_21600"},
- {
- "persName":
- "Clara Jonas",
- "ref":
- "person_16572"}],
- "listBibl":
-  [
- {
- "title":
- "Jugend in Wien",
- "ref":
- "pmb33838"}
- ]
 }
-}] 
+}, ] 

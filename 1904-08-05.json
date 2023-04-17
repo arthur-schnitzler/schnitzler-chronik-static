@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01421",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01421.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 5. 8. [1904]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listBibl":
-  [
- {
- "title":
- "Dialog vom Marsyas",
- "ref":
- "pmb30065"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -150,6 +89,54 @@
  "Türkenschanzpark",
  "ref":
  "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01421",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01421.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 5. 8. [1904]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dialog vom Marsyas",
+ "ref":
+ "pmb30065"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
@@ -303,4 +290,20 @@
  "pmb113"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

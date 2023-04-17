@@ -1,17 +1,67 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-04-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-04-08.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 8. April 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert von Balajthy",
+ "ref":
+ "person_13383"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "person_17046"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "person_21543"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Die Schule der Frauen",
+ "ref":
+ "pmb76775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -131,6 +181,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
@@ -149,69 +215,7 @@
  "ref":
  "https://d-nb.info/gnd/117024562"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-04-08",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-04-08.html",
- "head":
- "Tagebuch, 8. April 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert von Balajthy",
- "ref":
- "person_13383"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Max Devrient",
- "ref":
- "person_14434"},
- {
- "persName":
- "Arnold Korff",
- "ref":
- "person_17046"},
- {
- "persName":
- "Carl von Zeska",
- "ref":
- "person_21543"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Die Schule der Frauen",
- "ref":
- "pmb76775"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "VIII., Josefstadt",
- "ref":
- "pmb58"}
- ]
-}
-}] 
+}, ] 

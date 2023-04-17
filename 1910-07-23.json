@@ -1,16 +1,19 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-07-23",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-23.html",
  "head":
- "Wien"
+ "Tagebuch, 23. Juli 1910",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -199,63 +202,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 23.7.1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 23.7.1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-07-23",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-23.html",
- "head":
- "Tagebuch, 23. Juli 1910"
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -314,4 +260,66 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 23.7.1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 23.7.1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

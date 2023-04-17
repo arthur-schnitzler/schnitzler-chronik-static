@@ -1,16 +1,78 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1914-03-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-30.html",
  "head":
- "Wien"
+ "Tagebuch, 30. März 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Albert Frankfurter",
+ "ref":
+ "person_15134"},
+ {
+ "persName":
+ "Leonie Guttmann",
+ "ref":
+ "person_15781"},
+ {
+ "persName":
+ "Friedrich Jodl",
+ "ref":
+ "person_16557"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Alberto Stringa",
+ "ref":
+ "person_20532"},
+ {
+ "persName":
+ "Otto Weizsaecker",
+ "ref":
+ "person_21219"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "person_13699"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -141,81 +203,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1914-03-30",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-30.html",
- "head":
- "Tagebuch, 30. März 1914",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Raoul Auernheimer",
- "ref":
- "person_13305"},
- {
- "persName":
- "Albert Frankfurter",
- "ref":
- "person_15134"},
- {
- "persName":
- "Leonie Guttmann",
- "ref":
- "person_15781"},
- {
- "persName":
- "Friedrich Jodl",
- "ref":
- "person_16557"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Alberto Stringa",
- "ref":
- "person_20532"},
- {
- "persName":
- "Otto Weizsaecker",
- "ref":
- "person_21219"},
- {
- "persName":
- "Marianne Giustiniani",
- "ref":
- "person_21600"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Anton Bettelheim",
- "ref":
- "person_13699"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -287,4 +274,20 @@
  "pmb44016"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,16 +1,101 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1911-01-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-01.html",
  "head":
- "Wien"
+ "Tagebuch, 1. Januar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Anna Katharina Salten",
+ "ref":
+ "person_19541"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Hans Gregor",
+ "ref":
+ "person_15637"},
+ {
+ "persName":
+ "Emil Kuh",
+ "ref":
+ "person_17180"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Der tapfere Kassian. Singspiel",
+ "ref":
+ "pmb46124"}
+ ,  {
+ "title":
+ "Die Ahnfrau",
+ "ref":
+ "pmb76987"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -119,104 +204,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1911-01-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-01.html",
- "head":
- "Tagebuch, 1. Januar 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Anna Katharina Salten",
- "ref":
- "person_19541"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Oscar Straus",
- "ref":
- "person_20490"},
- {
- "persName":
- "Hans Gregor",
- "ref":
- "person_15637"},
- {
- "persName":
- "Emil Kuh",
- "ref":
- "person_17180"}],
- "listBibl":
-  [
- {
- "title":
- "Doktor Gräsler, Badearzt",
- "ref":
- "pmb30201"}
- ,  {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Der tapfere Kassian. Singspiel",
- "ref":
- "pmb46124"}
- ,  {
- "title":
- "Die Ahnfrau",
- "ref":
- "pmb76987"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -316,4 +303,20 @@
  "ref":
  "pmb2238"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

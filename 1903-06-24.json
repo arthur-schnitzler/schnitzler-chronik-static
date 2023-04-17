@@ -1,16 +1,66 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-06-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-24.html",
  "head":
- "Wien"
+ "Tagebuch, 24. Juni 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "person_13548"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Erdgeist. Tragödie in vier Aufzügen",
+ "ref":
+ "pmb31323"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -91,69 +141,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-06-24",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-24.html",
- "head":
- "Tagebuch, 24. Juni 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Anna Sikora",
- "ref":
- "person_20523"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Mirjam Beer-Hofmann",
- "ref":
- "person_13548"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"}],
- "listBibl":
-  [
- {
- "title":
- "Erdgeist. Tragödie in vier Aufzügen",
- "ref":
- "pmb31323"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Volksgarten",
- "ref":
- "pmb103"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -225,4 +212,20 @@
  "pmb450"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

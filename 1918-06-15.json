@@ -1,63 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02288",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02288.html",
- "head":
- "Arthur Schnitzler an Robert Adam, 15. 6. 1918",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert Adam",
- "ref":
- "pmb12438"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "VIII., Josefstadt",
- "ref":
- "pmb58"}
- ,  {
- "placeName":
- "XII., Meidling",
- "ref":
- "pmb62"}
- ,  {
- "placeName":
- "Meidlinger Hauptstraße",
- "ref":
- "pmb1239"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -109,4 +51,65 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02288",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02288.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 15. 6. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

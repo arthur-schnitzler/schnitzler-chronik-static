@@ -1,16 +1,71 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1905-07-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-07-30.html",
  "head":
- "Wien"
+ "Tagebuch, 30. Juli 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Biener",
+ "ref":
+ "person_13722"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ludwig Wahrmund",
+ "ref":
+ "person_21045"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Karl Berger",
+ "ref":
+ "person_13632"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Die Andere",
+ "ref":
+ "pmb29999"}
+ ,  {
+ "title":
+ "Wilhelm Bienner. Kanzler von Tirol",
+ "ref":
+ "pmb30671"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -145,74 +200,6 @@
  "Wien",
  "ref":
  "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1905-07-30",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-07-30.html",
- "head":
- "Tagebuch, 30. Juli 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Wilhelm Biener",
- "ref":
- "person_13722"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Ludwig Wahrmund",
- "ref":
- "person_21045"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Karl Berger",
- "ref":
- "person_13632"}],
- "listBibl":
-  [
- {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ,  {
- "title":
- "Die Andere",
- "ref":
- "pmb29999"}
- ,  {
- "title":
- "Wilhelm Bienner. Kanzler von Tirol",
- "ref":
- "pmb30671"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "",
- "ref":
- "pmb91574"}
  ]
 }
 }, {
@@ -409,4 +396,20 @@
  "pmb483"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

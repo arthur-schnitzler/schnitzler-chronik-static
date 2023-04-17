@@ -1,16 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1922-06-06",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-06.html",
  "head":
- "Wien"
+ "Tagebuch, 6. Juni 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Walter Pfund",
+ "ref":
+ "person_18748"},
+ {
+ "persName":
+ "Alice Schmutzer",
+ "ref":
+ "person_19783"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -121,73 +153,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#gc49cd7e-1c35-4af4-808b-831b06a17f3d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Theodor Reik an Arthur Schnitzler, 6.6.1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Reik",
- "ref":
- "https://d-nb.info/gnd/118599216"}],
- "bibl":
- "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1922-06-06",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-06.html",
- "head":
- "Tagebuch, 6. Juni 1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Hedy Kempny",
- "ref":
- "person_16807"},
- {
- "persName":
- "Walter Pfund",
- "ref":
- "person_18748"},
- {
- "persName":
- "Alice Schmutzer",
- "ref":
- "person_19783"}],
- "listPlace":
-  [
- {
- "placeName":
- "Niederlande",
- "ref":
- "pmb44016"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -249,4 +214,43 @@
  "pmb161"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#gc49cd7e-1c35-4af4-808b-831b06a17f3d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Reik an Arthur Schnitzler, 6.6.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Reik",
+ "ref":
+ "https://d-nb.info/gnd/118599216"}],
+ "bibl":
+ ", "source":
+ "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."
+}
+}, ] 

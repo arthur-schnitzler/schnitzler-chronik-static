@@ -1,17 +1,77 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1911-09-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-09-25.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 25. September 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Herbert Eulenberg",
+ "ref":
+ "person_14821"},
+ {
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "person_18035"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "person_21423"},
+ {
+ "persName":
+ "Enrico Caruso",
+ "ref":
+ "person_14144"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Alles um Geld. Ein Stück in fünf Aufzügen",
+ "ref":
+ "pmb31899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -111,75 +171,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1911-09-25",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-09-25.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 25. September 1911",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Ernst von Dohnányi",
- "ref":
- "person_14473"},
- {
- "persName":
- "Herbert Eulenberg",
- "ref":
- "person_14821"},
- {
- "persName":
- "Lotte Medelsky",
- "ref":
- "person_18035"},
- {
- "persName":
- "Else Wohlgemuth",
- "ref":
- "person_21423"},
- {
- "persName":
- "Enrico Caruso",
- "ref":
- "person_14144"}],
- "listBibl":
-  [
- {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Der Schleier der Pierrette",
- "ref":
- "pmb30215"}
- ,  {
- "title":
- "Alles um Geld. Ein Stück in fünf Aufzügen",
- "ref":
- "pmb31899"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ]
 }
-}] 
+}, ] 

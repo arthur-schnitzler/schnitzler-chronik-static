@@ -1,63 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02638",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02638.html",
- "head":
- "Paul Goldmann an Arthur Schnitzler, [25.–28.? 2. 1897]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "Richard Klein",
- "ref":
- "pmb19419"},
- {
- "persName":
- "Arthur Klein",
- "ref":
- "pmb19386"}],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -104,6 +46,51 @@
  "Das Tschaperl",
  "ref":
  "pmb29829"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02638",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02638.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, [25.–28.? 2. 1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Richard Klein",
+ "ref":
+ "pmb19419"},
+ {
+ "persName":
+ "Arthur Klein",
+ "ref":
+ "pmb19386"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
@@ -164,4 +151,20 @@
  "pmb118"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

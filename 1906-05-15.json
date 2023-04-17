@@ -1,61 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01597",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01597.html",
- "head":
- "Richard Beer-Hofmann an Arthur Schnitzler, [zum 15.?] 5. 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"}],
- "listBibl":
-  [
- {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
- ,  {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -175,6 +119,49 @@
  "Meissl &amp; Schadn",
  "ref":
  "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01597",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01597.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, [zum 15.?] 5. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
  ]
 }
 }, {
@@ -315,4 +302,20 @@
  "pmb96"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

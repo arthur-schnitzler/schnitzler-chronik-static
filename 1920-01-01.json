@@ -1,31 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp059",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp059.html",
- "head":
- "Zwischenbemerkung, 1920–1921"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -146,6 +120,22 @@
  "ref":
  "pmb30"}
  ]
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp059",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp059.html",
+ "head":
+ "Zwischenbemerkung, 1920–1921",
+ "desc":
+{
 }
 }, {
  "type":
@@ -295,4 +285,20 @@
  "pmb237"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

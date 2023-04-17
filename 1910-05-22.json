@@ -1,17 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/967/",
+ "entry__1910-05-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-22.html",
  "head":
- "Luzern"
-}, {
+ "Tagebuch, 22. Mai 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Bauer",
+ "ref":
+ "person_13473"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "François les Bas-Bleus",
+ "ref":
+ "pmb80168"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ,  {
+ "placeName":
+ "Bürgenstock",
+ "ref":
+ "pmb90418"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -98,45 +128,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-05-22",
+ "entity/967/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-22.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
  "head":
- "Tagebuch, 22. Mai 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ludwig Bauer",
- "ref":
- "person_13473"}],
- "listBibl":
-  [
- {
- "title":
- "François les Bas-Bleus",
- "ref":
- "pmb80168"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Luzern",
- "ref":
- "pmb967"}
- ,  {
- "placeName":
- "Bürgenstock",
- "ref":
- "pmb90418"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

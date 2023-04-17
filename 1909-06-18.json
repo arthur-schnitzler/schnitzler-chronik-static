@@ -1,29 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/33/",
+ "entry__1909-06-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/33/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-18.html",
  "head":
- "St. Gilgen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/824/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/824/",
- "head":
- "Hotel und Pension Lueg"
+ "Tagebuch, 18. Juni 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Heinrich Sikora",
+ "ref":
+ "person_20098"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ludwigshöhe. Roman einer Krankenpflegerin",
+ "ref":
+ "pmb30243"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -153,51 +172,6 @@
  "Bayreuth",
  "ref":
  "pmb734"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1909-06-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-18.html",
- "head":
- "Tagebuch, 18. Juni 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Moriz Benedikt",
- "ref":
- "person_13595"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Heinrich Sikora",
- "ref":
- "person_20098"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Ludwigshöhe. Roman einer Krankenpflegerin",
- "ref":
- "pmb30243"}
  ]
 }
 }, {
@@ -344,4 +318,36 @@
  "pmb29351"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/33/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/33/",
+ "head":
+ "St. Gilgen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/824/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/824/",
+ "head":
+ "Hotel und Pension Lueg",
+ "desc":
+{
+}
+}, ] 

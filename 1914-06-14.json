@@ -1,86 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02183",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02183.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 14. 6. 1914",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "pmb11036"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Anna Bahr-Mildenburg",
- "ref":
- "pmb10818"}],
- "listBibl":
-  [
- {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Venedig",
- "ref":
- "pmb462"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Villa Trieste",
- "ref":
- "pmb156"}
- ,  {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -169,6 +88,74 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02183",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02183.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 14. 6. 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Villa Trieste",
+ "ref":
+ "pmb156"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -235,4 +222,20 @@
  "pmb30"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

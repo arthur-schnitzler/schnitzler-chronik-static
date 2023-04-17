@@ -1,17 +1,122 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1920-06-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-06-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. Juni 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Bruckner",
+ "ref":
+ "person_14008"},
+ {
+ "persName":
+ "Paul Dukas",
+ "ref":
+ "person_14543"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Johanna Herzog-Thullner",
+ "ref":
+ "person_16169"},
+ {
+ "persName":
+ "Gertrude Felice von Landesberger",
+ "ref":
+ "person_19227"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Franz Schmidt",
+ "ref":
+ "person_19760"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Richard Schüller",
+ "ref":
+ "person_19915"},
+ {
+ "persName":
+ "Georg Szell",
+ "ref":
+ "person_20602"},
+ {
+ "persName":
+ "Thullner",
+ "ref":
+ "person_20729"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Brehms Tierleben",
+ "ref":
+ "pmb30011"}
+ ,  {
+ "title":
+ "Symphonie Nr. 6 A-Dur WAB 106",
+ "ref":
+ "pmb30617"}
+ ,  {
+ "title":
+ "Aus meinem Leben. Dichtung und Wahrheit",
+ "ref":
+ "pmb31783"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ,  {
+ "placeName":
+ "Randweg",
+ "ref":
+ "pmb92473"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -176,120 +281,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1920-06-13",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-06-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 13. Juni 1920",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Anton Bruckner",
- "ref":
- "person_14008"},
- {
- "persName":
- "Paul Dukas",
- "ref":
- "person_14543"},
- {
- "persName":
- "Johann Wolfgang von Goethe",
- "ref":
- "person_15499"},
- {
- "persName":
- "Johanna Herzog-Thullner",
- "ref":
- "person_16169"},
- {
- "persName":
- "Gertrude Felice von Landesberger",
- "ref":
- "person_19227"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Franz Schmidt",
- "ref":
- "person_19760"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Richard Schüller",
- "ref":
- "person_19915"},
- {
- "persName":
- "Georg Szell",
- "ref":
- "person_20602"},
- {
- "persName":
- "Thullner",
- "ref":
- "person_20729"}],
- "listBibl":
-  [
- {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ,  {
- "title":
- "Brehms Tierleben",
- "ref":
- "pmb30011"}
- ,  {
- "title":
- "Symphonie Nr. 6 A-Dur WAB 106",
- "ref":
- "pmb30617"}
- ,  {
- "title":
- "Aus meinem Leben. Dichtung und Wahrheit",
- "ref":
- "pmb31783"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Salmannsdorf",
- "ref":
- "pmb91641"}
- ,  {
- "placeName":
- "Randweg",
- "ref":
- "pmb92473"}
- ,  {
- "placeName":
- "Neuwaldegg",
- "ref":
- "pmb170"}
- ,  {
- "placeName":
- "Ungarn",
- "ref":
- "pmb35512"}
- ]
 }
-}] 
+}, ] 

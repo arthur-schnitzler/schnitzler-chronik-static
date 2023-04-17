@@ -1,91 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02047",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02047.html",
- "head":
- "Arthur Schnitzler an Hermann Bahr, 18. 11. 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb28849"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Anna Bahr-Mildenburg",
- "ref":
- "pmb10818"}],
- "listBibl":
-  [
- {
- "title":
- "Bayreuth",
- "ref":
- "pmb29943"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ,  {
- "placeName":
- "Töpfelgasse",
- "ref":
- "pmb802"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Ober Sankt Veit",
- "ref":
- "pmb165"}
- ,  {
- "placeName":
- "Veitlissengasse",
- "ref":
- "pmb220"}
- ,  {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -174,6 +88,79 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02047",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02047.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 18. 11. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb28849"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Bayreuth",
+ "ref":
+ "pmb29943"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "Töpfelgasse",
+ "ref":
+ "pmb802"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Veitlissengasse",
+ "ref":
+ "pmb220"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -245,4 +232,20 @@
  "pmb220"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

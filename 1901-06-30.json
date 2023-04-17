@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91111/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91111/",
- "head":
- "Landeck"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91113/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91113/",
- "head":
- "Langen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91800/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91800/",
- "head":
- "St. Anton am Arlberg"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#w6429315-92be-4f82-b2f1-926125f9bfa5",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Eugen Deimel an Arthur Schnitzler, 30.6.1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen Deimel",
- "ref":
- "https://d-nb.info/gnd/124896847"}],
- "bibl":
- "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -109,4 +48,75 @@
  "pmb91800"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91111/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91111/",
+ "head":
+ "Landeck",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91113/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91113/",
+ "head":
+ "Langen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91800/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91800/",
+ "head":
+ "St. Anton am Arlberg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 30.6.1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ ", "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}
+}, ] 

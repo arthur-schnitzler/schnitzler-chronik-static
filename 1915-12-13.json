@@ -1,16 +1,63 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1915-12-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-12-13.html",
  "head":
- "Wien"
+ "Tagebuch, 13. Dezember 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Theodor Csokor",
+ "ref":
+ "person_14316"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "person_13376"},
+ {
+ "persName":
+ "Paul Apel",
+ "ref":
+ "person_13238"},
+ {
+ "persName":
+ "Teresa Carreño",
+ "ref":
+ "person_14143"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Hansjörgs Erwachen. Romantisches Spiel in drei Akten",
+ "ref":
+ "pmb31449"}
+ ,  {
+ "title":
+ "Der große Kampf",
+ "ref":
+ "pmb31309"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -127,154 +174,6 @@
  "Österreich",
  "ref":
  "pmb41240"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Elisabeth Steinrück, 13.12.1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "https://d-nb.info/gnd/117263958"}],
- "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Paul Apel, 13. 12. 1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Apel",
- "ref":
- "https://d-nb.info/gnd/116315903"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Elisabeth Steinrück, 13. 12. 1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "https://d-nb.info/gnd/117263958"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#w6429315-92be-4f82-b2f1-926125f9bfa5",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Eugen Deimel an Arthur Schnitzler, 13.12.1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen Deimel",
- "ref":
- "https://d-nb.info/gnd/124896847"}],
- "bibl":
- "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1915-12-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-12-13.html",
- "head":
- "Tagebuch, 13. Dezember 1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franz Theodor Csokor",
- "ref":
- "person_14316"},
- {
- "persName":
- "Anna Bahr-Mildenburg",
- "ref":
- "person_13376"},
- {
- "persName":
- "Paul Apel",
- "ref":
- "person_13238"},
- {
- "persName":
- "Teresa Carreño",
- "ref":
- "person_14143"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Hansjörgs Erwachen. Romantisches Spiel in drei Akten",
- "ref":
- "pmb31449"}
- ,  {
- "title":
- "Der große Kampf",
- "ref":
- "pmb31309"}
  ]
 }
 }, {
@@ -603,4 +502,112 @@
  "pmb30881"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Elisabeth Steinrück, 13.12.1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "https://d-nb.info/gnd/117263958"}],
+ "bibl":
+ ", "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Paul Apel, 13. 12. 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Apel",
+ "ref":
+ "https://d-nb.info/gnd/116315903"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Elisabeth Steinrück, 13. 12. 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "https://d-nb.info/gnd/117263958"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 13.12.1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ ", "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}
+}, ] 

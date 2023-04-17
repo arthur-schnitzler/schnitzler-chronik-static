@@ -1,30 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1904-11-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-11-15.html",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/127/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/127/",
- "head":
- "Hotel Bristol"
-}, {
+ "Tagebuch, 15. November 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Erich Ziegel",
+ "ref":
+ "person_21545"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Ernst Gòth",
+ "ref":
+ "person_15581"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Die Frau vom Meer. Schauspiel in fünf Akten",
+ "ref":
+ "pmb40061"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -109,6 +143,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/127/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/127/",
+ "head":
+ "Hotel Bristol",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -127,66 +193,7 @@
  "ref":
  "https://d-nb.info/gnd/116848723"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-11-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-11-15.html",
- "head":
- "Tagebuch, 15. November 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Erich Ziegel",
- "ref":
- "person_21545"},
- {
- "persName":
- "Mirjam Horwitz",
- "ref":
- "person_21546"},
- {
- "persName":
- "Ernst Gòth",
- "ref":
- "person_15581"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"}],
- "listBibl":
-  [
- {
- "title":
- "Das Haus Delorme. Eine Familienszene",
- "ref":
- "pmb31547"}
- ,  {
- "title":
- "Die Frau vom Meer. Schauspiel in fünf Akten",
- "ref":
- "pmb40061"}
- ]
-}
-}] 
+}, ] 

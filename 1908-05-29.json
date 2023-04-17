@@ -1,89 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Samuel Fischer, 29.5.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Samuel Fischer",
- "ref":
- "https://d-nb.info/gnd/118691406"}],
- "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Max Reinhardt, Felix Hollaender an Arthur Schnitzler, 29.5.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Reinhardt",
- "ref":
- "https://d-nb.info/gnd/118599380"},
- {
- "persName":
- "Felix Hollaender",
- "ref":
- "https://d-nb.info/gnd/116961805"}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#u02092b4-47df-42e7-a68c-556d17f8d217",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Franz Nabl an Arthur Schnitzler, 29.5.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franz Nabl",
- "ref":
- "https://d-nb.info/gnd/118586092"}],
- "bibl":
- "Reinhard Urbach: Arthur Schnitzler – Franz Nabl. Briefwechsel. In: Studium Generale, Jg. 24, 1971, S. 1256-1270."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -117,4 +33,94 @@
  "pmb30203"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Samuel Fischer, 29.5.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "https://d-nb.info/gnd/118691406"}],
+ "bibl":
+ ", "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Max Reinhardt, Felix Hollaender an Arthur Schnitzler, 29.5.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "https://d-nb.info/gnd/118599380"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "https://d-nb.info/gnd/116961805"}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u02092b4-47df-42e7-a68c-556d17f8d217",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Franz Nabl an Arthur Schnitzler, 29.5.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Nabl",
+ "ref":
+ "https://d-nb.info/gnd/118586092"}],
+ "bibl":
+ ", "source":
+ "Reinhard Urbach: Arthur Schnitzler – Franz Nabl. Briefwechsel. In: Studium Generale, Jg. 24, 1971, S. 1256-1270."
+}
+}, ] 

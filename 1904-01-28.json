@@ -1,16 +1,68 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-01-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-28.html",
  "head":
- "Wien"
+ "Tagebuch, 28. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Eduard Hanslick",
+ "ref":
+ "person_15911"},
+ {
+ "persName":
+ "Richard Heuberger",
+ "ref":
+ "person_16177"},
+ {
+ "persName":
+ "Wilhelm Karczag",
+ "ref":
+ "person_16715"},
+ {
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Bertha Klein",
+ "ref":
+ "person_16882"},
+ {
+ "persName":
+ "Karl Wallner",
+ "ref":
+ "person_21074"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -78,71 +130,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-01-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-28.html",
- "head":
- "Tagebuch, 28. Januar 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Johannes Brahms",
- "ref":
- "person_13914"},
- {
- "persName":
- "Eduard Hanslick",
- "ref":
- "person_15911"},
- {
- "persName":
- "Richard Heuberger",
- "ref":
- "person_16177"},
- {
- "persName":
- "Wilhelm Karczag",
- "ref":
- "person_16715"},
- {
- "persName":
- "Jacob Pollak",
- "ref":
- "person_18884"},
- {
- "persName":
- "Bertha Klein",
- "ref":
- "person_16882"},
- {
- "persName":
- "Karl Wallner",
- "ref":
- "person_21074"}],
- "listBibl":
-  [
- {
- "title":
- "Zum großen Wurstel",
- "ref":
- "pmb29951"}
- ,  {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -181,4 +168,20 @@
  "pmb31121"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

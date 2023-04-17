@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00887",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00887.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 8. 2. 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Ludwig Fulda",
- "ref":
- "pmb11391"},
- {
- "persName":
- "Joseph von Schönborn",
- "ref":
- "pmb24691"}],
- "listPlace":
-  [
- {
- "placeName":
- "III., Landstraße",
- "ref":
- "pmb53"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Frankgasse",
- "ref":
- "pmb397"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -121,4 +58,70 @@
  "pmb30403"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00887",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00887.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 8. 2. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"},
+ {
+ "persName":
+ "Joseph von Schönborn",
+ "ref":
+ "pmb24691"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ "pmb53"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

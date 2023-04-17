@@ -1,30 +1,47 @@
 [{
  "type":
- "pollaczek pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp261",
+ "entry__1925-09-10",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp261.html https://pollaczek.acdh.oeaw.ac.at/ckp262.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-09-10.html",
  "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 10. September 1925"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44248/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44248/",
- "head":
- "Forte dei Marmi"
-}, {
+ "Tagebuch, 10. September 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Forte dei Marmi",
+ "ref":
+ "pmb44248"}
+ ,  {
+ "placeName":
+ "Viareggio",
+ "ref":
+ "pmb1174"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -106,45 +123,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1925-09-10",
+ "ckp261",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-09-10.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp261.html https://pollaczek.acdh.oeaw.ac.at/ckp262.html",
  "head":
- "Tagebuch, 10. September 1925",
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 10. September 1925",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"}],
- "listBibl":
-  [
- {
- "title":
- "Der Gang zum Weiher. Dramatische Dichtung",
- "ref":
- "pmb30775"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Forte dei Marmi",
- "ref":
- "pmb44248"}
- ,  {
- "placeName":
- "Viareggio",
- "ref":
- "pmb1174"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44248/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44248/",
+ "head":
+ "Forte dei Marmi",
+ "desc":
+{
+}
+}, ] 

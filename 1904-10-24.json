@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-10-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-24.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 24. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Ostwald",
+ "ref":
+ "person_18603"},
+ {
+ "persName":
+ "Carl Reinhard",
+ "ref":
+ "person_19146"},
+ {
+ "persName":
+ "Carl Reinhard",
+ "ref":
+ "person_19147"},
+ {
+ "persName":
+ "Therese Reinhard",
+ "ref":
+ "person_19151"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Die lustigen Weiber von Windsor",
+ "ref":
+ "pmb81056"}
+ ,  {
+ "title":
+ "Großstadtdocumente",
+ "ref":
+ "pmb81090"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hohe Warte",
+ "ref":
+ "pmb92292"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,70 +144,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-10-24",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-24.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 24. Oktober 1904",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Hans Ostwald",
- "ref":
- "person_18603"},
- {
- "persName":
- "Carl Reinhard",
- "ref":
- "person_19146"},
- {
- "persName":
- "Carl Reinhard",
- "ref":
- "person_19147"},
- {
- "persName":
- "Therese Reinhard",
- "ref":
- "person_19151"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ,  {
- "title":
- "Die lustigen Weiber von Windsor",
- "ref":
- "pmb81056"}
- ,  {
- "title":
- "Großstadtdocumente",
- "ref":
- "pmb81090"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Hohe Warte",
- "ref":
- "pmb92292"}
- ]
 }
-}] 
+}, ] 

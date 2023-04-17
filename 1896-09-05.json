@@ -1,17 +1,74 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1896-09-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. September 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "person_15150"},
+ {
+ "persName":
+ "Leopold Horovitz",
+ "ref":
+ "person_16379"},
+ {
+ "persName":
+ "Friedrich Mitterwurzer",
+ "ref":
+ "person_18190"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Alexander Zeitlin",
+ "ref":
+ "person_21530"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Adele von Sonnenthal",
+ "ref":
+ "person_20203"},
+ {
+ "persName":
+ "Felix von Sonnenthal",
+ "ref":
+ "person_20205"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Mädchen aus der Feenwelt oder Der Bauer als Millionär",
+ "ref":
+ "pmb77405"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,6 +145,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -106,76 +179,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-09-05",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-05.html",
- "head":
- "Tagebuch, 5. September 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franz Joseph I. von Österreich-Ungarn",
- "ref":
- "person_15150"},
- {
- "persName":
- "Leopold Horovitz",
- "ref":
- "person_16379"},
- {
- "persName":
- "Friedrich Mitterwurzer",
- "ref":
- "person_18190"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Alexander Zeitlin",
- "ref":
- "person_21530"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Adele von Sonnenthal",
- "ref":
- "person_20203"},
- {
- "persName":
- "Felix von Sonnenthal",
- "ref":
- "person_20205"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Das Mädchen aus der Feenwelt oder Der Bauer als Millionär",
- "ref":
- "pmb77405"}
- ]
-}
-}] 
+}, ] 

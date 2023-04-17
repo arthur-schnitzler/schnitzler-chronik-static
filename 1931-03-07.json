@@ -1,30 +1,49 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp892",
+ "entry__1931-03-07",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp892.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-07.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 6.–13. März 1931"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 7. März 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Carl Clauser",
+ "ref":
+ "person_14230"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Friedrich Pollaczek",
+ "ref":
+ "person_18866"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,6 +108,38 @@
 }
 }, {
  "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp892",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp892.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 6.–13. März 1931",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
@@ -107,51 +158,7 @@
  "ref":
  ""}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1931-03-07",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-07.html",
- "head":
- "Tagebuch, 7. März 1931",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Friedrich Carl Clauser",
- "ref":
- "person_14230"},
- {
- "persName":
- "Suzanne Clauser",
- "ref":
- "person_14234"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Karl Friedrich Pollaczek",
- "ref":
- "person_18866"}],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ]
-}
-}] 
+}, ] 

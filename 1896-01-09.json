@@ -1,30 +1,31 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp020",
+ "entry__1896-01-09",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp020.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-09.html",
  "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 9. Januar 1896"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 9. Januar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emil Claar",
+ "ref":
+ "person_14218"},
+ {
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "person_15087"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -129,29 +130,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1896-01-09",
+ "ckp020",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-09.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp020.html",
  "head":
- "Tagebuch, 9. Januar 1896",
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 9. Januar 1896",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Emil Claar",
- "ref":
- "person_14218"},
- {
- "persName":
- "Dora Fournier",
- "ref":
- "person_15087"}]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

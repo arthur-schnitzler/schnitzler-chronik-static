@@ -1,30 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/428/",
+ "entry__1907-07-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/428/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-07-29.html",
  "head":
- "Welsberg-Taisten"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/723/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/723/",
- "head":
- "Wildbad Waldbrunn"
-}, {
+ "Tagebuch, 29. Juli 1907",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -227,25 +224,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1907-07-29",
+ "entity/428/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-07-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/428/",
  "head":
- "Tagebuch, 29. Juli 1907",
+ "Welsberg-Taisten",
  "desc":
-{"listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/723/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/723/",
+ "head":
+ "Wildbad Waldbrunn",
+ "desc":
+{
+}
+}, ] 

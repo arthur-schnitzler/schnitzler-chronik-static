@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#s68ac8da-2b04-4b21-afc4-b597655696e0",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Richard Schaukal an Arthur Schnitzler, nach 15.3.1902 und vor 20.3.1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Schaukal",
- "ref":
- "https://d-nb.info/gnd/118606662"}],
- "bibl":
- "Reinhard Urbach: Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -88,4 +53,43 @@
  "pmb173"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#s68ac8da-2b04-4b21-afc4-b597655696e0",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Richard Schaukal an Arthur Schnitzler, nach 15.3.1902 und vor 20.3.1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Schaukal",
+ "ref":
+ "https://d-nb.info/gnd/118606662"}],
+ "bibl":
+ ", "source":
+ "Reinhard Urbach: Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43."
+}
+}, ] 

@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01711",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01711.html",
- "head":
- "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Großmann",
- "ref":
- "pmb11527"}],
- "listOrg":
-  [
- {
- "orgName":
- "Wiener Freie Volksbühne",
- "ref":
- "pmb29569"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Mariahilferstraße",
- "ref":
- "pmb302"}
- ,  {
- "placeName":
- "Graben",
- "ref":
- "pmb39599"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -177,4 +116,68 @@
  "pmb91143"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01711",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01711.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mariahilferstraße",
+ "ref":
+ "pmb302"}
+ ,  {
+ "placeName":
+ "Graben",
+ "ref":
+ "pmb39599"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

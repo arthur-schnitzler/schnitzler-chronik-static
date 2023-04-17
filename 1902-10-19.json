@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90392/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90392/",
- "head":
- "Breslau"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/735/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/735/",
- "head":
- "Agnetendorf"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Olga Schnitzler, 19. 10. 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -129,4 +81,59 @@
  "pmb735"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90392/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90392/",
+ "head":
+ "Breslau",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/735/",
+ "head":
+ "Agnetendorf",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 19. 10. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

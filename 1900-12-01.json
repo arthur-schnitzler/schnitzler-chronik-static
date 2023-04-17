@@ -1,16 +1,73 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90392/",
+ "entry__1900-12-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90392/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-01.html",
  "head":
- "Breslau"
+ "Tagebuch, 1. Dezember 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "person_14056"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Theodor Loewe",
+ "ref":
+ "person_17643"},
+ {
+ "persName":
+ "Woldemar Runge",
+ "ref":
+ "person_19472"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Maximilian Schlesinger",
+ "ref":
+ "person_19734"},
+ {
+ "persName":
+ "Moritz Sternau",
+ "ref":
+ "person_20420"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -164,76 +221,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1900-12-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-01.html",
- "head":
- "Tagebuch, 1. Dezember 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Emerich von Bukovics",
- "ref":
- "person_14056"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Alfred Kerr",
- "ref":
- "person_16819"},
- {
- "persName":
- "Theodor Loewe",
- "ref":
- "person_17643"},
- {
- "persName":
- "Woldemar Runge",
- "ref":
- "person_19472"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Maximilian Schlesinger",
- "ref":
- "person_19734"},
- {
- "persName":
- "Moritz Sternau",
- "ref":
- "person_20420"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -315,4 +302,20 @@
  "pmb125"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90392/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90392/",
+ "head":
+ "Breslau",
+ "desc":
+{
+}
+}, ] 

@@ -1,116 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01995",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01995.html",
- "head":
- "Richard Beer-Hofmann an Arthur Schnitzler, [27. 12. 1910]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Franziska Schlesinger",
- "ref":
- "pmb24233"}],
- "listBibl":
-  [
- {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Neubeuern",
- "ref":
- "pmb33996"}
- ,  {
- "placeName":
- "Café Pucher",
- "ref":
- "pmb819"}
- ]
-}
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01996",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01996.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 27. 12. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Café Pucher",
- "ref":
- "pmb819"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -217,4 +106,118 @@
  "pmb652"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01995",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01995.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, [27. 12. 1910]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "pmb24233"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Neubeuern",
+ "ref":
+ "pmb33996"}
+ ,  {
+ "placeName":
+ "Café Pucher",
+ "ref":
+ "pmb819"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01996",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01996.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 27. 12. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Café Pucher",
+ "ref":
+ "pmb819"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

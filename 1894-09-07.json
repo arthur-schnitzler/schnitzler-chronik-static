@@ -1,16 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-09-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-07.html",
  "head":
- "Wien"
+ "Tagebuch, 7. September 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Später Ruhm",
+ "ref":
+ "pmb30073"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der Witwer",
+ "ref":
+ "pmb30407"}
+ ,  {
+ "title":
+ "Der Diamant des Geisterkönigs",
+ "ref":
+ "pmb77406"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -104,51 +136,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-09-07",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-07.html",
- "head":
- "Tagebuch, 7. September 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"}],
- "listBibl":
-  [
- {
- "title":
- "Später Ruhm",
- "ref":
- "pmb30073"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Der Witwer",
- "ref":
- "pmb30407"}
- ,  {
- "title":
- "Der Diamant des Geisterkönigs",
- "ref":
- "pmb77406"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -195,4 +182,20 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

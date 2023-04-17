@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1902-06-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-06-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. Juni 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Genesung",
+ "ref":
+ "pmb77060"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -71,37 +93,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1902-06-13",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-06-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 13. Juni 1902",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"}],
- "listBibl":
-  [
- {
- "title":
- "Genesung",
- "ref":
- "pmb77060"}
- ]
 }
-}] 
+}, ] 

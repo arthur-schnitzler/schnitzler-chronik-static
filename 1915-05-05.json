@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Richard Rosenbaum, 5. 5. 1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Rosenbaum",
- "ref":
- "https://d-nb.info/gnd/11662177X"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#w6429315-92be-4f82-b2f1-926125f9bfa5",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Eugen Deimel an Arthur Schnitzler, 5.5.1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen Deimel",
- "ref":
- "https://d-nb.info/gnd/124896847"}],
- "bibl":
- "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -143,4 +86,66 @@
  "pmb14"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Richard Rosenbaum, 5. 5. 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "https://d-nb.info/gnd/11662177X"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 5.5.1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ ", "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}
+}, ] 

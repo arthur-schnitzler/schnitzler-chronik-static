@@ -1,16 +1,63 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-01-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-29.html",
  "head":
- "Wien"
+ "Tagebuch, 29. Januar 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Lattermann",
+ "ref":
+ "person_17349"},
+ {
+ "persName":
+ "Claire Tagger",
+ "ref":
+ "person_20618"},
+ {
+ "persName":
+ "Marie Luggin",
+ "ref":
+ "person_17734"},
+ {
+ "persName":
+ "August von Platen",
+ "ref":
+ "person_18827"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30713"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -178,66 +225,6 @@
  "Edmund-Weiß-Gasse",
  "ref":
  "pmb133"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-01-29",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-29.html",
- "head":
- "Tagebuch, 29. Januar 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Lattermann",
- "ref":
- "person_17349"},
- {
- "persName":
- "Claire Tagger",
- "ref":
- "person_20618"},
- {
- "persName":
- "Marie Luggin",
- "ref":
- "person_17734"},
- {
- "persName":
- "August von Platen",
- "ref":
- "person_18827"}],
- "listBibl":
-  [
- {
- "title":
- "Komtesse Mizzi oder Der Familientag",
- "ref":
- "pmb29931"}
- ,  {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Tagebücher",
- "ref":
- "pmb30713"}
  ]
 }
 }, {
@@ -424,4 +411,20 @@
  "pmb377"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

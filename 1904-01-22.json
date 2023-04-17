@@ -1,16 +1,66 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-01-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-22.html",
  "head":
- "Wien"
+ "Tagebuch, 22. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Dumont",
+ "ref":
+ "person_14550"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Johan Messchaert",
+ "ref":
+ "person_18094"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Familie",
+ "ref":
+ "pmb30195"}
+ ,  {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -97,91 +147,6 @@
  "Innere Crimmitschauer Straße",
  "ref":
  "pmb1233"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 22.1.1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-01-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-22.html",
- "head":
- "Tagebuch, 22. Januar 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Louise Dumont",
- "ref":
- "person_14550"},
- {
- "persName":
- "Rudolf Lothar",
- "ref":
- "person_17696"},
- {
- "persName":
- "Johan Messchaert",
- "ref":
- "person_18094"}],
- "listBibl":
-  [
- {
- "title":
- "Familie",
- "ref":
- "pmb30195"}
- ,  {
- "title":
- "Das Haus Delorme. Eine Familienszene",
- "ref":
- "pmb31547"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Weimar",
- "ref":
- "pmb197"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Schweiz",
- "ref":
- "pmb43435"}
  ]
 }
 }, {
@@ -377,4 +342,43 @@
  "pmb182"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 22.1.1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

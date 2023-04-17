@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/42542/",
+ "entry__1896-07-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/42542/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-18.html",
  "head":
- "Tromsø"
-}, {
+ "Tagebuch, 18. Juli 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto David Ellstätter",
+ "ref":
+ "person_14727"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tromsø",
+ "ref":
+ "pmb42542"}
+ ,  {
+ "placeName":
+ "Karlsruhe",
+ "ref":
+ "pmb871"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -68,37 +90,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1896-07-18",
+ "entity/42542/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-18.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/42542/",
  "head":
- "Tagebuch, 18. Juli 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto David Ellstätter",
- "ref":
- "person_14727"}],
- "listPlace":
-  [
- {
- "placeName":
  "Tromsø",
- "ref":
- "pmb42542"}
- ,  {
- "placeName":
- "Karlsruhe",
- "ref":
- "pmb871"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

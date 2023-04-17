@@ -1,108 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02432",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02432.html",
- "head":
- "Arthur Schnitzler an Georg Brandes, 11. 2. 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Georg Brandes",
- "ref":
- "pmb10992"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "pmb12692"},
- {
- "persName":
- "Hans Zbinden",
- "ref":
- "pmb5555"}],
- "listBibl":
-  [
- {
- "title":
- "Hauptströmungen der Literatur des neunzehnten Jahrhunderts",
- "ref":
- "pmb31977"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Schweiz",
- "ref":
- "pmb43435"}
- ,  {
- "placeName":
- "Engadin",
- "ref":
- "pmb1061"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#n0827e77-245d-4359-a0b0-5b601a5370ee",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Hedy Kempny an Arthur Schnitzler, 11.2.1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hedy Kempny",
- "ref":
- "https://d-nb.info/gnd/11872181X"}],
- "bibl":
- "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -209,4 +106,111 @@
  "pmb182"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02432",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02432.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 11. 2. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Hans Zbinden",
+ "ref":
+ "pmb5555"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hauptströmungen der Literatur des neunzehnten Jahrhunderts",
+ "ref":
+ "pmb31977"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Engadin",
+ "ref":
+ "pmb1061"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 11.2.1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "https://d-nb.info/gnd/11872181X"}],
+ "bibl":
+ ", "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}
+}, ] 

@@ -1,84 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/30/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
- "head":
- "Salzburg"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00775",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00775.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 7. 2. 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"}],
- "listOrg":
-  [
- {
- "orgName":
- "Westbahnstrecke",
- "ref":
- "pmb41229"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "I., Innere Stadt",
- "ref":
- "pmb51"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Wollzeile",
- "ref":
- "pmb338"}
- ,  {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -150,4 +71,89 @@
  "pmb30"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00775",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00775.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 7. 2. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Westbahnstrecke",
+ "ref":
+ "pmb41229"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg",
+ "desc":
+{
+}
+}, ] 

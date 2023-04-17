@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/967/",
+ "entry__1898-08-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-22.html",
  "head":
- "Luzern"
-}, {
+ "Tagebuch, 22. August 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix? Kauders",
+ "ref":
+ "person_16767"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ,  {
+ "placeName":
+ "Kriens",
+ "ref":
+ "pmb91071"}
+ ,  {
+ "placeName":
+ "Kastanienbaum",
+ "ref":
+ "pmb91010"}
+ ,  {
+ "placeName":
+ "Winkel",
+ "ref":
+ "pmb92087"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -118,6 +150,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/967/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "head":
+ "Luzern",
+ "desc":
+{
+}
+}, {
+ "type":
  "",
  "color":
  "",
@@ -128,49 +176,4 @@
                      Goldmann, zwischen 21. und 27. 8. 1898",
  "text":
  "L02861"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-08-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-22.html",
- "head":
- "Tagebuch, 22. August 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix? Kauders",
- "ref":
- "person_16767"}],
- "listPlace":
-  [
- {
- "placeName":
- "Luzern",
- "ref":
- "pmb967"}
- ,  {
- "placeName":
- "Kriens",
- "ref":
- "pmb91071"}
- ,  {
- "placeName":
- "Kastanienbaum",
- "ref":
- "pmb91010"}
- ,  {
- "placeName":
- "Winkel",
- "ref":
- "pmb92087"}
- ]
-}
-}] 
+}, ] 

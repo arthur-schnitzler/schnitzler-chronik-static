@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1901-11-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-11-25.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 25. November 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Berta Czegka",
+ "ref":
+ "person_14330"},
+ {
+ "persName":
+ "Hans Eisterer",
+ "ref":
+ "person_14709"},
+ {
+ "persName":
+ "Otto Maria Miethke",
+ "ref":
+ "person_18154"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Königin von Saba",
+ "ref":
+ "pmb80606"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -86,6 +131,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
@@ -104,64 +165,7 @@
  "ref":
  "https://d-nb.info/gnd/118550241"}],
  "bibl":
+ ", "source":
  "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-11-25",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-11-25.html",
- "head":
- "Tagebuch, 25. November 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Berta Czegka",
- "ref":
- "person_14330"},
- {
- "persName":
- "Hans Eisterer",
- "ref":
- "person_14709"},
- {
- "persName":
- "Otto Maria Miethke",
- "ref":
- "person_18154"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Die Königin von Saba",
- "ref":
- "pmb80606"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ]
-}
-}] 
+}, ] 

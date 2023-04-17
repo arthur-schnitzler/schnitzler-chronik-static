@@ -1,16 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1897-06-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-25.html",
  "head":
- "Wien"
+ "Tagebuch, 25. Juni 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Agnes Jordan. Schauspiel in fünf Akten",
+ "ref":
+ "pmb30474"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -69,68 +96,6 @@
  "Gmunden",
  "ref":
  "pmb874"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Marie Reinhard, 25.6.1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "https://d-nb.info/gnd/123368790"}],
- "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1897-06-25",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-25.html",
- "head":
- "Tagebuch, 25. Juni 1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Agnes Jordan. Schauspiel in fünf Akten",
- "ref":
- "pmb30474"}
  ]
 }
 }, {
@@ -274,4 +239,43 @@
  "pmb438"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 25.6.1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "https://d-nb.info/gnd/123368790"}],
+ "bibl":
+ ", "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}, ] 

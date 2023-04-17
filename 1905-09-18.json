@@ -1,16 +1,53 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1905-09-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-18.html",
  "head":
- "Wien"
+ "Tagebuch, 18. September 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -72,56 +109,6 @@
  "Semmering",
  "ref":
  "pmb189"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1905-09-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-18.html",
- "head":
- "Tagebuch, 18. September 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Max Reinhardt",
- "ref":
- "person_19154"},
- {
- "persName":
- "Mirjam Horwitz",
- "ref":
- "person_21546"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Der Ruf des Lebens. Schauspiel in drei Akten",
- "ref":
- "pmb29905"}
- ,  {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
  ]
 }
 }, {
@@ -232,4 +219,20 @@
  "pmb29903"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

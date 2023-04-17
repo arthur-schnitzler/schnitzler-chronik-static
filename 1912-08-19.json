@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/45260/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
- "head":
- "Brijuni"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02086",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02086.html",
- "head":
- "Arthur Schnitzler an Richard Dehmel, 19. 8. 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Dehmel",
- "ref":
- "pmb11148"}],
- "listBibl":
-  [
- {
- "title":
- "Aufruf zur Kritik an der Verwendung von Spendengeldern für Autoren durch die Deutsche Schillerstiftung",
- "ref":
- "pmb44869"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Brijuni",
- "ref":
- "pmb45260"}
- ,  {
- "placeName":
- "Hamburg",
- "ref":
- "pmb506"}
- ,  {
- "placeName":
- "Blankenese",
- "ref":
- "pmb1226"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -129,4 +68,68 @@
  "pmb92260"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02086",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02086.html",
+ "head":
+ "Arthur Schnitzler an Richard Dehmel, 19. 8. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aufruf zur Kritik an der Verwendung von Spendengeldern für Autoren durch die Deutsche Schillerstiftung",
+ "ref":
+ "pmb44869"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brijuni",
+ "ref":
+ "pmb45260"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Blankenese",
+ "ref":
+ "pmb1226"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni",
+ "desc":
+{
+}
+}, ] 

@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01453",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01453.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 8. 10. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"}],
- "listPlace":
-  [
- {
- "placeName":
- "Mödling",
- "ref":
- "pmb968"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -116,4 +53,70 @@
  "pmb30661"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01453",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01453.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 8. 10. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

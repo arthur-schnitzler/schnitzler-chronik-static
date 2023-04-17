@@ -1,29 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1899-10-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-10-08.html",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/545/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/545/",
- "head":
- "Hotel Savoy"
+ "Tagebuch, 8. Oktober 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Elsinger",
+ "ref":
+ "person_14734"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lohengrin",
+ "ref":
+ "pmb30823"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -298,41 +307,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-10-08",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-10-08.html",
- "head":
- "Tagebuch, 8. Oktober 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Elsinger",
- "ref":
- "person_14734"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"}],
- "listBibl":
-  [
- {
- "title":
- "Lohengrin",
- "ref":
- "pmb30823"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -404,4 +378,36 @@
  "pmb3"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/545/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/545/",
+ "head":
+ "Hotel Savoy",
+ "desc":
+{
+}
+}, ] 

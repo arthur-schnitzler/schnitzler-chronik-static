@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/667/",
+ "entry__1911-04-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-11.html",
  "head":
- "Garmisch-Partenkirchen"
-}, {
+ "Tagebuch, 11. April 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julian Marcuse",
+ "ref":
+ "person_17863"},
+ {
+ "persName":
+ "Heinrich von Schullern",
+ "ref":
+ "person_19931"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ärzte",
+ "ref":
+ "pmb81286"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -101,6 +141,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/667/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "head":
+ "Garmisch-Partenkirchen",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -119,59 +175,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1911-04-11",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-11.html",
- "head":
- "Tagebuch, 11. April 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Julian Marcuse",
- "ref":
- "person_17863"},
- {
- "persName":
- "Heinrich von Schullern",
- "ref":
- "person_19931"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"}],
- "listBibl":
-  [
- {
- "title":
- "Ärzte",
- "ref":
- "pmb81286"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Garmisch-Partenkirchen",
- "ref":
- "pmb667"}
- ]
-}
-}] 
+}, ] 

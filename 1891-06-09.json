@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1891-06-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-06-09.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 9. Juni 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Friedmann",
+ "ref":
+ "person_15237"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Edgar Pierson",
+ "ref":
+ "person_18792"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -171,50 +206,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1891-06-09",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-06-09.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 9. Juni 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Friedmann",
- "ref":
- "person_15237"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Edgar Pierson",
- "ref":
- "person_18792"}],
- "listBibl":
-  [
- {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Wien",
- "ref":
- "pmb50"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

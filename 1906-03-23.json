@@ -1,16 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/MAR_D1_0002",
  "head":
- "Wien"
+ "Marionetten, Bucherstdruck, 1906",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-03-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-23.html",
+ "head":
+ "Tagebuch, 23. März 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -178,44 +206,6 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
- "color":
- "#801e23",
- "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
- "idno":
- "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/MAR_D1_0002",
- "head":
- "Marionetten, Bucherstdruck, 1906"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-03-23",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-23.html",
- "head":
- "Tagebuch, 23. März 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -332,4 +322,20 @@
  "ref":
  "pmb12698"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

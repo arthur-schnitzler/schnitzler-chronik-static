@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1922-01-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-30.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 30. Januar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Gustav Hartung",
+ "ref":
+ "person_15954"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Georg Szell",
+ "ref":
+ "person_20602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lyrische Ouvertüre für großes Orchester op. 5",
+ "ref":
+ "pmb81399"}
+ ,  {
+ "title":
+ "Otello (Othello)",
+ "ref":
+ "pmb76697"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Darmstadt",
+ "ref":
+ "pmb834"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -184,60 +229,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1922-01-30",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-30.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 30. Januar 1922",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Georg Brandes",
- "ref":
- "person_13920"},
- {
- "persName":
- "Gustav Hartung",
- "ref":
- "person_15954"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Georg Szell",
- "ref":
- "person_20602"}],
- "listBibl":
-  [
- {
- "title":
- "Lyrische Ouvertüre für großes Orchester op. 5",
- "ref":
- "pmb81399"}
- ,  {
- "title":
- "Otello (Othello)",
- "ref":
- "pmb76697"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Darmstadt",
- "ref":
- "pmb834"}
- ]
 }
-}] 
+}, ] 

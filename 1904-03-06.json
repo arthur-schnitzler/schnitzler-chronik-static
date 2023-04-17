@@ -1,45 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01378",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01378.html",
- "head":
- "Richard Dehmel an Arthur Schnitzler, [6. 3. 1904?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Dehmel",
- "ref":
- "pmb11148"},
- {
- "persName":
- "Peter Behrens",
- "ref":
- "pmb10869"}]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -101,4 +61,47 @@
  "pmb4"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01378",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01378.html",
+ "head":
+ "Richard Dehmel an Arthur Schnitzler, [6. 3. 1904?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"},
+ {
+ "persName":
+ "Peter Behrens",
+ "ref":
+ "pmb10869"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

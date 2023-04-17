@@ -1,16 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-09-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-09-27.html",
  "head":
- "Wien"
+ "Tagebuch, 27. September 1903",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weidlingbach",
+ "ref":
+ "pmb44394"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -61,37 +79,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-09-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-09-27.html",
- "head":
- "Tagebuch, 27. September 1903",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Weidlingbach",
- "ref":
- "pmb44394"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -133,4 +120,20 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

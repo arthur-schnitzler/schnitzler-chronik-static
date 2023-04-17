@@ -1,17 +1,102 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-10-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-10-27.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 27. Oktober 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Anthes",
+ "ref":
+ "person_13227"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Pawel I. Birjukow",
+ "ref":
+ "person_13740"},
+ {
+ "persName":
+ "Alexander Renner",
+ "ref":
+ "person_19188"},
+ {
+ "persName":
+ "Anatol Renner",
+ "ref":
+ "person_19189"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Franz Otto Schmid",
+ "ref":
+ "person_19751"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Don Juans letztes Abenteuer",
+ "ref":
+ "pmb80082"}
+ ,  {
+ "title":
+ "Königliche Hoheit",
+ "ref":
+ "pmb30295"}
+ ,  {
+ "title":
+ "Der gute König Dagobert",
+ "ref":
+ "pmb80174"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bern",
+ "ref":
+ "pmb1223"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -109,100 +194,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1909-10-27",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-10-27.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 27. Oktober 1909",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Otto Anthes",
- "ref":
- "person_13227"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Pawel I. Birjukow",
- "ref":
- "person_13740"},
- {
- "persName":
- "Alexander Renner",
- "ref":
- "person_19188"},
- {
- "persName":
- "Anatol Renner",
- "ref":
- "person_19189"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Franz Otto Schmid",
- "ref":
- "person_19751"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ,  {
- "title":
- "Don Juans letztes Abenteuer",
- "ref":
- "pmb80082"}
- ,  {
- "title":
- "Königliche Hoheit",
- "ref":
- "pmb30295"}
- ,  {
- "title":
- "Der gute König Dagobert",
- "ref":
- "pmb80174"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bern",
- "ref":
- "pmb1223"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1902-01-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-01.html",
  "head":
- "Berlin"
-}, {
+ "Tagebuch, 1. Januar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Max Dreyer",
+ "ref":
+ "person_14513"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "person_16036"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Max Martersteig",
+ "ref":
+ "person_17938"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "person_15919"},
+ {
+ "persName":
+ "Ernst von Wolzogen",
+ "ref":
+ "person_21465"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -125,6 +190,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -143,84 +224,7 @@
  "ref":
  "https://d-nb.info/gnd/116848723"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-01-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-01.html",
- "head":
- "Tagebuch, 1. Januar 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Max Dreyer",
- "ref":
- "person_14513"},
- {
- "persName":
- "Emil Heilbut",
- "ref":
- "person_16036"},
- {
- "persName":
- "Karl Kraus",
- "ref":
- "person_17108"},
- {
- "persName":
- "Max Martersteig",
- "ref":
- "person_17938"},
- {
- "persName":
- "Max Reinhardt",
- "ref":
- "person_19154"},
- {
- "persName":
- "Maximilian Harden",
- "ref":
- "person_15919"},
- {
- "persName":
- "Ernst von Wolzogen",
- "ref":
- "person_21465"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}] 
+}, ] 

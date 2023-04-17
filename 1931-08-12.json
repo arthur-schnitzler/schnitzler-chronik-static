@@ -1,56 +1,44 @@
 [{
  "type":
- "pollaczek pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp952",
+ "entry__1931-08-12",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp952.html https://pollaczek.acdh.oeaw.ac.at/ckp953.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-08-12.html",
  "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 12. August 1931"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp954",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp954.html",
- "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 12. August 1931"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp970",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp970.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 12.–16. August 1931"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/874/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/874/",
- "head":
- "Gmunden"
-}, {
+ "Tagebuch, 12. August 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Otto Paul Schinnerer",
+ "ref":
+ "person_19704"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gmunden",
+ "ref":
+ "pmb874"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb90229"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -97,42 +85,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1931-08-12",
+ "ckp952",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-08-12.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp952.html https://pollaczek.acdh.oeaw.ac.at/ckp953.html",
  "head":
- "Tagebuch, 12. August 1931",
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 12. August 1931",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Suzanne Clauser",
- "ref":
- "person_14234"},
- {
- "persName":
- "Otto Paul Schinnerer",
- "ref":
- "person_19704"}],
- "listPlace":
-  [
- {
- "placeName":
- "Gmunden",
- "ref":
- "pmb874"}
- ,  {
- "placeName":
- "Altaussee",
- "ref":
- "pmb90229"}
- ]
 }
-}] 
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp954",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp954.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 12. August 1931",
+ "desc":
+{
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp970",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp970.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 12.–16. August 1931",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/874/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/874/",
+ "head":
+ "Gmunden",
+ "desc":
+{
+}
+}, ] 

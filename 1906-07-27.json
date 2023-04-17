@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/959/",
+ "entry__1906-07-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-27.html",
  "head":
- "Marienlyst"
-}, {
+ "Tagebuch, 27. Juli 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hornbæk",
+ "ref":
+ "pmb44089"}
+ ,  {
+ "placeName":
+ "Gilleleje",
+ "ref":
+ "pmb44252"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -103,55 +143,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-07-27",
+ "entity/959/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-27.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
  "head":
- "Tagebuch, 27. Juli 1906",
+ "Marienlyst",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Peter Altenberg",
- "ref":
- "person_13162"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"}],
- "listBibl":
-  [
- {
- "title":
- "Das Wort. Tragikomödie in fünf Akten",
- "ref":
- "pmb30615"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Hornbæk",
- "ref":
- "pmb44089"}
- ,  {
- "placeName":
- "Gilleleje",
- "ref":
- "pmb44252"}
- ]
 }
-}] 
+}, ] 

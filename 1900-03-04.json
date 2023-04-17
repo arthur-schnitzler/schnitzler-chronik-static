@@ -1,30 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/470/",
+ "entry__1900-03-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-04.html",
  "head":
- "Edlach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/714/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/714/",
- "head":
- "Hotel Edlacherhof"
-}, {
+ "Tagebuch, 4. März 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Burger",
+ "ref":
+ "person_14076"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kaiserbrunn",
+ "ref":
+ "pmb90973"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -91,32 +95,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-03-04",
+ "entity/470/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
  "head":
- "Tagebuch, 4. März 1900",
+ "Edlach",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Rudolf Burger",
- "ref":
- "person_14076"}],
- "listPlace":
-  [
- {
- "placeName":
- "Kaiserbrunn",
- "ref":
- "pmb90973"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof",
+ "desc":
+{
+}
+}, ] 

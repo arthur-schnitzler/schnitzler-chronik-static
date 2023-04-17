@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1896-09-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-15.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 15. September 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Oskar Gimnig",
+ "ref":
+ "person_15433"},
+ {
+ "persName":
+ "Elsa Plessner",
+ "ref":
+ "person_15435"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -66,6 +106,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -84,59 +140,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-09-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-15.html",
- "head":
- "Tagebuch, 15. September 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Oskar Gimnig",
- "ref":
- "person_15433"},
- {
- "persName":
- "Elsa Plessner",
- "ref":
- "person_15435"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Dornbacher Park",
- "ref":
- "pmb176"}
- ]
-}
-}] 
+}, ] 

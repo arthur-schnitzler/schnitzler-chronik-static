@@ -1,16 +1,53 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1891-04-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-04-27.html",
  "head":
- "Wien"
+ "Tagebuch, 27. April 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Friedmann",
+ "ref":
+ "person_15237"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Adolf Weizmann",
+ "ref":
+ "person_21217"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Matthias Russo",
+ "ref":
+ "person_19479"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rudolfspl.",
+ "ref":
+ "pmb92498"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -209,56 +246,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1891-04-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-04-27.html",
- "head":
- "Tagebuch, 27. April 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Friedmann",
- "ref":
- "person_15237"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Adolf Weizmann",
- "ref":
- "person_21217"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Matthias Russo",
- "ref":
- "person_19479"}],
- "listPlace":
-  [
- {
- "placeName":
- "Rudolfspl.",
- "ref":
- "pmb92498"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -312,4 +299,20 @@
  "pmb35"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

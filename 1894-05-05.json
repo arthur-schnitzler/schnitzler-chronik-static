@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-05-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-05-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. Mai 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Ottokar Stauf von der March",
+ "ref":
+ "person_20337"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Herr Senator",
+ "ref":
+ "pmb32726"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -130,42 +157,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-05-05",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-05-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 5. Mai 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Ottokar Stauf von der March",
- "ref":
- "person_20337"},
- {
- "persName":
- "Josefine Lydia von Weisswasser",
- "ref":
- "person_21214"}],
- "listBibl":
-  [
- {
- "title":
- "Der Herr Senator",
- "ref":
- "pmb32726"}
- ]
 }
-}] 
+}, ] 

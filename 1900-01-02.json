@@ -1,30 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1900-01-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-01-02.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/790/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/790/",
- "head":
- "Tuchlauben"
-}, {
+ "Tagebuch, 2. Januar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "person_14056"},
+ {
+ "persName":
+ "Selma Kurz",
+ "ref":
+ "person_17216"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "person_19729"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tuchlauben",
+ "ref":
+ "pmb790"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -79,6 +103,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/790/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/790/",
+ "head":
+ "Tuchlauben",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#zd58d226-ca44-4dfa-b10c-81551ef4de77",
@@ -97,56 +153,7 @@
  "ref":
  "https://d-nb.info/gnd/118601024"}],
  "bibl":
+ ", "source":
  "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1900-01-02",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-01-02.html",
- "head":
- "Tagebuch, 2. Januar 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Emerich von Bukovics",
- "ref":
- "person_14056"},
- {
- "persName":
- "Selma Kurz",
- "ref":
- "person_17216"},
- {
- "persName":
- "Leopoldine Müller",
- "ref":
- "person_18303"},
- {
- "persName":
- "Franziska Schlesinger",
- "ref":
- "person_19729"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listPlace":
-  [
- {
- "placeName":
- "Tuchlauben",
- "ref":
- "pmb790"}
- ]
-}
-}] 
+}, ] 

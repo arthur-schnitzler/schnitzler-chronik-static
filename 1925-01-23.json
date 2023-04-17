@@ -1,30 +1,49 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp175",
+ "entry__1925-01-23",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp175.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-23.html",
  "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 23. Januar 1925"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44374/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44374/",
- "head":
- "Sankt Moritz"
-}, {
+ "Tagebuch, 23. Januar 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Fedor Philipp Gonzala",
+ "ref":
+ "person_15571"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -91,6 +110,38 @@
 }
 }, {
  "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp175",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp175.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 23. Januar 1925",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44374/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44374/",
+ "head":
+ "Sankt Moritz",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#n0827e77-245d-4359-a0b0-5b601a5370ee",
@@ -109,6 +160,7 @@
  "ref":
  "https://d-nb.info/gnd/11872181X"}],
  "bibl":
+ ", "source":
  "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
 }
 }, {
@@ -131,51 +183,7 @@
  "ref":
  "https://d-nb.info/gnd/11872181X"}],
  "bibl":
+ ", "source":
  "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1925-01-23",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-23.html",
- "head":
- "Tagebuch, 23. Januar 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Fedor Philipp Gonzala",
- "ref":
- "person_15571"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listPlace":
-  [
- {
- "placeName":
- "Sankt Moritz",
- "ref":
- "pmb44374"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}] 
+}, ] 

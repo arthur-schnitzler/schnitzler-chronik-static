@@ -1,17 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-01-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-24.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 24. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der König",
+ "ref":
+ "pmb77799"}
+ ,  {
+ "title":
+ "Der König",
+ "ref":
+ "pmb77802"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 20 d-Moll KV 466",
+ "ref":
+ "pmb77206"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Währing",
+ "ref":
+ "pmb90546"}
+ ,  {
+ "placeName":
+ "Penzing",
+ "ref":
+ "pmb90913"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,80 +154,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1909-01-24",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-24.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 24. Januar 1909",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Peter Altenberg",
- "ref":
- "person_13162"},
- {
- "persName":
- "Wolfgang Amadeus Mozart",
- "ref":
- "person_18282"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"}],
- "listBibl":
-  [
- {
- "title":
- "Der König",
- "ref":
- "pmb77799"}
- ,  {
- "title":
- "Der König",
- "ref":
- "pmb77802"}
- ,  {
- "title":
- "Klavierkonzert Nr. 20 d-Moll KV 466",
- "ref":
- "pmb77206"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Währing",
- "ref":
- "pmb90546"}
- ,  {
- "placeName":
- "Penzing",
- "ref":
- "pmb90913"}
- ,  {
- "placeName":
- "Semmering",
- "ref":
- "pmb91735"}
- ]
 }
-}] 
+}, ] 

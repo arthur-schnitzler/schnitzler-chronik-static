@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-04-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-04-02.html",
  "head":
- "Wien"
+ "Tagebuch, 2. April 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Baumgarten",
+ "ref":
+ "person_13491"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Robert Nhil",
+ "ref":
+ "person_18438"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Brillanten-Königin",
+ "ref":
+ "pmb30439"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -156,61 +198,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-04-02",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-04-02.html",
- "head":
- "Tagebuch, 2. April 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Baumgarten",
- "ref":
- "person_13491"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Robert Nhil",
- "ref":
- "person_18438"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"}],
- "listBibl":
-  [
- {
- "title":
- "Die Brillanten-Königin",
- "ref":
- "pmb30439"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -317,4 +304,20 @@
  "pmb29783"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

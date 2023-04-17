@@ -1,30 +1,97 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1896-02-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-01.html",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/41234/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41234/",
- "head":
- "Hotel Westminster"
-}, {
+ "Tagebuch, 1. Februar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Heinrich Grünfeld",
+ "ref":
+ "person_15703"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "person_16517"},
+ {
+ "persName":
+ "Paul A. Kirstein",
+ "ref":
+ "person_16856"},
+ {
+ "persName":
+ "Emil Dürer",
+ "ref":
+ "person_14537"},
+ {
+ "persName":
+ "John Henry Mackay",
+ "ref":
+ "person_17771"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Franz Tewele",
+ "ref":
+ "person_20681"},
+ {
+ "persName":
+ "Ernst von Wolzogen",
+ "ref":
+ "person_21465"},
+ {
+ "persName":
+ "Maier",
+ "ref":
+ "person_17790"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Untreu",
+ "ref":
+ "pmb33215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Westminster-Hotel",
+ "ref":
+ "pmb92601"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -227,95 +294,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1896-02-01",
+ "entity/168/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Tagebuch, 1. Februar 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Heinrich Grünfeld",
- "ref":
- "person_15703"},
- {
- "persName":
- "Josef Jarno",
- "ref":
- "person_16517"},
- {
- "persName":
- "Paul A. Kirstein",
- "ref":
- "person_16856"},
- {
- "persName":
- "Emil Dürer",
- "ref":
- "person_14537"},
- {
- "persName":
- "John Henry Mackay",
- "ref":
- "person_17771"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Franz Tewele",
- "ref":
- "person_20681"},
- {
- "persName":
- "Ernst von Wolzogen",
- "ref":
- "person_21465"},
- {
- "persName":
- "Maier",
- "ref":
- "person_17790"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Untreu",
- "ref":
- "pmb33215"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Westminster-Hotel",
- "ref":
- "pmb92601"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41234/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41234/",
+ "head":
+ "Hotel Westminster",
+ "desc":
+{
+}
+}, ] 

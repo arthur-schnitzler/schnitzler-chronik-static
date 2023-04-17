@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1913-01-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-01-03.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 3. Januar 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -99,62 +146,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1913-01-03",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-01-03.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 3. Januar 1913",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Leo Van-Jung",
- "ref":
- "person_20925"},
- {
- "persName":
- "Isabella Vengerova",
- "ref":
- "person_21231"},
- {
- "persName":
- "Victor Barnowsky",
- "ref":
- "person_13428"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ]
 }
-}] 
+}, ] 

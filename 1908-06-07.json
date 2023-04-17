@@ -1,16 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-06-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-07.html",
  "head":
- "Wien"
+ "Tagebuch, 7. Juni 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bodansky",
+ "ref":
+ "person_13817"},
+ {
+ "persName":
+ "Isidor Samuely",
+ "ref":
+ "person_19559"},
+ {
+ "persName":
+ "Schön",
+ "ref":
+ "person_19837"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hirtenflöte. Novelle",
+ "ref":
+ "pmb30213"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -67,46 +94,6 @@
  "Wien",
  "ref":
  "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-06-07",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-07.html",
- "head":
- "Tagebuch, 7. Juni 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Bodansky",
- "ref":
- "person_13817"},
- {
- "persName":
- "Isidor Samuely",
- "ref":
- "person_19559"},
- {
- "persName":
- "Schön",
- "ref":
- "person_19837"}],
- "listBibl":
-  [
- {
- "title":
- "Die Hirtenflöte. Novelle",
- "ref":
- "pmb30213"}
  ]
 }
 }, {
@@ -182,4 +169,20 @@
  "pmb40306"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

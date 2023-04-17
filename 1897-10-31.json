@@ -1,53 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp048",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp048.html",
- "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 31. Oktober 1897"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Rosa Freudenthal an Arthur Schnitzler, 31.10.1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Rosa Freudenthal",
- "ref":
- ""}],
- "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -75,6 +27,22 @@
  "ref":
  "pmb91530"}
  ]
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp048",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp048.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 31. Oktober 1897",
+ "desc":
+{
 }
 }, {
  "type":
@@ -229,4 +197,43 @@
  "pmb744"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Rosa Freudenthal an Arthur Schnitzler, 31.10.1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}, ] 

@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1912-12-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-21.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 21. Dezember 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Karl Kunst",
+ "ref":
+ "person_17195"},
+ {
+ "persName":
+ "Ferenc Molnár",
+ "ref":
+ "person_18225"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Das Märchen vom Wolf",
+ "ref":
+ "pmb40211"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -81,70 +136,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1912-12-21",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-21.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 21. Dezember 1912",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Stefanie Bachrach",
- "ref":
- "person_13359"},
- {
- "persName":
- "Karl Kunst",
- "ref":
- "person_17195"},
- {
- "persName":
- "Ferenc Molnár",
- "ref":
- "person_18225"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Otto Zuckerkandl",
- "ref":
- "person_21601"}],
- "listBibl":
-  [
- {
- "title":
- "Im Spiel der Sommerlüfte. In drei Aufzügen",
- "ref":
- "pmb30945"}
- ,  {
- "title":
- "Das Märchen vom Wolf",
- "ref":
- "pmb40211"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ]
 }
-}] 
+}, ] 

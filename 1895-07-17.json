@@ -1,29 +1,46 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1895-07-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-17.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/414/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/414/",
- "head":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+ "Tagebuch, 17. Juli 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Später Ruhm",
+ "ref":
+ "pmb30073"}
+ ,  {
+ "title":
+ "Hänsel und Grethel",
+ "ref":
+ "pmb30447"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lauffen",
+ "ref":
+ "pmb35658"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -168,93 +185,6 @@
  "Hotel und Pension Rudolfshöhe (Leopold Petter)",
  "ref":
  "pmb414"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Marie Reinhard, 17.7.1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "https://d-nb.info/gnd/123368790"}],
- "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Marie Reinhard, 17. 7. 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "https://d-nb.info/gnd/123368790"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1895-07-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-17.html",
- "head":
- "Tagebuch, 17. Juli 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Später Ruhm",
- "ref":
- "pmb30073"}
- ,  {
- "title":
- "Hänsel und Grethel",
- "ref":
- "pmb30447"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Lauffen",
- "ref":
- "pmb35658"}
  ]
 }
 }, {
@@ -496,4 +426,82 @@
  "pmb35658"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 17.7.1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "https://d-nb.info/gnd/123368790"}],
+ "bibl":
+ ", "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 17. 7. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "https://d-nb.info/gnd/123368790"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

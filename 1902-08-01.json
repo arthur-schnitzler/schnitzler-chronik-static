@@ -1,17 +1,35 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1902-08-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-08-01.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 1. August 1902",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -53,33 +71,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1902-08-01",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-08-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 1. August 1902",
+ "Wien",
  "desc":
-{"listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
- ]
+{
 }
-}] 
+}, ] 

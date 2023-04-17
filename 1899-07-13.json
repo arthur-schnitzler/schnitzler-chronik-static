@@ -1,30 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/92111/",
+ "entry__1899-07-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/92111/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-07-13.html",
  "head":
- "Würnitz"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 13. Juli 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Elsinger",
+ "ref":
+ "person_14734"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weidlingbach",
+ "ref":
+ "pmb44394"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -131,37 +140,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-07-13",
+ "entity/92111/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-07-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/92111/",
  "head":
- "Tagebuch, 13. Juli 1899",
+ "Würnitz",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Elsinger",
- "ref":
- "person_14734"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"}],
- "listPlace":
-  [
- {
- "placeName":
- "Weidlingbach",
- "ref":
- "pmb44394"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

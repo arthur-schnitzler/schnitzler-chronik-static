@@ -1,17 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1899-04-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-04-28.html",
  "head":
- "Berlin"
-}, {
+ "Tagebuch, 28. April 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "person_13715"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -121,6 +135,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
  "",
  "color":
  "",
@@ -131,31 +161,4 @@
                      Goldmann, 28. 4. 1899",
  "text":
  "L02873"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-04-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-04-28.html",
- "head":
- "Tagebuch, 28. April 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Oskar Bie",
- "ref":
- "person_13715"},
- {
- "persName":
- "Ludwig Fulda",
- "ref":
- "person_15306"}]
-}
-}] 
+}, ] 

@@ -1,56 +1,39 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp313",
+ "entry__1926-04-21",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp313.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-04-21.html",
  "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 21. April 1926"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp314",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp314.html",
- "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 21.–24. April 1926"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp324",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp324.html",
- "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 21. April 1926"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91330/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91330/",
- "head":
- "Neapel"
-}, {
+ "Tagebuch, 21. April 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alois? Hornung",
+ "ref":
+ "person_16375"},
+ {
+ "persName":
+ "H. G. Wells",
+ "ref":
+ "person_21226"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Geschichte einer Ehe",
+ "ref":
+ "pmb76964"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -120,37 +103,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1926-04-21",
+ "ckp313",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-04-21.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp313.html",
  "head":
- "Tagebuch, 21. April 1926",
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 21. April 1926",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Alois? Hornung",
- "ref":
- "person_16375"},
- {
- "persName":
- "H. G. Wells",
- "ref":
- "person_21226"}],
- "listBibl":
-  [
- {
- "title":
- "Die Geschichte einer Ehe",
- "ref":
- "pmb76964"}
- ]
 }
-}] 
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp314",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp314.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 21.–24. April 1926",
+ "desc":
+{
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp324",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp324.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 21. April 1926",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91330/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91330/",
+ "head":
+ "Neapel",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44172/",
+ "entry__1922-05-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44172/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-15.html",
  "head":
- "Nürnberg"
-}, {
+ "Tagebuch, 15. Mai 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Siegfried Loewy",
+ "ref":
+ "person_17666"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Adolf Gelber",
+ "ref":
+ "person_15375"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bayreuth",
+ "ref":
+ "pmb734"}
+ ,  {
+ "placeName":
+ "Nürnberg",
+ "ref":
+ "pmb44172"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -198,6 +263,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44172/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44172/",
+ "head":
+ "Nürnberg",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
@@ -216,84 +297,7 @@
  "ref":
  "https://d-nb.info/gnd/118505033"}],
  "bibl":
+ ", "source":
  "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1922-05-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-15.html",
- "head":
- "Tagebuch, 15. Mai 1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Raoul Auernheimer",
- "ref":
- "person_13305"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Hans Müller",
- "ref":
- "person_18297"},
- {
- "persName":
- "Siegfried Loewy",
- "ref":
- "person_17666"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Richard Specht",
- "ref":
- "person_20238"},
- {
- "persName":
- "Adolf Gelber",
- "ref":
- "person_15375"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bayreuth",
- "ref":
- "pmb734"}
- ,  {
- "placeName":
- "Nürnberg",
- "ref":
- "pmb44172"}
- ]
-}
-}] 
+}, ] 

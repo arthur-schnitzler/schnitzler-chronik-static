@@ -1,17 +1,86 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net",
  "head":
- "Wien"
+ "Professor Bernhardi, K5 erschl. hsl. Skizze 5, zwischen 04.10.1905 und
+            08.10.1905",
+ "text":
+ "Publikation in Vorbereitung"
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-10-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-10-07.html",
+ "head":
+ "Tagebuch, 7. Oktober 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Alfred Stern",
+ "ref":
+ "person_20404"},
+ {
+ "persName":
+ "Julius Stern",
+ "ref":
+ "person_20416"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ,  {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -126,84 +195,18 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
- "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
- "idno":
- "https://www.schnitzler-edition.net",
- "head":
- "Professor Bernhardi, K5 erschl. hsl. Skizze 5, zwischen 04.10.1905 und
-            08.10.1905",
- "text":
- "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1905-10-07",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-10-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 7. Oktober 1905",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Johann Sebastian Bach",
- "ref":
- "person_13344"},
- {
- "persName":
- "Grete Jacques",
- "ref":
- "person_16485"},
- {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Alfred Stern",
- "ref":
- "person_20404"},
- {
- "persName":
- "Julius Stern",
- "ref":
- "person_20416"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ,  {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "VIII., Josefstadt",
- "ref":
- "pmb58"}
- ,  {
- "placeName":
- "Zürich",
- "ref":
- "pmb484"}
- ]
 }
-}] 
+}, ] 

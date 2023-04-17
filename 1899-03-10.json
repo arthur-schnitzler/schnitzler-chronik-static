@@ -1,17 +1,41 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1899-03-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-03-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. März 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Schiff",
+ "ref":
+ "person_19683"},
+ {
+ "persName":
+ "Ludwig Speidel",
+ "ref":
+ "person_20243"},
+ {
+ "persName":
+ "Paul Naschauer",
+ "ref":
+ "person_18360"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -159,6 +183,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -177,43 +217,7 @@
  "ref":
  "https://d-nb.info/gnd/118840452"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-03-10",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-03-10.html",
- "head":
- "Tagebuch, 10. März 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Schiff",
- "ref":
- "person_19683"},
- {
- "persName":
- "Ludwig Speidel",
- "ref":
- "person_20243"},
- {
- "persName":
- "Paul Naschauer",
- "ref":
- "person_18360"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}]
-}
-}] 
+}, ] 

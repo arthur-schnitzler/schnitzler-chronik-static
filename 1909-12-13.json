@@ -1,17 +1,67 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-12-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. Dezember 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Alfred Polgar",
+ "ref":
+ "person_18856"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Stadtpark",
+ "ref":
+ "pmb575"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -122,6 +172,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
@@ -140,69 +206,7 @@
  "ref":
  "https://d-nb.info/gnd/118637479"}],
  "bibl":
+ ", "source":
  "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1909-12-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-13.html",
- "head":
- "Tagebuch, 13. Dezember 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Raoul Auernheimer",
- "ref":
- "person_13305"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Alfred Polgar",
- "ref":
- "person_18856"},
- {
- "persName":
- "Leo Van-Jung",
- "ref":
- "person_20925"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"}],
- "listBibl":
-  [
- {
- "title":
- "Der Ruf des Lebens. Schauspiel in drei Akten",
- "ref":
- "pmb29905"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Stadtpark",
- "ref":
- "pmb575"}
- ]
-}
-}] 
+}, ] 

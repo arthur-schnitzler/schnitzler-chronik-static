@@ -1,29 +1,26 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/883/",
+ "entry__1899-10-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/883/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-10-01.html",
  "head":
- "Wiesbaden"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/43055/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/43055/",
- "head":
- "Hôtel du Parc &amp; Bristol"
+ "Tagebuch, 1. Oktober 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -99,29 +96,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-10-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-10-01.html",
- "head":
- "Tagebuch, 1. Oktober 1899",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Wiesbaden",
- "ref":
- "pmb883"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -174,4 +148,36 @@
  "pmb41240"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/883/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/883/",
+ "head":
+ "Wiesbaden",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43055/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43055/",
+ "head":
+ "Hôtel du Parc &amp; Bristol",
+ "desc":
+{
+}
+}, ] 

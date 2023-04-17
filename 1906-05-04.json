@@ -1,116 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01595",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01595.html",
- "head":
- "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Großmann",
- "ref":
- "pmb11527"},
- {
- "persName":
- "Engelbert Pernerstorfer",
- "ref":
- "pmb12408"},
- {
- "persName":
- "Richard Vallentin",
- "ref":
- "pmb2235"},
- {
- "persName":
- "Robert Hirschfeld",
- "ref":
- "pmb11707"},
- {
- "persName":
- "Alfred Polgar",
- "ref":
- "pmb2989"},
- {
- "persName":
- "Theodor Antropp",
- "ref":
- "pmb10769"},
- {
- "persName":
- "Leopold Winarsky",
- "ref":
- "pmb45524"},
- {
- "persName":
- "Karl Höger",
- "ref":
- "pmb46089"},
- {
- "persName":
- "Gustav Harpner",
- "ref":
- "pmb11590"}],
- "listOrg":
-  [
- {
- "orgName":
- "Arbeiter-Zeitung",
- "ref":
- "pmb29644"}
- ,  {
- "orgName":
- "Volksbühne Berlin",
- "ref":
- "pmb36940"}
- ,  {
- "orgName":
- "Wiener Freie Volksbühne",
- "ref":
- "pmb29569"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Mariahilferstraße",
- "ref":
- "pmb302"}
- ,  {
- "placeName":
- "Graben",
- "ref":
- "pmb39599"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -210,6 +99,104 @@
  "Wiednertheater",
  "ref":
  "pmb92603"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01595",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01595.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Engelbert Pernerstorfer",
+ "ref":
+ "pmb12408"},
+ {
+ "persName":
+ "Richard Vallentin",
+ "ref":
+ "pmb2235"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "pmb11707"},
+ {
+ "persName":
+ "Alfred Polgar",
+ "ref":
+ "pmb2989"},
+ {
+ "persName":
+ "Theodor Antropp",
+ "ref":
+ "pmb10769"},
+ {
+ "persName":
+ "Leopold Winarsky",
+ "ref":
+ "pmb45524"},
+ {
+ "persName":
+ "Karl Höger",
+ "ref":
+ "pmb46089"},
+ {
+ "persName":
+ "Gustav Harpner",
+ "ref":
+ "pmb11590"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Arbeiter-Zeitung",
+ "ref":
+ "pmb29644"}
+ ,  {
+ "orgName":
+ "Volksbühne Berlin",
+ "ref":
+ "pmb36940"}
+ ,  {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mariahilferstraße",
+ "ref":
+ "pmb302"}
+ ,  {
+ "placeName":
+ "Graben",
+ "ref":
+ "pmb39599"}
  ]
 }
 }, {
@@ -345,4 +332,20 @@
  "pmb43"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

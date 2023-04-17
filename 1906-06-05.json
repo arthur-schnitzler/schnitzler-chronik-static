@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-06-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-06-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. Juni 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "W. Fred",
+ "ref":
+ "person_15158"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -58,37 +80,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-06-05",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-06-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 5. Juni 1906",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "W. Fred",
- "ref":
- "person_15158"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
 }
-}] 
+}, ] 

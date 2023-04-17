@@ -1,44 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90194/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90194/",
- "head":
- "Admont"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/483/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/483/",
- "head":
- "Reichenau an der Rax"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44982/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44982/",
- "head":
- "Kurhaus Rudolfsbad"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -48,7 +9,10 @@
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_K2_*H0",
  "head":
  "Zum großen Wurstel, K2 erschl. hsl. Werkniederschrift 0, wahrscheinlich ab 6. Juli
-            1900, im Laufe des Aufenthalts in Reichenau"
+            1900, im Laufe des Aufenthalts in Reichenau",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -79,4 +43,52 @@
  "pmb91574"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90194/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90194/",
+ "head":
+ "Admont",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad",
+ "desc":
+{
+}
+}, ] 

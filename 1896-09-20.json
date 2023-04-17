@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00595",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00595.html",
- "head":
- "Arthur Schnitzler an Hermann Bahr, [20. 9. 1896?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "?? [Hausmeisterin von Arthur Schnitzler]",
- "ref":
- "pmb27696"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Baden bei Wien",
- "ref":
- "pmb662"}
- ,  {
- "placeName":
- "Kaiser-Franz-Ring",
- "ref":
- "pmb680"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -123,6 +60,56 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00595",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00595.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, [20. 9. 1896?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "?? [Hausmeisterin von Arthur Schnitzler]",
+ "ref":
+ "pmb27696"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Kaiser-Franz-Ring",
+ "ref":
+ "pmb680"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -166,4 +153,20 @@
  "pmb680"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

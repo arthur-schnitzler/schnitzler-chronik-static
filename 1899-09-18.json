@@ -1,30 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44172/",
+ "entry__1899-09-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44172/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-18.html",
  "head":
- "Nürnberg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/88963/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/88963/",
- "head":
- "Hotel Deutscher Kaiser"
-}, {
+ "Tagebuch, 18. September 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Elsinger",
+ "ref":
+ "person_14734"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nürnberg",
+ "ref":
+ "pmb44172"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -129,40 +141,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-09-18",
+ "entity/44172/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-18.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/44172/",
  "head":
- "Tagebuch, 18. September 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Elsinger",
- "ref":
- "person_14734"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Nürnberg",
- "ref":
- "pmb44172"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/88963/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/88963/",
+ "head":
+ "Hotel Deutscher Kaiser",
+ "desc":
+{
+}
+}, ] 

@@ -1,30 +1,64 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp710",
+ "entry__1929-07-29",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp710.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-07-29.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 22. Juli – 1. August 1929"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 29. Juli 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Magda Pollaczek",
+ "ref":
+ "person_18867"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ "pmb53718"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -94,62 +128,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1929-07-29",
+ "ckp710",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-07-29.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp710.html",
  "head":
- "Tagebuch, 29. Juli 1929",
+ "Tagebuch von Clara Katharina Pollaczek, 22. Juli – 1. August 1929",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Hedy Kempny",
- "ref":
- "person_16807"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Magda Pollaczek",
- "ref":
- "person_18867"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "person_18881"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Im Spiel der Sommerlüfte. In drei Aufzügen",
- "ref":
- "pmb30945"}
- ,  {
- "title":
- "Die Dreigroschenoper",
- "ref":
- "pmb53718"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

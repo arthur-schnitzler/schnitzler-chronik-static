@@ -1,30 +1,69 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1914-08-23",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-08-23.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/655/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/655/",
- "head":
- "Hotel Kaiserkrone"
-}, {
+ "Tagebuch, 23. August 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "person_15150"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Julius Klein",
+ "ref":
+ "person_16890"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17821"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Matzleinsdorferstraße",
+ "ref":
+ "pmb92392"}
+ ,  {
+ "placeName":
+ "Rettenbach",
+ "ref":
+ "pmb91578"}
+ ,  {
+ "placeName":
+ "Pazin",
+ "ref":
+ "pmb91486"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -221,67 +260,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1914-08-23",
+ "entity/213/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-08-23.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
  "head":
- "Tagebuch, 23. August 1914",
+ "Bad Ischl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Franz Joseph I. von Österreich-Ungarn",
- "ref":
- "person_15150"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Julius Klein",
- "ref":
- "person_16890"},
- {
- "persName":
- "Irene Mandl",
- "ref":
- "person_17821"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "person_18881"}],
- "listPlace":
-  [
- {
- "placeName":
- "Matzleinsdorferstraße",
- "ref":
- "pmb92392"}
- ,  {
- "placeName":
- "Rettenbach",
- "ref":
- "pmb91578"}
- ,  {
- "placeName":
- "Pazin",
- "ref":
- "pmb91486"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/655/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/655/",
+ "head":
+ "Hotel Kaiserkrone",
+ "desc":
+{
+}
+}, ] 

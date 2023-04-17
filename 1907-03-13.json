@@ -1,69 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01663",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01663.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, [13. 3. 1907]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"}],
- "listBibl":
-  [
- {
- "title":
- "Fuchs. Schauspiel in einem Act",
- "ref":
- "pmb32163"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Burgtheater",
- "ref":
- "pmb36247"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Himmelpfortgasse",
- "ref":
- "pmb40827"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -125,4 +61,71 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01663",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01663.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [13. 3. 1907]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fuchs. Schauspiel in einem Act",
+ "ref":
+ "pmb32163"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Himmelpfortgasse",
+ "ref":
+ "pmb40827"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

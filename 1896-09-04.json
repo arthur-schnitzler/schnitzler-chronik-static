@@ -1,16 +1,61 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1896-09-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-04.html",
  "head":
- "Wien"
+ "Tagebuch, 4. September 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -81,64 +126,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-09-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-04.html",
- "head":
- "Tagebuch, 4. September 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listBibl":
-  [
- {
- "title":
- "Freiwild. Schauspiel in 3 Akten",
- "ref":
- "pmb29899"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Dornbacher Park",
- "ref":
- "pmb176"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -205,4 +192,20 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

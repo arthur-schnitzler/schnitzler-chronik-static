@@ -1,16 +1,66 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-02-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-03.html",
  "head":
- "Wien"
+ "Tagebuch, 3. Februar 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "person_19729"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "person_16294"},
+ {
+ "persName":
+ "Stephan Epstein",
+ "ref":
+ "person_14779"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ödipus und die Sphinx",
+ "ref":
+ "pmb76493"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Hotel Tegetthoff",
+ "ref":
+ "pmb92294"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -89,69 +139,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-02-03",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-03.html",
- "head":
- "Tagebuch, 3. Februar 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Reinhardt",
- "ref":
- "person_19154"},
- {
- "persName":
- "Franziska Schlesinger",
- "ref":
- "person_19729"},
- {
- "persName":
- "Hugo August von Hofmannsthal",
- "ref":
- "person_16294"},
- {
- "persName":
- "Stephan Epstein",
- "ref":
- "person_14779"}],
- "listBibl":
-  [
- {
- "title":
- "Ödipus und die Sphinx",
- "ref":
- "pmb76493"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "Hotel Tegetthoff",
- "ref":
- "pmb92294"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -223,4 +210,20 @@
  "pmb11"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

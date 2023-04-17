@@ -1,17 +1,73 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_H4_0045",
  "head":
- "Wien"
+ "Komödie der Verführung, hsl. Werkniederschrift 4",
+ "desc":
+{
+}
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-09-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-09-26.html",
+ "head":
+ "Tagebuch, 26. September 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Ritscher",
+ "ref":
+ "person_19283"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"},
+ {
+ "persName":
+ "Pauline Specht",
+ "ref":
+ "person_20237"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Streichquartett Nr. 10 Es-Dur op. 125,1 D 87",
+ "ref":
+ "pmb77649"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -84,68 +140,18 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
- "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
- "idno":
- "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_H4_0045",
- "head":
- "Komödie der Verführung, hsl. Werkniederschrift 4"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1915-09-26",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-09-26.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 26. September 1915",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Helene Ritscher",
- "ref":
- "person_19283"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Franz Peter Schubert",
- "ref":
- "person_19902"},
- {
- "persName":
- "Pauline Specht",
- "ref":
- "person_20237"},
- {
- "persName":
- "Victor Zuckerkandl",
- "ref":
- "person_21602"}],
- "listBibl":
-  [
- {
- "title":
- "Streichquartett Nr. 10 Es-Dur op. 125,1 D 87",
- "ref":
- "pmb77649"}
- ]
 }
-}] 
+}, ] 

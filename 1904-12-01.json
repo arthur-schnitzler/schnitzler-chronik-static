@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01473",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01473.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 12. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"}],
- "listPlace":
-  [
- {
- "placeName":
- "I., Innere Stadt",
- "ref":
- "pmb51"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Ottakringer Bräu",
- "ref":
- "pmb304"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -124,4 +61,70 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01473",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01473.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 12. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Ottakringer Bräu",
+ "ref":
+ "pmb304"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

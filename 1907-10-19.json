@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-10-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-10-19.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 19. Oktober 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "person_15750"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Gisela Springer",
+ "ref":
+ "person_20295"},
+ {
+ "persName":
+ "Pjotr Iljitsch Tschaikowski",
+ "ref":
+ "person_20822"},
+ {
+ "persName":
+ "Friedrich Viktor Spitzer",
+ "ref":
+ "person_20277"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Pieve di Cadore",
+ "ref":
+ "pmb34112"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -114,6 +169,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -132,74 +203,7 @@
  "ref":
  "https://d-nb.info/gnd/117008664"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-10-19",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-10-19.html",
- "head":
- "Tagebuch, 19. Oktober 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Robert Gund",
- "ref":
- "person_15750"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"},
- {
- "persName":
- "Gisela Springer",
- "ref":
- "person_20295"},
- {
- "persName":
- "Pjotr Iljitsch Tschaikowski",
- "ref":
- "person_20822"},
- {
- "persName":
- "Friedrich Viktor Spitzer",
- "ref":
- "person_20277"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ,  {
- "placeName":
- "Pieve di Cadore",
- "ref":
- "pmb34112"}
- ]
-}
-}] 
+}, ] 

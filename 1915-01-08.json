@@ -1,17 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1915-01-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-01-08.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 8. Januar 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Matras",
+ "ref":
+ "person_17971"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -86,40 +111,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1915-01-08",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-01-08.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 8. Januar 1915",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ferdinand Matras",
- "ref":
- "person_17971"}],
- "listBibl":
-  [
- {
- "title":
- "Flucht in die Finsternis",
- "ref":
- "pmb30863"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Prag",
- "ref":
- "pmb652"}
- ]
 }
-}] 
+}, ] 

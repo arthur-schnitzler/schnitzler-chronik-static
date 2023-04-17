@@ -1,76 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00432",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00432.html",
- "head":
- "Karl Kraus an Arthur Schnitzler, 25. 4. 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Karl Kraus",
- "ref":
- "pmb11988"},
- {
- "persName":
- "Christian Lorey",
- "ref":
- "pmb5688"},
- {
- "persName":
- "Jakob Schreiner",
- "ref":
- "pmb12714"}],
- "listBibl":
-  [
- {
- "title":
- "Götz von Berlichingen",
- "ref":
- "pmb31071"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Mahlerstraße",
- "ref":
- "pmb1178"}
- ,  {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -131,4 +60,78 @@
  "ref":
  "person_19611"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00432",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00432.html",
+ "head":
+ "Karl Kraus an Arthur Schnitzler, 25. 4. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Christian Lorey",
+ "ref":
+ "pmb5688"},
+ {
+ "persName":
+ "Jakob Schreiner",
+ "ref":
+ "pmb12714"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Götz von Berlichingen",
+ "ref":
+ "pmb31071"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mahlerstraße",
+ "ref":
+ "pmb1178"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

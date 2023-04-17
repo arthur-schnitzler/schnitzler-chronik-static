@@ -1,16 +1,76 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-10-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-22.html",
  "head":
- "Wien"
+ "Tagebuch, 22. Oktober 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga von Golovin",
+ "ref":
+ "person_15558"},
+ {
+ "persName":
+ "Orlando di Lasso",
+ "ref":
+ "person_17343"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Oscar Kraus",
+ "ref":
+ "person_17114"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Baronin Hahn",
+ "ref":
+ "person_15845"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der Witwer",
+ "ref":
+ "pmb30407"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Orlando",
+ "ref":
+ "pmb91407"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -140,79 +200,6 @@
  "Frankgasse",
  "ref":
  "pmb397"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-10-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-22.html",
- "head":
- "Tagebuch, 22. Oktober 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga von Golovin",
- "ref":
- "person_15558"},
- {
- "persName":
- "Orlando di Lasso",
- "ref":
- "person_17343"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Oscar Kraus",
- "ref":
- "person_17114"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Baronin Hahn",
- "ref":
- "person_15845"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Der Witwer",
- "ref":
- "pmb30407"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Orlando",
- "ref":
- "pmb91407"}
  ]
 }
 }, {
@@ -359,4 +346,20 @@
  "pmb29621"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

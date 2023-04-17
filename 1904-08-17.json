@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-08-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-17.html",
  "head":
- "Wien"
+ "Tagebuch, 17. August 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ignaz Lustig",
+ "ref":
+ "person_17740"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ,  {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -148,61 +190,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-08-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-17.html",
- "head":
- "Tagebuch, 17. August 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ignaz Lustig",
- "ref":
- "person_17740"},
- {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"}],
- "listPlace":
-  [
- {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ,  {
- "placeName":
- "Messina",
- "ref":
- "pmb44129"}
- ,  {
- "placeName":
- "Frankgasse",
- "ref":
- "pmb397"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -261,4 +248,20 @@
  "pmb304"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

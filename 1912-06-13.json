@@ -1,17 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1912-06-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-06-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. Juni 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -66,6 +80,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -84,33 +114,7 @@
  "ref":
  "https://d-nb.info/gnd/1103154559"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-06-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-06-13.html",
- "head":
- "Tagebuch, 13. Juni 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugenie Bachrach",
- "ref":
- "person_13355"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"}]
-}
-}] 
+}, ] 

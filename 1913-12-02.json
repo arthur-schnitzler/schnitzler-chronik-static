@@ -1,69 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02159",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02159.html",
- "head":
- "Arthur Schnitzler an Stefan Großmann, 2. 12. 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Großmann",
- "ref":
- "pmb11527"}],
- "listBibl":
-  [
- {
- "title":
- "Komödie der Worte. Drei Einakter",
- "ref":
- "pmb30717"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Ullstein Verlag",
- "ref":
- "pmb29681"}
- ,  {
- "orgName":
- "Morgenpost",
- "ref":
- "pmb46218"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -165,4 +101,71 @@
  "pmb41240"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02159",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02159.html",
+ "head":
+ "Arthur Schnitzler an Stefan Großmann, 2. 12. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Worte. Drei Einakter",
+ "ref":
+ "pmb30717"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Ullstein Verlag",
+ "ref":
+ "pmb29681"}
+ ,  {
+ "orgName":
+ "Morgenpost",
+ "ref":
+ "pmb46218"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

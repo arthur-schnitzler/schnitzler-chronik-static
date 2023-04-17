@@ -1,30 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44267/",
+ "entry__1914-05-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44267/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-12.html",
  "head":
- "Pisa"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/994/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/994/",
- "head":
- "Genua"
-}, {
+ "Tagebuch, 12. Mai 1914",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Genua",
+ "ref":
+ "pmb994"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -101,25 +98,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1914-05-12",
+ "entity/44267/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/44267/",
  "head":
- "Tagebuch, 12. Mai 1914",
+ "Pisa",
  "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Genua",
- "ref":
- "pmb994"}
- ]
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/994/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/994/",
+ "head":
+ "Genua",
+ "desc":
+{
+}
+}, ] 

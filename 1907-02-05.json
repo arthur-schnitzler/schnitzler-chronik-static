@@ -1,101 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01655",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01655.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, [zwischen
-                  3.–7. 2. 1907]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "pmb10860"}],
- "listPlace":
-  [
- {
- "placeName":
- "Gerngroß",
- "ref":
- "pmb183"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Südbahnhotel",
- "ref":
- "pmb413"}
- ,  {
- "placeName":
- "Semmering",
- "ref":
- "pmb189"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Erhalt von Isabella Vengerova an Arthur Schnitzler, 2. 2. [1907]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Isabella Vengerova",
- "ref":
- "https://d-nb.info/gnd/119401215"}],
- "bibl":
- "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -164,4 +68,104 @@
  "pmb78133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01655",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01655.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [zwischen
+                  3.–7. 2. 1907]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gerngroß",
+ "ref":
+ "pmb183"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Südbahnhotel",
+ "ref":
+ "pmb413"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Isabella Vengerova an Arthur Schnitzler, 2. 2. [1907]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "https://d-nb.info/gnd/119401215"}],
+ "bibl":
+ ", "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}
+}, ] 

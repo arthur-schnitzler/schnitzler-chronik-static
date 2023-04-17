@@ -1,30 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1895-07-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-29.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/414/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/414/",
- "head":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)"
-}, {
+ "Tagebuch, 29. Juli 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Brion",
+ "ref":
+ "person_13979"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Strobl",
+ "ref":
+ "pmb91852"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -162,32 +166,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-07-29",
+ "entity/213/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
  "head":
- "Tagebuch, 29. Juli 1895",
+ "Bad Ischl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Lou Brion",
- "ref":
- "person_13979"}],
- "listPlace":
-  [
- {
- "placeName":
- "Strobl",
- "ref":
- "pmb91852"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "desc":
+{
+}
+}, ] 

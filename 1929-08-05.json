@@ -1,81 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp711",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp711.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 1.–8. August 1929"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02517",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02517.html",
- "head":
- "Christiane von Hofmannsthal an Arthur Schnitzler, 13. 8. 1929",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Christiane von Hofmannsthal",
- "ref":
- "pmb3220"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "pmb12740"}],
- "listPlace":
-  [
- {
- "placeName":
- "Bad Aussee",
- "ref":
- "pmb415"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Obertressen",
- "ref":
- "pmb36473"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -187,4 +111,86 @@
  "pmb45721"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02517",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02517.html",
+ "head":
+ "Christiane von Hofmannsthal an Arthur Schnitzler, 13. 8. 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Christiane von Hofmannsthal",
+ "ref":
+ "pmb3220"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Obertressen",
+ "ref":
+ "pmb36473"}
+ ]
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp711",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp711.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 1.–8. August 1929",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

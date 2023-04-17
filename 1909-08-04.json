@@ -1,30 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/470/",
+ "entry__1909-08-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-04.html",
  "head":
- "Edlach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/714/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/714/",
- "head":
- "Hotel Edlacherhof"
-}, {
+ "Tagebuch, 4. August 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -99,6 +111,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -117,6 +161,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
 }, {
@@ -139,44 +184,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1909-08-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-04.html",
- "head":
- "Tagebuch, 4. August 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ]
-}
-}] 
+}, ] 

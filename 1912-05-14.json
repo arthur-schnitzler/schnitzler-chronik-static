@@ -1,30 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45260/",
+ "entry__1912-05-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-14.html",
  "head":
- "Brijuni"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91944/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91944/",
- "head":
- "Triest"
-}, {
+ "Tagebuch, 14. Mai 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Géza dell’Adami",
+ "ref":
+ "person_13087"},
+ {
+ "persName":
+ "Decambi",
+ "ref":
+ "person_14372"},
+ {
+ "persName":
+ "Albert Frankfurter",
+ "ref":
+ "person_15134"},
+ {
+ "persName":
+ "Ella Frankfurter",
+ "ref":
+ "person_15135"},
+ {
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Adolf Georg Singer",
+ "ref":
+ "person_20129"},
+ {
+ "persName":
+ "Theobald von Khuen-Belasi",
+ "ref":
+ "person_16834"},
+ {
+ "persName":
+ "Scarpa",
+ "ref":
+ "person_19600"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Traumdeutung",
+ "ref":
+ "pmb78440"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Trieste",
+ "ref":
+ "pmb91944"}
+ ,  {
+ "placeName":
+ "Villa Opicina",
+ "ref":
+ "pmb91403"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -106,6 +158,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91944/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91944/",
+ "head":
+ "Triest",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#v149ca80-1848-4eff-991d-4c2560c2e17b",
@@ -124,84 +208,7 @@
  "ref":
  "https://d-nb.info/gnd/118535315"}],
  "bibl":
+ ", "source":
  "Freud, Sigmund: Briefe an Arthur Schnitzler. Hg. v. Heinrich Schnitzler. In: Neue deutsche Rundschau, Jg. 66/1(1955), S. 95–106. https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1955_Freud-an-Schnitzler.pdf"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-05-14",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-14.html",
- "head":
- "Tagebuch, 14. Mai 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Géza dell’Adami",
- "ref":
- "person_13087"},
- {
- "persName":
- "Decambi",
- "ref":
- "person_14372"},
- {
- "persName":
- "Albert Frankfurter",
- "ref":
- "person_15134"},
- {
- "persName":
- "Ella Frankfurter",
- "ref":
- "person_15135"},
- {
- "persName":
- "Sigmund Freud",
- "ref":
- "person_15172"},
- {
- "persName":
- "Adolf Georg Singer",
- "ref":
- "person_20129"},
- {
- "persName":
- "Theobald von Khuen-Belasi",
- "ref":
- "person_16834"},
- {
- "persName":
- "Scarpa",
- "ref":
- "person_19600"}],
- "listBibl":
-  [
- {
- "title":
- "Die Traumdeutung",
- "ref":
- "pmb78440"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Trieste",
- "ref":
- "pmb91944"}
- ,  {
- "placeName":
- "Villa Opicina",
- "ref":
- "pmb91403"}
- ]
-}
-}] 
+}, ] 

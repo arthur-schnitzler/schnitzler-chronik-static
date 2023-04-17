@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-10-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-10-17.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 17. Oktober 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Nussdorf",
+ "ref":
+ "pmb91367"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -114,50 +149,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1909-10-17",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-10-17.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 17. Oktober 1909",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Grinzing",
- "ref":
- "pmb90771"}
- ,  {
- "placeName":
- "Nussdorf",
- "ref":
- "pmb91367"}
- ]
 }
-}] 
+}, ] 

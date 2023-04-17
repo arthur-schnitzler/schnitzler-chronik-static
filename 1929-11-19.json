@@ -1,74 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/92202/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/92202/",
- "head":
- "Deutsches Volkstheater"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02524",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02524.html",
- "head":
- "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Thomas Mann",
- "ref":
- "pmb12176"}],
- "listOrg":
-  [
- {
- "orgName":
- "Nobelpreis",
- "ref":
- "pmb29679"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -135,4 +66,79 @@
  "pmb92202"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02524",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02524.html",
+ "head":
+ "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Nobelpreis",
+ "ref":
+ "pmb29679"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92202/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92202/",
+ "head":
+ "Deutsches Volkstheater",
+ "desc":
+{
+}
+}, ] 

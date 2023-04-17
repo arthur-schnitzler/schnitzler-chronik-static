@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Samuel Fischer, 30.12.1916",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Samuel Fischer",
- "ref":
- "https://d-nb.info/gnd/118691406"}],
- "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Fritz Unruh an Arthur Schnitzler, 30.12.1916",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Fritz Unruh",
- "ref":
- "https://d-nb.info/gnd/118625527"}],
- "bibl":
- "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -143,4 +86,66 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Samuel Fischer, 30.12.1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "https://d-nb.info/gnd/118691406"}],
+ "bibl":
+ ", "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 30.12.1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Unruh",
+ "ref":
+ "https://d-nb.info/gnd/118625527"}],
+ "bibl":
+ ", "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}
+}, ] 

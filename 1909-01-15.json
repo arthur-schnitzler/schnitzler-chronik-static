@@ -1,132 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01821",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01821.html",
- "head":
- "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1909?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Karl Glossy",
- "ref":
- "pmb11447"},
- {
- "persName":
- "Felix von Oppenheimer",
- "ref":
- "pmb2527"}],
- "listBibl":
-  [
- {
- "title":
- "Cristinas Heimreise. Komödie",
- "ref":
- "pmb41611"}
- ,  {
- "title":
- "Komödie in Prosa",
- "ref":
- "pmb41613"}
- ,  {
- "title":
- "Österreichische Rundschau",
- "ref":
- "pmb41555"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Österreichische Rundschau",
- "ref":
- "pmb29496"}
- ]
-}
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01822",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01822.html",
- "head":
- "Albert Ehrenstein an Arthur Schnitzler, 15. 1. 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Albert Ehrenstein",
- "ref":
- "pmb11230"}],
- "listBibl":
-  [
- {
- "title":
- "Tod des Zehir eddin Muhammed Baber",
- "ref":
- "pmb33454"}
- ,  {
- "title":
- "Tai-Gin",
- "ref":
- "pmb33456"}
- ,  {
- "title":
- "Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790",
- "ref":
- "pmb33458"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Österreichische Rundschau",
- "ref":
- "pmb29496"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -256,6 +129,120 @@
  "Frankfurt am Main",
  "ref":
  "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01821",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01821.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1909?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Felix von Oppenheimer",
+ "ref":
+ "pmb2527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Cristinas Heimreise. Komödie",
+ "ref":
+ "pmb41611"}
+ ,  {
+ "title":
+ "Komödie in Prosa",
+ "ref":
+ "pmb41613"}
+ ,  {
+ "title":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb41555"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb29496"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01822",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01822.html",
+ "head":
+ "Albert Ehrenstein an Arthur Schnitzler, 15. 1. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tod des Zehir eddin Muhammed Baber",
+ "ref":
+ "pmb33454"}
+ ,  {
+ "title":
+ "Tai-Gin",
+ "ref":
+ "pmb33456"}
+ ,  {
+ "title":
+ "Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790",
+ "ref":
+ "pmb33458"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb29496"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
@@ -424,4 +411,20 @@
  "pmb29496"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

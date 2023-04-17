@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45260/",
+ "entry__1912-08-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-05.html",
  "head":
- "Brijuni"
-}, {
+ "Tagebuch, 5. August 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Maria Kupelwieser",
+ "ref":
+ "person_17206"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Johanna Schmidl",
+ "ref":
+ "person_16852"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Komödiant",
+ "ref":
+ "pmb30319"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tirol",
+ "ref":
+ "pmb423"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -146,6 +181,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -164,54 +215,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-08-05",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-05.html",
- "head":
- "Tagebuch, 5. August 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Maria Kupelwieser",
- "ref":
- "person_17206"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Johanna Schmidl",
- "ref":
- "person_16852"}],
- "listBibl":
-  [
- {
- "title":
- "Der Komödiant",
- "ref":
- "pmb30319"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Tirol",
- "ref":
- "pmb423"}
- ]
-}
-}] 
+}, ] 

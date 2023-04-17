@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1920-07-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. Juli 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Pirker",
+ "ref":
+ "person_18807"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Oktett F-Dur op. 166 D 803",
+ "ref":
+ "pmb77648"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -63,47 +95,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1920-07-10",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 10. Juli 1920",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Max Pirker",
- "ref":
- "person_18807"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Ruth Lindberg",
- "ref":
- "person_17562"},
- {
- "persName":
- "Franz Peter Schubert",
- "ref":
- "person_19902"}],
- "listBibl":
-  [
- {
- "title":
- "Oktett F-Dur op. 166 D 803",
- "ref":
- "pmb77648"}
- ]
 }
-}] 
+}, ] 

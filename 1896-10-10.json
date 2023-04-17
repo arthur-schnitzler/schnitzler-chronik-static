@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00604",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00604.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 10. 10. 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Isidor Singer",
- "ref":
- "pmb12790"},
- {
- "persName":
- "Heinrich Kanner",
- "ref":
- "pmb11867"}],
- "listOrg":
-  [
- {
- "orgName":
- "Die Zeit. Wiener Wochenschrift",
- "ref":
- "pmb29209"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Günthergasse",
- "ref":
- "pmb296"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -131,6 +65,59 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00604",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00604.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 10. 10. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Günthergasse",
+ "ref":
+ "pmb296"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -182,4 +169,20 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

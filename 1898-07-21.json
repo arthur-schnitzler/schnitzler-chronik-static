@@ -1,30 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/521/",
+ "entry__1898-07-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/521/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-21.html",
  "head":
- "Bad Gastein"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34014/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34014/",
- "head":
- "Villa Dr. Wassing"
-}, {
+ "Tagebuch, 21. Juli 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -129,6 +126,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/521/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/521/",
+ "head":
+ "Bad Gastein",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34014/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34014/",
+ "head":
+ "Villa Dr. Wassing",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -147,29 +176,7 @@
  "ref":
  "https://d-nb.info/gnd/123368790"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-07-21",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-21.html",
- "head":
- "Tagebuch, 21. Juli 1898",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Bad Gastein",
- "ref":
- "pmb521"}
- ]
-}
-}] 
+}, ] 

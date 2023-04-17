@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1913-02-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-02-21.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 21. Februar 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Meynert",
+ "ref":
+ "person_18132"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ,  {
+ "title":
+ "Klinische Vorlesungen über Psychologie",
+ "ref":
+ "pmb81013"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -56,42 +83,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1913-02-21",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-02-21.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 21. Februar 1913",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Theodor Meynert",
- "ref":
- "person_18132"}],
- "listBibl":
-  [
- {
- "title":
- "Flucht in die Finsternis",
- "ref":
- "pmb30863"}
- ,  {
- "title":
- "Große Szene",
- "ref":
- "pmb31429"}
- ,  {
- "title":
- "Klinische Vorlesungen über Psychologie",
- "ref":
- "pmb81013"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91780/",
+ "entry__1900-04-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91780/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-04-03.html",
  "head":
- "Split"
-}, {
+ "Tagebuch, 3. April 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Pittinger",
+ "ref":
+ "person_18818"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Split",
+ "ref":
+ "pmb4231"}
+ ,  {
+ "placeName":
+ "Solin",
+ "ref":
+ "pmb91643"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -213,37 +235,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-04-03",
+ "entity/91780/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-04-03.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/91780/",
  "head":
- "Tagebuch, 3. April 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Pittinger",
- "ref":
- "person_18818"}],
- "listPlace":
-  [
- {
- "placeName":
  "Split",
- "ref":
- "pmb4231"}
- ,  {
- "placeName":
- "Solin",
- "ref":
- "pmb91643"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

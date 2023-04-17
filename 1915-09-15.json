@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -21,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_H4_0001",
  "head":
- "Komödie der Verführung, hsl. Werkniederschrift 4"
+ "Komödie der Verführung, hsl. Werkniederschrift 4",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -77,4 +67,20 @@
  "pmb78547"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

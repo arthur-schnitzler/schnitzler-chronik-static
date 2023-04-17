@@ -1,29 +1,35 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp768",
+ "entry__1930-03-17",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp768.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-03-17.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 9.–30. März 1930"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
+ "Tagebuch, 17. März 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -99,35 +105,19 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1930-03-17",
+ "ckp768",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-03-17.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp768.html",
  "head":
- "Tagebuch, 17. März 1930",
+ "Tagebuch von Clara Katharina Pollaczek, 9.–30. März 1930",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Ruth Lindberg",
- "ref":
- "person_17562"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "person_18881"}]
 }
 }, {
  "type":
@@ -202,4 +192,20 @@
  "pmb29675"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,43 +1,69 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91735/",
+ "entry__1910-02-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-10.html",
  "head":
- "Semmering"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/413/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/413/",
- "head":
- "Südbahnhotel"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 10. Februar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charles-Désiré Dupeuty",
+ "ref":
+ "person_14561"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Felix von Oppenheimer",
+ "ref":
+ "person_18568"},
+ {
+ "persName":
+ "Hippolyte François Regnier-Destourbet",
+ "ref":
+ "person_19107"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Friedrich Gottlieb Stapß",
+ "ref":
+ "person_20330"},
+ {
+ "persName":
+ "Otto Stoessl",
+ "ref":
+ "person_20453"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Napoléon",
+ "ref":
+ "pmb79458"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -145,67 +171,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-02-10",
+ "entity/91735/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
  "head":
- "Tagebuch, 10. Februar 1910",
+ "Semmering",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Charles-Désiré Dupeuty",
- "ref":
- "person_14561"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Felix von Oppenheimer",
- "ref":
- "person_18568"},
- {
- "persName":
- "Hippolyte François Regnier-Destourbet",
- "ref":
- "person_19107"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Friedrich Gottlieb Stapß",
- "ref":
- "person_20330"},
- {
- "persName":
- "Otto Stoessl",
- "ref":
- "person_20453"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Napoléon",
- "ref":
- "pmb79458"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/413/",
+ "head":
+ "Südbahnhotel",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,97 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-03-06",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-06.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 6. März 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Anton",
+ "ref":
+ "person_13231"},
+ {
+ "persName":
+ "Clemens Khan Kolischer",
+ "ref":
+ "person_17007"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Antonie Trebitsch",
+ "ref":
+ "person_20793"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Olomouc",
+ "ref":
+ "pmb44176"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -108,95 +188,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-03-06",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-06.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 6. März 1910",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Anton Anton",
- "ref":
- "person_13231"},
- {
- "persName":
- "Clemens Khan Kolischer",
- "ref":
- "person_17007"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Oscar Straus",
- "ref":
- "person_20490"},
- {
- "persName":
- "Antonie Trebitsch",
- "ref":
- "person_20793"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listBibl":
-  [
- {
- "title":
- "Frau Beate und ihr Sohn. Novelle",
- "ref":
- "pmb32133"}
- ,  {
- "title":
- "Die letzten Masken",
- "ref":
- "pmb29877"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Dornbacher Park",
- "ref":
- "pmb176"}
- ,  {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ,  {
- "placeName":
- "Olomouc",
- "ref":
- "pmb44176"}
- ,  {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ]
 }
-}] 
+}, ] 

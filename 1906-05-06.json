@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#fdf53a30-aa17-4bd8-8f49-447d6f840c10",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Sigmund Freud, 6.5.1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Sigmund Freud",
- "ref":
- "https://d-nb.info/gnd/118535315"}],
- "bibl":
- "Schnitzler, Arthur und Luigi Reitani: „Besser sublimiert als verdrängt. In Cambridge entdeckt. Ein unbekannter Brief von Arthur Schnitzler an Sigmund Freud“, in: Die Presse. 3.10.1992, Spectrum, S. X."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -106,4 +71,43 @@
  "pmb90550"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#fdf53a30-aa17-4bd8-8f49-447d6f840c10",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Sigmund Freud, 6.5.1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "https://d-nb.info/gnd/118535315"}],
+ "bibl":
+ ", "source":
+ "Schnitzler, Arthur und Luigi Reitani: „Besser sublimiert als verdrängt. In Cambridge entdeckt. Ein unbekannter Brief von Arthur Schnitzler an Sigmund Freud“, in: Die Presse. 3.10.1992, Spectrum, S. X."
+}
+}, ] 

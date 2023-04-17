@@ -1,45 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Felix Hollaender, Graf von Schwerin an Arthur Schnitzler, 30.9.1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Hollaender",
- "ref":
- "https://d-nb.info/gnd/116961805"},
- {
- "persName":
- "Graf von Schwerin",
- "ref":
- ""}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -83,4 +43,48 @@
  "pmb30781"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Felix Hollaender, Graf von Schwerin an Arthur Schnitzler, 30.9.1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "https://d-nb.info/gnd/116961805"},
+ {
+ "persName":
+ "Graf von Schwerin",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, ] 

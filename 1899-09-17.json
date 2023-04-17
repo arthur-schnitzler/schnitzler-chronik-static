@@ -1,43 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44172/",
+ "entry__1899-09-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44172/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-17.html",
  "head":
- "Nürnberg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/88963/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/88963/",
- "head":
- "Hotel Deutscher Kaiser"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/40867/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40867/",
- "head":
- "Zirndorf"
-}, {
+ "Tagebuch, 17. September 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Elsinger",
+ "ref":
+ "person_14734"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nürnberg",
+ "ref":
+ "pmb44172"}
+ ,  {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ,  {
+ "placeName":
+ "Zirndorf",
+ "ref":
+ "pmb40867"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -99,52 +110,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-09-17",
+ "entity/44172/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-17.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/44172/",
  "head":
- "Tagebuch, 17. September 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Elsinger",
- "ref":
- "person_14734"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"}],
- "listPlace":
-  [
- {
- "placeName":
  "Nürnberg",
- "ref":
- "pmb44172"}
- ,  {
- "placeName":
- "Franzensbad",
- "ref":
- "pmb390"}
- ,  {
- "placeName":
- "Zirndorf",
- "ref":
- "pmb40867"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/88963/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/88963/",
+ "head":
+ "Hotel Deutscher Kaiser",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40867/",
+ "head":
+ "Zirndorf",
+ "desc":
+{
+}
+}, ] 

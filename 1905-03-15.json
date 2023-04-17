@@ -1,43 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/49149/",
+ "entry__1905-03-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/49149/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-15.html",
  "head":
- "Kotor"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/682/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/682/",
- "head":
- "Dubrovnik"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/365/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/365/",
- "head":
- "Hotel Imperial"
-}, {
+ "Tagebuch, 15. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Bernhard Wandel",
+ "ref":
+ "person_21090"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dubrovnik",
+ "ref":
+ "pmb682"}
+ ,  {
+ "placeName":
+ "Gruž",
+ "ref":
+ "pmb90757"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -99,47 +105,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1905-03-15",
+ "entity/49149/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-15.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/49149/",
  "head":
- "Tagebuch, 15. März 1905",
+ "Kotor",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Bernhard Wandel",
- "ref":
- "person_21090"}],
- "listPlace":
-  [
- {
- "placeName":
- "Dubrovnik",
- "ref":
- "pmb682"}
- ,  {
- "placeName":
- "Gruž",
- "ref":
- "pmb90757"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/682/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/682/",
+ "head":
+ "Dubrovnik",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/365/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/365/",
+ "head":
+ "Hotel Imperial",
+ "desc":
+{
+}
+}, ] 

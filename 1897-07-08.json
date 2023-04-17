@@ -1,29 +1,56 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1897-07-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-08.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/414/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/414/",
- "head":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+ "Tagebuch, 8. Juli 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Sasch",
+ "ref":
+ "person_19579"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ebensee",
+ "ref":
+ "pmb912"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -222,59 +249,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1897-07-08",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-08.html",
- "head":
- "Tagebuch, 8. Juli 1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Rosa Freudenthal",
- "ref":
- "person_15178"},
- {
- "persName":
- "Sasch",
- "ref":
- "person_19579"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"}],
- "listBibl":
-  [
- {
- "title":
- "Das Vermächtnis. Schauspiel in drei Akten",
- "ref":
- "pmb30219"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Ebensee",
- "ref":
- "pmb912"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -351,4 +325,36 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "desc":
+{
+}
+}, ] 

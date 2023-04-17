@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-04-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-04-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. April 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold Geiringer",
+ "ref":
+ "person_15371"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Bertha Hausner",
+ "ref":
+ "person_15994"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Abenteuer",
+ "ref":
+ "pmb80578"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -73,42 +100,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1892-04-10",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-04-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 10. April 1892",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Leopold Geiringer",
- "ref":
- "person_15371"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Bertha Hausner",
- "ref":
- "person_15994"}],
- "listBibl":
-  [
- {
- "title":
- "Ein Abenteuer",
- "ref":
- "pmb80578"}
- ]
 }
-}] 
+}, ] 

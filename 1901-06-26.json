@@ -1,16 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/867/",
+ "entry__1901-06-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-26.html",
  "head":
- "Innsbruck"
+ "Tagebuch, 26. Juni 1901",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ,  {
+ "placeName":
+ "Igls",
+ "ref":
+ "pmb90919"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -114,34 +129,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-06-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-26.html",
- "head":
- "Tagebuch, 26. Juni 1901",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Innsbruck",
- "ref":
- "pmb867"}
- ,  {
- "placeName":
- "Igls",
- "ref":
- "pmb90919"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -226,4 +213,20 @@
  "pmb29959"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck",
+ "desc":
+{
+}
+}, ] 

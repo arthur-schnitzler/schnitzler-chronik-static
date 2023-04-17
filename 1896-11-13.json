@@ -1,17 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1896-11-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. November 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Charlotte Pohl",
+ "ref":
+ "person_18844"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Judith",
+ "ref":
+ "pmb76689"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -184,52 +221,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1896-11-13",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 13. November 1896",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Leopold von Andrian-Werburg",
- "ref":
- "person_13202"},
- {
- "persName":
- "Charlotte Pohl",
- "ref":
- "person_18844"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Judith",
- "ref":
- "pmb76689"}
- ]
 }
-}] 
+}, ] 

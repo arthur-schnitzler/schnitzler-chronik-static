@@ -1,42 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1899-05-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-05-28.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91749/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91749/",
- "head":
- "Sigmundsherberg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91618/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91618/",
- "head":
- "Rosenburg"
+ "Tagebuch, 28. Mai 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Sigmundsherberg",
+ "ref":
+ "pmb91749"}
+ ,  {
+ "placeName":
+ "Rosenburg",
+ "ref":
+ "pmb91618"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -240,51 +246,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-05-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-05-28.html",
- "head":
- "Tagebuch, 28. Mai 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listPlace":
-  [
- {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ,  {
- "placeName":
- "Sigmundsherberg",
- "ref":
- "pmb91749"}
- ,  {
- "placeName":
- "Rosenburg",
- "ref":
- "pmb91618"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -389,4 +350,52 @@
  "pmb29296"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91749/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91749/",
+ "head":
+ "Sigmundsherberg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91618/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91618/",
+ "head":
+ "Rosenburg",
+ "desc":
+{
+}
+}, ] 

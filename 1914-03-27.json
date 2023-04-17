@@ -1,17 +1,102 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net",
  "head":
- "Wien"
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-03-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-27.html",
+ "head":
+ "Tagebuch, 27. März 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Brann",
+ "ref":
+ "person_13925"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Arnold Schönberg",
+ "ref":
+ "person_19840"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "person_16339"},
+ {
+ "persName":
+ "Margot Vallo",
+ "ref":
+ "person_16894"},
+ {
+ "persName":
+ "Eduard Vallo",
+ "ref":
+ "person_20915"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Gute Mütter. Komödie in drei Akten",
+ "ref":
+ "pmb47709"}
+ ,  {
+ "title":
+ "Gurre-Lieder",
+ "ref":
+ "pmb30039"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -119,17 +204,20 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
+ "#045344",
+ "filename":
+ "entity/50/",
  "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
+ "Aufenthaltsorte",
  "idno":
- "https://www.schnitzler-edition.net",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Fink und Fliederbusch, Typoskript",
- "text":
- "Publikation in Vorbereitung"
+ "Wien",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-cmif",
@@ -150,91 +238,7 @@
  "ref":
  "https://d-nb.info/gnd/118625527"}],
  "bibl":
+ ", "source":
  "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1914-03-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-27.html",
- "head":
- "Tagebuch, 27. März 1914",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Brann",
- "ref":
- "person_13925"},
- {
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Arnold Schönberg",
- "ref":
- "person_19840"},
- {
- "persName":
- "Otto Zuckerkandl",
- "ref":
- "person_21601"},
- {
- "persName":
- "Rudolf Holzer",
- "ref":
- "person_16339"},
- {
- "persName":
- "Margot Vallo",
- "ref":
- "person_16894"},
- {
- "persName":
- "Eduard Vallo",
- "ref":
- "person_20915"},
- {
- "persName":
- "Victor Zuckerkandl",
- "ref":
- "person_21602"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Gute Mütter. Komödie in drei Akten",
- "ref":
- "pmb47709"}
- ,  {
- "title":
- "Gurre-Lieder",
- "ref":
- "pmb30039"}
- ]
-}
-}] 
+}, ] 

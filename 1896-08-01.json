@@ -1,30 +1,37 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/40700/",
+ "entry__1896-08-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40700/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-08-01.html",
  "head":
- "Göteborg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/42675/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/42675/",
- "head":
- "Trollhättan-Fälle"
-}, {
+ "Tagebuch, 1. August 1896",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Göteborg",
+ "ref":
+ "pmb40700"}
+ ,  {
+ "placeName":
+ "Trollhättan",
+ "ref":
+ "pmb91949"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,35 +96,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1896-08-01",
+ "entity/40700/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-08-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/40700/",
  "head":
- "Tagebuch, 1. August 1896",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Göteborg",
- "ref":
- "pmb40700"}
- ,  {
- "placeName":
- "Trollhättan",
- "ref":
- "pmb91949"}
- ,  {
- "placeName":
- "Schweden",
- "ref":
- "pmb44335"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/42675/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/42675/",
+ "head":
+ "Trollhättan-Fälle",
+ "desc":
+{
+}
+}, ] 

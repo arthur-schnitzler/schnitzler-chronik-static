@@ -1,56 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/424/",
+ "entry__1895-08-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/424/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-27.html",
  "head":
- "Bad Tölz"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90905/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90905/",
- "head":
- "Holzkirchen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/45258/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
- "head":
- "München"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/681/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/681/",
- "head":
- "Hotel Continental"
-}, {
+ "Tagebuch, 27. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Meistersinger von Nürnberg",
+ "ref":
+ "pmb30661"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Holzkirchen",
+ "ref":
+ "pmb90905"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -140,45 +131,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-08-27",
+ "entity/424/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-27.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/424/",
  "head":
- "Tagebuch, 27. August 1895",
+ "Bad Tölz",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"}],
- "listBibl":
-  [
- {
- "title":
- "Die Meistersinger von Nürnberg",
- "ref":
- "pmb30661"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Holzkirchen",
- "ref":
- "pmb90905"}
- ,  {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90905/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90905/",
+ "head":
+ "Holzkirchen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/681/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/681/",
+ "head":
+ "Hotel Continental",
+ "desc":
+{
+}
+}, ] 

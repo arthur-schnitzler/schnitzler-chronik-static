@@ -1,43 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1897-06-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-13.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/93875/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/93875/",
- "head":
- "Scheibmühl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90146/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90146/",
- "head":
- "Pamsenhof"
-}, {
+ "Tagebuch, 13. Juni 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Loidl",
+ "ref":
+ "person_17669"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Scheibmühl",
+ "ref":
+ "pmb90144"}
+ ,  {
+ "placeName":
+ "St. Pölten",
+ "ref":
+ "pmb49880"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -172,6 +176,54 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/93875/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/93875/",
+ "head":
+ "Scheibmühl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90146/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90146/",
+ "head":
+ "Pamsenhof",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#w6429315-92be-4f82-b2f1-926125f9bfa5",
@@ -190,49 +242,7 @@
  "ref":
  "https://d-nb.info/gnd/124896847"}],
  "bibl":
+ ", "source":
  "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1897-06-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-13.html",
- "head":
- "Tagebuch, 13. Juni 1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Loidl",
- "ref":
- "person_17669"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Scheibmühl",
- "ref":
- "pmb90144"}
- ,  {
- "placeName":
- "St. Pölten",
- "ref":
- "pmb49880"}
- ]
-}
-}] 
+}, ] 

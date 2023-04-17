@@ -1,16 +1,76 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-11-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-22.html",
  "head":
- "Wien"
+ "Tagebuch, 22. November 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Olga Lewinsky",
+ "ref":
+ "person_17494"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Nelly Hönigswald",
+ "ref":
+ "person_16261"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Tagebuch der Redegonda",
+ "ref":
+ "pmb30349"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -222,101 +282,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Richard Metzl an Arthur Schnitzler, 22.11.1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Metzl",
- "ref":
- ""}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-11-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-22.html",
- "head":
- "Tagebuch, 22. November 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Ernst Hartmann",
- "ref":
- "person_15944"},
- {
- "persName":
- "Olga Lewinsky",
- "ref":
- "person_17494"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Nelly Hönigswald",
- "ref":
- "person_16261"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Das Tagebuch der Redegonda",
- "ref":
- "pmb30349"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Hamburg",
- "ref":
- "pmb506"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -385,4 +350,43 @@
  "pmb133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Richard Metzl an Arthur Schnitzler, 22.11.1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Metzl",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, ] 

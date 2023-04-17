@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net",
  "head":
- "Wien"
+ "Professor Bernhardi, Antikritik 6",
+ "text":
+ "Publikation in Vorbereitung"
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-12-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-12-04.html",
+ "head":
+ "Tagebuch, 4. Dezember 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charles Leyst",
+ "ref":
+ "person_17499"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -96,50 +131,18 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
- "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
- "idno":
- "https://www.schnitzler-edition.net",
- "head":
- "Professor Bernhardi, Antikritik 6",
- "text":
- "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1915-12-04",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-12-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 4. Dezember 1915",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Charles Leyst",
- "ref":
- "person_17499"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ]
 }
-}] 
+}, ] 

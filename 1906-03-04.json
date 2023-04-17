@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-03-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-04.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 4. März 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Lohengrin",
+ "ref":
+ "pmb30823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -81,50 +116,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-03-04",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 4. März 1906",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Karl Schönherr",
- "ref":
- "person_19850"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Lohengrin",
- "ref":
- "pmb30823"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ,  {
- "placeName":
- "Neuwaldegg",
- "ref":
- "pmb170"}
- ]
 }
-}] 
+}, ] 

@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02001",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02001.html",
- "head":
- "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Albert Ehrenstein",
- "ref":
- "pmb11230"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -56,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_SH3'_0001",
  "head":
- "Doktor Gräsler, Badearzt, hsl. Skizze 3, 28.01.1911 – 03.02.1911 (unsicher)"
+ "Doktor Gräsler, Badearzt, hsl. Skizze 3, 28.01.1911 – 03.02.1911 (unsicher)",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -68,28 +23,9 @@
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_T1_0001",
  "head":
  "Doktor Gräsler, Badearzt, msl. Werkniederschrift 1, 31.01.1911 – 03.02.1911
-            (unsicher)"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 31.1.1911",
+            (unsicher)",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
 }, {
  "type":
@@ -189,4 +125,78 @@
  "pmb14"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02001",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02001.html",
+ "head":
+ "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 31.1.1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

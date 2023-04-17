@@ -1,95 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01404",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01404.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 2. 6. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"}],
- "listPlace":
-  [
- {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Liesingerstraße",
- "ref":
- "pmb40101"}
- ,  {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ,  {
- "placeName":
- "Ottakringer Bräu",
- "ref":
- "pmb304"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Karl Vollmoeller, 2. 6. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Karl Vollmoeller",
- "ref":
- "https://d-nb.info/gnd/118805681"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -179,6 +89,61 @@
  "Rodaun",
  "ref":
  "pmb173"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01404",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01404.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 2. 6. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Liesingerstraße",
+ "ref":
+ "pmb40101"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "Ottakringer Bräu",
+ "ref":
+ "pmb304"}
  ]
 }
 }, {
@@ -322,4 +287,43 @@
  "pmb29308"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Karl Vollmoeller, 2. 6. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Vollmoeller",
+ "ref":
+ "https://d-nb.info/gnd/118805681"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

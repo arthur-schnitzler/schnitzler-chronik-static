@@ -1,16 +1,60 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-09-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-26.html",
  "head":
- "Wien"
+ "Tagebuch, 26. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene von Caučig",
+ "ref":
+ "person_14159"},
+ {
+ "persName":
+ "Dr.",
+ "ref":
+ "person_14503"},
+ {
+ "persName":
+ "Lotte Erol",
+ "ref":
+ "person_14806"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -104,63 +148,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-09-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-26.html",
- "head":
- "Tagebuch, 26. September 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Helene von Caučig",
- "ref":
- "person_14159"},
- {
- "persName":
- "Dr.",
- "ref":
- "person_14503"},
- {
- "persName":
- "Lotte Erol",
- "ref":
- "person_14806"},
- {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"}]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -235,4 +222,20 @@
  "pmb29320"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

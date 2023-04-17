@@ -1,16 +1,33 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1894-07-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-07-20.html",
  "head":
- "Bad Ischl"
+ "Tagebuch, 20. Juli 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Steg",
+ "ref":
+ "pmb92549"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -63,36 +80,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-07-20",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-07-20.html",
- "head":
- "Tagebuch, 20. Juli 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"}],
- "listPlace":
-  [
- {
- "placeName":
- "Steg",
- "ref":
- "pmb92549"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -141,4 +128,20 @@
  "pmb416"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, ] 

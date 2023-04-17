@@ -1,17 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/667/",
+ "entry__1917-09-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-05.html",
  "head":
- "Garmisch-Partenkirchen"
-}, {
+ "Tagebuch, 5. September 1917",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -83,25 +93,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1917-09-05",
+ "entity/667/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
  "head":
- "Tagebuch, 5. September 1917",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Garmisch-Partenkirchen",
- "ref":
- "pmb667"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

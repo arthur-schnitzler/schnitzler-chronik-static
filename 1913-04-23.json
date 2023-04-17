@@ -1,16 +1,61 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/47414/",
+ "entry__1913-04-23",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/47414/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-04-23.html",
  "head":
- "Neuhaus"
+ "Tagebuch, 23. April 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Les civilisés",
+ "ref":
+ "pmb78292"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Neuhaus",
+ "ref":
+ "pmb47414"}
+ ,  {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ,  {
+ "placeName":
+ "Einöde",
+ "ref":
+ "pmb90569"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -119,64 +164,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1913-04-23",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-04-23.html",
- "head":
- "Tagebuch, 23. April 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefanie Bachrach",
- "ref":
- "person_13359"}],
- "listBibl":
-  [
- {
- "title":
- "Les civilisés",
- "ref":
- "pmb78292"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Baden bei Wien",
- "ref":
- "pmb662"}
- ,  {
- "placeName":
- "Neuhaus",
- "ref":
- "pmb47414"}
- ,  {
- "placeName":
- "Bad Vöslau",
- "ref":
- "pmb992"}
- ,  {
- "placeName":
- "Einöde",
- "ref":
- "pmb90569"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -243,4 +230,20 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/47414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47414/",
+ "head":
+ "Neuhaus",
+ "desc":
+{
+}
+}, ] 

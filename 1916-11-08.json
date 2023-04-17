@@ -1,17 +1,97 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1916-11-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-11-08.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 8. November 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Christine Kerry",
+ "ref":
+ "person_16821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Paul Weingarten",
+ "ref":
+ "person_21171"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"},
+ {
+ "persName":
+ "Alexandre père Dumas",
+ "ref":
+ "person_14547"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Paul Pieller",
+ "ref":
+ "person_18788"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Mémoires d’un médecin",
+ "ref":
+ "pmb77784"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Norwegen",
+ "ref":
+ "pmb64465"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -129,95 +209,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1916-11-08",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-11-08.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 8. November 1916",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Stefanie Bachrach",
- "ref":
- "person_13359"},
- {
- "persName":
- "Christine Kerry",
- "ref":
- "person_16821"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Paul Weingarten",
- "ref":
- "person_21171"},
- {
- "persName":
- "Marianne Giustiniani",
- "ref":
- "person_21600"},
- {
- "persName":
- "Ludwig Mandl",
- "ref":
- "person_17825"},
- {
- "persName":
- "Alexandre père Dumas",
- "ref":
- "person_14547"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Paul Pieller",
- "ref":
- "person_18788"}],
- "listBibl":
-  [
- {
- "title":
- "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
- "ref":
- "pmb30819"}
- ,  {
- "title":
- "Mémoires d’un médecin",
- "ref":
- "pmb77784"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Schweiz",
- "ref":
- "pmb43435"}
- ,  {
- "placeName":
- "Norwegen",
- "ref":
- "pmb64465"}
- ,  {
- "placeName":
- "Schweden",
- "ref":
- "pmb44335"}
- ]
 }
-}] 
+}, ] 

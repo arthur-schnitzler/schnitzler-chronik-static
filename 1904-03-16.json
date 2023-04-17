@@ -1,16 +1,56 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-03-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-16.html",
  "head":
- "Wien"
+ "Tagebuch, 16. März 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Carmen",
+ "ref":
+ "pmb30627"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -99,59 +139,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-03-16",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-16.html",
- "head":
- "Tagebuch, 16. März 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"}],
- "listBibl":
-  [
- {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Carmen",
- "ref":
- "pmb30627"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Spanien",
- "ref":
- "pmb388"}
- ,  {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -200,4 +187,20 @@
  "pmb133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-11-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-03.html",
  "head":
- "Wien"
+ "Tagebuch, 3. November 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Bauer",
+ "ref":
+ "person_13473"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Peter Rotenstern",
+ "ref":
+ "person_19411"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gouvernante",
+ "ref":
+ "pmb33784"}
+ ,  {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -92,61 +134,6 @@
  "Wien",
  "ref":
  "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-11-03",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-03.html",
- "head":
- "Tagebuch, 3. November 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ludwig Bauer",
- "ref":
- "person_13473"},
- {
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Peter Rotenstern",
- "ref":
- "person_19411"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listBibl":
-  [
- {
- "title":
- "Die Gouvernante",
- "ref":
- "pmb33784"}
- ,  {
- "title":
- "Das Haus Delorme. Eine Familienszene",
- "ref":
- "pmb31547"}
- ,  {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
  ]
 }
 }, {
@@ -355,4 +342,20 @@
  "pmb892"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

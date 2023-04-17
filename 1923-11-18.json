@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1923-11-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-11-18.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 18. November 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Giacomo Girolamo Casanova",
+ "ref":
+ "person_14147"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Karl Ferdinand von Vincenti",
+ "ref":
+ "person_20969"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Casanova in Wien",
+ "ref":
+ "pmb32109"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -86,70 +141,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1923-11-18",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-11-18.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 18. November 1923",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Raoul Auernheimer",
- "ref":
- "person_13305"},
- {
- "persName":
- "Giacomo Girolamo Casanova",
- "ref":
- "person_14147"},
- {
- "persName":
- "Hedy Kempny",
- "ref":
- "person_16807"},
- {
- "persName":
- "Adolf von Sonnenthal",
- "ref":
- "person_20204"},
- {
- "persName":
- "Karl Ferdinand von Vincenti",
- "ref":
- "person_20969"},
- {
- "persName":
- "Johann Schnitzler",
- "ref":
- "person_19824"}],
- "listBibl":
-  [
- {
- "title":
- "Komödie der Verführung. In drei Akten",
- "ref":
- "pmb30205"}
- ,  {
- "title":
- "Casanova in Wien",
- "ref":
- "pmb32109"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Neuwaldegg",
- "ref":
- "pmb170"}
- ]
 }
-}] 
+}, ] 

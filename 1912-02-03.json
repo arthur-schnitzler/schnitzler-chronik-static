@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1912-02-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-02-03.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 3. Februar 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emma Löwenstamm",
+ "ref":
+ "person_17650"},
+ {
+ "persName":
+ "Leo N. von Tolstoi",
+ "ref":
+ "person_20772"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Chadschi Murat",
+ "ref":
+ "pmb77385"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -81,6 +113,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -99,51 +147,7 @@
  "ref":
  ""}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-02-03",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-02-03.html",
- "head":
- "Tagebuch, 3. Februar 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Emma Löwenstamm",
- "ref":
- "person_17650"},
- {
- "persName":
- "Leo N. von Tolstoi",
- "ref":
- "person_20772"}],
- "listBibl":
-  [
- {
- "title":
- "Frau Beate und ihr Sohn. Novelle",
- "ref":
- "pmb32133"}
- ,  {
- "title":
- "Komtesse Mizzi oder Der Familientag",
- "ref":
- "pmb29931"}
- ,  {
- "title":
- "Chadschi Murat",
- "ref":
- "pmb77385"}
- ]
-}
-}] 
+}, ] 

@@ -1,29 +1,51 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/465/",
+ "entry__1908-04-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/465/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-04-29.html",
  "head":
- "Riva del Garda"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/40812/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40812/",
- "head":
- "Hotel du Lac"
+ "Tagebuch, 29. April 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "George Meredith",
+ "ref":
+ "person_18085"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Egoist",
+ "ref":
+ "pmb79705"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Riva del Garda",
+ "ref":
+ "pmb465"}
+ ,  {
+ "placeName":
+ "Salò",
+ "ref":
+ "pmb39611"}
+ ,  {
+ "placeName":
+ "Toscolano-Maderno",
+ "ref":
+ "pmb91185"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -141,54 +163,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-04-29",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-04-29.html",
- "head":
- "Tagebuch, 29. April 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "George Meredith",
- "ref":
- "person_18085"}],
- "listBibl":
-  [
- {
- "title":
- "Der Egoist",
- "ref":
- "pmb79705"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Riva del Garda",
- "ref":
- "pmb465"}
- ,  {
- "placeName":
- "Salò",
- "ref":
- "pmb39611"}
- ,  {
- "placeName":
- "Toscolano-Maderno",
- "ref":
- "pmb91185"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -237,4 +211,36 @@
  "pmb220"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/465/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/465/",
+ "head":
+ "Riva del Garda",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40812/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40812/",
+ "head":
+ "Hotel du Lac",
+ "desc":
+{
+}
+}, ] 

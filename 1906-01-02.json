@@ -1,86 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01571",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01571.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 1. 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Sophokles",
- "ref":
- "pmb2693"},
- {
- "persName":
- "Robert Michel",
- "ref":
- "pmb12254"}],
- "listBibl":
-  [
- {
- "title":
- "Der Jäger",
- "ref":
- "pmb43898"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Kaltenleutgeben",
- "ref":
- "pmb44102"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Innsbruck",
- "ref":
- "pmb867"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -159,4 +78,88 @@
  "pmb29923"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01571",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01571.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 1. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Sophokles",
+ "ref":
+ "pmb2693"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "pmb12254"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Jäger",
+ "ref":
+ "pmb43898"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kaltenleutgeben",
+ "ref":
+ "pmb44102"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

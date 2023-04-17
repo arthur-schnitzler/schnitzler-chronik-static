@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-05-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-26.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 26. Mai 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "G. Lenotre",
+ "ref":
+ "person_17440"},
+ {
+ "persName":
+ "Anna Rotenstern-Tesi",
+ "ref":
+ "person_19412"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "August von Platen",
+ "ref":
+ "person_18827"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Streichquartett Nr. 10 Es-Dur op. 74",
+ "ref":
+ "pmb77171"}
+ ,  {
+ "title":
+ "Paris révolutionnaire",
+ "ref":
+ "pmb77028"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30713"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -83,62 +130,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-05-26",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-26.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 26. Mai 1906",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ludwig van Beethoven",
- "ref":
- "person_13555"},
- {
- "persName":
- "G. Lenotre",
- "ref":
- "person_17440"},
- {
- "persName":
- "Anna Rotenstern-Tesi",
- "ref":
- "person_19412"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "August von Platen",
- "ref":
- "person_18827"}],
- "listBibl":
-  [
- {
- "title":
- "Streichquartett Nr. 10 Es-Dur op. 74",
- "ref":
- "pmb77171"}
- ,  {
- "title":
- "Paris révolutionnaire",
- "ref":
- "pmb77028"}
- ,  {
- "title":
- "Tagebücher",
- "ref":
- "pmb30713"}
- ]
 }
-}] 
+}, ] 

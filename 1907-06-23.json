@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01685",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01685.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 23. 6. 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Jacobo Tintoretto",
- "ref":
- "pmb3173"}],
- "listBibl":
-  [
- {
- "title":
- "Bacchus und Ariadne",
- "ref":
- "pmb45232"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Venedig",
- "ref":
- "pmb462"}
- ,  {
- "placeName":
- "Lido",
- "ref":
- "pmb259"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -197,4 +121,83 @@
  "pmb170"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01685",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01685.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 23. 6. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Jacobo Tintoretto",
+ "ref":
+ "pmb3173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Bacchus und Ariadne",
+ "ref":
+ "pmb45232"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb259"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

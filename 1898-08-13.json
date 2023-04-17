@@ -1,43 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90515/",
+ "entry__1898-08-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90515/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-13.html",
  "head":
- "Delémont"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/36477/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/36477/",
- "head":
- "Biel"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34057/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34057/",
- "head":
- "Neuchâtel"
-}, {
+ "Tagebuch, 13. August 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Biel",
+ "ref":
+ "pmb36477"}
+ ,  {
+ "placeName":
+ "Neuchâtel",
+ "ref":
+ "pmb34057"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,30 +93,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1898-08-13",
+ "entity/90515/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/90515/",
  "head":
- "Tagebuch, 13. August 1898",
+ "Delémont",
  "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Biel",
- "ref":
- "pmb36477"}
- ,  {
- "placeName":
- "Neuchâtel",
- "ref":
- "pmb34057"}
- ]
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36477/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36477/",
+ "head":
+ "Biel",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34057/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34057/",
+ "head":
+ "Neuchâtel",
+ "desc":
+{
+}
+}, ] 

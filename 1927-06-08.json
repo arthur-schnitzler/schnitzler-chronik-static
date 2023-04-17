@@ -1,83 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02488",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02488.html",
- "head":
- "Miriam Beer-Hofmann an Arthur Schnitzler, 8. 6. 1927",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Mirjam Beer-Hofmann",
- "ref":
- "pmb2668"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Dora Michaelis",
- "ref":
- "pmb2774"},
- {
- "persName":
- "Karl Michaelis",
- "ref":
- "pmb3064"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "pmb2238"},
- {
- "persName":
- "Arnoldo Cappellini",
- "ref":
- "pmb14850"},
- {
- "persName":
- "Ernst Lens",
- "ref":
- "pmb29134"}],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -189,4 +111,85 @@
  "pmb549"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02488",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02488.html",
+ "head":
+ "Miriam Beer-Hofmann an Arthur Schnitzler, 8. 6. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "pmb2774"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "pmb3064"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "pmb14850"},
+ {
+ "persName":
+ "Ernst Lens",
+ "ref":
+ "pmb29134"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

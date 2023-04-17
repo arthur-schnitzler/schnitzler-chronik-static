@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -22,7 +9,10 @@
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_*BH0",
  "head":
  "Zum großen Wurstel, erschl. hsl. Libretto 0, Vom 5. August 1903 bis ca. 25. August
-            1903"
+            1903",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -149,4 +139,20 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

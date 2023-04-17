@@ -1,68 +1,63 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1898-04-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-04-21.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/968/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/968/",
- "head":
- "Mödling"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91857/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91857/",
- "head":
- "Sulz im Wienerwald"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/1022/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/1022/",
- "head":
- "Breitenfurt bei Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91552/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91552/",
- "head":
- "Purkersdorf"
+ "Tagebuch, 21. April 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "person_19729"},
+ {
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "person_15115"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "Sulz im Wienerwald",
+ "ref":
+ "pmb91857"}
+ ,  {
+ "placeName":
+ "Breitenfurt bei Wien",
+ "ref":
+ "pmb1022"}
+ ,  {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb91552"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -231,88 +226,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#w6429315-92be-4f82-b2f1-926125f9bfa5",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Eugen Deimel an Arthur Schnitzler, 21.4.1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen Deimel",
- "ref":
- "https://d-nb.info/gnd/124896847"}],
- "bibl":
- "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-04-21",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-04-21.html",
- "head":
- "Tagebuch, 21. April 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Franziska Schlesinger",
- "ref":
- "person_19729"},
- {
- "persName":
- "Clemens von Franckenstein",
- "ref":
- "person_15115"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listPlace":
-  [
- {
- "placeName":
- "Mödling",
- "ref":
- "pmb968"}
- ,  {
- "placeName":
- "Sulz im Wienerwald",
- "ref":
- "pmb91857"}
- ,  {
- "placeName":
- "Breitenfurt bei Wien",
- "ref":
- "pmb1022"}
- ,  {
- "placeName":
- "Purkersdorf",
- "ref":
- "pmb91552"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -376,4 +289,107 @@
  "pmb436"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/968/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/968/",
+ "head":
+ "Mödling",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91857/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91857/",
+ "head":
+ "Sulz im Wienerwald",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1022/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1022/",
+ "head":
+ "Breitenfurt bei Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91552/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91552/",
+ "head":
+ "Purkersdorf",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 21.4.1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ ", "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}
+}, ] 

@@ -1,16 +1,33 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-01-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-26.html",
  "head":
- "Wien"
+ "Tagebuch, 26. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Maurice Vaucaire",
+ "ref":
+ "person_20931"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Vorwort",
+ "ref":
+ "pmb36061"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -100,36 +117,6 @@
  "Österreich",
  "ref":
  "pmb41240"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-01-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-26.html",
- "head":
- "Tagebuch, 26. Januar 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Maurice Vaucaire",
- "ref":
- "person_20931"}],
- "listBibl":
-  [
- {
- "title":
- "Vorwort",
- "ref":
- "pmb36061"}
  ]
 }
 }, {
@@ -305,4 +292,20 @@
  "pmb334"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

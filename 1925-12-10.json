@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1925-12-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-12-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. Dezember 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "person_16355"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Die Guillotine",
+ "ref":
+ "pmb81253"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -61,47 +93,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1925-12-10",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-12-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 10. Dezember 1925",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Hedy Kempny",
- "ref":
- "person_16807"},
- {
- "persName":
- "Franz Horch",
- "ref":
- "person_16355"}],
- "listBibl":
-  [
- {
- "title":
- "Aphoristisches",
- "ref":
- "pmb35745"}
- ,  {
- "title":
- "Spiel im Morgengrauen. Novelle",
- "ref":
- "pmb32131"}
- ,  {
- "title":
- "Die Guillotine",
- "ref":
- "pmb81253"}
- ]
 }
-}] 
+}, ] 

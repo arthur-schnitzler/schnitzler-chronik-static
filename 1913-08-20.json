@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45260/",
+ "entry__1913-08-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-20.html",
  "head":
- "Brijuni"
-}, {
+ "Tagebuch, 20. August 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Allers",
+ "ref":
+ "person_13152"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Amalie Zuckerkandl",
+ "ref":
+ "person_21593"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,47 +120,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1913-08-20",
+ "entity/45260/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-20.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
  "head":
- "Tagebuch, 20. August 1913",
+ "Brijuni",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Rudolf Allers",
- "ref":
- "person_13152"},
- {
- "persName":
- "Paula Schmidl",
- "ref":
- "person_19756"},
- {
- "persName":
- "Amalie Zuckerkandl",
- "ref":
- "person_21593"},
- {
- "persName":
- "Otto Zuckerkandl",
- "ref":
- "person_21601"}],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ]
 }
-}] 
+}, ] 

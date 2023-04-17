@@ -1,76 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02532",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02532.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 18. 2. 1930",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Anna Bahr-Mildenburg",
- "ref":
- "pmb10818"}],
- "listBibl":
-  [
- {
- "title":
- "Hamlet",
- "ref":
- "pmb30009"}
- ,  {
- "title":
- "Buch der Sprüche und Bedenken",
- "ref":
- "pmb30053"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Barerstraße",
- "ref":
- "pmb161"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -155,6 +84,64 @@
  "Amsterdam",
  "ref":
  "pmb40709"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02532",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02532.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 18. 2. 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hamlet",
+ "ref":
+ "pmb30009"}
+ ,  {
+ "title":
+ "Buch der Sprüche und Bedenken",
+ "ref":
+ "pmb30053"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Barerstraße",
+ "ref":
+ "pmb161"}
  ]
 }
 }, {
@@ -268,4 +255,20 @@
  "pmb707"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

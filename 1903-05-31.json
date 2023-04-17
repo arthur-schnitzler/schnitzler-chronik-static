@@ -1,44 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/462/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/462/",
- "head":
- "Venedig"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91914/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91914/",
- "head":
- "Torcello"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50910/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50910/",
- "head":
- "Hotel Centrale Vapore"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -47,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/PUP_DJ_0001",
  "head":
- "Der Puppenspieler, Journaldruck, 1906"
+ "Der Puppenspieler, Journaldruck, 1906",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -88,4 +52,52 @@
  "pmb90414"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/462/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91914/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91914/",
+ "head":
+ "Torcello",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50910/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50910/",
+ "head":
+ "Hotel Centrale Vapore",
+ "desc":
+{
+}
+}, ] 

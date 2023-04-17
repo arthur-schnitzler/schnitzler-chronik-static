@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1920-07-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-16.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 16. Juli 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Stern",
+ "ref":
+ "person_20405"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus",
+ "ref":
+ "pmb32294"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -111,50 +146,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1920-07-16",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-16.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 16. Juli 1920",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Arthur Stern",
- "ref":
- "person_20405"},
- {
- "persName":
- "Ruth Lindberg",
- "ref":
- "person_17562"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus",
- "ref":
- "pmb32294"}
- ,  {
- "title":
- "Therese. Chronik eines Frauenlebens",
- "ref":
- "pmb30817"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ]
 }
-}] 
+}, ] 

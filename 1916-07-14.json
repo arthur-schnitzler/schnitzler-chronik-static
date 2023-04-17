@@ -1,30 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/34401/",
+ "entry__1916-07-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34401/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-07-14.html",
  "head":
- "Altaussee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34387/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34387/",
- "head":
- "Villa Annerl"
-}, {
+ "Tagebuch, 14. Juli 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Chiavacci",
+ "ref":
+ "person_14194"},
+ {
+ "persName":
+ "Molly von Filtsch",
+ "ref":
+ "person_14980"},
+ {
+ "persName":
+ "Emanuel Geibel",
+ "ref":
+ "person_15365"},
+ {
+ "persName":
+ "Johanna Nemetschke",
+ "ref":
+ "person_18388"},
+ {
+ "persName":
+ "Robert Adam",
+ "ref":
+ "person_18893"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Malvine Schönherr",
+ "ref":
+ "person_19851"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Faust. Eine Tragödie",
+ "ref":
+ "pmb30247"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tressenstein",
+ "ref":
+ "pmb91938"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -161,80 +213,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1916-07-14",
+ "entity/34401/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-07-14.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/34401/",
  "head":
- "Tagebuch, 14. Juli 1916",
+ "Altaussee",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ludwig Chiavacci",
- "ref":
- "person_14194"},
- {
- "persName":
- "Molly von Filtsch",
- "ref":
- "person_14980"},
- {
- "persName":
- "Emanuel Geibel",
- "ref":
- "person_15365"},
- {
- "persName":
- "Johanna Nemetschke",
- "ref":
- "person_18388"},
- {
- "persName":
- "Robert Adam",
- "ref":
- "person_18893"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Malvine Schönherr",
- "ref":
- "person_19851"}],
- "listBibl":
-  [
- {
- "title":
- "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
- "ref":
- "pmb30819"}
- ,  {
- "title":
- "Faust. Eine Tragödie",
- "ref":
- "pmb30247"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Tressenstein",
- "ref":
- "pmb91938"}
- ,  {
- "placeName":
- "Bad Aussee",
- "ref":
- "pmb415"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34387/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34387/",
+ "head":
+ "Villa Annerl",
+ "desc":
+{
+}
+}, ] 

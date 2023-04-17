@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1901-10-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-10-01.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 1. Oktober 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ "pmb69"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -66,42 +93,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1901-10-01",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-10-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 1. Oktober 1901",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listPlace":
-  [
- {
- "placeName":
- "XIX., Döbling",
- "ref":
- "pmb69"}
- ,  {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ]
 }
-}] 
+}, ] 

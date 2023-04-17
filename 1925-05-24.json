@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02441",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02441.html",
- "head":
- "Gertrud Rung an Arthur Schnitzler, 24. 5. 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gertrud Rung",
- "ref":
- "pmb5558"},
- {
- "persName":
- "Georg Brandes",
- "ref":
- "pmb10992"}],
- "listPlace":
-  [
- {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Österreichischer Hof",
- "ref":
- "pmb230"}
- ,  {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -119,4 +56,70 @@
  "pmb91157"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02441",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02441.html",
+ "head":
+ "Gertrud Rung an Arthur Schnitzler, 24. 5. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrud Rung",
+ "ref":
+ "pmb5558"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreichischer Hof",
+ "ref":
+ "pmb230"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

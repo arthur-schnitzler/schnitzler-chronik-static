@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02418",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02418.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 31. 10. 1924",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"}],
- "listBibl":
-  [
- {
- "title":
- "Fräulein Else",
- "ref":
- "pmb29941"}
- ,  {
- "title":
- "Komödie der Verführung. In drei Akten",
- "ref":
- "pmb30205"}
- ,  {
- "title":
- "Der Turm. Ein Trauerspiel",
- "ref":
- "pmb33722"}
- ,  {
- "title":
- "Timon der Redner",
- "ref":
- "pmb43931"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bad Aussee",
- "ref":
- "pmb415"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -182,4 +106,83 @@
  "pmb318"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02418",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02418.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 31. 10. 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Der Turm. Ein Trauerspiel",
+ "ref":
+ "pmb33722"}
+ ,  {
+ "title":
+ "Timon der Redner",
+ "ref":
+ "pmb43931"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

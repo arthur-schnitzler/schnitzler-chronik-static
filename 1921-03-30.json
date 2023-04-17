@@ -1,100 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02365",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02365.html",
- "head":
- "Arthur Schnitzler an Robert Adam, 30. 3. 1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Robert Adam",
- "ref":
- "pmb12438"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "pmb2238"}],
- "listPlace":
-  [
- {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "XII., Meidling",
- "ref":
- "pmb62"}
- ,  {
- "placeName":
- "Meidlinger Hauptstraße",
- "ref":
- "pmb1239"}
- ,  {
- "placeName":
- "Sanatorium Loew",
- "ref":
- "pmb89"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Gustaf Linden, 30.3.1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustaf Linden",
- "ref":
- "https://d-nb.info/gnd/117024562"}],
- "bibl":
- "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -201,4 +106,103 @@
  "pmb45709"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02365",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02365.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 30. 3. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
+ ,  {
+ "placeName":
+ "Sanatorium Loew",
+ "ref":
+ "pmb89"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 30.3.1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustaf Linden",
+ "ref":
+ "https://d-nb.info/gnd/117024562"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}
+}, ] 

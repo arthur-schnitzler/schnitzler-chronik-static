@@ -1,16 +1,73 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-02-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-22.html",
  "head":
- "Wien"
+ "Tagebuch, 22. Februar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Edgar von Karg-Bebenburg",
+ "ref":
+ "person_16717"},
+ {
+ "persName":
+ "Paul Liebesny",
+ "ref":
+ "person_17518"},
+ {
+ "persName":
+ "Eduard von Waclawiczek",
+ "ref":
+ "person_21007"},
+ {
+ "persName":
+ "Arthur Wilhelm",
+ "ref":
+ "person_21339"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Elsa von Kalmár-Kövesházi",
+ "ref":
+ "person_16671"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -127,76 +184,6 @@
  "Korfu",
  "ref":
  "pmb41212"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-02-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-22.html",
- "head":
- "Tagebuch, 22. Februar 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Edgar von Karg-Bebenburg",
- "ref":
- "person_16717"},
- {
- "persName":
- "Paul Liebesny",
- "ref":
- "person_17518"},
- {
- "persName":
- "Eduard von Waclawiczek",
- "ref":
- "person_21007"},
- {
- "persName":
- "Arthur Wilhelm",
- "ref":
- "person_21339"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Elsa von Kalmár-Kövesházi",
- "ref":
- "person_16671"}],
- "listPlace":
-  [
- {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
  ]
 }
 }, {
@@ -362,4 +349,20 @@
  "pmb63"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

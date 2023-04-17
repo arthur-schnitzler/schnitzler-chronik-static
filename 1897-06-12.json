@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1897-06-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. Juni 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die demolirte Literatur",
+ "ref":
+ "pmb32606"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weidlingau",
+ "ref":
+ "pmb92059"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -136,60 +181,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1897-06-12",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 12. Juni 1897",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Louis Philipp Friedmann",
- "ref":
- "person_15229"},
- {
- "persName":
- "Karl Kraus",
- "ref":
- "person_17108"},
- {
- "persName":
- "Richard Tausenau",
- "ref":
- "person_20643"},
- {
- "persName":
- "Josefine Lydia von Weisswasser",
- "ref":
- "person_21214"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Die demolirte Literatur",
- "ref":
- "pmb32606"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Weidlingau",
- "ref":
- "pmb92059"}
- ]
 }
-}] 
+}, ] 

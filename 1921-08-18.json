@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/415/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/415/",
- "head":
- "Bad Aussee"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -21,28 +8,9 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_ST4_0001",
  "head":
- "Komödie der Verführung, msl. Skizze 4"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#n0827e77-245d-4359-a0b0-5b601a5370ee",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Hedy Kempny an Arthur Schnitzler, 18.8.1921",
+ "Komödie der Verführung, msl. Skizze 4",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Hedy Kempny",
- "ref":
- "https://d-nb.info/gnd/11872181X"}],
- "bibl":
- "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
 }
 }, {
  "type":
@@ -94,4 +62,43 @@
  "pmb30205"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/415/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/415/",
+ "head":
+ "Bad Aussee",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 18.8.1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "https://d-nb.info/gnd/11872181X"}],
+ "bibl":
+ ", "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}
+}, ] 

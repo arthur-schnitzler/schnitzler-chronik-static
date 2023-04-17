@@ -1,101 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02076",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02076.html",
- "head":
- "Hugo von Hofmannsthal an Olga Schnitzler, 5. 7. [1912]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "pmb12837"},
- {
- "persName":
- "Louis Philipp Friedmann",
- "ref":
- "pmb16658"}],
- "listBibl":
-  [
- {
- "title":
- "Ariadne auf Naxos. Oper in einem Aufzug",
- "ref":
- "pmb30907"}
- ,  {
- "title":
- "Die Gedichte und kleinen Dramen",
- "ref":
- "pmb44507"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Tutzing",
- "ref":
- "pmb44493"}
- ,  {
- "placeName":
- "Bad Vöslau",
- "ref":
- "pmb992"}
- ,  {
- "placeName":
- "Hinterbrühl",
- "ref":
- "pmb75"}
- ,  {
- "placeName":
- "Villa Friedmann",
- "ref":
- "pmb44495"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -199,4 +103,103 @@
  "pmb76921"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02076",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02076.html",
+ "head":
+ "Hugo von Hofmannsthal an Olga Schnitzler, 5. 7. [1912]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "pmb12837"},
+ {
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "pmb16658"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ariadne auf Naxos. Oper in einem Aufzug",
+ "ref":
+ "pmb30907"}
+ ,  {
+ "title":
+ "Die Gedichte und kleinen Dramen",
+ "ref":
+ "pmb44507"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Tutzing",
+ "ref":
+ "pmb44493"}
+ ,  {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ,  {
+ "placeName":
+ "Hinterbrühl",
+ "ref":
+ "pmb75"}
+ ,  {
+ "placeName":
+ "Villa Friedmann",
+ "ref":
+ "pmb44495"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

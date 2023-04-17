@@ -1,30 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44129/",
+ "entry__1905-03-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44129/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-11.html",
  "head":
- "Messina"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/41212/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41212/",
- "head":
- "Korfu"
-}, {
+ "Tagebuch, 11. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emanuel Spiro",
+ "ref":
+ "person_20270"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ,  {
+ "placeName":
+ "Korfu",
+ "ref":
+ "pmb41212"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -76,37 +85,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1905-03-11",
+ "entity/44129/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-11.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/44129/",
  "head":
- "Tagebuch, 11. März 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Emanuel Spiro",
- "ref":
- "person_20270"}],
- "listPlace":
-  [
- {
- "placeName":
  "Messina",
- "ref":
- "pmb44129"}
- ,  {
- "placeName":
- "Korfu",
- "ref":
- "pmb41212"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41212/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41212/",
+ "head":
+ "Korfu",
+ "desc":
+{
+}
+}, ] 

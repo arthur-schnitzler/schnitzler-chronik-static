@@ -1,30 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/75/",
+ "entry__1901-06-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/75/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-11.html",
  "head":
- "Hinterbrühl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 11. Juni 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -114,42 +128,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1901-06-11",
+ "entity/75/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-11.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/75/",
  "head":
- "Tagebuch, 11. Juni 1901",
+ "Hinterbrühl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listPlace":
-  [
- {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

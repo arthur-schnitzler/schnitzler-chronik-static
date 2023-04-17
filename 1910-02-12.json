@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-02-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. Februar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Frédéric Chopin",
+ "ref":
+ "person_14203"},
+ {
+ "persName":
+ "Gisela Springer",
+ "ref":
+ "person_20295"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Klaviersonate Nr. 2 b-Moll, op. 35",
+ "ref":
+ "pmb80307"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -81,6 +113,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
@@ -99,51 +147,7 @@
  "ref":
  ""}],
  "bibl":
+ ", "source":
  "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-02-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-12.html",
- "head":
- "Tagebuch, 12. Februar 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Frédéric Chopin",
- "ref":
- "person_14203"},
- {
- "persName":
- "Gisela Springer",
- "ref":
- "person_20295"}],
- "listBibl":
-  [
- {
- "title":
- "Frau Beate und ihr Sohn. Novelle",
- "ref":
- "pmb32133"}
- ,  {
- "title":
- "Der Schleier der Pierrette",
- "ref":
- "pmb30215"}
- ,  {
- "title":
- "Klaviersonate Nr. 2 b-Moll, op. 35",
- "ref":
- "pmb80307"}
- ]
-}
-}] 
+}, ] 

@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1895-06-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. Juni 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Pohl",
+ "ref":
+ "person_18844"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -68,6 +90,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
@@ -86,41 +124,7 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
+ ", "source":
  "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1895-06-05",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-05.html",
- "head":
- "Tagebuch, 5. Juni 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Charlotte Pohl",
- "ref":
- "person_18844"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"}],
- "listPlace":
-  [
- {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ]
-}
-}] 
+}, ] 

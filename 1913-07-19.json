@@ -1,16 +1,83 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1913-07-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-19.html",
  "head":
- "Wien"
+ "Tagebuch, 19. Juli 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hugo Felix",
+ "ref":
+ "person_14933"},
+ {
+ "persName":
+ "Elisabeth Jacobus",
+ "ref":
+ "person_16480"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Mary Halton",
+ "ref":
+ "person_15877"},
+ {
+ "persName":
+ "Emil Zuckerkandl",
+ "ref":
+ "person_21596"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ,  {
+ "placeName":
+ "Hinterbrühl",
+ "ref":
+ "pmb75"}
+ ,  {
+ "placeName":
+ "Brijuni",
+ "ref":
+ "pmb45260"}
+ ,  {
+ "placeName":
+ "Maria Josefa Park",
+ "ref":
+ "pmb92385"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -155,86 +222,6 @@
  "Sternwartestraße",
  "ref":
  "pmb150"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1913-07-19",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-19.html",
- "head":
- "Tagebuch, 19. Juli 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Hugo Felix",
- "ref":
- "person_14933"},
- {
- "persName":
- "Elisabeth Jacobus",
- "ref":
- "person_16480"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Otto Zuckerkandl",
- "ref":
- "person_21601"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Mary Halton",
- "ref":
- "person_15877"},
- {
- "persName":
- "Emil Zuckerkandl",
- "ref":
- "person_21596"}],
- "listPlace":
-  [
- {
- "placeName":
- "England",
- "ref":
- "pmb90593"}
- ,  {
- "placeName":
- "Hinterbrühl",
- "ref":
- "pmb75"}
- ,  {
- "placeName":
- "Brijuni",
- "ref":
- "pmb45260"}
- ,  {
- "placeName":
- "Maria Josefa Park",
- "ref":
- "pmb92385"}
  ]
 }
 }, {
@@ -430,4 +417,20 @@
  "pmb257"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

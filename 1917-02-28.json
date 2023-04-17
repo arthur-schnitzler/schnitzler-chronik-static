@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02258",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02258.html",
- "head":
- "Arthur Schnitzler an Arno Holz, 28. 2. 1917",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Arno Holz",
- "ref":
- "pmb11763"},
- {
- "persName":
- "Hugo Heller",
- "ref":
- "pmb11646"}],
- "listBibl":
-  [
- {
- "title":
- "Die Blechschmiede",
- "ref":
- "pmb31793"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -69,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_DJ_0107",
  "head":
- "Doktor Gräsler, Badearzt, Journaldruck"
+ "Doktor Gräsler, Badearzt, Journaldruck",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -130,4 +72,68 @@
  "pmb77162"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02258",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02258.html",
+ "head":
+ "Arthur Schnitzler an Arno Holz, 28. 2. 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arno Holz",
+ "ref":
+ "pmb11763"},
+ {
+ "persName":
+ "Hugo Heller",
+ "ref":
+ "pmb11646"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Blechschmiede",
+ "ref":
+ "pmb31793"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

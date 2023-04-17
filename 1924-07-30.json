@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -21,28 +8,9 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_D0H3_0065",
  "head":
- "Komödie der Verführung, Druckfahne 3"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Fritz Unruh an Arthur Schnitzler, 30.7.1924",
+ "Komödie der Verführung, Druckfahne 3",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Fritz Unruh",
- "ref":
- "https://d-nb.info/gnd/118625527"}],
- "bibl":
- "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
 }
 }, {
  "type":
@@ -124,4 +92,43 @@
  "pmb30117"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 30.7.1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Unruh",
+ "ref":
+ "https://d-nb.info/gnd/118625527"}],
+ "bibl":
+ ", "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}
+}, ] 

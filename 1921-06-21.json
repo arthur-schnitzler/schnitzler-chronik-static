@@ -1,56 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/45258/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
- "head":
- "München"
-}, {
- "type":
- "manual",
- "color":
- "",
- "caption":
- "",
- "idno":
- "doi.org/10.5771/9783968217109",
- "head":
- "Robert Adam: Besuch bei Schnitzler, 21. 6. 1921",
- "text":
- "In: Besuche bei Arthur Schnitzler Private Aufzeichnungen von Albert
-                     Ehrenstein, Victor Klemperer und Robert Adam. Mitgeteilt von Martin Anton
-                     Müller. In: Hofmannsthal. Jahrbuch zur europäischen Moderne, Band 27, 2019, S.
-                     131–164. "
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Fritz Unruh an Arthur Schnitzler, 21.6.1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Fritz Unruh",
- "ref":
- "https://d-nb.info/gnd/118625527"}],
- "bibl":
- "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -167,4 +116,59 @@
  "pmb45258"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 21.6.1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Unruh",
+ "ref":
+ "https://d-nb.info/gnd/118625527"}],
+ "bibl":
+ ", "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}
+}, {
+ "type":
+ "manual",
+ "color":
+ "",
+ "caption":
+ "",
+ "idno":
+ "doi.org/10.5771/9783968217109",
+ "head":
+ "Robert Adam: Besuch bei Schnitzler, 21. 6. 1921",
+ "text":
+ "In: Besuche bei Arthur Schnitzler Private Aufzeichnungen von Albert
+                     Ehrenstein, Victor Klemperer und Robert Adam. Mitgeteilt von Martin Anton
+                     Müller. In: Hofmannsthal. Jahrbuch zur europäischen Moderne, Band 27, 2019, S.
+                     131–164. "
+}, ] 

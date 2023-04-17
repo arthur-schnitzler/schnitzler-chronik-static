@@ -1,56 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91944/",
+ "entry__1900-03-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91944/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-29.html",
  "head":
- "Triest"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/851/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/851/",
- "head":
- "Pola"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/61062/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/61062/",
- "head":
- "Zadar"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91780/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91780/",
- "head":
- "Split"
-}, {
+ "Tagebuch, 29. März 1900",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Trieste",
+ "ref":
+ "pmb91944"}
+ ,  {
+ "placeName":
+ "Pola",
+ "ref":
+ "pmb851"}
+ ,  {
+ "placeName":
+ "Zadar",
+ "ref":
+ "pmb61062"}
+ ,  {
+ "placeName":
+ "Split",
+ "ref":
+ "pmb4231"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -283,40 +269,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-03-29",
+ "entity/91944/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-03-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/91944/",
  "head":
- "Tagebuch, 29. März 1900",
+ "Triest",
  "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Trieste",
- "ref":
- "pmb91944"}
- ,  {
- "placeName":
- "Pola",
- "ref":
- "pmb851"}
- ,  {
- "placeName":
- "Zadar",
- "ref":
- "pmb61062"}
- ,  {
- "placeName":
- "Split",
- "ref":
- "pmb4231"}
- ]
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/851/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/851/",
+ "head":
+ "Pola",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/61062/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/61062/",
+ "head":
+ "Zadar",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91780/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91780/",
+ "head":
+ "Split",
+ "desc":
+{
+}
+}, ] 

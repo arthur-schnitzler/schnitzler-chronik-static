@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#r622db06-4f0b-4c00-a846-4d10842e4354",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Carl Nordberger, 23.3.1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Carl Nordberger",
- "ref":
- "https://d-nb.info/gnd/134717848"}],
- "bibl":
- "Bernd Kürschner: Arthur Schnitzler und die schwedische Kinderhilfsorganisation Rädda Barnen. In: Text &amp; Kontext. Jahrbuch für germanistische Literaturforschung in Skandinavien, Jg. 36, 2014, 151–172."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -126,4 +91,43 @@
  "pmb45258"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#r622db06-4f0b-4c00-a846-4d10842e4354",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Carl Nordberger, 23.3.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl Nordberger",
+ "ref":
+ "https://d-nb.info/gnd/134717848"}],
+ "bibl":
+ ", "source":
+ "Bernd Kürschner: Arthur Schnitzler und die schwedische Kinderhilfsorganisation Rädda Barnen. In: Text &amp; Kontext. Jahrbuch für germanistische Literaturforschung in Skandinavien, Jg. 36, 2014, 151–172."
+}
+}, ] 

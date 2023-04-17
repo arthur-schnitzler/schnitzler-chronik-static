@@ -1,101 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/168/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
- "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01370",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01370.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 5. 2. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Otto Brahm",
- "ref":
- "pmb10986"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "pmb2378"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "pmb12968"}],
- "listBibl":
-  [
- {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
- ,  {
- "title":
- "Der tapfere Cassian. Puppenspiel in einem Akt",
- "ref":
- "pmb30217"}
- ,  {
- "title":
- "Die neue Rundschau",
- "ref":
- "pmb36156"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Marbach am Bodensee",
- "ref":
- "pmb218"}
- ,  {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ,  {
- "placeName":
- "Opatija",
- "ref":
- "pmb38096"}
- ,  {
- "placeName":
- "Taormina",
- "ref":
- "pmb906"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -185,6 +89,89 @@
  "Alt-Moabit",
  "ref":
  "pmb52918"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01370",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01370.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 5. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Der tapfere Cassian. Puppenspiel in einem Akt",
+ "ref":
+ "pmb30217"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marbach am Bodensee",
+ "ref":
+ "pmb218"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Opatija",
+ "ref":
+ "pmb38096"}
+ ,  {
+ "placeName":
+ "Taormina",
+ "ref":
+ "pmb906"}
  ]
 }
 }, {
@@ -305,4 +292,20 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, ] 

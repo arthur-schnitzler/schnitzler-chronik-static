@@ -1,17 +1,87 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1911-10-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. Oktober 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Baumgartner",
+ "ref":
+ "person_13497"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Theodor Christomannos",
+ "ref":
+ "person_14211"},
+ {
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "person_15150"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Josef Moser",
+ "ref":
+ "person_18266"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Julius Strebinger",
+ "ref":
+ "person_20514"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Latemar Spitze",
+ "ref":
+ "pmb91121"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -119,6 +189,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
@@ -137,89 +223,7 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
+ ", "source":
  "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1911-10-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-12.html",
- "head":
- "Tagebuch, 12. Oktober 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Karl Baumgartner",
- "ref":
- "person_13497"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Theodor Christomannos",
- "ref":
- "person_14211"},
- {
- "persName":
- "Franz Joseph I. von Österreich-Ungarn",
- "ref":
- "person_15150"},
- {
- "persName":
- "Ernst Hartmann",
- "ref":
- "person_15944"},
- {
- "persName":
- "Josef Moser",
- "ref":
- "person_18266"},
- {
- "persName":
- "Paula Schmidl",
- "ref":
- "person_19756"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"},
- {
- "persName":
- "Julius Strebinger",
- "ref":
- "person_20514"}],
- "listBibl":
-  [
- {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Latemar Spitze",
- "ref":
- "pmb91121"}
- ]
-}
-}] 
+}, ] 

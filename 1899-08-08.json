@@ -1,69 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90446/",
+ "entry__1899-08-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90446/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-08.html",
  "head":
- "Caprile"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90084/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90084/",
- "head":
- "Fedaia"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90208/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90208/",
- "head":
- "Alba-Penia"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90436/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90436/",
- "head":
- "Campitello di Fassa"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/40362/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40362/",
- "head":
- "Vigo di Fassa"
-}, {
+ "Tagebuch, 8. August 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Caprile",
+ "ref":
+ "pmb90446"}
+ ,  {
+ "placeName":
+ "Fedaia",
+ "ref":
+ "pmb90084"}
+ ,  {
+ "placeName":
+ "Alba-Penia",
+ "ref":
+ "pmb90208"}
+ ,  {
+ "placeName":
+ "Campitello di Fassa",
+ "ref":
+ "pmb90436"}
+ ,  {
+ "placeName":
+ "Vigo di Fassa",
+ "ref":
+ "pmb40362"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -125,45 +103,82 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-08-08",
+ "entity/90446/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-08.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/90446/",
  "head":
- "Tagebuch, 8. August 1899",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Caprile",
- "ref":
- "pmb90446"}
- ,  {
- "placeName":
- "Fedaia",
- "ref":
- "pmb90084"}
- ,  {
- "placeName":
- "Alba-Penia",
- "ref":
- "pmb90208"}
- ,  {
- "placeName":
- "Campitello di Fassa",
- "ref":
- "pmb90436"}
- ,  {
- "placeName":
- "Vigo di Fassa",
- "ref":
- "pmb40362"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90084/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90084/",
+ "head":
+ "Fedaia",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90208/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90208/",
+ "head":
+ "Alba-Penia",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90436/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90436/",
+ "head":
+ "Campitello di Fassa",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40362/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40362/",
+ "head":
+ "Vigo di Fassa",
+ "desc":
+{
+}
+}, ] 

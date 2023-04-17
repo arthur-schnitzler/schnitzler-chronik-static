@@ -1,123 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02027",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02027.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 9. 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "pmb12701"},
- {
- "persName":
- "Christiane von Hofmannsthal",
- "ref":
- "pmb3220"},
- {
- "persName":
- "Raimund von Hofmannsthal",
- "ref":
- "pmb3241"},
- {
- "persName":
- "Franz von Hofmannsthal",
- "ref":
- "pmb3244"},
- {
- "persName":
- "Hugo August von Hofmannsthal",
- "ref":
- "pmb11737"}],
- "listBibl":
-  [
- {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bad Aussee",
- "ref":
- "pmb415"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Hamburg",
- "ref":
- "pmb506"}
- ,  {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ,  {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Otto Brahm, 11.9.1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -202,6 +84,89 @@
  "Deutsches Volkstheater",
  "ref":
  "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02027",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02027.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 9. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Christiane von Hofmannsthal",
+ "ref":
+ "pmb3220"},
+ {
+ "persName":
+ "Raimund von Hofmannsthal",
+ "ref":
+ "pmb3241"},
+ {
+ "persName":
+ "Franz von Hofmannsthal",
+ "ref":
+ "pmb3244"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
  ]
 }
 }, {
@@ -339,4 +304,43 @@
  "ref":
  "pmb12701"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 11.9.1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

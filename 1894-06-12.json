@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-06-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-06-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. Juni 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Kor.",
+ "ref":
+ "person_17041"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Rosmersholm",
+ "ref":
+ "pmb29955"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -114,47 +146,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-06-12",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-06-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 12. Juni 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Georg Brandes",
- "ref":
- "person_13920"},
- {
- "persName":
- "Auguste Chlum",
- "ref":
- "person_14199"},
- {
- "persName":
- "Kor.",
- "ref":
- "person_17041"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"}],
- "listBibl":
-  [
- {
- "title":
- "Rosmersholm",
- "ref":
- "pmb29955"}
- ]
 }
-}] 
+}, ] 

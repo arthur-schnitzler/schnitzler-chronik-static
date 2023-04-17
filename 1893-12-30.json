@@ -1,16 +1,45 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-12-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-12-30.html",
  "head":
- "Wien"
+ "Tagebuch, 30. Dezember 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Friedrich Schik",
+ "ref":
+ "person_19685"},
+ {
+ "persName":
+ "Friedrich Elbogen",
+ "ref":
+ "person_14713"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -55,48 +84,6 @@
  "ref":
  "pmb397"}
  ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-12-30",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-12-30.html",
- "head":
- "Tagebuch, 30. Dezember 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Friedrich Schik",
- "ref":
- "person_19685"},
- {
- "persName":
- "Friedrich Elbogen",
- "ref":
- "person_14713"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}]
 }
 }, {
  "type":
@@ -190,4 +177,20 @@
  "ref":
  "pmb12621"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

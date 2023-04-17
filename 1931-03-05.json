@@ -1,30 +1,77 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp891",
+ "entry__1931-03-05",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp891.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-05.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 27. Februar – 5. März 1931"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 5. März 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Bayer",
+ "ref":
+ "person_13498"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Hugo Glaser",
+ "ref":
+ "person_15458"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Friedrich Haas",
+ "ref":
+ "person_15812"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa",
+ "ref":
+ "pmb35988"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -177,75 +224,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1931-03-05",
+ "ckp891",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-05.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp891.html",
  "head":
- "Tagebuch, 5. März 1931",
+ "Tagebuch von Clara Katharina Pollaczek, 27. Februar – 5. März 1931",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Friedrich Bayer",
- "ref":
- "person_13498"},
- {
- "persName":
- "Suzanne Clauser",
- "ref":
- "person_14234"},
- {
- "persName":
- "Hugo Glaser",
- "ref":
- "person_15458"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Friedrich Haas",
- "ref":
- "person_15812"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "person_18881"}],
- "listBibl":
-  [
- {
- "title":
- "Flucht in die Finsternis",
- "ref":
- "pmb30863"}
- ,  {
- "title":
- "Die Schwestern oder Casanova in Spa",
- "ref":
- "pmb35988"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "New York City",
- "ref":
- "pmb44053"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

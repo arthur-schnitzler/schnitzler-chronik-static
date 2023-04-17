@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1895-09-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-09-26.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 26. September 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "person_19143"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Silvio",
+ "ref":
+ "person_20110"},
+ {
+ "persName":
+ "Max Weinberg",
+ "ref":
+ "person_21163"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gardone Riviera",
+ "ref":
+ "pmb90693"}
+ ,  {
+ "placeName":
+ "Ronacher",
+ "ref":
+ "pmb92490"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -141,70 +196,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-09-26",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-09-26.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 26. September 1895",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Else Singer",
- "ref":
- "person_19143"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Silvio",
- "ref":
- "person_20110"},
- {
- "persName":
- "Max Weinberg",
- "ref":
- "person_21163"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Gardone Riviera",
- "ref":
- "pmb90693"}
- ,  {
- "placeName":
- "Ronacher",
- "ref":
- "pmb92490"}
- ]
 }
-}] 
+}, ] 

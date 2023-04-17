@@ -1,16 +1,68 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1902-05-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-05-15.html",
  "head":
- "Wien"
+ "Tagebuch, 15. Mai 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albertine von Gutmann-Gelse",
+ "ref":
+ "person_15774"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "person_19143"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"},
+ {
+ "persName":
+ "Stefan Vacano",
+ "ref":
+ "person_20898"},
+ {
+ "persName":
+ "Hermine Barsi",
+ "ref":
+ "person_13439"},
+ {
+ "persName":
+ "Ernst Sachsel",
+ "ref":
+ "person_19509"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -77,93 +129,6 @@
  "Burgtheater",
  "ref":
  "pmb14"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 15.5.1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-05-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-05-15.html",
- "head":
- "Tagebuch, 15. Mai 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Albertine von Gutmann-Gelse",
- "ref":
- "person_15774"},
- {
- "persName":
- "Else Singer",
- "ref":
- "person_19143"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Max Schwarzkopf",
- "ref":
- "person_19987"},
- {
- "persName":
- "Stefan Vacano",
- "ref":
- "person_20898"},
- {
- "persName":
- "Hermine Barsi",
- "ref":
- "person_13439"},
- {
- "persName":
- "Ernst Sachsel",
- "ref":
- "person_19509"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
  ]
 }
 }, {
@@ -297,4 +262,43 @@
  "pmb14"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 15.5.1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

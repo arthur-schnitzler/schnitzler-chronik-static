@@ -1,17 +1,74 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-06-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-06-25.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 25. Juni 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Baumfeld",
+ "ref":
+ "person_13490"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Georg Friedrich Händel",
+ "ref":
+ "person_15835"},
+ {
+ "persName":
+ "Sigmund Lautenburg",
+ "ref":
+ "person_17364"},
+ {
+ "persName":
+ "Emil Lind",
+ "ref":
+ "person_17556"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Friedrich Geiringer",
+ "ref":
+ "person_15369"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -121,6 +178,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
@@ -139,76 +212,7 @@
  "ref":
  "https://d-nb.info/gnd/118505033"}],
  "bibl":
+ ", "source":
  "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-06-25",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-06-25.html",
- "head":
- "Tagebuch, 25. Juni 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Moriz Baumfeld",
- "ref":
- "person_13490"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Georg Friedrich Händel",
- "ref":
- "person_15835"},
- {
- "persName":
- "Sigmund Lautenburg",
- "ref":
- "person_17364"},
- {
- "persName":
- "Emil Lind",
- "ref":
- "person_17556"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"},
- {
- "persName":
- "Friedrich Geiringer",
- "ref":
- "person_15369"}],
- "listBibl":
-  [
- {
- "title":
- "Der grüne Kakadu. Groteske in einem Akt",
- "ref":
- "pmb29843"}
- ]
-}
-}] 
+}, ] 

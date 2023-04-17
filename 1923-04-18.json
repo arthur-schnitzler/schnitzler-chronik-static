@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/39615/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/39615/",
- "head":
- "Bratislava"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -21,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_T1_0185",
  "head":
- "Fräulein Else, msl. Werkniederschrift"
+ "Fräulein Else, msl. Werkniederschrift",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -67,4 +57,20 @@
  "pmb32019"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/39615/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/39615/",
+ "head":
+ "Bratislava",
+ "desc":
+{
+}
+}, ] 

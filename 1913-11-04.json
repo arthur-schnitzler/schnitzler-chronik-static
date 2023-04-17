@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1913-11-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-11-04.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 4. November 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Mattia Battistini",
+ "ref":
+ "person_13462"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Don Giovanni",
+ "ref":
+ "pmb30613"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -63,6 +90,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#u76a6932-a288-44db-a5d5-8eba12ba4b14",
@@ -81,46 +124,7 @@
  "ref":
  "https://d-nb.info/gnd/11870155X"}],
  "bibl":
+ ", "source":
  "Briefe an Ernst Hardt. Eine Auswahl aus den Jahren 1898–1947. In Verbindung mit Tilla Goetz-Hardt hrsg. von Jochen Meyer. Marbach am Neckar: Deutsches Literaturarchiv 1975 (Marbacher Schriften, 10)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1913-11-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-11-04.html",
- "head":
- "Tagebuch, 4. November 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Mattia Battistini",
- "ref":
- "person_13462"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Flucht in die Finsternis",
- "ref":
- "pmb30863"}
- ,  {
- "title":
- "Don Giovanni",
- "ref":
- "pmb30613"}
- ]
-}
-}] 
+}, ] 

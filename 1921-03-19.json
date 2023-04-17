@@ -1,83 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02364",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02364.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, [19. 3. 1921]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "pmb22728"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Stallburggasse",
- "ref":
- "pmb34024"}
- ,  {
- "placeName":
- "Rodaun",
- "ref":
- "pmb173"}
- ,  {
- "placeName":
- "Gürtel",
- "ref":
- "pmb40772"}
- ,  {
- "placeName":
- "Mauer",
- "ref":
- "pmb7728"}
- ,  {
- "placeName":
- "Maurer Berg",
- "ref":
- "pmb40776"}
- ,  {
- "placeName":
- "Hofmannsthal-Schlössl",
- "ref":
- "pmb40297"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -181,4 +103,85 @@
  "pmb92338"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02364",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02364.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [19. 3. 1921]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Stallburggasse",
+ "ref":
+ "pmb34024"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Gürtel",
+ "ref":
+ "pmb40772"}
+ ,  {
+ "placeName":
+ "Mauer",
+ "ref":
+ "pmb7728"}
+ ,  {
+ "placeName":
+ "Maurer Berg",
+ "ref":
+ "pmb40776"}
+ ,  {
+ "placeName":
+ "Hofmannsthal-Schlössl",
+ "ref":
+ "pmb40297"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

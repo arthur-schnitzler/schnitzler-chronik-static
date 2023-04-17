@@ -1,107 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01731",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01731.html",
- "head":
- "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 11. [1907]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Hugo August von Hofmannsthal",
- "ref":
- "pmb11737"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "pmb12740"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Samuel Fischer an Arthur Schnitzler, 15.11.1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Samuel Fischer",
- "ref":
- "https://d-nb.info/gnd/118691406"}],
- "bibl":
- "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 13. 11. 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Zinaida Vengerova",
- "ref":
- ""}],
- "bibl":
- "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -150,4 +48,111 @@
  "pmb29923"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01731",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01731.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 11. [1907]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Samuel Fischer an Arthur Schnitzler, 15.11.1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "https://d-nb.info/gnd/118691406"}],
+ "bibl":
+ ", "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 13. 11. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Zinaida Vengerova",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}
+}, ] 

@@ -1,56 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90725/",
+ "entry__1898-08-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90725/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-21.html",
  "head":
- "Gletsch"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90677/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90677/",
- "head":
- "Furka Pass"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90745/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90745/",
- "head":
- "Göschenen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/967/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/967/",
- "head":
- "Luzern"
-}, {
+ "Tagebuch, 21. August 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Gletsch",
+ "ref":
+ "pmb90725"}
+ ,  {
+ "placeName":
+ "Furka Pass",
+ "ref":
+ "pmb90677"}
+ ,  {
+ "placeName":
+ "Göschenen",
+ "ref":
+ "pmb90745"}
+ ,  {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -107,6 +93,70 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90725/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90725/",
+ "head":
+ "Gletsch",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90677/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90677/",
+ "head":
+ "Furka Pass",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90745/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90745/",
+ "head":
+ "Göschenen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/967/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "head":
+ "Luzern",
+ "desc":
+{
+}
+}, {
+ "type":
  "",
  "color":
  "",
@@ -117,42 +167,4 @@
                      Goldmann, zwischen 21. und 27. 8. 1898",
  "text":
  "L02861"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-08-21",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-21.html",
- "head":
- "Tagebuch, 21. August 1898",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Gletsch",
- "ref":
- "pmb90725"}
- ,  {
- "placeName":
- "Furka Pass",
- "ref":
- "pmb90677"}
- ,  {
- "placeName":
- "Göschenen",
- "ref":
- "pmb90745"}
- ,  {
- "placeName":
- "Luzern",
- "ref":
- "pmb967"}
- ]
-}
-}] 
+}, ] 

@@ -1,16 +1,65 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1913-10-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-12.html",
  "head":
- "Wien"
+ "Tagebuch, 12. Oktober 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Franz Neumann",
+ "ref":
+ "person_18416"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -94,68 +143,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1913-10-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-12.html",
- "head":
- "Tagebuch, 12. Oktober 1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugenie Bachrach",
- "ref":
- "person_13355"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Franz Neumann",
- "ref":
- "person_18416"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Paula Schmidl",
- "ref":
- "person_19756"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Irene Mandl",
- "ref":
- "person_17822"},
- {
- "persName":
- "Gustav Mahler",
- "ref":
- "person_17786"},
- {
- "persName":
- "Victor Zuckerkandl",
- "ref":
- "person_21602"}]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -217,4 +204,20 @@
  "pmb160"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

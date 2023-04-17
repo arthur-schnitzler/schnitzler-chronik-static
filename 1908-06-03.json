@@ -1,88 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01773",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01773.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 3. [6.] 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Die Rahl. Roman",
- "ref":
- "pmb30619"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Stefan Zweig an Arthur Schnitzler, 3.6.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Zweig",
- "ref":
- "https://d-nb.info/gnd/118637479"}],
- "bibl":
- "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -146,6 +63,54 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01773",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01773.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 3. [6.] 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Die Rahl. Roman",
+ "ref":
+ "pmb30619"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -192,4 +157,43 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 3.6.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "https://d-nb.info/gnd/118637479"}],
+ "bibl":
+ ", "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}
+}, ] 

@@ -1,73 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01829",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01829.html",
- "head":
- "Arthur Schnitzler an Adalbert Seligmann, 12. 2. 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Adalbert Franz Seligmann",
- "ref":
- "pmb12769"},
- {
- "persName":
- "Paul Brann",
- "ref":
- "pmb10998"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Schwarzspanierstraße",
- "ref":
- "pmb50603"}
- ,  {
- "placeName":
- "Gedonstraße",
- "ref":
- "pmb50607"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -174,4 +106,75 @@
  "pmb44129"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01829",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01829.html",
+ "head":
+ "Arthur Schnitzler an Adalbert Seligmann, 12. 2. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adalbert Franz Seligmann",
+ "ref":
+ "pmb12769"},
+ {
+ "persName":
+ "Paul Brann",
+ "ref":
+ "pmb10998"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Schwarzspanierstraße",
+ "ref":
+ "pmb50603"}
+ ,  {
+ "placeName":
+ "Gedonstraße",
+ "ref":
+ "pmb50607"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,16 +1,26 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/959/",
+ "entry__1906-07-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-04.html",
  "head":
- "Marienlyst"
+ "Tagebuch, 4. Juli 1906",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -91,29 +101,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-07-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-04.html",
- "head":
- "Tagebuch, 4. Juli 1906",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Komtesse Mizzi oder Der Familientag",
- "ref":
- "pmb29931"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -185,4 +172,20 @@
  "pmb305"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/959/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "head":
+ "Marienlyst",
+ "desc":
+{
+}
+}, ] 

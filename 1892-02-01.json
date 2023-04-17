@@ -1,16 +1,51 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-02-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-02-01.html",
  "head":
- "Wien"
+ "Tagebuch, 1. Februar 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clothilde Benedikt",
+ "ref":
+ "person_13587"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Arthur Schopenhauer",
+ "ref":
+ "person_19866"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Über die Weiber",
+ "ref":
+ "pmb76961"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -176,54 +211,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-02-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-02-01.html",
- "head":
- "Tagebuch, 1. Februar 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Clothilde Benedikt",
- "ref":
- "person_13587"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Arthur Schopenhauer",
- "ref":
- "person_19866"}],
- "listBibl":
-  [
- {
- "title":
- "Über die Weiber",
- "ref":
- "pmb76961"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Deutsches Volkstheater",
- "ref":
- "pmb92202"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -315,4 +302,20 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

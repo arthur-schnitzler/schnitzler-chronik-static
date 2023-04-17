@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-01-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-01-07.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 7. Januar 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "person_14056"},
+ {
+ "persName":
+ "Emilie Sigmund",
+ "ref":
+ "person_20096"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -107,50 +142,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1903-01-07",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-01-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 7. Januar 1903",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Emerich von Bukovics",
- "ref":
- "person_14056"},
- {
- "persName":
- "Emilie Sigmund",
- "ref":
- "person_20096"},
- {
- "persName":
- "Adolf Weisse",
- "ref":
- "person_21211"}],
- "listBibl":
-  [
- {
- "title":
- "Lebendige Stunden. Vier Einakter",
- "ref":
- "pmb29863"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Deutsches Volkstheater",
- "ref":
- "pmb92202"}
- ]
 }
-}] 
+}, ] 

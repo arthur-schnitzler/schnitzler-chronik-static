@@ -1,106 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02360",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02360.html",
- "head":
- "Arthur Schnitzler an Hermann Bahr, 7. 2. 1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Josef Popper-Lynkeus",
- "ref":
- "pmb2135"},
- {
- "persName":
- "Richard Kola",
- "ref":
- "pmb11962"}],
- "listBibl":
-  [
- {
- "title":
- "Krieg, Wehrpflicht und Staatsverfassung",
- "ref":
- "pmb32660"}
- ,  {
- "title":
- "Tagebuch [Kolumne im Neuen Wiener Journal]",
- "ref":
- "pmb30047"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Rikola",
- "ref":
- "pmb29758"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Felix Hollaender an Arthur Schnitzler, 7.2.1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Hollaender",
- "ref":
- "https://d-nb.info/gnd/116961805"}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -169,6 +68,72 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02360",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02360.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 7. 2. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "pmb2135"},
+ {
+ "persName":
+ "Richard Kola",
+ "ref":
+ "pmb11962"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Krieg, Wehrpflicht und Staatsverfassung",
+ "ref":
+ "pmb32660"}
+ ,  {
+ "title":
+ "Tagebuch [Kolumne im Neuen Wiener Journal]",
+ "ref":
+ "pmb30047"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Rikola",
+ "ref":
+ "pmb29758"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -215,4 +180,43 @@
  "pmb29758"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Felix Hollaender an Arthur Schnitzler, 7.2.1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "https://d-nb.info/gnd/116961805"}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, ] 

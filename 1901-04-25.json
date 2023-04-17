@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1901-04-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-04-25.html",
  "head":
- "Wien"
+ "Tagebuch, 25. April 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -240,41 +262,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-04-25",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-04-25.html",
- "head":
- "Tagebuch, 25. April 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Georg Brandes",
- "ref":
- "person_13920"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Frau Bertha Garlan. Roman",
- "ref":
- "pmb30486"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -371,4 +358,20 @@
  "ref":
  "pmb27698"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

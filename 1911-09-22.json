@@ -1,73 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02030",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02030.html",
- "head":
- "Arthur Schnitzler, Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Robert Adam",
- "ref":
- "pmb12438"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "pmb12701"}],
- "listPlace":
-  [
- {
- "placeName":
- "I., Innere Stadt",
- "ref":
- "pmb51"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "XII., Meidling",
- "ref":
- "pmb62"}
- ,  {
- "placeName":
- "Meidlinger Hauptstraße",
- "ref":
- "pmb1239"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -147,6 +79,61 @@
  "München",
  "ref":
  "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02030",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02030.html",
+ "head":
+ "Arthur Schnitzler, Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
  ]
 }
 }, {
@@ -245,4 +232,20 @@
  "pmb29590"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

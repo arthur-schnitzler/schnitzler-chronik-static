@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/667/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/667/",
- "head":
- "Garmisch-Partenkirchen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/45258/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
- "head":
- "München"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#g14221ae-8633-4ad0-944c-44805d2c1459",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Alfred Kerr an Arthur Schnitzler, 26.8.1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alfred Kerr",
- "ref":
- "https://d-nb.info/gnd/11856157X"}],
- "bibl":
- "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -99,4 +51,59 @@
  "pmb45258"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/667/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "head":
+ "Garmisch-Partenkirchen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g14221ae-8633-4ad0-944c-44805d2c1459",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Alfred Kerr an Arthur Schnitzler, 26.8.1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "https://d-nb.info/gnd/11856157X"}],
+ "bibl":
+ ", "source":
+ "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
+}
+}, ] 

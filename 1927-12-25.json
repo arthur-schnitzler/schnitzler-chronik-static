@@ -1,31 +1,67 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp515",
+ "entry__1927-12-25",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp515.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-12-25.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 22. Dezember 1927 – 8. Januar
-                  1928"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 25. Dezember 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Horn",
+ "ref":
+ "person_16362"},
+ {
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb90550"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -186,65 +222,35 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1927-12-25",
+ "ckp515",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-12-25.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp515.html",
  "head":
- "Tagebuch, 25. Dezember 1927",
+ "Tagebuch von Clara Katharina Pollaczek, 22. Dezember 1927 – 8. Januar
+                  1928",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Charlotte Horn",
- "ref":
- "person_16362"},
- {
- "persName":
- "Lucy von Jacobi",
- "ref":
- "person_16469"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Das Wort. Tragikomödie in fünf Akten",
- "ref":
- "pmb30615"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Dresden",
- "ref":
- "pmb90550"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

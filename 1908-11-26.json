@@ -1,16 +1,96 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-11-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-26.html",
  "head":
- "Wien"
+ "Tagebuch, 26. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Benjamin Gomperz",
+ "ref":
+ "person_15562"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Oskar Nedbal",
+ "ref":
+ "person_18374"},
+ {
+ "persName":
+ "Moritz Rosenthal",
+ "ref":
+ "person_19394"},
+ {
+ "persName":
+ "Camille Saint-Saëns",
+ "ref":
+ "person_19523"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 2 g-Moll op. 22",
+ "ref":
+ "pmb78417"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzkammergut",
+ "ref":
+ "pmb429"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -129,99 +209,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-11-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-26.html",
- "head":
- "Tagebuch, 26. November 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Benjamin Gomperz",
- "ref":
- "person_15562"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Thomas Mann",
- "ref":
- "person_17838"},
- {
- "persName":
- "Oskar Nedbal",
- "ref":
- "person_18374"},
- {
- "persName":
- "Moritz Rosenthal",
- "ref":
- "person_19394"},
- {
- "persName":
- "Camille Saint-Saëns",
- "ref":
- "person_19523"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Klavierkonzert Nr. 2 g-Moll op. 22",
- "ref":
- "pmb78417"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Salzkammergut",
- "ref":
- "pmb429"}
- ,  {
- "placeName":
- "Meissl &amp; Schadn",
- "ref":
- "pmb96"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -321,4 +308,20 @@
  "pmb29212"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

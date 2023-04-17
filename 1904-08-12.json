@@ -1,16 +1,66 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-08-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-12.html",
  "head":
- "Wien"
+ "Tagebuch, 12. August 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnold Burger",
+ "ref":
+ "person_14072"},
+ {
+ "persName":
+ "Julius Epstein",
+ "ref":
+ "person_14776"},
+ {
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Paul Salten",
+ "ref":
+ "person_19544"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -134,69 +184,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-08-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-12.html",
- "head":
- "Tagebuch, 12. August 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Arnold Burger",
- "ref":
- "person_14072"},
- {
- "persName":
- "Julius Epstein",
- "ref":
- "person_14776"},
- {
- "persName":
- "Jacob Pollak",
- "ref":
- "person_18884"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Paul Salten",
- "ref":
- "person_19544"},
- {
- "persName":
- "Caroline Burger",
- "ref":
- "person_14073"}],
- "listBibl":
-  [
- {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -250,4 +237,20 @@
  "pmb177"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

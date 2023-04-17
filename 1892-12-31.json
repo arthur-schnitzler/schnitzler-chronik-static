@@ -1,30 +1,36 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-12-31",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-12-31.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
-}, {
+ "Tagebuch, 31. Dezember 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else Berger",
+ "ref":
+ "person_13626"},
+ {
+ "persName":
+ "Leopold Rosenberg",
+ "ref":
+ "person_19372"},
+ {
+ "persName":
+ "Ida Rosenberg",
+ "ref":
+ "person_19370"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -207,6 +213,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -225,38 +263,7 @@
  "ref":
  "https://d-nb.info/gnd/128385022"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-12-31",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-12-31.html",
- "head":
- "Tagebuch, 31. Dezember 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Else Berger",
- "ref":
- "person_13626"},
- {
- "persName":
- "Leopold Rosenberg",
- "ref":
- "person_19372"},
- {
- "persName":
- "Ida Rosenberg",
- "ref":
- "person_19370"}]
-}
-}] 
+}, ] 

@@ -1,56 +1,62 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp780",
+ "entry__1930-06-15",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp780.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-06-15.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 30. Mai – 19. Juni 1930"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/113/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/113/",
- "head":
- "Türkenschanzpark"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91530/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91530/",
- "head":
- "Prater"
-}, {
+ "Tagebuch, 15. Juni 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Michael A. Tschechow",
+ "ref":
+ "person_20824"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Phantome des Glücks",
+ "ref":
+ "pmb81284"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -108,60 +114,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1930-06-15",
+ "ckp780",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-06-15.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp780.html",
  "head":
- "Tagebuch, 15. Juni 1930",
+ "Tagebuch von Clara Katharina Pollaczek, 30. Mai – 19. Juni 1930",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Michael A. Tschechow",
- "ref":
- "person_20824"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Phantome des Glücks",
- "ref":
- "pmb81284"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Franzensbad",
- "ref":
- "pmb390"}
- ,  {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ,  {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/113/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/113/",
+ "head":
+ "Türkenschanzpark",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91530/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91530/",
+ "head":
+ "Prater",
+ "desc":
+{
+}
+}, ] 

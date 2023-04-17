@@ -1,75 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/445/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/445/",
- "head":
- "Rom"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/263/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/263/",
- "head":
- "Florenz"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Theodor Herzl an Arthur Schnitzler, 11.4.1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Herzl",
- "ref":
- "https://d-nb.info/gnd/118550241"}],
- "bibl":
- "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Olga Schnitzler, 11. 4. 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -108,4 +38,82 @@
  "pmb263"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/445/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/445/",
+ "head":
+ "Rom",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/263/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/263/",
+ "head":
+ "Florenz",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 11.4.1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "https://d-nb.info/gnd/118550241"}],
+ "bibl":
+ ", "source":
+ "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 11. 4. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

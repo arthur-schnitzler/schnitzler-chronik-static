@@ -1,68 +1,46 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/867/",
+ "entry__1902-07-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-03.html",
  "head":
- "Innsbruck"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/759/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/759/",
- "head":
- "Schönberg im Stubaital"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90093/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90093/",
- "head":
- "Maria Waldrast"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/591/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/591/",
- "head":
- "Matrei am Brenner"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/608/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/608/",
- "head":
- "Brenner"
+ "Tagebuch, 3. Juli 1902",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Patsch",
+ "ref":
+ "pmb91441"}
+ ,  {
+ "placeName":
+ "Schönberg im Stubaital",
+ "ref":
+ "pmb759"}
+ ,  {
+ "placeName":
+ "Mieders",
+ "ref":
+ "pmb91243"}
+ ,  {
+ "placeName":
+ "Matrei am Brenner",
+ "ref":
+ "pmb591"}
+ ,  {
+ "placeName":
+ "Brenner",
+ "ref":
+ "pmb608"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -186,76 +164,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#l25eefe1-afeb-4a14-b13f-25d15ae20e34",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Hugo von Hofmannsthal, Arthur Schnitzler an Hermann Bahr, 3. Juli 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "https://d-nb.info/gnd/118552759"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "https://d-nb.info/gnd/118505955"}],
- "bibl":
- "Hugo und Gerty von Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934. Hg. und kommentiert von Elsbeth Dangel-Pelloquin. Göttingen: Wallstein 2013."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-07-03",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-03.html",
- "head":
- "Tagebuch, 3. Juli 1902",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Patsch",
- "ref":
- "pmb91441"}
- ,  {
- "placeName":
- "Schönberg im Stubaital",
- "ref":
- "pmb759"}
- ,  {
- "placeName":
- "Mieders",
- "ref":
- "pmb91243"}
- ,  {
- "placeName":
- "Matrei am Brenner",
- "ref":
- "pmb591"}
- ,  {
- "placeName":
- "Brenner",
- "ref":
- "pmb608"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -312,4 +220,112 @@
  "pmb220"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/759/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/759/",
+ "head":
+ "Schönberg im Stubaital",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90093/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90093/",
+ "head":
+ "Maria Waldrast",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/591/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/591/",
+ "head":
+ "Matrei am Brenner",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/608/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/608/",
+ "head":
+ "Brenner",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#l25eefe1-afeb-4a14-b13f-25d15ae20e34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hugo von Hofmannsthal, Arthur Schnitzler an Hermann Bahr, 3. Juli 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "https://d-nb.info/gnd/118552759"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "https://d-nb.info/gnd/118505955"}],
+ "bibl":
+ ", "source":
+ "Hugo und Gerty von Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934. Hg. und kommentiert von Elsbeth Dangel-Pelloquin. Göttingen: Wallstein 2013."
+}
+}, ] 

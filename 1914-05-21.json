@@ -1,30 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/47658/",
+ "entry__1914-05-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/47658/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-21.html",
  "head":
- "Southampton"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90252/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90252/",
- "head":
- "Antwerp"
-}, {
+ "Tagebuch, 21. Mai 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Emilie Sgal",
+ "ref":
+ "person_20075"},
+ {
+ "persName":
+ "Schulz",
+ "ref":
+ "person_19933"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Antwerp",
+ "ref":
+ "pmb90252"}
+ ,  {
+ "placeName":
+ "Diepenbeeckstr.",
+ "ref":
+ "pmb92204"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -112,47 +131,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1914-05-21",
+ "entity/47658/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-21.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/47658/",
  "head":
- "Tagebuch, 21. Mai 1914",
+ "Southampton",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paula Schmidl",
- "ref":
- "person_19756"},
- {
- "persName":
- "Emilie Sgal",
- "ref":
- "person_20075"},
- {
- "persName":
- "Schulz",
- "ref":
- "person_19933"}],
- "listPlace":
-  [
- {
- "placeName":
- "Antwerp",
- "ref":
- "pmb90252"}
- ,  {
- "placeName":
- "Diepenbeeckstr.",
- "ref":
- "pmb92204"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90252/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90252/",
+ "head":
+ "Antwerp",
+ "desc":
+{
+}
+}, ] 

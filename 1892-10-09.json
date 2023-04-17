@@ -1,16 +1,68 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-10-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-10-09.html",
  "head":
- "Wien"
+ "Tagebuch, 9. Oktober 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Ferdinand Bonn",
+ "ref":
+ "person_13867"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "person_17493"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Ludwig Gabillon",
+ "ref":
+ "person_15319"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "person_20779"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gestern",
+ "ref":
+ "pmb76487"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -174,93 +226,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Marie Glümer, 9. 10. 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "https://d-nb.info/gnd/128385022"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-10-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-10-09.html",
- "head":
- "Tagebuch, 9. Oktober 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Ferdinand Bonn",
- "ref":
- "person_13867"},
- {
- "persName":
- "Gerhart Hauptmann",
- "ref":
- "person_15980"},
- {
- "persName":
- "Josef Lewinsky",
- "ref":
- "person_17493"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Ludwig Gabillon",
- "ref":
- "person_15319"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Carl von Torresani-Lanzenfeld",
- "ref":
- "person_20779"}],
- "listBibl":
-  [
- {
- "title":
- "Gestern",
- "ref":
- "pmb76487"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -342,4 +307,43 @@
  "pmb151"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Glümer, 9. 10. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "https://d-nb.info/gnd/128385022"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

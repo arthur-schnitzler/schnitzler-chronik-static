@@ -1,16 +1,36 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-10-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-08.html",
  "head":
- "Wien"
+ "Tagebuch, 8. Oktober 1910",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komödianten-Zyklus",
+ "ref":
+ "pmb36097"}
+ ,  {
+ "title":
+ "Der Komödiant",
+ "ref":
+ "pmb30319"}
+ ,  {
+ "title":
+ "Komödiantin",
+ "ref":
+ "pmb36101"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -116,39 +136,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-10-08",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-08.html",
- "head":
- "Tagebuch, 8. Oktober 1910",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Komödianten-Zyklus",
- "ref":
- "pmb36097"}
- ,  {
- "title":
- "Der Komödiant",
- "ref":
- "pmb30319"}
- ,  {
- "title":
- "Komödiantin",
- "ref":
- "pmb36101"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -250,4 +237,20 @@
  "pmb40306"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/12589/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/12589/",
- "head":
- "Celerina"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#n0827e77-245d-4359-a0b0-5b601a5370ee",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Hedy Kempny an Arthur Schnitzler, 23.8.1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hedy Kempny",
- "ref":
- "https://d-nb.info/gnd/11872181X"}],
- "bibl":
- "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -91,4 +56,43 @@
  "pmb90527"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/12589/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/12589/",
+ "head":
+ "Celerina",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 23.8.1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "https://d-nb.info/gnd/11872181X"}],
+ "bibl":
+ ", "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}
+}, ] 

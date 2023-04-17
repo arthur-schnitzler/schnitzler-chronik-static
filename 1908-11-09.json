@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-11-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-09.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 9. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "person_16517"},
+ {
+ "persName":
+ "Hansi Niese",
+ "ref":
+ "person_18450"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -196,6 +238,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#u76a6932-a288-44db-a5d5-8eba12ba4b14",
@@ -214,61 +272,7 @@
  "ref":
  "https://d-nb.info/gnd/11870155X"}],
  "bibl":
+ ", "source":
  "Briefe an Ernst Hardt. Eine Auswahl aus den Jahren 1898–1947. In Verbindung mit Tilla Goetz-Hardt hrsg. von Jochen Meyer. Marbach am Neckar: Deutsches Literaturarchiv 1975 (Marbacher Schriften, 10)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-11-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-09.html",
- "head":
- "Tagebuch, 9. November 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Entsch",
- "ref":
- "person_14766"},
- {
- "persName":
- "Josef Jarno",
- "ref":
- "person_16517"},
- {
- "persName":
- "Hansi Niese",
- "ref":
- "person_18450"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listBibl":
-  [
- {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ,  {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Das Vermächtnis. Schauspiel in drei Akten",
- "ref":
- "pmb30219"}
- ]
-}
-}] 
+}, ] 

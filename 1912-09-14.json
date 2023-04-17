@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -38,28 +25,6 @@
  "Flucht in die Finsternis, Typoskript",
  "text":
  "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#n324ade7-bd7c-436e-a8ee-959a545bbe23",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Theodor Reik, 14.9.1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Reik",
- "ref":
- "https://d-nb.info/gnd/118599216"}],
- "bibl":
- "Bernd Urban: Vier unveröffentlichte Briefe Arthur Schnitzlers an den Psychoanalytiker Theodor Reik. In: Modern Austrian Literature, Jg. 8, 1975, H. 3/4, S.236-247."
-}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -95,4 +60,43 @@
  "pmb30781"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n324ade7-bd7c-436e-a8ee-959a545bbe23",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Theodor Reik, 14.9.1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Reik",
+ "ref":
+ "https://d-nb.info/gnd/118599216"}],
+ "bibl":
+ ", "source":
+ "Bernd Urban: Vier unveröffentlichte Briefe Arthur Schnitzlers an den Psychoanalytiker Theodor Reik. In: Modern Austrian Literature, Jg. 8, 1975, H. 3/4, S.236-247."
+}
+}, ] 

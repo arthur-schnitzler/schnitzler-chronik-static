@@ -1,29 +1,34 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/30/",
+ "entry__1901-06-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-22.html",
  "head":
- "Salzburg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/1181/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/1181/",
- "head":
- "Bad Reichenhall"
+ "Tagebuch, 22. Juni 1901",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Reichenhall",
+ "ref":
+ "pmb1181"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -52,59 +57,6 @@
  "Wien",
  "ref":
  "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Louise Schnitzler, 22. 6. 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Louise Schnitzler",
- "ref":
- "https://d-nb.info/gnd/1141930552"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-06-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-22.html",
- "head":
- "Tagebuch, 22. Juni 1901",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Lieutenant Gustl. Novelle",
- "ref":
- "pmb29853"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bad Reichenhall",
- "ref":
- "pmb1181"}
  ]
 }
 }, {
@@ -443,4 +395,59 @@
  "pmb29697"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1181/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1181/",
+ "head":
+ "Bad Reichenhall",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Louise Schnitzler, 22. 6. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/1141930552"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

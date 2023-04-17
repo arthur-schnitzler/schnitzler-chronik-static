@@ -1,29 +1,116 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-10-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-02.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
+ "Tagebuch, 2. Oktober 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "person_16730"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Ferdinand von Saar",
+ "ref":
+ "person_19493"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "person_20078"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"},
+ {
+ "persName":
+ "Christian Dietrich Grabbe",
+ "ref":
+ "person_15605"},
+ {
+ "persName":
+ "Friedrich Karminski",
+ "ref":
+ "person_16733"},
+ {
+ "persName":
+ "Adam Müller-Guttenbrunn",
+ "ref":
+ "person_18311"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Reichtum. Erzählung",
+ "ref":
+ "pmb30277"}
+ ,  {
+ "title":
+ "Der Sohn. Aus den Papieren eines Arztes",
+ "ref":
+ "pmb30257"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sacher",
+ "ref":
+ "pmb92506"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -158,141 +245,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Theodor Herzl, 2. 10. 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Herzl",
- "ref":
- "https://d-nb.info/gnd/118550241"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-10-02",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-02.html",
- "head":
- "Tagebuch, 2. Oktober 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Julius Bauer",
- "ref":
- "person_13471"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Carl Karlweis",
- "ref":
- "person_16730"},
- {
- "persName":
- "Rudolf Lothar",
- "ref":
- "person_17696"},
- {
- "persName":
- "Ferdinand von Saar",
- "ref":
- "person_19493"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "William Shakespeare",
- "ref":
- "person_20078"},
- {
- "persName":
- "Josefine Lydia von Weisswasser",
- "ref":
- "person_21214"},
- {
- "persName":
- "Christian Dietrich Grabbe",
- "ref":
- "person_15605"},
- {
- "persName":
- "Friedrich Karminski",
- "ref":
- "person_16733"},
- {
- "persName":
- "Adam Müller-Guttenbrunn",
- "ref":
- "person_18311"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ,  {
- "title":
- "Reichtum. Erzählung",
- "ref":
- "pmb30277"}
- ,  {
- "title":
- "Der Sohn. Aus den Papieren eines Arztes",
- "ref":
- "pmb30257"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Sacher",
- "ref":
- "pmb92506"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -417,4 +369,59 @@
  "pmb29424"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Theodor Herzl, 2. 10. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "https://d-nb.info/gnd/118550241"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

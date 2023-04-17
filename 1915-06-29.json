@@ -1,17 +1,84 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1915-06-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-06-29.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 29. Juni 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egon Böhmer",
+ "ref":
+ "person_13836"},
+ {
+ "persName":
+ "Karl Kobald",
+ "ref":
+ "person_16947"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Franz Herbert Stern-Tiring",
+ "ref":
+ "person_20411"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "In memoriam Gustave Flaubert",
+ "ref":
+ "pmb80503"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -179,6 +246,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
@@ -197,86 +280,7 @@
  "ref":
  "https://d-nb.info/gnd/118625527"}],
  "bibl":
+ ", "source":
  "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1915-06-29",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-06-29.html",
- "head":
- "Tagebuch, 29. Juni 1915",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Egon Böhmer",
- "ref":
- "person_13836"},
- {
- "persName":
- "Karl Kobald",
- "ref":
- "person_16947"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Karl Schnitzler",
- "ref":
- "person_19828"},
- {
- "persName":
- "Franz Herbert Stern-Tiring",
- "ref":
- "person_20411"}],
- "listBibl":
-  [
- {
- "title":
- "Aphoristisches",
- "ref":
- "pmb35745"}
- ,  {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "In memoriam Gustave Flaubert",
- "ref":
- "pmb80503"}
- ]
-}
-}] 
+}, ] 

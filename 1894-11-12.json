@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-11-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-11-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. November 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doppelselbstmord",
+ "ref":
+ "pmb42186"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Würnitz",
+ "ref":
+ "pmb92111"}
+ ,  {
+ "placeName":
+ "Neulengbach",
+ "ref":
+ "pmb55279"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -66,55 +106,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-11-12",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-11-12.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 12. November 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listBibl":
-  [
- {
- "title":
- "Doppelselbstmord",
- "ref":
- "pmb42186"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Würnitz",
- "ref":
- "pmb92111"}
- ,  {
- "placeName":
- "Neulengbach",
- "ref":
- "pmb55279"}
- ]
 }
-}] 
+}, ] 

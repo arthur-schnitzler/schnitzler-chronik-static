@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/12589/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/12589/",
- "head":
- "Celerina"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Gustaf Linden, 24.8.1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustaf Linden",
- "ref":
- "https://d-nb.info/gnd/117024562"}],
- "bibl":
- "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -68,4 +33,43 @@
  "pmb92193"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/12589/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/12589/",
+ "head":
+ "Celerina",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 24.8.1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustaf Linden",
+ "ref":
+ "https://d-nb.info/gnd/117024562"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}
+}, ] 

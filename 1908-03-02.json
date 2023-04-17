@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#u02092b4-47df-42e7-a68c-556d17f8d217",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Franz Nabl, 2.3.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franz Nabl",
- "ref":
- "https://d-nb.info/gnd/118586092"}],
- "bibl":
- "Reinhard Urbach: Arthur Schnitzler – Franz Nabl. Briefwechsel. In: Studium Generale, Jg. 24, 1971, S. 1256-1270."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -83,4 +48,43 @@
  "pmb29923"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u02092b4-47df-42e7-a68c-556d17f8d217",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Franz Nabl, 2.3.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Nabl",
+ "ref":
+ "https://d-nb.info/gnd/118586092"}],
+ "bibl":
+ ", "source":
+ "Reinhard Urbach: Arthur Schnitzler – Franz Nabl. Briefwechsel. In: Studium Generale, Jg. 24, 1971, S. 1256-1270."
+}
+}, ] 

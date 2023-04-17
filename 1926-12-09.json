@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#wfc5c16f-4da0-48c1-b8ab-b48bf2a6fece",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Anton Alfred Noder, 9.12.1926",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Anton Alfred Noder",
- "ref":
- "https://d-nb.info/gnd/118803204"}],
- "bibl":
- "Peter Michael Braunwarth: In Reife und Überreife. In: Die Presse, 25.9.2004, Spectrum, IV."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -78,4 +43,43 @@
  "pmb30817"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wfc5c16f-4da0-48c1-b8ab-b48bf2a6fece",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Anton Alfred Noder, 9.12.1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Alfred Noder",
+ "ref":
+ "https://d-nb.info/gnd/118803204"}],
+ "bibl":
+ ", "source":
+ "Peter Michael Braunwarth: In Reife und Überreife. In: Die Presse, 25.9.2004, Spectrum, IV."
+}
+}, ] 

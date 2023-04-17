@@ -1,16 +1,30 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1896-10-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-08.html",
  "head":
- "Wien"
+ "Tagebuch, 8. Oktober 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "person_14597"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -192,33 +206,6 @@
  "ref":
  "pmb397"}
  ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-10-08",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-08.html",
- "head":
- "Tagebuch, 8. Oktober 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Leo Ebermann",
- "ref":
- "person_14597"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}]
 }
 }, {
  "type":
@@ -437,4 +424,20 @@
  "pmb29329"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,43 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/30/",
+ "entry__1901-06-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-14.html",
  "head":
- "Salzburg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/797/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/797/",
- "head":
- "Berchtesgaden"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91054/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91054/",
- "head":
- "Königssee"
-}, {
+ "Tagebuch, 14. Juni 1901",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden",
+ "ref":
+ "pmb797"}
+ ,  {
+ "placeName":
+ "Königssee",
+ "ref":
+ "pmb91054"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -107,30 +96,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1901-06-14",
+ "entity/30/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-14.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
  "head":
- "Tagebuch, 14. Juni 1901",
+ "Salzburg",
  "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Berchtesgaden",
- "ref":
- "pmb797"}
- ,  {
- "placeName":
- "Königssee",
- "ref":
- "pmb91054"}
- ]
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/797/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/797/",
+ "head":
+ "Berchtesgaden",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91054/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91054/",
+ "head":
+ "Königssee",
+ "desc":
+{
+}
+}, ] 

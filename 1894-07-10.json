@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-07-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-07-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. Juli 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ostersetzer",
+ "ref":
+ "person_18597"},
+ {
+ "persName":
+ "Friedrich von Weichs-Glon",
+ "ref":
+ "person_21143"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Groß-Enzersdorf",
+ "ref":
+ "pmb90777"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -61,37 +83,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-07-10",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-07-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 10. Juli 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ostersetzer",
- "ref":
- "person_18597"},
- {
- "persName":
- "Friedrich von Weichs-Glon",
- "ref":
- "person_21143"}],
- "listPlace":
-  [
- {
- "placeName":
- "Groß-Enzersdorf",
- "ref":
- "pmb90777"}
- ]
 }
-}] 
+}, ] 

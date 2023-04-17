@@ -1,16 +1,71 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-01-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-18.html",
  "head":
- "Wien"
+ "Tagebuch, 18. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Brann",
+ "ref":
+ "person_13925"},
+ {
+ "persName":
+ "Artur Fleischer",
+ "ref":
+ "person_15032"},
+ {
+ "persName":
+ "Erna Fleischer",
+ "ref":
+ "person_15033"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der tapfere Soldat",
+ "ref":
+ "pmb77130"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "pmb41775"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -109,96 +164,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Julius Bab, 18. 1. 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Julius Bab",
- "ref":
- "https://d-nb.info/gnd/116019891"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1909-01-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-18.html",
- "head":
- "Tagebuch, 18. Januar 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Brann",
- "ref":
- "person_13925"},
- {
- "persName":
- "Artur Fleischer",
- "ref":
- "person_15032"},
- {
- "persName":
- "Erna Fleischer",
- "ref":
- "person_15033"},
- {
- "persName":
- "Grete Jacques",
- "ref":
- "person_16485"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"},
- {
- "persName":
- "Oscar Straus",
- "ref":
- "person_20490"}],
- "listBibl":
-  [
- {
- "title":
- "Der tapfere Soldat",
- "ref":
- "pmb77130"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "",
- "ref":
- "pmb41775"}
- ,  {
- "placeName":
- "Meissl &amp; Schadn",
- "ref":
- "pmb96"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -285,4 +250,43 @@
  "pmb866"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Julius Bab, 18. 1. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bab",
+ "ref":
+ "https://d-nb.info/gnd/116019891"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

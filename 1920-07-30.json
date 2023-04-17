@@ -1,94 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02352",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02352.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 30. 7. 1920",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "pmb22728"},
- {
- "persName":
- "Albert Heine",
- "ref":
- "pmb2743"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schwierige. Lustspiel in drei Akten",
- "ref":
- "pmb39855"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Salzburger Festspiele",
- "ref":
- "pmb29300"}
- ,  {
- "orgName":
- "Residenztheater München",
- "ref":
- "pmb48177"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Schlosstheater Schönbrunn",
- "ref":
- "pmb44649"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -180,4 +91,96 @@
  "pmb909"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02352",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02352.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 30. 7. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Albert Heine",
+ "ref":
+ "pmb2743"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schwierige. Lustspiel in drei Akten",
+ "ref":
+ "pmb39855"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Salzburger Festspiele",
+ "ref":
+ "pmb29300"}
+ ,  {
+ "orgName":
+ "Residenztheater München",
+ "ref":
+ "pmb48177"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Schlosstheater Schönbrunn",
+ "ref":
+ "pmb44649"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-12-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-12-27.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 27. Dezember 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Cohen",
+ "ref":
+ "person_14249"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Julius Leisching",
+ "ref":
+ "person_17417"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Aus dem Tagebuch eines alten Wieners",
+ "ref":
+ "pmb78957"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Japan",
+ "ref":
+ "pmb318"}
+ ,  {
+ "placeName":
+ "Hohe Warte",
+ "ref":
+ "pmb92292"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -113,60 +158,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1908-12-27",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-12-27.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 27. Dezember 1908",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Cohen",
- "ref":
- "person_14249"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Julius Leisching",
- "ref":
- "person_17417"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Aus dem Tagebuch eines alten Wieners",
- "ref":
- "pmb78957"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Japan",
- "ref":
- "pmb318"}
- ,  {
- "placeName":
- "Hohe Warte",
- "ref":
- "pmb92292"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-08-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-24.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 24. August 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Loewe",
+ "ref":
+ "person_17643"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -48,37 +70,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1903-08-24",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-24.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 24. August 1903",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Theodor Loewe",
- "ref":
- "person_17643"},
- {
- "persName":
- "Mirjam Horwitz",
- "ref":
- "person_21546"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ]
 }
-}] 
+}, ] 

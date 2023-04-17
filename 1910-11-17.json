@@ -1,16 +1,83 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-11-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-17.html",
  "head":
- "Wien"
+ "Tagebuch, 17. November 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bjørnstjerne Bjørnson",
+ "ref":
+ "person_13760"},
+ {
+ "persName":
+ "Friedrich von Bodenstedt",
+ "ref":
+ "person_13822"},
+ {
+ "persName":
+ "Josefine Glöckner",
+ "ref":
+ "person_15469"},
+ {
+ "persName":
+ "Jerome Klapka Jerome",
+ "ref":
+ "person_16543"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "person_17087"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Mary",
+ "ref":
+ "pmb30331"}
+ ,  {
+ "title":
+ "Erinnerungen aus meinem Leben",
+ "ref":
+ "pmb30329"}
+ ,  {
+ "title":
+ "Drei Mann in einem Boot",
+ "ref":
+ "pmb30325"}
+ ,  {
+ "title":
+ "Briefwechsel zwischen Pückler und Heinrich Laube",
+ "ref":
+ "pmb30327"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -177,108 +244,6 @@
  "Garmisch-Partenkirchen",
  "ref":
  "pmb667"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Erhalt von Isabella Vengerova an Arthur Schnitzler, 14. 11. [1910]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Isabella Vengerova",
- "ref":
- "https://d-nb.info/gnd/119401215"}],
- "bibl":
- "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-11-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-17.html",
- "head":
- "Tagebuch, 17. November 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Bjørnstjerne Bjørnson",
- "ref":
- "person_13760"},
- {
- "persName":
- "Friedrich von Bodenstedt",
- "ref":
- "person_13822"},
- {
- "persName":
- "Josefine Glöckner",
- "ref":
- "person_15469"},
- {
- "persName":
- "Jerome Klapka Jerome",
- "ref":
- "person_16543"},
- {
- "persName":
- "Leopold Kramer",
- "ref":
- "person_17087"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ,  {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Mary",
- "ref":
- "pmb30331"}
- ,  {
- "title":
- "Erinnerungen aus meinem Leben",
- "ref":
- "pmb30329"}
- ,  {
- "title":
- "Drei Mann in einem Boot",
- "ref":
- "pmb30325"}
- ,  {
- "title":
- "Briefwechsel zwischen Pückler und Heinrich Laube",
- "ref":
- "pmb30327"}
  ]
 }
 }, {
@@ -534,4 +499,43 @@
  "pmb30331"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Isabella Vengerova an Arthur Schnitzler, 14. 11. [1910]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "https://d-nb.info/gnd/119401215"}],
+ "bibl":
+ ", "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}
+}, ] 

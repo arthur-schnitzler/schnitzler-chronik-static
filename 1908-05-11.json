@@ -1,69 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45258/",
+ "entry__1908-05-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-11.html",
  "head":
- "München"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/52262/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/52262/",
- "head":
- "Starnberger See"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/667/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/667/",
- "head":
- "Garmisch-Partenkirchen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90294/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90294/",
- "head":
- "Badersee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90567/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90567/",
- "head":
- "Eibsee"
-}, {
+ "Tagebuch, 11. Mai 1908",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Starnberger See",
+ "ref":
+ "pmb52262"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ,  {
+ "placeName":
+ "Rissersee",
+ "ref":
+ "pmb92487"}
+ ,  {
+ "placeName":
+ "Badersee",
+ "ref":
+ "pmb90294"}
+ ,  {
+ "placeName":
+ "Eibsee",
+ "ref":
+ "pmb90567"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -140,50 +123,82 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1908-05-11",
+ "entity/45258/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-11.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
  "head":
- "Tagebuch, 11. Mai 1908",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Starnberger See",
- "ref":
- "pmb52262"}
- ,  {
- "placeName":
- "Garmisch-Partenkirchen",
- "ref":
- "pmb667"}
- ,  {
- "placeName":
- "Rissersee",
- "ref":
- "pmb92487"}
- ,  {
- "placeName":
- "Badersee",
- "ref":
- "pmb90294"}
- ,  {
- "placeName":
- "Eibsee",
- "ref":
- "pmb90567"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/52262/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/52262/",
+ "head":
+ "Starnberger See",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/667/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "head":
+ "Garmisch-Partenkirchen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90294/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90294/",
+ "head":
+ "Badersee",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90567/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90567/",
+ "head":
+ "Eibsee",
+ "desc":
+{
+}
+}, ] 

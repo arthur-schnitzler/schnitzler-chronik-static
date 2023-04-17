@@ -1,30 +1,74 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1896-01-31",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-31.html",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/41234/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41234/",
- "head":
- "Hotel Westminster"
-}, {
+ "Tagebuch, 31. Januar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Augusta Burchardt",
+ "ref":
+ "person_14064"},
+ {
+ "persName":
+ "Otto Eysler",
+ "ref":
+ "person_14835"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "person_19126"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "person_19288"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "person_20219"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "König Chilperich",
+ "ref":
+ "pmb41400"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -177,72 +221,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1896-01-31",
+ "entity/168/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-31.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Tagebuch, 31. Januar 1896",
+ "Berlin",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Augusta Burchardt",
- "ref":
- "person_14064"},
- {
- "persName":
- "Otto Eysler",
- "ref":
- "person_14835"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Emanuel Reicher",
- "ref":
- "person_19126"},
- {
- "persName":
- "Rudolf Rittner",
- "ref":
- "person_19288"},
- {
- "persName":
- "Agnes Sorma",
- "ref":
- "person_20219"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "König Chilperich",
- "ref":
- "pmb41400"}
- ,  {
- "title":
- "Der zerbrochene Krug",
- "ref":
- "pmb30675"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41234/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41234/",
+ "head":
+ "Hotel Westminster",
+ "desc":
+{
+}
+}, ] 

@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02442",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02442.html",
- "head":
- "Arthur Schnitzler an Thomas Mann, 7. 6. 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Thomas Mann",
- "ref":
- "pmb12176"},
- {
- "persName":
- "Hugo Thimig",
- "ref":
- "pmb12948"}],
- "listBibl":
-  [
- {
- "title":
- "Der Zauberberg. Roman",
- "ref":
- "pmb33247"}
- ,  {
- "title":
- "Festgrüße an Thomas Mann",
- "ref":
- "pmb33249"}
- ,  {
- "title":
- "Neue Freie Presse",
- "ref":
- "pmb36374"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -122,4 +56,73 @@
  "pmb243"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02442",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02442.html",
+ "head":
+ "Arthur Schnitzler an Thomas Mann, 7. 6. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Zauberberg. Roman",
+ "ref":
+ "pmb33247"}
+ ,  {
+ "title":
+ "Festgrüße an Thomas Mann",
+ "ref":
+ "pmb33249"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

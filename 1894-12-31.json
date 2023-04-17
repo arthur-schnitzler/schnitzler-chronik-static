@@ -1,16 +1,103 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-12-31",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-31.html",
  "head":
- "Wien"
+ "Tagebuch, 31. Dezember 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Friedrich Eckstein",
+ "ref":
+ "person_14612"},
+ {
+ "persName":
+ "Karl Federn",
+ "ref":
+ "person_14904"},
+ {
+ "persName":
+ "Nikolaus von Kiss-Ittebe",
+ "ref":
+ "person_16861"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Johann Gottfried Penias",
+ "ref":
+ "person_18705"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "person_19143"},
+ {
+ "persName":
+ "Emerich Robert",
+ "ref":
+ "person_19293"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Katharina Schratt",
+ "ref":
+ "person_19877"},
+ {
+ "persName":
+ "Robert Singer",
+ "ref":
+ "person_20139"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb90550"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -294,128 +381,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#i9ac725a-7aa1-4b66-9aaa-3fb96c91d495",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Theodor Herzl an Arthur Schnitzler, 31.12.1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Herzl",
- "ref":
- "https://d-nb.info/gnd/118550241"}],
- "bibl":
- "Theodor Herzl: Briefe und autobiographische Notizen. 1866–1895. Bearbeitet von Johannes Wachten in Zusammenarbeit mit Chaya Harel, Daisy Tycho, Manfred Winkler. Berlin: Propyläen 1983. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps. Erster Band)"
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-12-31",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-31.html",
- "head":
- "Tagebuch, 31. Dezember 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Peter Altenberg",
- "ref":
- "person_13162"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Friedrich Eckstein",
- "ref":
- "person_14612"},
- {
- "persName":
- "Karl Federn",
- "ref":
- "person_14904"},
- {
- "persName":
- "Nikolaus von Kiss-Ittebe",
- "ref":
- "person_16861"},
- {
- "persName":
- "Karl Kraus",
- "ref":
- "person_17108"},
- {
- "persName":
- "Johann Gottfried Penias",
- "ref":
- "person_18705"},
- {
- "persName":
- "Else Singer",
- "ref":
- "person_19143"},
- {
- "persName":
- "Emerich Robert",
- "ref":
- "person_19293"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Katharina Schratt",
- "ref":
- "person_19877"},
- {
- "persName":
- "Robert Singer",
- "ref":
- "person_20139"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listPlace":
-  [
- {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ,  {
- "placeName":
- "Dresden",
- "ref":
- "pmb90550"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -514,4 +479,43 @@
  "pmb866"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#i9ac725a-7aa1-4b66-9aaa-3fb96c91d495",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 31.12.1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "https://d-nb.info/gnd/118550241"}],
+ "bibl":
+ ", "source":
+ "Theodor Herzl: Briefe und autobiographische Notizen. 1866–1895. Bearbeitet von Johannes Wachten in Zusammenarbeit mit Chaya Harel, Daisy Tycho, Manfred Winkler. Berlin: Propyläen 1983. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps. Erster Band)"
+}
+}, ] 

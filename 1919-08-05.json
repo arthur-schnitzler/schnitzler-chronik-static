@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1919-08-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-08-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. August 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Robert Schumann",
+ "ref":
+ "person_19942"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 Es-Dur op. 97",
+ "ref":
+ "pmb31587"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -103,47 +135,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1919-08-05",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-08-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 5. August 1919",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Robert Schumann",
- "ref":
- "person_19942"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"}],
- "listBibl":
-  [
- {
- "title":
- "Der Vorige",
- "ref":
- "pmb30781"}
- ,  {
- "title":
- "Symphonie Nr. 3 Es-Dur op. 97",
- "ref":
- "pmb31587"}
- ]
 }
-}] 
+}, ] 

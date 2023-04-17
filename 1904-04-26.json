@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-04-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-04-26.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 26. April 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Geschichte eines Genies",
+ "ref":
+ "pmb35505"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,42 +115,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-04-26",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-04-26.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 26. April 1904",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"}],
- "listBibl":
-  [
- {
- "title":
- "Die Geschichte eines Genies",
- "ref":
- "pmb35505"}
- ,  {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
 }
-}] 
+}, ] 

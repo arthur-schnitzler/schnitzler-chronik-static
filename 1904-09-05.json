@@ -1,43 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1904-09-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-05.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91173/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91173/",
- "head":
- "Pass Lueg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/655/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/655/",
- "head":
- "Hotel Kaiserkrone"
-}, {
+ "Tagebuch, 5. September 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pass Lueg",
+ "ref":
+ "pmb91173"}
+ ,  {
+ "placeName":
+ "Wolfgangsee",
+ "ref":
+ "pmb92093"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -99,42 +100,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-09-05",
+ "entity/213/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
  "head":
- "Tagebuch, 5. September 1904",
+ "Bad Ischl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listPlace":
-  [
- {
- "placeName":
- "Pass Lueg",
- "ref":
- "pmb91173"}
- ,  {
- "placeName":
- "Wolfgangsee",
- "ref":
- "pmb92093"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91173/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91173/",
+ "head":
+ "Pass Lueg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/655/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/655/",
+ "head":
+ "Hotel Kaiserkrone",
+ "desc":
+{
+}
+}, ] 

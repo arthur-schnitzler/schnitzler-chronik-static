@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1914-09-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-09-11.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 11. September 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo Heller",
+ "ref":
+ "person_16069"},
+ {
+ "persName":
+ "Paul Heyse",
+ "ref":
+ "person_16186"},
+ {
+ "persName":
+ "Alfred von Schik-Markenau",
+ "ref":
+ "person_19686"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -86,6 +113,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
@@ -104,46 +147,7 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
+ ", "source":
  "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1914-09-11",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-09-11.html",
- "head":
- "Tagebuch, 11. September 1914",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo Heller",
- "ref":
- "person_16069"},
- {
- "persName":
- "Paul Heyse",
- "ref":
- "person_16186"},
- {
- "persName":
- "Alfred von Schik-Markenau",
- "ref":
- "person_19686"}],
- "listBibl":
-  [
- {
- "title":
- "Doktor Gräsler, Badearzt",
- "ref":
- "pmb30201"}
- ]
-}
-}] 
+}, ] 

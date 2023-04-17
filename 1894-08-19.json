@@ -1,17 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/30/",
+ "entry__1894-08-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-08-19.html",
  "head":
- "Salzburg"
-}, {
+ "Tagebuch, 19. August 1894",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ,  {
+ "placeName":
+ "Aigen",
+ "ref":
+ "pmb90200"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -63,30 +78,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-08-19",
+ "entity/30/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-08-19.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
  "head":
- "Tagebuch, 19. August 1894",
+ "Salzburg",
  "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Hellbrunn",
- "ref":
- "pmb31"}
- ,  {
- "placeName":
- "Aigen",
- "ref":
- "pmb90200"}
- ]
+{
 }
-}] 
+}, ] 

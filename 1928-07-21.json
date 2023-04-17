@@ -1,56 +1,57 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp555",
+ "entry__1928-07-21",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp555.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-07-21.html",
  "head":
- "Tagebuch von Clara Katharina Pollaczek, 17.–21. Juli 1928"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp556",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp556.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 21.–27. Juli 1928"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91530/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91530/",
- "head":
- "Prater"
-}, {
+ "Tagebuch, 21. Juli 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sekundant",
+ "ref":
+ "pmb30953"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ,  {
+ "title":
+ "König der Könige",
+ "ref":
+ "pmb78468"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -193,55 +194,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1928-07-21",
+ "ckp555",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-07-21.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp555.html",
  "head":
- "Tagebuch, 21. Juli 1928",
+ "Tagebuch von Clara Katharina Pollaczek, 17.–21. Juli 1928",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"}],
- "listBibl":
-  [
- {
- "title":
- "Der Sekundant",
- "ref":
- "pmb30953"}
- ,  {
- "title":
- "Theaterroman",
- "ref":
- "pmb30321"}
- ,  {
- "title":
- "Zug der Schatten",
- "ref":
- "pmb32049"}
- ,  {
- "title":
- "König der Könige",
- "ref":
- "pmb78468"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ]
 }
-}] 
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp556",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp556.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 21.–27. Juli 1928",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91530/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91530/",
+ "head":
+ "Prater",
+ "desc":
+{
+}
+}, ] 

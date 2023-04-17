@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1914-10-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-10-20.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 20. Oktober 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Moritz Heimann",
+ "ref":
+ "person_16041"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -78,62 +125,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1914-10-20",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-10-20.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 20. Oktober 1914",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Georg Brandes",
- "ref":
- "person_13920"},
- {
- "persName":
- "Moritz Heimann",
- "ref":
- "person_16041"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Julie Wassermann",
- "ref":
- "person_21109"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listPlace":
-  [
- {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ]
 }
-}] 
+}, ] 

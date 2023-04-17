@@ -1,16 +1,83 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1922-06-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-26.html",
  "head":
- "Wien"
+ "Tagebuch, 26. Juni 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Lili Oppenheimer",
+ "ref":
+ "person_18571"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Ernst von Seidler-Feuchtenegg",
+ "ref":
+ "person_20031"},
+ {
+ "persName":
+ "Siegfried von Strakosch-Feldringen",
+ "ref":
+ "person_20469"},
+ {
+ "persName":
+ "Rudolf Urbantschitsch",
+ "ref":
+ "person_20892"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Nathan? Eidinger",
+ "ref":
+ "person_14666"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -123,130 +190,6 @@
  "Amerika",
  "ref":
  "pmb175"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Olga Schnitzler, 26.6.1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"}],
- "bibl":
- "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Gustaf Linden, 26.6.1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustaf Linden",
- "ref":
- "https://d-nb.info/gnd/117024562"}],
- "bibl":
- "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1922-06-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-26.html",
- "head":
- "Tagebuch, 26. Juni 1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Johann Wolfgang von Goethe",
- "ref":
- "person_15499"},
- {
- "persName":
- "Lili Oppenheimer",
- "ref":
- "person_18571"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Ferdinand Schmutzer",
- "ref":
- "person_19784"},
- {
- "persName":
- "Ernst von Seidler-Feuchtenegg",
- "ref":
- "person_20031"},
- {
- "persName":
- "Siegfried von Strakosch-Feldringen",
- "ref":
- "person_20469"},
- {
- "persName":
- "Rudolf Urbantschitsch",
- "ref":
- "person_20892"},
- {
- "persName":
- "Julie Wassermann",
- "ref":
- "person_21109"},
- {
- "persName":
- "Nathan? Eidinger",
- "ref":
- "person_14666"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Komödie der Verführung. In drei Akten",
- "ref":
- "pmb30205"}
  ]
 }
 }, {
@@ -503,4 +446,66 @@
  "pmb29237"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 26.6.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ ", "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 26.6.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustaf Linden",
+ "ref":
+ "https://d-nb.info/gnd/117024562"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}
+}, ] 

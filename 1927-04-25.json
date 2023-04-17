@@ -1,43 +1,69 @@
 [{
  "type":
- "pollaczek pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp428",
+ "entry__1927-04-25",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp428.html https://pollaczek.acdh.oeaw.ac.at/ckp429.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-04-25.html",
  "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 24.–25.4.1927"
-}, {
- "type":
- "pollaczek pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp432",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp432.html https://pollaczek.acdh.oeaw.ac.at/ckp433.html",
- "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 25. April 1927"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/462/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/462/",
- "head":
- "Venedig"
-}, {
+ "Tagebuch, 25. April 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"},
+ {
+ "persName":
+ "Anna von Zsolnay",
+ "ref":
+ "person_21584"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bonvecchiati",
+ "ref":
+ "pmb92174"}
+ ,  {
+ "placeName":
+ "Markusplatz",
+ "ref":
+ "pmb92388"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -129,67 +155,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1927-04-25",
+ "ckp428",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-04-25.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp428.html https://pollaczek.acdh.oeaw.ac.at/ckp429.html",
  "head":
- "Tagebuch, 25. April 1927",
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 24.–25.4.1927",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Arnoldo Cappellini",
- "ref":
- "person_14129"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Alma Maria Mahler",
- "ref":
- "person_17784"},
- {
- "persName":
- "Carl Moll",
- "ref":
- "person_18218"},
- {
- "persName":
- "Anna von Zsolnay",
- "ref":
- "person_21584"}],
- "listPlace":
-  [
- {
- "placeName":
- "Venedig",
- "ref":
- "pmb462"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Bonvecchiati",
- "ref":
- "pmb92174"}
- ,  {
- "placeName":
- "Markusplatz",
- "ref":
- "pmb92388"}
- ]
 }
-}] 
+}, {
+ "type":
+ "pollaczek pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp432",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp432.html https://pollaczek.acdh.oeaw.ac.at/ckp433.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 25. April 1927",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/462/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig",
+ "desc":
+{
+}
+}, ] 

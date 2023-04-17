@@ -1,29 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/44153/",
+ "entry__1898-09-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44153/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-09-02.html",
  "head":
- "Verona"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/867/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/867/",
- "head":
- "Innsbruck"
+ "Tagebuch, 2. September 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Verona",
+ "ref":
+ "pmb44153"}
+ ,  {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -90,34 +92,6 @@
  "Frankgasse",
  "ref":
  "pmb397"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-09-02",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-09-02.html",
- "head":
- "Tagebuch, 2. September 1898",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Verona",
- "ref":
- "pmb44153"}
- ,  {
- "placeName":
- "Innsbruck",
- "ref":
- "pmb867"}
  ]
 }
 }, {
@@ -203,4 +177,36 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44153/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44153/",
+ "head":
+ "Verona",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck",
+ "desc":
+{
+}
+}, ] 

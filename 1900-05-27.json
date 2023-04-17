@@ -1,56 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/48761/",
+ "entry__1900-05-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/48761/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-05-27.html",
  "head":
- "Puchberg am Schneeberg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90051/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90051/",
- "head":
- "Baumgartnerhaus"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/948/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/948/",
- "head":
- "Payerbach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 27. Mai 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "person_19543"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Puchberg am Schneeberg",
+ "ref":
+ "pmb48761"}
+ ,  {
+ "placeName":
+ "Payerbach",
+ "ref":
+ "pmb948"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -263,55 +264,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-05-27",
+ "entity/48761/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-05-27.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/48761/",
  "head":
- "Tagebuch, 27. Mai 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Ottilie Salten",
- "ref":
- "person_19543"}],
- "listBibl":
-  [
- {
- "title":
- "Lieutenant Gustl. Novelle",
- "ref":
- "pmb29853"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Puchberg am Schneeberg",
- "ref":
- "pmb48761"}
- ,  {
- "placeName":
- "Payerbach",
- "ref":
- "pmb948"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90051/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90051/",
+ "head":
+ "Baumgartnerhaus",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/948/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/948/",
+ "head":
+ "Payerbach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

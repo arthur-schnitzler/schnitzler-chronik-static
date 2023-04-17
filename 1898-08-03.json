@@ -1,43 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/39752/",
+ "entry__1898-08-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/39752/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-03.html",
  "head":
- "Tegernsee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/424/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/424/",
- "head":
- "Bad Tölz"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34048/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34048/",
- "head":
- "Hotel Post"
-}, {
+ "Tagebuch, 3. August 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Tölz",
+ "ref":
+ "pmb424"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -114,6 +110,54 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/39752/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/39752/",
+ "head":
+ "Tegernsee",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/424/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/424/",
+ "head":
+ "Bad Tölz",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34048/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34048/",
+ "head":
+ "Hotel Post",
+ "desc":
+{
+}
+}, {
+ "type":
  "",
  "color":
  "",
@@ -124,39 +168,4 @@
                      Goldmann, 3. 8. 1898",
  "text":
  "L02857"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-08-03",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-03.html",
- "head":
- "Tagebuch, 3. August 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Caroline Burger",
- "ref":
- "person_14073"}],
- "listPlace":
-  [
- {
- "placeName":
- "Bad Tölz",
- "ref":
- "pmb424"}
- ]
-}
-}] 
+}, ] 

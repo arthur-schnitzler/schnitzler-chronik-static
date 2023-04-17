@@ -1,16 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1899-03-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-03-09.html",
  "head":
- "Wien"
+ "Tagebuch, 9. März 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Anna Kallina",
+ "ref":
+ "person_16666"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -127,46 +154,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-03-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-03-09.html",
- "head":
- "Tagebuch, 9. März 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Devrient",
- "ref":
- "person_14434"},
- {
- "persName":
- "Anna Kallina",
- "ref":
- "person_16666"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listBibl":
-  [
- {
- "title":
- "Der grüne Kakadu. Groteske in einem Akt",
- "ref":
- "pmb29843"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -208,4 +195,20 @@
  "pmb239"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

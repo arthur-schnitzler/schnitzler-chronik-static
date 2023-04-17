@@ -1,83 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02436",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02436.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 3. 3. 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Johannes XXII.",
- "ref":
- "pmb44591"},
- {
- "persName":
- "Benedikt XII.",
- "ref":
- "pmb44592"}],
- "listPlace":
-  [
- {
- "placeName":
- "Bahnhof Marseille",
- "ref":
- "pmb44567"}
- ,  {
- "placeName":
- "Avignon",
- "ref":
- "pmb36443"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Kathedrale von Avignon",
- "ref":
- "pmb44589"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -219,4 +141,85 @@
  "pmb58"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02436",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02436.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 3. 3. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Johannes XXII.",
+ "ref":
+ "pmb44591"},
+ {
+ "persName":
+ "Benedikt XII.",
+ "ref":
+ "pmb44592"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Marseille",
+ "ref":
+ "pmb44567"}
+ ,  {
+ "placeName":
+ "Avignon",
+ "ref":
+ "pmb36443"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Kathedrale von Avignon",
+ "ref":
+ "pmb44589"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

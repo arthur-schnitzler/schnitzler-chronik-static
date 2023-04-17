@@ -1,30 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1895-07-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-30.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/414/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/414/",
- "head":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)"
-}, {
+ "Tagebuch, 30. Juli 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Julie Schweighofer",
+ "ref":
+ "person_19995"},
+ {
+ "persName":
+ "Rosa Bahr",
+ "ref":
+ "person_13375"},
+ {
+ "persName":
+ "Irma Fabiani",
+ "ref":
+ "person_14849"},
+ {
+ "persName":
+ "Filippine Wolff",
+ "ref":
+ "person_21441"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tata-Toto",
+ "ref":
+ "pmb38879"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -96,52 +120,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-07-30",
+ "entity/213/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-30.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
  "head":
- "Tagebuch, 30. Juli 1895",
+ "Bad Ischl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Julie Schweighofer",
- "ref":
- "person_19995"},
- {
- "persName":
- "Rosa Bahr",
- "ref":
- "person_13375"},
- {
- "persName":
- "Irma Fabiani",
- "ref":
- "person_14849"},
- {
- "persName":
- "Filippine Wolff",
- "ref":
- "person_21441"}],
- "listBibl":
-  [
- {
- "title":
- "Tata-Toto",
- "ref":
- "pmb38879"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "desc":
+{
+}
+}, ] 

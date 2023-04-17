@@ -1,43 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/92011/",
+ "entry__1893-08-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/92011/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-27.html",
  "head":
- "Villach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44278/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44278/",
- "head":
- "Pörtschach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91030/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91030/",
- "head":
- "Klagenfurt"
-}, {
+ "Tagebuch, 27. August 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anna Kupelwieser",
+ "ref":
+ "person_17202"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Villach",
+ "ref":
+ "pmb92011"}
+ ,  {
+ "placeName":
+ "Pörtschach",
+ "ref":
+ "pmb44278"}
+ ,  {
+ "placeName":
+ "Klagenfurt",
+ "ref":
+ "pmb91030"}
+ ,  {
+ "placeName":
+ "Moosburg",
+ "ref":
+ "pmb91290"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -117,60 +136,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1893-08-27",
+ "entity/92011/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-27.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/92011/",
  "head":
- "Tagebuch, 27. August 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Anna Kupelwieser",
- "ref":
- "person_17202"},
- {
- "persName":
- "Adolf Weisse",
- "ref":
- "person_21211"}],
- "listBibl":
-  [
- {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Villach",
- "ref":
- "pmb92011"}
- ,  {
- "placeName":
- "Pörtschach",
- "ref":
- "pmb44278"}
- ,  {
- "placeName":
- "Klagenfurt",
- "ref":
- "pmb91030"}
- ,  {
- "placeName":
- "Moosburg",
- "ref":
- "pmb91290"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44278/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44278/",
+ "head":
+ "Pörtschach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91030/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91030/",
+ "head":
+ "Klagenfurt",
+ "desc":
+{
+}
+}, ] 

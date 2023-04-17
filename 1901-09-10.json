@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -22,7 +9,10 @@
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/PUP_*H1",
  "head":
  "Der Puppenspieler, erschl. hsl. Werkniederschrift 1, zwischen 10. September 1901 und
-            5. Oktober 1901"
+            5. Oktober 1901",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -45,4 +35,20 @@
  "ref":
  "person_19832"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

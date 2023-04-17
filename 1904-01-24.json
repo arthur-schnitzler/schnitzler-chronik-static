@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-01-24",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-24.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 24. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "person_17804"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -71,62 +118,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-01-24",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-24.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 24. Januar 1904",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Margarethe Manassewitsch",
- "ref":
- "person_17804"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Karl Schnitzler",
- "ref":
- "person_19828"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Anna Donath",
- "ref":
- "person_14481"}],
- "listBibl":
-  [
- {
- "title":
- "Das Haus Delorme. Eine Familienszene",
- "ref":
- "pmb31547"}
- ,  {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ]
 }
-}] 
+}, ] 

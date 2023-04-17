@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-08-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-09.html",
  "head":
- "Wien"
+ "Tagebuch, 9. August 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Henriette Tallian",
+ "ref":
+ "person_20627"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -107,61 +149,6 @@
  "Türkenschanzpark",
  "ref":
  "pmb113"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-08-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-09.html",
- "head":
- "Tagebuch, 9. August 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Henriette Tallian",
- "ref":
- "person_20627"}],
- "listPlace":
-  [
- {
- "placeName":
- "Grinzing",
- "ref":
- "pmb90771"}
- ,  {
- "placeName":
- "Prater",
- "ref":
- "pmb91530"}
- ,  {
- "placeName":
- "",
- "ref":
- "pmb91574"}
  ]
 }
 }, {
@@ -380,4 +367,20 @@
  "pmb113"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

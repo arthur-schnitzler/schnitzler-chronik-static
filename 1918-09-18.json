@@ -1,16 +1,111 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1918-09-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-09-18.html",
  "head":
- "Wien"
+ "Tagebuch, 18. September 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Friedrich Gustav Piffl",
+ "ref":
+ "person_18796"},
+ {
+ "persName":
+ "Emil Reich",
+ "ref":
+ "person_19115"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Robert Schumann",
+ "ref":
+ "person_19942"},
+ {
+ "persName":
+ "Ernst Leo Schwarz",
+ "ref":
+ "person_19966"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Die natürliche Tochter",
+ "ref":
+ "pmb31585"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 Es-Dur op. 97",
+ "ref":
+ "pmb31587"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -127,114 +222,6 @@
  "Wien",
  "ref":
  "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1918-09-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-09-18.html",
- "head":
- "Tagebuch, 18. September 1918",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Leopold von Andrian-Werburg",
- "ref":
- "person_13202"},
- {
- "persName":
- "Friedrich Gustav Piffl",
- "ref":
- "person_18796"},
- {
- "persName":
- "Emil Reich",
- "ref":
- "person_19115"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Werner Schott",
- "ref":
- "person_19874"},
- {
- "persName":
- "Robert Schumann",
- "ref":
- "person_19942"},
- {
- "persName":
- "Ernst Leo Schwarz",
- "ref":
- "person_19966"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "person_18881"}],
- "listBibl":
-  [
- {
- "title":
- "Jugend in Wien",
- "ref":
- "pmb33838"}
- ,  {
- "title":
- "Die natürliche Tochter",
- "ref":
- "pmb31585"}
- ,  {
- "title":
- "Symphonie Nr. 3 Es-Dur op. 97",
- "ref":
- "pmb31587"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
  ]
 }
 }, {
@@ -383,4 +370,20 @@
  "pmb29639"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

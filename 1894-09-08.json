@@ -1,17 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-09-08",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-08.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 8. September 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Gaius Iulius Caesar",
+ "ref":
+ "person_14106"},
+ {
+ "persName":
+ "Emma Frid",
+ "ref":
+ "person_15192"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "person_16165"},
+ {
+ "persName":
+ "Pierre Carlet de Marivaux",
+ "ref":
+ "person_17892"},
+ {
+ "persName":
+ "Alfred de Musset",
+ "ref":
+ "person_18334"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Wilhelm II. von Preußen",
+ "ref":
+ "person_21338"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -124,80 +189,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-09-08",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-08.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 8. September 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Gaius Iulius Caesar",
- "ref":
- "person_14106"},
- {
- "persName":
- "Emma Frid",
- "ref":
- "person_15192"},
- {
- "persName":
- "Julius von Gans-Ludassy",
- "ref":
- "person_15338"},
- {
- "persName":
- "Theodor Herzl",
- "ref":
- "person_16165"},
- {
- "persName":
- "Pierre Carlet de Marivaux",
- "ref":
- "person_17892"},
- {
- "persName":
- "Alfred de Musset",
- "ref":
- "person_18334"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Wilhelm II. von Preußen",
- "ref":
- "person_21338"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Baden bei Wien",
- "ref":
- "pmb662"}
- ]
 }
-}] 
+}, ] 

@@ -1,16 +1,51 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-11-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-13.html",
  "head":
- "Wien"
+ "Tagebuch, 13. November 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Nemay",
+ "ref":
+ "person_18386"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -172,54 +207,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-11-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-13.html",
- "head":
- "Tagebuch, 13. November 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Nemay",
- "ref":
- "person_18386"}],
- "listBibl":
-  [
- {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Literatur",
- "ref":
- "pmb29869"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Budapest",
- "ref":
- "pmb43471"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -314,4 +301,20 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

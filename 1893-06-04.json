@@ -1,30 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-06-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-06-04.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
-}, {
+ "Tagebuch, 4. Juni 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Rudolf Schwarzkopf",
+ "ref":
+ "person_19988"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "Brunn am Gebirge",
+ "ref":
+ "pmb40201"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -218,52 +242,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1893-06-04",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-06-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 4. Juni 1893",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Max Schwarzkopf",
- "ref":
- "person_19987"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Rudolf Schwarzkopf",
- "ref":
- "person_19988"}],
- "listPlace":
-  [
- {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
- ,  {
- "placeName":
- "Brunn am Gebirge",
- "ref":
- "pmb40201"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

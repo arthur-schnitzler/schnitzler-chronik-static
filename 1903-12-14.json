@@ -1,16 +1,71 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-12-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-12-14.html",
  "head":
- "Wien"
+ "Tagebuch, 14. Dezember 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Wilhelm Karczag",
+ "ref":
+ "person_16715"},
+ {
+ "persName":
+ "Karl Wallner",
+ "ref":
+ "person_21074"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -115,116 +170,6 @@
  "Ottakringer Bräu",
  "ref":
  "pmb304"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#l25eefe1-afeb-4a14-b13f-25d15ae20e34",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler, Olga Schnitzler, Hugo von Hofmannsthal, Gerty von Hofmannsthal, Richard Beer-Hofmann an Hermann Bahr, 14. Dezember 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "https://d-nb.info/gnd/118552759"},
- {
- "persName":
- "Gerty von Hofmannsthal",
- "ref":
- "https://d-nb.info/gnd/116952199"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "https://d-nb.info/gnd/118654756"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "https://d-nb.info/gnd/118505955"}],
- "bibl":
- "Hugo und Gerty von Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934. Hg. und kommentiert von Elsbeth Dangel-Pelloquin. Göttingen: Wallstein 2013."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-12-14",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-12-14.html",
- "head":
- "Tagebuch, 14. Dezember 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Ernst von Dohnányi",
- "ref":
- "person_14473"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "person_16292"},
- {
- "persName":
- "Wilhelm Karczag",
- "ref":
- "person_16715"},
- {
- "persName":
- "Karl Wallner",
- "ref":
- "person_21074"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Der Schleier der Pierrette",
- "ref":
- "pmb30215"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
  ]
 }
 }, {
@@ -396,4 +341,63 @@
  "pmb29253"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#l25eefe1-afeb-4a14-b13f-25d15ae20e34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler, Olga Schnitzler, Hugo von Hofmannsthal, Gerty von Hofmannsthal, Richard Beer-Hofmann an Hermann Bahr, 14. Dezember 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "https://d-nb.info/gnd/118552759"},
+ {
+ "persName":
+ "Gerty von Hofmannsthal",
+ "ref":
+ "https://d-nb.info/gnd/116952199"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "https://d-nb.info/gnd/118654756"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "https://d-nb.info/gnd/118505955"}],
+ "bibl":
+ ", "source":
+ "Hugo und Gerty von Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934. Hg. und kommentiert von Elsbeth Dangel-Pelloquin. Göttingen: Wallstein 2013."
+}
+}, ] 

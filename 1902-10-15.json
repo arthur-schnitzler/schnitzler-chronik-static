@@ -1,16 +1,88 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1902-10-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-10-15.html",
  "head":
- "Berlin"
+ "Tagebuch, 15. Oktober 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "person_13715"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Moritz Heimann",
+ "ref":
+ "person_16041"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Rudolf Lettinger",
+ "ref":
+ "person_17476"},
+ {
+ "persName":
+ "Raphael Löwenfeld",
+ "ref":
+ "person_17649"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schillertheater",
+ "ref":
+ "pmb334"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -144,91 +216,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-10-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-10-15.html",
- "head":
- "Tagebuch, 15. Oktober 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Oskar Bie",
- "ref":
- "person_13715"},
- {
- "persName":
- "Auguste Chlum",
- "ref":
- "person_14199"},
- {
- "persName":
- "Rosa Freudenthal",
- "ref":
- "person_15178"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Moritz Heimann",
- "ref":
- "person_16041"},
- {
- "persName":
- "Georg Hirschfeld",
- "ref":
- "person_16222"},
- {
- "persName":
- "Rudolf Lettinger",
- "ref":
- "person_17476"},
- {
- "persName":
- "Raphael Löwenfeld",
- "ref":
- "person_17649"},
- {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listPlace":
-  [
- {
- "placeName":
- "Schillertheater",
- "ref":
- "pmb334"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -330,4 +317,20 @@
  "pmb216"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, ] 

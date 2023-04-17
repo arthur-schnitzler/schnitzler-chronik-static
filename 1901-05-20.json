@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1901-05-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-05-20.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 20. Mai 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm de Grach",
+ "ref":
+ "person_15607"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -74,6 +101,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#s68ac8da-2b04-4b21-afc4-b597655696e0",
@@ -92,46 +135,7 @@
  "ref":
  "https://d-nb.info/gnd/118606662"}],
  "bibl":
+ ", "source":
  "Reinhard Urbach: Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-05-20",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-05-20.html",
- "head":
- "Tagebuch, 20. Mai 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Wilhelm de Grach",
- "ref":
- "person_15607"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listPlace":
-  [
- {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
- ,  {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ]
-}
-}] 
+}, ] 

@@ -1,17 +1,52 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1905-09-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-11.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 11. September 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -134,50 +169,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1905-09-11",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-11.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 11. September 1905",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"}],
- "listBibl":
-  [
- {
- "title":
- "Der Ruf des Lebens. Schauspiel in drei Akten",
- "ref":
- "pmb29905"}
- ,  {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ]
 }
-}] 
+}, ] 

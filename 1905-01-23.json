@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1905-01-23",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-01-23.html",
  "head":
- "Wien"
+ "Tagebuch, 23. Januar 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Albach-Retty",
+ "ref":
+ "person_13123"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "person_16245"},
+ {
+ "persName":
+ "Robert Pattai",
+ "ref":
+ "person_18675"},
+ {
+ "persName":
+ "Francesco Tamagno",
+ "ref":
+ "person_20630"},
+ {
+ "persName":
+ "Moriz Károlyi",
+ "ref":
+ "person_16735"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gleitenden",
+ "ref":
+ "pmb33780"}
+ ,  {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -71,61 +113,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1905-01-23",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-01-23.html",
- "head":
- "Tagebuch, 23. Januar 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Rosa Albach-Retty",
- "ref":
- "person_13123"},
- {
- "persName":
- "Rosa Hochsinger",
- "ref":
- "person_16245"},
- {
- "persName":
- "Robert Pattai",
- "ref":
- "person_18675"},
- {
- "persName":
- "Francesco Tamagno",
- "ref":
- "person_20630"},
- {
- "persName":
- "Moriz Károlyi",
- "ref":
- "person_16735"}],
- "listBibl":
-  [
- {
- "title":
- "Die Gleitenden",
- "ref":
- "pmb33780"}
- ,  {
- "title":
- "Das neue Lied",
- "ref":
- "pmb30655"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -169,4 +156,20 @@
  "pmb68"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

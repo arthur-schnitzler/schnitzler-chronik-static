@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/41212/",
+ "entry__1905-03-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41212/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-13.html",
  "head":
- "Korfu"
-}, {
+ "Tagebuch, 13. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Baruch",
+ "ref":
+ "person_13449"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Emanuel Spiro",
+ "ref":
+ "person_20270"},
+ {
+ "persName":
+ "Fritz Werner",
+ "ref":
+ "person_21250"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Nibelungen",
+ "ref":
+ "pmb34235"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Korfu",
+ "ref":
+ "pmb41212"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -73,55 +113,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1905-03-13",
+ "entity/41212/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/41212/",
  "head":
- "Tagebuch, 13. März 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ferdinand Baruch",
- "ref":
- "person_13449"},
- {
- "persName":
- "Friedrich Hebbel",
- "ref":
- "person_16009"},
- {
- "persName":
- "Emanuel Spiro",
- "ref":
- "person_20270"},
- {
- "persName":
- "Fritz Werner",
- "ref":
- "person_21250"}],
- "listBibl":
-  [
- {
- "title":
- "Die Nibelungen",
- "ref":
- "pmb34235"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Korfu",
- "ref":
- "pmb41212"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

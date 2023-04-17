@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 6. 4. 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Zinaida Vengerova",
- "ref":
- ""}],
- "bibl":
- "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 9.4.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -105,4 +48,66 @@
  "pmb29855"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 6. 4. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Zinaida Vengerova",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 9.4.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

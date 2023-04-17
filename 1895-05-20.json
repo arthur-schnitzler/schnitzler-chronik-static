@@ -1,56 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1895-05-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-05-20.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91223/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91223/",
- "head":
- "Melk"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/531/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/531/",
- "head":
- "Wachau"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/36545/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/36545/",
- "head":
- "Krems"
-}, {
+ "Tagebuch, 20. Mai 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "person_13196"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Melk",
+ "ref":
+ "pmb91223"}
+ ,  {
+ "placeName":
+ "Wachau",
+ "ref":
+ "pmb531"}
+ ,  {
+ "placeName":
+ "Krems",
+ "ref":
+ "pmb36545"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -145,6 +143,70 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91223/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91223/",
+ "head":
+ "Melk",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/531/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/531/",
+ "head":
+ "Wachau",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36545/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36545/",
+ "head":
+ "Krems",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#w6429315-92be-4f82-b2f1-926125f9bfa5",
@@ -163,56 +225,7 @@
  "ref":
  "https://d-nb.info/gnd/124896847"}],
  "bibl":
+ ", "source":
  "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1895-05-20",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-05-20.html",
- "head":
- "Tagebuch, 20. Mai 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lou Andreas-Salomé",
- "ref":
- "person_13196"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"}],
- "listPlace":
-  [
- {
- "placeName":
- "Melk",
- "ref":
- "pmb91223"}
- ,  {
- "placeName":
- "Wachau",
- "ref":
- "pmb531"}
- ,  {
- "placeName":
- "Krems",
- "ref":
- "pmb36545"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}] 
+}, ] 

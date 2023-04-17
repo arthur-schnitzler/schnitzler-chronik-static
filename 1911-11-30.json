@@ -1,17 +1,77 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1911-11-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-11-30.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 30. November 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen d’Albert",
+ "ref":
+ "person_13129"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Berta Fröhlich",
+ "ref":
+ "person_15267"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Oskar Loewy",
+ "ref":
+ "person_17664"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Arnold Aleksandrowicz",
+ "ref":
+ "person_13143"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -111,6 +171,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -131,6 +207,7 @@
  "ref":
  "https://d-nb.info/gnd/118616765"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
 }, {
@@ -153,79 +230,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1911-11-30",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-11-30.html",
- "head":
- "Tagebuch, 30. November 1911",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen d’Albert",
- "ref":
- "person_13129"},
- {
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Berta Fröhlich",
- "ref":
- "person_15267"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "Ernst Hartmann",
- "ref":
- "person_15944"},
- {
- "persName":
- "Oskar Loewy",
- "ref":
- "person_17664"},
- {
- "persName":
- "Rudolf Lothar",
- "ref":
- "person_17696"},
- {
- "persName":
- "Arnold Aleksandrowicz",
- "ref":
- "person_13143"}],
- "listBibl":
-  [
- {
- "title":
- "Frau Beate und ihr Sohn. Novelle",
- "ref":
- "pmb32133"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ]
-}
-}] 
+}, ] 

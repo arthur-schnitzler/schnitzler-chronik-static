@@ -1,30 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/483/",
+ "entry__1900-07-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-07-17.html",
  "head":
- "Reichenau an der Rax"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44982/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44982/",
- "head":
- "Kurhaus Rudolfsbad"
-}, {
+ "Tagebuch, 17. Juli 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Bertha Schimitschek",
+ "ref":
+ "person_19699"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Tuckelnov",
+ "ref":
+ "person_20832"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Die Quellen des Nil",
+ "ref":
+ "pmb30625"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -242,62 +276,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-07-17",
+ "entity/483/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-07-17.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
  "head":
- "Tagebuch, 17. Juli 1900",
+ "Reichenau an der Rax",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Bertha Schimitschek",
- "ref":
- "person_19699"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Tuckelnov",
- "ref":
- "person_20832"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Lieutenant Gustl. Novelle",
- "ref":
- "pmb29853"}
- ,  {
- "title":
- "Die Quellen des Nil",
- "ref":
- "pmb30625"}
- ,  {
- "title":
- "Literatur",
- "ref":
- "pmb29869"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad",
+ "desc":
+{
+}
+}, ] 

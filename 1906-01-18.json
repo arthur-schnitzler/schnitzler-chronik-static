@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1906-01-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-18.html",
  "head":
- "Wien"
+ "Tagebuch, 18. Januar 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Bruckner",
+ "ref":
+ "person_14008"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "person_14643"},
+ {
+ "persName":
+ "Edmund Jelinek",
+ "ref":
+ "person_16527"},
+ {
+ "persName":
+ "Sigmund Kornfeld",
+ "ref":
+ "person_17057"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 d-Moll WAB 103",
+ "ref":
+ "pmb76606"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -94,61 +136,6 @@
  "Ottakringerstraße",
  "ref":
  "pmb300"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1906-01-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-18.html",
- "head":
- "Tagebuch, 18. Januar 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Anton Bruckner",
- "ref":
- "person_14008"},
- {
- "persName":
- "Albert Ehrenstein",
- "ref":
- "person_14643"},
- {
- "persName":
- "Edmund Jelinek",
- "ref":
- "person_16527"},
- {
- "persName":
- "Sigmund Kornfeld",
- "ref":
- "person_17057"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Symphonie Nr. 3 d-Moll WAB 103",
- "ref":
- "pmb76606"}
  ]
 }
 }, {
@@ -244,4 +231,20 @@
  "pmb45258"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

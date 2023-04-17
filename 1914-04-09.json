@@ -1,17 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net",
  "head":
- "Wien"
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-04-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-04-09.html",
+ "head":
+ "Tagebuch, 9. April 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Henriette Riemann",
+ "ref":
+ "person_19264"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Alberto Stringa",
+ "ref":
+ "person_20532"},
+ {
+ "persName":
+ "Johanna Schmidl",
+ "ref":
+ "person_16852"},
+ {
+ "persName":
+ "Erwin von Paska",
+ "ref":
+ "person_18665"},
+ {
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "person_20885"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Pierrot im Schnee",
+ "ref":
+ "pmb81184"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,17 +153,20 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
+ "#045344",
+ "filename":
+ "entity/50/",
  "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
+ "Aufenthaltsorte",
  "idno":
- "https://www.schnitzler-edition.net",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Fink und Fliederbusch, Typoskript",
- "text":
- "Publikation in Vorbereitung"
+ "Wien",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-cmif",
@@ -119,71 +187,7 @@
  "ref":
  "https://d-nb.info/gnd/124896847"}],
  "bibl":
+ ", "source":
  "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1914-04-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-04-09.html",
- "head":
- "Tagebuch, 9. April 1914",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Henriette Riemann",
- "ref":
- "person_19264"},
- {
- "persName":
- "Paula Schmidl",
- "ref":
- "person_19756"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"},
- {
- "persName":
- "Alberto Stringa",
- "ref":
- "person_20532"},
- {
- "persName":
- "Johanna Schmidl",
- "ref":
- "person_16852"},
- {
- "persName":
- "Erwin von Paska",
- "ref":
- "person_18665"},
- {
- "persName":
- "Fritz von Unruh",
- "ref":
- "person_20885"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Pierrot im Schnee",
- "ref":
- "pmb81184"}
- ]
-}
-}] 
+}, ] 

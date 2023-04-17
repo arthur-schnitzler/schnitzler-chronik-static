@@ -1,94 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/213/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
- "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91173/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91173/",
- "head":
- "Pass Lueg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/824/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/824/",
- "head":
- "Hotel und Pension Lueg"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01437",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01437.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 6. 9. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"}],
- "listPlace":
-  [
- {
- "placeName":
- "St. Gilgen",
- "ref":
- "pmb33"}
- ,  {
- "placeName":
- "Bad Aussee",
- "ref":
- "pmb415"}
- ,  {
- "placeName":
- "Villa Frühling",
- "ref":
- "pmb47674"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -138,6 +49,56 @@
  "Pass Lueg",
  "ref":
  "pmb91173"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01437",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01437.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 6. 9. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "St. Gilgen",
+ "ref":
+ "pmb33"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Villa Frühling",
+ "ref":
+ "pmb47674"}
  ]
 }
 }, {
@@ -205,4 +166,52 @@
  "pmb758"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91173/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91173/",
+ "head":
+ "Pass Lueg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/824/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/824/",
+ "head":
+ "Hotel und Pension Lueg",
+ "desc":
+{
+}
+}, ] 

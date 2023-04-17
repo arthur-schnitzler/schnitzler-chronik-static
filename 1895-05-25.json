@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00445",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00445.html",
- "head":
- "Lou Andreas-Salomé an Arthur Schnitzler, 25. 5. 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lou Andreas-Salomé",
- "ref":
- "pmb10762"}],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -96,4 +48,55 @@
  "pmb685"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00445",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00445.html",
+ "head":
+ "Lou Andreas-Salomé an Arthur Schnitzler, 25. 5. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "pmb10762"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

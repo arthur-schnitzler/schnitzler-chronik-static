@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Egon Heller, 28. 12. 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Egon Heller",
- "ref":
- ""}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#w6429315-92be-4f82-b2f1-926125f9bfa5",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Eugen Deimel, 28.12.1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen Deimel",
- "ref":
- "https://d-nb.info/gnd/124896847"}],
- "bibl":
- "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -100,4 +43,66 @@
  "pmb30313"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Egon Heller, 28. 12. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egon Heller",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Eugen Deimel, 28.12.1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ ", "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}
+}, ] 

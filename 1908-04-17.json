@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-04-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-04-17.html",
  "head":
- "Wien"
+ "Tagebuch, 17. April 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Artur Fleischer",
+ "ref":
+ "person_15032"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Richard Metzl",
+ "ref":
+ "person_18104"},
+ {
+ "persName":
+ "Anna Roussel",
+ "ref":
+ "person_19440"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -113,61 +155,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-04-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-04-17.html",
- "head":
- "Tagebuch, 17. April 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Artur Fleischer",
- "ref":
- "person_15032"},
- {
- "persName":
- "Else Speidel-Haeberle",
- "ref":
- "person_15833"},
- {
- "persName":
- "Richard Metzl",
- "ref":
- "person_18104"},
- {
- "persName":
- "Anna Roussel",
- "ref":
- "person_19440"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Felix Speidel",
- "ref":
- "person_20242"}],
- "listPlace":
-  [
- {
- "placeName":
- "Deutsches Volkstheater",
- "ref":
- "pmb92202"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -221,4 +208,20 @@
  "pmb133"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

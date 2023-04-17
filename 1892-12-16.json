@@ -1,75 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#g83efe7f-a9d8-49c4-ba69-8fdab0a99e4b",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Adolf Sonnenthal an Arthur Schnitzler, 16.12.1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Adolf Sonnenthal",
- "ref":
- "https://d-nb.info/gnd/119343207"}],
- "bibl":
- "Adolf von Sonnenthals Briefwechsel. Nach den Originalen herausgegeben von Hermine von Sonnenthal. Zweiter Band. Stuttgart, Berlin: Deutsche Verlags-Anstalt 1912. (Ausschließlich die fünf Briefe von und an Arthur Schnitzler hier verzeichnet)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Marie Glümer, 16. 12. 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "https://d-nb.info/gnd/128385022"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -103,4 +33,82 @@
  "pmb29935"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g83efe7f-a9d8-49c4-ba69-8fdab0a99e4b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Adolf Sonnenthal an Arthur Schnitzler, 16.12.1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adolf Sonnenthal",
+ "ref":
+ "https://d-nb.info/gnd/119343207"}],
+ "bibl":
+ ", "source":
+ "Adolf von Sonnenthals Briefwechsel. Nach den Originalen herausgegeben von Hermine von Sonnenthal. Zweiter Band. Stuttgart, Berlin: Deutsche Verlags-Anstalt 1912. (Ausschließlich die fünf Briefe von und an Arthur Schnitzler hier verzeichnet)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Glümer, 16. 12. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "https://d-nb.info/gnd/128385022"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

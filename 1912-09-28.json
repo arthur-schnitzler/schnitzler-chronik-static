@@ -1,16 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1912-09-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-09-28.html",
  "head":
- "Wien"
+ "Tagebuch, 28. September 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Birinski",
+ "ref":
+ "person_13739"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Emma Löwenstamm",
+ "ref":
+ "person_17650"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Narrentanz",
+ "ref":
+ "pmb80177"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -114,46 +141,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-09-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-09-28.html",
- "head":
- "Tagebuch, 28. September 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Leo Birinski",
- "ref":
- "person_13739"},
- {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Emma Löwenstamm",
- "ref":
- "person_17650"}],
- "listBibl":
-  [
- {
- "title":
- "Narrentanz",
- "ref":
- "pmb80177"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -235,4 +222,20 @@
  "pmb160"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

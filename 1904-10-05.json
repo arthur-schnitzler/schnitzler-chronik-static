@@ -1,76 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01452",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01452.html",
- "head":
- "Richard Beer-Hofmann an Arthur Schnitzler, 5. 10. 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Rembrandt van Rijn",
- "ref":
- "pmb5428"}],
- "listBibl":
-  [
- {
- "title":
- "De Staalmesters",
- "ref":
- "pmb51330"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Amsterdam",
- "ref":
- "pmb40709"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -190,6 +119,64 @@
  "VIII., Josefstadt",
  "ref":
  "pmb58"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01452",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01452.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 5. 10. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Rembrandt van Rijn",
+ "ref":
+ "pmb5428"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "De Staalmesters",
+ "ref":
+ "pmb51330"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
  ]
 }
 }, {
@@ -330,4 +317,20 @@
  "pmb44"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

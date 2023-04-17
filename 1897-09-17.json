@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1897-09-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-09-17.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 17. September 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Oscar Stoerk",
+ "ref":
+ "person_20449"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Meistersinger von Nürnberg",
+ "ref":
+ "pmb30661"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -247,55 +287,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1897-09-17",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-09-17.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 17. September 1897",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Rosa Freudenthal",
- "ref":
- "person_15178"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Oscar Stoerk",
- "ref":
- "person_20449"}],
- "listBibl":
-  [
- {
- "title":
- "Die Meistersinger von Nürnberg",
- "ref":
- "pmb30661"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Meissl &amp; Schadn",
- "ref":
- "pmb96"}
- ]
 }
-}] 
+}, ] 

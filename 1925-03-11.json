@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1925-03-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-11.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 11. März 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Cézanne",
+ "ref":
+ "person_14170"},
+ {
+ "persName":
+ "Vincent van Gogh",
+ "ref":
+ "person_15509"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Auguste Renoir",
+ "ref":
+ "person_19192"},
+ {
+ "persName":
+ "Norbert Hoffmann",
+ "ref":
+ "person_16277"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -76,6 +123,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
@@ -95,66 +158,7 @@
  "ref":
  "https://d-nb.info/gnd/118505033"}],
  "bibl":
+ ", "source":
  "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1925-03-11",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-11.html",
- "head":
- "Tagebuch, 11. März 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Cézanne",
- "ref":
- "person_14170"},
- {
- "persName":
- "Vincent van Gogh",
- "ref":
- "person_15509"},
- {
- "persName":
- "Hedy Kempny",
- "ref":
- "person_16807"},
- {
- "persName":
- "Carl Moll",
- "ref":
- "person_18218"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Auguste Renoir",
- "ref":
- "person_19192"},
- {
- "persName":
- "Norbert Hoffmann",
- "ref":
- "person_16277"}],
- "listBibl":
-  [
- {
- "title":
- "Der Gang zum Weiher. Dramatische Dichtung",
- "ref":
- "pmb30775"}
- ]
-}
-}] 
+}, ] 

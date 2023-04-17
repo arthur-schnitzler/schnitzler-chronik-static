@@ -1,82 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90182/",
+ "entry__1895-06-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90182/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-29.html",
  "head":
- "Absdorf"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/36545/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/36545/",
- "head":
- "Krems"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91223/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91223/",
- "head":
- "Melk"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/531/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/531/",
- "head":
- "Wachau"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/54767/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/54767/",
- "head":
- "Rekawinkel"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 29. Juni 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Klein",
+ "ref":
+ "person_16888"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Absdorf",
+ "ref":
+ "pmb90182"}
+ ,  {
+ "placeName":
+ "Krems",
+ "ref":
+ "pmb36545"}
+ ,  {
+ "placeName":
+ "Melk",
+ "ref":
+ "pmb91223"}
+ ,  {
+ "placeName":
+ "Rekawinkel",
+ "ref":
+ "pmb54767"}
+ ,  {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb91552"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -279,52 +251,98 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-06-29",
+ "entity/90182/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/90182/",
  "head":
- "Tagebuch, 29. Juni 1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Johann Klein",
- "ref":
- "person_16888"}],
- "listPlace":
-  [
- {
- "placeName":
  "Absdorf",
- "ref":
- "pmb90182"}
- ,  {
- "placeName":
- "Krems",
- "ref":
- "pmb36545"}
- ,  {
- "placeName":
- "Melk",
- "ref":
- "pmb91223"}
- ,  {
- "placeName":
- "Rekawinkel",
- "ref":
- "pmb54767"}
- ,  {
- "placeName":
- "Purkersdorf",
- "ref":
- "pmb91552"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36545/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36545/",
+ "head":
+ "Krems",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91223/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91223/",
+ "head":
+ "Melk",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/531/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/531/",
+ "head":
+ "Wachau",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/54767/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/54767/",
+ "head":
+ "Rekawinkel",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

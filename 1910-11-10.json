@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-11-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-10.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 10. November 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "person_19694"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hirtenflöte. Novelle",
+ "ref":
+ "pmb30213"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Tagebuch der Redegonda",
+ "ref":
+ "pmb30349"}
+ ,  {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -71,57 +113,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-11-10",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-10.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 10. November 1910",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Georg Reimers",
- "ref":
- "person_19139"},
- {
- "persName":
- "Friedrich von Schiller",
- "ref":
- "person_19694"}],
- "listBibl":
-  [
- {
- "title":
- "Die Hirtenflöte. Novelle",
- "ref":
- "pmb30213"}
- ,  {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Das Tagebuch der Redegonda",
- "ref":
- "pmb30349"}
- ,  {
- "title":
- "Die dreifache Warnung",
- "ref":
- "pmb33061"}
- ]
 }
-}] 
+}, ] 

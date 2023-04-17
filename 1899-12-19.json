@@ -1,30 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1899-12-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-12-19.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/790/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/790/",
- "head":
- "Tuchlauben"
-}, {
+ "Tagebuch, 19. Dezember 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "Esther",
+ "ref":
+ "pmb30827"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tuchlauben",
+ "ref":
+ "pmb790"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -112,55 +139,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-12-19",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-12-19.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 19. Dezember 1899",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Leopoldine Müller",
- "ref":
- "person_18303"}],
- "listBibl":
-  [
- {
- "title":
- "Die Gefährtin. Schauspiel in einem Akt",
- "ref":
- "pmb29845"}
- ,  {
- "title":
- "Paracelsus. Versspiel in einem Akt",
- "ref":
- "pmb30403"}
- ,  {
- "title":
- "Esther",
- "ref":
- "pmb30827"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Tuchlauben",
- "ref":
- "pmb790"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/790/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/790/",
+ "head":
+ "Tuchlauben",
+ "desc":
+{
+}
+}, ] 

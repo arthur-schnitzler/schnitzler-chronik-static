@@ -1,30 +1,92 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91735/",
+ "entry__1910-07-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-07.html",
  "head":
- "Semmering"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/413/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/413/",
- "head":
- "Südbahnhotel"
-}, {
+ "Tagebuch, 7. Juli 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "person_14730"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Julie Markbreiter",
+ "ref":
+ "person_17904"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Mörderin",
+ "ref":
+ "pmb33792"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pinkenkogel",
+ "ref":
+ "pmb91482"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -134,90 +196,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-07-07",
+ "entity/91735/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
  "head":
- "Tagebuch, 7. Juli 1910",
+ "Semmering",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Arthur Eloesser",
- "ref":
- "person_14730"},
- {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Margarethe Kainz",
- "ref":
- "person_16647"},
- {
- "persName":
- "Julie Markbreiter",
- "ref":
- "person_17904"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Karl Schnitzler",
- "ref":
- "person_19828"},
- {
- "persName":
- "Anna Donath",
- "ref":
- "person_14481"},
- {
- "persName":
- "Clara Jonas",
- "ref":
- "person_16572"}],
- "listBibl":
-  [
- {
- "title":
- "Die Mörderin",
- "ref":
- "pmb33792"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pinkenkogel",
- "ref":
- "pmb91482"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/413/",
+ "head":
+ "Südbahnhotel",
+ "desc":
+{
+}
+}, ] 

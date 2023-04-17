@@ -1,29 +1,73 @@
 [{
  "type":
- "pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp014",
+ "entry__1896-12-17",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp014.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-12-17.html",
  "head":
- "Tagebuch von Arthur Schnitzler, 1. Januar 1896 – 21. Februar 1897"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
+ "Tagebuch, 17. Dezember 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "person_13581"},
+ {
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Anna Epstein",
+ "ref":
+ "person_14772"},
+ {
+ "persName":
+ "Eduard von Paümann",
+ "ref":
+ "person_18678"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Therese Horn",
+ "ref":
+ "person_16366"},
+ {
+ "persName":
+ "Rudolf Pick",
+ "ref":
+ "person_18780"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -117,95 +161,19 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "pollaczek",
  "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Eugen Deimel an Arthur Schnitzler, 17.12.1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Eugen Deimel",
- "ref":
- "https://d-nb.info/gnd/124896847"}],
- "bibl":
- "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1896-12-17",
+ "ckp014",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-12-17.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp014.html",
  "head":
- "Tagebuch, 17. Dezember 1896",
+ "Tagebuch von Arthur Schnitzler, 1. Januar 1896 – 21. Februar 1897",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marianne Benedict",
- "ref":
- "person_13581"},
- {
- "persName":
- "Eugen Deimel",
- "ref":
- "person_14386"},
- {
- "persName":
- "Anna Epstein",
- "ref":
- "person_14772"},
- {
- "persName":
- "Eduard von Paümann",
- "ref":
- "person_18678"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Therese Horn",
- "ref":
- "person_16366"},
- {
- "persName":
- "Rudolf Pick",
- "ref":
- "person_18780"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Hermine von Schaffgotsch",
- "ref":
- "person_19611"}],
- "listPlace":
-  [
- {
- "placeName":
- "Vereinigte Staaten von Amerika (USA)",
- "ref":
- "pmb43406"}
- ]
 }
 }, {
  "type":
@@ -376,4 +344,43 @@
  "pmb43406"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 17.12.1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "https://d-nb.info/gnd/124896847"}],
+ "bibl":
+ ", "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}
+}, ] 

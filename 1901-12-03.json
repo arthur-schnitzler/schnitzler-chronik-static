@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#zd58d226-ca44-4dfa-b10c-81551ef4de77",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Rainer Maria Rilke an Arthur Schnitzler, 3.12.1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Rainer Maria Rilke",
- "ref":
- "https://d-nb.info/gnd/118601024"}],
- "bibl":
- "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -55,4 +20,43 @@
  "ref":
  "person_19351"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#zd58d226-ca44-4dfa-b10c-81551ef4de77",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Rainer Maria Rilke an Arthur Schnitzler, 3.12.1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rainer Maria Rilke",
+ "ref":
+ "https://d-nb.info/gnd/118601024"}],
+ "bibl":
+ ", "source":
+ "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."
+}
+}, ] 

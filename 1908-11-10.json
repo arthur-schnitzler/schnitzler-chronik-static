@@ -1,16 +1,63 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-11-10",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-10.html",
  "head":
- "Wien"
+ "Tagebuch, 10. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Hansi Niese",
+ "ref":
+ "person_18450"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ,  {
+ "title":
+ "Variationen über ein Thema von Joseph Haydn op. 56a",
+ "ref":
+ "pmb78225"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -124,66 +171,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-11-10",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-10.html",
- "head":
- "Tagebuch, 10. November 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Johannes Brahms",
- "ref":
- "person_13914"},
- {
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"},
- {
- "persName":
- "Hansi Niese",
- "ref":
- "person_18450"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Irene Mandl",
- "ref":
- "person_17822"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Das Vermächtnis. Schauspiel in drei Akten",
- "ref":
- "pmb30219"}
- ,  {
- "title":
- "Variationen über ein Thema von Joseph Haydn op. 56a",
- "ref":
- "pmb78225"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -283,4 +270,20 @@
  "pmb29398"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

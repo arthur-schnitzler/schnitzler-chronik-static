@@ -1,69 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91681/",
+ "entry__1898-07-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91681/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-18.html",
  "head":
- "Schladming"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/41003/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/41003/",
- "head":
- "Bischofshofen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/996/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/996/",
- "head":
- "St. Johann im Pongau"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/840/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/840/",
- "head":
- "Bruck an der Mur"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/34194/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/34194/",
- "head":
- "Fusch an der Großglocknerstraße"
-}, {
+ "Tagebuch, 18. Juli 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "person_16294"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schladming",
+ "ref":
+ "pmb91681"}
+ ,  {
+ "placeName":
+ "Bischofshofen",
+ "ref":
+ "pmb41003"}
+ ,  {
+ "placeName":
+ "St. Johann im Pongau",
+ "ref":
+ "pmb996"}
+ ,  {
+ "placeName":
+ "Bruck an der Mur",
+ "ref":
+ "pmb840"}
+ ,  {
+ "placeName":
+ "Fusch an der Großglocknerstraße",
+ "ref":
+ "pmb34194"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -200,6 +185,86 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91681/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91681/",
+ "head":
+ "Schladming",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41003/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41003/",
+ "head":
+ "Bischofshofen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/996/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/996/",
+ "head":
+ "St. Johann im Pongau",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/840/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/840/",
+ "head":
+ "Bruck an der Mur",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34194/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34194/",
+ "head":
+ "Fusch an der Großglocknerstraße",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
@@ -218,6 +283,7 @@
  "ref":
  "https://d-nb.info/gnd/116882670"}],
  "bibl":
+ ", "source":
  "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
 }
 }, {
@@ -240,56 +306,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-07-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-18.html",
- "head":
- "Tagebuch, 18. Juli 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo August von Hofmannsthal",
- "ref":
- "person_16294"}],
- "listPlace":
-  [
- {
- "placeName":
- "Schladming",
- "ref":
- "pmb91681"}
- ,  {
- "placeName":
- "Bischofshofen",
- "ref":
- "pmb41003"}
- ,  {
- "placeName":
- "St. Johann im Pongau",
- "ref":
- "pmb996"}
- ,  {
- "placeName":
- "Bruck an der Mur",
- "ref":
- "pmb840"}
- ,  {
- "placeName":
- "Fusch an der Großglocknerstraße",
- "ref":
- "pmb34194"}
- ]
-}
-}] 
+}, ] 

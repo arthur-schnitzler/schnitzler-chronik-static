@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1916-12-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-12-21.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 21. Dezember 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Coriolan, Ouvertüre op. 62",
+ "ref":
+ "pmb30663"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -63,6 +95,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
@@ -81,6 +129,7 @@
  "ref":
  "https://d-nb.info/gnd/118625527"}],
  "bibl":
+ ", "source":
  "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
 }
 }, {
@@ -103,51 +152,7 @@
  "ref":
  "https://d-nb.info/gnd/124896847"}],
  "bibl":
+ ", "source":
  "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1916-12-21",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-12-21.html",
- "head":
- "Tagebuch, 21. Dezember 1916",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Karl Schnitzler",
- "ref":
- "person_19828"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Coriolan, Ouvertüre op. 62",
- "ref":
- "pmb30663"}
- ]
-}
-}] 
+}, ] 

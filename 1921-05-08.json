@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/45258/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
- "head":
- "München"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/52580/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/52580/",
- "head":
- "Parkhotel München"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02366",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02366.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, 8. 5. 1921",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"}],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Hasenauerstraße",
- "ref":
- "pmb383"}
- ,  {
- "placeName":
- "Isar",
- "ref":
- "pmb52586"}
- ,  {
- "placeName":
- "Harlaching",
- "ref":
- "pmb52583"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -147,4 +71,86 @@
  "pmb90589"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02366",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02366.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 8. 5. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ,  {
+ "placeName":
+ "Isar",
+ "ref":
+ "pmb52586"}
+ ,  {
+ "placeName":
+ "Harlaching",
+ "ref":
+ "pmb52583"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/52580/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/52580/",
+ "head":
+ "Parkhotel München",
+ "desc":
+{
+}
+}, ] 

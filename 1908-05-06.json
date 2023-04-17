@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45258/",
+ "entry__1908-05-06",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-06.html",
  "head":
- "München"
+ "Tagebuch, 6. Mai 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Freksa",
+ "ref":
+ "person_15167"},
+ {
+ "persName":
+ "Max Bernstein",
+ "ref":
+ "person_13682"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Barock",
+ "ref":
+ "pmb80537"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -73,63 +95,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Max Reinhardt an Arthur Schnitzler, 6.5.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Reinhardt",
- "ref":
- "https://d-nb.info/gnd/118599380"}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-05-06",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-06.html",
- "head":
- "Tagebuch, 6. Mai 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Friedrich Freksa",
- "ref":
- "person_15167"},
- {
- "persName":
- "Max Bernstein",
- "ref":
- "person_13682"}],
- "listBibl":
-  [
- {
- "title":
- "Barock",
- "ref":
- "pmb80537"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -188,4 +153,43 @@
  "pmb220"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Max Reinhardt an Arthur Schnitzler, 6.5.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "https://d-nb.info/gnd/118599380"}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, ] 

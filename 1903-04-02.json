@@ -1,16 +1,61 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-04-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-04-02.html",
  "head":
- "Wien"
+ "Tagebuch, 2. April 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Ludwig Deutsch-German",
+ "ref":
+ "person_14431"},
+ {
+ "persName":
+ "Eleonora Duse",
+ "ref":
+ "person_14574"},
+ {
+ "persName":
+ "Edmund Markbreiter",
+ "ref":
+ "person_17899"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Hedda Gabler",
+ "ref":
+ "pmb29915"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -125,64 +170,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-04-02",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-04-02.html",
- "head":
- "Tagebuch, 2. April 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alfred Ludwig Deutsch-German",
- "ref":
- "person_14431"},
- {
- "persName":
- "Eleonora Duse",
- "ref":
- "person_14574"},
- {
- "persName":
- "Edmund Markbreiter",
- "ref":
- "person_17899"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listBibl":
-  [
- {
- "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ,  {
- "title":
- "Hedda Gabler",
- "ref":
- "pmb29915"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Vereinigte Staaten von Amerika (USA)",
- "ref":
- "pmb43406"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -244,4 +231,20 @@
  "pmb43406"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

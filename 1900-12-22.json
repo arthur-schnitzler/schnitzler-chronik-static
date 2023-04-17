@@ -1,17 +1,69 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1900-12-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-22.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 22. Dezember 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "person_20219"},
+ {
+ "persName":
+ "Hermine Klara Hanel",
+ "ref":
+ "person_15900"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der blinde Geronimo und sein Bruder",
+ "ref":
+ "pmb30649"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Nora oder ein Puppenheim",
+ "ref":
+ "pmb31395"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -76,6 +128,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b",
@@ -94,6 +162,7 @@
  "ref":
  "https://d-nb.info/gnd/118550241"}],
  "bibl":
+ ", "source":
  "Theodor Herzl: Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen 1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)"
 }
 }, {
@@ -116,71 +185,7 @@
  "ref":
  "https://d-nb.info/gnd/118550241"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1900-12-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-22.html",
- "head":
- "Tagebuch, 22. Dezember 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Leopoldine Müller",
- "ref":
- "person_18303"},
- {
- "persName":
- "Agnes Sorma",
- "ref":
- "person_20219"},
- {
- "persName":
- "Hermine Klara Hanel",
- "ref":
- "person_15900"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Der blinde Geronimo und sein Bruder",
- "ref":
- "pmb30649"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Literatur",
- "ref":
- "pmb29869"}
- ,  {
- "title":
- "Nora oder ein Puppenheim",
- "ref":
- "pmb31395"}
- ]
-}
-}] 
+}, ] 

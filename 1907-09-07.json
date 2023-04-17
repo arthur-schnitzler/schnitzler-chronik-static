@@ -1,17 +1,40 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/43520/",
+ "entry__1907-09-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/43520/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-09-07.html",
  "head":
- "Meran"
-}, {
+ "Tagebuch, 7. September 1907",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lana",
+ "ref":
+ "pmb91109"}
+ ,  {
+ "placeName":
+ "Gaulschlucht",
+ "ref":
+ "pmb92252"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -70,38 +93,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1907-09-07",
+ "entity/43520/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-09-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/43520/",
  "head":
- "Tagebuch, 7. September 1907",
+ "Meran",
  "desc":
-{"listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Lana",
- "ref":
- "pmb91109"}
- ,  {
- "placeName":
- "Gaulschlucht",
- "ref":
- "pmb92252"}
- ]
+{
 }
-}] 
+}, ] 

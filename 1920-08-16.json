@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1920-08-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-16.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 16. August 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "person_16355"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Grimmenstein",
+ "ref":
+ "pmb90767"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -191,6 +236,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
@@ -209,64 +270,7 @@
  "ref":
  "https://d-nb.info/gnd/116848510"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1920-08-16",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-16.html",
- "head":
- "Tagebuch, 16. August 1920",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lucy von Jacobi",
- "ref":
- "person_16469"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Franz Horch",
- "ref":
- "person_16355"},
- {
- "persName":
- "Ruth Lindberg",
- "ref":
- "person_17562"}],
- "listBibl":
-  [
- {
- "title":
- "Der Gang zum Weiher. Dramatische Dichtung",
- "ref":
- "pmb30775"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Grimmenstein",
- "ref":
- "pmb90767"}
- ]
-}
-}] 
+}, ] 

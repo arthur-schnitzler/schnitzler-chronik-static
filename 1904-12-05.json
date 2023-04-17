@@ -1,16 +1,73 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-12-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-12-05.html",
  "head":
- "Wien"
+ "Tagebuch, 5. Dezember 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Gurschner",
+ "ref":
+ "person_15755"},
+ {
+ "persName":
+ "Philipp von Haas-Teichen",
+ "ref":
+ "person_15817"},
+ {
+ "persName":
+ "Otto Tressler",
+ "ref":
+ "person_20803"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "person_15919"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "person_16294"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Fall Jacobsohn",
+ "ref":
+ "pmb30983"}
+ ,  {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Tristan und Isolde",
+ "ref":
+ "pmb29897"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -174,76 +231,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-12-05",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-12-05.html",
- "head":
- "Tagebuch, 5. Dezember 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustav Gurschner",
- "ref":
- "person_15755"},
- {
- "persName":
- "Philipp von Haas-Teichen",
- "ref":
- "person_15817"},
- {
- "persName":
- "Otto Tressler",
- "ref":
- "person_20803"},
- {
- "persName":
- "Maximilian Harden",
- "ref":
- "person_15919"},
- {
- "persName":
- "Hugo August von Hofmannsthal",
- "ref":
- "person_16294"}],
- "listBibl":
-  [
- {
- "title":
- "Der Fall Jacobsohn",
- "ref":
- "pmb30983"}
- ,  {
- "title":
- "Der Puppenspieler",
- "ref":
- "pmb29873"}
- ,  {
- "title":
- "Literatur",
- "ref":
- "pmb29869"}
- ,  {
- "title":
- "Die letzten Masken",
- "ref":
- "pmb29877"}
- ,  {
- "title":
- "Tristan und Isolde",
- "ref":
- "pmb29897"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -315,4 +302,20 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

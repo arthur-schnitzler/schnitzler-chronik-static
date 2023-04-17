@@ -1,30 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-08-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-18.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
-}, {
+ "Tagebuch, 18. August 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Oskar Friedrich Eirich",
+ "ref":
+ "person_14673"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Leopold Müller",
+ "ref":
+ "person_18302"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -367,70 +409,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1893-08-18",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-18.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 18. August 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Auguste Chlum",
- "ref":
- "person_14199"},
- {
- "persName":
- "Oskar Friedrich Eirich",
- "ref":
- "person_14673"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Leopold Müller",
- "ref":
- "person_18302"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"}],
- "listBibl":
-  [
- {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ,  {
- "placeName":
  "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Sankt Moritz",
- "ref":
- "pmb44374"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

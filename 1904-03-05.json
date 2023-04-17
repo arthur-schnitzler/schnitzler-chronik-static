@@ -1,16 +1,33 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-03-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-05.html",
  "head":
- "Wien"
+ "Tagebuch, 5. März 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gleitenden",
+ "ref":
+ "pmb33780"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -63,36 +80,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-03-05",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-05.html",
- "head":
- "Tagebuch, 5. März 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"}],
- "listBibl":
-  [
- {
- "title":
- "Die Gleitenden",
- "ref":
- "pmb33780"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -141,4 +128,20 @@
  "pmb40306"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

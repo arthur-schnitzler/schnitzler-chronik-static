@@ -1,17 +1,92 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-06-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-11.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 11. Juni 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "person_13457"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Prager",
+ "ref":
+ "person_18945"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Wenn wir Toten erwachen",
+ "ref":
+ "pmb31403"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -113,6 +188,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -131,94 +222,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1909-06-11",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-11.html",
- "head":
- "Tagebuch, 11. Juni 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Albert Bassermann",
- "ref":
- "person_13457"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Max Reinhardt",
- "ref":
- "person_19154"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Julie Wassermann",
- "ref":
- "person_21109"},
- {
- "persName":
- "Prager",
- "ref":
- "person_18945"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"}],
- "listBibl":
-  [
- {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Der Ruf des Lebens. Schauspiel in drei Akten",
- "ref":
- "pmb29905"}
- ,  {
- "title":
- "Wenn wir Toten erwachen",
- "ref":
- "pmb31403"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Meissl &amp; Schadn",
- "ref":
- "pmb96"}
- ]
-}
-}] 
+}, ] 

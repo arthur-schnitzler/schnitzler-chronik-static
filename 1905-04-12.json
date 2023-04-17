@@ -1,17 +1,27 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1905-04-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-04-12.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 12. April 1905",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -69,6 +79,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -88,29 +114,7 @@
  "ref":
  "https://d-nb.info/gnd/116281774"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1905-04-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-04-12.html",
- "head":
- "Tagebuch, 12. April 1905",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Der Ruf des Lebens. Schauspiel in drei Akten",
- "ref":
- "pmb29905"}
- ]
-}
-}] 
+}, ] 

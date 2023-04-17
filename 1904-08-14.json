@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -22,7 +9,10 @@
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_K4_*H1",
  "head":
  "Zum großen Wurstel, K4 erschl. hsl. Werkniederschrift 1, Von 14. August 1904 bis 28.
-            September 1904"
+            September 1904",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -78,4 +68,20 @@
  "pmb29903"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

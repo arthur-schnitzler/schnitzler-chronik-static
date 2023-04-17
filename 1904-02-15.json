@@ -1,16 +1,96 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1904-02-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-15.html",
  "head":
- "Berlin"
+ "Tagebuch, 15. Februar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "person_14472"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "person_16477"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "person_16632"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Franz Wolfbauer",
+ "ref":
+ "person_21434"},
+ {
+ "persName":
+ "Marianne Wulf",
+ "ref":
+ "person_21477"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Potsdam",
+ "ref":
+ "pmb56027"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -130,99 +210,6 @@
  "Konradstraße",
  "ref":
  "pmb1241"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-02-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-15.html",
- "head":
- "Tagebuch, 15. Februar 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Auguste Chlum",
- "ref":
- "person_14199"},
- {
- "persName":
- "Felix Dörmann",
- "ref":
- "person_14472"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Siegfried Jacobsohn",
- "ref":
- "person_16477"},
- {
- "persName":
- "Arthur Kahane",
- "ref":
- "person_16632"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"},
- {
- "persName":
- "Franz Wolfbauer",
- "ref":
- "person_21434"},
- {
- "persName":
- "Marianne Wulf",
- "ref":
- "person_21477"},
- {
- "persName":
- "Mirjam Horwitz",
- "ref":
- "person_21546"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Potsdam",
- "ref":
- "pmb56027"}
  ]
 }
 }, {
@@ -524,4 +511,20 @@
  "pmb29221"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, ] 

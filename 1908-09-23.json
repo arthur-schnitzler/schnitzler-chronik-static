@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Peter Nansen an Arthur Schnitzler, 23.9.1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Peter Nansen",
- "ref":
- "https://d-nb.info/gnd/116882670"}],
- "bibl":
- "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Franz Servaes, 23. 9. 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franz Servaes",
- "ref":
- "https://d-nb.info/gnd/117467979"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -130,4 +73,66 @@
  "pmb81252"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Peter Nansen an Arthur Schnitzler, 23.9.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Nansen",
+ "ref":
+ "https://d-nb.info/gnd/116882670"}],
+ "bibl":
+ ", "source":
+ "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Franz Servaes, 23. 9. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Servaes",
+ "ref":
+ "https://d-nb.info/gnd/117467979"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

@@ -1,17 +1,36 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-07-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-07-29.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 29. Juli 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Karl Peter Rosner",
+ "ref":
+ "person_19397"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -81,6 +100,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#i9ac725a-7aa1-4b66-9aaa-3fb96c91d495",
@@ -99,38 +134,7 @@
  "ref":
  "https://d-nb.info/gnd/118550241"}],
  "bibl":
+ ", "source":
  "Theodor Herzl: Briefe und autobiographische Notizen. 1866–1895. Bearbeitet von Johannes Wachten in Zusammenarbeit mit Chaya Harel, Daisy Tycho, Manfred Winkler. Berlin: Propyläen 1983. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps. Erster Band)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-07-29",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-07-29.html",
- "head":
- "Tagebuch, 29. Juli 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Karl Peter Rosner",
- "ref":
- "person_19397"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"}]
-}
-}] 
+}, ] 

@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90956/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90956/",
- "head":
- "Jenbach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90186/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90186/",
- "head":
- "Achen Lake"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/424/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/424/",
- "head":
- "Bad Tölz"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j4f39377-ae1d-48c1-9afa-6e4618284c9a",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Theodor Herzl an Arthur Schnitzler, 25.8.1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Herzl",
- "ref":
- "https://d-nb.info/gnd/118550241"}],
- "bibl":
- "Theodor Herzl: Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho. Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter Band)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -104,4 +43,75 @@
  "pmb424"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90956/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90956/",
+ "head":
+ "Jenbach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90186/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90186/",
+ "head":
+ "Achen Lake",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/424/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/424/",
+ "head":
+ "Bad Tölz",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j4f39377-ae1d-48c1-9afa-6e4618284c9a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 25.8.1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "https://d-nb.info/gnd/118550241"}],
+ "bibl":
+ ", "source":
+ "Theodor Herzl: Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho. Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter Band)"
+}
+}, ] 

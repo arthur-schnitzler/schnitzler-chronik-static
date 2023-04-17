@@ -1,16 +1,71 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-02-12",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-02-12.html",
  "head":
- "Wien"
+ "Tagebuch, 12. Februar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Joseph Victor Widmann",
+ "ref":
+ "person_21294"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"},
+ {
+ "persName":
+ "Jonas Fraenkel",
+ "ref":
+ "person_15101"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Währing",
+ "ref":
+ "pmb90546"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -86,74 +141,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-02-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-02-12.html",
- "head":
- "Tagebuch, 12. Februar 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gerhart Hauptmann",
- "ref":
- "person_15980"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Joseph Victor Widmann",
- "ref":
- "person_21294"},
- {
- "persName":
- "Ida d’Albert",
- "ref":
- "person_13131"},
- {
- "persName":
- "Jonas Fraenkel",
- "ref":
- "person_15101"},
- {
- "persName":
- "Gustav Mahler",
- "ref":
- "person_17786"}],
- "listBibl":
-  [
- {
- "title":
- "Das Wort. Tragikomödie in fünf Akten",
- "ref":
- "pmb30615"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ,  {
- "placeName":
- "Währing",
- "ref":
- "pmb90546"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -225,4 +212,20 @@
  "pmb463"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

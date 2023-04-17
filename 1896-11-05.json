@@ -1,99 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/168/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
- "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00617",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00617.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Isidor Singer",
- "ref":
- "pmb12790"},
- {
- "persName":
- "Heinrich Kanner",
- "ref":
- "pmb11867"}],
- "listBibl":
-  [
- {
- "title":
- "Freiwild. Schauspiel in 3 Akten",
- "ref":
- "pmb29899"}
- ,  {
- "title":
- "Die Frau des Weisen. Erzählung",
- "ref":
- "pmb30075"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Die Zeit. Wiener Wochenschrift",
- "ref":
- "pmb29209"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Günthergasse",
- "ref":
- "pmb296"}
- ,  {
- "placeName":
- "Deutsches Theater Berlin",
- "ref":
- "pmb3"}
- ,  {
- "placeName":
- "Frankgasse",
- "ref":
- "pmb397"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -194,6 +100,87 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00617",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00617.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Die Frau des Weisen. Erzählung",
+ "ref":
+ "pmb30075"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Günthergasse",
+ "ref":
+ "pmb296"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -268,4 +255,20 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, ] 

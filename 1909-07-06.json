@@ -1,96 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/470/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/470/",
- "head":
- "Edlach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/714/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/714/",
- "head":
- "Hotel Edlacherhof"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01853",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01853.html",
- "head":
- "Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, 6. 7. 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "pmb12692"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "pmb10860"}],
- "listPlace":
-  [
- {
- "placeName":
- "Edlach",
- "ref":
- "pmb470"}
- ,  {
- "placeName":
- "Pichl am See",
- "ref":
- "pmb41102"}
- ,  {
- "placeName":
- "Hotel Pichl-Auhof",
- "ref":
- "pmb51987"}
- ,  {
- "placeName":
- "Schneeberg",
- "ref":
- "pmb27068"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -190,6 +99,71 @@
  "Paris",
  "ref":
  "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01853",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01853.html",
+ "head":
+ "Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, 6. 7. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Pichl am See",
+ "ref":
+ "pmb41102"}
+ ,  {
+ "placeName":
+ "Hotel Pichl-Auhof",
+ "ref":
+ "pmb51987"}
+ ,  {
+ "placeName":
+ "Schneeberg",
+ "ref":
+ "pmb27068"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
@@ -300,4 +274,36 @@
  "pmb182"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof",
+ "desc":
+{
+}
+}, ] 

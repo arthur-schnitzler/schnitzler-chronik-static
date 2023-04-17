@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -60,7 +47,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_PT6_0001",
  "head":
- "Fräulein Else, msl. Stoffnotiz 6, unsicher"
+ "Fräulein Else, msl. Stoffnotiz 6, unsicher",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -71,7 +61,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_PT7_0001",
  "head":
- "Fräulein Else, msl. Stoffnotiz 7, unsicher"
+ "Fräulein Else, msl. Stoffnotiz 7, unsicher",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -82,7 +75,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_PT8_0001",
  "head":
- "Fräulein Else, msl. Stoffnotiz 8, unsicher"
+ "Fräulein Else, msl. Stoffnotiz 8, unsicher",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -93,7 +89,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_PT9_0001",
  "head":
- "Fräulein Else, msl. Stoffnotiz 9, unsicher"
+ "Fräulein Else, msl. Stoffnotiz 9, unsicher",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -305,4 +304,20 @@
  "pmb77187"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

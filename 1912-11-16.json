@@ -1,16 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1912-11-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-16.html",
  "head":
- "Wien"
+ "Tagebuch, 16. November 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Hartau",
+ "ref":
+ "person_15936"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -68,46 +95,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-11-16",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-16.html",
- "head":
- "Tagebuch, 16. November 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ludwig Hartau",
- "ref":
- "person_15936"},
- {
- "persName":
- "Adolf von Sonnenthal",
- "ref":
- "person_20204"},
- {
- "persName":
- "Victor Barnowsky",
- "ref":
- "person_13428"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -161,4 +148,20 @@
  "pmb30"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

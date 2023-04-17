@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-01-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-01-22.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 22. Januar 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -61,6 +88,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
@@ -79,46 +122,7 @@
  "ref":
  "https://d-nb.info/gnd/118637479"}],
  "bibl":
+ ", "source":
  "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-01-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-01-22.html",
- "head":
- "Tagebuch, 22. Januar 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Jacob Pollak",
- "ref":
- "person_18884"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
-}
-}] 
+}, ] 

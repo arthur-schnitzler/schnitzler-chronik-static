@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#wbbaa189-e228-4270-9326-f15d55d5a5c5",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Otto Benzon, 18.2.1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Benzon",
- "ref":
- "https://d-nb.info/gnd/130100854"}],
- "bibl":
- "Ernst-Ullrich Pinkert: Arthur Schnitzlers Briefe nach Dänemark. Roskilde: Roskilde Universitet 2006. (Småskrifter fra CØNK, 19)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -121,4 +86,43 @@
  "pmb14"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wbbaa189-e228-4270-9326-f15d55d5a5c5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Benzon, 18.2.1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Benzon",
+ "ref":
+ "https://d-nb.info/gnd/130100854"}],
+ "bibl":
+ ", "source":
+ "Ernst-Ullrich Pinkert: Arthur Schnitzlers Briefe nach Dänemark. Roskilde: Roskilde Universitet 2006. (Småskrifter fra CØNK, 19)"
+}
+}, ] 

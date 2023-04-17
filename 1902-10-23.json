@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1902-10-23",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-10-23.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 23. Oktober 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Eisenschitz",
+ "ref":
+ "person_14686"},
+ {
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ernst des Lebens",
+ "ref":
+ "pmb46323"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,62 +136,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1902-10-23",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-10-23.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 23. Oktober 1902",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Otto Eisenschitz",
- "ref":
- "person_14686"},
- {
- "persName":
- "Jacob Pollak",
- "ref":
- "person_18884"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Julie Wassermann",
- "ref":
- "person_21109"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Der Ernst des Lebens",
- "ref":
- "pmb46323"}
- ]
 }
-}] 
+}, ] 

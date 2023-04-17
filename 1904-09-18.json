@@ -1,31 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/30/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
- "head":
- "Salzburg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/40804/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40804/",
- "head":
- "Hotel und Pension Nelböck"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -34,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_K4_NH1_0001",
  "head":
- "Zum großen Wurstel, K4 hsl. Notiz 1, zwischen 10. und 19. September 1904"
+ "Zum großen Wurstel, K4 hsl. Notiz 1, zwischen 10. und 19. September 1904",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -163,4 +140,36 @@
  "pmb29390"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40804/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40804/",
+ "head":
+ "Hotel und Pension Nelböck",
+ "desc":
+{
+}
+}, ] 

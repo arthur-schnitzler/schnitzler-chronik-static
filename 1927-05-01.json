@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/462/",
+ "entry__1927-05-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-05-01.html",
  "head":
- "Venedig"
-}, {
+ "Tagebuch, 1. Mai 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Horn",
+ "ref":
+ "person_16362"},
+ {
+ "persName":
+ "Margarete von Klimbacher",
+ "ref":
+ "person_16908"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Julia Rabelbauer",
+ "ref":
+ "person_19017"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -69,6 +111,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/462/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#n0827e77-245d-4359-a0b0-5b601a5370ee",
@@ -87,61 +145,7 @@
  "ref":
  "https://d-nb.info/gnd/11872181X"}],
  "bibl":
+ ", "source":
  "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1927-05-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-05-01.html",
- "head":
- "Tagebuch, 1. Mai 1927",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Charlotte Horn",
- "ref":
- "person_16362"},
- {
- "persName":
- "Margarete von Klimbacher",
- "ref":
- "person_16908"},
- {
- "persName":
- "Vilma Lichtenstern",
- "ref":
- "person_17510"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Julia Rabelbauer",
- "ref":
- "person_19017"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}] 
+}, ] 

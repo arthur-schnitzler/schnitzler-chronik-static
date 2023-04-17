@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01677",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01677.html",
- "head":
- "Arthur Schnitzler an Hermann Bahr, 20. 5. 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Anna Bahr-Mildenburg",
- "ref":
- "pmb10818"}],
- "listBibl":
-  [
- {
- "title":
- "Brehms Tierleben",
- "ref":
- "pmb30011"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Ober Sankt Veit",
- "ref":
- "pmb165"}
- ,  {
- "placeName":
- "Veitlissengasse",
- "ref":
- "pmb220"}
- ,  {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
- ,  {
- "placeName":
- "Lido",
- "ref":
- "pmb259"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -169,6 +93,69 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01677",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01677.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 20. 5. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Brehms Tierleben",
+ "ref":
+ "pmb30011"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Veitlissengasse",
+ "ref":
+ "pmb220"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb259"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -225,4 +212,20 @@
  "pmb957"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

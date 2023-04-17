@@ -1,17 +1,87 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-10-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-09.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 9. Oktober 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Josef Kerausch",
+ "ref":
+ "person_16813"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der tapfere Kassian. Singspiel",
+ "ref":
+ "pmb46124"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Abgeschossen. Österreichischer Militär-Roman",
+ "ref":
+ "pmb78819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ,  {
+ "placeName":
+ "Griensteidl",
+ "ref":
+ "pmb92258"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -106,85 +176,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-10-09",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-09.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 9. Oktober 1910",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ernst von Dohnányi",
- "ref":
- "person_14473"},
- {
- "persName":
- "Josef Kerausch",
- "ref":
- "person_16813"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Oscar Straus",
- "ref":
- "person_20490"},
- {
- "persName":
- "Samuel Fischer",
- "ref":
- "person_15009"}],
- "listBibl":
-  [
- {
- "title":
- "Der tapfere Kassian. Singspiel",
- "ref":
- "pmb46124"}
- ,  {
- "title":
- "Der Schleier der Pierrette",
- "ref":
- "pmb30215"}
- ,  {
- "title":
- "Abgeschossen. Österreichischer Militär-Roman",
- "ref":
- "pmb78819"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Dornbacher Park",
- "ref":
- "pmb176"}
- ,  {
- "placeName":
- "Griensteidl",
- "ref":
- "pmb92258"}
- ]
 }
-}] 
+}, ] 

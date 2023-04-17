@@ -1,17 +1,45 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90837/",
+ "entry__1896-07-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90837/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-17.html",
  "head":
- "Harstad"
-}, {
+ "Tagebuch, 17. Juli 1896",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lofoten",
+ "ref":
+ "pmb91161"}
+ ,  {
+ "placeName":
+ "Harstad",
+ "ref":
+ "pmb90837"}
+ ,  {
+ "placeName":
+ "Norwegen",
+ "ref":
+ "pmb64465"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -99,6 +127,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90837/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90837/",
+ "head":
+ "Harstad",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#q0f31f7c-c385-4bdd-b199-e671f4a30389",
@@ -117,47 +161,7 @@
  "ref":
  "https://d-nb.info/gnd/123368790"}],
  "bibl":
+ ", "source":
  "Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-07-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-17.html",
- "head":
- "Tagebuch, 17. Juli 1896",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Freiwild. Schauspiel in 3 Akten",
- "ref":
- "pmb29899"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Lofoten",
- "ref":
- "pmb91161"}
- ,  {
- "placeName":
- "Harstad",
- "ref":
- "pmb90837"}
- ,  {
- "placeName":
- "Norwegen",
- "ref":
- "pmb64465"}
- ]
-}
-}] 
+}, ] 

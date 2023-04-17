@@ -1,78 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01600",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01600.html",
- "head":
- "Mirjam Beer-Hofmann an Olga Schnitzler, 12. 6. 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Mirjam Beer-Hofmann",
- "ref":
- "pmb2668"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listPlace":
-  [
- {
- "placeName":
- "Dahmsdorf",
- "ref":
- "pmb50112"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Buckow",
- "ref":
- "pmb50107"}
- ,  {
- "placeName":
- "Neue Promenade",
- "ref":
- "pmb50109"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -139,4 +66,80 @@
  "pmb89410"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01600",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01600.html",
+ "head":
+ "Mirjam Beer-Hofmann an Olga Schnitzler, 12. 6. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dahmsdorf",
+ "ref":
+ "pmb50112"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Buckow",
+ "ref":
+ "pmb50107"}
+ ,  {
+ "placeName":
+ "Neue Promenade",
+ "ref":
+ "pmb50109"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

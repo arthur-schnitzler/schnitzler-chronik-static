@@ -1,56 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/462/",
+ "entry__1903-06-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-02.html",
  "head":
- "Venedig"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44156/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44156/",
- "head":
- "Padua"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44151/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44151/",
- "head":
- "Vicenza"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50910/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50910/",
- "head":
- "Hotel Centrale Vapore"
-}, {
+ "Tagebuch, 2. Juni 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Giotto di Bondone",
+ "ref":
+ "person_15439"},
+ {
+ "persName":
+ "Andrea Mantegna",
+ "ref":
+ "person_17845"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Padua",
+ "ref":
+ "pmb44156"}
+ ,  {
+ "placeName":
+ "Vicenza",
+ "ref":
+ "pmb44151"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -115,47 +108,66 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1903-06-02",
+ "entity/462/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-02.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
  "head":
- "Tagebuch, 2. Juni 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Giotto di Bondone",
- "ref":
- "person_15439"},
- {
- "persName":
- "Andrea Mantegna",
- "ref":
- "person_17845"}],
- "listPlace":
-  [
- {
- "placeName":
  "Venedig",
- "ref":
- "pmb462"}
- ,  {
- "placeName":
- "Padua",
- "ref":
- "pmb44156"}
- ,  {
- "placeName":
- "Vicenza",
- "ref":
- "pmb44151"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44156/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44156/",
+ "head":
+ "Padua",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44151/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44151/",
+ "head":
+ "Vicenza",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50910/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50910/",
+ "head":
+ "Hotel Centrale Vapore",
+ "desc":
+{
+}
+}, ] 

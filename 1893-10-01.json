@@ -1,29 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-10-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-01.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
+ "Tagebuch, 1. Oktober 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Frid",
+ "ref":
+ "person_15194"},
+ {
+ "persName":
+ "Else Markbreiter",
+ "ref":
+ "person_17900"},
+ {
+ "persName":
+ "Caroline Piún",
+ "ref":
+ "person_18820"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "St. Andrä-Wördern",
+ "ref":
+ "pmb1246"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -154,61 +183,6 @@
  "Frankreich",
  "ref":
  "pmb166"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-10-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-01.html",
- "head":
- "Tagebuch, 1. Oktober 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gustav Frid",
- "ref":
- "person_15194"},
- {
- "persName":
- "Else Markbreiter",
- "ref":
- "person_17900"},
- {
- "persName":
- "Caroline Piún",
- "ref":
- "person_18820"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Leo Van-Jung",
- "ref":
- "person_20925"},
- {
- "persName":
- "Josefine Lydia von Weisswasser",
- "ref":
- "person_21214"}],
- "listPlace":
-  [
- {
- "placeName":
- "St. Andrä-Wördern",
- "ref":
- "pmb1246"}
  ]
 }
 }, {
@@ -354,4 +328,36 @@
  "pmb50"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

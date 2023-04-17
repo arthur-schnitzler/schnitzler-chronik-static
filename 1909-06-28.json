@@ -1,78 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01851",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01851.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 28. 6. 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "pmb12692"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listPlace":
-  [
- {
- "placeName":
- "Bayreuth",
- "ref":
- "pmb734"}
- ,  {
- "placeName":
- "Edlach",
- "ref":
- "pmb470"}
- ,  {
- "placeName":
- "Parsifalstraße",
- "ref":
- "pmb469"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ,  {
- "placeName":
- "Prag",
- "ref":
- "pmb652"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -171,6 +98,66 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01851",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01851.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 28. 6. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bayreuth",
+ "ref":
+ "pmb734"}
+ ,  {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Parsifalstraße",
+ "ref":
+ "pmb469"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -229,4 +216,20 @@
  "pmb652"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

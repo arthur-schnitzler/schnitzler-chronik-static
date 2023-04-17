@@ -1,43 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/967/",
+ "entry__1898-08-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-27.html",
  "head":
- "Luzern"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/36232/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/36232/",
- "head":
- "Alpnachstad"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44600/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44600/",
- "head":
- "Pilatus"
-}, {
+ "Tagebuch, 27. August 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmund von Herzfeld",
+ "ref":
+ "person_16155"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Alpnachstad",
+ "ref":
+ "pmb36232"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -157,6 +153,54 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/967/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "head":
+ "Luzern",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36232/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36232/",
+ "head":
+ "Alpnachstad",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44600/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44600/",
+ "head":
+ "Pilatus",
+ "desc":
+{
+}
+}, {
+ "type":
  "",
  "color":
  "",
@@ -167,39 +211,4 @@
                      Goldmann, zwischen 21. und 27. 8. 1898",
  "text":
  "L02861"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-08-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-27.html",
- "head":
- "Tagebuch, 27. August 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Edmund von Herzfeld",
- "ref":
- "person_16155"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"}],
- "listPlace":
-  [
- {
- "placeName":
- "Alpnachstad",
- "ref":
- "pmb36232"}
- ]
-}
-}] 
+}, ] 

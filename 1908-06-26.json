@@ -1,30 +1,77 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/988/",
+ "entry__1908-06-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-26.html",
  "head":
- "Seis am Schlern"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/467/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/467/",
- "head":
- "Villa Heufler"
-}, {
+ "Tagebuch, 26. Juni 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "David Feuchtwang",
+ "ref":
+ "person_14959"},
+ {
+ "persName":
+ "Auguste Hauschner",
+ "ref":
+ "person_15984"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Nju",
+ "ref":
+ "pmb79941"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burg Salegg",
+ "ref":
+ "pmb41156"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -144,6 +191,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/467/",
+ "head":
+ "Villa Heufler",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
@@ -162,79 +241,7 @@
  "ref":
  "https://d-nb.info/gnd/118599380"}],
  "bibl":
+ ", "source":
  "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-06-26",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-26.html",
- "head":
- "Tagebuch, 26. Juni 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Georg Brandes",
- "ref":
- "person_13920"},
- {
- "persName":
- "Ernst von Dohnányi",
- "ref":
- "person_14473"},
- {
- "persName":
- "David Feuchtwang",
- "ref":
- "person_14959"},
- {
- "persName":
- "Auguste Hauschner",
- "ref":
- "person_15984"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"}],
- "listBibl":
-  [
- {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Der Schleier der Pierrette",
- "ref":
- "pmb30215"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Nju",
- "ref":
- "pmb79941"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Burg Salegg",
- "ref":
- "pmb41156"}
- ]
-}
-}] 
+}, ] 

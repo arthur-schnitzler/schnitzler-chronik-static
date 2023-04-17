@@ -1,16 +1,43 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-01-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-27.html",
  "head":
- "Wien"
+ "Tagebuch, 27. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Emmanuel de Las Cases",
+ "ref":
+ "person_17335"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30609"}
+ ,  {
+ "title":
+ "Die Gespräche der Aloisia Sigaea",
+ "ref":
+ "pmb81007"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -82,68 +109,6 @@
  "Berlin",
  "ref":
  "pmb168"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 27.1.1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-01-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-27.html",
- "head":
- "Tagebuch, 27. Januar 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Friedrich Hebbel",
- "ref":
- "person_16009"},
- {
- "persName":
- "Emmanuel de Las Cases",
- "ref":
- "person_17335"}],
- "listBibl":
-  [
- {
- "title":
- "Tagebücher",
- "ref":
- "pmb30609"}
- ,  {
- "title":
- "Die Gespräche der Aloisia Sigaea",
- "ref":
- "pmb81007"}
  ]
 }
 }, {
@@ -372,4 +337,43 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 27.1.1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

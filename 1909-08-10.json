@@ -1,75 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/470/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/470/",
- "head":
- "Edlach"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/714/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/714/",
- "head":
- "Hotel Edlacherhof"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Raoul Auernheimer an Arthur Schnitzler, 10.8.1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Raoul Auernheimer",
- "ref":
- "https://d-nb.info/gnd/118505033"}],
- "bibl":
- "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm an Arthur Schnitzler, 10.8.1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -99,4 +29,82 @@
  "pmb91067"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Raoul Auernheimer an Arthur Schnitzler, 10.8.1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "https://d-nb.info/gnd/118505033"}],
+ "bibl":
+ ", "source":
+ "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 10.8.1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

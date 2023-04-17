@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01556",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01556.html",
- "head":
- "Hermann Bahr an Arthur Schnitzler, 4. 10. 1905",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listBibl":
-  [
- {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ,  {
- "title":
- "Der arme Narr",
- "ref":
- "pmb30001"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -176,6 +100,69 @@
  "Rat Schrimpf. Komödie in fünf Akten",
  "ref":
  "pmb30673"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01556",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01556.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 4. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Der arme Narr",
+ "ref":
+ "pmb30001"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
  ]
 }
 }, {
@@ -331,4 +318,20 @@
  "pmb30001"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,70 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net",
  "head":
- "Wien"
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-03-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-11.html",
+ "head":
+ "Tagebuch, 11. März 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Klaviertrio Nr. 4 B-Dur op. 11",
+ "ref":
+ "pmb77156"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Penzing",
+ "ref":
+ "pmb90913"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,68 +157,18 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
- "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
- "idno":
- "https://www.schnitzler-edition.net",
- "head":
- "Fink und Fliederbusch, Typoskript",
- "text":
- "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-03-11",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-11.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 11. März 1906",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Ludwig van Beethoven",
- "ref":
- "person_13555"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Klaviertrio Nr. 4 B-Dur op. 11",
- "ref":
- "pmb77156"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Neuwaldegg",
- "ref":
- "pmb170"}
- ,  {
- "placeName":
- "Penzing",
- "ref":
- "pmb90913"}
- ]
 }
-}] 
+}, ] 

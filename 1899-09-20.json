@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/146/",
+ "entry__1899-09-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/146/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-20.html",
  "head":
- "Frankfurt am Main"
-}, {
+ "Tagebuch, 20. September 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "H. von Halle",
+ "ref":
+ "person_15865"},
+ {
+ "persName":
+ "Otto? Liebmann",
+ "ref":
+ "person_17524"},
+ {
+ "persName":
+ "Max von Rosenberg",
+ "ref":
+ "person_19374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -68,47 +100,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1899-09-20",
+ "entity/146/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-20.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/146/",
  "head":
- "Tagebuch, 20. September 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "person_15529"},
- {
- "persName":
- "H. von Halle",
- "ref":
- "person_15865"},
- {
- "persName":
- "Otto? Liebmann",
- "ref":
- "person_17524"},
- {
- "persName":
- "Max von Rosenberg",
- "ref":
- "person_19374"}],
- "listPlace":
-  [
- {
- "placeName":
  "Frankfurt am Main",
- "ref":
- "pmb146"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

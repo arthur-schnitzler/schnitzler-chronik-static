@@ -1,101 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02433",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02433.html",
- "head":
- "Gertrud Rung an Arthur Schnitzler, 17. 2. 1925",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gertrud Rung",
- "ref":
- "pmb5558"},
- {
- "persName":
- "Georg Brandes",
- "ref":
- "pmb10992"},
- {
- "persName":
- "Alfons Fedor Cohn",
- "ref":
- "pmb37739"},
- {
- "persName":
- "J. Span",
- "ref":
- "pmb29137"}],
- "listBibl":
-  [
- {
- "title":
- "Das heutige Europa",
- "ref":
- "pmb37723"}
- ,  {
- "title":
- "Georg Brandes in Berlin",
- "ref":
- "pmb37740"}
- ,  {
- "title":
- "Berliner Tageblatt",
- "ref":
- "pmb41531"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Blüthner-Saal",
- "ref":
- "pmb37725"}
- ,  {
- "placeName":
- "Straße des 17. Juni",
- "ref":
- "pmb1156"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -197,4 +101,103 @@
  "pmb40709"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02433",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02433.html",
+ "head":
+ "Gertrud Rung an Arthur Schnitzler, 17. 2. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrud Rung",
+ "ref":
+ "pmb5558"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Alfons Fedor Cohn",
+ "ref":
+ "pmb37739"},
+ {
+ "persName":
+ "J. Span",
+ "ref":
+ "pmb29137"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das heutige Europa",
+ "ref":
+ "pmb37723"}
+ ,  {
+ "title":
+ "Georg Brandes in Berlin",
+ "ref":
+ "pmb37740"}
+ ,  {
+ "title":
+ "Berliner Tageblatt",
+ "ref":
+ "pmb41531"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Blüthner-Saal",
+ "ref":
+ "pmb37725"}
+ ,  {
+ "placeName":
+ "Straße des 17. Juni",
+ "ref":
+ "pmb1156"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

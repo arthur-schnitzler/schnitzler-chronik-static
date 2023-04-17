@@ -1,17 +1,92 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1913-03-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-30.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 30. März 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Georg Friedrich Händel",
+ "ref":
+ "person_15835"},
+ {
+ "persName":
+ "Hubert Reusch",
+ "ref":
+ "person_19210"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Anton Hoffmann",
+ "ref":
+ "person_16269"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Johann Klein",
+ "ref":
+ "person_16888"},
+ {
+ "persName":
+ "August Mayer",
+ "ref":
+ "person_18012"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,90 +179,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1913-03-30",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-30.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 30. März 1913",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Stefanie Bachrach",
- "ref":
- "person_13359"},
- {
- "persName":
- "Georg Friedrich Händel",
- "ref":
- "person_15835"},
- {
- "persName":
- "Hubert Reusch",
- "ref":
- "person_19210"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Marianne Giustiniani",
- "ref":
- "person_21600"},
- {
- "persName":
- "Otto Zuckerkandl",
- "ref":
- "person_21601"},
- {
- "persName":
- "Anton Hoffmann",
- "ref":
- "person_16269"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Johann Klein",
- "ref":
- "person_16888"},
- {
- "persName":
- "August Mayer",
- "ref":
- "person_18012"},
- {
- "persName":
- "Victor Zuckerkandl",
- "ref":
- "person_21602"}],
- "listBibl":
-  [
- {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/462/",
+ "entry__1892-09-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-09-19.html",
  "head":
- "Venedig"
-}, {
+ "Tagebuch, 19. September 1892",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Markusplatz",
+ "ref":
+ "pmb92388"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -68,6 +83,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/462/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#d2b0f559-bde7-4114-82b9-741a8810c463",
@@ -86,34 +117,7 @@
  "ref":
  "https://d-nb.info/gnd/118628526"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-09-19",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-09-19.html",
- "head":
- "Tagebuch, 19. September 1892",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Venedig",
- "ref":
- "pmb462"}
- ,  {
- "placeName":
- "Markusplatz",
- "ref":
- "pmb92388"}
- ]
-}
-}] 
+}, ] 

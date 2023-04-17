@@ -1,62 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#i0c57881-43a7-490c-bcb6-a0ffc7ee2749",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Egon Friedell, 17.5.1920",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Egon Friedell",
- "ref":
- "https://d-nb.info/gnd/118535560"}],
- "bibl":
- "Egon Friedell: Briefe. Ausgewählt und herausgegeben von Walther Schneider. Wien: Georg Prachner 1954. (nur der eine Brief von Schnitzler erfasst)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#wfc5c16f-4da0-48c1-b8ab-b48bf2a6fece",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Egon Friedell, 17.5.1920",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Egon Friedell",
- "ref":
- "https://d-nb.info/gnd/118535560"}],
- "bibl":
- "Peter Michael Braunwarth: In Reife und Überreife. In: Die Presse, 25.9.2004, Spectrum, IV."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -143,4 +86,66 @@
  "pmb166"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#i0c57881-43a7-490c-bcb6-a0ffc7ee2749",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Egon Friedell, 17.5.1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "https://d-nb.info/gnd/118535560"}],
+ "bibl":
+ ", "source":
+ "Egon Friedell: Briefe. Ausgewählt und herausgegeben von Walther Schneider. Wien: Georg Prachner 1954. (nur der eine Brief von Schnitzler erfasst)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wfc5c16f-4da0-48c1-b8ab-b48bf2a6fece",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Egon Friedell, 17.5.1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "https://d-nb.info/gnd/118535560"}],
+ "bibl":
+ ", "source":
+ "Peter Michael Braunwarth: In Reife und Überreife. In: Die Presse, 25.9.2004, Spectrum, IV."
+}
+}, ] 

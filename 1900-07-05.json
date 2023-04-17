@@ -1,43 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90194/",
+ "entry__1900-07-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90194/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-07-05.html",
  "head":
- "Admont"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/483/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/483/",
- "head":
- "Reichenau an der Rax"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44982/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44982/",
- "head":
- "Kurhaus Rudolfsbad"
-}, {
+ "Tagebuch, 5. Juli 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emil Guisolan",
+ "ref":
+ "person_15745"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Admont",
+ "ref":
+ "pmb90194"}
+ ,  {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -109,37 +105,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-07-05",
+ "entity/90194/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-07-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/90194/",
  "head":
- "Tagebuch, 5. Juli 1900",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Emil Guisolan",
- "ref":
- "person_15745"}],
- "listPlace":
-  [
- {
- "placeName":
  "Admont",
- "ref":
- "pmb90194"}
- ,  {
- "placeName":
- "",
- "ref":
- "pmb91574"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad",
+ "desc":
+{
+}
+}, ] 

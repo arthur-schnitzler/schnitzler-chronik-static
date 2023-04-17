@@ -1,30 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/462/",
+ "entry__1903-06-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-01.html",
  "head":
- "Venedig"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50910/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50910/",
- "head":
- "Hotel Centrale Vapore"
-}, {
+ "Tagebuch, 1. Juni 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Antonio no name provided",
+ "ref":
+ "person_13234"},
+ {
+ "persName":
+ "Alberto Franchetti",
+ "ref":
+ "person_15110"},
+ {
+ "persName":
+ "Hans Bernhard Schlesinger",
+ "ref":
+ "person_19731"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Public Gardens",
+ "ref":
+ "pmb90711"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -91,47 +110,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1903-06-01",
+ "entity/462/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
  "head":
- "Tagebuch, 1. Juni 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Antonio no name provided",
- "ref":
- "person_13234"},
- {
- "persName":
- "Alberto Franchetti",
- "ref":
- "person_15110"},
- {
- "persName":
- "Hans Bernhard Schlesinger",
- "ref":
- "person_19731"}],
- "listPlace":
-  [
- {
- "placeName":
  "Venedig",
- "ref":
- "pmb462"}
- ,  {
- "placeName":
- "Public Gardens",
- "ref":
- "pmb90711"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50910/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50910/",
+ "head":
+ "Hotel Centrale Vapore",
+ "desc":
+{
+}
+}, ] 

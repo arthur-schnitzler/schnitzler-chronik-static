@@ -1,30 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/64740/",
+ "entry__1891-07-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/64740/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-07-14.html",
  "head":
- "Guntramsdorf"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 14. Juli 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Mih.",
+ "ref":
+ "person_18156"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Guntramsdorf",
+ "ref":
+ "pmb64740"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -79,55 +106,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1891-07-14",
+ "entity/64740/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-07-14.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/64740/",
  "head":
- "Tagebuch, 14. Juli 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Mih.",
- "ref":
- "person_18156"}],
- "listBibl":
-  [
- {
- "title":
- "Alkandi’s Lied",
- "ref":
- "pmb31637"}
- ,  {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Guntramsdorf",
- "ref":
- "pmb64740"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

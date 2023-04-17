@@ -1,86 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/988/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/988/",
- "head":
- "Seis am Schlern"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/467/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/467/",
- "head":
- "Villa Heufler"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01782",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01782.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 7. 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"}],
- "listPlace":
-  [
- {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "Seis am Schlern",
- "ref":
- "pmb988"}
- ,  {
- "placeName":
- "Villa Heufler",
- "ref":
- "pmb467"}
- ,  {
- "placeName":
- "Südtirol",
- "ref":
- "pmb969"}
- ,  {
- "placeName":
- "Café Tomaselli",
- "ref":
- "pmb41187"}
- ,  {
- "placeName":
- "Bad Fusch",
- "ref":
- "pmb573"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -142,6 +61,61 @@
  "Rosen",
  "ref":
  "pmb30721"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01782",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01782.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 7. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Seis am Schlern",
+ "ref":
+ "pmb988"}
+ ,  {
+ "placeName":
+ "Villa Heufler",
+ "ref":
+ "pmb467"}
+ ,  {
+ "placeName":
+ "Südtirol",
+ "ref":
+ "pmb969"}
+ ,  {
+ "placeName":
+ "Café Tomaselli",
+ "ref":
+ "pmb41187"}
+ ,  {
+ "placeName":
+ "Bad Fusch",
+ "ref":
+ "pmb573"}
  ]
 }
 }, {
@@ -227,4 +201,36 @@
  "pmb29348"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/467/",
+ "head":
+ "Villa Heufler",
+ "desc":
+{
+}
+}, ] 

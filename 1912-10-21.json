@@ -1,68 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02582",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02582.html",
- "head":
- "Karin Michaëlis an Arthur Schnitzler, 21. 10. 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Karin Michaëlis",
- "ref":
- "pmb4408"},
- {
- "persName":
- "Peter Nansen",
- "ref":
- "pmb2357"},
- {
- "persName":
- "Eugenie Schwarzwald",
- "ref":
- "pmb24658"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ,  {
- "placeName":
- "Josefstädter Straße",
- "ref":
- "pmb51915"}
- ]
-}
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -74,28 +11,6 @@
  "Die Schwestern oder Casanova in Spa, Typoskript",
  "text":
  "Publikation in Vorbereitung"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Karin Michaëlis an Arthur Schnitzler, 21.10.1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Karin Michaëlis",
- "ref":
- "https://d-nb.info/gnd/11539396X"}],
- "bibl":
- "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
-}
 }, {
  "type":
  "schnitzler-tagebuch",
@@ -176,4 +91,93 @@
  "pmb30819"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02582",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02582.html",
+ "head":
+ "Karin Michaëlis an Arthur Schnitzler, 21. 10. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karin Michaëlis",
+ "ref":
+ "pmb4408"},
+ {
+ "persName":
+ "Peter Nansen",
+ "ref":
+ "pmb2357"},
+ {
+ "persName":
+ "Eugenie Schwarzwald",
+ "ref":
+ "pmb24658"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Josefstädter Straße",
+ "ref":
+ "pmb51915"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Karin Michaëlis an Arthur Schnitzler, 21.10.1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karin Michaëlis",
+ "ref":
+ "https://d-nb.info/gnd/11539396X"}],
+ "bibl":
+ ", "source":
+ "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
+}
+}, ] 

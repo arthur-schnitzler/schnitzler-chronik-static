@@ -1,29 +1,31 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/506/",
+ "entry__1896-07-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/506/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-04.html",
  "head":
- "Hamburg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/43368/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/43368/",
- "head":
- "Hotel zum Kronprinzen"
+ "Tagebuch, 4. Juli 1896",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Halle an der Saale",
+ "ref":
+ "pmb140"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -117,34 +119,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-07-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-04.html",
- "head":
- "Tagebuch, 4. Juli 1896",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Halle an der Saale",
- "ref":
- "pmb140"}
- ,  {
- "placeName":
- "Hamburg",
- "ref":
- "pmb506"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -224,4 +198,36 @@
  "pmb29209"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/506/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/506/",
+ "head":
+ "Hamburg",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43368/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43368/",
+ "head":
+ "Hotel zum Kronprinzen",
+ "desc":
+{
+}
+}, ] 

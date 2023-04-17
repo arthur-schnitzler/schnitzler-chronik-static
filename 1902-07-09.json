@@ -1,16 +1,33 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1902-07-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-09.html",
  "head":
- "Wien"
+ "Tagebuch, 9. Juli 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Weinberg",
+ "ref":
+ "person_21163"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -58,36 +75,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-07-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-09.html",
- "head":
- "Tagebuch, 9. Juli 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Weinberg",
- "ref":
- "person_21163"}],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -126,4 +113,20 @@
  "pmb428"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

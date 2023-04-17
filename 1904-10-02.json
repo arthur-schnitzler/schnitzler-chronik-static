@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-10-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-02.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 2. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "George Gordon Noël Lord Byron",
+ "ref":
+ "person_14101"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Fanny Lubelsky",
+ "ref":
+ "person_17709"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Tagebücher und Briefe",
+ "ref":
+ "pmb77466"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -119,70 +174,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-10-02",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-02.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 2. Oktober 1904",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "George Gordon Noël Lord Byron",
- "ref":
- "person_14101"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Leo Van-Jung",
- "ref":
- "person_20925"},
- {
- "persName":
- "Anna Donath",
- "ref":
- "person_14481"},
- {
- "persName":
- "Fanny Lubelsky",
- "ref":
- "person_17709"}],
- "listBibl":
-  [
- {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ,  {
- "title":
- "Tagebücher und Briefe",
- "ref":
- "pmb77466"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Döbling",
- "ref":
- "pmb64219"}
- ]
 }
-}] 
+}, ] 

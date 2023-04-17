@@ -1,17 +1,87 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90392/",
+ "entry__1906-01-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90392/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-22.html",
  "head":
- "Breslau"
-}, {
+ "Tagebuch, 22. Januar 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erich Freund",
+ "ref":
+ "person_15181"},
+ {
+ "persName":
+ "Josef Glaser",
+ "ref":
+ "person_15459"},
+ {
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "person_16900"},
+ {
+ "persName":
+ "Maria Mayer",
+ "ref":
+ "person_18020"},
+ {
+ "persName":
+ "Werner Sombart",
+ "ref":
+ "person_20192"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Die Weissagung",
+ "ref":
+ "pmb30683"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -123,85 +193,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-01-22",
+ "entity/90392/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-22.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/90392/",
  "head":
- "Tagebuch, 22. Januar 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Erich Freund",
- "ref":
- "person_15181"},
- {
- "persName":
- "Josef Glaser",
- "ref":
- "person_15459"},
- {
- "persName":
- "Heinrich von Kleist",
- "ref":
- "person_16900"},
- {
- "persName":
- "Maria Mayer",
- "ref":
- "person_18020"},
- {
- "persName":
- "Werner Sombart",
- "ref":
- "person_20192"}],
- "listBibl":
-  [
- {
- "title":
- "Weihnachts-Einkäufe",
- "ref":
- "pmb30163"}
- ,  {
- "title":
- "Excentric",
- "ref":
- "pmb29893"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
- ,  {
- "title":
- "Die Weissagung",
- "ref":
- "pmb30683"}
- ,  {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Breslau",
- "ref":
- "pmb677"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

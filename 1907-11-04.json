@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-11-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-11-04.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 4. November 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irene Auernheimer",
+ "ref":
+ "person_13304"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Arthur Hellmer",
+ "ref":
+ "person_16075"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,6 +130,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#ya489e21-54d5-40de-a56d-f4548e894428",
@@ -106,61 +164,7 @@
  "ref":
  "https://d-nb.info/gnd/118514245"}],
  "bibl":
+ ", "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-11-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-11-04.html",
- "head":
- "Tagebuch, 4. November 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Irene Auernheimer",
- "ref":
- "person_13304"},
- {
- "persName":
- "Raoul Auernheimer",
- "ref":
- "person_13305"},
- {
- "persName":
- "Moriz Benedikt",
- "ref":
- "person_13595"},
- {
- "persName":
- "Arthur Hellmer",
- "ref":
- "person_16075"},
- {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
-}
-}] 
+}, ] 

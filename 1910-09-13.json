@@ -1,53 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02580",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02580.html",
- "head":
- "Marie von Ebner-Eschenbach an Arthur Schnitzler, 13. 9. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie von Ebner-Eschenbach",
- "ref":
- "pmb11216"}],
- "listPlace":
-  [
- {
- "placeName":
- "Zdislavice",
- "ref":
- "pmb65192"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -166,4 +118,55 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02580",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02580.html",
+ "head":
+ "Marie von Ebner-Eschenbach an Arthur Schnitzler, 13. 9. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie von Ebner-Eschenbach",
+ "ref":
+ "pmb11216"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zdislavice",
+ "ref":
+ "pmb65192"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

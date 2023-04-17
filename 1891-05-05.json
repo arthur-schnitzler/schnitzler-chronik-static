@@ -1,17 +1,82 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1891-05-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. Mai 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "person_16554"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "person_14942"},
+ {
+ "persName":
+ "Julius Kulka",
+ "ref":
+ "person_17189"},
+ {
+ "persName":
+ "Falk Schupp",
+ "ref":
+ "person_19945"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "person_16629"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Die drei Elixire",
+ "ref":
+ "pmb31965"}
+ ,  {
+ "title":
+ "Der Sohn. Aus den Papieren eines Arztes",
+ "ref":
+ "pmb30257"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -109,80 +174,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1891-05-05",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 5. Mai 1891",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Jaques Joachim",
- "ref":
- "person_16554"},
- {
- "persName":
- "Friedrich Michael Fels",
- "ref":
- "person_14942"},
- {
- "persName":
- "Julius Kulka",
- "ref":
- "person_17189"},
- {
- "persName":
- "Falk Schupp",
- "ref":
- "person_19945"},
- {
- "persName":
- "Eduard Michael Kafka",
- "ref":
- "person_16629"}],
- "listBibl":
-  [
- {
- "title":
- "Alkandi’s Lied",
- "ref":
- "pmb31637"}
- ,  {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ,  {
- "title":
- "Die drei Elixire",
- "ref":
- "pmb31965"}
- ,  {
- "title":
- "Der Sohn. Aus den Papieren eines Arztes",
- "ref":
- "pmb30257"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Volksgarten",
- "ref":
- "pmb103"}
- ]
 }
-}] 
+}, ] 

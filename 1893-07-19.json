@@ -1,29 +1,71 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-07-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-19.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
+ "Tagebuch, 19. Juli 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Sophie Link",
+ "ref":
+ "person_17574"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Klosterneuburg",
+ "ref":
+ "pmb865"}
+ ,  {
+ "placeName":
+ "Weidling",
+ "ref":
+ "pmb44392"}
+ ,  {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -132,74 +174,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-07-19",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-19.html",
- "head":
- "Tagebuch, 19. Juli 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Markus Hajek",
- "ref":
- "person_15855"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Sophie Link",
- "ref":
- "person_17574"}],
- "listBibl":
-  [
- {
- "title":
- "Abschiedssouper",
- "ref":
- "pmb30005"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Klosterneuburg",
- "ref":
- "pmb865"}
- ,  {
- "placeName":
- "Weidling",
- "ref":
- "pmb44392"}
- ,  {
- "placeName":
- "Kahlenberg",
- "ref":
- "pmb574"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -304,4 +278,36 @@
  "pmb29424"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

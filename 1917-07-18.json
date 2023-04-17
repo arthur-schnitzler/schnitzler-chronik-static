@@ -1,17 +1,47 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1917-07-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-07-18.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 18. Juli 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hanna Askonas",
+ "ref":
+ "person_13282"},
+ {
+ "persName":
+ "Rudolf Askonas",
+ "ref":
+ "person_13285"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Fiume Isonzo",
+ "ref":
+ "pmb90940"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,45 +118,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1917-07-18",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-07-18.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 18. Juli 1917",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Hanna Askonas",
- "ref":
- "person_13282"},
- {
- "persName":
- "Rudolf Askonas",
- "ref":
- "person_13285"}],
- "listBibl":
-  [
- {
- "title":
- "Casanovas Heimfahrt",
- "ref":
- "pmb30971"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Fiume Isonzo",
- "ref":
- "pmb90940"}
- ]
 }
-}] 
+}, ] 

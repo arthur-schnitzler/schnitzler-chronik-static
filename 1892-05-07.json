@@ -1,16 +1,53 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1892-05-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-05-07.html",
  "head":
- "Wien"
+ "Tagebuch, 7. Mai 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Ferry Bératon",
+ "ref":
+ "person_13611"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Mitschuldigen",
+ "ref":
+ "pmb30193"}
+ ,  {
+ "title":
+ "Stella",
+ "ref":
+ "pmb30191"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -64,56 +101,6 @@
  "Internationales Ausstellungstheater im k.k. Prater",
  "ref":
  "pmb45128"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1892-05-07",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-05-07.html",
- "head":
- "Tagebuch, 7. Mai 1892",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Ferry Bératon",
- "ref":
- "person_13611"}],
- "listBibl":
-  [
- {
- "title":
- "Die Mitschuldigen",
- "ref":
- "pmb30193"}
- ,  {
- "title":
- "Stella",
- "ref":
- "pmb30191"}
  ]
 }
 }, {
@@ -229,4 +216,20 @@
  "pmb52"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

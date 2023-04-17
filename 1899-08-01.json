@@ -1,16 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/987/",
+ "entry__1899-08-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/987/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-01.html",
  "head":
- "Toblach"
+ "Tagebuch, 1. August 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Elsinger",
+ "ref":
+ "person_14734"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ,  {
+ "placeName":
+ "Carbonin",
+ "ref":
+ "pmb44317"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -59,73 +91,6 @@
  "Millstätter See",
  "ref":
  "pmb39637"}
- ,  {
- "placeName":
- "Carbonin",
- "ref":
- "pmb44317"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#g14221ae-8633-4ad0-944c-44805d2c1459",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Alfred Kerr an Arthur Schnitzler, 1.8.1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alfred Kerr",
- "ref":
- "https://d-nb.info/gnd/11856157X"}],
- "bibl":
- "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-08-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-01.html",
- "head":
- "Tagebuch, 1. August 1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Elsinger",
- "ref":
- "person_14734"},
- {
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"}],
- "listPlace":
-  [
- {
- "placeName":
- "Toblach",
- "ref":
- "pmb987"}
  ,  {
  "placeName":
  "Carbonin",
@@ -188,4 +153,43 @@
  "pmb32612"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/987/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/987/",
+ "head":
+ "Toblach",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g14221ae-8633-4ad0-944c-44805d2c1459",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Alfred Kerr an Arthur Schnitzler, 1.8.1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "https://d-nb.info/gnd/11856157X"}],
+ "bibl":
+ ", "source":
+ "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
+}
+}, ] 

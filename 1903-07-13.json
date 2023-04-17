@@ -1,16 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-07-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-13.html",
  "head":
- "Wien"
+ "Tagebuch, 13. Juli 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adolf Lantz",
+ "ref":
+ "person_17324"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -103,51 +135,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-07-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-13.html",
- "head":
- "Tagebuch, 13. Juli 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Adolf Lantz",
- "ref":
- "person_17324"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Elisabeth Steinrück",
- "ref":
- "person_20386"},
- {
- "persName":
- "Mirjam Horwitz",
- "ref":
- "person_21546"}],
- "listPlace":
-  [
- {
- "placeName":
- "Salmannsdorf",
- "ref":
- "pmb91641"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -194,4 +181,20 @@
  "pmb29212"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

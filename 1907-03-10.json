@@ -1,55 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#ya489e21-54d5-40de-a56d-f4548e894428",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Otto Brahm, Grete Kainz, Paul Marx, Paul Jonas an Arthur Schnitzler, 10.3.1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"},
- {
- "persName":
- "Grete Kainz",
- "ref":
- "https://d-nb.info/gnd/116026324"},
- {
- "persName":
- "Paul Marx",
- "ref":
- "https://d-nb.info/gnd/116814632"},
- {
- "persName":
- "Paul Jonas",
- "ref":
- "https://d-nb.info/gnd/1127585851"}],
- "bibl":
- "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -126,4 +76,58 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm, Grete Kainz, Paul Marx, Paul Jonas an Arthur Schnitzler, 10.3.1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"},
+ {
+ "persName":
+ "Grete Kainz",
+ "ref":
+ "https://d-nb.info/gnd/116026324"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "https://d-nb.info/gnd/116814632"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "https://d-nb.info/gnd/1127585851"}],
+ "bibl":
+ ", "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}
+}, ] 

@@ -1,30 +1,35 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1900-08-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-04.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/414/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/414/",
- "head":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)"
-}, {
+ "Tagebuch, 4. August 1900",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Marionetten",
+ "ref":
+ "pmb36093"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -94,6 +99,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#j7685005-64da-4e31-99b6-b4641aa1628c",
@@ -112,37 +149,7 @@
  "ref":
  "https://d-nb.info/gnd/116848723"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1900-08-04",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-04.html",
- "head":
- "Tagebuch, 4. August 1900",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Marionetten",
- "ref":
- "pmb36093"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bad Ischl",
- "ref":
- "pmb213"}
- ]
-}
-}] 
+}, ] 

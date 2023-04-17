@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1929-02-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-02-01.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 1. Februar 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Emil Jannings",
+ "ref":
+ "person_16504"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Arthur Wilheim",
+ "ref":
+ "person_21332"},
+ {
+ "persName":
+ "Lonczi Wilheim",
+ "ref":
+ "person_21335"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Der Patriot",
+ "ref":
+ "pmb80925"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -71,57 +113,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1929-02-01",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-02-01.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 1. Februar 1929",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Markus Hajek",
- "ref":
- "person_15855"},
- {
- "persName":
- "Emil Jannings",
- "ref":
- "person_16504"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Arthur Wilheim",
- "ref":
- "person_21332"},
- {
- "persName":
- "Lonczi Wilheim",
- "ref":
- "person_21335"}],
- "listBibl":
-  [
- {
- "title":
- "Im Spiel der Sommerlüfte. In drei Aufzügen",
- "ref":
- "pmb30945"}
- ,  {
- "title":
- "Der Patriot",
- "ref":
- "pmb80925"}
- ]
 }
-}] 
+}, ] 

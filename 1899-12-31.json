@@ -1,83 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/790/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/790/",
- "head":
- "Tuchlauben"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L03030",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L03030.html",
- "head":
- "Arthur Schnitzler an Felix Salten, [31. 12. 1899?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#sb5b8e07-e0c8-47e6-8add-494150f56e37",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Franziska Lawner an Arthur Schnitzler, 31.12.1899",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Franziska Lawner",
- "ref":
- "https://d-nb.info/gnd/1190590301"}],
- "bibl":
- "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -126,4 +48,89 @@
  "pmb81418"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L03030",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L03030.html",
+ "head":
+ "Arthur Schnitzler an Felix Salten, [31. 12. 1899?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/790/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/790/",
+ "head":
+ "Tuchlauben",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#sb5b8e07-e0c8-47e6-8add-494150f56e37",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Franziska Lawner an Arthur Schnitzler, 31.12.1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franziska Lawner",
+ "ref":
+ "https://d-nb.info/gnd/1190590301"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."
+}
+}, ] 

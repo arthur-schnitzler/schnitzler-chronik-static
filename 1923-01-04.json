@@ -1,18 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
  "Arthur-Schnitzler-digital",
  "color":
  "#801e23",
@@ -21,7 +8,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0056",
  "head":
- "Fräulein Else, hsl. Werkniederschrift, 04.01.1923 o. 05.01.1923"
+ "Fräulein Else, hsl. Werkniederschrift, 04.01.1923 o. 05.01.1923",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -32,7 +22,10 @@
  "idno":
  "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_T1_0033",
  "head":
- "Fräulein Else, msl. Werkniederschrift"
+ "Fräulein Else, msl. Werkniederschrift",
+ "desc":
+{
+}
 }, {
  "type":
  "Arthur-Schnitzler-digital",
@@ -94,4 +87,20 @@
  "pmb228"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

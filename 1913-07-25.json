@@ -1,40 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/45260/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
- "head":
- "Brijuni"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#gc49cd7e-1c35-4af4-808b-831b06a17f3d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Theodor Reik an Arthur Schnitzler, 25.7.1913",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Reik",
- "ref":
- "https://d-nb.info/gnd/118599216"}],
- "bibl":
- "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -108,4 +73,43 @@
  "pmb92157"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#gc49cd7e-1c35-4af4-808b-831b06a17f3d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Reik an Arthur Schnitzler, 25.7.1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Reik",
+ "ref":
+ "https://d-nb.info/gnd/118599216"}],
+ "bibl":
+ ", "source":
+ "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."
+}
+}, ] 

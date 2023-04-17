@@ -1,17 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/484/",
+ "entry__1910-05-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/484/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-18.html",
  "head":
- "Zürich"
-}, {
+ "Tagebuch, 18. Mai 1910",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ,  {
+ "placeName":
+ "Alpenquai",
+ "ref":
+ "pmb92139"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -88,6 +103,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/484/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/484/",
+ "head":
+ "Zürich",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
@@ -106,34 +137,7 @@
  "ref":
  "https://d-nb.info/gnd/117024562"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-05-18",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-18.html",
- "head":
- "Tagebuch, 18. Mai 1910",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Zürich",
- "ref":
- "pmb484"}
- ,  {
- "placeName":
- "Alpenquai",
- "ref":
- "pmb92139"}
- ]
-}
-}] 
+}, ] 

@@ -1,16 +1,50 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1902-01-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-09.html",
  "head":
- "Wien"
+ "Tagebuch, 9. Januar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Wilhelm von Hartel",
+ "ref":
+ "person_15937"},
+ {
+ "persName":
+ "Christiane von Thun-Hohenstein-Salm-Reifferscheidt",
+ "ref":
+ "person_20737"},
+ {
+ "persName":
+ "Friedrich Uhl",
+ "ref":
+ "person_20855"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -106,75 +140,6 @@
  "ref":
  "pmb506"}
  ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Otto Brahm, 9. 1. 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1902-01-09",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-09.html",
- "head":
- "Tagebuch, 9. Januar 1902",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Wilhelm von Hartel",
- "ref":
- "person_15937"},
- {
- "persName":
- "Christiane von Thun-Hohenstein-Salm-Reifferscheidt",
- "ref":
- "person_20737"},
- {
- "persName":
- "Friedrich Uhl",
- "ref":
- "person_20855"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}]
 }
 }, {
  "type":
@@ -322,4 +287,43 @@
  "pmb29677"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 9. 1. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "https://d-nb.info/gnd/118514245"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

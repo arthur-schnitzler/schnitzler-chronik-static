@@ -1,16 +1,56 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-04-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-15.html",
  "head":
- "Wien"
+ "Tagebuch, 15. April 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ,  {
+ "title":
+ "Der Tod des Junggesellen",
+ "ref":
+ "pmb33758"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -68,81 +108,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Raoul Auernheimer an Arthur Schnitzler, 15.4.1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Raoul Auernheimer",
- "ref":
- "https://d-nb.info/gnd/118505033"}],
- "bibl":
- "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-04-15",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-15.html",
- "head":
- "Tagebuch, 15. April 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"}],
- "listBibl":
-  [
- {
- "title":
- "Große Szene",
- "ref":
- "pmb31429"}
- ,  {
- "title":
- "Der Tod des Junggesellen",
- "ref":
- "pmb33758"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Vereinigte Staaten von Amerika (USA)",
- "ref":
- "pmb43406"}
- ,  {
- "placeName":
- "Russland",
- "ref":
- "pmb34438"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -196,4 +161,43 @@
  "pmb165"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Raoul Auernheimer an Arthur Schnitzler, 15.4.1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "https://d-nb.info/gnd/118505033"}],
+ "bibl":
+ ", "source":
+ "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
+}
+}, ] 

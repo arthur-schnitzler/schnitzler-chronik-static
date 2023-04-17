@@ -1,17 +1,42 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91318/",
+ "entry__1896-07-14",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91318/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-14.html",
  "head":
- "Nes"
-}, {
+ "Tagebuch, 14. Juli 1896",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nes",
+ "ref":
+ "pmb91318"}
+ ,  {
+ "placeName":
+ "Romsdal",
+ "ref":
+ "pmb91612"}
+ ,  {
+ "placeName":
+ "Molde",
+ "ref":
+ "pmb91263"}
+ ,  {
+ "placeName":
+ "Kristiansund",
+ "ref":
+ "pmb91075"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -186,6 +211,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91318/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91318/",
+ "head":
+ "Nes",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
@@ -204,44 +245,7 @@
  "ref":
  "https://d-nb.info/gnd/118605429"}],
  "bibl":
+ ", "source":
  "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-07-14",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-14.html",
- "head":
- "Tagebuch, 14. Juli 1896",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Nes",
- "ref":
- "pmb91318"}
- ,  {
- "placeName":
- "Romsdal",
- "ref":
- "pmb91612"}
- ,  {
- "placeName":
- "Molde",
- "ref":
- "pmb91263"}
- ,  {
- "placeName":
- "Kristiansund",
- "ref":
- "pmb91075"}
- ]
-}
-}] 
+}, ] 

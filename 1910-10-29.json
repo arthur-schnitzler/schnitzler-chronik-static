@@ -1,17 +1,57 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-10-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-29.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 29. Oktober 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gabriele von Haugwitz",
+ "ref":
+ "person_15977"},
+ {
+ "persName":
+ "Franziska Schneider",
+ "ref":
+ "person_19804"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mantova",
+ "ref":
+ "pmb48637"}
+ ,  {
+ "placeName":
+ "Cremona",
+ "ref":
+ "pmb90500"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -139,55 +179,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-10-29",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 29. Oktober 1910",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Gabriele von Haugwitz",
- "ref":
- "person_15977"},
- {
- "persName":
- "Franziska Schneider",
- "ref":
- "person_19804"},
- {
- "persName":
- "Olga Waissnix",
- "ref":
- "person_21047"}],
- "listBibl":
-  [
- {
- "title":
- "Die dreifache Warnung",
- "ref":
- "pmb33061"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Mantova",
- "ref":
- "pmb48637"}
- ,  {
- "placeName":
- "Cremona",
- "ref":
- "pmb90500"}
- ]
 }
-}] 
+}, ] 

@@ -1,78 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02628",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02628.html",
- "head":
- "Paul Goldmann an Arthur Schnitzler, 18. 12. [1894]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "Hilda von Mitis",
- "ref":
- "pmb65913"},
- {
- "persName":
- "Maximilian von Mitis",
- "ref":
- "pmb65917"},
- {
- "persName":
- "?? [Bräutigam von Hildegard Mitis]",
- "ref":
- "pmb87793"}],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Bratislava",
- "ref":
- "pmb39615"}
- ,  {
- "placeName":
- "Italien",
- "ref":
- "pmb40306"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -139,4 +66,80 @@
  "pmb90869"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02628",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02628.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 18. 12. [1894]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Hilda von Mitis",
+ "ref":
+ "pmb65913"},
+ {
+ "persName":
+ "Maximilian von Mitis",
+ "ref":
+ "pmb65917"},
+ {
+ "persName":
+ "?? [Bräutigam von Hildegard Mitis]",
+ "ref":
+ "pmb87793"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bratislava",
+ "ref":
+ "pmb39615"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

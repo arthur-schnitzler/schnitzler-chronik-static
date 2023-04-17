@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1919-01-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-01-21.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 21. Januar 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lilli Marton",
+ "ref":
+ "person_17953"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Frühlings Erwachen. Eine Kindertragödie",
+ "ref":
+ "pmb42416"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -58,42 +85,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1919-01-21",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-01-21.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 21. Januar 1919",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Lilli Marton",
- "ref":
- "person_17953"}],
- "listBibl":
-  [
- {
- "title":
- "Jugend in Wien",
- "ref":
- "pmb33838"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Frühlings Erwachen. Eine Kindertragödie",
- "ref":
- "pmb42416"}
- ]
 }
-}] 
+}, ] 

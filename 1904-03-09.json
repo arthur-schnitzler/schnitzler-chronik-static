@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-03-09",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-09.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 9. März 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Gustav Seidler",
+ "ref":
+ "person_20030"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"},
+ {
+ "persName":
+ "Alois Kreidl",
+ "ref":
+ "person_17127"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -138,70 +193,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-03-09",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-09.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 9. März 1904",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Julius von Gans-Ludassy",
- "ref":
- "person_15338"},
- {
- "persName":
- "Gisela Hajek",
- "ref":
- "person_15854"},
- {
- "persName":
- "Arnold Rosé",
- "ref":
- "person_19351"},
- {
- "persName":
- "Gustav Seidler",
- "ref":
- "person_20030"},
- {
- "persName":
- "Ludwig Mandl",
- "ref":
- "person_17825"},
- {
- "persName":
- "Alois Kreidl",
- "ref":
- "person_17127"}],
- "listBibl":
-  [
- {
- "title":
- "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
- "ref":
- "pmb29937"}
- ,  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Türkenschanzpark",
- "ref":
- "pmb113"}
- ]
 }
-}] 
+}, ] 

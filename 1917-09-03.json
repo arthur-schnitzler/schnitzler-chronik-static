@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45258/",
+ "entry__1917-09-03",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-03.html",
  "head":
- "München"
-}, {
+ "Tagebuch, 3. September 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Jantsch",
+ "ref":
+ "person_16511"},
+ {
+ "persName":
+ "Kaiserlicher Rat Kr.",
+ "ref":
+ "person_17072"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Friedrich von der? Trenck",
+ "ref":
+ "person_20799"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kaiser Josef II. und die Schusterstochter",
+ "ref":
+ "pmb80743"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -78,60 +123,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1917-09-03",
+ "entity/45258/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-03.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
  "head":
- "Tagebuch, 3. September 1917",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Heinrich Jantsch",
- "ref":
- "person_16511"},
- {
- "persName":
- "Kaiserlicher Rat Kr.",
- "ref":
- "person_17072"},
- {
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Friedrich von der? Trenck",
- "ref":
- "person_20799"}],
- "listBibl":
-  [
- {
- "title":
- "Kaiser Josef II. und die Schusterstochter",
- "ref":
- "pmb80743"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
  "München",
- "ref":
- "pmb45258"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

@@ -1,43 +1,39 @@
 [{
  "type":
- "pollaczek pollaczek",
+ "schnitzler-tagebuch",
  "color":
- "#1e81b0",
+ "#037a33",
  "filename":
- "ckp004",
+ "entry__1897-04-28",
  "caption":
- "Pollazczek: Schnitzler und ich",
+ "Tagebuch",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp004.html https://pollaczek.acdh.oeaw.ac.at/ckp005.html",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-28.html",
  "head":
- "Arthur Schnitzler an Hugo von Hofmannsthal, 28. April 1897"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/182/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/182/",
- "head":
- "Paris"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/592/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/592/",
- "head":
- "rue de Maubeuge"
-}, {
+ "Tagebuch, 28. April 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jacques Jules Lowengard",
+ "ref":
+ "person_17707"},
+ {
+ "persName":
+ "Sandor Rosenberg",
+ "ref":
+ "person_19377"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Versailles",
+ "ref":
+ "pmb36549"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -195,37 +191,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "pollaczek pollaczek",
  "color":
- "#037a33",
+ "#1e81b0",
  "filename":
- "entry__1897-04-28",
+ "ckp004",
  "caption":
- "Tagebuch",
+ "Pollazczek: Schnitzler und ich",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-28.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp004.html https://pollaczek.acdh.oeaw.ac.at/ckp005.html",
  "head":
- "Tagebuch, 28. April 1897",
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 28. April 1897",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Jacques Jules Lowengard",
- "ref":
- "person_17707"},
- {
- "persName":
- "Sandor Rosenberg",
- "ref":
- "person_19377"}],
- "listPlace":
-  [
- {
- "placeName":
- "Versailles",
- "ref":
- "pmb36549"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/182/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/182/",
+ "head":
+ "Paris",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/592/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/592/",
+ "head":
+ "rue de Maubeuge",
+ "desc":
+{
+}
+}, ] 

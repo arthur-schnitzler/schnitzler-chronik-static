@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1924-11-05",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-11-05.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 5. November 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Claude Anet",
+ "ref":
+ "person_13203"},
+ {
+ "persName":
+ "David Feuchtwang",
+ "ref":
+ "person_14959"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ariane, jeune fille russe",
+ "ref":
+ "pmb80080"}
+ ,  {
+ "title":
+ "Briefe 1879-1911",
+ "ref":
+ "pmb77677"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Peregringasse",
+ "ref":
+ "pmb50562"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -91,70 +146,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1924-11-05",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-11-05.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 5. November 1924",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Claude Anet",
- "ref":
- "person_13203"},
- {
- "persName":
- "David Feuchtwang",
- "ref":
- "person_14959"},
- {
- "persName":
- "Hedy Kempny",
- "ref":
- "person_16807"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Gustav Mahler",
- "ref":
- "person_17786"}],
- "listBibl":
-  [
- {
- "title":
- "Ariane, jeune fille russe",
- "ref":
- "pmb80080"}
- ,  {
- "title":
- "Briefe 1879-1911",
- "ref":
- "pmb77677"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Peregringasse",
- "ref":
- "pmb50562"}
- ]
 }
-}] 
+}, ] 

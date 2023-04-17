@@ -1,16 +1,61 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-10-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-19.html",
  "head":
- "Wien"
+ "Tagebuch, 19. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Dimitrij S. Merežkovskij",
+ "ref":
+ "person_18086"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ,  {
+ "title":
+ "Die Meistersinger von Nürnberg",
+ "ref":
+ "pmb30661"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Michaelerberg",
+ "ref":
+ "pmb91239"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -88,86 +133,6 @@
 }
 }, {
  "type":
- "schnitzler-cmif",
- "subtype":
- "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Max Reinhardt an Arthur Schnitzler, 19.10.1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Reinhardt",
- "ref":
- "https://d-nb.info/gnd/118599380"}],
- "bibl":
- "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-10-19",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-19.html",
- "head":
- "Tagebuch, 19. Oktober 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Dimitrij S. Merežkovskij",
- "ref":
- "person_18086"}],
- "listBibl":
-  [
- {
- "title":
- "Das neue Lied",
- "ref":
- "pmb30655"}
- ,  {
- "title":
- "Die Meistersinger von Nürnberg",
- "ref":
- "pmb30661"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Pötzleinsdorf",
- "ref":
- "pmb169"}
- ,  {
- "placeName":
- "Michaelerberg",
- "ref":
- "pmb91239"}
- ,  {
- "placeName":
- "XIII., Hietzing",
- "ref":
- "pmb63"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -236,4 +201,43 @@
  "pmb303"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Max Reinhardt an Arthur Schnitzler, 19.10.1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "https://d-nb.info/gnd/118599380"}],
+ "bibl":
+ ", "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}
+}, ] 

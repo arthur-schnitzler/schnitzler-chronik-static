@@ -1,151 +1,5 @@
 [{
  "type":
- "pollaczek pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp084",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp084.html https://pollaczek.acdh.oeaw.ac.at/ckp085.html",
- "head":
- "Clara Katharina Pollaczek an Arthur Schnitzler, 23. Juli 1923"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02575",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02575.html",
- "head":
- "Therese Rie an Arthur Schnitzler, 23. 7. 1923",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Therese Rie",
- "ref":
- "pmb4836"},
- {
- "persName":
- "Romain Rolland",
- "ref":
- "pmb12543"}],
- "listBibl":
-  [
- {
- "title":
- "Lebendige Stunden",
- "ref":
- "pmb29957"}
- ,  {
- "title":
- "Musikalische Reise ins Land der Vergangenheit",
- "ref":
- "pmb56170"}
- ,  {
- "title":
- "Gesammelte Werke",
- "ref":
- "pmb30313"}
- ,  {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Frau Beate und ihr Sohn. Novelle",
- "ref":
- "pmb32133"}
- ,  {
- "title":
- "Casanovas Heimfahrt",
- "ref":
- "pmb30971"}
- ,  {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Bernried",
- "ref":
- "pmb47503"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Hotel Seeblick",
- "ref":
- "pmb56099"}
- ,  {
- "placeName":
- "Oberbayern",
- "ref":
- "pmb1201"}
- ,  {
- "placeName":
- "New York City",
- "ref":
- "pmb44053"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Stefan Zweig an Arthur Schnitzler, 23.7.1923",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Zweig",
- "ref":
- "https://d-nb.info/gnd/118637479"}],
- "bibl":
- "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -272,4 +126,157 @@
  "pmb43435"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02575",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02575.html",
+ "head":
+ "Therese Rie an Arthur Schnitzler, 23. 7. 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Therese Rie",
+ "ref":
+ "pmb4836"},
+ {
+ "persName":
+ "Romain Rolland",
+ "ref":
+ "pmb12543"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lebendige Stunden",
+ "ref":
+ "pmb29957"}
+ ,  {
+ "title":
+ "Musikalische Reise ins Land der Vergangenheit",
+ "ref":
+ "pmb56170"}
+ ,  {
+ "title":
+ "Gesammelte Werke",
+ "ref":
+ "pmb30313"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bernried",
+ "ref":
+ "pmb47503"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Seeblick",
+ "ref":
+ "pmb56099"}
+ ,  {
+ "placeName":
+ "Oberbayern",
+ "ref":
+ "pmb1201"}
+ ,  {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ]
+}
+}, {
+ "type":
+ "pollaczek pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp084",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp084.html https://pollaczek.acdh.oeaw.ac.at/ckp085.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 23. Juli 1923",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 23.7.1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "https://d-nb.info/gnd/118637479"}],
+ "bibl":
+ ", "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}
+}, ] 

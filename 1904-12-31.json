@@ -1,17 +1,102 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-12-31",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-12-31.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 31. Dezember 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emma Altmann",
+ "ref":
+ "person_13169"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "person_16477"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Erich Sello",
+ "ref":
+ "person_20053"},
+ {
+ "persName":
+ "Alexandre père Dumas",
+ "ref":
+ "person_14547"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Raoul Markbreiter",
+ "ref":
+ "person_17909"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Fall Jacobsohn",
+ "ref":
+ "pmb30983"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Joseph Balsamo",
+ "ref":
+ "pmb77780"}
+ ,  {
+ "title":
+ "Briefwechsel zwischen Goethe und Reinhard in den Jahren 1807 bis 1832",
+ "ref":
+ "pmb76790"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Pass Lueg",
+ "ref":
+ "pmb91173"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -111,100 +196,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-12-31",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-12-31.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 31. Dezember 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Emma Altmann",
- "ref":
- "person_13169"},
- {
- "persName":
- "Siegfried Jacobsohn",
- "ref":
- "person_16477"},
- {
- "persName":
- "Alfred Kerr",
- "ref":
- "person_16819"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Erich Sello",
- "ref":
- "person_20053"},
- {
- "persName":
- "Alexandre père Dumas",
- "ref":
- "person_14547"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"},
- {
- "persName":
- "Gustav Mahler",
- "ref":
- "person_17786"},
- {
- "persName":
- "Raoul Markbreiter",
- "ref":
- "person_17909"}],
- "listBibl":
-  [
- {
- "title":
- "Der Fall Jacobsohn",
- "ref":
- "pmb30983"}
- ,  {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ,  {
- "title":
- "Joseph Balsamo",
- "ref":
- "pmb77780"}
- ,  {
- "title":
- "Briefwechsel zwischen Goethe und Reinhard in den Jahren 1807 bis 1832",
- "ref":
- "pmb76790"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Pass Lueg",
- "ref":
- "pmb91173"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

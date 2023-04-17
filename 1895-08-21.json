@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/30/",
+ "entry__1895-08-21",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-21.html",
  "head":
- "Salzburg"
-}, {
+ "Tagebuch, 21. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Leopoldskron",
+ "ref":
+ "pmb91137"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,42 +116,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-08-21",
+ "entity/30/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-21.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
  "head":
- "Tagebuch, 21. August 1895",
+ "Salzburg",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Felix Markbreiter",
- "ref":
- "person_17901"}],
- "listPlace":
-  [
- {
- "placeName":
- "Leopoldskron",
- "ref":
- "pmb91137"}
- ,  {
- "placeName":
- "Hellbrunn",
- "ref":
- "pmb31"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/30/",
+ "entry__1914-08-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-08-20.html",
  "head":
- "Salzburg"
-}, {
+ "Tagebuch, 20. August 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Elisabeth Jacobus",
+ "ref":
+ "person_16480"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Rainer Simons",
+ "ref":
+ "person_20123"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Telfs",
+ "ref":
+ "pmb91879"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -73,6 +115,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#w6429315-92be-4f82-b2f1-926125f9bfa5",
@@ -91,61 +149,7 @@
  "ref":
  "https://d-nb.info/gnd/124896847"}],
  "bibl":
+ ", "source":
  "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1914-08-20",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-08-20.html",
- "head":
- "Tagebuch, 20. August 1914",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Elisabeth Jacobus",
- "ref":
- "person_16480"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Karl Schönherr",
- "ref":
- "person_19850"},
- {
- "persName":
- "Rainer Simons",
- "ref":
- "person_20123"}],
- "listPlace":
-  [
- {
- "placeName":
- "Telfs",
- "ref":
- "pmb91879"}
- ,  {
- "placeName":
- "Hellbrunn",
- "ref":
- "pmb31"}
- ]
-}
-}] 
+}, ] 

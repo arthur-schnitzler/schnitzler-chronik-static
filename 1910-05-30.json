@@ -1,30 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/52051/",
+ "entry__1910-05-30",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/52051/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-30.html",
  "head":
- "Territet"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/562/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/562/",
- "head":
- "Genf"
-}, {
+ "Tagebuch, 30. Mai 1910",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Territet",
+ "ref":
+ "pmb52051"}
+ ,  {
+ "placeName":
+ "Genf",
+ "ref":
+ "pmb562"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -91,30 +93,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1910-05-30",
+ "entity/52051/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-30.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/52051/",
  "head":
- "Tagebuch, 30. Mai 1910",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Territet",
- "ref":
- "pmb52051"}
- ,  {
- "placeName":
- "Genf",
- "ref":
- "pmb562"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/562/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/562/",
+ "head":
+ "Genf",
+ "desc":
+{
+}
+}, ] 

@@ -1,30 +1,69 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/54863/",
+ "entry__1891-06-18",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/54863/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-06-18.html",
  "head":
- "Gumpoldskirchen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
+ "Tagebuch, 18. Juni 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Friedmann",
+ "ref":
+ "person_15237"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Honoré Gabriel de Mirabeau",
+ "ref":
+ "person_18184"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "person_18356"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gumpoldskirchen",
+ "ref":
+ "pmb54863"}
+ ,  {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "Guntramsdorf",
+ "ref":
+ "pmb64740"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -137,67 +176,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1891-06-18",
+ "entity/54863/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-06-18.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/54863/",
  "head":
- "Tagebuch, 18. Juni 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Theodor Friedmann",
- "ref":
- "person_15237"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Johann Wolfgang von Goethe",
- "ref":
- "person_15499"},
- {
- "persName":
- "Richard Tausenau",
- "ref":
- "person_20643"},
- {
- "persName":
- "Honoré Gabriel de Mirabeau",
- "ref":
- "person_18184"},
- {
- "persName":
- "Napoleon Bonaparte",
- "ref":
- "person_18356"}],
- "listPlace":
-  [
- {
- "placeName":
  "Gumpoldskirchen",
- "ref":
- "pmb54863"}
- ,  {
- "placeName":
- "Mödling",
- "ref":
- "pmb968"}
- ,  {
- "placeName":
- "Guntramsdorf",
- "ref":
- "pmb64740"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1898-06-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-06-28.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 28. Juni 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -131,6 +158,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "",
  "color":
  "",
@@ -141,44 +184,4 @@
                      Goldmann, 28. 6. 1898",
  "text":
  "L02854"
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1898-06-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-06-28.html",
- "head":
- "Tagebuch, 28. Juni 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "person_19150"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Die Gefährtin. Schauspiel in einem Akt",
- "ref":
- "pmb29845"}
- ,  {
- "title":
- "Paracelsus. Versspiel in einem Akt",
- "ref":
- "pmb30403"}
- ]
-}
-}] 
+}, ] 

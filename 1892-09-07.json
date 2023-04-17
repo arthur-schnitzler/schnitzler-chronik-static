@@ -1,111 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/213/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
- "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00121",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00121.html",
- "head":
- "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 9. [1892]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Édouard Rod",
- "ref":
- "pmb4311"},
- {
- "persName":
- "Louis Charles de Bourbon",
- "ref":
- "pmb4315"},
- {
- "persName":
- "Antoine Simon",
- "ref":
- "pmb4319"}],
- "listBibl":
-  [
- {
- "title":
- "Pandore",
- "ref":
- "pmb34242"}
- ,  {
- "title":
- "Ein Sommernachtstraum",
- "ref":
- "pmb34239"}
- ,  {
- "title":
- "Reise in die mittäglichen Provinzen von Frankreich",
- "ref":
- "pmb32117"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Lélex",
- "ref":
- "pmb45896"}
- ,  {
- "placeName":
- "Bad Ischl",
- "ref":
- "pmb213"}
- ,  {
- "placeName":
- "Frankreich",
- "ref":
- "pmb166"}
- ,  {
- "placeName":
- "Arles",
- "ref":
- "pmb641"}
- ,  {
- "placeName":
- "Buchs",
- "ref":
- "pmb859"}
- ,  {
- "placeName":
- "Genf",
- "ref":
- "pmb562"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -204,6 +98,99 @@
 }
 }, {
  "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00121",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00121.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 9. [1892]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Édouard Rod",
+ "ref":
+ "pmb4311"},
+ {
+ "persName":
+ "Louis Charles de Bourbon",
+ "ref":
+ "pmb4315"},
+ {
+ "persName":
+ "Antoine Simon",
+ "ref":
+ "pmb4319"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Pandore",
+ "ref":
+ "pmb34242"}
+ ,  {
+ "title":
+ "Ein Sommernachtstraum",
+ "ref":
+ "pmb34239"}
+ ,  {
+ "title":
+ "Reise in die mittäglichen Provinzen von Frankreich",
+ "ref":
+ "pmb32117"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lélex",
+ "ref":
+ "pmb45896"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Arles",
+ "ref":
+ "pmb641"}
+ ,  {
+ "placeName":
+ "Buchs",
+ "ref":
+ "pmb859"}
+ ,  {
+ "placeName":
+ "Genf",
+ "ref":
+ "pmb562"}
+ ]
+}
+}, {
+ "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -280,4 +267,20 @@
  "pmb562"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl",
+ "desc":
+{
+}
+}, ] 

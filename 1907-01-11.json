@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-01-11",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-11.html",
  "head":
- "Wien"
+ "Tagebuch, 11. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Hiller",
+ "ref":
+ "person_16200"},
+ {
+ "persName":
+ "Julius Lehnert",
+ "ref":
+ "person_17410"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Karl Engel",
+ "ref":
+ "person_14755"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -116,61 +158,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1907-01-11",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-11.html",
- "head":
- "Tagebuch, 11. Januar 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Hiller",
- "ref":
- "person_16200"},
- {
- "persName":
- "Julius Lehnert",
- "ref":
- "person_17410"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Karl Engel",
- "ref":
- "person_14755"},
- {
- "persName":
- "Bruno Walter",
- "ref":
- "person_21080"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -267,4 +254,20 @@
  "pmb189"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

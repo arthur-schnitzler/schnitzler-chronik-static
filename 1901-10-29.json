@@ -1,16 +1,48 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1901-10-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-10-29.html",
  "head":
- "Wien"
+ "Tagebuch, 29. Oktober 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "person_16730"},
+ {
+ "persName":
+ "Alexander Engel",
+ "ref":
+ "person_14748"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -72,51 +104,6 @@
  "Frankgasse",
  "ref":
  "pmb397"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1901-10-29",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-10-29.html",
- "head":
- "Tagebuch, 29. Oktober 1901",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Alfred von Berger",
- "ref":
- "person_13624"},
- {
- "persName":
- "Carl Karlweis",
- "ref":
- "person_16730"},
- {
- "persName":
- "Alexander Engel",
- "ref":
- "person_14748"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"}],
- "listPlace":
-  [
- {
- "placeName":
- "Brühl",
- "ref":
- "pmb44413"}
  ]
 }
 }, {
@@ -232,4 +219,20 @@
  "pmb75"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

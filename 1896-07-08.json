@@ -1,27 +1,5 @@
 [{
  "type":
- "schnitzler-cmif",
- "subtype":
- "#q0f31f7c-c385-4bdd-b199-e671f4a30389",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Marie Reinhard, 8.7.1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Reinhard",
- "ref":
- "https://d-nb.info/gnd/123368790"}],
- "bibl":
- "Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -60,4 +38,27 @@
  "pmb78006"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#q0f31f7c-c385-4bdd-b199-e671f4a30389",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 8.7.1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "https://d-nb.info/gnd/123368790"}],
+ "bibl":
+ ", "source":
+ "Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)"
+}
+}, ] 

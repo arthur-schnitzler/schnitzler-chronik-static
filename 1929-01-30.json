@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02507",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02507.html",
- "head":
- "Arthur Schnitzler an Thomas Mann, 30. 1. 1929",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Thomas Mann",
- "ref":
- "pmb12176"}],
- "listOrg":
-  [
- {
- "orgName":
- "Book of The Month Club",
- "ref":
- "pmb29574"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -117,4 +56,68 @@
  "pmb58"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02507",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02507.html",
+ "head":
+ "Arthur Schnitzler an Thomas Mann, 30. 1. 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Book of The Month Club",
+ "ref":
+ "pmb29574"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

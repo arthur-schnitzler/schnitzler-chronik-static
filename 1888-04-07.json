@@ -1,45 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/168/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
- "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#j7685005-64da-4e31-99b6-b4641aa1628c",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Johann Schnitzler, Louise Schnitzler, 7. 4. 1888",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Johann Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848669"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "https://d-nb.info/gnd/1141930552"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -98,4 +58,48 @@
  "pmb80366"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Johann Schnitzler, Louise Schnitzler, 7. 4. 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848669"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/1141930552"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}
+}, ] 

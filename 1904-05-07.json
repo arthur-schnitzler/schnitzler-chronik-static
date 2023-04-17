@@ -1,17 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/445/",
+ "entry__1904-05-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/445/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-07.html",
  "head":
- "Rom"
-}, {
+ "Tagebuch, 7. Mai 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur von Gutmann-Gelse",
+ "ref":
+ "person_15775"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "Vatican City",
+ "ref":
+ "pmb91997"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -136,37 +158,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-05-07",
+ "entity/445/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/445/",
  "head":
- "Tagebuch, 7. Mai 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Arthur von Gutmann-Gelse",
- "ref":
- "person_15775"}],
- "listPlace":
-  [
- {
- "placeName":
  "Rom",
- "ref":
- "pmb445"}
- ,  {
- "placeName":
- "Vatican City",
- "ref":
- "pmb91997"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

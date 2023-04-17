@@ -1,16 +1,78 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1909-12-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-02.html",
  "head":
- "Wien"
+ "Tagebuch, 2. Dezember 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "person_14620"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "person_14643"},
+ {
+ "persName":
+ "Käthe Hannemann",
+ "ref":
+ "person_15902"},
+ {
+ "persName":
+ "Hans Homma",
+ "ref":
+ "person_16342"},
+ {
+ "persName":
+ "Wilhelm Klitsch",
+ "ref":
+ "person_16914"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "person_17087"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "person_17223"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Kathi Thaller",
+ "ref":
+ "person_20689"},
+ {
+ "persName":
+ "Paula Müller",
+ "ref":
+ "person_18306"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -92,81 +154,6 @@
  "Dom",
  "ref":
  "pmb136"}
- ]
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1909-12-02",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-02.html",
- "head":
- "Tagebuch, 2. Dezember 1909",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Anton Edthofer",
- "ref":
- "person_14620"},
- {
- "persName":
- "Albert Ehrenstein",
- "ref":
- "person_14643"},
- {
- "persName":
- "Käthe Hannemann",
- "ref":
- "person_15902"},
- {
- "persName":
- "Hans Homma",
- "ref":
- "person_16342"},
- {
- "persName":
- "Wilhelm Klitsch",
- "ref":
- "person_16914"},
- {
- "persName":
- "Leopold Kramer",
- "ref":
- "person_17087"},
- {
- "persName":
- "Victor Kutschera",
- "ref":
- "person_17223"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Kathi Thaller",
- "ref":
- "person_20689"},
- {
- "persName":
- "Paula Müller",
- "ref":
- "person_18306"}],
- "listBibl":
-  [
- {
- "title":
- "Der Ruf des Lebens. Schauspiel in drei Akten",
- "ref":
- "pmb29905"}
  ]
 }
 }, {
@@ -279,4 +266,20 @@
  "ref":
  "pmb10818"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

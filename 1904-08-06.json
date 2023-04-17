@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-08-06",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-06.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 6. August 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Der tapfere Cassian. Puppenspiel in einem Akt",
+ "ref":
+ "pmb30217"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sofienalpe",
+ "ref":
+ "pmb92533"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -181,6 +226,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
@@ -199,64 +260,7 @@
  "ref":
  "https://d-nb.info/gnd/118599380"}],
  "bibl":
+ ", "source":
  "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1904-08-06",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-06.html",
- "head":
- "Tagebuch, 6. August 1904",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Marx",
- "ref":
- "person_17958"},
- {
- "persName":
- "Max Reinhardt",
- "ref":
- "person_19154"},
- {
- "persName":
- "Albert Steinrück",
- "ref":
- "person_20383"}],
- "listBibl":
-  [
- {
- "title":
- "Das Haus Delorme. Eine Familienszene",
- "ref":
- "pmb31547"}
- ,  {
- "title":
- "Der tapfere Cassian. Puppenspiel in einem Akt",
- "ref":
- "pmb30217"}
- ,  {
- "title":
- "Zum großen Wurstel",
- "ref":
- "pmb29951"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Sofienalpe",
- "ref":
- "pmb92533"}
- ]
-}
-}] 
+}, ] 

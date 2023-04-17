@@ -1,17 +1,97 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/45260/",
+ "entry__1912-08-02",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-02.html",
  "head":
- "Brijuni"
-}, {
+ "Tagebuch, 2. August 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Heinrich Eduard Jacob",
+ "ref":
+ "person_16463"},
+ {
+ "persName":
+ "Auguste Kupelwieser",
+ "ref":
+ "person_17203"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Wilhelm von Wymetal",
+ "ref":
+ "person_21486"},
+ {
+ "persName":
+ "Julius Bittner",
+ "ref":
+ "person_13754"},
+ {
+ "persName":
+ "Hans Gregor",
+ "ref":
+ "person_15637"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Bergsee",
+ "ref":
+ "pmb78125"}
+ ,  {
+ "title":
+ "Das Leichenbegängnis der Gemma Ebria",
+ "ref":
+ "pmb80732"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rancon",
+ "ref":
+ "pmb92472"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -113,95 +193,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1912-08-02",
+ "entity/45260/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-02.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
  "head":
- "Tagebuch, 2. August 1912",
+ "Brijuni",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "person_14065"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Heinrich Eduard Jacob",
- "ref":
- "person_16463"},
- {
- "persName":
- "Auguste Kupelwieser",
- "ref":
- "person_17203"},
- {
- "persName":
- "Hugo Schmidl",
- "ref":
- "person_19755"},
- {
- "persName":
- "Wilhelm von Wymetal",
- "ref":
- "person_21486"},
- {
- "persName":
- "Julius Bittner",
- "ref":
- "person_13754"},
- {
- "persName":
- "Hans Gregor",
- "ref":
- "person_15637"},
- {
- "persName":
- "Gustav Mahler",
- "ref":
- "person_17786"},
- {
- "persName":
- "Bruno Walter",
- "ref":
- "person_21080"}],
- "listBibl":
-  [
- {
- "title":
- "Im Spiel der Sommerlüfte. In drei Aufzügen",
- "ref":
- "pmb30945"}
- ,  {
- "title":
- "Bergsee",
- "ref":
- "pmb78125"}
- ,  {
- "title":
- "Das Leichenbegängnis der Gemma Ebria",
- "ref":
- "pmb80732"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Rancon",
- "ref":
- "pmb92472"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,64 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-01-16",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-01-16.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 16. Januar 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "person_16228"},
+ {
+ "persName":
+ "Friedrich Nietzsche",
+ "ref":
+ "person_18451"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "person_14942"},
+ {
+ "persName":
+ "Eugenie B.",
+ "ref":
+ "person_13333"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Madame Sans-Gêne. Comédie en 3 actes et 1 prologue",
+ "ref":
+ "pmb30379"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,6 +151,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
@@ -122,66 +185,7 @@
  "ref":
  "https://d-nb.info/gnd/118605429"}],
  "bibl":
+ ", "source":
  "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1894-01-16",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-01-16.html",
- "head":
- "Tagebuch, 16. Januar 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Robert Hirschfeld",
- "ref":
- "person_16228"},
- {
- "persName":
- "Friedrich Nietzsche",
- "ref":
- "person_18451"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Friedrich Michael Fels",
- "ref":
- "person_14942"},
- {
- "persName":
- "Eugenie B.",
- "ref":
- "person_13333"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Madame Sans-Gêne. Comédie en 3 actes et 1 prologue",
- "ref":
- "pmb30379"}
- ]
-}
-}] 
+}, ] 

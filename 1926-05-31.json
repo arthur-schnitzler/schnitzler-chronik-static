@@ -1,17 +1,62 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1926-05-31",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-05-31.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 31. Mai 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Pohl",
+ "ref":
+ "person_18846"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Franklin Spier",
+ "ref":
+ "person_20263"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Der Seitensprung ins Glück",
+ "ref":
+ "pmb80535"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -79,60 +124,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1926-05-31",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-05-31.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 31. Mai 1926",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Josef Pohl",
- "ref":
- "person_18846"},
- {
- "persName":
- "Clara Katharina Pollaczek",
- "ref":
- "person_18863"},
- {
- "persName":
- "Franklin Spier",
- "ref":
- "person_20263"}],
- "listBibl":
-  [
- {
- "title":
- "Der Geist im Wort und der Geist in der Tat",
- "ref":
- "pmb30051"}
- ,  {
- "title":
- "Spiel im Morgengrauen. Novelle",
- "ref":
- "pmb32131"}
- ,  {
- "title":
- "Der Seitensprung ins Glück",
- "ref":
- "pmb80535"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Vereinigte Staaten von Amerika (USA)",
- "ref":
- "pmb43406"}
- ]
 }
-}] 
+}, ] 

@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1907-04-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-13.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 13. April 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Moriz Károlyi",
+ "ref":
+ "person_16735"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -83,70 +138,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1907-04-13",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-13.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 13. April 1907",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Josef Kainz",
- "ref":
- "person_16646"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Karl Schnitzler",
- "ref":
- "person_19828"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Anna Donath",
- "ref":
- "person_14481"},
- {
- "persName":
- "Moriz Károlyi",
- "ref":
- "person_16735"}],
- "listBibl":
-  [
- {
- "title":
- "Große Szene",
- "ref":
- "pmb31429"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Meran",
- "ref":
- "pmb43520"}
- ]
 }
-}] 
+}, ] 

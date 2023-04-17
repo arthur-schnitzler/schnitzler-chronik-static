@@ -1,30 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/213/",
+ "entry__1895-08-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-19.html",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/30/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/30/",
- "head":
- "Salzburg"
-}, {
+ "Tagebuch, 19. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Altmann",
+ "ref":
+ "person_13175"},
+ {
+ "persName":
+ "Alfred Mandl",
+ "ref":
+ "person_17815"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ,  {
+ "placeName":
+ "Mönchsberg",
+ "ref":
+ "pmb91270"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -157,52 +181,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-08-19",
+ "entity/213/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-19.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
  "head":
- "Tagebuch, 19. August 1895",
+ "Bad Ischl",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Paul Altmann",
- "ref":
- "person_13175"},
- {
- "persName":
- "Alfred Mandl",
- "ref":
- "person_17815"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"}],
- "listPlace":
-  [
- {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "Hellbrunn",
- "ref":
- "pmb31"}
- ,  {
- "placeName":
- "Mönchsberg",
- "ref":
- "pmb91270"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg",
+ "desc":
+{
+}
+}, ] 

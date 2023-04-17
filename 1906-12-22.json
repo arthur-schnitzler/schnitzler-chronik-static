@@ -1,69 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01645",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01645.html",
- "head":
- "Max Burckhard an Arthur Schnitzler, 2[2?]. 12. 1906",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "pmb11036"}],
- "listBibl":
-  [
- {
- "title":
- "Im Paradiese. Komödie in 4 Akten",
- "ref":
- "pmb48446"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Wiener Verlag",
- "ref":
- "pmb29636"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Leipzig",
- "ref":
- "pmb864"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -130,4 +66,71 @@
  "pmb168"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01645",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01645.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, 2[2?]. 12. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Paradiese. Komödie in 4 Akten",
+ "ref":
+ "pmb48446"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Verlag",
+ "ref":
+ "pmb29636"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,96 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02672",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02672.html",
- "head":
- "Paul Goldmann an Arthur Schnitzler, 29. 11. 1891",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "Frans Hals",
- "ref":
- "pmb17766"},
- {
- "persName":
- "Rembrandt van Rijn",
- "ref":
- "pmb5428"}],
- "listOrg":
-  [
- {
- "orgName":
- "Pariser Büro der Frankfurter Zeitung",
- "ref":
- "pmb88828"}
- ,  {
- "orgName":
- "Frankfurter Zeitung",
- "ref":
- "pmb29442"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Amsterdam",
- "ref":
- "pmb40709"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Bösendorferstraße",
- "ref":
- "pmb542"}
- ,  {
- "placeName":
- "Haarlem",
- "ref":
- "pmb44256"}
- ,  {
- "placeName":
- "rue Vivienne",
- "ref":
- "pmb40415"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -170,6 +79,84 @@
  "Linz",
  "ref":
  "pmb91153"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02672",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02672.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 29. 11. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Frans Hals",
+ "ref":
+ "pmb17766"},
+ {
+ "persName":
+ "Rembrandt van Rijn",
+ "ref":
+ "pmb5428"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Pariser Büro der Frankfurter Zeitung",
+ "ref":
+ "pmb88828"}
+ ,  {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ,  {
+ "placeName":
+ "Haarlem",
+ "ref":
+ "pmb44256"}
+ ,  {
+ "placeName":
+ "rue Vivienne",
+ "ref":
+ "pmb40415"}
  ]
 }
 }, {
@@ -255,4 +242,20 @@
  "pmb332"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

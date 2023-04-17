@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02337",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02337.html",
- "head":
- "Arthur Schnitzler an Ida Dehmel, 25. 2. 1920",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Ida Dehmel",
- "ref":
- "pmb4358"},
- {
- "persName":
- "Richard Dehmel",
- "ref":
- "pmb11148"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"}],
- "listBibl":
-  [
- {
- "title":
- "Zwischen Volk und Menschheit",
- "ref":
- "pmb44872"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Blankenese",
- "ref":
- "pmb1226"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -122,4 +56,73 @@
  "pmb169"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02337",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02337.html",
+ "head":
+ "Arthur Schnitzler an Ida Dehmel, 25. 2. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida Dehmel",
+ "ref":
+ "pmb4358"},
+ {
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischen Volk und Menschheit",
+ "ref":
+ "pmb44872"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Blankenese",
+ "ref":
+ "pmb1226"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

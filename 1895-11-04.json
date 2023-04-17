@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1895-11-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-11-04.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 4. November 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "person_16165"},
+ {
+ "persName":
+ "Charlotte Wolter",
+ "ref":
+ "person_21463"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sappho. Trauerspiel in fünf Aufzügen",
+ "ref":
+ "pmb31631"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -71,42 +98,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1895-11-04",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-11-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 4. November 1895",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Theodor Herzl",
- "ref":
- "person_16165"},
- {
- "persName":
- "Charlotte Wolter",
- "ref":
- "person_21463"}],
- "listBibl":
-  [
- {
- "title":
- "Sappho. Trauerspiel in fünf Aufzügen",
- "ref":
- "pmb31631"}
- ]
 }
-}] 
+}, ] 

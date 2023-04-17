@@ -1,71 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01775",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01775.html",
- "head":
- "Richard Dehmel an Arthur Schnitzler, 8. 6. 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Dehmel",
- "ref":
- "pmb11148"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Die neue Rundschau",
- "ref":
- "pmb36156"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Braunwald",
- "ref":
- "pmb44880"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Schweiz",
- "ref":
- "pmb43435"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -152,4 +86,73 @@
  "pmb91145"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01775",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01775.html",
+ "head":
+ "Richard Dehmel an Arthur Schnitzler, 8. 6. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Braunwald",
+ "ref":
+ "pmb44880"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

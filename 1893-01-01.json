@@ -1,29 +1,83 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1893-01-01",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-01-01.html",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/412/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/412/",
- "head":
- "Grillparzerstraße"
+ "Tagebuch, 1. Januar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela von Ehrenstein",
+ "ref":
+ "person_14646"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Paul Jacobsohn",
+ "ref":
+ "person_16475"},
+ {
+ "persName":
+ "Innozenz Kohnberger",
+ "ref":
+ "person_16996"},
+ {
+ "persName":
+ "Else Markbreiter",
+ "ref":
+ "person_17900"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Richard von Wolff",
+ "ref":
+ "person_21449"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "person_14942"},
+ {
+ "persName":
+ "Bernhard? Panzer",
+ "ref":
+ "person_18657"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -132,86 +186,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1893-01-01",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-01-01.html",
- "head":
- "Tagebuch, 1. Januar 1893",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gisela von Ehrenstein",
- "ref":
- "person_14646"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "person_15485"},
- {
- "persName":
- "Paul Jacobsohn",
- "ref":
- "person_16475"},
- {
- "persName":
- "Innozenz Kohnberger",
- "ref":
- "person_16996"},
- {
- "persName":
- "Else Markbreiter",
- "ref":
- "person_17900"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Richard von Wolff",
- "ref":
- "person_21449"},
- {
- "persName":
- "Friedrich Michael Fels",
- "ref":
- "person_14942"},
- {
- "persName":
- "Bernhard? Panzer",
- "ref":
- "person_18657"},
- {
- "persName":
- "Johann Schnitzler",
- "ref":
- "person_19824"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -242,4 +216,36 @@
  "ref":
  "pmb2150"}]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße",
+ "desc":
+{
+}
+}, ] 

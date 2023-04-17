@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91320/",
+ "entry__1896-07-22",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91320/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-22.html",
  "head":
- "Namsos"
-}, {
+ "Tagebuch, 22. Juli 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Luyken",
+ "ref":
+ "person_17748"},
+ {
+ "persName":
+ "Mottau",
+ "ref":
+ "person_18276"},
+ {
+ "persName":
+ "Hermann Rasch",
+ "ref":
+ "person_19062"},
+ {
+ "persName":
+ "Otto David Ellstätter",
+ "ref":
+ "person_14727"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Namsos",
+ "ref":
+ "pmb91320"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -63,6 +95,22 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91320/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91320/",
+ "head":
+ "Namsos",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#q0f31f7c-c385-4bdd-b199-e671f4a30389",
@@ -81,51 +129,7 @@
  "ref":
  "https://d-nb.info/gnd/123368790"}],
  "bibl":
+ ", "source":
  "Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1896-07-22",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-22.html",
- "head":
- "Tagebuch, 22. Juli 1896",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Luyken",
- "ref":
- "person_17748"},
- {
- "persName":
- "Mottau",
- "ref":
- "person_18276"},
- {
- "persName":
- "Hermann Rasch",
- "ref":
- "person_19062"},
- {
- "persName":
- "Otto David Ellstätter",
- "ref":
- "person_14727"}],
- "listPlace":
-  [
- {
- "placeName":
- "Namsos",
- "ref":
- "pmb91320"}
- ]
-}
-}] 
+}, ] 

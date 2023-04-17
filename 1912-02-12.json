@@ -1,17 +1,85 @@
 [{
  "type":
- "schnitzler-orte",
+ "Arthur-Schnitzler-digital",
  "color":
- "#045344",
- "filename":
- "entity/50/",
+ "#801e23",
  "caption":
- "Aufenthaltsorte",
+ "Arthur Schnitzler digital (Werke 1905–1931)",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://www.schnitzler-edition.net",
  "head":
- "Wien"
+ "Professor Bernhardi, K5 part. msl. Werkniederschrift 2",
+ "text":
+ "Publikation in Vorbereitung"
 }, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-02-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-02-12.html",
+ "head":
+ "Tagebuch, 12. Februar 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Elsa Marguerite Galafrès",
+ "ref":
+ "person_15324"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -104,17 +172,20 @@
 }
 }, {
  "type":
- "Arthur-Schnitzler-digital",
+ "schnitzler-orte",
  "color":
- "#801e23",
+ "#045344",
+ "filename":
+ "entity/50/",
  "caption":
- "Arthur Schnitzler digital (Werke 1905–1931)",
+ "Aufenthaltsorte",
  "idno":
- "https://www.schnitzler-edition.net",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Professor Bernhardi, K5 part. msl. Werkniederschrift 2",
- "text":
- "Publikation in Vorbereitung"
+ "Wien",
+ "desc":
+{
+}
 }, {
  "type":
  "schnitzler-cmif",
@@ -135,74 +206,7 @@
  "ref":
  "https://d-nb.info/gnd/107146134"}],
  "bibl":
+ ", "source":
  "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-02-12",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-02-12.html",
- "head":
- "Tagebuch, 12. Februar 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefanie Bachrach",
- "ref":
- "person_13359"},
- {
- "persName":
- "Ernst von Dohnányi",
- "ref":
- "person_14473"},
- {
- "persName":
- "Elsa Marguerite Galafrès",
- "ref":
- "person_15324"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "person_18881"}],
- "listBibl":
-  [
- {
- "title":
- "Frau Beate und ihr Sohn. Novelle",
- "ref":
- "pmb32133"}
- ,  {
- "title":
- "Zum großen Wurstel",
- "ref":
- "pmb29951"}
- ,  {
- "title":
- "Professor Bernhardi. Komödie in fünf Akten",
- "ref":
- "pmb30203"}
- ,  {
- "title":
- "Der Schleier der Pierrette",
- "ref":
- "pmb30215"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Deutsches Volkstheater",
- "ref":
- "pmb92202"}
- ]
-}
-}] 
+}, ] 

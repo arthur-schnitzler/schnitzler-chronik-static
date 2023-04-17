@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L00858",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L00858.html",
- "head":
- "Arthur Schnitzler an Richard Beer-Hofmann, [18. 11. 1898?]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"}],
- "listBibl":
-  [
- {
- "title":
- "Tagebuch",
- "ref":
- "pmb33243"}
- ,  {
- "title":
- "Juana",
- "ref":
- "pmb30461"}
- ,  {
- "title":
- "Abschiedssouper",
- "ref":
- "pmb30005"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Wollzeile",
- "ref":
- "pmb338"}
- ,  {
- "placeName":
- "Raimund-Theater",
- "ref":
- "pmb77"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -137,6 +61,69 @@
  "Juana",
  "ref":
  "pmb30461"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00858",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00858.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, [18. 11. 1898?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Juana",
+ "ref":
+ "pmb30461"}
+ ,  {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
  ]
 }
 }, {
@@ -212,4 +199,20 @@
  "pmb77"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

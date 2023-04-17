@@ -1,17 +1,59 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1904-10-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-15.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 15. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Schumann",
+ "ref":
+ "person_19942"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -96,57 +138,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1904-10-15",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-15.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 15. Oktober 1904",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Robert Schumann",
- "ref":
- "person_19942"},
- {
- "persName":
- "Leo Van-Jung",
- "ref":
- "person_20925"},
- {
- "persName":
- "Julie Wassermann",
- "ref":
- "person_21109"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "person_21107"},
- {
- "persName":
- "Arthur Kaufmann",
- "ref":
- "person_16770"},
- {
- "persName":
- "Franziska Mütter",
- "ref":
- "person_18320"}],
- "listBibl":
-  [
- {
- "title":
- "Zwischenspiel. Komödie in drei Akten",
- "ref":
- "pmb29903"}
- ]
 }
-}] 
+}, ] 

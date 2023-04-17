@@ -1,43 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/91504/",
+ "entry__1907-08-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91504/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-29.html",
  "head":
- "Passo Pordoi"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/40307/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40307/",
- "head":
- "Canazei"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/91003/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91003/",
- "head":
- "Carezza"
-}, {
+ "Tagebuch, 29. August 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Ernst",
+ "ref":
+ "person_14803"},
+ {
+ "persName":
+ "Margarethe Fränkel",
+ "ref":
+ "person_15102"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Eva Marie Goldmann",
+ "ref":
+ "person_15526"},
+ {
+ "persName":
+ "Marie von Saracini-Belfort",
+ "ref":
+ "person_19575"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Passo Pordoi",
+ "ref":
+ "pmb91504"}
+ ,  {
+ "placeName":
+ "Canazei",
+ "ref":
+ "pmb40307"}
+ ,  {
+ "placeName":
+ "Carezza",
+ "ref":
+ "pmb91003"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -134,70 +163,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1907-08-29",
+ "entity/91504/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-29.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/91504/",
  "head":
- "Tagebuch, 29. August 1907",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Ernst",
- "ref":
- "person_14803"},
- {
- "persName":
- "Margarethe Fränkel",
- "ref":
- "person_15102"},
- {
- "persName":
- "Ludwig Fulda",
- "ref":
- "person_15306"},
- {
- "persName":
- "Eva Marie Goldmann",
- "ref":
- "person_15526"},
- {
- "persName":
- "Marie von Saracini-Belfort",
- "ref":
- "person_19575"}],
- "listBibl":
-  [
- {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Passo Pordoi",
- "ref":
- "pmb91504"}
- ,  {
- "placeName":
- "Canazei",
- "ref":
- "pmb40307"}
- ,  {
- "placeName":
- "Carezza",
- "ref":
- "pmb91003"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40307/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40307/",
+ "head":
+ "Canazei",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91003/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91003/",
+ "head":
+ "Carezza",
+ "desc":
+{
+}
+}, ] 

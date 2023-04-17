@@ -1,30 +1,39 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/90649/",
+ "entry__1906-07-25",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90649/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-25.html",
  "head":
- "Frederiksborg Slot"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/959/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/959/",
- "head":
- "Marienlyst"
-}, {
+ "Tagebuch, 25. Juli 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "Bilder aus der deutschen Vergangenheit. Aus dem Jahrhundert des großen Krieges",
+ "ref":
+ "pmb59476"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -66,37 +75,34 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1906-07-25",
+ "entity/90649/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-25.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/90649/",
  "head":
- "Tagebuch, 25. Juli 1906",
+ "Frederiksborg Slot",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Peter Altenberg",
- "ref":
- "person_13162"}],
- "listBibl":
-  [
- {
- "title":
- "Das Wort. Tragikomödie in fünf Akten",
- "ref":
- "pmb30615"}
- ,  {
- "title":
- "Bilder aus der deutschen Vergangenheit. Aus dem Jahrhundert des großen Krieges",
- "ref":
- "pmb59476"}
- ]
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/959/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "head":
+ "Marienlyst",
+ "desc":
+{
+}
+}, ] 

@@ -1,66 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L01573",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L01573.html",
- "head":
- "Arthur Schnitzler an Gerhart Hauptmann, [17. 1. 1906]",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gerhart Hauptmann",
- "ref":
- "pmb11617"},
- {
- "persName":
- "Siegfried Knapitsch",
- "ref":
- "pmb19450"}],
- "listOrg":
-  [
- {
- "orgName":
- "Société des Auteurs et Compositeurs Dramatiques",
- "ref":
- "pmb29397"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Edmund-Weiß-Gasse",
- "ref":
- "pmb133"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -137,4 +76,68 @@
  "pmb113"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01573",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01573.html",
+ "head":
+ "Arthur Schnitzler an Gerhart Hauptmann, [17. 1. 1906]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Siegfried Knapitsch",
+ "ref":
+ "pmb19450"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Société des Auteurs et Compositeurs Dramatiques",
+ "ref":
+ "pmb29397"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

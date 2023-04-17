@@ -1,17 +1,54 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1917-12-19",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-12-19.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 19. Dezember 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Carl Franz Techet",
+ "ref":
+ "person_20653"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Landsknecht",
+ "ref":
+ "pmb30753"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -129,52 +166,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1917-12-19",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-12-19.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 19. Dezember 1917",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Carl Franz Techet",
- "ref":
- "person_20653"}],
- "listBibl":
-  [
- {
- "title":
- "Fink und Fliederbusch. Komödie in drei Akten",
- "ref":
- "pmb30881"}
- ,  {
- "title":
- "Landsknecht",
- "ref":
- "pmb30753"}
- ,  {
- "title":
- "Jugend in Wien",
- "ref":
- "pmb33838"}
- ]
 }
-}] 
+}, ] 

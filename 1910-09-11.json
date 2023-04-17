@@ -1,96 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02557",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02557.html",
- "head":
- "Olga Schnitzler an Richard Beer-Hofmann, Paula Beer-Hofmann, 11. 9. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "pmb2173"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "pmb10860"}],
- "listOrg":
-  [
- {
- "orgName":
- "Gebrüder Wild – Schmalz- und Käsehandlung",
- "ref":
- "pmb53205"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "IX., Alsergrund",
- "ref":
- "pmb59"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "XVIII., Währing",
- "ref":
- "pmb68"}
- ,  {
- "placeName":
- "Sternwartestraße",
- "ref":
- "pmb150"}
- ,  {
- "placeName":
- "Bad Ischl",
- "ref":
- "pmb213"}
- ,  {
- "placeName":
- "Steinfeld",
- "ref":
- "pmb405"}
- ,  {
- "placeName":
- "Mondsee",
- "ref":
- "pmb53759"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -212,4 +121,98 @@
  "pmb169"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02557",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02557.html",
+ "head":
+ "Olga Schnitzler an Richard Beer-Hofmann, Paula Beer-Hofmann, 11. 9. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Gebrüder Wild – Schmalz- und Käsehandlung",
+ "ref":
+ "pmb53205"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Steinfeld",
+ "ref":
+ "pmb405"}
+ ,  {
+ "placeName":
+ "Mondsee",
+ "ref":
+ "pmb53759"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,69 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1925-07-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-07-07.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 7. Juli 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "person_16355"},
+ {
+ "persName":
+ "Alois Böhm",
+ "ref":
+ "person_13830"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Böse Buben Zeitungen",
+ "ref":
+ "pmb76910"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -194,67 +246,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1925-07-07",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-07-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 7. Juli 1925",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Vilma Lichtenstern",
- "ref":
- "person_17510"},
- {
- "persName":
- "Hans Schnitzler",
- "ref":
- "person_19821"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "person_19986"},
- {
- "persName":
- "Franz Horch",
- "ref":
- "person_16355"},
- {
- "persName":
- "Alois Böhm",
- "ref":
- "person_13830"}],
- "listBibl":
-  [
- {
- "title":
- "Die Frau des Richters. Novelle",
- "ref":
- "pmb30751"}
- ,  {
- "title":
- "Böse Buben Zeitungen",
- "ref":
- "pmb76910"}
- ]
 }
-}] 
+}, ] 

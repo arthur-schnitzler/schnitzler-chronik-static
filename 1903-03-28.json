@@ -1,16 +1,38 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1903-03-28",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-03-28.html",
  "head":
- "Wien"
+ "Tagebuch, 28. März 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -59,41 +81,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1903-03-28",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-03-28.html",
- "head":
- "Tagebuch, 28. März 1903",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Ludwig Mandl",
- "ref":
- "person_17825"}],
- "listBibl":
-  [
- {
- "title":
- "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
- "ref":
- "pmb30057"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -138,4 +125,20 @@
  "pmb29636"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

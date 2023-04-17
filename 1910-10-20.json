@@ -1,16 +1,81 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-10-20",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-20.html",
  "head":
- "Wien"
+ "Tagebuch, 20. Oktober 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Franz Neumann",
+ "ref":
+ "person_18416"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Liebelei. Oper in drei Akten",
+ "ref":
+ "pmb31311"}
+ ,  {
+ "title":
+ "Das Tagebuch der Redegonda",
+ "ref":
+ "pmb30349"}
+ ,  {
+ "title":
+ "Ein Muttersohn",
+ "ref":
+ "pmb77057"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -157,84 +222,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-10-20",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-20.html",
- "head":
- "Tagebuch, 20. Oktober 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Moriz Benedikt",
- "ref":
- "person_13595"},
- {
- "persName":
- "Johannes Brahms",
- "ref":
- "person_13914"},
- {
- "persName":
- "Franz Neumann",
- "ref":
- "person_18416"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "person_19831"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "person_20796"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "person_16293"}],
- "listBibl":
-  [
- {
- "title":
- "Das weite Land. Tragikomödie in fünf Akten",
- "ref":
- "pmb30207"}
- ,  {
- "title":
- "Liebelei. Oper in drei Akten",
- "ref":
- "pmb31311"}
- ,  {
- "title":
- "Das Tagebuch der Redegonda",
- "ref":
- "pmb30349"}
- ,  {
- "title":
- "Ein Muttersohn",
- "ref":
- "pmb77057"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -281,4 +268,20 @@
  "pmb150"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

@@ -1,17 +1,49 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1894-12-07",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-07.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 7. Dezember 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Eckstein",
+ "ref":
+ "person_14612"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -79,47 +111,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1894-12-07",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-07.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 7. Dezember 1894",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Friedrich Eckstein",
- "ref":
- "person_14612"},
- {
- "persName":
- "Felix Markbreiter",
- "ref":
- "person_17901"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "person_19564"},
- {
- "persName":
- "Josefine Lydia von Weisswasser",
- "ref":
- "person_21214"}],
- "listPlace":
-  [
- {
- "placeName":
- "London",
- "ref":
- "pmb224"}
- ]
 }
-}] 
+}, ] 

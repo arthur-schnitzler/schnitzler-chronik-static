@@ -1,30 +1,94 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/168/",
+ "entry__1912-11-29",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-29.html",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/1090/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/1090/",
- "head":
- "Hotel Adlon"
-}, {
+ "Tagebuch, 29. November 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Lili Deutsch",
+ "ref":
+ "person_14428"},
+ {
+ "persName":
+ "Fritz Engel",
+ "ref":
+ "person_14753"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Johan Messchaert",
+ "ref":
+ "person_18094"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Wolff",
+ "ref":
+ "person_21447"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"},
+ {
+ "persName":
+ "Leo Blech",
+ "ref":
+ "person_13773"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Tiergarten",
+ "ref":
+ "pmb91893"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -215,6 +279,38 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1090/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1090/",
+ "head":
+ "Hotel Adlon",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
@@ -233,96 +329,7 @@
  "ref":
  ""}],
  "bibl":
+ ", "source":
  "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1912-11-29",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-29.html",
- "head":
- "Tagebuch, 29. November 1912",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "person_13913"},
- {
- "persName":
- "Lili Deutsch",
- "ref":
- "person_14428"},
- {
- "persName":
- "Fritz Engel",
- "ref":
- "person_14753"},
- {
- "persName":
- "Gerhart Hauptmann",
- "ref":
- "person_15980"},
- {
- "persName":
- "Johan Messchaert",
- "ref":
- "person_18094"},
- {
- "persName":
- "Helene Schnitzler",
- "ref":
- "person_19823"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "person_19827"},
- {
- "persName":
- "Louise Wolff",
- "ref":
- "person_21447"},
- {
- "persName":
- "Victor Barnowsky",
- "ref":
- "person_13428"},
- {
- "persName":
- "Clara Jonas",
- "ref":
- "person_16572"},
- {
- "persName":
- "Leo Blech",
- "ref":
- "person_13773"},
- {
- "persName":
- "Paul Jonas",
- "ref":
- "person_16574"}],
- "listPlace":
-  [
- {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Tiergarten",
- "ref":
- "pmb91893"}
- ]
-}
-}] 
+}, ] 

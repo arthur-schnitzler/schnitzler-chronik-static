@@ -1,16 +1,58 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1910-09-27",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-27.html",
  "head":
- "Wien"
+ "Tagebuch, 27. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Berger",
+ "ref":
+ "person_13631"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "O Mensch!",
+ "ref":
+ "pmb29939"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -85,83 +127,6 @@
  "London",
  "ref":
  "pmb224"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Zinaida Vengerova, 27. 9. 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Zinaida Vengerova",
- "ref":
- ""}],
- "bibl":
- "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
-}
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1910-09-27",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-27.html",
- "head":
- "Tagebuch, 27. September 1910",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Josef Berger",
- "ref":
- "person_13631"},
- {
- "persName":
- "Lili Schnitzler",
- "ref":
- "person_14130"},
- {
- "persName":
- "Heinrich Schnitzler",
- "ref":
- "person_19822"},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- "person_13374"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "person_13550"}],
- "listBibl":
-  [
- {
- "title":
- "Der einsame Weg. Schauspiel in fünf Akten",
- "ref":
- "pmb29985"}
- ,  {
- "title":
- "O Mensch!",
- "ref":
- "pmb29939"}
  ]
 }
 }, {
@@ -308,4 +273,43 @@
  "pmb86"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Zinaida Vengerova, 27. 9. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Zinaida Vengerova",
+ "ref":
+ ""}],
+ "bibl":
+ ", "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}
+}, ] 

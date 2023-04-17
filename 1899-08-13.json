@@ -1,43 +1,32 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/40260/",
+ "entry__1899-08-13",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-13.html",
  "head":
- "Bozen"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/867/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/867/",
- "head":
- "Innsbruck"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50817/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50817/",
- "head":
- "Hotel Stiegl"
-}, {
+ "Tagebuch, 13. August 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ,  {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -89,6 +78,54 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "head":
+ "Bozen",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50817/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50817/",
+ "head":
+ "Hotel Stiegl",
+ "desc":
+{
+}
+}, {
+ "type":
  "schnitzler-cmif",
  "subtype":
  "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
@@ -117,34 +154,7 @@
  "ref":
  "https://d-nb.info/gnd/118691406"}],
  "bibl":
+ ", "source":
  "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
 }
-}, {
- "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1899-08-13",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-13.html",
- "head":
- "Tagebuch, 13. August 1899",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
- "Bozen",
- "ref":
- "pmb40260"}
- ,  {
- "placeName":
- "Innsbruck",
- "ref":
- "pmb867"}
- ]
-}
-}] 
+}, ] 

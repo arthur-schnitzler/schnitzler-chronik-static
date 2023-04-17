@@ -1,17 +1,72 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/797/",
+ "entry__1922-09-04",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/797/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-09-04.html",
  "head":
- "Berchtesgaden"
-}, {
+ "Tagebuch, 4. September 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Otto Gottlieb-Billroth",
+ "ref":
+ "person_15591"},
+ {
+ "persName":
+ "Julius von Landesberger",
+ "ref":
+ "person_17278"},
+ {
+ "persName":
+ "Gertrude Felice von Landesberger",
+ "ref":
+ "person_19227"},
+ {
+ "persName":
+ "Julius Gottlieb",
+ "ref":
+ "person_15588"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden",
+ "ref":
+ "pmb797"}
+ ,  {
+ "placeName":
+ "Tschechoslowakei",
+ "ref":
+ "pmb38444"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -96,70 +151,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1922-09-04",
+ "entity/797/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-09-04.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/797/",
  "head":
- "Tagebuch, 4. September 1922",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Egbertje Alida Brevée",
- "ref":
- "person_13969"},
- {
- "persName":
- "Otto Gottlieb-Billroth",
- "ref":
- "person_15591"},
- {
- "persName":
- "Julius von Landesberger",
- "ref":
- "person_17278"},
- {
- "persName":
- "Gertrude Felice von Landesberger",
- "ref":
- "person_19227"},
- {
- "persName":
- "Julius Gottlieb",
- "ref":
- "person_15588"},
- {
- "persName":
- "Olga Schnitzler",
- "ref":
- "person_19832"}],
- "listBibl":
-  [
- {
- "title":
- "Komödie der Verführung. In drei Akten",
- "ref":
- "pmb30205"}
- ],
- "listPlace":
-  [
- {
- "placeName":
  "Berchtesgaden",
- "ref":
- "pmb797"}
- ,  {
- "placeName":
- "Tschechoslowakei",
- "ref":
- "pmb38444"}
- ]
+ "desc":
+{
 }
-}] 
+}, ] 

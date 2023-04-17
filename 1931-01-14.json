@@ -1,166 +1,5 @@
 [{
  "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp875",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp875.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 13.–14. Januar 1931"
-}, {
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp876",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp876.html",
- "head":
- "Tagebuch von Clara Katharina Pollaczek, 14.–16. Januar 1931"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02541",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02541.html",
- "head":
- "Arthur Schnitzler an Gabriel Beer-Hofmann, 14. 1. 1931",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Gabriel Beer-Hofmann",
- "ref":
- "pmb13923"},
- {
- "persName":
- "Harley Granville-Barker",
- "ref":
- "pmb5369"},
- {
- "persName":
- "Joseph Schildkraut",
- "ref":
- "pmb12648"},
- {
- "persName":
- "Frieda Pollak",
- "ref":
- "pmb22728"}],
- "listBibl":
-  [
- {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Vereinigte Staaten von Amerika (USA)",
- "ref":
- "pmb43406"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "New York City",
- "ref":
- "pmb44053"}
- ,  {
- "placeName":
- "Mayflower Hotel",
- "ref":
- "pmb50094"}
- ,  {
- "placeName":
- "Central Park West",
- "ref":
- "pmb50097"}
- ,  {
- "placeName":
- "Lyceum Theatre",
- "ref":
- "pmb1026"}
- ]
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Olga Schnitzler, 14. 1. 1931",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Schnitzler",
- "ref":
- "https://d-nb.info/gnd/116848723"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
- "schnitzler-cmif",
- "subtype":
- "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
- "color":
- "#654321",
- "caption":
- "Gedruckte Briefwechsel",
- "head":
- "Arthur Schnitzler an Else Wohlgemuth, 14. 1. 1931",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Else Wohlgemuth",
- "ref":
- "https://d-nb.info/gnd/117457272"}],
- "bibl":
- "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -257,4 +96,176 @@
  "pmb182"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02541",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02541.html",
+ "head":
+ "Arthur Schnitzler an Gabriel Beer-Hofmann, 14. 1. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "pmb13923"},
+ {
+ "persName":
+ "Harley Granville-Barker",
+ "ref":
+ "pmb5369"},
+ {
+ "persName":
+ "Joseph Schildkraut",
+ "ref":
+ "pmb12648"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ,  {
+ "placeName":
+ "Mayflower Hotel",
+ "ref":
+ "pmb50094"}
+ ,  {
+ "placeName":
+ "Central Park West",
+ "ref":
+ "pmb50097"}
+ ,  {
+ "placeName":
+ "Lyceum Theatre",
+ "ref":
+ "pmb1026"}
+ ]
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp875",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp875.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 13.–14. Januar 1931",
+ "desc":
+{
+}
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp876",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp876.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 14.–16. Januar 1931",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 14. 1. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "https://d-nb.info/gnd/116848723"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Else Wohlgemuth, 14. 1. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "https://d-nb.info/gnd/117457272"}],
+ "bibl":
+ ", "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}
+}, ] 

@@ -1,17 +1,44 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1900-02-15",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-15.html",
  "head":
- "Wien"
-}, {
+ "Tagebuch, 15. Februar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Letzte Liebe",
+ "ref":
+ "pmb80377"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -101,42 +128,18 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-02-15",
+ "entity/50/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-15.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Tagebuch, 15. Februar 1900",
+ "Wien",
  "desc":
-{"listPerson":
-  [
 {
- "persName":
- "Georg Hirschfeld",
- "ref":
- "person_16222"},
- {
- "persName":
- "Leopoldine Müller",
- "ref":
- "person_18303"},
- {
- "persName":
- "Ida d’Albert",
- "ref":
- "person_13131"}],
- "listBibl":
-  [
- {
- "title":
- "Letzte Liebe",
- "ref":
- "pmb80377"}
- ]
 }
-}] 
+}, ] 

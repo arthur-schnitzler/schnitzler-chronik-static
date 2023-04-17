@@ -1,81 +1,5 @@
 [{
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien"
-}, {
- "type":
- "schnitzler-briefe",
- "color":
- "#A63437",
- "filename":
- "L02624",
- "caption":
- "Briefe mit Autorinnen und Autoren",
- "idno":
- "https://schnitzler-briefe.acdh.oeaw.ac.at/L02624.html",
- "head":
- "Paul Goldmann an Arthur Schnitzler, 04. 12. 1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "J. Schwarz",
- "ref":
- "pmb42204"},
- {
- "persName":
- "Fedor Mamroth",
- "ref":
- "pmb4986"}],
- "listBibl":
-  [
- {
- "title":
- "Frankfurter Zeitung",
- "ref":
- "pmb36344"}
- ,  {
- "title":
- "Sterben. Novelle",
- "ref":
- "pmb30117"}
- ,  {
- "title":
- "Belletristische Rundschau",
- "ref":
- "pmb42201"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "schnitzler-tagebuch",
  "color":
  "#037a33",
@@ -142,4 +66,83 @@
  "pmb92490"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02624",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02624.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 04. 12. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "J. Schwarz",
+ "ref":
+ "pmb42204"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Belletristische Rundschau",
+ "ref":
+ "pmb42201"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 

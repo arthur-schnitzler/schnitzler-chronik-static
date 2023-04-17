@@ -1,43 +1,37 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/49135/",
+ "entry__1900-08-26",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/49135/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-26.html",
  "head":
- "Le Prese"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90132/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90132/",
- "head":
- "Bolladore"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/49343/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/49343/",
- "head":
- "Bormio"
-}, {
+ "Tagebuch, 26. August 1900",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Le Prese",
+ "ref":
+ "pmb49135"}
+ ,  {
+ "placeName":
+ "Bolladore",
+ "ref":
+ "pmb90132"}
+ ,  {
+ "placeName":
+ "Bormio",
+ "ref":
+ "pmb49343"}
+ ]
+}
+}{
  "type":
  "schnitzler-briefe",
  "color":
@@ -107,35 +101,50 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
+ "schnitzler-orte",
  "color":
- "#037a33",
+ "#045344",
  "filename":
- "entry__1900-08-26",
+ "entity/49135/",
  "caption":
- "Tagebuch",
+ "Aufenthaltsorte",
  "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-26.html",
+ "https://pmb.acdh.oeaw.ac.at/entity/49135/",
  "head":
- "Tagebuch, 26. August 1900",
- "desc":
-{"listPlace":
-  [
- {
- "placeName":
  "Le Prese",
- "ref":
- "pmb49135"}
- ,  {
- "placeName":
- "Bolladore",
- "ref":
- "pmb90132"}
- ,  {
- "placeName":
- "Bormio",
- "ref":
- "pmb49343"}
- ]
+ "desc":
+{
 }
-}] 
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90132/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90132/",
+ "head":
+ "Bolladore",
+ "desc":
+{
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49343/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49343/",
+ "head":
+ "Bormio",
+ "desc":
+{
+}
+}, ] 

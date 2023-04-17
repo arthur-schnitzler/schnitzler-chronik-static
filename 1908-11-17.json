@@ -1,16 +1,73 @@
 [{
  "type":
- "schnitzler-orte",
+ "schnitzler-tagebuch",
  "color":
- "#045344",
+ "#037a33",
  "filename":
- "entity/50/",
+ "entry__1908-11-17",
  "caption":
- "Aufenthaltsorte",
+ "Tagebuch",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-17.html",
  "head":
- "Wien"
+ "Tagebuch, 17. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "person_16477"},
+ {
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Erich Reiss",
+ "ref":
+ "person_19167"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adolf Sliwinski",
+ "ref":
+ "person_20167"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der tapfere Kassian. Singspiel",
+ "ref":
+ "pmb46124"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ]
+}
 }, {
  "type":
  "schnitzler-briefe",
@@ -127,76 +184,6 @@
 }
 }, {
  "type":
- "schnitzler-tagebuch",
- "color":
- "#037a33",
- "filename":
- "entry__1908-11-17",
- "caption":
- "Tagebuch",
- "idno":
- "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-17.html",
- "head":
- "Tagebuch, 17. November 1908",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "person_13551"},
- {
- "persName":
- "Theodor Entsch",
- "ref":
- "person_14766"},
- {
- "persName":
- "Siegfried Jacobsohn",
- "ref":
- "person_16477"},
- {
- "persName":
- "Jacob Pollak",
- "ref":
- "person_18884"},
- {
- "persName":
- "Erich Reiss",
- "ref":
- "person_19167"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "person_19542"},
- {
- "persName":
- "Adolf Sliwinski",
- "ref":
- "person_20167"},
- {
- "persName":
- "Oscar Straus",
- "ref":
- "person_20490"}],
- "listBibl":
-  [
- {
- "title":
- "Der tapfere Kassian. Singspiel",
- "ref":
- "pmb46124"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#F9BD63",
@@ -246,4 +233,20 @@
  "pmb29639"}
  ]
 }
-}] 
+}{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien",
+ "desc":
+{
+}
+}, ] 
