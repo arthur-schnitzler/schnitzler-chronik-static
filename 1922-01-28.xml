@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,52 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1922-01-28">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 28. Januar 1922</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17784">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18218">Carl Moll</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19351">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19352">Justine Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21243">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-28.html</idno>
             </event>
             <event when-iso="1922-01-28">
                <head>Christiane von Hofmannsthal an Arthur Schnitzler, 28. 1. 192[2]</head>
@@ -154,50 +195,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02375.html</idno>
             </event>
             <event when-iso="1922-01-28">
-               <head>Tagebuch, 28. Januar 1922</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14065">Max Eugen Burckhard</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14130">Lili Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17510">Vilma Lichtenstern</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17784">Alma Maria Mahler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18218">Carl Moll</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19351">Arnold Rosé</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19352">Justine Rosé</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19822">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21243">Franz Werfel</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17786">Gustav Mahler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19832">Olga Schnitzler</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb30">Salzburg</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-28.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
          </listEvent>
       </body>

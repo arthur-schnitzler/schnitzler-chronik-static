@@ -86,7 +86,7 @@
  "pmb50"}
  ]
 }
-}{
+}, {
  "type":
  "schnitzler-briefe",
  "color":
@@ -141,22 +141,6 @@
 }
 }, {
  "type":
- "pollaczek pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp747",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp747.html https://pollaczek.acdh.oeaw.ac.at/ckp748.html",
- "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 2. Januar 1930",
- "desc":
-{
-}
-}, {
- "type":
  "schnitzler-orte",
  "color":
  "#045344",
@@ -167,10 +151,20 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin",
- "desc":
-{
-}
+ "Berlin"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp747",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp747.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 2. Januar 1930"
 }, {
  "type":
  "schnitzler-cmif",
@@ -182,16 +176,6 @@
  "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Raoul Auernheimer, 2.1.1930",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Raoul Auernheimer",
- "ref":
- "https://d-nb.info/gnd/118505033"}],
- "bibl":
- ", "source":
+ "source":
  "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
-}
-}, ] 
+}] 

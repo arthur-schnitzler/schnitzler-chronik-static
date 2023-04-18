@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,50 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1923-07-28">
-               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 28. Juli 1923</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp090.html</idno>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp091.html</idno>
-            </event>
-            <event when-iso="1923-07-28">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1923-07-28">
-               <head>Stefan Zweig an Arthur Schnitzler, 28.7.1923</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
-            </event>
-            <event when-iso="1923-07-28">
-               <head>Stefan Zweig an Arthur Schnitzler, 28.7.1923</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName>Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl> Hermann
-                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
-                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
-                    Verlag 2018 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1923-07-28">
                <head>Tagebuch, 28. Juli 1923</head>
                <desc>
@@ -140,6 +97,17 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-07-28.html</idno>
+            </event>
+            <event when-iso="1923-07-28">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1923-07-28">
+               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 28. Juli 1923</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp090.html</idno>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp091.html</idno>
             </event>
             <event when-iso="1923-07-28">
                <head>Stefan Zweig an Schnitzler, 28. 7. 1923</head>
@@ -174,6 +142,38 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041615.html</idno>
+            </event>
+            <event when-iso="1923-07-28">
+               <head>Stefan Zweig an Arthur Schnitzler, 28.7.1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Stefan Zweig:
+                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
+                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
+                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
+            </event>
+            <event when-iso="1923-07-28">
+               <head>Stefan Zweig an Arthur Schnitzler, 28.7.1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName>Zweig, Stefan</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
             </event>
          </listEvent>
       </body>

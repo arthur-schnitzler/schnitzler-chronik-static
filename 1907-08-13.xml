@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,26 +67,45 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1907-08-13">
-               <head>Carbonin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44317/</idno>
-            </event>
-            <event when-iso="1907-08-13">
-               <head>Misurina</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41013/</idno>
-            </event>
-            <event when-iso="1907-08-13">
-               <head>Passo Tre Croci</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91932/</idno>
-            </event>
-            <event when-iso="1907-08-13">
-               <head>Cortina d'Ampezzo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34199/</idno>
+               <head>Tagebuch, 13. August 1907</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15780">Carl Guttmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15038">Carl Fleischmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44317">Carbonin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41013">Misurina</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91932">Passo Tre Croci</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34199">Cortina d'Ampezzo</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-13.html</idno>
             </event>
             <event when-iso="1907-08-13">
                <head>Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, 13. 8. 1907</head>
@@ -137,43 +156,24 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01699.html</idno>
             </event>
             <event when-iso="1907-08-13">
-               <head>Tagebuch, 13. August 1907</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15780">Carl Guttmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21107">Jakob Wassermann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15038">Carl Fleischmann</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb44317">Carbonin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41013">Misurina</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91932">Passo Tre Croci</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb34199">Cortina d'Ampezzo</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-13.html</idno>
+               <head>Carbonin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44317/</idno>
+            </event>
+            <event when-iso="1907-08-13">
+               <head>Misurina</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41013/</idno>
+            </event>
+            <event when-iso="1907-08-13">
+               <head>Passo Tre Croci</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91932/</idno>
+            </event>
+            <event when-iso="1907-08-13">
+               <head>Cortina d'Ampezzo</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34199/</idno>
             </event>
          </listEvent>
       </body>

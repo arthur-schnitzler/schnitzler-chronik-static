@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,33 +67,11 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1911-10-04">
-               <head>Semmering</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91735/</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1911-10-04">
                <head>Professor Bernhardi, K5 msl. Werkniederschrift 1, unsicher</head>
                <desc>Publikation in Vorbereitung</desc>
                <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
-            </event>
-            <event when-iso="1911-10-04">
-               <head>Arthur Schnitzler an Otto Brahm, 4.10.1911</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
-                     </person>
-                  </listPerson>
-                  <bibl> Hermann
-                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
-                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
-                    Verlag 2018 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
             </event>
             <event when-iso="1911-10-04">
                <head>Tagebuch, 4. Oktober 1911</head>
@@ -122,6 +100,11 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-04.html</idno>
+            </event>
+            <event when-iso="1911-10-04">
+               <head>Semmering</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91735/</idno>
             </event>
             <event when-iso="1911-10-04">
                <head>Schnitzler an Otto Brahm, 4. 10. 1911</head>
@@ -212,6 +195,23 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041401.html</idno>
+            </event>
+            <event when-iso="1911-10-04">
+               <head>Arthur Schnitzler an Otto Brahm, 4.10.1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
             </event>
          </listEvent>
       </body>

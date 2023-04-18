@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,42 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1904-01-22">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 22. Januar 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14550">Louise Dumont</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18094">Johan Messchaert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30195">Familie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb197">Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-22.html</idno>
             </event>
             <event when-iso="1904-01-22">
                <head>Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904</head>
@@ -125,54 +156,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01362.html</idno>
             </event>
             <event when-iso="1904-01-22">
-               <head>Otto Brahm an Arthur Schnitzler, 22.1.1904</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Der Briefwechsel Arthur
-               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
-               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
-            </event>
-            <event when-iso="1904-01-22">
-               <head>Tagebuch, 22. Januar 1904</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14550">Louise Dumont</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17696">Rudolf Lothar</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18094">Johan Messchaert</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30195">Familie</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb197">Weimar</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb43435">Schweiz</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-22.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1904-01-22">
                <head>Siegfried Trebitsch an Bahr, 22. 1. 1904</head>
@@ -287,6 +273,20 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041638.html</idno>
+            </event>
+            <event when-iso="1904-01-22">
+               <head>Otto Brahm an Arthur Schnitzler, 22.1.1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
             </event>
          </listEvent>
       </body>

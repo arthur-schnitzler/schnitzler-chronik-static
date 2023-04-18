@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,24 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1926-05-24">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1926-05-24">
-               <head>Sigmund Freud an Arthur Schnitzler, 24.5.1926</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118535315" evidence="conjecture">Freud, Sigmund</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Freud, Sigmund: Briefe an Arthur Schnitzler. Hg. v. Heinrich Schnitzler. In: Neue deutsche Rundschau, Jg. 66/1(1955), S. 95–106. https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1955_Freud-an-Schnitzler.pdf</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#v149ca80-1848-4eff-991d-4c2560c2e17b"/>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1926-05-24">
                <head>Tagebuch, 24. Mai 1926</head>
                <desc>
@@ -130,6 +113,23 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-05-24.html</idno>
+            </event>
+            <event when-iso="1926-05-24">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1926-05-24">
+               <head>Sigmund Freud an Arthur Schnitzler, 24.5.1926</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118535315" evidence="conjecture">Freud, Sigmund</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Freud, Sigmund: Briefe an Arthur Schnitzler. Hg. v. Heinrich Schnitzler. In: Neue deutsche Rundschau, Jg. 66/1(1955), S. 95–106. https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1955_Freud-an-Schnitzler.pdf</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#v149ca80-1848-4eff-991d-4c2560c2e17b"/>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,60 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1910-03-06">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 6. März 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13231">Anton Anton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17007">Clemens Khan Kolischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20490">Oscar Straus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20793">Antonie Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb176">Dornbacher Park</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44176">Olomouc</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-06.html</idno>
             </event>
             <event when-iso="1910-03-06">
                <head>Richard Beer-Hofmann an Arthur Schnitzler, 6. 3. 1910</head>
@@ -127,58 +176,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01917.html</idno>
             </event>
             <event when-iso="1910-03-06">
-               <head>Tagebuch, 6. März 1910</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13231">Anton Anton</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17007">Clemens Khan Kolischer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19542">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20490">Oscar Straus</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20793">Antonie Trebitsch</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20796">Siegfried Trebitsch</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21107">Jakob Wassermann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15009">Samuel Fischer</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29877">Die letzten Masken</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb176">Dornbacher Park</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44176">Olomouc</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb63">XIII., Hietzing</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-06.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
          </listEvent>
       </body>

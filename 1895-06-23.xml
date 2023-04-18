@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,31 +67,37 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1895-06-23">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1895-06-23">
-               <head>Melk</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91223/</idno>
-            </event>
-            <event when-iso="1895-06-23">
-               <head>Wachau</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/531/</idno>
-            </event>
-            <event when-iso="1895-06-23">
-               <head>Tulln</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91959/</idno>
-            </event>
-            <event when-iso="1895-06-23">
-               <head>Klosterneuburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/865/</idno>
+               <head>Tagebuch, 23. Juni 1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91223">Melk</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb531">Wachau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91959">Tulln</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1246">St. Andrä-Wördern</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90763">Greifenstein</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb865">Klosterneuburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-23.html</idno>
             </event>
             <event when-iso="1895-06-23">
                <head>Richard Beer-Hofmann an Arthur Schnitzler, 23. 6. 1895</head>
@@ -161,52 +167,29 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00458.html</idno>
             </event>
             <event when-iso="1895-06-23">
-               <head>Theodor Herzl an Arthur Schnitzler, 23.6.1895</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Theodor Herzl:
-                    Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer
-                    in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho.
-                    Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein,
-                    Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter
-                    Band)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#j4f39377-ae1d-48c1-9afa-6e4618284c9a"/>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1895-06-23">
-               <head>Tagebuch, 23. Juni 1895</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_19150">Marie Reinhard</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb91223">Melk</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb531">Wachau</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91959">Tulln</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb1246">St. Andrä-Wördern</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb90763">Greifenstein</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb865">Klosterneuburg</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-06-23.html</idno>
+               <head>Melk</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91223/</idno>
+            </event>
+            <event when-iso="1895-06-23">
+               <head>Wachau</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/531/</idno>
+            </event>
+            <event when-iso="1895-06-23">
+               <head>Tulln</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91959/</idno>
+            </event>
+            <event when-iso="1895-06-23">
+               <head>Klosterneuburg</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/865/</idno>
             </event>
             <event when-iso="1895-06-23">
                <head>Beer-Hofmann an Schnitzler, 23. 6. 1895</head>
@@ -243,6 +226,23 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041515.html</idno>
+            </event>
+            <event when-iso="1895-06-23">
+               <head>Theodor Herzl an Arthur Schnitzler, 23.6.1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Theodor Herzl:
+                    Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer
+                    in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho.
+                    Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein,
+                    Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter
+                    Band)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j4f39377-ae1d-48c1-9afa-6e4618284c9a"/>
             </event>
          </listEvent>
       </body>

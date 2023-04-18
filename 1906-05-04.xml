@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,69 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1906-05-04">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1906-05-04">
-               <head>Stefan Großmann an Arthur Schnitzler, 4. 5. 1906</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11527">Stefan Großmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12408">Engelbert Pernerstorfer</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2235">Richard Vallentin</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11707">Robert Hirschfeld</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2989">Alfred Polgar</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10769">Theodor Antropp</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb45524">Leopold Winarsky</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb46089">Karl Höger</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11590">Gustav Harpner</persName>
-                     </person>
-                  </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29644">Arbeiter-Zeitung</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb36940">Volksbühne Berlin</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29569">Wiener Freie Volksbühne</orgName>
-                     </org>
-                  </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb302">Mariahilferstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb39599">Graben</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01595.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1906-05-04">
                <head>Tagebuch, 4. Mai 1906</head>
                <desc>
@@ -189,6 +127,68 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-04.html</idno>
+            </event>
+            <event when-iso="1906-05-04">
+               <head>Stefan Großmann an Arthur Schnitzler, 4. 5. 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11527">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12408">Engelbert Pernerstorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2235">Richard Vallentin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11707">Robert Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2989">Alfred Polgar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10769">Theodor Antropp</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb45524">Leopold Winarsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb46089">Karl Höger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11590">Gustav Harpner</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29644">Arbeiter-Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36940">Volksbühne Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29569">Wiener Freie Volksbühne</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb302">Mariahilferstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb39599">Graben</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01595.html</idno>
+            </event>
+            <event when-iso="1906-05-04">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1906-05-04">
                <head>Tagebuch von Schnitzler, 4. 5. 1906</head>

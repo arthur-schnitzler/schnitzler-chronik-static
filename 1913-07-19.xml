@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,52 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1913-07-19">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 19. Juli 1913</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14933">Hugo Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16480">Elisabeth Jacobus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21601">Otto Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15877">Mary Halton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21596">Emil Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90593">England</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb75">Hinterbrühl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45260">Brijuni</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92385">Maria Josefa Park</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-19.html</idno>
             </event>
             <event when-iso="1913-07-19">
                <head>Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]</head>
@@ -156,50 +197,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02143.html</idno>
             </event>
             <event when-iso="1913-07-19">
-               <head>Tagebuch, 19. Juli 1913</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14130">Lili Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14933">Hugo Felix</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16480">Elisabeth Jacobus</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19827">Julius Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21601">Otto Zuckerkandl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13374">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15877">Mary Halton</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21596">Emil Zuckerkandl</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb90593">England</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb75">Hinterbrühl</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45260">Brijuni</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92385">Maria Josefa Park</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-19.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1913-07-19">
                <head>Schnitzler an Bahr, 19. 7. [1913]</head>

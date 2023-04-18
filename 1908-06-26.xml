@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,48 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1908-06-26">
-               <head>Seis am Schlern</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/988/</idno>
-            </event>
-            <event when-iso="1908-06-26">
-               <head>Villa Heufler</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/467/</idno>
+               <head>Tagebuch, 26. Juni 1908</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13920">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14473">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14959">David Feuchtwang</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15984">Auguste Hauschner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79941">Nju</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41156">Burg Salegg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-26.html</idno>
             </event>
             <event when-iso="1908-06-26">
                <head>Olga Schnitzler, Arthur Schnitzler an Richard Beer-Hofmann, Paula Beer-Hofmann, 26. 6. 1908</head>
@@ -148,6 +180,16 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01778.html</idno>
             </event>
             <event when-iso="1908-06-26">
+               <head>Seis am Schlern</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/988/</idno>
+            </event>
+            <event when-iso="1908-06-26">
+               <head>Villa Heufler</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/467/</idno>
+            </event>
+            <event when-iso="1908-06-26">
                <head>Max Reinhardt an Arthur Schnitzler, 26.6.1908</head>
                <desc>
                   <listPerson>
@@ -160,48 +202,6 @@
                     Mitarbeitern. Otto Müller Verlag, Salzburg: 1971.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d"/>
-            </event>
-            <event when-iso="1908-06-26">
-               <head>Tagebuch, 26. Juni 1908</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13920">Georg Brandes</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14473">Ernst von Dohnányi</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14959">David Feuchtwang</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15984">Auguste Hauschner</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19822">Heinrich Schnitzler</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30215">Der Schleier der Pierrette</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb79941">Nju</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb41156">Burg Salegg</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-26.html</idno>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,72 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1893-10-02">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1893-10-02">
-               <head>Grillparzerstraße</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+               <head>Tagebuch, 2. Oktober 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13471">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16730">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19493">Ferdinand von Saar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20078">William Shakespeare</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21214">Josefine Lydia von Weisswasser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15605">Christian Dietrich Grabbe</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16733">Friedrich Karminski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18311">Adam Müller-Guttenbrunn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30277">Reichtum. Erzählung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30257">Der Sohn. Aus den Papieren eines Arztes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92506">Sacher</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-02.html</idno>
             </event>
             <event when-iso="1893-10-02">
                <head>Paul Goldmann an Arthur Schnitzler, [zwischen 29. 9. und
@@ -157,84 +213,14 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02718.html</idno>
             </event>
             <event when-iso="1893-10-02">
-               <head>Arthur Schnitzler an Theodor Herzl, 2. 10. 1893</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler:
-                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
-                    Main: S. Fischer 1981.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1893-10-02">
-               <head>Tagebuch, 2. Oktober 1893</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13471">Julius Bauer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13624">Alfred von Berger</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14065">Max Eugen Burckhard</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16730">Carl Karlweis</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17696">Rudolf Lothar</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19493">Ferdinand von Saar</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20078">William Shakespeare</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21214">Josefine Lydia von Weisswasser</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15605">Christian Dietrich Grabbe</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16733">Friedrich Karminski</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18311">Adam Müller-Guttenbrunn</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13374">Hermann Bahr</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30277">Reichtum. Erzählung</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30257">Der Sohn. Aus den Papieren eines Arztes</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb92506">Sacher</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-02.html</idno>
+               <head>Grillparzerstraße</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
             </event>
             <event when-iso="1893-10-02">
                <head>Tagebuch von Schnitzler, 2. 10. 1893</head>
@@ -309,6 +295,20 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041089.html</idno>
+            </event>
+            <event when-iso="1893-10-02">
+               <head>Arthur Schnitzler an Theodor Herzl, 2. 10. 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
             </event>
          </listEvent>
       </body>

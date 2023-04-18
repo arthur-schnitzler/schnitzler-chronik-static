@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,60 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1916-11-08">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 8. November 1916</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16821">Christine Kerry</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21171">Paul Weingarten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17825">Ludwig Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14547">Alexandre père Dumas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18788">Paul Pieller</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77784">Mémoires d’un médecin</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb64465">Norwegen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44335">Schweden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-11-08.html</idno>
             </event>
             <event when-iso="1916-11-08">
                <head>Arthur Schnitzler an Karin Michaëlis, 8. 11. 1916</head>
@@ -142,58 +191,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02603.html</idno>
             </event>
             <event when-iso="1916-11-08">
-               <head>Tagebuch, 8. November 1916</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13359">Stefanie Bachrach</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16821">Christine Kerry</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19822">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21171">Paul Weingarten</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21600">Marianne Giustiniani</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17825">Ludwig Mandl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14547">Alexandre père Dumas</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18788">Paul Pieller</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb77784">Mémoires d’un médecin</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb43435">Schweiz</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb64465">Norwegen</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44335">Schweden</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-11-08.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,60 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1914-03-27">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Fink und Fliederbusch, Typoskript</head>
+               <desc>Publikation in Vorbereitung</desc>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+            </event>
+            <event when-iso="1914-03-27">
+               <head>Tagebuch, 27. März 1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13925">Paul Brann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19840">Arnold Schönberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21601">Otto Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16339">Rudolf Holzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16894">Margot Vallo</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20915">Eduard Vallo</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb47709">Gute Mütter. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30039">Gurre-Lieder</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-27.html</idno>
             </event>
             <event when-iso="1914-03-27">
                <head>Hugo von Hofmannsthal an Arthur Schnitzler, 27. 3. [1914]</head>
@@ -136,9 +185,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02167.html</idno>
             </event>
             <event when-iso="1914-03-27">
-               <head>Fink und Fliederbusch, Typoskript</head>
-               <desc>Publikation in Vorbereitung</desc>
-               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1914-03-27">
                <head>Fritz Unruh an Arthur Schnitzler, 27.3.1914</head>
@@ -153,55 +202,6 @@
                     Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#dc95034c-3e70-47e1-9072-3fc75d84b47a"/>
-            </event>
-            <event when-iso="1914-03-27">
-               <head>Tagebuch, 27. März 1914</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13925">Paul Brann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15854">Gisela Hajek</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19755">Hugo Schmidl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19840">Arnold Schönberg</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21601">Otto Zuckerkandl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16339">Rudolf Holzer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16894">Margot Vallo</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20915">Eduard Vallo</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21602">Victor Zuckerkandl</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30881">Fink und Fliederbusch. Komödie in drei Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb47709">Gute Mütter. Komödie in drei Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30039">Gurre-Lieder</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-03-27.html</idno>
             </event>
          </listEvent>
       </body>

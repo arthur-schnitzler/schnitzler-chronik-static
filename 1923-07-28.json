@@ -53,7 +53,20 @@
 }
 }, {
  "type":
- "pollaczek pollaczek",
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
  "color":
  "#1e81b0",
  "filename":
@@ -61,12 +74,9 @@
  "caption":
  "Pollazczek: Schnitzler und ich",
  "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp090.html https://pollaczek.acdh.oeaw.ac.at/ckp091.html",
+ "https://pollaczek.acdh.oeaw.ac.at/ckp090.html",
  "head":
- "Arthur Schnitzler an Clara Katharina Pollaczek, 28. Juli 1923",
- "desc":
-{
-}
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 28. Juli 1923"
 }, {
  "type":
  "schnitzler-bahr",
@@ -127,22 +137,6 @@
  "pmb152"}
  ]
 }
-}{
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien",
- "desc":
-{
-}
 }, {
  "type":
  "schnitzler-cmif",
@@ -154,18 +148,8 @@
  "Gedruckte Briefwechsel",
  "head":
  "Stefan Zweig an Arthur Schnitzler, 28.7.1923",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Zweig",
- "ref":
- "https://d-nb.info/gnd/118637479"}],
- "bibl":
- ", "source":
+ "source":
  "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
-}
 }, {
  "type":
  "schnitzler-cmif",
@@ -177,16 +161,6 @@
  "Gedruckte Briefwechsel",
  "head":
  "Stefan Zweig an Arthur Schnitzler, 28.7.1923",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Stefan Zweig",
- "ref":
- ""}],
- "bibl":
- ", "source":
+ "source":
  "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, ] 
+}] 

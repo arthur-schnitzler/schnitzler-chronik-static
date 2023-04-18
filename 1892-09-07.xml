@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,66 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1892-09-07">
-               <head>Bad Ischl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
-            </event>
-            <event when-iso="1892-09-07">
-               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 7. 9. [1892]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb4311">Édouard Rod</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb4315">Louis Charles de Bourbon</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb4319">Antoine Simon</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb34242">Pandore</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb34239">Ein Sommernachtstraum</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb32117">Reise in die mittäglichen Provinzen von Frankreich</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb45896">Lélex</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb213">Bad Ischl</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb166">Frankreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb641">Arles</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb859">Buchs</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb562">Genf</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00121.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1892-09-07">
                <head>Tagebuch, 7. September 1892</head>
                <desc>
@@ -183,6 +124,65 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-09-07.html</idno>
+            </event>
+            <event when-iso="1892-09-07">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 7. 9. [1892]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4311">Édouard Rod</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4315">Louis Charles de Bourbon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4319">Antoine Simon</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb34242">Pandore</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb34239">Ein Sommernachtstraum</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32117">Reise in die mittäglichen Provinzen von Frankreich</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45896">Lélex</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb641">Arles</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb859">Buchs</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb562">Genf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00121.html</idno>
+            </event>
+            <event when-iso="1892-09-07">
+               <head>Bad Ischl</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
             </event>
             <event when-iso="1892-09-07">
                <head>Hofmannsthal an Schnitzler, 7. 9. [1892]</head>

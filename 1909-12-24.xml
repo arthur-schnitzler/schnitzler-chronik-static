@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,69 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1909-12-24">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 24. Dezember 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13169">Emma Altmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16228">Robert Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16394">Henry Houssaye</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19821">Hans Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19828">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20653">Carl Franz Techet</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20622">Hippolyte Taine</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb46124">Der tapfere Kassian. Singspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79158">Fern von Europa. Kurze Geschichten aus finsteren Breiten mit 34 Bildern nach Zeichnungen von Eugenie Dumtsa und vom Autor</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb423">Tirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1012">Kufstein</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-24.html</idno>
             </event>
             <event when-iso="1909-12-24">
                <head>Hermann Bahr an Arthur Schnitzler, 24. 12. 1909</head>
@@ -141,98 +199,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01909.html</idno>
             </event>
             <event when-iso="1909-12-24">
-               <head>Arthur Schnitzler an Max Reinhardt, 24.12.1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118599380">Reinhardt, Max</persName>
-                     </person>
-                  </listPerson>
-                  <bibl> Hermann
-                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
-                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
-                    Verlag 2018 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
-            </event>
-            <event when-iso="1909-12-24">
-               <head>Arthur Schnitzler an Max Reinhardt, 24. 12. 1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118599380">Reinhardt, Max</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler:
-                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
-                    Main: S. Fischer 1981.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
-            </event>
-            <event when-iso="1909-12-24">
-               <head>Tagebuch, 24. Dezember 1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13169">Emma Altmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16228">Robert Hirschfeld</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16394">Henry Houssaye</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19154">Max Reinhardt</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19821">Hans Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19823">Helene Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19827">Julius Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19828">Karl Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19831">Louise Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20653">Carl Franz Techet</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20622">Hippolyte Taine</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16770">Arthur Kaufmann</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb46124">Der tapfere Kassian. Singspiel</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb79158">Fern von Europa. Kurze Geschichten aus finsteren Breiten mit 34 Bildern nach Zeichnungen von Eugenie Dumtsa und vom Autor</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb423">Tirol</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb1012">Kufstein</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-24.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1909-12-24">
                <head>Schnitzler an Max Reinhardt, 24. 12. 1909</head>
@@ -392,6 +361,37 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041326.html</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Arthur Schnitzler an Max Reinhardt, 24.12.1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118599380">Reinhardt, Max</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Arthur Schnitzler an Max Reinhardt, 24. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118599380">Reinhardt, Max</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,53 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1896-10-28">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1896-10-28">
-               <head>Max Burckhard an Arthur Schnitzler, [zwischen 27. 10. und
-                        1. 11. 1896]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb29145">
-                  Maria Dorothea von Österreich
-               </persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb5617">
-                  Louis Philippe d’Orléans
-               </persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb21799">Schloß Schönbrunn</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00610.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1896-10-28">
                <head>Tagebuch, 28. Oktober 1896</head>
                <desc>
@@ -159,6 +113,52 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-28.html</idno>
+            </event>
+            <event when-iso="1896-10-28">
+               <head>Max Burckhard an Arthur Schnitzler, [zwischen 27. 10. und
+                        1. 11. 1896]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb29145">
+                  Maria Dorothea von Österreich
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5617">
+                  Louis Philippe d’Orléans
+               </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb21799">Schloß Schönbrunn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00610.html</idno>
+            </event>
+            <event when-iso="1896-10-28">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
             </event>
          </listEvent>
       </body>

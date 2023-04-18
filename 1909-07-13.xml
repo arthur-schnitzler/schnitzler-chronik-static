@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,90 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1909-07-13">
-               <head>Edlach</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/470/</idno>
-            </event>
-            <event when-iso="1909-07-13">
-               <head>Hotel Edlacherhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/714/</idno>
-            </event>
-            <event when-iso="1909-07-13">
-               <head>Albert Ehrenstein an Arthur Schnitzler, 13. 7. 1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11230">Albert Ehrenstein</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11349">August Fournier</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb4769">Napoleon Bonaparte</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb27755">
-                  ?? [Studienkollege von Albert Ehrenstein]
-               </persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10788">Raoul Auernheimer</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb5644">Eugen Oberhummer</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb5647">Zahir ad-Din Muhammad Babur</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb33458">Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb33480">Napoleon I. Eine Biographie</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb33478">?? [Dissertation]</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb33398">Helena</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb33454">Tod des Zehir eddin Muhammed Baber</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb33476">Baburnama</title>
-                     </bibl>
-                  </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
-                     </org>
-                  </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb300">Ottakringerstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb644">Galizien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb313">Polen</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb35512">Ungarn</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01857.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1909-07-13">
                <head>Tagebuch, 13. Juli 1909</head>
                <desc>
@@ -231,6 +148,89 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-13.html</idno>
+            </event>
+            <event when-iso="1909-07-13">
+               <head>Albert Ehrenstein an Arthur Schnitzler, 13. 7. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11230">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11349">August Fournier</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4769">Napoleon Bonaparte</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27755">
+                  ?? [Studienkollege von Albert Ehrenstein]
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10788">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5644">Eugen Oberhummer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5647">Zahir ad-Din Muhammad Babur</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33458">Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33480">Napoleon I. Eine Biographie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33478">?? [Dissertation]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33398">Helena</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33454">Tod des Zehir eddin Muhammed Baber</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33476">Baburnama</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb300">Ottakringerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb644">Galizien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb313">Polen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb35512">Ungarn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01857.html</idno>
+            </event>
+            <event when-iso="1909-07-13">
+               <head>Edlach</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/470/</idno>
+            </event>
+            <event when-iso="1909-07-13">
+               <head>Hotel Edlacherhof</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/714/</idno>
             </event>
             <event when-iso="1909-07-13">
                <head>Tagebuch von Schnitzler, 13. 7. 1909</head>

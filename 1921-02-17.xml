@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,57 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1921-02-17">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 17. Februar 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13663">Alfred Bernau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14959">David Feuchtwang</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17509">Robert Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18879">Emilie Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20112">Hermine Simandt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13104">Melanie Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77091">Androklus und der Löwe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-02-17.html</idno>
             </event>
             <event when-iso="1921-02-17">
                <head>Arthur Schnitzler an Stefan Großmann, 17. 2. 1921</head>
@@ -131,6 +177,11 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02363.html</idno>
             </event>
             <event when-iso="1921-02-17">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1921-02-17">
                <head>Arthur Schnitzler an Stefan Grossmann, 17. 2. 1921</head>
                <desc>
                   <listPerson>
@@ -144,57 +195,6 @@
                     https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
-            </event>
-            <event when-iso="1921-02-17">
-               <head>Tagebuch, 17. Februar 1921</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13663">Alfred Bernau</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14130">Lili Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14959">David Feuchtwang</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17509">Robert Lichtenstern</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18879">Emilie Pollak</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19822">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20112">Hermine Simandt</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13104">Melanie Adler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19832">Olga Schnitzler</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb77091">Androklus und der Löwe</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-02-17.html</idno>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,84 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1922-04-26">
-               <head>Den Haag</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/58810/</idno>
-            </event>
-            <event when-iso="1922-04-26">
-               <head>Rotterdam</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44303/</idno>
-            </event>
-            <event when-iso="1922-04-26">
-               <head>Stefan Großmann an Arthur Schnitzler, 26. 4. 1922</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11527">Stefan Großmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb46493">Das Tage-Buch</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb47287">Von der kleinen Liebe</title>
-                     </bibl>
-                  </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb37544">Das Tage-Buch</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb47285">Fernsprechamt Lietzow</orgName>
-                     </org>
-                  </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb362">Potsdamerstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb151">Deutschland</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02378.html</idno>
-            </event>
-            <event when-iso="1922-04-26">
-               <head>Olga Schnitzler an Arthur Schnitzler, 26.4.1922</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
-                     </person>
-                  </listPerson>
-                  <bibl> Hermann
-                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
-                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
-                    Verlag 2018 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1922-04-26">
                <head>Tagebuch, 26. April 1922</head>
                <desc>
@@ -213,6 +136,66 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-04-26.html</idno>
+            </event>
+            <event when-iso="1922-04-26">
+               <head>Stefan Großmann an Arthur Schnitzler, 26. 4. 1922</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11527">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb46493">Das Tage-Buch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb47287">Von der kleinen Liebe</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb37544">Das Tage-Buch</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb47285">Fernsprechamt Lietzow</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb362">Potsdamerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02378.html</idno>
+            </event>
+            <event when-iso="1922-04-26">
+               <head>Den Haag</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/58810/</idno>
+            </event>
+            <event when-iso="1922-04-26">
+               <head>Rotterdam</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44303/</idno>
             </event>
             <event when-iso="1922-04-26">
                <head>Olga an Arthur Schnitzler, 26. 4. 1922</head>
@@ -285,6 +268,23 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041673.html</idno>
+            </event>
+            <event when-iso="1922-04-26">
+               <head>Olga Schnitzler an Arthur Schnitzler, 26.4.1922</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,67 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1928-06-14">
-               <head>Tagebuch von Clara Katharina Pollaczek, 12.–14. Juni 1928</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp550.html</idno>
-            </event>
-            <event when-iso="1928-06-14">
-               <head>Tagebuch von Clara Katharina Pollaczek, 14.–17. Juni 1928</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp551.html</idno>
+               <head>Tagebuch, 14. Juni 1928</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14129">Arnoldo Cappellini</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16995">Dorothea Kohnberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1119">Stockholm</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91518">Pötschenhöhe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91818">Bahnhof Stainach-Irdning</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92107">Wörschach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45236">Liezen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91794">Spital am Pyhrn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92085">Windischgarsten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb39334">Hinterstoder</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91028">Kirchdorf an der Krems</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91462">Pettenbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb874">Gmunden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-06-14.html</idno>
             </event>
             <event when-iso="1928-06-14">
                <head>Bad Ischl</head>
@@ -139,65 +190,14 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/874/</idno>
             </event>
             <event when-iso="1928-06-14">
-               <head>Tagebuch, 14. Juni 1928</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14129">Arnoldo Cappellini</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14130">Lili Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16995">Dorothea Kohnberger</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb213">Bad Ischl</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb1119">Stockholm</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91518">Pötschenhöhe</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb415">Bad Aussee</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91818">Bahnhof Stainach-Irdning</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92107">Wörschach</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45236">Liezen</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91794">Spital am Pyhrn</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92085">Windischgarsten</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb39334">Hinterstoder</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91028">Kirchdorf an der Krems</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb91462">Pettenbach</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb874">Gmunden</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-06-14.html</idno>
+               <head>Tagebuch von Clara Katharina Pollaczek, 12.–14. Juni 1928</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp550.html</idno>
+            </event>
+            <event when-iso="1928-06-14">
+               <head>Tagebuch von Clara Katharina Pollaczek, 14.–17. Juni 1928</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp551.html</idno>
             </event>
          </listEvent>
       </body>

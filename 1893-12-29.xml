@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,89 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1893-12-29">
+               <head>Tagebuch, 29. Dezember 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19143">Else Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19568">Wilhelmine Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13333">Eugenie B.</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-12-29.html</idno>
+            </event>
             <event when-iso="1893-12-29">
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1893-12-29">
+               <head>Sandrock an Bahr, 29. 12. 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12621">Wilhelmine Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2589">Johanna Simonetta Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2591">Christian Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2608">Eduard Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12355">Robert Nhil</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15569">Olga Dvořak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11243">Friedrich Elbogen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13856">Theodor Baumgarten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22754">Theodor Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27709">?? [Sänger auf Silvesterfeier]</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb717">Opernring</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041595.html</idno>
             </event>
             <event when-iso="1893-12-29">
                <head>Adele Sandrock an Arthur Schnitzler, 29.12.1893</head>
@@ -128,84 +206,6 @@
                     Main: S. Fischer 1981.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
-            </event>
-            <event when-iso="1893-12-29">
-               <head>Tagebuch, 29. Dezember 1893</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_15485">Marie Glümer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19143">Else Singer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19542">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19564">Adele Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19568">Wilhelmine Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13333">Eugenie B.</persName>
-                     </person>
-                  </listPerson>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-12-29.html</idno>
-            </event>
-            <event when-iso="1893-12-29">
-               <head>Sandrock an Bahr, 29. 12. 1893</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb12618">Adele Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12621">Wilhelmine Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2589">Johanna Simonetta Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2591">Christian Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2608">Eduard Sandrock</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12355">Robert Nhil</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb15569">Olga Dvořak</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11243">Friedrich Elbogen</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb13856">Theodor Baumgarten</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb22754">Theodor Pollak</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb27709">?? [Sänger auf Silvesterfeier]</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb717">Opernring</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041595.html</idno>
             </event>
          </listEvent>
       </body>

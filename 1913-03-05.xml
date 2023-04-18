@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,58 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1913-03-05">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 5. März 1913</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16777">Rudolf Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17539">Silvia Lieser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18884">Jacob Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21601">Otto Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13754">Julius Bittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16910">Gustav Klimt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15210">Egon Friedell</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30863">Flucht in die Finsternis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31447">Stunde des Erkennens</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-05.html</idno>
             </event>
             <event when-iso="1913-03-05">
                <head>Georg Brandes an Arthur Schnitzler, 5. 3. 1913</head>
@@ -157,56 +204,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02116.html</idno>
             </event>
             <event when-iso="1913-03-05">
-               <head>Tagebuch, 5. März 1913</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_16777">Rudolf Kaufmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17539">Silvia Lieser</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18884">Jacob Pollak</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19822">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20242">Felix Speidel</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21594">Berta Zuckerkandl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21601">Otto Zuckerkandl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13754">Julius Bittner</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16910">Gustav Klimt</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21107">Jakob Wassermann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15210">Egon Friedell</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30863">Flucht in die Finsternis</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb31447">Stunde des Erkennens</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-05.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
          </listEvent>
       </body>

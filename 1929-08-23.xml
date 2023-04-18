@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,32 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1929-08-23">
-               <head>Tagebuch von Clara Katharina Pollaczek, 21.–24. August 1929</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp715.html</idno>
+               <head>Tagebuch, 23. August 1929</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90460">Caux</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-08-23.html</idno>
             </event>
             <event when-iso="1929-08-23">
                <head>Caux</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90460/</idno>
+            </event>
+            <event when-iso="1929-08-23">
+               <head>Tagebuch von Clara Katharina Pollaczek, 21.–24. August 1929</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp715.html</idno>
             </event>
             <event when-iso="1929-08-23">
                <head>Hedy Kempny an Arthur Schnitzler, 23.8.1929</head>
@@ -93,22 +109,6 @@
                     1984. (Neue Frau)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
-            </event>
-            <event when-iso="1929-08-23">
-               <head>Tagebuch, 23. August 1929</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb90460">Caux</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-08-23.html</idno>
             </event>
          </listEvent>
       </body>

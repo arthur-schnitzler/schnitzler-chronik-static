@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,49 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1909-12-02">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 2. Dezember 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14620">Anton Edthofer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14643">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15902">Käthe Hannemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16342">Hans Homma</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16914">Wilhelm Klitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17087">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17223">Victor Kutschera</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20689">Kathi Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18306">Paula Müller</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-02.html</idno>
             </event>
             <event when-iso="1909-12-02">
                <head>Hermann Bahr an Arthur Schnitzler, 2. 12. 1909</head>
@@ -122,47 +160,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01891.html</idno>
             </event>
             <event when-iso="1909-12-02">
-               <head>Tagebuch, 2. Dezember 1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14620">Anton Edthofer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14643">Albert Ehrenstein</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15902">Käthe Hannemann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16342">Hans Homma</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16914">Wilhelm Klitsch</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17087">Leopold Kramer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17223">Victor Kutschera</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19542">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20689">Kathi Thaller</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18306">Paula Müller</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-02.html</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1909-12-02">
                <head>Bahr an Schnitzler, 2. 12. 1909</head>

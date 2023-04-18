@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,48 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1894-12-18">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1894-12-18">
-               <head>Paul Goldmann an Arthur Schnitzler, 18. 12. [1894]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb65913">Hilda von Mitis</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb65917">Maximilian von Mitis</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb87793">
-                  ?? [Bräutigam von Hildegard Mitis]
-               </persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb182">Paris</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb39615">Bratislava</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40306">Italien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02628.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1894-12-18">
                <head>Tagebuch, 18. Dezember 1894</head>
                <desc>
@@ -147,6 +106,47 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-18.html</idno>
+            </event>
+            <event when-iso="1894-12-18">
+               <head>Paul Goldmann an Arthur Schnitzler, 18. 12. [1894]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb65913">Hilda von Mitis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb65917">Maximilian von Mitis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb87793">
+                  ?? [Bräutigam von Hildegard Mitis]
+               </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb39615">Bratislava</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02628.html</idno>
+            </event>
+            <event when-iso="1894-12-18">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
          </listEvent>
       </body>

@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,57 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1902-01-03">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <head>Tagebuch, 3. Januar 1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14199">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14283">Moritz Coschell</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14730">Arthur Eloesser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15253">Efraim Frisch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16041">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16819">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17946">Paul Martin Marton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb43467">Das Verlöbnis. Geschichte eines Knaben</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb484">Zürich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-03.html</idno>
             </event>
             <event when-iso="1902-01-03">
                <head>Arthur Schnitzler an Hermann Bahr, 3. 1. 1902</head>
@@ -158,69 +204,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01195.html</idno>
             </event>
             <event when-iso="1902-01-03">
-               <head>Louise Dumont an Arthur Schnitzler, 3.1.1902</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118681192">Dumont, Louise</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Gertrude
-                    Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und
-                    Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#w300e3d7-7902-4a11-b0c7-2b0b441db98d"/>
-            </event>
-            <event when-iso="1902-01-03">
-               <head>Tagebuch, 3. Januar 1902</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14199">Auguste Chlum</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14283">Moritz Coschell</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14730">Arthur Eloesser</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15253">Efraim Frisch</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15485">Marie Glümer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16041">Moritz Heimann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16819">Alfred Kerr</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17946">Paul Martin Marton</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15009">Samuel Fischer</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb43467">Das Verlöbnis. Geschichte eines Knaben</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb484">Zürich</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-03.html</idno>
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
             </event>
             <event when-iso="1902-01-03">
                <head>Schnitzler an Bahr, 3. 1. 1902</head>
@@ -286,6 +272,20 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041047.html</idno>
+            </event>
+            <event when-iso="1902-01-03">
+               <head>Louise Dumont an Arthur Schnitzler, 3.1.1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118681192">Dumont, Louise</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Gertrude
+                    Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und
+                    Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#w300e3d7-7902-4a11-b0c7-2b0b441db98d"/>
             </event>
          </listEvent>
       </body>

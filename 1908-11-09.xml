@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,37 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1908-11-09">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 9. November 1908</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14766">Theodor Entsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16517">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18450">Hansi Niese</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-09.html</idno>
             </event>
             <event when-iso="1908-11-09">
                <head>Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908</head>
@@ -180,6 +206,11 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01799.html</idno>
             </event>
             <event when-iso="1908-11-09">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1908-11-09">
                <head>Arthur Schnitzler an Ernst Hardt, 9.11.1908</head>
                <desc>
                   <listPerson>
@@ -190,37 +221,6 @@
                   <bibl>Briefe an Ernst Hardt. Eine Auswahl aus den Jahren 1898–1947. In Verbindung mit Tilla Goetz-Hardt hrsg. von Jochen Meyer. Marbach am Neckar: Deutsches Literaturarchiv 1975 (Marbacher Schriften, 10)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#u76a6932-a288-44db-a5d5-8eba12ba4b14"/>
-            </event>
-            <event when-iso="1908-11-09">
-               <head>Tagebuch, 9. November 1908</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14766">Theodor Entsch</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16517">Josef Jarno</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18450">Hansi Niese</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15009">Samuel Fischer</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29935">Anatol</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-09.html</idno>
             </event>
          </listEvent>
       </body>

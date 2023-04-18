@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,59 +67,11 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1912-10-21">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1912-10-21">
-               <head>Karin Michaëlis an Arthur Schnitzler, 21. 10. 1912</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb4408">Karin Michaëlis</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2357">Peter Nansen</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb24658">Eugenie Schwarzwald</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb36300">Kopenhagen</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb51915">Josefstädter Straße</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02582.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1912-10-21">
                <head>Die Schwestern oder Casanova in Spa, Typoskript</head>
                <desc>Publikation in Vorbereitung</desc>
                <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
-            </event>
-            <event when-iso="1912-10-21">
-               <head>Karin Michaëlis an Arthur Schnitzler, 21.10.1912</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/11539396X">Michaëlis, Karin</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Peter Nansen -
-                    Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In:
-                    Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60.
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#z7240971-fbf6-453b-9f97-eb6aaa8f59ae"/>
             </event>
             <event when-iso="1912-10-21">
                <head>Tagebuch, 21. Oktober 1912</head>
@@ -166,6 +118,54 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-10-21.html</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Karin Michaëlis an Arthur Schnitzler, 21. 10. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb4408">Karin Michaëlis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2357">Peter Nansen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24658">Eugenie Schwarzwald</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51915">Josefstädter Straße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02582.html</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Karin Michaëlis an Arthur Schnitzler, 21.10.1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11539396X">Michaëlis, Karin</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Peter Nansen -
+                    Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In:
+                    Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60.
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#z7240971-fbf6-453b-9f97-eb6aaa8f59ae"/>
             </event>
          </listEvent>
       </body>

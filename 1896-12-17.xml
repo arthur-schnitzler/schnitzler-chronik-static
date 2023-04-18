@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,46 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1896-12-17">
-               <head>Tagebuch von Arthur Schnitzler, 1. Januar 1896 – 21. Februar 1897</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp014.html</idno>
-            </event>
-            <event when-iso="1896-12-17">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 17. Dezember 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13581">Marianne Benedict</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14386">Eugen Deimel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14772">Anna Epstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18678">Eduard von Paümann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16366">Therese Horn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18780">Rudolf Pick</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19611">Hermine von Schaffgotsch</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-12-17.html</idno>
             </event>
             <event when-iso="1896-12-17">
                <head>Arthur Schnitzler an Felix Salten, [17. 12. 1896?]</head>
@@ -130,58 +160,14 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00630.html</idno>
             </event>
             <event when-iso="1896-12-17">
-               <head>Eugen Deimel an Arthur Schnitzler, 17.12.1896</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/124896847">Deimel, Eugen</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Heinz P. Adamek (Hg.):
-               In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen
-               Verlag: Wien 2003</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#w6429315-92be-4f82-b2f1-926125f9bfa5"/>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1896-12-17">
-               <head>Tagebuch, 17. Dezember 1896</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13581">Marianne Benedict</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14386">Eugen Deimel</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14772">Anna Epstein</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18678">Eduard von Paümann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16366">Therese Horn</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18780">Rudolf Pick</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13374">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19611">Hermine von Schaffgotsch</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-12-17.html</idno>
+               <head>Tagebuch von Arthur Schnitzler, 1. Januar 1896 – 21. Februar 1897</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp014.html</idno>
             </event>
             <event when-iso="1896-12-17">
                <head>Bahr an Schnitzler, [17. 12. 1896]</head>
@@ -278,6 +264,20 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041166.html</idno>
+            </event>
+            <event when-iso="1896-12-17">
+               <head>Eugen Deimel an Arthur Schnitzler, 17.12.1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/124896847">Deimel, Eugen</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Heinz P. Adamek (Hg.):
+               In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen
+               Verlag: Wien 2003</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#w6429315-92be-4f82-b2f1-926125f9bfa5"/>
             </event>
          </listEvent>
       </body>

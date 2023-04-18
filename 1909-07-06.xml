@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,54 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1909-07-06">
-               <head>Edlach</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/470/</idno>
-            </event>
-            <event when-iso="1909-07-06">
-               <head>Hotel Edlacherhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/714/</idno>
-            </event>
-            <event when-iso="1909-07-06">
-               <head>Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, 6. 7. 1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb470">Edlach</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41102">Pichl am See</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb51987">Hotel Pichl-Auhof</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb27068">Schneeberg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01853.html</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1909-07-06">
                <head>Tagebuch, 6. Juli 1909</head>
                <desc>
@@ -174,6 +127,53 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-06.html</idno>
+            </event>
+            <event when-iso="1909-07-06">
+               <head>Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, 6. 7. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41102">Pichl am See</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51987">Hotel Pichl-Auhof</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb27068">Schneeberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01853.html</idno>
+            </event>
+            <event when-iso="1909-07-06">
+               <head>Edlach</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/470/</idno>
+            </event>
+            <event when-iso="1909-07-06">
+               <head>Hotel Edlacherhof</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/714/</idno>
             </event>
             <event when-iso="1909-07-06">
                <head>Tagebuch von Schnitzler, 6. 7. 1909</head>

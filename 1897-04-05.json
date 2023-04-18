@@ -68,22 +68,6 @@
  "pmb45258"}
  ]
 }
-}{
- "type":
- "pollaczek",
- "color":
- "#1e81b0",
- "filename":
- "ckp015",
- "caption":
- "Pollazczek: Schnitzler und ich",
- "idno":
- "https://pollaczek.acdh.oeaw.ac.at/ckp015.html",
- "head":
- "Tagebuch von Arthur Schnitzler, 21. Februar – 29. November 1897",
- "desc":
-{
-}
 }, {
  "type":
  "schnitzler-orte",
@@ -96,10 +80,20 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien",
- "desc":
-{
-}
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp015",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp015.html",
+ "head":
+ "Tagebuch von Arthur Schnitzler, 21. Februar – 29. November 1897"
 }, {
  "type":
  "schnitzler-cmif",
@@ -111,18 +105,8 @@
  "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Olga Waissnix, 5.4.1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Olga Waissnix",
- "ref":
- "https://d-nb.info/gnd/118628526"}],
- "bibl":
- ", "source":
+ "source":
  "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
-}
 }, {
  "type":
  "schnitzler-cmif",
@@ -134,16 +118,6 @@
  "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Otto Brahm, 5.4.1897",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Otto Brahm",
- "ref":
- "https://d-nb.info/gnd/118514245"}],
- "bibl":
- ", "source":
+ "source":
  "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
-}
-}, ] 
+}] 

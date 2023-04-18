@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,70 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1920-02-13">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1920-02-13">
-               <head>Robert Adam an Arthur Schnitzler, 13. 2. 1920</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb12438">Robert Adam</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb5845">Otto Fürth</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb4083">Titus Maccius Plautus</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb5854">Gaius Valerius Flaccus</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb5855">
-                  Florus
-               </persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb33664">Träume auf der Asphodelosinsel</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb254">England</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40306">Italien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02335.html</idno>
-            </event>
-            <event when-iso="1920-02-13">
-               <head>Deutsches Theater an Arthur Schnitzler, 13.2.1920</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName>Deutsches Theater</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Renate Wagner
-                    (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen
-                    Mitarbeitern. Otto Müller Verlag, Salzburg: 1971.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d"/>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1920-02-13">
                <head>Tagebuch, 13. Februar 1920</head>
                <desc>
@@ -184,6 +121,69 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-02-13.html</idno>
+            </event>
+            <event when-iso="1920-02-13">
+               <head>Robert Adam an Arthur Schnitzler, 13. 2. 1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12438">Robert Adam</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5845">Otto Fürth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4083">Titus Maccius Plautus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5854">Gaius Valerius Flaccus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5855">
+                  Florus
+               </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33664">Träume auf der Asphodelosinsel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb254">England</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02335.html</idno>
+            </event>
+            <event when-iso="1920-02-13">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1920-02-13">
+               <head>Deutsches Theater an Arthur Schnitzler, 13.2.1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName>Deutsches Theater</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Renate Wagner
+                    (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen
+                    Mitarbeitern. Otto Müller Verlag, Salzburg: 1971.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d"/>
             </event>
          </listEvent>
       </body>

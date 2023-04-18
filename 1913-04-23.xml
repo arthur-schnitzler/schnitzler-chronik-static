@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,39 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1913-04-23">
-               <head>Neuhaus</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/47414/</idno>
+               <head>Tagebuch, 23. April 1913</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78292">Les civilisés</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb662">Baden bei Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb47414">Neuhaus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb992">Bad Vöslau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90569">Einöde</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-04-23.html</idno>
             </event>
             <event when-iso="1913-04-23">
                <head>Hermann Bahr an Arthur Schnitzler, 23. 4. 1913</head>
@@ -136,37 +164,9 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02130.html</idno>
             </event>
             <event when-iso="1913-04-23">
-               <head>Tagebuch, 23. April 1913</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13359">Stefanie Bachrach</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb78292">Les civilisés</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb662">Baden bei Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb47414">Neuhaus</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb992">Bad Vöslau</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb90569">Einöde</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-04-23.html</idno>
+               <head>Neuhaus</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/47414/</idno>
             </event>
             <event when-iso="1913-04-23">
                <head>Bahr an Schnitzler, 23. 4. 1913</head>

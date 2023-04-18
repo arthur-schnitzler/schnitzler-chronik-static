@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,58 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1927-11-07">
-               <head>Tagebuch von Clara Katharina Pollaczek, 6.–8. November 1927</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp490.html</idno>
+               <head>Der Sekundant, Typoskript</head>
+               <desc>Publikation in Vorbereitung</desc>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
             </event>
             <event when-iso="1927-11-07">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Ich, Typoskript</head>
+               <desc>Publikation in Vorbereitung</desc>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+            </event>
+            <event when-iso="1927-11-07">
+               <head>Tagebuch, 7. November 1927</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15014">Leo Fischmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15072">Oskar Maurus Fontana</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20298">Franz Spunda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17585">Leopold Lipschütz</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30953">Der Sekundant</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32049">Zug der Schatten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb445">Rom</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-11-07.html</idno>
             </event>
             <event when-iso="1927-11-07">
                <head>Arthur Schnitzler an Stefan Großmann, 7. 11. 1927</head>
@@ -129,14 +171,14 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02492.html</idno>
             </event>
             <event when-iso="1927-11-07">
-               <head>Der Sekundant, Typoskript</head>
-               <desc>Publikation in Vorbereitung</desc>
-               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1927-11-07">
-               <head>Ich, Typoskript</head>
-               <desc>Publikation in Vorbereitung</desc>
-               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+               <head>Tagebuch von Clara Katharina Pollaczek, 6.–8. November 1927</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp490.html</idno>
             </event>
             <event when-iso="1927-11-07">
                <head>Hedy Kempny an Arthur Schnitzler, 7.11.1927</head>
@@ -183,48 +225,6 @@
                     https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
-            </event>
-            <event when-iso="1927-11-07">
-               <head>Tagebuch, 7. November 1927</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13305">Raoul Auernheimer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15014">Leo Fischmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15072">Oskar Maurus Fontana</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19542">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20298">Franz Spunda</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17585">Leopold Lipschütz</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30953">Der Sekundant</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb32049">Zug der Schatten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb445">Rom</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-11-07.html</idno>
             </event>
          </listEvent>
       </body>

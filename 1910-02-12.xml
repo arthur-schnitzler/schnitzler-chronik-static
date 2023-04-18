@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,31 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1910-02-12">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 12. Februar 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14203">Frédéric Chopin</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20295">Gisela Springer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80307">Klaviersonate Nr. 2 b-Moll, op. 35</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-12.html</idno>
             </event>
             <event when-iso="1910-02-12">
                <head>Arthur Schnitzler an Albert Ehrenstein, 12. 2. 1910</head>
@@ -115,6 +135,11 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01913.html</idno>
             </event>
             <event when-iso="1910-02-12">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1910-02-12">
                <head>Arthur Schnitzler an Zinaida Vengerova, 12. 2. 1910</head>
                <desc>
                   <listPerson>
@@ -130,31 +155,6 @@
                </desc>
                <idno type="schnitzler-cmif"
                      subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
-            </event>
-            <event when-iso="1910-02-12">
-               <head>Tagebuch, 12. Februar 1910</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14203">Frédéric Chopin</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20295">Gisela Springer</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30215">Der Schleier der Pierrette</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb80307">Klaviersonate Nr. 2 b-Moll, op. 35</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-12.html</idno>
             </event>
          </listEvent>
       </body>

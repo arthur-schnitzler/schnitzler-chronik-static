@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,40 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1912-09-01">
-               <head>Tutzing</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44493/</idno>
-            </event>
-            <event when-iso="1912-09-01">
-               <head>Hotel Simson</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/51937/</idno>
+               <head>Tagebuch, 1. September 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15158">W. Fred</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17834">Heinrich Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18991">Hermann von Pückler-Muskau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20240">Albert von Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20386">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb53150">Feldafing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-09-01.html</idno>
             </event>
             <event when-iso="1912-09-01">
                <head>Richard Beer-Hofmann an Arthur Schnitzler, 1. 9. 1912</head>
@@ -119,38 +143,14 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02088.html</idno>
             </event>
             <event when-iso="1912-09-01">
-               <head>Tagebuch, 1. September 1912</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_15158">W. Fred</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17834">Heinrich Mann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18991">Hermann von Pückler-Muskau</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20240">Albert von Speidel</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20386">Elisabeth Steinrück</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20383">Albert Steinrück</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb53150">Feldafing</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-09-01.html</idno>
+               <head>Tutzing</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44493/</idno>
+            </event>
+            <event when-iso="1912-09-01">
+               <head>Hotel Simson</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/51937/</idno>
             </event>
             <event when-iso="1912-09-01">
                <head>Bahr: [Buchversandliste Inventur], [Anfang September 1912]</head>

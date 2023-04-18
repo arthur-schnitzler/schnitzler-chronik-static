@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,54 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1911-10-12">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head>Tagebuch, 12. Oktober 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13497">Karl Baumgartner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14211">Theodor Christomannos</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15150">Franz Joseph I. von Österreich-Ungarn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15944">Ernst Hartmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18266">Josef Moser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20514">Julius Strebinger</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91121">Latemar Spitze</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-12.html</idno>
             </event>
             <event when-iso="1911-10-12">
                <head>Arthur Schnitzler an Georg Brandes, 12. 10. 1911</head>
@@ -136,6 +179,11 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02035.html</idno>
             </event>
             <event when-iso="1911-10-12">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1911-10-12">
                <head>Samuel Fischer an Arthur Schnitzler, 12.10.1911</head>
                <desc>
                   <listPerson>
@@ -148,54 +196,6 @@
                     1989. (nur Korrespondenz mit Arthur Schnitzler)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#y8d39a2f-76d4-4426-8799-986c8bf5bc60"/>
-            </event>
-            <event when-iso="1911-10-12">
-               <head>Tagebuch, 12. Oktober 1911</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13497">Karl Baumgartner</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14065">Max Eugen Burckhard</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14211">Theodor Christomannos</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15150">Franz Joseph I. von Österreich-Ungarn</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_15944">Ernst Hartmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18266">Josef Moser</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19756">Paula Schmidl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16770">Arthur Kaufmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20514">Julius Strebinger</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb91121">Latemar Spitze</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-12.html</idno>
             </event>
          </listEvent>
       </body>

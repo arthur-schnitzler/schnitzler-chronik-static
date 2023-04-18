@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,7 +67,37 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1923-08-01">
+               <head>Tagebuch, 1. August 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16807">Hedy Kempny</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13356"/>
+                     </person>
+                     <person>
+                        <persName ref="person_18958">Arnold Pressburger</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32294">Der junge Medardus</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb243">Sommerhaidenweg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-08-01.html</idno>
+            </event>
             <event when-iso="1923-08-01">
                <head>Wien</head>
                <desc/>
@@ -102,36 +132,6 @@
                     Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
-            </event>
-            <event when-iso="1923-08-01">
-               <head>Tagebuch, 1. August 1923</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_16807">Hedy Kempny</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19827">Julius Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_13356"/>
-                     </person>
-                     <person>
-                        <persName ref="person_18958">Arnold Pressburger</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb32294">Der junge Medardus</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb243">Sommerhaidenweg</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-08-01.html</idno>
             </event>
          </listEvent>
       </body>

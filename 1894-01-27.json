@@ -10,10 +10,20 @@
  "idno":
  "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-01-27.html",
  "head":
- "Tagebuch, 27. Januar 1894",
- "desc":
-{
-}
+ "Tagebuch, 27. Januar 1894"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
 }, {
  "type":
  "schnitzler-bahr",
@@ -82,22 +92,6 @@
  "pmb262"}
  ]
 }
-}{
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/50/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
- "head":
- "Wien",
- "desc":
-{
-}
 }, {
  "type":
  "schnitzler-cmif",
@@ -109,18 +103,8 @@
  "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Adele Sandrock, 27.1.1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Adele Sandrock",
- "ref":
- "https://d-nb.info/gnd/118605429"}],
- "bibl":
- ", "source":
+ "source":
  "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
-}
 }, {
  "type":
  "schnitzler-cmif",
@@ -132,16 +116,6 @@
  "Gedruckte Briefwechsel",
  "head":
  "Arthur Schnitzler an Adele Sandrock, 27.1.1894",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Adele Sandrock",
- "ref":
- "https://d-nb.info/gnd/118605429"}],
- "bibl":
- ", "source":
+ "source":
  "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
-}
-}, ] 
+}] 

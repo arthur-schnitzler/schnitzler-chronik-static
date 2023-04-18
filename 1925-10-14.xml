@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,34 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1925-10-14">
-               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 13.–14. Oktober 1925</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp274.html</idno>
-            </event>
-            <event when-iso="1925-10-14">
-               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 14. Oktober 1925</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp275.html</idno>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp277.html</idno>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp278.html</idno>
-            </event>
-            <event when-iso="1925-10-14">
-               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 14. Oktober 1925</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp276.html</idno>
-            </event>
-            <event when-iso="1925-10-14">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1925-10-14">
-               <head>Hotel Esplanade</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/245/</idno>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1925-10-14">
                <head>Tagebuch, 14. Oktober 1925</head>
                <desc>
@@ -148,6 +121,33 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-10-14.html</idno>
+            </event>
+            <event when-iso="1925-10-14">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1925-10-14">
+               <head>Hotel Esplanade</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/245/</idno>
+            </event>
+            <event when-iso="1925-10-14">
+               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 13.–14. Oktober 1925</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp274.html</idno>
+            </event>
+            <event when-iso="1925-10-14">
+               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 14. Oktober 1925</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp275.html</idno>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp277.html</idno>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp278.html</idno>
+            </event>
+            <event when-iso="1925-10-14">
+               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 14. Oktober 1925</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp276.html</idno>
             </event>
          </listEvent>
       </body>

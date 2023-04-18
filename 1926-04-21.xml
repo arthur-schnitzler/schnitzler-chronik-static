@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,26 +67,25 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1926-04-21">
-               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 21. April 1926</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp313.html</idno>
-            </event>
-            <event when-iso="1926-04-21">
-               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 21.–24. April 1926</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp314.html</idno>
-            </event>
-            <event when-iso="1926-04-21">
-               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 21. April 1926</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp324.html</idno>
-            </event>
-            <event when-iso="1926-04-21">
-               <head>Neapel</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91330/</idno>
+               <head>Tagebuch, 21. April 1926</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16375">Alois? Hornung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21226">H. G. Wells</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76964">Die Geschichte einer Ehe</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-04-21.html</idno>
             </event>
             <event when-iso="1926-04-21">
                <head>Georg Brandes an Arthur Schnitzler, 21. 4. 1926</head>
@@ -128,23 +127,24 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02470.html</idno>
             </event>
             <event when-iso="1926-04-21">
-               <head>Tagebuch, 21. April 1926</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_16375">Alois? Hornung</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21226">H. G. Wells</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb76964">Die Geschichte einer Ehe</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-04-21.html</idno>
+               <head>Neapel</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91330/</idno>
+            </event>
+            <event when-iso="1926-04-21">
+               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 21. April 1926</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp313.html</idno>
+            </event>
+            <event when-iso="1926-04-21">
+               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 21.–24. April 1926</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp314.html</idno>
+            </event>
+            <event when-iso="1926-04-21">
+               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 21. April 1926</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp324.html</idno>
             </event>
          </listEvent>
       </body>

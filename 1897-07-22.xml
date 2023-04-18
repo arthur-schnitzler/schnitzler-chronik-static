@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,21 +67,42 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1897-07-22">
-               <head>Bad Ischl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
-            </event>
-            <event when-iso="1897-07-22">
-               <head>Gmunden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/874/</idno>
-            </event>
-            <event when-iso="1897-07-22">
-               <head>Hotel und Pension Rudolfshöhe (Leopold Petter)</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/414/</idno>
+               <head>Tagebuch, 22. Juli 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17087">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19143">Else Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19438">Alexander Rottmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21202">Pepi Weiss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14162">Alfred Cavar</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb874">Gmunden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-22.html</idno>
             </event>
             <event when-iso="1897-07-22">
                <head>Arthur Schnitzler an Hugo von Hofmannsthal, 22. 7. 1897</head>
@@ -143,57 +164,19 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00710.html</idno>
             </event>
             <event when-iso="1897-07-22">
-               <head>Felix Salten an Arthur Schnitzler, 22.7.1897</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118840819">Salten, Felix</persName>
-                     </person>
-                  </listPerson>
-                  <bibl> Hermann
-                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
-                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
-                    Verlag 2018 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+               <head>Bad Ischl</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
             </event>
             <event when-iso="1897-07-22">
-               <head>Tagebuch, 22. Juli 1897</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17087">Leopold Kramer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19143">Else Singer</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_19438">Alexander Rottmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21202">Pepi Weiss</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14162">Alfred Cavar</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb874">Gmunden</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-22.html</idno>
+               <head>Gmunden</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/874/</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Hotel und Pension Rudolfshöhe (Leopold Petter)</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/414/</idno>
             </event>
             <event when-iso="1897-07-22">
                <head>Salten an Schnitzler, 22. 7. 1897</head>
@@ -232,6 +215,23 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041216.html</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Felix Salten an Arthur Schnitzler, 22.7.1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118840819">Salten, Felix</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
             </event>
          </listEvent>
       </body>

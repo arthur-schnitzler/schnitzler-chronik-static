@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,23 +67,43 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1927-04-25">
-               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 24.–25.4.1927</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp428.html</idno>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp429.html</idno>
-            </event>
-            <event when-iso="1927-04-25">
-               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 25. April 1927</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp432.html</idno>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp433.html</idno>
-            </event>
-            <event when-iso="1927-04-25">
-               <head>Venedig</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
+               <head>Tagebuch, 25. April 1927</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14129">Arnoldo Cappellini</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17784">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18218">Carl Moll</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21584">Anna von Zsolnay</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92174">Bonvecchiati</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92388">Markusplatz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-04-25.html</idno>
             </event>
             <event when-iso="1927-04-25">
                <head>Arthur Schnitzler an Paul Goldmann, 25. 4. 1927</head>
@@ -138,41 +158,21 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02687.html</idno>
             </event>
             <event when-iso="1927-04-25">
-               <head>Tagebuch, 25. April 1927</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_14129">Arnoldo Cappellini</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_14130">Lili Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_17784">Alma Maria Mahler</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18218">Carl Moll</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_21584">Anna von Zsolnay</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb462">Venedig</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92174">Bonvecchiati</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92388">Markusplatz</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-04-25.html</idno>
+               <head>Venedig</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
+            </event>
+            <event when-iso="1927-04-25">
+               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 24.–25.4.1927</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp428.html</idno>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp429.html</idno>
+            </event>
+            <event when-iso="1927-04-25">
+               <head>Arthur Schnitzler an Clara Katharina Pollaczek, 25. April 1927</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp432.html</idno>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp433.html</idno>
             </event>
          </listEvent>
       </body>

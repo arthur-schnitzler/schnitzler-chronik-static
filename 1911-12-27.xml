@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,11 +67,93 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1911-12-27">
+               <head>Tagebuch, 27. Dezember 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16165">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18472">Max Nordau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20353">Ludwig Stein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20349">Else Stein</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-12-27.html</idno>
+            </event>
             <event when-iso="1911-12-27">
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1911-12-27">
+               <head>Brahm an Schnitzler, 27. 12. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12749">Karl Schönherr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28635">Isidor Ismar Boas</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30085">Das Tänzchen. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30235">Erde</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb134">Zell am Ziller</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041561.html</idno>
             </event>
             <event when-iso="1911-12-27">
                <head>Samuel Fischer an Arthur Schnitzler, 27.12.1911</head>
@@ -131,88 +213,6 @@
                Seidlin. Tübingen: Niemeyer, 1975.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
-            </event>
-            <event when-iso="1911-12-27">
-               <head>Tagebuch, 27. Dezember 1911</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_16165">Theodor Herzl</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_18472">Max Nordau</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20353">Ludwig Stein</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_20349">Else Stein</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-12-27.html</idno>
-            </event>
-            <event when-iso="1911-12-27">
-               <head>Brahm an Schnitzler, 27. 12. 1911</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10986">Otto Brahm</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12749">Karl Schönherr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb28635">Isidor Ismar Boas</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30085">Das Tänzchen. Lustspiel in drei Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30235">Erde</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb134">Zell am Ziller</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb173">Rodaun</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb189">Semmering</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041561.html</idno>
             </event>
          </listEvent>
       </body>

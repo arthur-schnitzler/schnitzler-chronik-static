@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,16 +67,33 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1897-04-17">
-               <head>Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
-            </event>
-            <event when-iso="1897-04-17">
-               <head>rue de Maubeuge</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
+               <head>Tagebuch, 17. April 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_18467">Georges Noblet</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16111">Abel Hermant</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16412">Felix Huguenet</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32173">La Carrière</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91179">Jardin du Luxembourg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-17.html</idno>
             </event>
             <event when-iso="1897-04-17">
                <head>Paul Goldmann an Arthur Schnitzler, 17. 4. [1897]</head>
@@ -109,31 +126,14 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02808.html</idno>
             </event>
             <event when-iso="1897-04-17">
-               <head>Tagebuch, 17. April 1897</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="person_18467">Georges Noblet</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16111">Abel Hermant</persName>
-                     </person>
-                     <person>
-                        <persName ref="person_16412">Felix Huguenet</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb32173">La Carrière</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb91179">Jardin du Luxembourg</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-17.html</idno>
+               <head>Paris</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+            </event>
+            <event when-iso="1897-04-17">
+               <head>rue de Maubeuge</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
             </event>
          </listEvent>
       </body>

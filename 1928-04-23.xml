@@ -3,7 +3,7 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
-     xmlns:foo="whatever"
+     xmlns:mam="whatever"
      xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-17.">17.04.2023</date>
+            <date when-iso="2023-04-18.">18.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -67,84 +67,7 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent>
-            <event when-iso="1928-04-23">
-               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 23. April 1928</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp536.html</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Istanbul</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/966/</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Bosporus</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90386/</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Anatolia</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91034/</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Hamria</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92271/</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Beyoğlu</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91449/</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Arthur Schnitzler an Richard Beer-Hofmann, 23. 4. 1928</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb966">Istanbul</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb68">XVIII., Währing</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb383">Hasenauerstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb52752">Goldenes Horn</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02499.html</idno>
-            </event>
-            <event when-iso="1928-04-23">
-               <head>Arthur Schnitzler an Hedy Kempny, 23.4.1928</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/11872181X">Kempny, Hedy</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Hedy Kempny und
-                    Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
-                    ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
-                    Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
-                    1984. (Neue Frau)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
-            </event>
+         <listEvent xmlns:foo="whatever">
             <event when-iso="1928-04-23">
                <head>Tagebuch, 23. April 1928</head>
                <desc>
@@ -184,6 +107,83 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-23.html</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Arthur Schnitzler an Richard Beer-Hofmann, 23. 4. 1928</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb966">Istanbul</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb383">Hasenauerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb52752">Goldenes Horn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02499.html</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Istanbul</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/966/</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Bosporus</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90386/</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Anatolia</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91034/</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Hamria</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92271/</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Beyoğlu</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91449/</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 23. April 1928</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp536.html</idno>
+            </event>
+            <event when-iso="1928-04-23">
+               <head>Arthur Schnitzler an Hedy Kempny, 23.4.1928</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11872181X">Kempny, Hedy</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Hedy Kempny und
+                    Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
+                    ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
+                    Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
+                    1984. (Neue Frau)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
             </event>
          </listEvent>
       </body>
