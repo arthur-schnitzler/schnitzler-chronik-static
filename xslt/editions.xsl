@@ -241,10 +241,22 @@
         <h3>
             <xsl:choose>
                 <xsl:when
-                    test="starts-with(tei:idno[1]/text(), 'http') or starts-with(tei:idno[1]/text(), 'doi')">
+                    test="starts-with(tei:idno[1]/text(), 'http')">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of select="tei:idno[1]/text()"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="tei:head"/>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:when
+                    test="starts-with(tei:idno[1]/text(), 'doi')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
                         </xsl:attribute>
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
