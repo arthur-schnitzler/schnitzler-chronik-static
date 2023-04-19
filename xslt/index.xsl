@@ -110,10 +110,10 @@
                                             Korrespondenzstücke</i></a> Schnitzlers bei
                                     correspSearch</li>
                                 <li><a
-                                        href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"
+                                    href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"  target="_blank"
                                         >Ereignisse in der PMB</a> (Teilnahme an
                                     Theateraufführungen)</li>
-                                <li>Ergänzungen im kleineren Umfang, teilweise manuell</li>
+                                <li>Ergänzungen im kleineren Umfang über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a></li>
                             </ul>
                             <p class="mt-3">Es ist geplant, die Webseite fortlaufend zu erweitern.
                                 Dies soll unter anderem durch das Einbinden von Erscheinungsdaten
