@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,6 +94,33 @@
                <head>Grillparzerstraße</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+            </event>
+            <event when-iso="1893-04-19">
+               <head>Gründungstreffen Saubermänner, 19.4.1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12974" type="hat-als-teilnehmerin">Friedrich Gustav Triesch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150" type="hat-als-teilnehmerin">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7292" type="hat-als-teilnehmerin">Otto Fuchs</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50" type="veranstaltet-in">Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29794" type="veranstaltet-von">Saubermänner</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94343/</idno>
             </event>
          </listEvent>
       </body>

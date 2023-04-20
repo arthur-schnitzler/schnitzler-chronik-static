@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -143,6 +143,38 @@
                <head>Palasthotel Prag</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90/</idno>
+            </event>
+            <event when-iso="1912-06-14">
+               <head>Premiere von Der einsame Weg, 14.6.1912</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985" type="auffuhrung-von-premiere-von">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb23447" type="hat-als-arbeitskraft">Alfred Rittig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8883" type="hat-als-arbeitskraft">Hermine Medelsky</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb27" type="veranstaltet-in">Ständetheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91" type="veranstaltet-in">Neues Deutsches Theater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb37080" type="veranstaltet-von">Neues Deutsches Theater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/47451/</idno>
             </event>
          </listEvent>
       </body>

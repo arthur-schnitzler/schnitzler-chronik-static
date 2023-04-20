@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,6 +111,37 @@
                <head>Grillparzerstraße</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+            </event>
+            <event when-iso="1892-11-15">
+               <head>Private Lesung von Pantomime (Der Schleier der Pierrette), 15.11.1892</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30215" type="vortragvorlesung-von">Der Schleier der Pierrette</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740" type="hat-als-teilnehmerin">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863" type="hat-als-teilnehmerin">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167" type="hat-als-teilnehmerin">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18523" type="hat-als-teilnehmerin">Paul Horn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2450" type="hat-als-teilnehmerin">Friedrich Michael Fels</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8441" type="hat-als-teilnehmerin">Josef Lamberg</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/142775/</idno>
             </event>
          </listEvent>
       </body>

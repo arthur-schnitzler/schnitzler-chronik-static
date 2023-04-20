@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,6 +100,27 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1894-12-14">
+               <head>Vereinstreffen Saubermänner, 14.12.1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb7463" type="hat-als-teilnehmerin">Wilhelm Goldbaum</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50" type="veranstaltet-in">Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29794" type="veranstaltet-von">Saubermänner</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/112511/</idno>
             </event>
          </listEvent>
       </body>

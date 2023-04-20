@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,6 +121,43 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1910-04-03">
+               <head>Premiere von Frage an das Schicksal, Die letzten Masken, Literatur, 3.4.1910</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29877" type="auffuhrung-von-premiere-von">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869" type="auffuhrung-von">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30749" type="auffuhrung-von">Die Frage an das Schicksal</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11527" type="hat-als-arbeitskraft">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb6621" type="hat-als-arbeitskraft">Gustav Charlé</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20472" type="hat-als-arbeitskraft">Constance von Linden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb46144" type="hat-als-arbeitskraft">Emil Heyse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27473" type="hat-als-arbeitskraft">Hans Ziegler</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46098/</idno>
             </event>
          </listEvent>
       </body>

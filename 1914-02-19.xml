@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,6 +145,65 @@
                     Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#dc95034c-3e70-47e1-9072-3fc75d84b47a"/>
+            </event>
+            <event when-iso="1914-02-19">
+               <head>Premiere von Der einsame Weg, 19.2.1914</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985" type="auffuhrung-von-premiere-von">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12399" type="hat-als-arbeitskraft">Max Paulsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2642" type="hat-als-arbeitskraft">Else Speidel-Haeberle</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11423" type="hat-als-arbeitskraft">Alfred Gerasch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13149" type="hat-als-arbeitskraft">Else Wohlgemuth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2446" type="hat-als-arbeitskraft">Max Devrient</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3201" type="hat-als-arbeitskraft">Harry Walden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10959" type="hat-als-arbeitskraft">Hedwig Bleibtreu</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11659" type="hat-als-arbeitskraft">Franz Herterich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3159" type="hat-als-teilnehmerin">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423" type="hat-als-teilnehmerin">Helene Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14" type="veranstaltet-in">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247" type="veranstaltet-von">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/59607/</idno>
             </event>
          </listEvent>
       </body>

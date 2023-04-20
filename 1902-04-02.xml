@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,6 +91,56 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1902-04-02">
+               <head>Aufführung von Francesca da Rimini, 2.4.1902</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31085" type="auffuhrung-von">Francesca da Rimini</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11201" type="hat-als-arbeitskraft">Eleonora Duse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740" type="hat-als-teilnehmerin">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb77" type="veranstaltet-in">Raimund-Theater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb39666" type="veranstaltet-von">Raimund-Theater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44795/</idno>
+            </event>
+            <event when-iso="1902-04-02">
+               <head>Generalprobe von Über unsere Kraft, 2.4.1902</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29883" type="auffuhrung-von">Über unsere Kraft</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815" type="hat-als-teilnehmerin">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44801/</idno>
             </event>
          </listEvent>
       </body>

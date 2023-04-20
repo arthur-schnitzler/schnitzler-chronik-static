@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,6 +115,62 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1891-10-28">
+               <head>Freie Bühne, Erster geselliger Abend, 28.10.1891</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35829" type="vortragvorlesung-von">Am Flügel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35818" type="vortragvorlesung-von">An die Alten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88856" type="wird-rezensiert-in">Die »freie Bühne«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89553" type="vortragvorlesung-von">Im Kampf der Zeit</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89558" type="vortragvorlesung-von">Lieder von der Straße</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89563" type="vortragvorlesung-von">Die Willis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89567" type="wird-rezensiert-in">»Freie Bühne«</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2450" type="hat-als-arbeitskraft">Friedrich Michael Fels</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12498" type="hat-als-arbeitskraft">Georg Reimers</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2446" type="hat-als-arbeitskraft">Max Devrient</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2425" type="hat-als-arbeitskraft">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8236" type="hat-als-teilnehmerin">Hugo Klein</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb107" type="veranstaltet-in">Sofiensäle</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29781" type="veranstaltet-von">»Freie Bühne« Verein für moderne Literatur</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/51297/</idno>
             </event>
          </listEvent>
       </body>

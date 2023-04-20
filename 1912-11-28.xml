@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,6 +145,56 @@
                <head>Hotel Adlon</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1090/</idno>
+            </event>
+            <event when-iso="1912-11-28">
+               <head>Uraufführung von Professor Bernhardi, 28.11.1912</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30203" type="auffuhrung-von-urauffuhrung-von">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423" type="hat-als-teilnehmerin">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617" type="hat-als-teilnehmerin">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324" type="hat-als-teilnehmerin">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2657" type="hat-als-teilnehmerin">Hedwig Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10788" type="hat-als-teilnehmerin">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11910" type="hat-als-teilnehmerin">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10833" type="hat-als-teilnehmerin">Victor Barnowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb208" type="veranstaltet-in">Kleines Theater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb45430" type="veranstaltet-von">Kleines Theater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35355/</idno>
             </event>
          </listEvent>
       </body>

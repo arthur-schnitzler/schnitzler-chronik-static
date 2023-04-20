@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,6 +120,59 @@
                <head>Berlin</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1904-02-13">
+               <head>Uraufführung von Der einsame Weg, 13.2.1904</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985" type="auffuhrung-von-urauffuhrung-von">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986" type="hat-als-arbeitskraft">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5211" type="hat-als-arbeitskraft">Hedwig Pauly-Winterstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10844" type="hat-als-arbeitskraft">Albert Bassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2161" type="hat-als-teilnehmerin">Emerich von Bukovics</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21647" type="hat-als-teilnehmerin">Paul Marx</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12977" type="hat-als-arbeitskraft">Irene Triesch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2193" type="hat-als-arbeitskraft">Oskar Sauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12530" type="hat-als-arbeitskraft">Rudolf Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10733" type="hat-als-arbeitskraft">Kurt Stieler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2865" type="hat-als-arbeitskraft">Else Lehmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb3" type="veranstaltet-in">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597" type="veranstaltet-von">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35272/</idno>
             </event>
          </listEvent>
       </body>

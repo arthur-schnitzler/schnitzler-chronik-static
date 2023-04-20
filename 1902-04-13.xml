@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,6 +91,28 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1902-04-13">
+               <head>Eheschließung von Ottilie Metzl und Felix Salten, 13.4.1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167" type="hat-als-arbeitskraft">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918" type="hat-als-arbeitskraft">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968" type="hat-als-arbeitskraft">Siegfried Trebitsch</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb59" type="veranstaltet-in">IX., Alsergrund</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/142572/</idno>
             </event>
          </listEvent>
       </body>

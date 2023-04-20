@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -134,6 +134,36 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1903-08-26">
+               <head>Eheschließung von Arthur Schnitzler und Olga Gussmann, 26.8.1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-arbeitskraft">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863" type="hat-als-arbeitskraft">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12740" type="hat-als-arbeitskraft">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11312" type="hat-als-arbeitskraft">David Feuchtwang</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44464" type="veranstaltet-in">Schopenhauerstraße</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb44466" type="veranstaltet-von">Synagoge Währing</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44469/</idno>
             </event>
          </listEvent>
       </body>

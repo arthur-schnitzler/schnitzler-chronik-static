@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,6 +111,35 @@
                     und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#d2b0f559-bde7-4114-82b9-741a8810c463"/>
+            </event>
+            <event when-iso="1891-04-07">
+               <head>Zusammenkunft Jung Wien, 7.4.1891</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30257" type="vortragvorlesung-von">Der Sohn. Aus den Papieren eines Arztes</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89179" type="vortragvorlesung-von">Eigen’ Blut. Studie in 1 Akt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2337" type="hat-als-arbeitskraft">Victor Léon</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43528" type="veranstaltet-in">Joseph G. Wieninger, Weinhandlung</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb89143" type="veranstaltet-von">Jung Wien</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/89173/</idno>
             </event>
          </listEvent>
       </body>

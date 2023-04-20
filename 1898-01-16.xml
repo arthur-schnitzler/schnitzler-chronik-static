@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -183,6 +183,53 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1898-01-16">
+               <head>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30163" type="auffuhrung-von">Weihnachts-Einkäufe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30005" type="auffuhrung-von">Abschiedssouper</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12618" type="hat-als-arbeitskraft">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11093" type="hat-als-arbeitskraft">Rudolf Christians</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12651" type="hat-als-arbeitskraft">Rudolf Schildkraut</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11981" type="hat-als-arbeitskraft">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25544" type="hat-als-arbeitskraft">Hiero Stoessel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21952" type="hat-als-arbeitskraft">Hansi Niese</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22666" type="hat-als-arbeitskraft">Victoria Pohl-Meiser</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb107" type="veranstaltet-in">Sofiensäle</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
             </event>
          </listEvent>
       </body>

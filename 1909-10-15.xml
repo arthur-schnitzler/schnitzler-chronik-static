@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -195,6 +195,44 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041051.html</idno>
+            </event>
+            <event when-iso="1909-10-15">
+               <head>Generalprobe von Jene Asra, 15.10.1909</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30289" type="auffuhrung-von-probe-generalprobe">Jene Asra,… Komödie in 4 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11036" type="hat-als-teilnehmerin">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815" type="hat-als-teilnehmerin">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10848" type="hat-als-teilnehmerin">Ludwig Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12101" type="hat-als-teilnehmerin">Siegfried Loewy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18308" type="hat-als-teilnehmerin">Leo Feld</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20" type="veranstaltet-in">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50222/</idno>
             </event>
          </listEvent>
       </body>

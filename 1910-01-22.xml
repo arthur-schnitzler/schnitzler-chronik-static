@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -155,6 +155,33 @@
                </desc>
                <idno type="schnitzler-cmif"
                      subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
+            </event>
+            <event when-iso="1910-01-22">
+               <head>Uraufführung von Der Schleier der Pierrette, 22.1.1910</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30215" type="auffuhrung-von-urauffuhrung-von">Der Schleier der Pierrette</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24537" type="hat-als-arbeitskraft">Ernst von Schuch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14029" type="hat-als-teilnehmerin">Otto Carl Waldemar Benzon</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb866" type="veranstaltet-in">Dresden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35373/</idno>
             </event>
          </listEvent>
       </body>

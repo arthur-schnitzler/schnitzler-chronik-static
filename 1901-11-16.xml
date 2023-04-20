@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -141,6 +141,39 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041196.html</idno>
+            </event>
+            <event when-iso="1901-11-16">
+               <head>Generalprobe Jung-Wiener Theater zum Lieben Augustin, 16.11.1901</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167" type="hat-als-arbeitskraft">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3165" type="hat-als-teilnehmerin">Mary Halton</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815" type="hat-als-teilnehmerin">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13068" type="hat-als-teilnehmerin">Frank Wedekind</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb1" type="veranstaltet-in">Jung-Wiener Theater zum Lieben Augustin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb143199" type="veranstaltet-von">Jung-Wiener Theater zum Lieben Augustin</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143202/</idno>
             </event>
          </listEvent>
       </body>

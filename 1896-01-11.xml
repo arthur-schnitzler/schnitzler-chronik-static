@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -288,6 +288,62 @@
                <head>Frankfurt am Main</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/146/</idno>
+            </event>
+            <event when-iso="1896-01-11">
+               <head>Premiere von Liebelei, Die Versucherin, 11.1.1896</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917" type="auffuhrung-von-premiere-von">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb92950" type="wird-rezensiert-in">Schauspielhaus. [Premiere von Liebelei]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb92955" type="auffuhrung-von-premiere-von">Die Versucherin. Schauspiel in einem Aufzuge</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb4986" type="hat-als-teilnehmerin">Fedor Mamroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23593" type="hat-als-teilnehmerin">Josef Rosengart</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17163" type="hat-als-teilnehmerin">Clementine Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14338" type="hat-als-arbeitskraft">Anna Bock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15208" type="hat-als-arbeitskraft">Felix Dahn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20705" type="hat-als-arbeitskraft">Ludmilla Lándori</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25804" type="hat-als-arbeitskraft">Jani Szika</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22948" type="hat-als-arbeitskraft">Wolfgang Quincke</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb92961" type="hat-als-arbeitskraft">Sophie König</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb146" type="veranstaltet-in">Frankfurt am Main</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb34987" type="veranstaltet-von">Frankfurter Städtisches Schauspielhaus</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/89661/</idno>
             </event>
          </listEvent>
       </body>

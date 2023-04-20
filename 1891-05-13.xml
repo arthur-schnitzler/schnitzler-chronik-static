@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,6 +105,63 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1891-05-13">
+               <head>Aufführung von Das Abenteuer seines Lebens u.a., 13.5.1891</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30143" type="auffuhrung-von">Das Abenteuer seines Lebens. Ein einaktiges Lustspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89896" type="auffuhrung-von">Unser Patient. Lustspiel in 1 Act</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89912" type="auffuhrung-von">Nord und Süd. Lustspiel in einem Act</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77990" type="auffuhrung-von">Margarethe. Oper in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89921" type="auffuhrung-von">Eine Mutter vor Gericht. Dramatische Szene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89927" type="auffuhrung-von">Der Waffenschmied. Komische Oper</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89932" type="auffuhrung-von">Der Pascha. Pantomimische Posse in einem Act</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb14953" type="hat-als-teilnehmerin">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14948" type="hat-als-teilnehmerin">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16672" type="hat-als-teilnehmerin">Theodor Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23573" type="hat-als-teilnehmerin">Leopold Rosenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7263" type="hat-als-arbeitskraft">Leo Friedrich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695" type="hat-als-teilnehmerin">Johann Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701" type="hat-als-teilnehmerin">Louise Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb40" type="veranstaltet-in">Theater in der Josefstadt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/89901/</idno>
             </event>
          </listEvent>
       </body>

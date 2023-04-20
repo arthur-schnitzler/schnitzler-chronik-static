@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -328,6 +328,30 @@
                     Main: S. Fischer 1981.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1911-10-30">
+               <head>Aufführung von Das weite Land, 30.10.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207" type="auffuhrung-von">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb16067" type="hat-als-arbeitskraft">Marius Faber</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652" type="veranstaltet-in">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb27" type="veranstaltet-in">Ständetheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/88630/</idno>
             </event>
          </listEvent>
       </body>

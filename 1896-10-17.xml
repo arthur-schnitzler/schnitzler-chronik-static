@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-04-19.">19.04.2023</date>
+            <date when-iso="2023-04-20.">20.04.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -253,6 +253,36 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1896-10-17">
+               <head>Premiere von Die Mütter, 17.10.1896</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31737" type="auffuhrung-von">Die Mütter. Schauspiel in vier Acten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986" type="hat-als-teilnehmerin">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701" type="hat-als-teilnehmerin">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740" type="hat-als-teilnehmerin">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863" type="hat-als-teilnehmerin">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43387/</idno>
             </event>
          </listEvent>
       </body>
