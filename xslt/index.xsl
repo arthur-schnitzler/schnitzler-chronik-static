@@ -104,6 +104,11 @@
                                         <i>Aufenthaltsorte von Arthur Schnitzler</i>
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="https://kalliope-verbund.info/search.html?q=Arthur+Schnitzler" target="_blank">
+                                        <i>Suche »Arthur Schnitzler« im Verbundkatalog Kalliope</i>
+                                    </a> (nur Objekte mit Datumsangaben im ISO-Format YYYY-MM-DD)
+                                </li>
                                 <li><a
                                         href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118609807"
                                         target="_blank"><i>Gedruckte und digitale
