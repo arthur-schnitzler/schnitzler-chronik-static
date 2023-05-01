@@ -108,7 +108,7 @@
                                 <li>
                                     <a href="https://kalliope-verbund.info/search.html?q=Arthur+Schnitzler" target="_blank">
                                         <i>Suche »Arthur Schnitzler« im Verbundkatalog Kalliope</i>
-                                    </a> (nur Objekte mit Datumsangaben im ISO-Format YYYY-MM-DD, 4289 Einträge)
+                                    </a> (nur Objekte mit Datumsangaben im ISO-Format YYYY-MM-DD, 4.289 Einträge)
                                 </li>
                                 <li><a
                                         href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118609807"
