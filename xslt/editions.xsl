@@ -140,7 +140,7 @@
     </xsl:template>
     <xsl:template match="tei:listEvent">
         <xsl:variable name="eventtype"
-            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-bahr,schnitzler-orte,pmb,schnitzler-cmif,schnitzler-tage-manuell'"/>
+            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-bahr,schnitzler-orte,schnitzler-tage-manuell,pmb,schnitzler-cmif,kalliope-verbund'"/>
         <xsl:variable name="current-group" select="." as="node()"/>
         <xsl:for-each select="tokenize($eventtype, ',')">
             <xsl:variable name="e-type" as="xs:string" select="."/>
