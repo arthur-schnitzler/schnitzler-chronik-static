@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-05-04.">04.05.2023</date>
+            <date when-iso="2023-05-05.">05.05.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -299,6 +299,30 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041074.html</idno>
             </event>
             <event when-iso="1911-10-30">
+               <head>Aufführung von Das weite Land, 30.10.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207" type="auffuhrung-von">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb16067" type="hat-als-arbeitskraft">Marius Faber</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652" type="veranstaltet-in">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb27" type="veranstaltet-in">Ständetheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/88630/</idno>
+            </event>
+            <event when-iso="1911-10-30">
                <head>Arthur Schnitzler an Olga Schnitzler, 30.10.1911</head>
                <desc>
                   <listPerson>
@@ -333,30 +357,6 @@
                <head>Simolin, Rudolf von an Schnitzler, Arthur [Briefe]</head>
                <desc>2 Bl.</desc>
                <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00043298</idno>
-            </event>
-            <event when-iso="1911-10-30">
-               <head>Aufführung von Das weite Land, 30.10.1911</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30207" type="auffuhrung-von">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb16067" type="hat-als-arbeitskraft">Marius Faber</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb652" type="veranstaltet-in">Prag</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb27" type="veranstaltet-in">Ständetheater</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/88630/</idno>
             </event>
          </listEvent>
       </body>

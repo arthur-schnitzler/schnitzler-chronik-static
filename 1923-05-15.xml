@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-05-04.">04.05.2023</date>
+            <date when-iso="2023-05-05.">05.05.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -288,6 +288,22 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030074.html</idno>
             </event>
             <event when-iso="1923-05-15">
+               <head>Aufführung von Große Szene, 15.5.1923</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31429" type="auffuhrung-von">Große Szene</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb1079" type="veranstaltet-in">Det Kongelige Teater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58640/</idno>
+            </event>
+            <event when-iso="1923-05-15">
                <head>Arthur Schnitzler an Hedy Kempny, 15.5.1923</head>
                <desc>
                   <listPerson>
@@ -312,22 +328,6 @@
                   </listPerson>
                </desc>
                <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00040491</idno>
-            </event>
-            <event when-iso="1923-05-15">
-               <head>Aufführung von Große Szene, 15.5.1923</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb31429" type="auffuhrung-von">Große Szene</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb1079" type="veranstaltet-in">Det Kongelige Teater</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58640/</idno>
             </event>
          </listEvent>
       </body>
