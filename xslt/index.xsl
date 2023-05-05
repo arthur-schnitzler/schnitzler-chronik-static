@@ -69,7 +69,7 @@
                                     <li><a href="1927-11-07.xml">1927-11-07.xml</a></li>
                                 </ul>
                             </p>
-                            <p class="mt-3">Derzeit sind Daten folgender digitaler Editionen
+                            <p class="mt-3">Derzeit sind über 50.000 Daten folgender digitaler Editionen
                                 eingebunden:</p>
                             <ul>
                                 <li>
@@ -119,6 +119,7 @@
                                     href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"  target="_blank"
                                         >Ereignisse in der PMB</a> (Teilnahme an
                                     Theateraufführungen, 273 Einträge)</li> 
+                                <li>Arthur Schnitzler: <a href="https://www.wallstein-verlag.de/9783835310292-traeume.html" target="_blank">Träume. Das Traumtagebuch 1875–1931</a> (643 Einträge)</li>
                                 <li>Ergänzungen über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a> (34 Einträge)</li>
                             </ul>
                             <p class="mt-3">Es ist geplant, die Webseite fortlaufend zu erweitern.
