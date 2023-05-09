@@ -73,7 +73,7 @@
                                 eingebunden:</p>
                             <ul>
                                 <li>
-                                    <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/"
+                                    <a href="https://schnitzler-chronikbuch.acdh.oeaw.ac.at/"
                                         target="_blank">Arthur Schnitzler: <i>Tagebuch</i></a>  (16.422 Einträge)
                                 </li>
                                 <li><a href="https://www.arthur-schnitzler.de/" target="_blank"
@@ -128,11 +128,11 @@
                                     href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/list/&amp;related_entity_name=schnitzler"
                                     >PMB</a> gesammelt sind.</p>
                             <p class="mt-3">Das Datenkorpus kann zur Gänze – oder in Teilen – auf <a
-                                    href="https://github.com/arthur-schnitzler/schnitzler-tage/"
+                                    href="https://github.com/arthur-schnitzler/schnitzler-chronik-data/"
                                     target="_blank">GitHub</a> eingesehen und heruntergeladen
                                 werden. Der Source Code zur vorliegenden Webseite findet sich gleich
                                     <a
-                                    href="https://github.com/arthur-schnitzler/schnitzler-tage-static"
+                                    href="https://github.com/arthur-schnitzler/schnitzler-chronik-static"
                                     target="_blank">daneben</a>.</p>
                             <p class="mt-3">»Arthur Schnitzler Tag für Tag« ist ein Ausgangspunkt.
                                 Der eigentliche Nutzen der Webseite findet sich in den verlinkten
