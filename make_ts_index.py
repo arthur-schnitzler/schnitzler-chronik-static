@@ -12,12 +12,12 @@ files = glob.glob('./data/editions/*/*.xml')
 
 
 try:
-    client.collections['schnitzler-tage'].delete()
+    client.collections['schnitzler-chronik'].delete()
 except ObjectNotFound:
     pass
 
 current_schema = {
-    'name': 'schnitzler-tage',
+    'name': 'schnitzler-chronik',
     'fields': [
         {
             'name': 'id',
@@ -93,12 +93,12 @@ for x in tqdm(files, total=len(files)):
         body = doc.any_xpath(p_group)
         pages += 1
         cfts_record = {
-            'project': 'schnitzler-tage',
+            'project': 'schnitzler-chronik',
         }
         record = {}
         record['id'] = os.path.split(x)[-1].replace('.xml', f".html?tab={str(pages)}")
         cfts_record['id'] = record['id']
-        cfts_record['resolver'] = f"https://github.com/arthur-schnitzler/schnitzler-tage-static/{record['id']}"
+        cfts_record['resolver'] = f"https://github.com/arthur-schnitzler/schnitzler-chronik-static/{record['id']}"
         record['rec_id'] = os.path.split(x)[-1]
         cfts_record['rec_id'] = record['rec_id']
         r_title = " ".join(" ".join(doc.any_xpath('.//tei:titleStmt/tei:title[@level="a"]/text()')).split())
@@ -148,10 +148,10 @@ for x in tqdm(files, total=len(files)):
                 cfts_record['full_text'] = record['full_text']
                 cfts_records.append(cfts_record)
 
-make_index = client.collections['schnitzler-tage'].documents.import_(records)
+make_index = client.collections['schnitzler-chronik'].documents.import_(records)
 print(make_index)
-print('done with indexing schnitzler-tage')
+print('done with indexing schnitzler-chronik')
 
 make_index = CFTS_COLLECTION.documents.import_(cfts_records, {'action': 'upsert'})
 print(make_index)
-print('done with cfts-index schnitzler-tage')
+print('done with cfts-index schnitzler-chronik')
