@@ -67,7 +67,13 @@
    </teiHeader>
    <text>
       <body>
-         <listEvent xmlns:foo="whatever"/>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1862-05-15">
+               <head>Geburt</head>
+               <desc>Geburt in der Praterstraße/Jägerzeile</desc>
+               <idno type="schnitzler-chronik-manuell"/>
+            </event>
+         </listEvent>
       </body>
    </text>
 </TEI>
