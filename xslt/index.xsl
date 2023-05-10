@@ -25,7 +25,7 @@
                         <div class="row intro">
                             <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
                                 <div class="intro_left">
-                                    <h1>Arthur Schnitzler Tag für Tag</h1>
+                                    <h1>Arthur Schnitzler – Chronik</h1>
                                     <h3>
                                         <i>Eine digitale Ressource zu den einzelnen Tagen seines
                                             Lebens. </i>
