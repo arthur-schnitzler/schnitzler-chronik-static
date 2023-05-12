@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-05-10.">10.05.2023</date>
+            <date when-iso="2023-05-12.">12.05.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,6 +124,47 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1903-04-04">
+               <head>[Ludwig Basch]: [Schnitzler unvermählt], 4. 4. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13791">Ludwig Basch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33029">[Theater und Kunst. Schnitzler
+                                        vermählt]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33027">[Theater und Kunst. Schnitzler
+                                        unvermählt]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36376">Neues Wiener Journal</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb2">Konservatorium der Gesellschaft der
+                                        Musikfreunde</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29320">Neues Wiener Journal</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/P037.html</idno>
             </event>
             <event when-iso="1903-04-04">
                <head>Bahr an Schnitzler, 4. 4. 1903</head>

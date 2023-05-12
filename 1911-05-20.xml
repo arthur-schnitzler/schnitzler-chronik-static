@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-05-10.">10.05.2023</date>
+            <date when-iso="2023-05-12.">12.05.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,6 +91,83 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1911-05-20">
+               <head>[Kondolenz zum Tod von Gustav Mahler], 20. 5. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12163">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12160">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12277">Carl Moll</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3290">Alfred von Montenuovo</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5435">Karl Lanckoroński</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb63101">Margarethe Lanckoroński</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2762">Hans Gregor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb63116">Heinrich Wittek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb63119">Irma Wittek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb9706">Paula Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb63104">Henriette Herz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28166">Julius Herz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26880">Adolf Weisse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26884">Rosina Weisse</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb63305">Gustav Mahler †</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb40003">Fremden-Blatt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M171.html</idno>
             </event>
          </listEvent>
       </body>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="2015-11-28">Samstag, 28. November 2015</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-12.">12.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="2015-11-28">
+               <head>Emil Bønnelycke: Digteren og Dramatikeren Arthur Schnitzler i
+                            Kjøbenhavn, 11. 5. 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb5375">Emil Bønnelycke</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22464">Viggo Petersen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10992">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3124">Voltaire</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4408">Karin Michaëlis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12251">Sophus Michaëlis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5380">Henrik Pontoppidan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2357">Peter Nansen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11820">Johannes Vilhelm Jensen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12819">Oswald Spengler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12358">Friedrich Nietzsche</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17789">Clara Augusta Hammerich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17793">Louis Leonor Hammerich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19210">Silman Jay Kaufman</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb58295">Wendell Philipps Dodge</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11284">Gertrud Eysoldt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4441">Maximilian Sladek</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30403">Paracelsus. Versspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33233">Af Livets Komedie. Udvalgte Noveller og
+                                        Enaktere</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf
+                                        Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33237">Voltaire und sein Jahrhundert</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33235">Æbelø</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33229">Der Untergang des Abendlandes</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30611">Also sprach Zarathustra</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33061">Die dreifache Warnung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36067">Sobraniye sochineniy [Gesammelte
+                                        Werke]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30313">Gesammelte Werke</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33231">Ein Kirchenraub. Erzählungen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33227">Der Dichter und Dramatiker Arthur
+                                        Schnitzler in Kopenhagen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36357">Politiken</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43570">Dänemark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49158">Warnemünde</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44599">Ostsee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb8">Prater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49217">Falster</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1088">Masnedsundbrücke</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb175">Amerika</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb254">England</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb745">Skandinavien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44016">Niederlande</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44244">Finnland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1080">Belasco Theatre</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1081">The Green Room Club</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58984">Gedser</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb37177">Kammerspiele Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29482">Studentersamfundet</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb58993">Det Kongelige Teater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb61824">Kleines Schauspielhaus</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb61685">Residenz-Theater Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb61673">Trianon-Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb59843">R. Ioganson</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb59870">V. M. Sablin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb47085">Münchner Schauspielhaus</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29628">Politiken</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I071.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

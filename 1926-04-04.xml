@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-05-10.">10.05.2023</date>
+            <date when-iso="2023-05-12.">12.05.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,6 +99,60 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1926-04-04">
+               <head>c. m. [= Carl Marilaun]: Wesen des Burgtheaters, 4. 4. 1926</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb5130">Carl Marilaun</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695">Johann Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31091">Das gerettete Venedig. Trauerspiel in fünf
+                                        Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32941">Wesen des Burgtheaters</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36376">Neues Wiener Journal</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I015.html</idno>
             </event>
          </listEvent>
       </body>
