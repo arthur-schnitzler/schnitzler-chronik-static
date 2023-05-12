@@ -69,7 +69,8 @@
                                     <li><a href="1927-11-07.xml">1927-11-07.xml</a></li>
                                 </ul>
                             </p>
-                            <p class="mt-3">Derzeit sind über 50.000 Daten folgender digitaler Editionen
+                            <p class="mt-3">Derzeit sind insgesamt über 50.000 Daten aufgenommen. Folgende digitale Editionen
+                                sind
                                 eingebunden:</p>
                             <ul>
                                 <li>
@@ -95,6 +96,11 @@
                                             <i>Briefwechsel, Aufzeichungen, Dokumente
                                                 (1891–1931)</i></a>  (1.367 Einträge)
                                 </li>
+                                <li>
+                                    <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/"
+                                        target="_blank">Arthur Schnitzler: <i>»Das Zeitlose ist von kürzester Dauer.« Interviews,
+                                        Meinungen, Proteste (1891–1931)</i></a>  (236 Einträge)
+                                </li>
                             </ul>
                             <p class="mt-3">Weiters werden Daten von folgenden Projekten
                                 berücksichtigt:</p>
@@ -105,6 +111,7 @@
                                         <i>Aufenthaltsorte von Arthur Schnitzler</i> 
                                     </a> (22.556 Einträge)
                                 </li>
+                                
                                 <li>
                                     <a href="https://kalliope-verbund.info/search.html?q=Arthur+Schnitzler" target="_blank">
                                         <i>Suche »Arthur Schnitzler« im Verbundkatalog Kalliope</i>
@@ -134,14 +141,14 @@
                                     <a
                                     href="https://github.com/arthur-schnitzler/schnitzler-chronik-static"
                                     target="_blank">daneben</a>.</p>
-                            <p class="mt-3">»Arthur Schnitzler Tag für Tag« ist ein Ausgangspunkt.
+                            <p class="mt-3">»Arthur Schnitzler: Chronik« ist ein Ausgangspunkt.
                                 Der eigentliche Nutzen der Webseite findet sich in den verlinkten
                                 digitalen Ressourcen, die es ermöglichen, umfassende Recherchen zum
                                 Leben und Werk Arthur Schnitzlers für jeden Tag seines Lebens
                                 durchzuführen.</p>
                             <p class="mt-3"/>
                             <p class="mt-3" style="text-align:right; font-style: italic;">Martin
-                                Anton Müller, Laura Untner<br/>Wien, April 2023</p>
+                                Anton Müller, Laura Untner<br/>Wien, Mai 2023</p>
 
                         </div>
                     </div>
