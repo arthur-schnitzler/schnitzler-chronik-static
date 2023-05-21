@@ -120,6 +120,10 @@
                                         >Ereignisse in der PMB</a> (Teilnahme an
                                     Theateraufführungen, 273 Einträge)</li> 
                                 <li>Arthur Schnitzler: <a href="https://www.wallstein-verlag.de/9783835310292-traeume.html" target="_blank">Träume. Das Traumtagebuch 1875–1931</a> (643 Einträge)</li>
+                                <li>»A. ist
+                                    manchmal wie ein kleines Kind«. Clara Katharina Pollaczek und Arthur Schnitzler gehen ins Kino.
+                                    Herausgegeben von Stephan Kurz und Michael Rohrwasser unter Mitarbeit
+                                    von Daniel Schopper. Wien, Köln, Wismar: Böhlau Verlag 2012. (Kinobesuche, 821 Einträge)</li>
                                 <li>Ergänzungen über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a> (34 Einträge)</li>
                             </ul>
                             <p class="mt-3">Es ist geplant, die Webseite fortlaufend zu erweitern.
