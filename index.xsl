@@ -61,40 +61,38 @@
                                 projektübergreifenden Verlinkung dieser Materialien. Über eine
                                 einfache Benutzeroberfläche können Informationen zu jedem Tag von
                                 Schnitzlers (Erwachsenen-)Leben abgerufen werden. Die Daten stehen
-                                sowohl in einer HTML-Ansicht, einer JSON-Datei wie auch als XML bereit. Sie
-                                können über die URL der Webseite in Kombination mit dem Datum
-                                abgerufen werden. Beispielsweise: <ul>
+                                sowohl in einer HTML-Ansicht, einer JSON-Datei wie auch als XML
+                                bereit. Sie können über die URL der Webseite in Kombination mit dem
+                                Datum abgerufen werden. Beispielsweise: <ul>
                                     <li><a href="1927-11-07.html">1927-11-07.html</a></li>
                                     <li><a href="1927-11-07.json">1927-11-07.json</a></li>
                                     <li><a href="1927-11-07.xml">1927-11-07.xml</a></li>
                                 </ul>
                             </p>
-                            <p class="mt-3">Derzeit sind über 50.000 Daten folgender digitaler Editionen
-                                eingebunden:</p>
+                            <p class="mt-3">Derzeit sind über 50.000 Daten folgender digitaler
+                                Editionen eingebunden:</p>
                             <ul>
                                 <li>
                                     <a href="https://schnitzler-chronikbuch.acdh.oeaw.ac.at/"
-                                        target="_blank">Arthur Schnitzler: <i>Tagebuch</i></a>  (16.422 Einträge)
-                                </li>
+                                        target="_blank">Arthur Schnitzler: <i>Tagebuch</i></a>
+                                    (16.422 Einträge) </li>
                                 <li><a href="https://www.arthur-schnitzler.de/" target="_blank"
                                         >Arthur Schnitzler digital: <i>Digitale historisch-kritische
-                                            Edition (1905–1931)</i></a> (Wuppertal/Cambridge, 505 Einträge)</li>
+                                            Edition (1905–1931)</i></a> (Wuppertal/Cambridge, 505
+                                    Einträge)</li>
                                 <li>
                                     <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/"
                                         target="_blank">Arthur Schnitzler: <i>Briefwechsel mit
-                                            Autorinnen und Autoren</i></a> (3.049 Einträge)
-                                </li>
+                                            Autorinnen und Autoren</i></a> (3.049 Einträge) </li>
                                 <li>
                                     <a href="https://pollaczek.acdh.oeaw.ac.at/" target="_blank"
                                         >Clara Katharina Pollaczek: <i>Arthur Schnitzler und
-                                            ich</i></a>  (1.960 Einträge)
-                                </li>
+                                        ich</i></a> (1.960 Einträge) </li>
                                 <li>
                                     <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/"
                                         target="_blank">Hermann Bahr, Arthur Schnitzler:
                                             <i>Briefwechsel, Aufzeichungen, Dokumente
-                                                (1891–1931)</i></a>  (1.367 Einträge)
-                                </li>
+                                            (1891–1931)</i></a> (1.367 Einträge) </li>
                             </ul>
                             <p class="mt-3">Weiters werden Daten von folgenden Projekten
                                 berücksichtigt:</p>
@@ -102,29 +100,38 @@
                                 <li>
                                     <a href="https://schnitzler-orte.acdh.oeaw.ac.at/"
                                         target="_blank">
-                                        <i>Aufenthaltsorte von Arthur Schnitzler</i> 
-                                    </a> (22.556 Einträge)
-                                </li>
+                                        <i>Aufenthaltsorte von Arthur Schnitzler</i>
+                                    </a> (22.556 Einträge) </li>
                                 <li>
-                                    <a href="https://kalliope-verbund.info/search.html?q=Arthur+Schnitzler" target="_blank">
+                                    <a
+                                        href="https://kalliope-verbund.info/search.html?q=Arthur+Schnitzler"
+                                        target="_blank">
                                         <i>Suche »Arthur Schnitzler« im Verbundkatalog Kalliope</i>
-                                    </a> (nur Objekte mit Datumsangaben im ISO-Format YYYY-MM-DD, 4.289 Einträge)
-                                </li>
+                                    </a> (nur Objekte mit Datumsangaben im ISO-Format YYYY-MM-DD,
+                                    4.289 Einträge) </li>
                                 <li><a
                                         href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118609807"
                                         target="_blank"><i>Gedruckte und digitale
                                             Korrespondenzstücke</i></a> Schnitzlers bei
-                                    correspSearch</li> (3.469 Einträge)
+                                    correspSearch</li> (3.469 Einträge) <li><a
+                                        href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"
+                                        target="_blank">Ereignisse in der PMB</a> (Teilnahme an
+                                    Theateraufführungen, 273 Einträge)</li>
+                                <li>Arthur Schnitzler: <a
+                                        href="https://www.wallstein-verlag.de/9783835310292-traeume.html"
+                                        target="_blank">Träume. Das Traumtagebuch 1875–1931</a>.
+                                    Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing
+                                    (643 Einträge)</li>
                                 <li><a
-                                    href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"  target="_blank"
-                                        >Ereignisse in der PMB</a> (Teilnahme an
-                                    Theateraufführungen, 273 Einträge)</li> 
-                                <li>Arthur Schnitzler: <a href="https://www.wallstein-verlag.de/9783835310292-traeume.html" target="_blank">Träume. Das Traumtagebuch 1875–1931</a> (643 Einträge)</li>
-                                <li>»A. ist
-                                    manchmal wie ein kleines Kind«. Clara Katharina Pollaczek und Arthur Schnitzler gehen ins Kino.
-                                    Herausgegeben von Stephan Kurz und Michael Rohrwasser unter Mitarbeit
-                                    von Daniel Schopper. Wien, Köln, Wismar: Böhlau Verlag 2012. (Kinobesuche, 821 Einträge)</li>
-                                <li>Ergänzungen über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a> (34 Einträge)</li>
+                                        href="https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/buecher-zum-sonderpreis/38505/a-ist-manchmal-wie-ein-kleines-kind"
+                                        target="_blank">»A. ist manchmal wie ein kleines Kind«.
+                                        Clara Katharina Pollaczek und Arthur Schnitzler gehen ins
+                                        Kino</a>. Herausgegeben von Stephan Kurz und Michael
+                                    Rohrwasser unter Mitarbeit von Daniel Schopper. Wien, Köln,
+                                    Weimar: Böhlau Verlag 2012. (Kinobesuche, 821 Einträge)</li>
+                                <li>Ergänzungen über eine <a
+                                        href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0"
+                                        target="_blank">Google Sheet-Tabelle</a> (34 Einträge)</li>
                             </ul>
                             <p class="mt-3">Es ist geplant, die Webseite fortlaufend zu erweitern.
                                 Dies soll unter anderem durch das Einbinden von Erscheinungsdaten
@@ -138,11 +145,11 @@
                                     <a
                                     href="https://github.com/arthur-schnitzler/schnitzler-chronik-static"
                                     target="_blank">daneben</a>.</p>
-                            <p class="mt-3">»Arthur Schnitzler schnitzler-chronikür Tag« ist ein Ausgangspunkt.
-                                Der eigentliche Nutzen der Webseite findet sich in den verlinkten
-                                digitalen Ressourcen, die es ermöglichen, umfassende Recherchen zum
-                                Leben und Werk Arthur Schnitzlers für jeden Tag seines Lebens
-                                durchzuführen.</p>
+                            <p class="mt-3">»Arthur Schnitzler schnitzler-chronikür Tag« ist ein
+                                Ausgangspunkt. Der eigentliche Nutzen der Webseite findet sich in
+                                den verlinkten digitalen Ressourcen, die es ermöglichen, umfassende
+                                Recherchen zum Leben und Werk Arthur Schnitzlers für jeden Tag
+                                seines Lebens durchzuführen.</p>
                             <p class="mt-3"/>
                             <p class="mt-3" style="text-align:right; font-style: italic;">Martin
                                 Anton Müller, Laura Untner<br/>Wien, April 2023</p>
