@@ -127,6 +127,11 @@
                                         >Ereignisse in der PMB</a> (Teilnahme an
                                     Theateraufführungen, 273 Einträge)</li> 
                                 <li>Arthur Schnitzler: <a href="https://www.wallstein-verlag.de/9783835310292-traeume.html" target="_blank">Träume. Das Traumtagebuch 1875–1931</a> (643 Einträge)</li>
+                                <li>Hedy Kempny: Tagebucheinträge. In: Hedy Kempny und
+                                    Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
+                                    ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
+                                    Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
+                                    1984. (Neue Frau)  (163 Einträge)</li>
                                 <li>Ergänzungen über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a> (34 Einträge)</li>
                             </ul>
                             <p class="mt-3">Es ist geplant, die Webseite fortlaufend zu erweitern.
