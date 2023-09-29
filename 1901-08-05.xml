@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-05-22.">22.05.2023</date>
+            <date when-iso="2023-09-29.">29.09.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -68,6 +68,58 @@
    <text>
       <body>
          <listEvent xmlns:foo="whatever">
+            <event when-iso="1901-08-05">
+               <head>Paul Goldmann an Arthur Schnitzler, 5. 8. [1901]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25187">Nanette Speyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25179">Albert Speyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2315">Elisabeth Steinrück</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb758">Höhlenstein</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb946">Vahrn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50822">Klobenstein</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb144279">Hotel Baur</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43157">Monte Cristallo</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03077.html</idno>
+            </event>
             <event when-iso="1901-08-05">
                <head>Vahrn</head>
                <desc/>
