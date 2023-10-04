@@ -156,8 +156,8 @@
                 <xsl:if test="$current-group/tei:event/tei:idno[@type = $e-type][1]">
                     <xsl:variable name="idnos-of-current" as="node()">
                         <xsl:element name="nodeset">
-                            <xsl:copy-of
-                                select="$current-group/tei:event/tei:idno[@type = $e-type][1]"/>
+                                    <xsl:copy-of
+                                        select="$current-group/tei:event/tei:idno[@type = $e-type][1]"/>
                         </xsl:element>
                     </xsl:variable>
                     <p>
@@ -315,7 +315,8 @@
             </xsl:choose>
         </xsl:variable>
         <li>
-            <i class="fa-solid fa-users" title="Erwähnte Personen"/>&#160; <xsl:for-each
+            <i class="fa-solid fa-users" title="Erwähnte Personen"/>&#160; 
+            <xsl:for-each
                 select="tei:person/tei:persName">
                 <xsl:choose>
                     <xsl:when
@@ -348,7 +349,7 @@
                         </xsl:element>
                     </xsl:when>
                     <xsl:when
-                        test="$e-typ = 'pmb' and starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
+                        test="$e-typ = 'pmb' and (starts-with(@ref, 'pmb') or starts-with(@ref, 'person_'))">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
                                 <xsl:text>badge rounded-pill</xsl:text>
@@ -400,7 +401,7 @@
                             </xsl:element>
                         </xsl:element>
                     </xsl:when>
-                    <xsl:otherwise>
+                                        <xsl:otherwise>
                         <xsl:value-of select="."/>
                         <xsl:if test="not(position() = last())">
                             <xsl:text>, </xsl:text>
