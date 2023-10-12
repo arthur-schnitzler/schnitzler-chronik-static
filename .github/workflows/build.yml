@@ -9,9 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx6g
+      TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
+      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Install Saxon, Ant and Fundament
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
@@ -19,16 +23,13 @@ jobs:
     - name: Fetch the data
       run: |
         ./fetch_data.sh
-    - name: Install Ant-Contrib
-      run: |
-        wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
-        mv ant-contrib-1.0b3.jar /usr/share/ant/lib
     - name: install python things
       run: |
         pip install -r requirements.txt
     - name: Build the app
       run: |
         python make_calendar_data.py
+        python make_ts_index.py
         ant
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
