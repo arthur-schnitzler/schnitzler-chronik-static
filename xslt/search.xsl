@@ -26,7 +26,12 @@
                             <div class="card-header" style="text-align:center">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
+                           
                             <div class="card-body">
+                                <div><p><i>Die Suche umfasst die Inhalte der Chronik, nicht aber den Volltext der einzelnen verlinkten Seiten. Sinnvoll
+                                    ist vor allem die Suche nach Entitäten wie Name, Werktitel oder Ortsangabe.</i></p>
+                                    
+                                </div>
                                 <div class="ais-InstantSearch">
                                     <div class="row">
                                         <div class="col-md-4">
@@ -34,12 +39,12 @@
                                             <div id="searchbox"></div>
                                             <div id="current-refinements"></div>
                                             <div id="clear-refinements"></div>
-                                            <h2>Projekte</h2>
-                                            <div id="refinement-list-projects"></div>
-                                            <h2>Zeitraum</h2>
-                                            <div id="refinement-range-year"></div>
                                             <h2 class="pt-2">Sortierung</h2>
                                             <div id="sort-by"></div>
+                                            <h2>Zeitraum</h2>
+                                            <div id="refinement-range-year"></div>
+                                            <h2>Projekte</h2>
+                                            <div id="refinement-list-projects"></div>
                                         </div>
                                         <div class="col-md-8">
                                             <div id="hits"></div>
