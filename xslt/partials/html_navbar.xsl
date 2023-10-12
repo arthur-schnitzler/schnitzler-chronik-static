@@ -16,6 +16,10 @@
                     <a title="Kalender" class="nav-link" href="calendar.html">Kalender</a>
 
                 </span>
+                <span style="text-align: right; margin-left: 10px; margin-right: 3em; font-weight: bold;">
+                    <a title="Suche" class="nav-link" href="search.html">Suche</a>
+                    
+                </span>
             </nav>
             <!-- .site-navigation -->
         </div>
