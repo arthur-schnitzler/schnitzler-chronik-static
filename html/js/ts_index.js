@@ -1,11 +1,6 @@
 var project_collection_name = "schnitzler-chronik"
 const annoUrl = "https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum="
 
-function makeAnnoLink(hit) {
-    let hitDate = hit.day;
-    let hitPage = hit.page;
-    return `${annoUrl}${hitDate}&seite=${hitPage}`
-}
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
         apiKey: "NzDtJWKq1IXQbpmfA5KeX2QuH4L5iZcD",
@@ -49,7 +44,7 @@ search.addWidgets([
             empty: "Keine Resultate für <q>{{ query }}</q>",
             item(hit, { html, components }) {
                 return html` 
-            <h3><a href='${makeAnnoLink(hit)}'>${hit.title}</a></h3>
+            <h3><a href='${hit.rec_id}'>${hit.title}</a></h3>
             <p>${hit._snippetResult.full_text.matchedWords.length > 0 ? components.Snippet({ hit, attribute: 'full_text' }) : ''}</p>
             `;
             },
@@ -93,19 +88,19 @@ search.addWidgets([
         },
     }),
 
-    // instantsearch.widgets.rangeInput({
-    //     container: "#refinement-range-year",
-    //     attribute: "year",
-    //     templates: {
-    //         separatorText: "bis",
-    //         submitText: "Suchen",
-    //     },
-    //     cssClasses: {
-    //         form: "form-inline",
-    //         input: "form-control",
-    //         submit: "btn",
-    //     },
-    // }),
+    instantsearch.widgets.rangeInput({
+        container: "#refinement-range-year",
+        attribute: "year",
+        templates: {
+            separatorText: "bis",
+            submitText: "Suchen",
+        },
+        cssClasses: {
+            form: "form-inline",
+            input: "form-control",
+            submit: "btn",
+        },
+    }),
 
 
     instantsearch.widgets.pagination({
@@ -136,13 +131,13 @@ search.addWidgets([
         },
     }),
 
-    // instantsearch.widgets.sortBy({
-    //     container: "#sort-by",
-    //     items: [
-    //         { label: "Jahr (aufsteigend)", value: "gestrich_index/sort/year:asc" },
-    //         { label: "Jahr (absteigend)", value: "gestrich_index/sort/year:desc" },
-    //     ],
-    // }),
+    instantsearch.widgets.sortBy({
+        container: "#sort-by",
+        items: [
+            { label: "Jahr (aufsteigend)", value: "schnitzler-chronik/sort/year:asc" },
+            { label: "Jahr (absteigend)", value: "schnitzler-chronik/sort/year:desc" },
+        ],
+    }),
 
     instantsearch.widgets.configure({
         hitsPerPage: 20,

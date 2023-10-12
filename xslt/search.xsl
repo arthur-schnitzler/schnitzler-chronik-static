@@ -34,8 +34,12 @@
                                             <div id="searchbox"></div>
                                             <div id="current-refinements"></div>
                                             <div id="clear-refinements"></div>
-                                            <h4>Projekte</h4>
+                                            <h2>Projekte</h2>
                                             <div id="refinement-list-projects"></div>
+                                            <h2>Zeitraum</h2>
+                                            <div id="refinement-range-year"></div>
+                                            <h2 class="pt-2">Sortierung</h2>
+                                            <div id="sort-by"></div>
                                         </div>
                                         <div class="col-md-8">
                                             <div id="hits"></div>
