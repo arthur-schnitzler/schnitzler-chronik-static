@@ -29,24 +29,30 @@ current_schema = {
 client.collections.create(current_schema)
 
 records = []
+counter = 0
 for x in tqdm(files, total=len(files)):
     doc = TeiReader(x)
-    doc_id = os.path.split(x)[-1].replace("xml", "")
-    body = doc.any_xpath(".//tei:body")[0]
-    full_text = " ".join("".join(body.itertext()).split())
-    title = doc.any_xpath(".//tei:title[@when-iso]/text()")[0]
-    projects = [
-        x.replace("-", " ").title() for x in doc.any_xpath(".//tei:idno[@type]/@type")
-    ]
-    item = {
-        "id": doc_id,
-        "rec_id": f"{resolver_url}{doc_id}.html",
-        "title": title,
-        "full_text": full_text,
-        "projects": projects,
-    }
-    records.append(item)
+    nsmap = doc.nsmap
+    doc_id = os.path.split(x)[-1].replace(".xml", "")
+    counter = 0
+    for event in doc.any_xpath(".//tei:event"):
+        counter += 1
+        full_text = " ".join("".join(event.itertext()).split())
+        project = event.xpath("./tei:idno[@type][1]/@type", namespaces=nsmap)[0]
+        event_id = f"{doc_id}__{counter}"
+        # projects = [
+        #     x.replace("-", " ").title().replace("ae", "ä") for x in doc.any_xpath(".//tei:idno[@type]/@type")
+        # ]
+        item = {
+            "id": event_id,
+            "rec_id": f"{doc_id}.html",
+            "title": f"{project}: {doc_id}",
+            "full_text": full_text,
+            "projects": [project]
+        }
+        records.append(item)
 
 make_index = client.collections["schnitzler-chronik"].documents.import_(records)
 print(make_index)
 print("done with indexing schnitzler-chronik")
+
