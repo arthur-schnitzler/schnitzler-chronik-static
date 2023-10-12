@@ -22,7 +22,8 @@ current_schema = {
         {"name": "rec_id", "type": "string"},
         {"name": "title", "type": "string"},
         {"name": "full_text", "type": "string"},
-        {"name": "projects", "type": "string[]", "facet": True, "optional": True},
+        {"name": "projects", "type": "string", "facet": True},
+        {"name": "year", "type": "int32", "facet": True},
     ],
 }
 
@@ -39,16 +40,20 @@ for x in tqdm(files, total=len(files)):
         counter += 1
         full_text = " ".join("".join(event.itertext()).split())
         project = event.xpath("./tei:idno[@type][1]/@type", namespaces=nsmap)[0]
+        try:
+            project_link = event.xpath("./tei:idno[@type][1]/text()", namespaces=nsmap)[0]
+        except IndexError:
+            project_link = ""
         event_id = f"{doc_id}__{counter}"
-        # projects = [
-        #     x.replace("-", " ").title().replace("ae", "ä") for x in doc.any_xpath(".//tei:idno[@type]/@type")
-        # ]
+        year = int(f"{doc_id[:4]}")
         item = {
             "id": event_id,
             "rec_id": f"{doc_id}.html",
             "title": f"{project}: {doc_id}",
             "full_text": full_text,
-            "projects": [project]
+            "projects": project,
+            "year": year,
+            "project_link": project_link
         }
         records.append(item)
 
