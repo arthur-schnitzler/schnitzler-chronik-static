@@ -6,29 +6,23 @@ from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 from datetime import datetime
 
-
-files = glob.glob("./data/*.xml")
-resolver_url = "https://schnitzler-chronik.acdh.oeaw.ac.at/"
-
-
-try:
-    client.collections["schnitzler-chronik"].delete()
-except ObjectNotFound:
-    pass
-
-current_schema = {
-    "name": "schnitzler-chronik",
-    "fields": [
-        {"name": "id", "type": "string"},
-        {"name": "rec_id", "type": "string"},
-        {"name": "title", "type": "string"},
-        {"name": "full_text", "type": "string"},
-        {"name": "projects", "type": "string", "facet": True},
-        {"name": "year", "type": "int32", "facet": True},
-    ],
+# Define a dictionary to map month numbers to German month names
+german_months = {
+    1: "Januar",
+    2: "Februar",
+    3: "März",
+    4: "April",
+    5: "Mai",
+    6: "Juni",
+    7: "Juli",
+    8: "August",
+    9: "September",
+    10: "Oktober",
+    11: "November",
+    12: "Dezember",
 }
 
-client.collections.create(current_schema)
+# ... (previous code) ...
 
 records = []
 counter = 0
@@ -37,7 +31,7 @@ for x in tqdm(files, total=len(files)):
     nsmap = doc.nsmap
     doc_id = os.path.split(x)[-1].replace(".xml", "")
     doc_date = datetime.strptime(doc_id, "%Y-%m-%d")  # Assuming ISO date format
-    doc_date_str = doc_date.strftime("%d.%m.%Y")  # Format date as DD.MM.YYYY
+    formatted_date = f"{doc_date.day}. {german_months[doc_date.month]} {doc_date.year}"
     counter = 0
     for event in doc.any_xpath(".//tei:event"):
         counter += 1
@@ -52,7 +46,7 @@ for x in tqdm(files, total=len(files)):
         item = {
             "id": event_id,
             "rec_id": f"{doc_id}.html",
-            "title": f"{project}: {doc_date_str}",  # Use the formatted date
+            "title": f"{project}: {formatted_date}",  # Use the formatted date in German
             "full_text": full_text,
             "projects": project,
             "year": year,
