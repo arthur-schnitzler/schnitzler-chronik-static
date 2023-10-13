@@ -22,7 +22,29 @@ german_months = {
     12: "Dezember",
 }
 
-# ... (previous code) ...
+# Get a list of XML files in the "./data/" directory
+files = glob.glob("./data/*.xml")
+resolver_url = "https://schnitzler-chronik.acdh.oeaw.ac.at/"
+
+
+try:
+    client.collections["schnitzler-chronik"].delete()
+except ObjectNotFound:
+    pass
+
+current_schema = {
+    "name": "schnitzler-chronik",
+    "fields": [
+        {"name": "id", "type": "string"},
+        {"name": "rec_id", "type": "string"},
+        {"name": "title", "type": "string"},
+        {"name": "full_text", "type": "string"},
+        {"name": "projects", "type": "string", "facet": True},
+        {"name": "year", "type": "int32", "facet": True},
+    ],
+}
+
+client.collections.create(current_schema)
 
 records = []
 counter = 0
