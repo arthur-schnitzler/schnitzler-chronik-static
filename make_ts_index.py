@@ -4,6 +4,7 @@ from typesense.api_call import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
+from datetime import datetime
 
 
 files = glob.glob("./data/*.xml")
