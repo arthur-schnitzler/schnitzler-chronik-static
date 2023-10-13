@@ -35,6 +35,8 @@ for x in tqdm(files, total=len(files)):
     doc = TeiReader(x)
     nsmap = doc.nsmap
     doc_id = os.path.split(x)[-1].replace(".xml", "")
+    doc_date = datetime.strptime(doc_id, "%Y-%m-%d")  # Assuming ISO date format
+    doc_date_str = doc_date.strftime("%d.%m.%Y")  # Format date as DD.MM.YYYY
     counter = 0
     for event in doc.any_xpath(".//tei:event"):
         counter += 1
@@ -49,7 +51,7 @@ for x in tqdm(files, total=len(files)):
         item = {
             "id": event_id,
             "rec_id": f"{doc_id}.html",
-            "title": f"{project}: {doc_id}",
+            "title": f"{project}: {doc_date_str}",  # Use the formatted date
             "full_text": full_text,
             "projects": project,
             "year": year,
