@@ -1,5 +1,4 @@
 var project_collection_name = "schnitzler-chronik"
-const annoUrl = "https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum="
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
