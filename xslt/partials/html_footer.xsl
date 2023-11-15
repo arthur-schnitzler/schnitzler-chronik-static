@@ -28,7 +28,7 @@
                             <p> T: +43 1 51581-2200 <br/> E: <a
                                 href="mailto:acdh-ch-helpdesk@oeaw.ac.at
                                 "
-                                >acdh-ch-helpdesk(@)oeaw.ac.at</a>
+                                >acdh-ch-helpdesk@oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
