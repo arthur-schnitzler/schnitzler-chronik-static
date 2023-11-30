@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,6 +111,44 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1907-10-23">
+               <head>Aufführung von Ein Walzertraum, 23.10.1907</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb56883" type="auffuhrung-von">Ein Walzertraum. Operette in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167" type="hat-als-teilnehmerin">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb61347" type="hat-als-arbeitskraft">Carl Blasel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb100084" type="hat-als-arbeitskraft">Viktoria Modl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb107241" type="hat-als-arbeitskraft">Richard Waldemar</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb118" type="veranstaltet-in">Carl-Theater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb63031" type="veranstaltet-von">Carl-Theater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143439/</idno>
             </event>
          </listEvent>
       </body>

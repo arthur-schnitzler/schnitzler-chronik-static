@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,9 +88,77 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-23.html</idno>
             </event>
             <event when-iso="1909-08-23">
+               <head>Felix Salten an Arthur Schnitzler, 23. 8. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2922">Paul Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23915">Anna Katharina Rehmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44102">Kaltenleutgeben</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb867">Innsbruck</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40321">Bregenz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147843">Hotel de l’Europe</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90811">Gütsch</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03506.html</idno>
+            </event>
+            <event when-iso="1909-08-23">
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1909-08-23">
+               <head>Erhalt von Richard Beer-Hofmann an Arthur Schnitzler, 21. 8. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118654756">Beer-Hofmann, Richard</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1909-08-23">
                <head>Mlle. Camilla Dalberg &lt;New York, NY&gt; an S.-Fischer-Verlag &lt;Berlin&gt; [Briefe]</head>

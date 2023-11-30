@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,12 +112,46 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="#pmb2167">Salten, Felix</persName>
+                        <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
-                        <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                        <persName ref="pmb2871">Theodor Entsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb146112">P. M.</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11910">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                   </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32426">Der Gemeine. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb51">I., Innere Stadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb127">Hotel Bristol Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03321.html</idno>
             </event>
@@ -125,6 +159,43 @@
                <head>Berlin</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1902-01-02">
+               <head>Aufführung von Die Jüdin von Toledo, 2. 1. 1902</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb34284" type="auffuhrung-von">Die Jüdin von Toledo</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb3" type="veranstaltet-in">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597" type="veranstaltet-von">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/145135/</idno>
+            </event>
+            <event when-iso="1902-01-02">
+               <head>Erhalt von Richard Dehmel an Arthur Schnitzler, 1. 1. 1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118679236">Dehmel, Richard</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1902-01-02">
                <head>Salzer, ... an Schnitzler, Arthur [Briefe]</head>

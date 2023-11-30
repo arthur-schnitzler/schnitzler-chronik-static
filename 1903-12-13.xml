@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,21 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="https://d-nb.info/gnd/118505955">Bahr, Hermann</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01350.html</idno>
+            </event>
+            <event when-iso="1903-12-13">
+               <head>Arthur Schnitzler an Hermann Bahr, 13. 12. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
                         <persName ref="pmb27690">
                   Schott
                </persName>
@@ -121,6 +136,98 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01350.html</idno>
+            </event>
+            <event when-iso="1903-12-13">
+               <head>Paul Goldmann an Arthur Schnitzler, 13. 12. [1903]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22798">Emilie Dorothea Popper</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb147198">?? [Berliner Musikkorrespondent der National-Zeitung]</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10848">Ludwig Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27903">Karl Eduard Vehse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23674">Theodore Rottenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb147196">Theater- und Kunstnachrichten. [Konzerte.]. [Man schreibt uns aus Berlin]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33784">Die Gouvernante</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb147110">[Aus Berlin wird uns gemeldet: »Der einsame Weg«]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb146972">Briefe, die ihn nicht erreichten</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb147105">National-Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb147108">Verein zur Förderung der Künste</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb144185">Reichstag</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb211">Ägypten</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03389.html</idno>
             </event>
             <event when-iso="1903-12-13">
                <head>Wien</head>
@@ -154,6 +261,38 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041067.html</idno>
+            </event>
+            <event when-iso="1903-12-13">
+               <head>Erhalt von Hugo von Hofmannsthal an Arthur Schnitzler, 8. 12. [1903]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
+            </event>
+            <event when-iso="1903-12-13">
+               <head>Erhalt von Hugo von Hofmannsthal an Arthur Schnitzler, 11. 12. [1903?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1903-12-13">
                <head>Specht, Hedy an Schnitzler, Arthur [Briefe]</head>

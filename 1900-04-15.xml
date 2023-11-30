@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,6 +100,168 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1900-04-15">
+               <head>Bankett für Ludwig Speidel, 15.4.1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12816" type="hat-als-teilnehmerin">Ludwig Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2618" type="hat-als-teilnehmerin">Hugo Ganz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25968" type="hat-als-teilnehmerin">Karl von Thaler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25196" type="hat-als-teilnehmerin">Edgar von Spiegl-Thurnsee</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18093" type="hat-als-teilnehmerin">Josef Hellmesberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10809" type="hat-als-teilnehmerin">Eduard Bacher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10875" type="hat-als-teilnehmerin">Moriz Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12903" type="hat-als-teilnehmerin">Eduard Suess</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12258" type="hat-als-teilnehmerin">Jakob Minor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11497" type="hat-als-teilnehmerin">Theodor Gomperz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8030" type="hat-als-teilnehmerin">Friedrich Jodl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb115095" type="hat-als-teilnehmerin">Laurenz Müllner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28054" type="hat-als-teilnehmerin">Marcell von Frydmann-Prawy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10883" type="hat-als-teilnehmerin">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036" type="hat-als-teilnehmerin">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671" type="hat-als-teilnehmerin">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12163" type="hat-als-teilnehmerin">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2161" type="hat-als-teilnehmerin">Emerich von Bukovics</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2601" type="hat-als-teilnehmerin">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17172" type="hat-als-teilnehmerin">Karl Goldmark</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb43768" type="hat-als-teilnehmerin">Ludwig Bösendorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11441" type="hat-als-teilnehmerin">Alexander Girardi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12099" type="hat-als-teilnehmerin">Konrad Loewe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13132" type="hat-als-teilnehmerin">Jakob von Winternitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb113398" type="hat-als-teilnehmerin">Georg Granitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb87963" type="hat-als-teilnehmerin">Ludwig Schwitzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb112587" type="hat-als-teilnehmerin">Adolf Werthner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb114328" type="hat-als-teilnehmerin">Gustav Steinbach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150" type="hat-als-teilnehmerin">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb95552" type="hat-als-teilnehmerin">Sigmund Ehrlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb117552" type="hat-als-teilnehmerin">Gustav Kolmer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3021" type="hat-als-teilnehmerin">Julian Sternberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2154" type="hat-als-teilnehmerin">Vincenz Chiavacci</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2947" type="hat-als-teilnehmerin">Moritz Epstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28238" type="hat-als-teilnehmerin">Hans Koppel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2577" type="hat-als-teilnehmerin">Alexander Landesberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3162" type="hat-als-teilnehmerin">Julius Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2334" type="hat-als-teilnehmerin">Philipp Langmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2416" type="hat-als-teilnehmerin">Jakob Julius David</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13071" type="hat-als-teilnehmerin">Alexander von Weilen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2570" type="hat-als-teilnehmerin">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2157" type="hat-als-teilnehmerin">Leo Ebermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8133" type="hat-als-teilnehmerin">Albert Kauders</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2425" type="hat-als-teilnehmerin">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28523" type="hat-als-teilnehmerin">Moriz Necker</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18283" type="hat-als-teilnehmerin">Adolf Hink</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2646" type="hat-als-teilnehmerin">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7908" type="hat-als-teilnehmerin">Hans von Hopfen</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb446" type="veranstaltet-in">Hotel Continental (Wien)</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351" type="veranstaltet-von">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143820/</idno>
+            </event>
+            <event when-iso="1900-04-15">
                <head>Franziska Lawner an Arthur Schnitzler, 15.4.1900</head>
                <desc>
                   <listPerson>
@@ -115,6 +277,22 @@
                     281–298.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#sb5b8e07-e0c8-47e6-8add-494150f56e37"/>
+            </event>
+            <event when-iso="1900-04-15">
+               <head>Erhalt von Paul Goldmann an Arthur Schnitzler, 13. 4. [1900]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116755105">Goldmann, Paul</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
          </listEvent>
       </body>

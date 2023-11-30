@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,163 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-01.html</idno>
+            </event>
+            <event when-iso="1906-05-01">
+               <head>Felix Salten an Arthur Schnitzler, 1. 5. 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb89420">
+                  Alfons XIII.
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb147521">
+                  Victoria Eugénie von Spanien
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23915">Anna Katharina Rehmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2922">Paul Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11632">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11813">Siegfried Jacobsohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12530">Rudolf Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2657">Hedwig Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2914">Oskar Bie</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12441">Felix Poppenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11910">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11581">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21365">Richard Metzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb146023">Vasilij Ilʹič Safonov</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7445">Leopold Godowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb9085">Arthur Nikisch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11992">Fritz Kreisler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2537">Ida d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11406">Julius von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17629">Herbert Ginsberg</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76519">Herr Wenzel auf Rehberg. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36156">Die neue Rundschau</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb914">Madrid</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb29004">Toledo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49183">Sevilla</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147483">Cadiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb951">Tanger</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51646">Gibraltar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147487">Granada</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb15227">Lissabon</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147498">Bansin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb142880">Świnoujście</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb64659">Heringsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb958">Skodsborg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb388">Spanien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36914">Tiergarten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb482">Friedrichstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03422.html</idno>
             </event>
             <event when-iso="1906-05-01">
                <head>Wien</head>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,12 +85,20 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="#pmb2167">Salten, Felix</persName>
-                     </person>
-                     <person>
-                        <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                        <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92519">Schlosspark Schönbrunn</placeName>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03282.html</idno>
             </event>
@@ -98,6 +106,25 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1898-09-07">
+               <head>Erhalt von Richard Beer-Hofmann, Hugo von Hofmannsthal an Arthur Schnitzler, 5. 9. 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118654756">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
          </listEvent>
       </body>

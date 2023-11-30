@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -84,10 +84,15 @@
                </persName>
                      </person>
                      <person>
-                        <persName ref="pmb13194">Émile Zola</persName>
+                        <persName ref="pmb89266">
+                  Leopold II. von Belgien
+               </persName>
                      </person>
                      <person>
                         <persName ref="pmb145270">Ignacy Daszyński</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13194">Émile Zola</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
@@ -107,6 +112,12 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
+                        <title ref="pmb145340">Politische Glossen. Der Ernst der Volksvertreter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb50081">Extrapost. Unparteiische Montags-Zeitung</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb145267">Sehnsucht</title>
                      </bibl>
                      <bibl>
@@ -121,6 +132,9 @@
                   </listBibl>
                   <listOrg>
                      <org>
+                        <orgName ref="pmb118423">Reichsrat</orgName>
+                     </org>
+                     <org>
                         <orgName ref="pmb29209">Die Zeit. Wiener Wochenschrift</orgName>
                      </org>
                      <org>
@@ -132,7 +146,7 @@
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb968">Mödling</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb40583">Dessauer Straße</placeName>
@@ -141,13 +155,13 @@
                         <placeName ref="pmb34494">Kroatien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb151">Deutschland</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb968">Mödling</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb872">Stuttgart</placeName>

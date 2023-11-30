@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,6 +78,82 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-31.html</idno>
+            </event>
+            <event when-iso="1904-08-31">
+               <head>Paul Goldmann an Arthur Schnitzler, 31. 8. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb147350">Franz Joseph Österreicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4986">Fedor Mamroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb427">Madonna di Campiglio</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147324">Brenta (Gebirge)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147330">Cima Tosa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147327">Monte Spinale</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147338">Imperial Hotel Trento</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147335">Bahnhof Trient</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb954">Trient</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb969">Südtirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147341">Grand Hotel des Alpes</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb465">Riva del Garda</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1061">Engadin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58636">Dolomiten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb423">Tirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90751">Gotthardpass</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03454.html</idno>
             </event>
             <event when-iso="1904-08-31">
                <head>Wien</head>

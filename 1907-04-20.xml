@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,6 +124,131 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-20.html</idno>
+            </event>
+            <event when-iso="1907-04-20">
+               <head>Felix Salten an Arthur Schnitzler, 20. 4. 1907</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11632">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2598">Sigmund Lautenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2992">Peter Rotenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10844">Albert Bassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11391">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14328">Oskar Blumenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11845">Gustav Kadelburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24702">Franz von Schönthan-Pernwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11910">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11813">Siegfried Jacobsohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb147641">Der Fall Hauptmann</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31939">Vor Sonnenaufgang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76924">Die Jungfern vom Bischofsberg. Lustspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29827">Die Weber. Schauspiel aus den vierziger Jahren</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31511">Hanneles Himmelfahrt. Traumdichtung in zwei Teilen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33386">Tartuffe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33273">Florian Geyer. Die Tragödie des Bauernkrieges</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31943">Der Biberpelz. Eine Diebskomödie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35935">Die Zeit</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb147654">Der Fall Brahm</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41564">Die Schaubühne</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb147658">?? [Über die Jungfern von Bischofsberg]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31213">Romeo and Juliet</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb159">Heiligenstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb22">Hradec Králové</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147648">Solferino</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147651">Magenta</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03438.html</idno>
             </event>
             <event when-iso="1907-04-20">
                <head>Wien</head>

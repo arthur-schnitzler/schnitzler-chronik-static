@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,86 +85,6 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-09-02.html</idno>
             </event>
             <event when-iso="1902-09-02">
-               <head>Paul Goldmann an Arthur Schnitzler, 2. 9. [1902]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2315">Elisabeth Steinrück</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb17554">Rudolf Gussmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb3167">Hugo Felix</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb3603">Anton Pavlovič Čechov</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb145901">Marie Suin Beausacq</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb89450">Sully Prudhomme</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb77286">Schatten des Todes</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb145900">Maximes de la vie. Préface par Sully Prud’homme</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb36340">Die Zeit. Wiener Wochenschrift</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb35935">Die Zeit</title>
-                     </bibl>
-                  </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb57124">Schiller-Theater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb89870">Paul Ollendorff</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29209">Die Zeit. Wiener Wochenschrift</orgName>
-                     </org>
-                  </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40306">Italien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb182">Paris</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03223.html</idno>
-            </event>
-            <event when-iso="1902-09-02">
                <head>Felix Salten an Arthur Schnitzler, 2. 9. 1902</head>
                <desc>
                   <listPerson>
@@ -197,6 +117,12 @@
                      </place>
                      <place>
                         <placeName ref="pmb120">Wipplingerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1003">Niederösterreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb17">Steiermark</placeName>
                      </place>
                   </listPlace>
                </desc>

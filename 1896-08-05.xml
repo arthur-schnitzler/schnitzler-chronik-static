@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,9 +86,31 @@
                         <persName ref="https://d-nb.info/gnd/123368790">Reinhard, Marie</persName>
                      </person>
                   </listPerson>
-                  <bibl>Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4,  S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)</bibl>
+                  <bibl>Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4,  S. 22–68 (verfügbar auf: https://www.jstor.org/stable/24645882)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#q0f31f7c-c385-4bdd-b199-e671f4a30389"/>
+            </event>
+            <event when-iso="1896-08-05">
+               <head>Erhalt von Hugo von Hofmannsthal, Felix Salten an Arthur Schnitzler, Richard Beer-Hofmann, 1. 8. 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118840819">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118654756">Beer-Hofmann, Richard</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
+                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
+                            Laura Untner, 2018–[2024] 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1896-08-05">
                <head>Bachrach, Otto an Schnitzler, Arthur [Briefe]</head>

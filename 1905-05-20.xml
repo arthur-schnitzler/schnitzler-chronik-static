@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -123,6 +123,53 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1905-05-20">
+               <head>Aufführung von Ein Sommernachtstraum, 20.5.1905</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb147280" type="auffuhrung-von">Ein Sommernachtstraum. Komödie in fünf Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504" type="hat-als-arbeitskraft">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19404" type="hat-als-arbeitskraft">Josef Klein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18228" type="hat-als-arbeitskraft">Guido Herzfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13138" type="hat-als-arbeitskraft">Eduard von Winterstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17876" type="hat-als-arbeitskraft">Ludwig Hartau</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11895" type="hat-als-arbeitskraft">Friedrich Kayssler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb37" type="veranstaltet-in">Theater an der Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb45430" type="veranstaltet-von">Kleines Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb45434" type="veranstaltet-von">Neues Theater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/147278/</idno>
             </event>
          </listEvent>
       </body>

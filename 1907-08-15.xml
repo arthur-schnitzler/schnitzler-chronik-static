@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:df="http://example.com/df"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:df="http://example.com/df">
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-10-13.">13.10.2023</date>
+            <date when-iso="2023-11-30.">30.11.2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,6 +78,122 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-15.html</idno>
+            </event>
+            <event when-iso="1907-08-15">
+               <head>Felix Salten an Arthur Schnitzler, 15. 8. 1907</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2922">Paul Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23915">Anna Katharina Rehmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11246">Julius Elias</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb147714">
+                  ?? [Mädchen, das Tennis spielt]
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11813">Siegfried Jacobsohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12460">Eduard Pötzl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb147719">Rotkäppchen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76527">Vom andern Ufer. Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76509">Der Hund von Florenz</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31293">Der Wiener Korrespondent</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41630">Morgen. Wochenschrift für deutsche Kultur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb147720">?? [Englische Reise]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31713">Das gelobte Wien</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb772">Marienbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb428">Welsberg-Taisten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb509">Hotel Quisisana</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb708">Kreuzbrunnen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147704">Ferdinandquelle</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147708">Hotel Rübezahl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147712">Café Forstwarte</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147706">Café Nimrod</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147710">Café Egerländer</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46224">Lviv</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb881">Mannheim</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147717">Ambrosiusquelle</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb39975">Lago di Garda</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb27068">Schneeberg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03510.html</idno>
             </event>
             <event when-iso="1907-08-15">
                <head>Welsberg-Taisten</head>
