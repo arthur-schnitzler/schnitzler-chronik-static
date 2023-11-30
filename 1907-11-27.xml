@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -104,36 +104,6 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/128023325">Wymetal, Wilhelm von</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118572954">Liliencron, Detlev von</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/117225789">Stefan, Paul</persName>
-                     </person>
-                     <person>
-                        <persName>Kurzweil, Hedwig</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/127703330">Markowitz, Alfred</persName>
-                     </person>
-                     <person>
-                        <persName>Goldschmied, E.</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01735.html</idno>
-            </event>
-            <event when-iso="1907-11-27">
-               <head>Wilhelm von Wymetal, Detlev von Liliencron, Paul Stefan, Hedwig Kurzweil, Alfred Markowitz, E. Goldschmied an Arthur Schnitzler, 27. 11. [1907]</head>
-               <desc>
-                  <listPerson>
-                     <person>
                         <persName ref="pmb2725">Wilhelm von Wymetal</persName>
                      </person>
                      <person>
@@ -184,53 +154,6 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1907-11-27">
-               <head>Erhalt von Max Burckhard an Arthur Schnitzler, 23. 11. 1907</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/117161144">Burckhard, Max</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
-            </event>
-            <event when-iso="1907-11-27">
-               <head>Erhalt von Wilhelm von Wymetal, Detlev von Liliencron, Paul Stefan, Hedwig Kurzweil, Alfred Markowitz, E. Goldschmied an Arthur Schnitzler, 27. 11. [1907]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/128023325">Wymetal, Wilhelm von</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118572954">Liliencron, Detlev von</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/117225789">Stefan, Paul</persName>
-                     </person>
-                     <person>
-                        <persName>Kurzweil, Hedwig</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/127703330">Markowitz, Alfred</persName>
-                     </person>
-                     <person>
-                        <persName>Goldschmied, E.</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
          </listEvent>
       </body>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -89,21 +89,6 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00128.html</idno>
-            </event>
-            <event when-iso="1892-10-15">
-               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 15. 10. 1892</head>
-               <desc>
-                  <listPerson>
-                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
@@ -173,22 +158,6 @@
                S. Fischer 1981.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
-            </event>
-            <event when-iso="1892-10-15">
-               <head>Erhalt von Richard Beer-Hofmann an Arthur Schnitzler, 14. 10. 1892</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118654756">Beer-Hofmann, Richard</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
          </listEvent>
       </body>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -126,22 +126,6 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1925-11-25">
-               <head>Erhalt von Stefan Großmann an Arthur Schnitzler, 23. 11. 1925</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118542664">Großmann, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1925-11-25">
                <head>Verschiedene &lt;Schauspieler&gt; an Schnitzler, Arthur [Briefe]</head>

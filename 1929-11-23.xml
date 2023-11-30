@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -107,21 +107,6 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/116952199">Hofmannsthal, Gerty von</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02525.html</idno>
-            </event>
-            <event when-iso="1929-11-23">
-               <head>Gerty von Hofmannsthal an Arthur Schnitzler, 23. 11. 1929</head>
-               <desc>
-                  <listPerson>
-                     <person>
                         <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
                      </person>
                      <person>
@@ -174,38 +159,6 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1929-11-23">
-               <head>Erhalt von Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118577166">Mann, Thomas</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
-            </event>
-            <event when-iso="1929-11-23">
-               <head>Erhalt von Gerty von Hofmannsthal an Arthur Schnitzler, 23. 11. 1929</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116952199">Hofmannsthal, Gerty von</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1929-11-23">
                <head>Schnitzler geht ins Kino, 23. November 1929</head>

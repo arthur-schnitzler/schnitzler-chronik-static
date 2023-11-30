@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -115,21 +115,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-11-18.html</idno>
-            </event>
-            <event when-iso="1929-11-18">
-               <head>Arthur Schnitzler an Thomas Mann, 18. 11. 1929</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118577166">Mann, Thomas</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02523.html</idno>
             </event>
             <event when-iso="1929-11-18">
                <head>Arthur Schnitzler an Thomas Mann, 18. 11. 1929</head>

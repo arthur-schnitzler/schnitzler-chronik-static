@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -107,21 +107,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-11.html</idno>
-            </event>
-            <event when-iso="1923-05-11">
-               <head>Georg Brandes an Arthur Schnitzler, [11. 5. 1923]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118514326">Brandes, Georg</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02398.html</idno>
             </event>
             <event when-iso="1923-05-11">
                <head>Georg Brandes an Arthur Schnitzler, [11. 5. 1923]</head>
@@ -775,22 +760,6 @@
                     1984. (Neue Frau)</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
-            </event>
-            <event when-iso="1923-05-11">
-               <head>Erhalt von Georg Brandes an Arthur Schnitzler, [11. 5. 1923]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118514326">Brandes, Georg</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1923-05-11">
                <head>Jacoby, Siegfried an Schnitzler, Arthur [Briefe]</head>

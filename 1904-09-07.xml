@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -112,66 +112,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-07.html</idno>
-            </event>
-            <event when-iso="1904-09-07">
-               <head>Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Hermann Bahr, 7. 9. 1904</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116952202">Hofmannsthal, Hugo von (sen.)</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/117161144">Burckhard, Max</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116952199">Hofmannsthal, Gerty</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118505955">Bahr, Hermann</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01438.html</idno>
-            </event>
-            <event when-iso="1904-09-07">
-               <head>Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Gerhart Hauptmann, 7. 9. 1904</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116952202">Hofmannsthal, Hugo von (sen.)</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/117161144">Burckhard, Max</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116952199">Hofmannsthal, Gerty</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118546937">Hauptmann, Gerhart</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01439.html</idno>
             </event>
             <event when-iso="1904-09-07">
                <head>Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Hermann Bahr, 7. 9. 1904</head>
@@ -361,38 +301,6 @@
                Dangel-Pelloquin. Göttingen: Wallstein 2013.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#l25eefe1-afeb-4a14-b13f-25d15ae20e34"/>
-            </event>
-            <event when-iso="1904-09-07">
-               <head>Erhalt von Richard Beer-Hofmann an Arthur Schnitzler, 3. 9. 1904</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118654756">Beer-Hofmann, Richard</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
-            </event>
-            <event when-iso="1904-09-07">
-               <head>Erhalt von Richard Beer-Hofmann an Arthur Schnitzler, 5. 9. 1904</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118654756">Beer-Hofmann, Richard</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
             <event when-iso="1904-09-07">
                <head>Brief von Hugo von Hofmannsthal, Gerty von Hofmannsthal, Hugo August Peter von Hofmannsthal, Arthur Schnitzler, Olga Schnitzler und Unbekannt an Gerhart Hauptmann</head>

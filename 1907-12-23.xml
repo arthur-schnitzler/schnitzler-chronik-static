@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:df="http://example.com/df"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:mam="whatever"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     xmlns:df="http://example.com/df">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -68,21 +68,6 @@
    <text>
       <body>
          <listEvent>
-            <event when-iso="1907-12-23">
-               <head>Hermann Bahr an Arthur Schnitzler, 23. 12. 1907</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118505955">Bahr, Hermann</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01744.html</idno>
-            </event>
             <event when-iso="1907-12-23">
                <head>Hermann Bahr an Arthur Schnitzler, 23. 12. 1907</head>
                <desc>
@@ -167,47 +152,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041314.html</idno>
-            </event>
-            <event when-iso="1907-12-23">
-               <head>Erhalt von Felix Salten, Otto Brahm, Ludwig Brahm, Jakob Wassermann an Arthur Schnitzler, 21. 07. [1907?]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118840819">Salten, Felix</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/116004029">Brahm, Otto</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Ludwig</persName>
-                     </person>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118629387">Wassermann, Jakob</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
-            </event>
-            <event when-iso="1907-12-23">
-               <head>Erhalt von Hermann Bahr an Arthur Schnitzler, 23. 12. 1907</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118505955">Bahr, Hermann</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler – Briefwechsel mit Autorinnen und Autoren. Digitale
-                            Edition herausgegeben von Martin Anton Müller, Gerd-Hermann Susen und
-                            Laura Untner, 2018–[2024] 
-               </bibl>
-               </desc>
-               <idno type="schnitzler-cmif"
-                     subtype="#asbw_0a380dfe-61d4-4b9e-8641-01eba8e50760"/>
             </event>
          </listEvent>
       </body>
