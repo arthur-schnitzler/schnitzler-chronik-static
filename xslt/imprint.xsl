@@ -43,8 +43,7 @@
                                     <a href="https://acdh.oeaw.ac.at">Austrian Centre for Digital
                                         Humanities and Cultural Heritage (ACDH-CH)</a>
                                     <br/> Dr. Ignaz Seipel-Platz 2, 1010 Wien, Österreich <br/>
-                                    E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at"
-                                        >acdh-ch-helpdesk@oeaw.ac.at</a></p>
+                                    E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk(at)oeaw.ac.at</a></p>
                                 <p>Zusammengestellt von Martin Anton Müller und Laura Untner</p>
                                 <h3>Unternehmensgegenstand:</h3>
                                 <p>Die Österreichische Akademie der Wissenschaften (ÖAW) hat den
