@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-11-30.">30.11.2023</date>
+            <date when-iso="2024-01-12.">12.01.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -161,21 +161,6 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03517.html</idno>
             </event>
             <event when-iso="1931-05-19">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1931-05-19">
-               <head>Haizingergasse</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92269/</idno>
-            </event>
-            <event when-iso="1931-05-19">
-               <head>Deutsches Volkstheater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
-            </event>
-            <event when-iso="1931-05-19">
                <head>Tagebuch von Clara Katharina Pollaczek, 16.–19. Mai 1931</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp910.html</idno>
@@ -184,6 +169,18 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 19.–22. Mai 1931</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp911.html</idno>
+            </event>
+            <event when-iso="1931-05-19">
+               <desc>Wien</desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1931-05-19">
+               <desc>Haizingergasse</desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92269/</idno>
+            </event>
+            <event when-iso="1931-05-19">
+               <desc>Deutsches Volkstheater</desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
             </event>
          </listEvent>
       </body>

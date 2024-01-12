@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2023-11-30.">30.11.2023</date>
+            <date when-iso="2024-01-12.">12.01.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -166,16 +166,6 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03303.html</idno>
             </event>
             <event when-iso="1899-12-25">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1899-12-25">
-               <head>Tuchlauben</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/790/</idno>
-            </event>
-            <event when-iso="1899-12-25">
                <head>Aufführung von Gläubiger, Mondscheinsonate, 25.12.1899</head>
                <desc>
                   <listBibl>
@@ -203,6 +193,14 @@
                   </listOrg>
                </desc>
                <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43159/</idno>
+            </event>
+            <event when-iso="1899-12-25">
+               <desc>Wien</desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1899-12-25">
+               <desc>Tuchlauben</desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/790/</idno>
             </event>
          </listEvent>
       </body>
