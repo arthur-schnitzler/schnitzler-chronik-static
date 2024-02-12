@@ -103,7 +103,7 @@
                                     dürfen von Dritten nicht zur Übersendung von nicht ausdrücklich
                                     angeforderter Werbung und Informationsmaterialien verwendet
                                     werden. Einer derartigen Verwendung wird hiermit ausdrücklich
-                                    widersprochen.</p>% </div>
+                                    widersprochen.</p> </div>
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
