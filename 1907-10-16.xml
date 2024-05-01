@@ -99,6 +99,46 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1907-10-16">
+               <head>Vorlesung von Lieutenant Gustl, Das neue Lied, 16.10.1907</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29569">Wiener Freie Volksbühne</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29853">Lieutenant Gustl. Novelle</title>
+                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb30655">Das neue Lied</title>
+                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11527">Großmann, Stefan</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12408">Pernerstorfer, Engelbert</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1211">Verbandsheim</placeName>
+                        <location>
+                           <geo>48,19522 16,34889</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46106/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

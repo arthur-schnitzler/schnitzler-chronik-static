@@ -100,6 +100,46 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1910-05-13">
+               <head>Aufführung von Cristinas Heimreise [2. Fassung], 13.5.1910</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb41611">Cristinas Heimreise. Komödie</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11636">Heims, Else</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12274">Moissi, Alexander</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb37">Theater an der
+                           Wien</placeName>
+                        <location>
+                           <geo>48,19941 16,3642</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46819/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

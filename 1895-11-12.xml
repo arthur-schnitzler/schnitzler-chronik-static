@@ -91,6 +91,36 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1895-11-12">
+               <head>Uraufführung von Gebildete Menschen, 12.11.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb39666">Raimund-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb32356">Gebildete Menschen. Zeitbild in drei Acten</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
+                        <location>
+                           <geo>48,192222 16,339722</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63356/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

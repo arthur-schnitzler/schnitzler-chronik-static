@@ -230,6 +230,45 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1898-05-16">
+               <head>Uraufführung von Mädchentraum, 16.5.1898</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb42891">Mädchentraum. Spiel in 3 Acten</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12971">Tressler, Otto</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2881">Brion, Lou</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2252">Medelsky, Lotte</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/42893/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

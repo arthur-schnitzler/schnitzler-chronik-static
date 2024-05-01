@@ -72,6 +72,49 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1889-05-04">
+               <head>Premiere von Der Schierling, Uraufführung von Im Bunde der Dritte, Der
+                  Flüchtling, 4.5.1889</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb63073">Der Flüchtling. Lustspiel in einem Aufzug</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb63090">Der Schierling. Lustspiel in 2 Akten</title>
+                        <note type="relation-type">Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb63098">Im Bunde der Dritte. Charakterbild in einem
+                           Akt</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12265">Mitterwurzer, Friedrich</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63085/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

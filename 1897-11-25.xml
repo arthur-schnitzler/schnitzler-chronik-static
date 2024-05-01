@@ -109,6 +109,41 @@
                <desc>Prag</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/652/</idno>
             </event>
+            <event when-iso="1897-11-25">
+               <head>Vorlesung von Die Toten schweigen, Weihnachtseinkäufe, 25.11.1897</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29833">Die Toten schweigen</title>
+                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb30163">Weihnachts-Einkäufe</title>
+                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb652">Prag</placeName>
+                        <location>
+                           <geo>50,08333 14,46667</geo>
+                        </location>
+                     </place>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118612">Deutsches Haus</placeName>
+                        <location>
+                           <geo>50,08687 14,42729</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50887/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

@@ -141,6 +141,61 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1909-04-16">
+               <head>Gastspiel Suzanne Desprès, 16.4.1909</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36996">Theater an der Wien</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30633">Elektra. Tragödie in einem Aufzug</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb32163">Fuchs. Schauspiel in einem Act</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb46499">Die Last der Freiheit. Komödie in einem Akt</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb46509">Gastspiel Suzanne Després</title>
+                        <note type="relation-type">wird rezensiert in</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2292">Hofmannsthal, Gertrude von</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb3659">Desprès, Suzanne</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb3690">Lugné-Poe, Aurélien-Marie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb37">Theater an der
+                           Wien</placeName>
+                        <location>
+                           <geo>48,19941 16,3642</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46496/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

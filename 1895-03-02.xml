@@ -216,6 +216,34 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1895-03-02">
+               <head>Aufführung von Olympia (Gastspiel Julie Kopacsy-Karczag), 2.3.1895</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb42293">Olympia. Operette in 3 Acten</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb42298">Kopacsy-Karczag, Julie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
+                        <location>
+                           <geo>48,215 16,384444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/42306/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

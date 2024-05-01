@@ -139,6 +139,44 @@
                <desc>Hotel Bristol</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
             </event>
+            <event when-iso="1904-11-22">
+               <head>Uraufführung von Der tapfere Cassian, Premiere von Der grüne Kakadu,
+                  22.11.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45430">Kleines Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb13755">Báron, Erwin</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb208">Kleines Theater</placeName>
+                        <location>
+                           <geo>52,517222 13,389167</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35379/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

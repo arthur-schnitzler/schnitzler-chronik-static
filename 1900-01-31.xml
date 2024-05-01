@@ -88,6 +88,45 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1900-01-31">
+               <head>Premiere von Das dritte Kind, Boubouroche, Der Herr Gegencandidat,
+                  31.1.1900</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb39666">Raimund-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb145754">Boubouroche. Tragische Posse in zwei Akten</title>
+                        <note type="relation-type">Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb145763">Der Herr Gegencandidat. Schwank in einem Akt</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb145766">Das dritte Kind. Lustspiel in einem Akt</title>
+                        <note type="relation-type">Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
+                        <location>
+                           <geo>48,192222 16,339722</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/145758/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

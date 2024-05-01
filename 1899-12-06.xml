@@ -153,6 +153,36 @@
                <desc>Tuchlauben</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/790/</idno>
             </event>
+            <event when-iso="1899-12-06">
+               <head>Aufführung von Siegfried, 6.12.1899</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36687">Staatsoper</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb43226">Siegfried</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43233/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

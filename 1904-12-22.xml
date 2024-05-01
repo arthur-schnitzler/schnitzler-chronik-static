@@ -136,6 +136,40 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1904-12-22">
+               <head>Aufführung von Symphonie Nr. 3 in d-Moll, 22.12.1904</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76606">Symphonie Nr. 3 d-Moll WAB 103</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb23918">Salten, Ottilie</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/147234/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

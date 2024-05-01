@@ -97,6 +97,37 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1896-10-20">
+               <head>Private Lesung von Die Gefährtin (Der Witwer), 20.10.1896</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29845">Die Gefährtin. Schauspiel in einem Akt</title>
+                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2167">Salten, Felix</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb397">Frankgasse</placeName>
+                        <location>
+                           <geo>48,215516628628 16,356475515829</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/146808/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

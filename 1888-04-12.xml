@@ -91,6 +91,53 @@
                <desc>Berlin</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
             </event>
+            <event when-iso="1888-04-12">
+               <head>Aufführung von Faust, 12.4.1888</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30247">Faust. Eine Tragödie</title>
+                        <note type="relation-type">Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb147572">Faust bei Reinhardt</title>
+                        <note type="relation-type">wird rezensiert in</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2570">Lothar, Rudolf</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb21733">Sommerstorff, Otto</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb9312">Pohl, Max</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb167672">Gessner, Theresina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater
+                           Berlin</placeName>
+                        <location>
+                           <geo>52,524444 13,382222</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/167665/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

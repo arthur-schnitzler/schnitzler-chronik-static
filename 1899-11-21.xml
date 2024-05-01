@@ -83,6 +83,39 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1899-11-21">
+               <head>Kompositions-Konzert mit Orchester von Clemens Franckenstein, 21.11.1899</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb42491">Alexander Rosé Concertbüro</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb3130">Franckenstein, Clemens von</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb4812">Schmedes, Erik</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb13055">Wassermann, Jakob</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/142390/</idno>
+            </event>
          </listEvent>
       </body>
    </text>

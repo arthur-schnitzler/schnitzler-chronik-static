@@ -194,6 +194,37 @@
                <desc>Wien</desc>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
+            <event when-iso="1895-09-21">
+               <head>Uraufführung von Die Doppelhochzeit, 21.9.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb39689">Theater in der Josefstadt</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb41143">Die Doppelhochzeit</title>
+                        <note type="relation-type">Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb40">Theater in der
+                           Josefstadt</placeName>
+                        <location>
+                           <geo>48,209583 16,351111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/41148/</idno>
+            </event>
          </listEvent>
       </body>
    </text>
