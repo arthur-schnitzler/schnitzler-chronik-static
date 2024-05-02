@@ -140,7 +140,7 @@
     </xsl:template>
     <xsl:template match="tei:listEvent">
         <xsl:variable name="eventtype"
-            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,schnitzler-interviews,pollaczek,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch, kalliope-verbund'"/>
+            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,schnitzler-interviews,pollaczek,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
         <xsl:variable name="current-group" select="." as="node()"/>
         <xsl:for-each select="tokenize($eventtype, ',')">
             <xsl:variable name="e-type" as="xs:string" select="."/>
@@ -262,6 +262,17 @@
                             <xsl:text>_blank</xsl:text>
                         </xsl:attribute>
                         <xsl:value-of select="tei:head"/>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:when test="tei:idno[@*='schnitzler-orte']">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="'https://schnitzler-orte.acdh.oeaw.ac.at/'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:text>Aufenthaltsorte Schnitzlers</xsl:text>
                     </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
