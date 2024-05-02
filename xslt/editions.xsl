@@ -264,7 +264,7 @@
                         <xsl:value-of select="tei:head"/>
                     </xsl:element>
                 </xsl:when>
-                <xsl:when test="tei:idno[@*='schnitzler-orte']">
+                <xsl:when test="tei:idno[@type='schnitzler-orte' or @subtype='schnitzler-orte']">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of select="'https://schnitzler-orte.acdh.oeaw.ac.at/'"/>
