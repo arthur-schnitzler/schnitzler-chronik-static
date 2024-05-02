@@ -153,7 +153,8 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="tei:note">
+    <xsl:template match="tei:note[(@type='relation-type')]"/>
+    <xsl:template match="tei:note[not(@type='relation-type')]">
         <xsl:choose>
             <xsl:when test="@place='foot'">
                 <a class="anchorFoot" id="{@xml:id}_inline"></a>
