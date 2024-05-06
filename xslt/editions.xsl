@@ -240,6 +240,17 @@
     <xsl:template match="tei:event">
         <h3>
             <xsl:choose>
+                <xsl:when test="tei:idno[@type='schnitzler-orte' or @subtype='schnitzler-orte']">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="'https://schnitzler-orte.acdh.oeaw.ac.at/'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:text>Aufenthaltsorte Schnitzlers</xsl:text>
+                    </xsl:element>
+                </xsl:when>
                 <xsl:when
                     test="starts-with(tei:idno[1]/text(), 'http')">
                     <xsl:element name="a">
@@ -262,17 +273,6 @@
                             <xsl:text>_blank</xsl:text>
                         </xsl:attribute>
                         <xsl:value-of select="tei:head"/>
-                    </xsl:element>
-                </xsl:when>
-                <xsl:when test="tei:idno[@type='schnitzler-orte' or @subtype='schnitzler-orte']">
-                    <xsl:element name="a">
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="'https://schnitzler-orte.acdh.oeaw.ac.at/'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="target">
-                            <xsl:text>_blank</xsl:text>
-                        </xsl:attribute>
-                        <xsl:text>Aufenthaltsorte Schnitzlers</xsl:text>
                     </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
