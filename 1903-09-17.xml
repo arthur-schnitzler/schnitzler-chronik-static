@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-05-01.">01.05.2024</date>
+            <date when-iso="2024-05-02.">02.05.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -69,6 +69,51 @@
       <body>
          <listEvent>
             <event when-iso="1903-09-17">
+               <head>Paul Goldmann an Arthur Schnitzler, 17. [9. 1903?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb9131">Jacques Offenbach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb148120">Paul Siraudin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21522">Jules Moinaux</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb148115">Venedig in Paris. Operette in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb37">Theater an der Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03387.html</idno>
+            </event>
+            <event when-iso="1903-09-17">
                <head>Felix Salten an Arthur Schnitzler, 17. 9. 1903</head>
                <desc>
                   <listPerson>
@@ -105,6 +150,9 @@
                      </place>
                      <place>
                         <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb397">Frankgasse</placeName>
