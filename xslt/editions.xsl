@@ -255,17 +255,27 @@
                 </xsl:choose>
             </xsl:element>
         </p>
-        <xsl:if test="tei:desc/child::*[1]">
-            <xsl:element name="ul">
-                <xsl:attribute name="style">
-                    <xsl:text>list-style-type: none;</xsl:text>
-                </xsl:attribute>
-                <xsl:if test="not(normalize-space(tei:desc) = '')">
+        <xsl:choose>
+            <xsl:when test="tei:desc/child::*[1]">
+                <xsl:element name="ul">
+                    <xsl:attribute name="style">
+                        <xsl:text>list-style-type: none;</xsl:text>
+                    </xsl:attribute>
                     <xsl:apply-templates select="tei:desc" mode="desc"/>
-                </xsl:if>
-            </xsl:element>
-        </xsl:if>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="normalize-space(.) != ''">
+                <xsl:apply-templates select="tei:desc" mode="text"/>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
+    <xsl:template match="tei:event/tei:desc" mode="text">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    
       <xsl:template match="tei:event/tei:desc" mode="desc">
         <li>
             <xsl:if
