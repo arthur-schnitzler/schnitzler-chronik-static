@@ -24,7 +24,6 @@
     <xsl:variable name="datum-iso" select="descendant::tei:titleStmt/tei:title/@when-iso"
         as="xs:date"/>
     <xsl:template match="/">
-        
         <xsl:variable name="prev">
             <xsl:value-of select="concat($datum-iso - xs:dayTimeDuration('P1D'), '.html')"/>
         </xsl:variable>
@@ -274,9 +273,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
-    
-      <xsl:template match="tei:event/tei:desc" mode="desc">
+    <xsl:template match="tei:event/tei:desc" mode="desc">
         <li>
             <xsl:if
                 test="child::tei:listPerson or child::tei:listBibl or child::tei:listPlace or child::tei:listOrg">
@@ -316,8 +313,7 @@
             </xsl:choose>
         </xsl:variable>
         <li>
-            <i class="fa-solid fa-users" title="Erwähnte Personen"/>&#160; 
-            <xsl:for-each
+            <i class="fa-solid fa-users" title="Erwähnte Personen"/>&#160; <xsl:for-each
                 select="tei:person/tei:persName">
                 <xsl:choose>
                     <xsl:when
@@ -340,6 +336,33 @@
                                 <xsl:attribute name="href">
                                     <xsl:value-of
                                         select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when
+                        test="$e-typ = 'schnitzler-tagebuch' and starts-with(@ref, 'person_')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$e-type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', @ref, '.html')"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
@@ -402,7 +425,7 @@
                             </xsl:element>
                         </xsl:element>
                     </xsl:when>
-                                        <xsl:otherwise>
+                    <xsl:otherwise>
                         <xsl:value-of select="."/>
                         <xsl:if test="not(position() = last())">
                             <xsl:text>, </xsl:text>
@@ -723,10 +746,10 @@
         <xsl:choose>
             <xsl:when test="matches($hex, '([0-9]*|[A-F]*)')">
                 <xsl:value-of select="
-                    if ($hex = '') then
-                    0
-                    else
-                    $dec * mam:power(16, string-length($hex) - 1) + mam:hexToDec(substring($hex, 2))"
+                        if ($hex = '') then
+                            0
+                        else
+                            $dec * mam:power(16, string-length($hex) - 1) + mam:hexToDec(substring($hex, 2))"
                 />
             </xsl:when>
             <xsl:otherwise>
@@ -739,13 +762,13 @@
         <xsl:param name="base"/>
         <xsl:param name="exp"/>
         <xsl:sequence select="
-            if ($exp lt 0) then
-            mam:power(1.0 div $base, -$exp)
-            else
-            if ($exp eq 0)
-            then
-            1e0
-            else
-            $base * mam:power($base, $exp - 1)"/>
+                if ($exp lt 0) then
+                    mam:power(1.0 div $base, -$exp)
+                else
+                    if ($exp eq 0)
+                    then
+                        1e0
+                    else
+                        $base * mam:power($base, $exp - 1)"/>
     </xsl:function>
 </xsl:stylesheet>
