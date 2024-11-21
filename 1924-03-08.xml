@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,6 +128,31 @@
                <head>Opernrestaurant</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185989/</idno>
+            </event>
+            <event when-iso="1924-03-08">
+               <head>Filmvorführung von Erzwungene Liebe, 8.3.1924</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81448">Erzwungene Liebe</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190578">Tuchlauben-Kino</placeName>
+                        <location>
+                           <geo>48,21024 16,36934</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210654/</idno>
             </event>
             <event when-iso="1924-03-08">
                <head>Schnitzler im Tuchlaubenkino, 8. März 1924</head>

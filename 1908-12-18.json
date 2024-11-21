@@ -126,6 +126,32 @@
  "Budapest"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/9867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/9867/",
+ "head":
+ "Budapest"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/186247/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/186247/",
+ "head":
+ "Népszinház"
+}, {
+ "type":
  "pmb",
  "color":
  "#9B5F98",
@@ -136,13 +162,21 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/46005/",
  "head":
- "Premiere von Szerelmeskedés (Liebelei), 18.12.1908",
+ "Premiere von Szerelmeskedés [Liebelei], 18.12.1908",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Nemzeti Szinhaz [Nationaltheater]",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
- "Liebelei. Schauspiel in drei Akten",
+ "Szerelmeskedés",
  "ref":
  ""}
  ],
@@ -178,6 +212,11 @@
  {
  "placeName":
  "Budapest",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Népszinház",
  "ref":
  ""}
  ]

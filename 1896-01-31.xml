@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -208,38 +208,44 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41234/</idno>
             </event>
             <event when-iso="1896-01-31">
-               <head>Probe Liebelei, 31.1.1896</head>
+               <head>Palasthotel Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/88/</idno>
+            </event>
+            <event when-iso="1896-01-31">
+               <head>Berliner Metropol Theater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/201039/</idno>
+            </event>
+            <event when-iso="1896-01-31">
+               <head>Deutsches Theater Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+            </event>
+            <event when-iso="1896-01-31">
+               <head>Aufführung von König Chilperich, 31.1.1896</head>
                <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
-                     </org>
-                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <title key="pmb41400">König Chilperich</title>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Arbeitskraft">
+                     <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb10986">Brahm, Otto</persName>
                      </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater
-                           Berlin</placeName>
+                        <placeName role="veranstaltet in" key="pmb201039">Berliner Metropol Theater</placeName>
                         <location>
-                           <geo>52,524444 13,382222</geo>
+                           <geo>52,515833 13,386944</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43326/</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208820/</idno>
             </event>
             <event when-iso="1896-01-31">
                <head>Aufführung von König Chilperich, 31.1.1896</head>
@@ -252,7 +258,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb41400">König Chilperich</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -262,6 +268,39 @@
                   </listPerson>
                </desc>
                <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43358/</idno>
+            </event>
+            <event when-iso="1896-01-31">
+               <head>Probe von Liebelei, 31.1.1896</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10986">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater Berlin</placeName>
+                        <location>
+                           <geo>52,524444 13,382222</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43326/</idno>
             </event>
          </listEvent>
       </body>

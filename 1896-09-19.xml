@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -213,6 +213,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1896-09-19">
+               <head>Burgtheater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+            </event>
+            <event when-iso="1896-09-19">
                <head>Bahr an Schnitzler, [19.? 9. 1896]</head>
                <desc>
                   <listPerson>
@@ -239,10 +244,15 @@
             <event when-iso="1896-09-19">
                <head>Uraufführung von Die Athenerin, 19.9.1896</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb30417">Die Athenerin</title>
-                        <note type="relation-type">Uraufführung von</note>
+                        <title key="pmb30417">Die Athenerin. Drama in drei Aufzügen</title>
+                        <note type="relation-type">ist Uraufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>

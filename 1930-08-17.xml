@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,6 +114,34 @@
                <head>Café Imperial</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/43/</idno>
+            </event>
+            <event when-iso="1930-08-17">
+               <head>Filmvorführung von Das Lied der Freiheit, 17.8.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81196">Das Lied der Freiheit</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb584">Zentralkino</placeName>
+                        <location>
+                           <geo>48,21366 16,37997</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/211173/</idno>
             </event>
             <event when-iso="1930-08-17">
                <head>Schnitzler und Pollaczek sehen „Das Lied der Freiheit“ („Die Marseillaise“, „The Capt. of Guard“) im Zentralkino / Ufa-Ton-Kino, 17. August 1930</head>

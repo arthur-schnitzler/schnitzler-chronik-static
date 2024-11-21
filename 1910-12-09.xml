@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -164,21 +164,25 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
             </event>
             <event when-iso="1910-12-09">
-               <head>Vorlesung von Medardus, Lieutenant Gustl, Weihnachtseinkäufe, 9.12.1910</head>
+               <head>Hotel Vier Jahreszeiten</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/485/</idno>
+            </event>
+            <event when-iso="1910-12-09">
+               <head>Lesung von Medardus, Lieutenant Gustl, Weihnachtseinkäufe, 9.12.1910</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb29937">Der junge Medardus. Dramatische Historie in einem
-                           Vorspiel und fünf Aufzügen</title>
-                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                        <title key="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                        <note type="relation-type">ist Lesung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb29853">Lieutenant Gustl. Novelle</title>
-                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                        <note type="relation-type">ist Lesung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb30163">Weihnachts-Einkäufe</title>
-                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                        <note type="relation-type">ist Lesung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -188,9 +192,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb45258">München</placeName>
+                        <placeName role="veranstaltet in" key="pmb485">Hotel Vier Jahreszeiten</placeName>
                         <location>
-                           <geo>48,13743 11,57549</geo>
+                           <geo>48,138889 11,581667</geo>
                         </location>
                      </place>
                   </listPlace>

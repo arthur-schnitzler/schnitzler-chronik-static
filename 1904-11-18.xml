@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -189,22 +189,37 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
             </event>
             <event when-iso="1904-11-18">
-               <head>Hotel Continental [Berlin]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/399/</idno>
-            </event>
-            <event when-iso="1904-11-18">
                <head>Hotel Savoy [Berlin]</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/545/</idno>
             </event>
             <event when-iso="1904-11-18">
-               <head>Aufführung Die Morgenröthe, 18.11.1904</head>
+               <head>F. W. Borchardt</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234614/</idno>
+            </event>
+            <event when-iso="1904-11-18">
+               <head>Kleines Theater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/208/</idno>
+            </event>
+            <event when-iso="1904-11-18">
+               <head>Neues Theater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/720/</idno>
+            </event>
+            <event when-iso="1904-11-18">
+               <head>Probe von Das Haus Delorme, 18.11.1904</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45430">Kleines Theater</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb41582">Die Morgenröthe. Komödie aus dem Jahre 1848</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <title key="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                        <note type="relation-type">ist Probe von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -214,10 +229,69 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater
-                           Berlin</placeName>
+                        <placeName role="veranstaltet in" key="pmb208">Kleines Theater</placeName>
                         <location>
-                           <geo>52,524444 13,382222</geo>
+                           <geo>52,517222 13,389167</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/234626/</idno>
+            </event>
+            <event when-iso="1904-11-18">
+               <head>Private Lesung von Das Haus Delorme, 18.11.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45430">Kleines Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb208">Kleines Theater</placeName>
+                        <location>
+                           <geo>52,517222 13,389167</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/234621/</idno>
+            </event>
+            <event when-iso="1904-11-18">
+               <head>Aufführung von Die Morgenröthe, 18.11.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45434">Neues Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb41582">Die Morgenröthe. Komödie aus dem Jahre 1848</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb720">Neues Theater</placeName>
+                        <location>
+                           <geo>52,521667 13,386111</geo>
                         </location>
                      </place>
                   </listPlace>

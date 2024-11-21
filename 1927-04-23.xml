@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,6 +121,16 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/259/</idno>
             </event>
             <event when-iso="1927-04-23">
+               <head>Piazza San Marco</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/261/</idno>
+            </event>
+            <event when-iso="1927-04-23">
+               <head>Caffè Florian</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232856/</idno>
+            </event>
+            <event when-iso="1927-04-23">
                <head>Clara Katharina Pollaczek an Arthur Schnitzler, 23. April 1927</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp425.html</idno>
@@ -129,6 +139,31 @@
                <head>Arthur Schnitzler an Clara Katharina Pollaczek, 23. April 1927</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp426.html</idno>
+            </event>
+            <event when-iso="1927-04-23">
+               <head>Filmvorführung von La Bohème, 23.4.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81447">La Bohème</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb462">Venedig</placeName>
+                        <location>
+                           <geo>45,43713 12,33265</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210895/</idno>
             </event>
             <event when-iso="1927-04-23">
                <head>Samuel Fischer an Arthur Schnitzler, 23.4.1927</head>

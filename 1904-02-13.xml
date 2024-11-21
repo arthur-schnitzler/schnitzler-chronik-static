@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,6 +132,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/545/</idno>
             </event>
             <event when-iso="1904-02-13">
+               <head>Deutsches Theater Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+            </event>
+            <event when-iso="1904-02-13">
                <head>Uraufführung von Der einsame Weg, 13.2.1904</head>
                <desc>
                   <listOrg>
@@ -142,11 +147,10 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
-                        <note type="relation-type">Uraufführung von</note>
+                        <note type="relation-type">ist Uraufführung von</note>
                      </bibl>
                      <bibl>
-                        <title key="pmb31281">Berliner Theater. »Der einsame Weg«. Von Arthur
-                           Schnitzler</title>
+                        <title key="pmb31281">Berliner Theater. »Der einsame Weg«. Von Arthur Schnitzler</title>
                         <note type="relation-type">wird rezensiert in</note>
                      </bibl>
                   </listBibl>
@@ -187,8 +191,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater
-                           Berlin</placeName>
+                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater Berlin</placeName>
                         <location>
                            <geo>52,524444 13,382222</geo>
                         </location>

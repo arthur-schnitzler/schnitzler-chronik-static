@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -203,6 +203,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1915-10-12">
+               <head>Burgtheater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+            </event>
+            <event when-iso="1915-10-12">
                <head>Uraufführung von Komödie der Worte, 12.10.1915</head>
                <desc>
                   <listOrg>
@@ -213,18 +218,51 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb30717">Komödie der Worte. Drei Einakter</title>
-                        <note type="relation-type">Uraufführung von</note>
+                        <note type="relation-type">ist Uraufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2753">Giustiniani, Marianne</persName>
-                     </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb13644">Bachrach, Eugenie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2753">Zuckerkandl, Marianne</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb3201">Walden, Harry</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10959">Bleibtreu, Hedwig</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2446">Devrient, Max</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb15874">Elmhorst, Alexander</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2252">Medelsky, Lotte</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11423">Gerasch, Alfred</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10221">Tiedtke, Jakob</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2868">Kutschera, Victor</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb25641">Strebinger, Julius</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb23518">Romberg, Hermann</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12951">Wohlgemuth, Else</persName>
                      </person>
                   </listPerson>
                   <listPlace>

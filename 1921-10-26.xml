@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -131,14 +131,44 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1921-10-26">
-               <head>Ronacher</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/19/</idno>
-            </event>
-            <event when-iso="1921-10-26">
                <head>Schwarzenbergpark</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/176/</idno>
+            </event>
+            <event when-iso="1921-10-26">
+               <head>Wiener Stadttheater [8. Wiener Gemeindebezirk]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/211373/</idno>
+            </event>
+            <event when-iso="1921-10-26">
+               <head>Aufführung von Jede Weisheit hat ihren Haken, 26.10.1921</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb57809">Tschechow-Kunsttheater Moskau</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81089">Jede Weisheit hat ihren Haken</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb211373">Wiener Stadttheater [8. Wiener Gemeindebezirk]</placeName>
+                        <location>
+                           <geo>48,21327 16,34629</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210121/</idno>
             </event>
             <event when-iso="1921-10-26">
                <head>Traum vom 26. Oktober 1921</head>

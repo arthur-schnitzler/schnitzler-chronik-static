@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,9 +133,49 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
             </event>
             <event when-iso="1899-09-15">
+               <head>Hotel Rheinischer Hof München</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/806/</idno>
+            </event>
+            <event when-iso="1899-09-15">
                <head>Münchner Schauspielhaus</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/11/</idno>
+            </event>
+            <event when-iso="1899-09-15">
+               <head>Alte Pinakothek</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/511/</idno>
+            </event>
+            <event when-iso="1899-09-15">
+               <head>Neue Pinakothek</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/101/</idno>
+            </event>
+            <event when-iso="1899-09-15">
+               <head>Premiere von Das Vermächtnis, 15.9.1899</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb11">Münchner Schauspielhaus</placeName>
+                        <location>
+                           <geo>48,138122 11,582478</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209099/</idno>
             </event>
          </listEvent>
       </body>

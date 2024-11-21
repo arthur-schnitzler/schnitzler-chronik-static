@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -173,6 +173,38 @@
                <head>Café Imperial</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/43/</idno>
+            </event>
+            <event when-iso="1929-11-18">
+               <head>Filmvorführung von Die weißen Rosen von Ravensberg und Wenn die Stadt schläft..., 18.11.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80984">Die weißen Rosen von Ravensberg</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb80325">Wenn die Stadt schläft...</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190613">Rochuskino</placeName>
+                        <location>
+                           <geo>48,20421 16,38906</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/211115/</idno>
             </event>
             <event when-iso="1929-11-18">
                <head>Schnitzler im Rochuskino, 18. November 1929</head>

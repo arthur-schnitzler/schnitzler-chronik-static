@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,6 +136,34 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 15.–30. Mai 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp779.html</idno>
+            </event>
+            <event when-iso="1930-05-27">
+               <head>Filmvorführung von Sensation im Wintergarten, 27.5.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81190">Sensation im Wintergarten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190587">Löwenkino</placeName>
+                        <location>
+                           <geo>48,208736 16,392643</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/211162/</idno>
             </event>
             <event when-iso="1930-05-27">
                <head>Schnitzler geht ins Kino, 27. Mai 1930</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -98,9 +98,54 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
             </event>
             <event when-iso="1904-02-18">
-               <head>Oper</head>
+               <head>Großer Garten</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/15/</idno>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90591/</idno>
+            </event>
+            <event when-iso="1904-02-18">
+               <head>Gemäldegalerie Alte Meister</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/5/</idno>
+            </event>
+            <event when-iso="1904-02-18">
+               <head>Brühlsche Terrasse</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185116/</idno>
+            </event>
+            <event when-iso="1904-02-18">
+               <head>Semperoper</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1034/</idno>
+            </event>
+            <event when-iso="1904-02-18">
+               <head>Italienisches Dörfchen</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233819/</idno>
+            </event>
+            <event when-iso="1904-02-18">
+               <head>Aufführung von Der Troubadour, 18.2.1904</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76691">Der Troubadour. Große Oper in vier Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1034">Semperoper</placeName>
+                        <location>
+                           <geo>51,054508 13,735169</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209319/</idno>
             </event>
          </listEvent>
       </body>

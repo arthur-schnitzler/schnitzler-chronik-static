@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -176,6 +176,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/56525/</idno>
             </event>
             <event when-iso="1913-04-16">
+               <head>Ungarisches Theater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/56521/</idno>
+            </event>
+            <event when-iso="1913-04-16">
                <head>Bahr an Schnitzler, 16. 4. 1913</head>
                <desc>
                   <listPerson>
@@ -220,13 +225,13 @@
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
-                        <orgName key="pmb45430">Kleines Theater</orgName>
+                        <orgName key="pmb35053">Lessing-Theater</orgName>
                      </org>
                   </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -239,17 +244,13 @@
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb20041">Landa, Max</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10833">Barnowsky, Victor</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb43471">Budapest</placeName>
-                        <location>
-                           <geo>47,49835 19,04045</geo>
-                        </location>
-                     </place>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb56521">Ungarisches
-                           Theater</placeName>
+                        <placeName role="veranstaltet in" key="pmb56521">Ungarisches Theater</placeName>
                         <location>
                            <geo>47,5035412619 19,072559007</geo>
                         </location>

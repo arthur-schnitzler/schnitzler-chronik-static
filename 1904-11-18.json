@@ -216,19 +216,6 @@
  "color":
  "#045344",
  "filename":
- "entity/399/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
- "head":
- "Hotel Continental [Berlin]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
  "entity/545/",
  "caption":
  "Aufenthaltsorte",
@@ -236,6 +223,137 @@
  "https://pmb.acdh.oeaw.ac.at/entity/545/",
  "head":
  "Hotel Savoy [Berlin]"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/234614/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/234614/",
+ "head":
+ "F. W. Borchardt"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/208/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/208/",
+ "head":
+ "Kleines Theater"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/720/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/720/",
+ "head":
+ "Neues Theater"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/234626/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/234626/",
+ "head":
+ "Probe von Das Haus Delorme, 18.11.1904",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/234621/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/234621/",
+ "head":
+ "Private Lesung von Das Haus Delorme, 18.11.1904",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pmb",
@@ -248,9 +366,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/41587/",
  "head":
- "Aufführung Die Morgenröthe, 18.11.1904",
+ "Aufführung von Die Morgenröthe, 18.11.1904",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Neues Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
@@ -269,7 +395,7 @@
   [
  {
  "placeName":
- "Deutsches Theater Berlin",
+ "Neues Theater",
  "ref":
  ""}
  ]

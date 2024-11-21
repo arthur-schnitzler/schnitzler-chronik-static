@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler – Chronik</title>
-            <title level="a" when-iso="1902-02-17">Montag, 17. Februar 1902</title>
+            <title level="a" when-iso="1878-12-29">Sonntag, 29. Dezember 1878</title>
             <respStmt>
                <resp>providing the content</resp>
                <name>Kristina Fink</name>
@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -68,10 +68,16 @@
    <text>
       <body>
          <listEvent>
-            <event when-iso="1902-02-17">
-               <head>Mödling</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/968/</idno>
+            <event when-iso="1878-12-29">
+               <head>II. Philharmonisches Konzert, 29.12.1878</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/207462/</idno>
             </event>
          </listEvent>
       </body>

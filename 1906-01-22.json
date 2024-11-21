@@ -232,6 +232,19 @@
  "Hotel Savoy [Berlin]"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/183280/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/183280/",
+ "head":
+ "Saal der Freunde"
+}, {
+ "type":
  "pmb",
  "color":
  "#9B5F98",
@@ -242,10 +255,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/143939/",
  "head":
- "Vorlesung von Die Weissagung, Weihnachts-Einkäufe und Excentric,
-                  22.1.1906",
+ "Lesung von Die Weissagung, Weihnachts-Einkäufe und Excentric, 22.1.1906",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Breslauer Dichterschule",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
@@ -290,6 +310,11 @@
  {
  "placeName":
  "Breslau",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Saal der Freunde",
  "ref":
  ""}
  ]

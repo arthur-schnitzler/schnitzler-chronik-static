@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,6 +111,26 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/119/</idno>
             </event>
             <event when-iso="1896-02-16">
+               <head>Peregringasse 4</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185644/</idno>
+            </event>
+            <event when-iso="1896-02-16">
+               <head>Frankgasse 1</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168934/</idno>
+            </event>
+            <event when-iso="1896-02-16">
+               <head>Wasagasse 4</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/207250/</idno>
+            </event>
+            <event when-iso="1896-02-16">
+               <head>Oper</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/15/</idno>
+            </event>
+            <event when-iso="1896-02-16">
                <head>Tagebuch von Arthur Schnitzler, 1. Januar 1896 – 21. Februar 1897</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp014.html</idno>
@@ -124,6 +144,30 @@
                <head>Tagebuch von Arthur Schnitzler, 3.–16. Mai 1896</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp019.html</idno>
+            </event>
+            <event when-iso="1896-02-16">
+               <head>Redoute in der Oper, 16.2.1896</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/199523/</idno>
             </event>
          </listEvent>
       </body>

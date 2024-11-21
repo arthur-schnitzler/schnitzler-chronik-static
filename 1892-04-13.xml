@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -148,6 +148,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1892-04-13">
+               <head>Volkstheater in Rudolfsheim</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/39/</idno>
+            </event>
+            <event when-iso="1892-04-13">
                <head>Verbotene Symbolistische Vorstellung, 13.4.1892</head>
                <desc>
                   <listOrg>
@@ -155,7 +160,19 @@
                         <orgName key="pmb89319">Verein für modernes Leben</orgName>
                      </org>
                   </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb89352">Der Einschleicher</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb14950">Chlum, Franz Xaver</persName>
+                     </person>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb10815">Bahr, Hermann</persName>
                      </person>
@@ -165,17 +182,10 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb14953">Glümer, Marie</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2167">Salten, Felix</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb14950">Chlum, Franz</persName>
-                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb39">Volkstheater in
-                           Rudolfsheim</placeName>
+                        <placeName role="veranstaltet in" key="pmb39">Volkstheater in Rudolfsheim</placeName>
                         <location>
                            <geo>48,19031 16,32475</geo>
                         </location>
@@ -183,6 +193,7 @@
                   </listPlace>
                </desc>
                <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/89342/</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/190987/</idno>
             </event>
             <event when-iso="1892-04-13">
                <head>Hoffmann, C. an Schnitzler, Arthur [Briefe]</head>

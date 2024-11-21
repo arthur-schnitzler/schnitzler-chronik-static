@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -195,6 +195,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1897-12-23">
+               <head>Volkstheater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+            </event>
+            <event when-iso="1897-12-23">
                <head>Tagebuch von Schnitzler, 23. 12. 1897</head>
                <desc>
                   <listPerson>
@@ -239,7 +244,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb30137">Josephine. Ein Spiel in vier Akten</title>
-                        <note type="relation-type">Uraufführung von</note>
+                        <note type="relation-type">ist Uraufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -248,6 +253,9 @@
                      </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb19039">Kalmar, Annie</persName>
                      </person>
                   </listPerson>
                   <listPlace>

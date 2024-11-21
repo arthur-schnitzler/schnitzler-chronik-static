@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,9 +103,28 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/118474/</idno>
             </event>
             <event when-iso="1897-04-30">
-               <head>Paris</head>
+               <head>Parc Monceau</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/59319/</idno>
+            </event>
+            <event when-iso="1897-04-30">
+               <head>Konzert Deux mômes, 30.4.1897</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb182">Paris</placeName>
+                        <location>
+                           <geo>48,85341 2,3488</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208934/</idno>
             </event>
             <event when-iso="1897-04-30">
                <head>Vendredi classique mit Dora Villé</head>
@@ -123,8 +142,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb118474">Concert
-                           Parisien</placeName>
+                        <placeName role="veranstaltet in" key="pmb118474">Concert Parisien</placeName>
                         <location>
                            <geo>48,870964 2,353306</geo>
                         </location>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -141,6 +141,11 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-09-02.html</idno>
             </event>
             <event when-iso="1928-09-02">
+               <head>Hotel Rheinischer Hof München</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/806/</idno>
+            </event>
+            <event when-iso="1928-09-02">
                <head>Mauerkircherstraße</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/51263/</idno>
@@ -161,9 +166,53 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92467/</idno>
             </event>
             <event when-iso="1928-09-02">
+               <head>München</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+            </event>
+            <event when-iso="1928-09-02">
+               <head>Bayerisches Nationalmuseum</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233217/</idno>
+            </event>
+            <event when-iso="1928-09-02">
+               <head>Kriegerdenkmal im Hofgarten</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233220/</idno>
+            </event>
+            <event when-iso="1928-09-02">
+               <head>Hotel Vier Jahreszeiten</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/485/</idno>
+            </event>
+            <event when-iso="1928-09-02">
+               <head>Restaurant Bürgerbräu</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233224/</idno>
+            </event>
+            <event when-iso="1928-09-02">
                <head>Tagebuch von Clara Katharina Pollaczek, 31. August – 7. September 1928</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp592.html</idno>
+            </event>
+            <event when-iso="1928-09-02">
+               <head>Filmvorführung, 2.9.1928</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/211013/</idno>
             </event>
             <event when-iso="1928-09-02">
                <head>Pollaczek geht ins Kino, 2. September 1928</head>

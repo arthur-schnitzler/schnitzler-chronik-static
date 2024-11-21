@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -191,6 +191,96 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/118/</idno>
             </event>
             <event when-iso="1912-03-16">
+               <head>Volkstheater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+            </event>
+            <event when-iso="1912-03-16">
+               <head>Urania Theater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186034/</idno>
+            </event>
+            <event when-iso="1912-03-16">
+               <head>Premiere von Der Schleier der Pierette, 16.3.1912</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30215">Der Schleier der Pierette. Pantomime in drei Bildern</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb186034">Urania Theater</placeName>
+                        <location>
+                           <geo>48,207691 16,378158</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209635/</idno>
+            </event>
+            <event when-iso="1912-03-16">
+               <head>Generalprobe von Der tapfere Kassian. Singspiel, 16.3.1912</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb63031">Carl-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb46124">Der tapfere Kassian. Singspiel</title>
+                        <note type="relation-type">ist Generalprobe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
+                        <location>
+                           <geo>48,215 16,384444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209634/</idno>
+            </event>
+            <event when-iso="1912-03-16">
+               <head>Generalprobe von Der Schleier der Pierette, 16.3.1912</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30215">Der Schleier der Pierette. Pantomime in drei Bildern</title>
+                        <note type="relation-type">ist Generalprobe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb186034">Urania Theater</placeName>
+                        <location>
+                           <geo>48,207691 16,378158</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209633/</idno>
+            </event>
+            <event when-iso="1912-03-16">
                <head>Uraufführung Das stärkere Band, 16.3.1912</head>
                <desc>
                   <listOrg>
@@ -201,7 +291,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb32446">Das stärkere Band. Komödie</title>
-                        <note type="relation-type">Uraufführung von</note>
+                        <note type="relation-type">ist Uraufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>

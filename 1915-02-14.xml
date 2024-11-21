@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,6 +136,87 @@
                <head>Hütteldorf</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/271/</idno>
+            </event>
+            <event when-iso="1915-02-14">
+               <head>Volkshochschule Stöbergasse</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1023/</idno>
+            </event>
+            <event when-iso="1915-02-14">
+               <head>Gesangsabend im Stöbergasse, 14.2.1915</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb92552">Stöbergasse</placeName>
+                        <location>
+                           <geo>48,1851 16,355622</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209745/</idno>
+            </event>
+            <event when-iso="1915-02-14">
+               <head>Konzert Olga Schnitzler, 14.2.1915</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb183214">Wiener Volksbildungsverein</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb17540">Gund, Robert</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb22801">Popper, Gertrud</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb25405">Steiner, Franz</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb13653">Bachrach, Stefanie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb13644">Bachrach, Eugenie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb3159">Schmidl, Hugo</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb24292">Schmidl, Paula</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb24860">Sgal, Emilie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb54787">Zuckerkandl, Victor</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1023">Volkshochschule Stöbergasse</placeName>
+                        <location>
+                           <geo>48,18551 16,35493</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/183662/</idno>
             </event>
          </listEvent>
       </body>

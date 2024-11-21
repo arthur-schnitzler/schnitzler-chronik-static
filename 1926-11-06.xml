@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,6 +110,34 @@
                <head>Michelbeuerntheater</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/190582/</idno>
+            </event>
+            <event when-iso="1926-11-06">
+               <head>Filmvorführung von Die Bärenhochzeit, 6.11.1926</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80415">Die Bärenhochzeit</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190582">Michelbeuerntheater</placeName>
+                        <location>
+                           <geo>48,227627 16,327784</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210859/</idno>
             </event>
             <event when-iso="1926-11-06">
                <head>Schnitzler im Michelbeuerntheater, 6. November 1926</head>

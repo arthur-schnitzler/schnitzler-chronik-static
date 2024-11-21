@@ -133,6 +133,91 @@
  "Wien"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/42812/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/42812/",
+ "head":
+ "Café Scheuchenstuel"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/199375/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/199375/",
+ "head":
+ "Maysedergasse 4"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/118/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/118/",
+ "head":
+ "Carl-Theater"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/200639/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/200639/",
+ "head":
+ "Probe von Freiwild, 4.2.1898",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Carl-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
  "pmb",
  "color":
  "#9B5F98",
@@ -143,7 +228,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/35161/",
  "head":
- "Premiere von Freiwild. Schauspiel in 3 Akten, 4.2.1898",
+ "Premiere von Freiwild, 4.2.1898",
  "desc":
 {"listOrg":
   [
@@ -201,6 +286,11 @@
  {
  "persName":
  "Leopold Natzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Josef Klein",
  "ref":
  ""}],
  "listPlace":

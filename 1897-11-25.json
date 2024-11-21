@@ -91,6 +91,78 @@
  "Opletalova"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/118612/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/118612/",
+ "head":
+ "Deutsches Haus [Prag]"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91/",
+ "head":
+ "Neues Deutsches Theater"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/200452/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/200452/",
+ "head":
+ "Probe von Freiwild, 25.11.1897",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Neues Deutsches Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neues Deutsches Theater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
  "pmb",
  "color":
  "#9B5F98",
@@ -101,7 +173,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/50887/",
  "head":
- "Vorlesung von Die Toten schweigen, Weihnachtseinkäufe, 25.11.1897",
+ "Lesung von Die Toten schweigen, Weihnachts-Einkäufe, 25.11.1897",
  "desc":
 {"listBibl":
   [
@@ -127,12 +199,7 @@
   [
  {
  "placeName":
- "Prag",
- "ref":
- ""}
- ,  {
- "placeName":
- "Deutsches Haus",
+ "Deutsches Haus [Prag]",
  "ref":
  ""}
  ]

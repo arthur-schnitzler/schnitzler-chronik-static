@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -195,6 +195,34 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 27. Januar – 2. Februar 1928</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp517.html</idno>
+            </event>
+            <event when-iso="1928-01-28">
+               <head>Filmvorführung von When a Man Loves, 28.1.1928</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80333">When a Man Loves</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190541">Heimatkino</placeName>
+                        <location>
+                           <geo>48,220123 16,361439</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210959/</idno>
             </event>
             <event when-iso="1928-01-28">
                <head>Schnitzler im Heimatkino, 28. Januar 1928</head>

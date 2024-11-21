@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -206,6 +206,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/96/</idno>
             </event>
             <event when-iso="1906-05-15">
+               <head>Theater an der Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/37/</idno>
+            </event>
+            <event when-iso="1906-05-15">
                <head>Tagebuch von Schnitzler, 15. 5. 1906</head>
                <desc>
                   <listPerson>
@@ -297,7 +302,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -352,8 +357,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb37">Theater an der
-                           Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
                         <location>
                            <geo>48,19941 16,3642</geo>
                         </location>

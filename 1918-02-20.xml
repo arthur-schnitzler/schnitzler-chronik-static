@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -123,6 +123,68 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1918-02-20">
+               <head>Konzerthaus</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/240/</idno>
+            </event>
+            <event when-iso="1918-02-20">
+               <head>Wohltätigkeitskonzert Paul Weingarten, Paul Grümmer, Jan Brandt-Buys, Olga Schnitzler, 20.2.1918</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10475">Weingarten, Paul</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb7571">Grümmer, Paul</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14481">Brandt-Buys, Jan</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209932/</idno>
+            </event>
+            <event when-iso="1918-02-20">
+               <head>Wohltätigkeitskonzert, 20.2.1918</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb7571">Grümmer, Paul</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10475">Weingarten, Paul</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14481">Brandt-Buys, Jan</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb25265">Spitzmüller-Harmersbach, Ernestine von</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/183786/</idno>
             </event>
             <event when-iso="1918-02-20">
                <head>Woiwode, Lina an Schnitzler, Arthur [Briefe]</head>

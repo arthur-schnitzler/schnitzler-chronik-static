@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,6 +94,54 @@
                <head>Frankgasse 1</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168934/</idno>
+            </event>
+            <event when-iso="1904-01-15">
+               <head>Stephansplatz 6</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233650/</idno>
+            </event>
+            <event when-iso="1904-01-15">
+               <head>Strauchgasse 1</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/207076/</idno>
+            </event>
+            <event when-iso="1904-01-15">
+               <head>Kaiserpanorama [Wien]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233517/</idno>
+            </event>
+            <event when-iso="1904-01-15">
+               <head>Vortrag von Hofmannsthal über das Verhältnis der dramatischen Figuren Grillparzers zum Leben, 15.1.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29558">Grillparzer-Gesellschaft</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb5096">Kassner, Rudolf</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb106469">Thun-Salm, Christiane</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb207076">Strauchgasse 1</placeName>
+                        <location>
+                           <geo>48,210922 16,366201</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/233655/</idno>
             </event>
          </listEvent>
       </body>

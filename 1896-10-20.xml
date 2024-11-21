@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,10 +99,14 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1896-10-20">
-               <head>?? [»bei Uns«, Absteigequartier IV Marie Reinhard und Arthur
-            Schnitzler]</head>
+               <head>?? [»bei Uns«, Absteigequartier IV Marie Reinhard und Arthur Schnitzler]</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168581/</idno>
+            </event>
+            <event when-iso="1896-10-20">
+               <head>Frankgasse 1</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168934/</idno>
             </event>
             <event when-iso="1896-10-20">
                <head>Private Lesung von Die Gefährtin (Der Witwer), 20.10.1896</head>
@@ -110,7 +114,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb29845">Die Gefährtin. Schauspiel in einem Akt</title>
-                        <note type="relation-type">Vortrag/Vorlesung von</note>
+                        <note type="relation-type">ist Lesung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -126,9 +130,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb397">Frankgasse</placeName>
+                        <placeName role="veranstaltet in" key="pmb168934">Frankgasse 1</placeName>
                         <location>
-                           <geo>48,215516628628 16,356475515829</geo>
+                           <geo>48,21533 16,35736</geo>
                         </location>
                      </place>
                   </listPlace>

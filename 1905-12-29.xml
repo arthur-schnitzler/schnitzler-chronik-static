@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,21 +128,26 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/446/</idno>
             </event>
             <event when-iso="1905-12-29">
+               <head>Lustspieltheater [Wien]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1209/</idno>
+            </event>
+            <event when-iso="1905-12-29">
                <head>Premiere von Boule de suif, Schöne Seelen, 29.12.1905</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
-                        <orgName key="pmb37242">Lustspieltheater (Wien)</orgName>
+                        <orgName key="pmb37242">Lustspieltheater [Wien]</orgName>
                      </org>
                   </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb77961">Boule de suif</title>
-                        <note type="relation-type">Premiere von</note>
+                        <note type="relation-type">ist Premiere von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb31659">Schöne Seelen. Komödie in einem Akt</title>
-                        <note type="relation-type">Premiere von</note>
+                        <note type="relation-type">ist Premiere von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -152,8 +157,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb1209">Lustspieltheater
-                           (Wien)</placeName>
+                        <placeName role="veranstaltet in" key="pmb1209">Lustspieltheater [Wien]</placeName>
                         <location>
                            <geo>48,21766 16,3957</geo>
                         </location>

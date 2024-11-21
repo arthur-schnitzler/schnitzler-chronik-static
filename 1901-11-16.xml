@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,6 +106,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1901-11-16">
+               <head>Jung-Wiener Theater zum Lieben Augustin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1/</idno>
+            </event>
+            <event when-iso="1901-11-16">
                <head>Tagebuch von Schnitzler, 16. 11. 1901</head>
                <desc>
                   <listPerson>
@@ -143,7 +148,7 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041196.html</idno>
             </event>
             <event when-iso="1901-11-16">
-               <head>Generalprobe Jung-Wiener Theater zum Lieben Augustin, 16.11.1901</head>
+               <head>Eröffnungsveranstaltung Jung-Wiener-Theater »Zum lieben Augustin«, 16.11.1901</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -153,71 +158,18 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb145076">Des Sängers Fluch</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb145824">Hafisa</title>
-                        <note type="relation-type">Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb2167">Salten, Felix</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb3165">Halton, Mary</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb10815">Bahr, Hermann</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb13068">Wedekind, Frank</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb1">Jung-Wiener Theater zum Lieben
-                           Augustin</placeName>
-                        <location>
-                           <geo>48,19941 16,3642</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143202/</idno>
-            </event>
-            <event when-iso="1901-11-16">
-               <head>Eröffnungsveranstaltung Jung-Wiener-Theater »Zum lieben Augustin«,
-                  16.11.1901</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb143199">Jung-Wiener Theater zum Lieben Augustin</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb145076">Des Sängers Fluch</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
-                        <title key="pmb145824">Hafisa</title>
-                        <note type="relation-type">Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb144201">Theater- und Kunstnachrichten. Jung-Wiener-Theater
-                           »Zum lieben Augustin«</title>
+                        <title key="pmb144201">Theater- und Kunstnachrichten. Jung-Wiener-Theater »Zum lieben Augustin«</title>
                         <note type="relation-type">wird rezensiert in</note>
                      </bibl>
                      <bibl>
-                        <title key="pmb123107">Theater, Kunst und Literatur. Theater an der
-                           Wien</title>
+                        <title key="pmb123107">Theater, Kunst und Literatur. Theater an der Wien</title>
                         <note type="relation-type">wird rezensiert in</note>
                      </bibl>
                      <bibl>
@@ -247,8 +199,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb1">Jung-Wiener Theater zum Lieben
-                           Augustin</placeName>
+                        <placeName role="veranstaltet in" key="pmb1">Jung-Wiener Theater zum Lieben Augustin</placeName>
                         <location>
                            <geo>48,19941 16,3642</geo>
                         </location>
@@ -256,6 +207,55 @@
                   </listPlace>
                </desc>
                <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/144203/</idno>
+            </event>
+            <event when-iso="1901-11-16">
+               <head>Generalprobe Jung-Wiener Theater zum Lieben Augustin, 16.11.1901</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb143199">Jung-Wiener Theater zum Lieben Augustin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb145076">Des Sängers Fluch</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb145824">Hafisa</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb3165">Halton, Mary</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb13068">Wedekind, Frank</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1">Jung-Wiener Theater zum Lieben Augustin</placeName>
+                        <location>
+                           <geo>48,19941 16,3642</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143202/</idno>
             </event>
          </listEvent>
       </body>

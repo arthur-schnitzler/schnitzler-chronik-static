@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,11 +107,46 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
             </event>
             <event when-iso="1894-12-14">
+               <head>Hotel Bristol Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/205/</idno>
+            </event>
+            <event when-iso="1894-12-14">
+               <head>Aufführung von A Midsommer nights dreame, 14.12.1894</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb34239">A Midsommer nights dreame</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208706/</idno>
+            </event>
+            <event when-iso="1894-12-14">
                <head>Vereinstreffen Saubermänner, 14.12.1894</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
-                        <orgName key="pmb29794">Saubermänner</orgName>
+                        <orgName key="pmb29794">Die Saubermänner. Tischgesellschaft</orgName>
                      </org>
                   </listOrg>
                   <listPerson>
@@ -124,14 +159,14 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb205">Hotel Bristol Wien</placeName>
                         <location>
-                           <geo>48,2066 16,37341</geo>
+                           <geo>48,202791 16,370064</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/112511/</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/184552/</idno>
             </event>
          </listEvent>
       </body>

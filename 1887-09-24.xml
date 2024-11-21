@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -77,6 +77,31 @@
                <head>München</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+            </event>
+            <event when-iso="1887-09-24">
+               <head>Aufführung von Stella. Ein Schauspiel für Liebende, 24.9.1887</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30191">Stella. Ein Schauspiel für Liebende</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb45258">München</placeName>
+                        <location>
+                           <geo>48,13743 11,57549</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208162/</idno>
             </event>
             <event when-iso="1887-09-24">
                <head>Olga Waissnix an Arthur Schnitzler, 24.9.1887</head>

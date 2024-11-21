@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,6 +122,31 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1914-03-24">
+               <head>Filmvorführung von Zum Paradies der Damen, 24.3.1914</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195403">Zum Paradies der Damen</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190574">Burgkino</placeName>
+                        <location>
+                           <geo>48,2030071 16,3652839</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210488/</idno>
             </event>
             <event when-iso="1914-03-24">
                <head>Mappe A116 – Datumsangabe auf Blatt von Fink und Fliederbusch: »Fliederbusch: (allein; zuerst sieht er…«</head>

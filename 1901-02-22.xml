@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,6 +96,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40/</idno>
             </event>
             <event when-iso="1901-02-22">
+               <head>Landesgericht für Strafsachen Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231308/</idno>
+            </event>
+            <event when-iso="1901-02-22">
                <head>Tagebuch von Schnitzler, 22. 2. 1901</head>
                <desc>
                   <listPerson>
@@ -111,6 +116,41 @@
                   </listPerson>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041190.html</idno>
+            </event>
+            <event when-iso="1901-02-22">
+               <head>Aufführung von Episode, Zuhause. Drama in einem Akt, Das Streichholzmädchen, Der Herr Kommissär, 22.2.1901</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb39689">Theater in der Josefstadt</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31357">Episode</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb40">Theater in der Josefstadt</placeName>
+                        <location>
+                           <geo>48,209583 16,351111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209187/</idno>
+            </event>
+            <event when-iso="1901-02-22">
+               <head>Zeuge im Prozess Bahr ― Kraus</head>
+               <desc/>
+               <idno type="schnitzler-chronik-manuell">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-02-22.html</idno>
             </event>
          </listEvent>
       </body>

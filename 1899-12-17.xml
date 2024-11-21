@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,9 +85,9 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1899-12-17">
-               <head>Tuchlauben</head>
+               <head>Burgtheater</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/790/</idno>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
             </event>
             <event when-iso="1899-12-17">
                <head>–rm–: Wiener Brief. [Der Verschwender am Burgtheater],
@@ -172,13 +172,23 @@
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M183.html</idno>
             </event>
             <event when-iso="1899-12-17">
+               <head>Philharmonisches-Konzert, 17.12.1899</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209119/</idno>
+            </event>
+            <event when-iso="1899-12-17">
                <head>Aufführung von Der Verschwender, 17.12.1899</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb77407">Der Verschwender. Original-Zaubermärchen in drei
-                           Aufzügen</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <title key="pmb77407">Der Verschwender.  Original-Zaubermärchen in drei Aufzügen</title>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb141413">Wiener Brief. [Der Verschwender]</title>

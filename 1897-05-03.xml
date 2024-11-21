@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,6 +112,45 @@
                <head>Opéra Comique</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185895/</idno>
+            </event>
+            <event when-iso="1897-05-03">
+               <head>avenue des Champs-Élysées</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90464/</idno>
+            </event>
+            <event when-iso="1897-05-03">
+               <head>Grand Palais</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200119/</idno>
+            </event>
+            <event when-iso="1897-05-03">
+               <head>Aufführung von Les noces de Jeanette, Orpheus und Eurydike, 3.5.1897</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80963">Les noces de Jeanette</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb34253">Orpheus und Eurydike</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb185895">Opéra Comique</placeName>
+                        <location>
+                           <geo>48,87108333333333 2,337833333333333</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208936/</idno>
             </event>
          </listEvent>
       </body>

@@ -142,6 +142,32 @@
  "Zirkusgasse"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/200352/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/200352/",
+ "head":
+ "Endresstraße 68"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/118/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/118/",
+ "head":
+ "Carl-Theater"
+}, {
+ "type":
  "pmb",
  "color":
  "#9B5F98",
@@ -154,7 +180,15 @@
  "head":
  "Aufführung von Der Stellvertreter, 3.10.1897",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Carl-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
@@ -173,7 +207,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

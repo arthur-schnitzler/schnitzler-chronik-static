@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -157,6 +157,56 @@
                <head>Wien</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1903-12-09">
+               <head>Magdalenenstraße 8</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233497/</idno>
+            </event>
+            <event when-iso="1903-12-09">
+               <head>Private Lesung von Der tapfere Cassian, Der Schleier der Pierrette, Zum großen Wurstel, 9.12.1903</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29951">Zum großen Wurstel. Burleske in einem Akt</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb30215">Der Schleier der Pierette. Pantomime in drei Bildern</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb26640">Wallner, Carl</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb3105">Karczag, Wilhelm</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb11441">Girardi, Alexander</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb25418">Steininger, Emil</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb233497">Magdalenenstraße 8</placeName>
+                        <location>
+                           <geo>48,196349 16,35463</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/233502/</idno>
             </event>
          </listEvent>
       </body>

@@ -131,7 +131,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/245/",
  "head":
- "Hotel Esplanade"
+ "Hotel Esplanade [Berlin]"
 }, {
  "type":
  "schnitzler-orte",
@@ -145,6 +145,19 @@
  "https://pmb.acdh.oeaw.ac.at/entity/13/",
  "head":
  "Hebbel-Theater"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/334/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/334/",
+ "head":
+ "Schiller-Theater"
 }, {
  "type":
  "pollaczek",
@@ -190,19 +203,62 @@
  "color":
  "#9B5F98",
  "filename":
+ "entity/210351/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/210351/",
+ "head":
+ "Aufführung von Don Juan und Faust, 13.10.1925",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Don Juan und Faust",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hebbel-Theater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
  "entity/48242/",
  "caption":
  "PMB",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/48242/",
  "head":
- "Generalprobe von Liebelei, 13.10.1925",
+ "Generalprobe von Liebelei, Weihnachts-Einkäufe, 13.10.1925",
  "desc":
 {"listBibl":
   [
  {
  "title":
  "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Weihnachts-Einkäufe",
  "ref":
  ""}
  ],

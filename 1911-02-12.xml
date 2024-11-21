@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,6 +118,44 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-02-12.html</idno>
+            </event>
+            <event when-iso="1911-02-12">
+               <head>Reduta</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/183303/</idno>
+            </event>
+            <event when-iso="1911-02-12">
+               <head>Lesung Medardus (Schenkenszene), Der Weg ins Freie (3. Kapitel), Lieutenant Gustl, 12.2.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29853">Lieutenant Gustl. Novelle</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29923">Der Weg ins Freie. Roman</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb183303">Reduta</placeName>
+                        <location>
+                           <geo>49,19213889 16,60961111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/183298/</idno>
             </event>
             <event when-iso="1911-02-12">
                <head>Henderson, Archibald an Schnitzler, Arthur [Briefe]</head>

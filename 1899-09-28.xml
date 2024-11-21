@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,9 +90,29 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/43055/</idno>
             </event>
             <event when-iso="1899-09-28">
-               <head>Wiesbaden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/883/</idno>
+               <head>Aufführung von Carmen. Oper in vier Akten, 28.9.1899</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30627">Carmen. Oper in vier Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb883">Wiesbaden</placeName>
+                        <location>
+                           <geo>50,08258 8,24932</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209102/</idno>
             </event>
             <event when-iso="1899-09-28">
                <head>Hartogensis, Gerhard an Schnitzler, Arthur [Briefe]</head>

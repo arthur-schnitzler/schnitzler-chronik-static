@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -161,14 +161,84 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
             </event>
             <event when-iso="1904-11-15">
-               <head>Hotel Continental [Berlin]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/399/</idno>
-            </event>
-            <event when-iso="1904-11-15">
                <head>Lessing-Theater</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/18/</idno>
+            </event>
+            <event when-iso="1904-11-15">
+               <head>Hotel und Restaurant »Prinz Wilhelm«</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232501/</idno>
+            </event>
+            <event when-iso="1904-11-15">
+               <head>Wedl</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233758/</idno>
+            </event>
+            <event when-iso="1904-11-15">
+               <head>Kleines Theater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/208/</idno>
+            </event>
+            <event when-iso="1904-11-15">
+               <head>Probe von Das Haus Delorme, 15.11.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45430">Kleines Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb208">Kleines Theater</placeName>
+                        <location>
+                           <geo>52,517222 13,389167</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/234602/</idno>
+            </event>
+            <event when-iso="1904-11-15">
+               <head>Aufführung von Die Frau vom Meer, 15.11.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb40061">Die Frau vom Meer. Schauspiel in fünf Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb18">Lessing-Theater</placeName>
+                        <location>
+                           <geo>52,5225 13,376389</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209342/</idno>
             </event>
             <event when-iso="1904-11-15">
                <head>Arthur Schnitzler an Olga Schnitzler, 15. 11. 1904</head>

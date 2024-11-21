@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,6 +106,45 @@
                <head>Odéon</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/792/</idno>
+            </event>
+            <event when-iso="1897-05-11">
+               <head>18. arrondissement [Buttes-Montmartre]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/118047/</idno>
+            </event>
+            <event when-iso="1897-05-11">
+               <head>Beaux-Arts de Paris</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200176/</idno>
+            </event>
+            <event when-iso="1897-05-11">
+               <head>Aufführung von L’Avare ou l’École du mensonge, Les tenailles, 11.5.1897</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76777">L’Avare ou l’École du mensonge</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb78297">Les tenailles</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb792">Odéon</placeName>
+                        <location>
+                           <geo>48,850022 2,338927</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/208943/</idno>
             </event>
          </listEvent>
       </body>

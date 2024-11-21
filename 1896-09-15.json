@@ -119,15 +119,41 @@
  "Wien"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/176/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/176/",
+ "head":
+ "Schwarzenbergpark"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/14/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/14/",
+ "head":
+ "Burgtheater"
+}, {
+ "type":
  "pmb",
  "color":
  "#9B5F98",
  "filename":
- "entity/143176/",
+ "entity/199847/",
  "caption":
  "PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/143176/",
+ "https://pmb.acdh.oeaw.ac.at/entity/199847/",
  "head":
  "Aufführung von Liebelei, 15.9.1896",
  "desc":
@@ -144,6 +170,62 @@
  {
  "title":
  "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Oskar Gimnig",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/143176/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/143176/",
+ "head":
+ "Aufführung von Liebelei, Jugendliebe, 15.9.1896",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Jugendliebe. Lustspiel in einem Aufzuge",
  "ref":
  ""}
  ],

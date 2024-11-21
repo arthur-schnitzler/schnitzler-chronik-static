@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,6 +102,54 @@
                <head>Verona</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/900/</idno>
+            </event>
+            <event when-iso="1927-09-04">
+               <head>Arche scaligere</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232897/</idno>
+            </event>
+            <event when-iso="1927-09-04">
+               <head>Tomba di Giulietta</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232891/</idno>
+            </event>
+            <event when-iso="1927-09-04">
+               <head>Villa Giusti</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232902/</idno>
+            </event>
+            <event when-iso="1927-09-04">
+               <head>Santa Maria in Organo</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232910/</idno>
+            </event>
+            <event when-iso="1927-09-04">
+               <head>Filmvorführung von La bionda e la bruna, 4.9.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb200239">La bionda e la bruna</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb44153">Verona</placeName>
+                        <location>
+                           <geo>45,4299 10,98444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210921/</idno>
             </event>
             <event when-iso="1927-09-04">
                <head>Schnitzler geht ins Kino in Verona, 4. September 1927</head>

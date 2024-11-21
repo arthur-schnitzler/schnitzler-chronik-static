@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,6 +104,31 @@
                <head>Arthur Schnitzler an Clara Katharina Pollaczek, 28. Juni 1924</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp108.html</idno>
+            </event>
+            <event when-iso="1924-06-28">
+               <head>Filmvorführung von Buddenbrooks, 28.6.1924</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb33602">Buddenbrooks</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb228">Baden-Baden</placeName>
+                        <location>
+                           <geo>48,7606 8,23975</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210678/</idno>
             </event>
             <event when-iso="1924-06-28">
                <head>Schnitzler geht ins Kino in Baden-Baden, 28. Juni 1924</head>

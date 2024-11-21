@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,9 +104,44 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
             </event>
             <event when-iso="1899-09-14">
+               <head>Hotel Rheinischer Hof München</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/806/</idno>
+            </event>
+            <event when-iso="1899-09-14">
                <head>Residenztheater München</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/635/</idno>
+            </event>
+            <event when-iso="1899-09-14">
+               <head>Bad Aussee</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/415/</idno>
+            </event>
+            <event when-iso="1899-09-14">
+               <head>Aufführung von Paracelsus, Die Gefährtin, Der grüne Kakadu, 14.9.1899</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb32562">Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb635">Residenztheater München</placeName>
+                        <location>
+                           <geo>48,139944 11,578786</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209098/</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,37 +117,46 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/58/</idno>
             </event>
             <event when-iso="1891-05-13">
-               <head>Aufführung von Das Abenteuer seines Lebens u.a., 13.5.1891</head>
+               <head>Theater in der Josefstadt</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40/</idno>
+            </event>
+            <event when-iso="1891-05-13">
+               <head>Aufführung von Das Abenteuer seines Lebens u.a.,  13.5.1891</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb186167">Schauspielschule Friedrich</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb30143">Das Abenteuer seines Lebens. Ein einaktiges
-                           Lustspiel</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <title key="pmb30143">Das Abenteuer seines Lebens. Ein einaktiges Lustspiel</title>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb89896">Unser Patient. Lustspiel in 1 Act</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb89912">Nord und Süd. Lustspiel in einem Act</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
-                        <title key="pmb32844">Faust. Opéra en cinq actes</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <title key="pmb32844">Faust.  Opéra en cinq actes</title>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb89921">Eine Mutter vor Gericht. Dramatische Szene</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb89927">Der Waffenschmied. Komische Oper</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
                         <title key="pmb89932">Der Pascha. Pantomimische Posse in einem Act</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -178,8 +187,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb40">Theater in der
-                           Josefstadt</placeName>
+                        <placeName role="veranstaltet in" key="pmb40">Theater in der Josefstadt</placeName>
                         <location>
                            <geo>48,209583 16,351111</geo>
                         </location>

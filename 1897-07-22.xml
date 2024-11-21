@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -223,6 +223,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/874/</idno>
             </event>
             <event when-iso="1897-07-22">
+               <head>Stadttheater [Gmunden]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34213/</idno>
+            </event>
+            <event when-iso="1897-07-22">
                <head>Salten an Schnitzler, 22. 7. 1897</head>
                <desc>
                   <listPerson>
@@ -266,7 +271,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                        <note type="relation-type">Premiere von</note>
+                        <note type="relation-type">ist Premiere von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -289,7 +294,7 @@
                         <persName key="pmb21858">Nerz, Ludwig</persName>
                      </person>
                      <person role="hat als Arbeitskraft">
-                        <persName key="pmb10181">Tautenhayn, Ernst</persName>
+                        <persName key="pmb10181">Tautenhayn, Ernst Maximilian</persName>
                      </person>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb12025">Lackner, Hans</persName>
@@ -309,14 +314,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb874">Gmunden</placeName>
-                        <location>
-                           <geo>47,91839 13,79933</geo>
-                        </location>
-                     </place>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb34213">Stadttheater
-                           Gmunden</placeName>
+                        <placeName role="veranstaltet in" key="pmb34213">Stadttheater [Gmunden]</placeName>
                         <location>
                            <geo>47,9179 13,79856</geo>
                         </location>

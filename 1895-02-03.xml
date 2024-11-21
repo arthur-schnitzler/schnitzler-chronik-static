@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,6 +102,41 @@
                <head>Rosinagasse 6</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199044/</idno>
+            </event>
+            <event when-iso="1895-02-03">
+               <head>Fünfhaus</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90673/</idno>
+            </event>
+            <event when-iso="1895-02-03">
+               <head>Vortrag von Robert Hirschfeld und Haydn-Konzert, 3.2.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb183214">Wiener Volksbildungsverein</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb199052">Winkler-Quartett</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11707">Hirschfeld, Robert</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb199044">Rosinagasse 6</placeName>
+                        <location>
+                           <geo>48,19446 16,332936</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/199047/</idno>
             </event>
          </listEvent>
       </body>

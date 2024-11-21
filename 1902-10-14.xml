@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -146,6 +146,31 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
             </event>
             <event when-iso="1902-10-14">
+               <head>Deutsches Theater Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+            </event>
+            <event when-iso="1902-10-14">
+               <head>Pergamon Museum</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232180/</idno>
+            </event>
+            <event when-iso="1902-10-14">
+               <head>Hohenzollern­museum</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232183/</idno>
+            </event>
+            <event when-iso="1902-10-14">
+               <head>Eremitage</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231799/</idno>
+            </event>
+            <event when-iso="1902-10-14">
+               <head>Palasthotel Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/88/</idno>
+            </event>
+            <event when-iso="1902-10-14">
                <head>Aufführung von Monna Vanna. 14.10.1902</head>
                <desc>
                   <listOrg>
@@ -156,7 +181,7 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb143236">Monna Vanna. Schauspiel in drei Akten</title>
-                        <note type="relation-type">Aufführung von</note>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -166,8 +191,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater
-                           Berlin</placeName>
+                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater Berlin</placeName>
                         <location>
                            <geo>52,524444 13,382222</geo>
                         </location>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-10-18.">18.10.2024</date>
+            <date when-iso="2024-11-21.">21.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -163,6 +163,11 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/143/</idno>
             </event>
             <event when-iso="1927-11-30">
+               <head>Lutter &amp; Wegner</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231778/</idno>
+            </event>
+            <event when-iso="1927-11-30">
                <head>Tagebuch von Clara Katharina Pollaczek, 24. November – 4. Dezember 1927</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp493.html</idno>
@@ -178,6 +183,40 @@
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp497.html</idno>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp498.html</idno>
+            </event>
+            <event when-iso="1927-11-30">
+               <head>Aufführung von The Merchant of Venice, 30.11.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb32047">The Merchant of Venice</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11975">Kortner, Fritz</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10886">Bergner, Elisabeth</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb784">Schauspielhaus</placeName>
+                        <location>
+                           <geo>52,513611 13,392222</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/210429/</idno>
             </event>
          </listEvent>
       </body>
