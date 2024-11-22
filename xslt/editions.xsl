@@ -323,11 +323,12 @@
                         <xsl:text>;</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="tei:person/tei:persName">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
                             <xsl:when
-                                test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
                                 <xsl:variable name="normalize-gnd-ohne-http"
-                                    select="replace(@ref, 'https', 'http')" as="xs:string"/>
+                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -343,12 +344,12 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'schnitzler-tagebuch' and starts-with(@ref, 'person_')">
+                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -359,12 +360,12 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'schnitzler-tagebuch' and starts-with(@ref, 'person_')">
+                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -375,12 +376,12 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'pmb' and (starts-with(@ref, 'pmb') or starts-with(@ref, 'person_'))">
+                                test="$e-typ = 'pmb' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -391,12 +392,12 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
+                                test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -440,11 +441,12 @@
                         <xsl:text>;</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="tei:org/tei:orgName">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
                             <xsl:when
-                                test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
                                 <xsl:variable name="normalize-gnd-ohne-http"
-                                    select="replace(@ref, 'https', 'http')" as="xs:string"/>
+                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -459,12 +461,12 @@
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -474,12 +476,12 @@
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="starts-with(@ref, 'pmb')">
+                            <xsl:when test="starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -517,19 +519,22 @@
         </xsl:variable>
         <li>
             <i title="Erwähnte Orte" class="fa-solid fa-location-dot"/>&#160;Erwähnte Orte <div
-                class="list-container"><ul class="horizontal-list">
+                class="list-container">
+                <ul class="horizontal-list">
                     <xsl:attribute name="style">
                         <xsl:text>--dot-color: </xsl:text>
                         <xsl:value-of select="$e-type-farbe"/>
                         <xsl:text>;</xsl:text>
-                    </xsl:attribute><xsl:for-each select="tei:place/tei:placeName">
+                    </xsl:attribute>
+                    <xsl:for-each select="tei:place/tei:placeName">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -539,12 +544,12 @@
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="starts-with(@ref, 'pmb')">
+                            <xsl:when test="starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -589,13 +594,14 @@
                         <xsl:text>;</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="descendant::tei:title">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -615,12 +621,12 @@
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="starts-with(@ref, 'pmb')">
+                            <xsl:when test="starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -680,10 +686,10 @@
         <xsl:choose>
             <xsl:when test="matches($uppercaseHex, '([0-9]*|[A-F]*)')">
                 <xsl:value-of select="
-                    if ($uppercaseHex = '') then
-                    0
-                    else
-                    $dec * mam:power(16, string-length($uppercaseHex) - 1) + mam:hexToDec(substring($uppercaseHex, 2))"
+                        if ($uppercaseHex = '') then
+                            0
+                        else
+                            $dec * mam:power(16, string-length($uppercaseHex) - 1) + mam:hexToDec(substring($uppercaseHex, 2))"
                 />
             </xsl:when>
             <xsl:otherwise>
@@ -692,7 +698,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    
     <xsl:function name="mam:power">
         <xsl:param name="base"/>
         <xsl:param name="exp"/>
