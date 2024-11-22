@@ -1,4 +1,6 @@
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
 }
 
@@ -14,11 +16,13 @@ a {
     color: #fff;
 } */
 
-.navbar-nav ul li a, .navbar-nav ul li a:visited {
+.navbar-nav ul li a,
+.navbar-nav ul li a:visited {
     /* change navbar link color */
 }
 
-.navbar-nav ul li a:hover, .navbar-nav ul li a:active {
+.navbar-nav ul li a:hover,
+.navbar-nav ul li a:active {
     /* change navbar link color */
     background-color: #C67F53;
     color: #fff;
@@ -63,7 +67,8 @@ cite {
     padding: 0 15%;
 }
 
-.intro_left h1, h5 {
+.intro_left h1,
+h5 {
     padding: .5em 0;
 }
 
@@ -89,7 +94,7 @@ a {
     text-decoration: none !important;
 }
 
-.site>* {
+.site > * {
     width: 100%;
 }
 
@@ -108,13 +113,13 @@ a {
 }
 
 .container-fluid {
-   max-width: 1200px; 
+    max-width: 1200px;
 }
 
 .italic {
     font-style: italic;
 }
-  
+
 .bold {
     font-weight: bold;
 }
@@ -140,19 +145,20 @@ a {
 }
 
 .entity-table {
-margin: 4em auto;
+    margin: 4em auto;
 }
 
 .entity-table tbody tr td,
 .entity-table tbody tr th {
-border: none;
+    border: none;
 }
 
 .entity-table tbody tr th {
-border-right: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
 }
 
-.modal-body table tbody tr th, .modal-body table tbody tr td {
+.modal-body table tbody tr th,
+.modal-body table tbody tr td {
     border: none;
 }
 
@@ -160,12 +166,13 @@ border-right: 1px solid lightgrey;
     border-top: 3px solid #C67F53;
     margin-top: auto;
     display: flex;
-    background-color:#fff;
+    background-color: #fff;
     z-index: 1;
     padding: 8em 0;
 }
 
-a.anchor, .anchor-pb {
+a.anchor,
+.anchor-pb {
     position: relative;
     top: -120px;
     visibility: hidden;
@@ -243,15 +250,15 @@ a.anchorFoot {
 /* Datatables, provided by https://github.com/babslgam*/
 
 div.dataTables_filter {
-  text-align:left !important;
+    text-align: left !important;
 }
 
 .btn-link {
-  font-size:20px;
+    font-size: 20px;
 }
 
 .exportbuttons {
-  text-align: right;
+    text-align: right;
 }
 
 .navbar {
@@ -261,17 +268,17 @@ div.dataTables_filter {
 }
 
 .dataTables_info {
-  text-align: center;
+    text-align: center;
 }
 
 .filters input {
-  width:100%;
-  padding: 3px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
 }
 
 .dataTables_wrapper table {
-  width:100%;
+    width: 100%;
 }
 
 .footer-separator {
@@ -307,7 +314,7 @@ div.dataTables_filter {
     margin-top: 0 !important;
     box-shadow: none !important;
     transition: transform .2s;
-    
+
 }
 
 .card-body img {
@@ -326,33 +333,27 @@ div.dataTables_filter {
     border: none;
     text-align: center;
     padding: 0;
-    
+
 }
 
 .index-card {
     margin-top: 0 !important;
     box-shadow: none !important;
     transition: transform .2s;
-    
+
 }
 
 .card-body img {
     border-radius: .35rem .35rem 0 0;
 }
 
-.index-card .card-header {
-    background-color: transparent;
-    border: none;
-    text-align: center;
-    color: #C67F53; 
-}
 
 .index-card .card-body {
     background-color: transparent;
     border: none;
     text-align: center;
     padding: 0;
-    
+
 }
 
 .index-card:hover {
@@ -393,9 +394,9 @@ input#ssQuery {
     font-size: .9rem !important;
     border-radius: 30px !important;
     padding: .3rem 1.75rem .3rem .75rem !important;
-    border: 1px solid rgba(0,0,0,.075) !important;
+    border: 1px solid rgba(0, 0, 0, .075) !important;
     background-color: #fff !important;
-    color: rgba(0,0,0,.9) !important;
+    color: rgba(0, 0, 0, .9) !important;
 }
 
 button#ssDoSearch {
@@ -403,7 +404,7 @@ button#ssDoSearch {
     padding: 0 !important;
     background: 0 0 !important;
     cursor: pointer !important;
-    color: rgba(0,0,0,.6) !important;
+    color: rgba(0, 0, 0, .6) !important;
     margin-left: -4.1em !important;
     margin-top: .1em !important;
 }
@@ -425,23 +426,23 @@ button#ssDoSearch {
 proposed mobile resolution handling
 ####################################
 */
-@media (max-width: 1920px) {
+@media (max-width : 1920px) {
     #editor-widget {
         right: 5%;
     }
-/* 
+    /* 
 #########################################
 add rules for HD screen resolution
 #########################################
 */
 }
 
-@media (max-width: 1200px) {
+@media (max-width : 1200px) {
     #editor-widget {
         right: 1%;
         top: 12%;
     }
-/* 
+    /* 
 #########################################
 add rules for screen medium to low
 resolution
@@ -449,9 +450,9 @@ resolution
 */
 }
 
-@media (max-width: 1024px) {
+@media (max-width : 1024px) {
     .navbar .navbar-collapse {
-        border-top: 1px solid rgba(0,0,0,.075);
+        border-top: 1px solid rgba(0, 0, 0, .075);
         padding-top: 2rem;
         margin-top: .5rem;
     }
@@ -459,9 +460,9 @@ resolution
         max-width: 120% !important;
         max-height: 120% !important;
     }
-    
-    
-/* 
+
+
+    /* 
 #########################################
 add rules for smallest tablet high
 resolution or low resolution screens
@@ -469,7 +470,7 @@ resolution or low resolution screens
 */
 }
 
-@media (max-width: 768px) {
+@media (max-width : 768px) {
     .facsimiles {
         display: none;
     }
@@ -501,8 +502,8 @@ resolution or low resolution screens
     .custom-logo-link {
         margin-bottom: 0;
     }
-    
-/* 
+
+    /* 
 #########################################
 add rules for smallest smartphones 
 high resolution or tablet regular resolution
@@ -510,7 +511,7 @@ high resolution or tablet regular resolution
 */
 }
 
-@media (max-width: 575px) {
+@media (max-width : 575px) {
     br {
         display: none;
     }
@@ -521,7 +522,7 @@ high resolution or tablet regular resolution
         max-width: 500px;
         overflow: hidden;
     }
-/* 
+    /* 
 #########################################
 add rules for smallest smartphones 
 regular resolution
@@ -529,12 +530,12 @@ regular resolution
 */
 }
 
-@media (max-width: 480px) {
+@media (max-width : 480px) {
     .dropdown-menu li a {
         max-width: 400px;
         overflow: hidden;
     }
-/* 
+    /* 
 #########################################
 add rules for smallest smartphones 
 low resolution
@@ -545,7 +546,8 @@ low resolution
 /*** calendar ***/
 
 
-#years-table .btn-light:focus, #years-table .btn-light.focus {
+#years-table .btn-light:focus,
+#years-table .btn-light.focus {
     background: #C67F53;
     text-decoration-thickness: 4px;
     color: white;
@@ -570,9 +572,59 @@ low resolution
 }
 
 .navbar .navbar-brand {
-        padding-right: 0}
-        
+    padding-right: 0}
+
 .navbar .navbar-brand img {
-        height: 4rem;
-        max-height: unset}
-        
+    height: 4rem;
+    max-height: unset}
+
+.cornered-pill {
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.entry-title {
+    text-decoration: none;
+    font-weight: bold;
+}
+.entry-title:hover {
+    text-decoration: underline;
+}
+.toggle-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Styling for the horizontal list */
+.horizontal-list {
+            display: flex;
+            gap: 8px 20px; /* Abstand zwischen den Einträgen */
+            flex-wrap: wrap;
+            padding: 10px;
+            margin: 0;
+            list-style: none; /* Entfernt Standard-Bullets */
+            margin-bottom: 8px;
+        }
+
+/* Individual list items */
+.horizontal-list li {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    line-height: 1;
+}
+
+/* Colored dot before each item */
+.horizontal-list li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--dot-color); /* Use the inherited color */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.list-container {
+            overflow-x: auto; /* Horizontal scrollen */
+            white-space: nowrap; /* Kein Umbruch für Kinder */
+        }
