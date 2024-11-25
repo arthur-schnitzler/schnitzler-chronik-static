@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-21.">21.11.2024</date>
+            <date when-iso="2024-11-25.">25.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,11 +104,14 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1905-01-31">
-               <head>Auftritt von Quartett Rosé, 31.1.1905</head>
+               <head>3. Abend des Quartett Rosé, 31.1.1905</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
                         <orgName key="pmb51780">Rosé-Quartett</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37148">Concert-Direktion Albert Gutmann</orgName>
                      </org>
                   </listOrg>
                   <listPerson>
@@ -116,8 +119,16 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209360/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209360/</idno>
             </event>
          </listEvent>
       </body>

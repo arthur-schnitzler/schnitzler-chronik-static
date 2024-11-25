@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-21.">21.11.2024</date>
+            <date when-iso="2024-11-25.">25.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -175,8 +175,13 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/4/</idno>
             </event>
             <event when-iso="1904-12-20">
-               <head>1. Kammermusikliederabend der Vereinigung schaffender Künstler, 20.12.1904</head>
+               <head>1. Kammermusikliederabend der Vereinigung schaffender Tonkünstler, 20.12.1904</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb234865">Vereinigung schaffender Tonkünstler in Wien</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -191,7 +196,7 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/209352/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209352/</idno>
             </event>
             <event when-iso="1904-12-20">
                <head>Arthur Schnitzler an Adolf von Sonnenthal, 20. 12. 1904</head>

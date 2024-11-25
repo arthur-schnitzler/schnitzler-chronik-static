@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-21.">21.11.2024</date>
+            <date when-iso="2024-11-25.">25.11.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -153,6 +153,39 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 1.–5. Januar 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp640.html</idno>
+            </event>
+            <event when-iso="1929-01-03">
+               <head>Aufführung von Othello, 3.1.1929</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37031">Städtische Oper Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76697">Otello (Othello)</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb185949">Städtische Oper Berlin</placeName>
+                        <location>
+                           <geo>52,512778 13,308333</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/235328/</idno>
             </event>
             <event when-iso="1929-01-03">
                <head>Hedy Kempny an Arthur Schnitzler, 3.1.1929</head>
