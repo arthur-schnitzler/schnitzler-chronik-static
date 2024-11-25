@@ -11,7 +11,7 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/LOD-idnos.xsl"/>
     <xsl:param name="relevant-eventtypes"
-        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,schnitzler-events,pmb,schnitzler-cmif,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,schnitzler-events,pmb,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     <xsl:variable name="teiSource">
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>
@@ -197,7 +197,7 @@
     </xsl:template>
     <xsl:template match="tei:event">
         <!-- jeder einzelne eintrag -->
-        <xsl:variable name="e-typ" select="tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="tei:idno/@type" as="xs:string"/>
         <xsl:variable name="e-typ-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -462,6 +462,21 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
+                                <xsl:element name="li">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">
+                                            <xsl:text>_blank</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/>
+                                    </xsl:element>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
