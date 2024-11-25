@@ -376,7 +376,7 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'pmb' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
+                                test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -461,21 +461,6 @@
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
                             <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
@@ -544,7 +529,7 @@
                     <xsl:for-each select="tei:place/tei:placeName">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -611,7 +596,7 @@
                     <xsl:for-each select="descendant::tei:title">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
