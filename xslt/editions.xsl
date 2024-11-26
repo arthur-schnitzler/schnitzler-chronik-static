@@ -5,198 +5,113 @@
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
-    <!-- This documentation is late in being generated thus it might not fully reflect what is going on 
-    here. The idea is to call the templates in this file something like this:
-    <xsl:call-template name="mam:schnitzler-chronik">
-                                    <xsl:with-param name="datum-iso" select="$datum"/>
-                                    <xsl:with-param name="teiSource" select="$teiSource"/>
-                                </xsl:call-template>
-                                
-    where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it. a special 
-    adaption is made for the schnitzler-tagebuch because there the iso-date is filter enough. (see line 39–42)
-
-When adapting for different projects have a careful look at the following params and adapt accordingly
-    -->
-    <xsl:param name="fetch-locally" as="xs:boolean" select="true()"/>
-    <!-- for larger projects it is recommended to clone the complete repo and work with the chronik locally -->
-    <xsl:param name="schnitzler-tagebuch" as="xs:boolean" select="false()"/>
-    <!-- only true if this is the chronik of schnitzler-tagebuch-->
-    <xsl:param name="relevant-eventtypes"
-        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
-    <xsl:param name="relevant-uris" select="document('./utils/list-of-relevant-uris.xml')"/>
+    <xsl:import href="./partials/shared.xsl"/>
+    <xsl:import href="./partials/html_navbar.xsl"/>
+    <xsl:import href="./partials/html_head.xsl"/>
+    <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/LOD-idnos.xsl"/>
-    <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
-    <xsl:template name="mam:schnitzler-chronik">
-        <xsl:param name="datum-iso" as="xs:date"/>
-        <xsl:param name="teiSource" as="xs:string"/>
-        <xsl:variable name="link">
-            <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
+    <xsl:param name="relevant-eventtypes"
+        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,schnitzler-events,pmb,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+    <xsl:variable name="teiSource">
+        <xsl:value-of select="data(tei:TEI/@xml:id)"/>
+    </xsl:variable>
+    <xsl:variable name="link">
+        <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
+    </xsl:variable>
+    <xsl:variable name="doc_title">
+        <xsl:value-of select=".//tei:title[@level = 'a'][1]/text()"/>
+    </xsl:variable>
+    <xsl:variable name="datum-iso" select="descendant::tei:titleStmt/tei:title/@when-iso"
+        as="xs:date"/>
+    <xsl:template match="/">
+        <xsl:variable name="prev">
+            <xsl:value-of select="concat($datum-iso - xs:dayTimeDuration('P1D'), '.html')"/>
         </xsl:variable>
-        <xsl:variable name="fetchUrl" as="node()?">
-            <xsl:choose>
-                <xsl:when test="$fetch-locally">
-                    <xsl:copy-of
-                        select="document(concat('../../chronik-data/', $datum-iso, '.xml'))"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:copy-of
-                        select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum-iso, '.xml'))"
-                    />
-                </xsl:otherwise>
-            </xsl:choose>
+        <xsl:variable name="next">
+            <xsl:value-of select="concat($datum-iso + xs:dayTimeDuration('P1D'), '.html')"/>
         </xsl:variable>
-        <xsl:if test="$fetchUrl/*[1]">
-            <xsl:variable name="fetchURLohneTeiSource" as="node()">
-                <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:choose>
-                        <xsl:when test="not($schnitzler-tagebuch)">
-                            <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
-                            />
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
-                            />
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:element>
-            </xsl:variable>
-            <xsl:variable name="doc_title">
-                <xsl:value-of
-                    select="$fetchUrl/descendant::tei:titleStmt[1]/tei:title[@level = 'a'][1]/text()"
-                />
-            </xsl:variable>
-            <div id="chronik-modal-body">
-                <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik"/>
-                <div class="weiteres" style="margin-top:2.5em;">
-                    <xsl:variable name="datum-written" select="
-                            format-date($datum-iso, '[D1].&#160;[M1].&#160;[Y0001]',
-                            'en',
-                            'AD',
-                            'EN')"/>
-                    <xsl:variable name="wochentag">
-                        <xsl:choose>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Monday'">
-                                <xsl:text>Montag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Tuesday'">
-                                <xsl:text>Dienstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Wednesday'">
-                                <xsl:text>Mittwoch</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Thursday'">
-                                <xsl:text>Donnerstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Friday'">
-                                <xsl:text>Freitag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Saturday'">
-                                <xsl:text>Samstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Sunday'">
-                                <xsl:text>Sonntag</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>DATUMSFEHLER</xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:variable>
-                    <h3>Weiteres</h3>
-                    <ul>
-                        <li>
-                            <xsl:text>Zeitungen vom </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
-                            </xsl:element>
-                            <xsl:text> bei </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="style">
-                                    <xsl:text>color: black;</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:text>ANNO</xsl:text>
-                            </xsl:element>
-                        </li>
-                        <li>
-                            <xsl:text>Briefe vom </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
-                            </xsl:element>
-                            <xsl:text> bei </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="style">
-                                    <xsl:text>color: black;</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:text>correspSearch</xsl:text>
-                            </xsl:element>
-                        </li>
-                    </ul>
+        <xsl:variable name="doc_title">
+            <xsl:value-of select=".//tei:title[@level = 'a'][1]/text()"/>
+        </xsl:variable>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <html>
+            <head>
+                <xsl:call-template name="html_head">
+                    <xsl:with-param name="html_title" select="$doc_title"/>
+                </xsl:call-template>
+                <style>
+                    .navBarNavDropdown ul li:nth-child(2) {
+                        display: none !important;
+                    }</style>
+            </head>
+            <body class="page">
+                <div class="hfeed site" id="page">
+                    <xsl:call-template name="nav_bar"/>
+                    <div class="container-fluid">
+                        <div class="card" data-index="true">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-2 col-lg-2 col-sm-12">
+                                        <xsl:if test="ends-with($prev, '.html')">
+                                            <h1>
+                                                <a>
+                                                  <xsl:attribute name="href">
+                                                  <xsl:value-of select="$prev"/>
+                                                  </xsl:attribute>
+                                                  <i class="fas fa-chevron-left" title="prev"/>
+                                                </a>
+                                            </h1>
+                                        </xsl:if>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-sm-12">
+                                        <h1 align="center">
+                                            <xsl:value-of select="$doc_title"/>
+                                        </h1>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2 col-sm-12"
+                                        style="text-align:right">
+                                        <xsl:if test="ends-with($next, '.html')">
+                                            <h1>
+                                                <a>
+                                                  <xsl:attribute name="href">
+                                                  <xsl:value-of select="$next"/>
+                                                  </xsl:attribute>
+                                                  <i class="fas fa-chevron-right" title="next"/>
+                                                </a>
+                                            </h1>
+                                        </xsl:if>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <xsl:apply-templates select=".//tei:body"/>
+                            </div>
+                        </div>
+                    </div>
+                    <xsl:for-each select="//tei:back">
+                        <div class="tei-back">
+                            <xsl:apply-templates/>
+                        </div>
+                    </xsl:for-each>
+                    <xsl:call-template name="html_footer"/>
                 </div>
-            </div>
-        </xsl:if>
+                <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
+                <script type="text/javascript" src="js/run.js"/>
+                <script type="text/javascript" src="js/osd_scroll.js"/>
+            </body>
+        </html>
     </xsl:template>
-    <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
+    <xsl:template match="tei:p">
+        <p id="{local:makeId(.)}" class="yes-index">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:div">
+        <div id="{local:makeId(.)}" style="margin-top:1.5em;">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="tei:listEvent">
         <xsl:variable name="current-group" select="." as="node()"/>
         <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
@@ -216,8 +131,7 @@ When adapting for different projects have a careful look at the following params
                 </xsl:variable>
                 <xsl:variable name="e-typ-farbe-blass" select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
                 <div class="card mb-3" style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
-                    <div class="card-header d-flex justify-content-between align-items-center"
-                        style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
+                    <div class="card-header d-flex justify-content-between align-items-center">
                         <!-- das macht den Titel des jeweiligen Typ-Abschnitts -->
                         <xsl:element name="a">
                             <xsl:attribute name="class">
@@ -280,13 +194,10 @@ When adapting for different projects have a careful look at the following params
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
-        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
-            <xsl:apply-templates mode="desc"/>
-        </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:event">
         <!-- jeder einzelne eintrag -->
-        <xsl:variable name="e-typ" select="tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="tei:idno/@type" as="xs:string"/>
         <xsl:variable name="e-typ-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -298,60 +209,46 @@ When adapting for different projects have a careful look at the following params
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:if test="tei:head">
-            <p>
-                <xsl:choose>
-                    <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: </xsl:text>
-                                <xsl:value-of select="$e-typ-farbe"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="tei:idno[1]/text()"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: </xsl:text>
-                                <xsl:value-of select="$e-typ-farbe"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: </xsl:text>
-                                <xsl:value-of select="$e-typ-farbe"/>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </p>
-        </xsl:if>
+        <p>
+            <xsl:choose>
+                <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">
+                            <xsl:text>entry-title</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="tei:idno[1]/text()"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="tei:head/text()"/>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">
+                            <xsl:text>entry-title</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                            <xsl:text>_blank</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="tei:head/text()"/>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:element name="span">
+                        <xsl:attribute name="class">
+                            <xsl:text>entry-title</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="tei:head/text()"/>
+                    </xsl:element>
+                </xsl:otherwise>
+            </xsl:choose>
+        </p>
         <xsl:choose>
             <xsl:when test="tei:desc/child::*[1]">
                 <xsl:element name="ul">
@@ -372,6 +269,11 @@ When adapting for different projects have a careful look at the following params
                 </xsl:element>
             </xsl:when>
         </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:event/tei:desc" mode="text">
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="tei:event/tei:desc" mode="desc">
         <li>
