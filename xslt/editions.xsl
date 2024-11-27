@@ -493,9 +493,6 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of select="."/>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:text> </xsl:text>
@@ -561,9 +558,6 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of select="."/>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:text> </xsl:text>
@@ -648,9 +642,6 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of select="."/>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:text> </xsl:text>
