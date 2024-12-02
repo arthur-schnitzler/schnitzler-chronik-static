@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,6 +118,31 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 5.–11. Januar 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp641.html</idno>
+            </event>
+            <event when-iso="1929-01-10">
+               <head>Aufführung von Es liegt in der Luft, 10.1.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81258">Es liegt in der Luft</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb40">Theater in der Josefstadt</placeName>
+                        <location>
+                           <geo>48,209583 16,351111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/235773/</idno>
             </event>
             <event when-iso="1929-01-10">
                <head>Schnitzler, Heinrich an Schnitzler, Arthur [Briefe]</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -153,14 +153,83 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-03-20.html</idno>
             </event>
             <event when-iso="1929-03-20">
+               <head>Hotel Esplanade [Berlin]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/245/</idno>
+            </event>
+            <event when-iso="1929-03-20">
                <head>Berlin</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
             </event>
             <event when-iso="1929-03-20">
+               <head>Herbert-von-Karajan-Straße 15</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233325/</idno>
+            </event>
+            <event when-iso="1929-03-20">
+               <head>Lanzsch &amp; Co.</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/144055/</idno>
+            </event>
+            <event when-iso="1929-03-20">
                <head>Tagebuch von Clara Katharina Pollaczek, 19.–27. März 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp676.html</idno>
+            </event>
+            <event when-iso="1929-03-20">
+               <head>Aufführung von Herr So und So, 20.3.1929</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37549">Tribüne</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80078">Herr So und So</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1058">Tribüne</placeName>
+                        <location>
+                           <geo>52,51421 13,318595</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/235960/</idno>
+            </event>
+            <event when-iso="1929-03-20">
+               <head>Ausstellungsbesuch Ausstellung chinesischer Kunst, 20.3.1929</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb235949">Ausstellung chinesischer Kunst</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb235952">Palais Arnim</placeName>
+                        <location>
+                           <geo>52,515 13,3792</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/235955/</idno>
             </event>
             <event when-iso="1929-03-20">
                <head>Bondi, Lea an Schnitzler, Arthur [Briefe]</head>

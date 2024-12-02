@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,6 +133,48 @@
                <head>Nordwestbahnhof</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/202/</idno>
+            </event>
+            <event when-iso="1905-11-04">
+               <head>Premiere von Herbst; Er, sie und er; Der dankbare Julius; Die Medaille, 4.11.1905</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37080">Neues Deutsches Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81267">Herbst. Schauspiel in einem Akt</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb76622">Er, sie und er. Lustspiel in einem Akt</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb79519">Der dankbare Julius. Schwank in einem Akt</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb77316">Die Medaille. Komödie in einem Akt</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb91">Neues Deutsches Theater</placeName>
+                        <location>
+                           <geo>50,080556 14,432778</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/236640/</idno>
             </event>
          </listEvent>
       </body>

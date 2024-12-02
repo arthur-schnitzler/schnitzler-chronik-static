@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -135,6 +135,11 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-03-22.html</idno>
             </event>
             <event when-iso="1929-03-22">
+               <head>Hotel Esplanade [Berlin]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/245/</idno>
+            </event>
+            <event when-iso="1929-03-22">
                <head>Berlin</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
@@ -150,9 +155,19 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90508/</idno>
             </event>
             <event when-iso="1929-03-22">
-               <head>Faraday Weg</head>
+               <head>Faradayweg</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92232/</idno>
+            </event>
+            <event when-iso="1929-03-22">
+               <head>Faradayweg 16</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235968/</idno>
+            </event>
+            <event when-iso="1929-03-22">
+               <head>Zum Austernmeyer</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235978/</idno>
             </event>
             <event when-iso="1929-03-22">
                <head>Arthur Schnitzler an Clara Katharina Pollaczek, 22. März 1929</head>
@@ -166,6 +181,31 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 19.–27. März 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp676.html</idno>
+            </event>
+            <event when-iso="1929-03-22">
+               <head>Aufführung von Wann kommst du wieder?, 22.3.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80971">Wann kommst du wieder?</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb235972">Die Komödie</placeName>
+                        <location>
+                           <geo>52,50189 13,32321</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/235974/</idno>
             </event>
             <event when-iso="1929-03-22">
                <head>Kelemen, ... an Schnitzler, Arthur [Briefe]</head>

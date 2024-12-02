@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,9 +129,44 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/705/</idno>
             </event>
             <event when-iso="1929-04-26">
+               <head>Sanatorium Loew</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/89/</idno>
+            </event>
+            <event when-iso="1929-04-26">
                <head>Tagebuch von Clara Katharina Pollaczek, 22.–27. April 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp681.html</idno>
+            </event>
+            <event when-iso="1929-04-26">
+               <head>Aufführung von Anna Karenina, 26.4.1929</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80637">Anna Karenina</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/236117/</idno>
             </event>
             <event when-iso="1929-04-26">
                <head>Decsey, Ernst an Schnitzler, Arthur [Briefe]</head>

@@ -58,6 +58,45 @@
  "Wien"
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/234418/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/234418/",
+ "head":
+ "Nordbahnstraße 52–54"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168940/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168940/",
+ "head":
+ "Edmund-Weiß-Gasse 7"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/516/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/516/",
+ "head":
+ "Musikverein"
+}, {
+ "type":
  "schnitzler-events",
  "color":
  "#9BC53D",
@@ -68,13 +107,13 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209368/",
  "head":
- "Konzert des Tonkünstlerorchesters, 17.4.1905",
+ "Konzert der Vereinigung schaffender Tonkünstler, 17.4.1905",
  "desc":
 {"listOrg":
   [
  {
  "orgName":
- "Wiener Tonkünstler-Orchester",
+ "Vereinigung schaffender Tonkünstler in Wien",
  "ref":
  ""}
  ],
@@ -84,6 +123,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

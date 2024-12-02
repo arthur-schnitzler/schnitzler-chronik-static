@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,9 +129,29 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-03-14.html</idno>
             </event>
             <event when-iso="1929-03-14">
+               <head>Hotel Esplanade [Berlin]</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/245/</idno>
+            </event>
+            <event when-iso="1929-03-14">
                <head>Berlin</head>
                <desc/>
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1929-03-14">
+               <head>Bank für Auswärtigen Handel</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/493/</idno>
+            </event>
+            <event when-iso="1929-03-14">
+               <head>Deutsches Theater Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+            </event>
+            <event when-iso="1929-03-14">
+               <head>Zum schwarzen Ferkel</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199896/</idno>
             </event>
             <event when-iso="1929-03-14">
                <head>Tagebuch von Clara Katharina Pollaczek, 11.–18. März 1929</head>
@@ -149,6 +169,36 @@
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp651.html</idno>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp652.html</idno>
+            </event>
+            <event when-iso="1929-03-14">
+               <head>Aufführung von Die lustigen Weiber von Windsor, 14.3.1929</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76822">Die lustigen Weiber von Windsor</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb3">Deutsches Theater Berlin</placeName>
+                        <location>
+                           <geo>52,524444 13,382222</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/235917/</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,6 +127,32 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 4. Juli 1929 – 11. Juli 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp707.html</idno>
+            </event>
+            <event when-iso="1929-07-08">
+               <head>Privates Konzert von Die Dreigroschenoper, 8.7.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb53718">Die Dreigroschenoper</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb22728">Pollak, Frieda</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb14850">Cappellini, Arnoldo</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/236417/</idno>
             </event>
          </listEvent>
       </body>

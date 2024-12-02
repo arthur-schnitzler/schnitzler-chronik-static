@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-11-26.">26.11.2024</date>
+            <date when-iso="2024-12-02.">02.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,11 +99,26 @@
                <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
             </event>
             <event when-iso="1905-04-17">
-               <head>Konzert des Tonkünstlerorchesters, 17.4.1905</head>
+               <head>Nordbahnstraße 52–54</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234418/</idno>
+            </event>
+            <event when-iso="1905-04-17">
+               <head>Edmund-Weiß-Gasse 7</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168940/</idno>
+            </event>
+            <event when-iso="1905-04-17">
+               <head>Musikverein</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/516/</idno>
+            </event>
+            <event when-iso="1905-04-17">
+               <head>Konzert der Vereinigung schaffender Tonkünstler, 17.4.1905</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
-                        <orgName key="pmb183617">Wiener Tonkünstler-Orchester</orgName>
+                        <orgName key="pmb234865">Vereinigung schaffender Tonkünstler in Wien</orgName>
                      </org>
                   </listOrg>
                   <listPerson>
@@ -111,6 +126,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209368/</idno>
             </event>
