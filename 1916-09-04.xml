@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,34 +118,35 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-09-04.html</idno>
             </event>
             <event when-iso="1916-09-04">
-               <head>Altaussee</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34401/</idno>
+               <head corresp="#pmb34401">Altaussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb34387">
+                        <placeName>Villa Annerl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-09-04">
-               <head>Villa Annerl</head>
+               <head corresp="#pmb90282">Augstsee</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34387/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-09-04">
-               <head>Augstsee</head>
+               <head corresp="#pmb52428">Loser</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90282/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-09-04">
-               <head>Loser</head>
+               <head corresp="#pmb91167">Loserhütte</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/52428/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-09-04">
-               <head>Loserhütte</head>
+               <head corresp="#pmb92378">Löcker</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91167/</idno>
-            </event>
-            <event when-iso="1916-09-04">
-               <head>Löcker</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92378/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-09-04">
                <head>Schnitzler, Arthur an Sparkasse &lt;Aussee&gt; [Briefe]</head>

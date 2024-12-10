@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,19 +91,31 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-09-02.html</idno>
             </event>
             <event when-iso="1929-09-02">
-               <head>Caux</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90460/</idno>
+               <head corresp="#pmb90460">Caux</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb147147">
+                        <placeName>Grand Hotel Excelsior Regina</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-09-02">
-               <head>Grand Hotel Excelsior Regina</head>
+               <head corresp="#pmb40481">Schloss Chillon</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/147147/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-09-02">
-               <head>Schloss Chillon</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40481/</idno>
+               <head corresp="#pmb52051">Territet</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb53208">
+                        <placeName>Hôtel des Alpes-Grand Hôtel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-09-02">
                <head>Tagebuch von Clara Katharina Pollaczek, 31. August – 3. September 1929</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,29 +108,26 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-06.html</idno>
             </event>
             <event when-iso="1914-05-06">
-               <head>Florenz</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/263/</idno>
+               <head corresp="#pmb263">Florenz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb231514">
+                        <placeName>Bargello</placeName>
+                     </place>
+                     <place corresp="#pmb231518">
+                        <placeName>Palazzo Pitti</placeName>
+                     </place>
+                     <place corresp="#pmb231525">
+                        <placeName>Viali dei Colli [Florenz]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-05-06">
-               <head>Bargello</head>
+               <head corresp="#pmb48621">Fiesole</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231514/</idno>
-            </event>
-            <event when-iso="1914-05-06">
-               <head>Palazzo Pitti</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231518/</idno>
-            </event>
-            <event when-iso="1914-05-06">
-               <head>Fiesole</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1193/</idno>
-            </event>
-            <event when-iso="1914-05-06">
-               <head>Viali dei Colli [Florenz]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231525/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-05-06">
                <head>Meyrink, Gustav an Schnitzler, Arthur [Briefe]</head>

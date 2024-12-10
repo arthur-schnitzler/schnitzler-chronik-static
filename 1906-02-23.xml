@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,19 +103,54 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-23.html</idno>
             </event>
             <event when-iso="1906-02-23">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb399">
+                        <placeName>Hotel Continental [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb234614">
+                        <placeName>F. W. Borchardt</placeName>
+                     </place>
+                     <place corresp="#pmb237370">
+                        <placeName>Kronprinzenufer 7/In den Zelten 14</placeName>
+                     </place>
+                     <place corresp="#pmb232200">
+                        <placeName>Hardenbergstraße 24</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-02-23">
-               <head>Hotel Continental [Berlin]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/399/</idno>
-            </event>
-            <event when-iso="1906-02-23">
-               <head>F. W. Borchardt</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234614/</idno>
+               <head>Generalprobe von Der Ruf des Lebens, 23.2.1906</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Generalprobe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb18">Lessing-Theater</placeName>
+                        <location>
+                           <geo>52,5225 13,376389</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/237365/</idno>
             </event>
             <event when-iso="1906-02-23">
                <head>Lutz, Lea von an Schnitzler, Arthur [Briefe]</head>

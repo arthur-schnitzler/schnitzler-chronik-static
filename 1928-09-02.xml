@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -141,54 +141,43 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-09-02.html</idno>
             </event>
             <event when-iso="1928-09-02">
-               <head>Hotel Rheinischer Hof München</head>
+               <head corresp="#pmb91016">Kaufingerstraße</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/806/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-09-02">
-               <head>Mauerkircherstraße</head>
+               <head corresp="#pmb91369">Nymphenburg</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/51263/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-09-02">
-               <head>Kaufingerstraße</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91016/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>Nymphenburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91369/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>Pschorrbräu</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92467/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>München</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>Bayerisches Nationalmuseum</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233217/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>Kriegerdenkmal im Hofgarten</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233220/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>Hotel Vier Jahreszeiten</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/485/</idno>
-            </event>
-            <event when-iso="1928-09-02">
-               <head>Restaurant Bürgerbräu</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233224/</idno>
+               <head corresp="#pmb45258">München</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb806">
+                        <placeName>Hotel Rheinischer Hof München</placeName>
+                     </place>
+                     <place corresp="#pmb51263">
+                        <placeName>Mauerkircherstraße</placeName>
+                     </place>
+                     <place corresp="#pmb92467">
+                        <placeName>Pschorrbräu</placeName>
+                     </place>
+                     <place corresp="#pmb233217">
+                        <placeName>Bayerisches Nationalmuseum</placeName>
+                     </place>
+                     <place corresp="#pmb233220">
+                        <placeName>Kriegerdenkmal im Hofgarten</placeName>
+                     </place>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
+                     <place corresp="#pmb233224">
+                        <placeName>Restaurant Bürgerbräu</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-09-02">
                <head>Tagebuch von Clara Katharina Pollaczek, 31. August – 7. September 1928</head>

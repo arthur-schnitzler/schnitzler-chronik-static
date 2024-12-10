@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,59 +92,46 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-03.html</idno>
             </event>
             <event when-iso="1903-06-03">
-               <head>Vicenza</head>
+               <head corresp="#pmb44151">Vicenza</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/929/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-06-03">
-               <head>Mailand</head>
+               <head corresp="#pmb886">Mailand</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/886/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-06-03">
-               <head>Verona</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/900/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>Teatro Romano di Verona</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232884/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>Tomba di Giulietta</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232891/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>Arche scaligere</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232897/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>Villa Giusti</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232902/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>Verona Arena</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/201000/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>Caffè Vittorio Emanuele</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232916/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>San Zeno Maggiore</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232922/</idno>
-            </event>
-            <event when-iso="1903-06-03">
-               <head>San Bernardino</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232925/</idno>
+               <head corresp="#pmb44153">Verona</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb232884">
+                        <placeName>Teatro Romano di Verona</placeName>
+                     </place>
+                     <place corresp="#pmb232891">
+                        <placeName>Tomba di Giulietta</placeName>
+                     </place>
+                     <place corresp="#pmb232897">
+                        <placeName>Arche scaligere</placeName>
+                     </place>
+                     <place corresp="#pmb232902">
+                        <placeName>Villa Giusti</placeName>
+                     </place>
+                     <place corresp="#pmb201000">
+                        <placeName>Verona Arena</placeName>
+                     </place>
+                     <place corresp="#pmb232916">
+                        <placeName>Caffè Vittorio Emanuele</placeName>
+                     </place>
+                     <place corresp="#pmb232922">
+                        <placeName>San Zeno Maggiore</placeName>
+                     </place>
+                     <place corresp="#pmb232925">
+                        <placeName>San Bernardino</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

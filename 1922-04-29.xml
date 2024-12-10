@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -135,24 +135,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-04-29.html</idno>
             </event>
             <event when-iso="1922-04-29">
-               <head>Amsterdam</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40709/</idno>
-            </event>
-            <event when-iso="1922-04-29">
-               <head>Johannes Verhulststraat</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92581/</idno>
-            </event>
-            <event when-iso="1922-04-29">
-               <head>Concertgebouw</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/183427/</idno>
-            </event>
-            <event when-iso="1922-04-29">
-               <head>Restaurant van Laar</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185344/</idno>
+               <head corresp="#pmb40709">Amsterdam</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb92581">
+                        <placeName>Johannes Verhulststraat</placeName>
+                     </place>
+                     <place corresp="#pmb183427">
+                        <placeName>Concertgebouw</placeName>
+                     </place>
+                     <place corresp="#pmb185344">
+                        <placeName>Restaurant van Laar</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-04-29">
                <head>Lesung von Der Mörder, Weihnachts-Einkäufe, Die letzten Masken, Excentric, 29.4.1922</head>

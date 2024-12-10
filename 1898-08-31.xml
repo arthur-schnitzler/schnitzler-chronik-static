@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,39 +124,37 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00842.html</idno>
             </event>
             <event when-iso="1898-08-31">
-               <head>Bologna</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/896/</idno>
+               <head corresp="#pmb896">Bologna</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb200990">
+                        <placeName>Cattedrale di San Pietro</placeName>
+                     </place>
+                     <place corresp="#pmb200993">
+                        <placeName>Museo civico archeologico</placeName>
+                     </place>
+                     <place corresp="#pmb147771">
+                        <placeName>Pinacoteca Nazionale di Bologna</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-08-31">
-               <head>Ferrara</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/14412/</idno>
+               <head corresp="#pmb44212">Ferrara</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb200997">
+                        <placeName>Castello Estense</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-08-31">
-               <head>Padua</head>
+               <head corresp="#pmb44156">Padua</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/899/</idno>
-            </event>
-            <event when-iso="1898-08-31">
-               <head>Cattedrale di San Pietro</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200990/</idno>
-            </event>
-            <event when-iso="1898-08-31">
-               <head>Museo civico archeologico</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200993/</idno>
-            </event>
-            <event when-iso="1898-08-31">
-               <head>Pinacoteca Nazionale di Bologna</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/147771/</idno>
-            </event>
-            <event when-iso="1898-08-31">
-               <head>Castello Estense</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200997/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-08-31">
                <head>Arthur Schnitzler an Marie Reinhard, 31. 8. 1898</head>

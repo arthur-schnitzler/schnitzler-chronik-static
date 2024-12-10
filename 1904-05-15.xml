@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -93,24 +93,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-15.html</idno>
             </event>
             <event when-iso="1904-05-15">
-               <head>Palermo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/901/</idno>
-            </event>
-            <event when-iso="1904-05-15">
-               <head>Grand Hotel et des Palmes</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234055/</idno>
-            </event>
-            <event when-iso="1904-05-15">
-               <head>Palazzo dei Normanni</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234058/</idno>
-            </event>
-            <event when-iso="1904-05-15">
-               <head>Parco della Favorita</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234061/</idno>
+               <head corresp="#pmb901">Palermo</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb234055">
+                        <placeName>Grand Hotel et des Palmes</placeName>
+                     </place>
+                     <place corresp="#pmb234058">
+                        <placeName>Palazzo dei Normanni</placeName>
+                     </place>
+                     <place corresp="#pmb234061">
+                        <placeName>Parco della Favorita</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

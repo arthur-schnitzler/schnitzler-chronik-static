@@ -106,40 +106,86 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/96/",
+ "entity/237448/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/96/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237448/",
  "head":
- "Meissl &amp; Schadn"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/15/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/15/",
- "head":
- "Oper"
+ "Probe von Zum großen Wurstel, Die Fahrt über den Stix, Mamzell Courasche, 14.3.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel. Burleske in einem Akt",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Mamzell Courasche. Ein Bild aus dem Dreißigjährigen Krieg",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Die Fahrt über den Stix. Satire",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -152,7 +198,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209420/",
  "head":
- "Aufführung von Die Entführung aus dem Serail KV 384, 14.3.1906",
+ "Aufführung von Die Entführung aus dem Serail [KV 384], 14.3.1906",
  "desc":
 {"listOrg":
   [
@@ -166,7 +212,7 @@
   [
  {
  "title":
- "Die Entführung aus dem Serail KV 384",
+ "Die Entführung aus dem Serail [KV 384]",
  "ref":
  ""}
  ],

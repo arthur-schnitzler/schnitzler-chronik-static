@@ -76,27 +76,34 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/96/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/96/",
  "head":
- "Meissl &amp; Schadn"
+ "Tiefer Graben 23"
 }, {
  "type":
  "schnitzler-events",
@@ -109,13 +116,18 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209400/",
  "head":
- "Auftritt von Quartett Rosé, 18.12.1905",
+ "2. Konzert des Quartett Rosé, 18.12.1905",
  "desc":
 {"listOrg":
   [
  {
  "orgName":
  "Rosé-Quartett",
+ "ref":
+ ""}
+ ,  {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
  "ref":
  ""}
  ],
@@ -125,6 +137,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }] 

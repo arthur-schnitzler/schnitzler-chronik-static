@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,39 +91,30 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-05-30.html</idno>
             </event>
             <event when-iso="1903-05-30">
-               <head>Venedig</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
-            </event>
-            <event when-iso="1903-05-30">
-               <head>Hotel Centrale Vapore</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50910/</idno>
-            </event>
-            <event when-iso="1903-05-30">
-               <head>Lido</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/259/</idno>
-            </event>
-            <event when-iso="1903-05-30">
-               <head>Piazza San Marco</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/261/</idno>
-            </event>
-            <event when-iso="1903-05-30">
-               <head>Gallerie dell’Accademia</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/43220/</idno>
-            </event>
-            <event when-iso="1903-05-30">
-               <head>San Lazzaro degli Armeni</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232810/</idno>
-            </event>
-            <event when-iso="1903-05-30">
-               <head>Ristorante Pilsen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/184980/</idno>
+               <head corresp="#pmb462">Venedig</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb50910">
+                        <placeName>Hotel Centrale Vapore</placeName>
+                     </place>
+                     <place corresp="#pmb259">
+                        <placeName>Lido</placeName>
+                     </place>
+                     <place corresp="#pmb261">
+                        <placeName>Piazza San Marco</placeName>
+                     </place>
+                     <place corresp="#pmb43220">
+                        <placeName>Gallerie dell’Accademia</placeName>
+                     </place>
+                     <place corresp="#pmb232810">
+                        <placeName>San Lazzaro degli Armeni</placeName>
+                     </place>
+                     <place corresp="#pmb184980">
+                        <placeName>Ristorante Pilsen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

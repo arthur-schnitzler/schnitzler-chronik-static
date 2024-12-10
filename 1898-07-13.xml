@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,19 +86,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-13.html</idno>
             </event>
             <event when-iso="1898-07-13">
-               <head>Graz</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/860/</idno>
-            </event>
-            <event when-iso="1898-07-13">
-               <head>Hilmteich</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192816/</idno>
-            </event>
-            <event when-iso="1898-07-13">
-               <head>Restaurant Thalia</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200840/</idno>
+               <head corresp="#pmb860">Graz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192816">
+                        <placeName>Hilmteich</placeName>
+                     </place>
+                     <place corresp="#pmb200840">
+                        <placeName>Restaurant Thalia</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

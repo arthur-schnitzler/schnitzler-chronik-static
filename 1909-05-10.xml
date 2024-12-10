@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,19 +127,20 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01842.html</idno>
             </event>
             <event when-iso="1909-05-10">
-               <head>Edlach</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/470/</idno>
+               <head corresp="#pmb470">Edlach</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb714">
+                        <placeName>Hotel Edlacherhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-05-10">
-               <head>Hotel Edlacherhof</head>
+               <head corresp="#pmb44982">Kurhaus Rudolfsbad</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/714/</idno>
-            </event>
-            <event when-iso="1909-05-10">
-               <head>Kurhaus Rudolfsbad</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44982/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-05-10">
                <head>Bahr an Schnitzler, 10. 5. 1909</head>

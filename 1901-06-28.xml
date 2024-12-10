@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -139,24 +139,23 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01137.html</idno>
             </event>
             <event when-iso="1901-06-28">
-               <head>Innsbruck</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/867/</idno>
+               <head corresp="#pmb867">Innsbruck</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb41093">
+                        <placeName>Hofkirche</placeName>
+                     </place>
+                     <place corresp="#pmb231579">
+                        <placeName>Hofgarten [Innsbruck]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-06-28">
-               <head>Landeck</head>
+               <head corresp="#pmb91111">Landeck</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91111/</idno>
-            </event>
-            <event when-iso="1901-06-28">
-               <head>Hofkirche</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41093/</idno>
-            </event>
-            <event when-iso="1901-06-28">
-               <head>Hofgarten [Innsbruck]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231579/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

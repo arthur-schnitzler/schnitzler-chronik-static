@@ -61,27 +61,72 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "VII., Neubau",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/20/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/20/",
  "head":
- "Volkstheater"
+ "Gregor-Mendel-Straße 34"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237138/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237138/",
+ "head":
+ "Probe von Im Spiel der Sommerlüfte [2. Akt], 26.11.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

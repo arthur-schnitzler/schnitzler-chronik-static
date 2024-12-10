@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,34 +85,27 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-08.html</idno>
             </event>
             <event when-iso="1897-04-08">
-               <head>München</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
-            </event>
-            <event when-iso="1897-04-08">
-               <head>Hotel Marienbad</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/401/</idno>
-            </event>
-            <event when-iso="1897-04-08">
-               <head>Englischer Garten [München]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/706/</idno>
-            </event>
-            <event when-iso="1897-04-08">
-               <head>Alte Pinakothek</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/511/</idno>
-            </event>
-            <event when-iso="1897-04-08">
-               <head>Glyptothek</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/102/</idno>
-            </event>
-            <event when-iso="1897-04-08">
-               <head>Neue Pinakothek</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/101/</idno>
+               <head corresp="#pmb45258">München</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb401">
+                        <placeName>Hotel Marienbad</placeName>
+                     </place>
+                     <place corresp="#pmb706">
+                        <placeName>Englischer Garten [München]</placeName>
+                     </place>
+                     <place corresp="#pmb511">
+                        <placeName>Alte Pinakothek</placeName>
+                     </place>
+                     <place corresp="#pmb102">
+                        <placeName>Glyptothek</placeName>
+                     </place>
+                     <place corresp="#pmb101">
+                        <placeName>Neue Pinakothek</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,29 +108,29 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-21.html</idno>
             </event>
             <event when-iso="1923-05-21">
-               <head>Stockholm</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+               <head corresp="#pmb1119">Stockholm</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb186914">
+                        <placeName>Operakällaren</placeName>
+                     </place>
+                     <place corresp="#pmb185946">
+                        <placeName>Dramaten</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-21">
-               <head>Drottningholm</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/25933/</idno>
-            </event>
-            <event when-iso="1923-05-21">
-               <head>Drottningholms Slottsteater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/62289/</idno>
-            </event>
-            <event when-iso="1923-05-21">
-               <head>Operakällaren</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186914/</idno>
-            </event>
-            <event when-iso="1923-05-21">
-               <head>Dramaten</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185946/</idno>
+               <head corresp="#pmb62282">Drottningholm</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb62289">
+                        <placeName>Drottningholms Slottsteater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-21">
                <head>Aufführung von Es war einmal, 21.5.1923</head>

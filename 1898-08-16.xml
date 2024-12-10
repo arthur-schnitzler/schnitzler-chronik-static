@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,24 +94,23 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-16.html</idno>
             </event>
             <event when-iso="1898-08-16">
-               <head>Lausanne</head>
+               <head corresp="#pmb50004">Lausanne</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/8055/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-08-16">
-               <head>Genf</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/562/</idno>
-            </event>
-            <event when-iso="1898-08-16">
-               <head>Hôtel de la Paix [Genf]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200945/</idno>
-            </event>
-            <event when-iso="1898-08-16">
-               <head>Eaux-Vives</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185724/</idno>
+               <head corresp="#pmb562">Genf</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb200945">
+                        <placeName>Hôtel de la Paix [Genf]</placeName>
+                     </place>
+                     <place corresp="#pmb185724">
+                        <placeName>Eaux-Vives</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-08-16">
                <head>Schnitzler, Hugo von Hofmannsthal, Gisela und Markus Hajek schreiben eine nicht erhaltene Postkarte an Paul Goldmann, 16. oder 17. 8. 1898</head>

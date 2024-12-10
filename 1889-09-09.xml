@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,29 +91,46 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-09-09.html</idno>
             </event>
             <event when-iso="1889-09-09">
-               <head>Thalhof</head>
+               <head corresp="#pmb796">Thalhof</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/796/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1889-09-09">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1889-09-09">
-               <head>Westbahnhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/184918/</idno>
-            </event>
-            <event when-iso="1889-09-09">
-               <head>Zum braunen Hirschen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185523/</idno>
-            </event>
-            <event when-iso="1889-09-09">
-               <head>Prater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/8/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb65">
+                        <placeName>XV., Rudolfsheim-Fünfhaus</placeName>
+                        <listPlace>
+                           <place corresp="#pmb184918">
+                              <placeName>Westbahnhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb8">
+                              <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb185523">
+                                    <placeName>Zum braunen Hirschen</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168768">
+                              <placeName>Wohnung und Ordination Arthur Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1889-09-09">
                <head>Arthur Schnitzler an Johann Schnitzler, Louise Schnitzler, 9. 9. 1889</head>

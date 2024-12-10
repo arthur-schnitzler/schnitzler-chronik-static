@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,29 +80,24 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-10.html</idno>
             </event>
             <event when-iso="1905-03-10">
-               <head>Palermo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/901/</idno>
-            </event>
-            <event when-iso="1905-03-10">
-               <head>Convento dei Cappuccini</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235020/</idno>
-            </event>
-            <event when-iso="1905-03-10">
-               <head>San Giovanni degli Eremiti</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235023/</idno>
-            </event>
-            <event when-iso="1905-03-10">
-               <head>Orto botanico di Palermo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234067/</idno>
-            </event>
-            <event when-iso="1905-03-10">
-               <head>Villa Giulia</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234064/</idno>
+               <head corresp="#pmb901">Palermo</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb235020">
+                        <placeName>Convento dei Cappuccini</placeName>
+                     </place>
+                     <place corresp="#pmb235023">
+                        <placeName>San Giovanni degli Eremiti</placeName>
+                     </place>
+                     <place corresp="#pmb234067">
+                        <placeName>Orto botanico di Palermo</placeName>
+                     </place>
+                     <place corresp="#pmb234064">
+                        <placeName>Villa Giulia</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

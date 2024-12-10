@@ -262,53 +262,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/127/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/127/",
- "head":
- "Hotel Bristol Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/334/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/334/",
- "head":
- "Schiller-Theater"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/232189/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/232189/",
- "head":
- "Wernerstraße 16"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Bristol Berlin",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Schiller-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Wernerstraße 16",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

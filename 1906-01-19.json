@@ -61,27 +61,25 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/43/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/43/",
- "head":
- "Café Imperial"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -94,9 +92,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209409/",
  "head":
- "Klavierkonzert Vera Schapira, 19.1.1906",
+ "Klavierkonzert von Vera Schapira, 19.1.1906",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -107,6 +113,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

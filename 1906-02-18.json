@@ -81,40 +81,44 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/866/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/866/",
  "head":
- "Dresden"
+ "Dresden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Bellevue [Dresden]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/399/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
- "head":
- "Hotel Continental [Berlin]"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel und Restaurant »Prinz Wilhelm«",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

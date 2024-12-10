@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,24 +80,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-04-12.html</idno>
             </event>
             <event when-iso="1901-04-12">
-               <head>Florenz</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/263/</idno>
-            </event>
-            <event when-iso="1901-04-12">
-               <head>Uffizien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/970/</idno>
-            </event>
-            <event when-iso="1901-04-12">
-               <head>Santa Maria del Carmine</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231500/</idno>
-            </event>
-            <event when-iso="1901-04-12">
-               <head>Basilica di San Lorenzo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231503/</idno>
+               <head corresp="#pmb263">Florenz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb970">
+                        <placeName>Uffizien</placeName>
+                     </place>
+                     <place corresp="#pmb231500">
+                        <placeName>Santa Maria del Carmine</placeName>
+                     </place>
+                     <place corresp="#pmb231503">
+                        <placeName>Basilica di San Lorenzo</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-04-12">
                <head>Arthur Schnitzler an Olga Schnitzler, 12. 4. 1901</head>

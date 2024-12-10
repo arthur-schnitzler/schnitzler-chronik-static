@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,19 +107,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-07-21.html</idno>
             </event>
             <event when-iso="1931-07-21">
-               <head>Südbahnhotel [Semmering]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/413/</idno>
-            </event>
-            <event when-iso="1931-07-21">
-               <head>Semmering</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
-            </event>
-            <event when-iso="1931-07-21">
-               <head>Hochstraße [Semmering]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/236041/</idno>
+               <head corresp="#pmb189">Semmering</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb413">
+                        <placeName>Südbahnhotel [Semmering]</placeName>
+                     </place>
+                     <place corresp="#pmb236041">
+                        <placeName>Hochstraße [Semmering]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-07-21">
                <head>Tagebuch von Clara Katharina Pollaczek, 19.–21. Juli 1931</head>

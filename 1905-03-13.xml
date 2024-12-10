@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,34 +133,31 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01507.html</idno>
             </event>
             <event when-iso="1905-03-13">
-               <head>Korfu</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/455/</idno>
+               <head corresp="#pmb41212">Korfu</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb235038">
+                        <placeName>Achilleion</placeName>
+                     </place>
+                     <place corresp="#pmb235049">
+                        <placeName>Kanoni</placeName>
+                     </place>
+                     <place corresp="#pmb235052">
+                        <placeName>Mon Repos</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-03-13">
-               <head>Achilleion</head>
+               <head corresp="#pmb235041">Alte Festung</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235038/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-03-13">
-               <head>Alte Festung</head>
+               <head corresp="#pmb235046">Grand Hotel Saint Georges</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235041/</idno>
-            </event>
-            <event when-iso="1905-03-13">
-               <head>Grand Hotel Saint Georges</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235046/</idno>
-            </event>
-            <event when-iso="1905-03-13">
-               <head>Kanoni</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235049/</idno>
-            </event>
-            <event when-iso="1905-03-13">
-               <head>Mon Repos</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235052/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

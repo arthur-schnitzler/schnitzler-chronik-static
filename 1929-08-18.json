@@ -83,40 +83,39 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XV., Rudolfsheim-Fünfhaus",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/184918/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/184918/",
  "head":
- "Westbahnhof"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/195980/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/195980/",
- "head":
- "Ruprechtskirche"
+ "Gregor-Mendel-Straße 34"
 }, {
  "type":
  "pollaczek",
@@ -130,6 +129,51 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp713.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 17.–19. August 1929"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/236902/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/236902/",
+ "head":
+ "Hochzeit von Sol Liptzin und Anna Ohrenstein, 18.8.1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sol Liptzin",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Anna Ohrenstein",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Stadttempel",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

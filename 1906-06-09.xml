@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -151,14 +151,39 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03424.html</idno>
             </event>
             <event when-iso="1906-06-09">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1906-06-09">
-               <head>Zum Weingartl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/97/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb56">
+                        <placeName>VI., Mariahilf</placeName>
+                        <listPlace>
+                           <place corresp="#pmb97">
+                              <placeName>Zum Weingartl</placeName>
+                           </place>
+                           <place corresp="#pmb37">
+                              <placeName>Theater an der Wien</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb199663">
+                              <placeName>Museum für Angewandte Kunst</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168940">
+                              <placeName>Edmund-Weiß-Gasse 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-06-09">
                <head>Konservatoriumsvorstellung, 9.6.1906</head>
@@ -173,6 +198,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
+                        <location>
+                           <geo>48,19941 16,3642</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209439/</idno>
             </event>

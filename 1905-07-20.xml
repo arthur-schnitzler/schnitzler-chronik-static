@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -157,29 +157,31 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03000.html</idno>
             </event>
             <event when-iso="1905-07-20">
-               <head>Reichenau an der Rax</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/483/</idno>
+               <head corresp="#pmb483">Reichenau an der Rax</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb44982">
+                        <placeName>Kurhaus Rudolfsbad</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-20">
-               <head>Kurhaus Rudolfsbad</head>
+               <head corresp="#pmb52353">Hochschwab</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44982/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-20">
-               <head>Hochschwab</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/52353/</idno>
-            </event>
-            <event when-iso="1905-07-20">
-               <head>Fölz</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90643/</idno>
-            </event>
-            <event when-iso="1905-07-20">
-               <head>Hotel Hochschwab</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/142510/</idno>
+               <head corresp="#pmb90643">Fölz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb142510">
+                        <placeName>Hotel Hochschwab</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

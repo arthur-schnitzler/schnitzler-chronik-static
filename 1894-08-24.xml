@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,29 +100,29 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-08-24.html</idno>
             </event>
             <event when-iso="1894-08-24">
-               <head>Bad Ischl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb414">
+                        <placeName>Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
+                     </place>
+                     <place corresp="#pmb40324">
+                        <placeName>Hotel Bauer</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1894-08-24">
-               <head>Hotel und Pension Rudolfshöhe (Leopold Petter)</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/414/</idno>
-            </event>
-            <event when-iso="1894-08-24">
-               <head>Hotel Bauer</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40324/</idno>
-            </event>
-            <event when-iso="1894-08-24">
-               <head>Friedhof Hallstatt</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/195120/</idno>
-            </event>
-            <event when-iso="1894-08-24">
-               <head>Hallstatt</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/39671/</idno>
+               <head corresp="#pmb39671">Hallstatt</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb195120">
+                        <placeName>Friedhof Hallstatt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

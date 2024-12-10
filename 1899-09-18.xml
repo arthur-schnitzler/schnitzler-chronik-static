@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -148,24 +148,32 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02682.html</idno>
             </event>
             <event when-iso="1899-09-18">
-               <head>Nürnberg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44172/</idno>
+               <head corresp="#pmb44172">Nürnberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb88963">
+                        <placeName>Hotel Deutscher Kaiser</placeName>
+                     </place>
+                     <place corresp="#pmb199200">
+                        <placeName>Germanisches Nationalmuseum</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1899-09-18">
-               <head>Hotel Deutscher Kaiser</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/88963/</idno>
-            </event>
-            <event when-iso="1899-09-18">
-               <head>Germanisches Nationalmuseum</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199200/</idno>
-            </event>
-            <event when-iso="1899-09-18">
-               <head>Nürnberg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44172/</idno>
+               <head corresp="#pmb44172">Nürnberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb88963">
+                        <placeName>Hotel Deutscher Kaiser</placeName>
+                     </place>
+                     <place corresp="#pmb199200">
+                        <placeName>Germanisches Nationalmuseum</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1899-09-18">
                <head>Private Lesung von Der Schleier der Beatrice, 18.9.1899</head>

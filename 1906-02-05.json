@@ -220,27 +220,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/399/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
- "head":
- "Hotel Continental [Berlin]"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kronprinzenufer 7/In den Zelten 14",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-bahr",
@@ -330,6 +333,72 @@
  "Monistenbund",
  "ref":
  "pmb29764"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237283/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237283/",
+ "head":
+ "Arrangierprobe von Der Ruf des Lebens, 5.2.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Margarete Kraus",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Karl Walser",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
  ]
 }
 }] 

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,29 +120,44 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-05-15.html</idno>
             </event>
             <event when-iso="1892-05-15">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb46">
+                              <placeName>Café Kremser</placeName>
+                           </place>
+                           <place corresp="#pmb167805">
+                              <placeName>Kärntnerring 12/Bösendorferstraße 11 Kärntnerring 12/Bösendorferstraße 11</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb58">
+                        <placeName>VIII., Josefstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb44">
+                              <placeName>Riedhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb67">
+                        <placeName>XVII., Hernals</placeName>
+                        <listPlace>
+                           <place corresp="#pmb45">
+                              <placeName>Fürstlich Schwarzenberg’sche Meierei</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1892-05-15">
-               <head>Café Kremser</head>
+               <head corresp="#pmb968">Mödling</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/46/</idno>
-            </event>
-            <event when-iso="1892-05-15">
-               <head>Riedhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44/</idno>
-            </event>
-            <event when-iso="1892-05-15">
-               <head>Fürstlich Schwarzenberg’sche Meierei</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/45/</idno>
-            </event>
-            <event when-iso="1892-05-15">
-               <head>Mödling</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/968/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1892-05-15">
                <head>Tagebuch von Schnitzler, 15. 5. 1892</head>

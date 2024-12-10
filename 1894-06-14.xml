@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,19 +94,36 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-06-14.html</idno>
             </event>
             <event when-iso="1894-06-14">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1894-06-14">
-               <head>Opernring 19</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192844/</idno>
-            </event>
-            <event when-iso="1894-06-14">
-               <head>Salesianergasse 12</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192623/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb192844">
+                              <placeName>Opernring 19</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb192623">
+                              <placeName>Salesianergasse 12</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1894-06-14">
                <head>Tagebuch von Schnitzler, 14. 6. 1894</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,16 +96,28 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-17.html</idno>
             </event>
             <event when-iso="1906-02-17">
-               <head>Dresden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
+               <head corresp="#pmb866">Dresden</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb53107">
+                        <placeName>Hotel Bellevue [Dresden]</placeName>
+                     </place>
+                     <place corresp="#pmb237324">
+                        <placeName>Grünes Gewölbe</placeName>
+                     </place>
+                     <place corresp="#pmb1034">
+                        <placeName>Semperoper</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-02-17">
                <head>Aufführung von Salome op. 54, 17.2.1906</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb76845">Salome op. 54</title>
+                        <title key="pmb76845">Salome (op. 54)</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
@@ -116,9 +128,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb866">Dresden</placeName>
+                        <placeName role="veranstaltet in" key="pmb1034">Semperoper</placeName>
                         <location>
-                           <geo>51,0833 13,7666</geo>
+                           <geo>51,054508 13,735169</geo>
                         </location>
                      </place>
                   </listPlace>

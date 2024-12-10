@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,39 +83,32 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-05.html</idno>
             </event>
             <event when-iso="1904-05-05">
-               <head>Rom</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/445/</idno>
+               <head corresp="#pmb445">Rom</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb233993">
+                        <placeName>Grand Hotel Roma</placeName>
+                     </place>
+                     <place corresp="#pmb234002">
+                        <placeName>Ristorante Umberto</placeName>
+                     </place>
+                     <place corresp="#pmb53246">
+                        <placeName>Palatin</placeName>
+                     </place>
+                     <place corresp="#pmb231434">
+                        <placeName>Villa Borghese Pinciana</placeName>
+                     </place>
+                     <place corresp="#pmb44225">
+                        <placeName>Monte Pincio</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-05-05">
-               <head>Grand Hotel Roma</head>
+               <head corresp="#pmb1002">Vatikan</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233993/</idno>
-            </event>
-            <event when-iso="1904-05-05">
-               <head>Vatikan</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1002/</idno>
-            </event>
-            <event when-iso="1904-05-05">
-               <head>Ristorante Umberto</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234002/</idno>
-            </event>
-            <event when-iso="1904-05-05">
-               <head>Palatin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/53246/</idno>
-            </event>
-            <event when-iso="1904-05-05">
-               <head>Villa Borghese Pinciana</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231434/</idno>
-            </event>
-            <event when-iso="1904-05-05">
-               <head>Monte Pincio</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44225/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

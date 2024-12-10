@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,29 +102,47 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-06-29.html</idno>
             </event>
             <event when-iso="1929-06-29">
-               <head>Semmering</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <head corresp="#pmb189">Semmering</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb413">
+                        <placeName>Südbahnhotel [Semmering]</placeName>
+                     </place>
+                     <place corresp="#pmb236383">
+                        <placeName>Bürgerstübl am Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-06-29">
-               <head>Südbahnhotel [Semmering]</head>
+               <head corresp="#pmb91538">Preiner Gscheid</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/413/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-06-29">
-               <head>Preiner Gscheid</head>
+               <head corresp="#pmb90995">Kapellen</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91538/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-06-29">
-               <head>Kapellen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90995/</idno>
+               <head corresp="#pmb91316">Mürzsteg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb236404">
+                        <placeName>Gasthof zum Goldenen Adler</placeName>
+                     </place>
+                     <place corresp="#pmb236407">
+                        <placeName>Jagdschloss Mürzsteg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-06-29">
-               <head>Mürzsteg</head>
+               <head corresp="#pmb40959">Mürzzuschlag</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91316/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-06-29">
                <head>Tagebuch von Clara Katharina Pollaczek, 28. Juni 1929 – 4. Juli 1929</head>

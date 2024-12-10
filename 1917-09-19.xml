@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,24 +99,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-19.html</idno>
             </event>
             <event when-iso="1917-09-19">
-               <head>München</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
-            </event>
-            <event when-iso="1917-09-19">
-               <head>Hotel Continental [München]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/681/</idno>
-            </event>
-            <event when-iso="1917-09-19">
-               <head>Prinzregenten-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/703/</idno>
-            </event>
-            <event when-iso="1917-09-19">
-               <head>Englischer Garten [München]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/706/</idno>
+               <head corresp="#pmb45258">München</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb681">
+                        <placeName>Hotel Continental [München]</placeName>
+                     </place>
+                     <place corresp="#pmb703">
+                        <placeName>Prinzregenten-Theater</placeName>
+                     </place>
+                     <place corresp="#pmb706">
+                        <placeName>Englischer Garten [München]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-09-19">
                <head>Aufführung von Palestrina, 19.9.1917</head>

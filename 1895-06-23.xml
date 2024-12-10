@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -167,39 +167,50 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00458.html</idno>
             </event>
             <event when-iso="1895-06-23">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
-               <head>Tulln an der Donau</head>
+               <head corresp="#pmb41239">Tulln an der Donau</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41239/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
-               <head>Melk</head>
+               <head corresp="#pmb91223">Melk</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91223/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
-               <head>Wachau</head>
+               <head corresp="#pmb531">Wachau</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/531/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
-               <head>Klosterneuburg</head>
+               <head corresp="#pmb865">Klosterneuburg</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/865/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
-               <head>St. Andrä-Wördern</head>
+               <head corresp="#pmb1246">St. Andrä-Wördern</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1246/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
-               <head>Greifenstein</head>
+               <head corresp="#pmb90763">Greifenstein</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90763/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-06-23">
                <head>Beer-Hofmann an Schnitzler, 23. 6. 1895</head>

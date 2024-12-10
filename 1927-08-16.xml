@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,14 +91,15 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-08-16.html</idno>
             </event>
             <event when-iso="1927-08-16">
-               <head>Bozen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/6937/</idno>
-            </event>
-            <event when-iso="1927-08-16">
-               <head>Hotel Greif</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233170/</idno>
+               <head corresp="#pmb40260">Bozen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb233170">
+                        <placeName>Hotel Greif</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-08-16">
                <head>Clara Katharina Pollaczek an Arthur Schnitzler, 16. August 1927</head>

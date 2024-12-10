@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -138,44 +138,56 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-07-12.html</idno>
             </event>
             <event when-iso="1928-07-12">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
-               <head>Heiligenkreuz</head>
+               <head corresp="#pmb939">Heiligenkreuz</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/939/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
-               <head>Purkersdorf</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91552/</idno>
+               <head corresp="#pmb39792">Purkersdorf</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52452">
+                        <placeName>Sanatorium Purkersdorf</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
-               <head>Hochroterd</head>
+               <head corresp="#pmb90889">Hochroterd</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90889/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
-               <head>Brühl</head>
+               <head corresp="#pmb44413">Brühl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44413/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
-               <head>Hotel Hajek</head>
+               <head corresp="#pmb192771">Hotel Hajek</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192771/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
-               <head>Sanatorium Purkersdorf</head>
+               <head corresp="#pmb44271">Pressbaum</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/52452/</idno>
-            </event>
-            <event when-iso="1928-07-12">
-               <head>Pressbaum</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/2734/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-07-12">
                <head>Tagebuch von Clara Katharina Pollaczek, 10.–17. Juli 1928</head>

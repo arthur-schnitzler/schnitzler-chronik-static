@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,24 +128,21 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02106.html</idno>
             </event>
             <event when-iso="1912-12-01">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1912-12-01">
-               <head>Hotel Adlon</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1090/</idno>
-            </event>
-            <event when-iso="1912-12-01">
-               <head>Hotel Kaiserhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/400/</idno>
-            </event>
-            <event when-iso="1912-12-01">
-               <head>Lehrter Bahnhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/207196/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb1090">
+                        <placeName>Hotel Adlon</placeName>
+                     </place>
+                     <place corresp="#pmb400">
+                        <placeName>Hotel Kaiserhof</placeName>
+                     </place>
+                     <place corresp="#pmb207196">
+                        <placeName>Lehrter Bahnhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-12-01">
                <head>Schnitzler, Arthur an Gussmann, Elisabeth [Briefe]</head>

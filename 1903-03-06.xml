@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,39 +145,30 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03366.html</idno>
             </event>
             <event when-iso="1903-03-06">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1903-03-06">
-               <head>Palasthotel Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/88/</idno>
-            </event>
-            <event when-iso="1903-03-06">
-               <head>Deutsches Theater Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
-            </event>
-            <event when-iso="1903-03-06">
-               <head>Berliner Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/738/</idno>
-            </event>
-            <event when-iso="1903-03-06">
-               <head>Gebrüder-Herrnfeld-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232488/</idno>
-            </event>
-            <event when-iso="1903-03-06">
-               <head>Zum Prälaten</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232491/</idno>
-            </event>
-            <event when-iso="1903-03-06">
-               <head>Hotel und Restaurant »Prinz Wilhelm«</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232501/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb88">
+                        <placeName>Palasthotel Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb3">
+                        <placeName>Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb738">
+                        <placeName>Berliner Theater</placeName>
+                     </place>
+                     <place corresp="#pmb232488">
+                        <placeName>Gebrüder-Herrnfeld-Theater</placeName>
+                     </place>
+                     <place corresp="#pmb232491">
+                        <placeName>Zum Prälaten</placeName>
+                     </place>
+                     <place corresp="#pmb232501">
+                        <placeName>Hotel und Restaurant »Prinz Wilhelm«</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-03-06">
                <head>Aufführung von Auf Beschau, 6.3.1903</head>

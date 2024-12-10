@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -162,39 +162,36 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-10-15.html</idno>
             </event>
             <event when-iso="1928-10-15">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb129">
+                        <placeName>Grunewald</placeName>
+                     </place>
+                     <place corresp="#pmb33972">
+                        <placeName>Mauerstraße</placeName>
+                     </place>
+                     <place corresp="#pmb233610">
+                        <placeName>Universal Pictures Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-10-15">
-               <head>Grunewald</head>
+               <head corresp="#pmb199826">Restaurant Dressel [Mauerstraße]</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/129/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-10-15">
-               <head>Mauerstraße</head>
+               <head corresp="#pmb233325">Herbert-von-Karajan-Straße 15</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/33972/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-10-15">
-               <head>Restaurant Dressel [Mauerstraße]</head>
+               <head corresp="#pmb233695">Erdener Straße 6</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199826/</idno>
-            </event>
-            <event when-iso="1928-10-15">
-               <head>Universal Pictures Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233610/</idno>
-            </event>
-            <event when-iso="1928-10-15">
-               <head>Herbert-von-Karajan-Straße 15</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233325/</idno>
-            </event>
-            <event when-iso="1928-10-15">
-               <head>Erdener Straße 6</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233695/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-10-15">
                <head>Filmvorführung von The Man Who Laughs, 15.10.1928</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -126,34 +126,33 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-06-16.html</idno>
             </event>
             <event when-iso="1928-06-16">
-               <head>Bad Ischl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb715">
+                        <placeName>Hotel Kaiserin Elisabeth</placeName>
+                     </place>
+                     <place corresp="#pmb91151">
+                        <placeName>Lindau [Bad Ischl]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-06-16">
-               <head>Hotel Kaiserin Elisabeth</head>
+               <head corresp="#pmb91470">Pfandl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/715/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-06-16">
-               <head>Lindau [Bad Ischl]</head>
+               <head corresp="#pmb92134">Ahornbühel</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91151/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-06-16">
-               <head>Pfandl</head>
+               <head corresp="#pmb232904">Kaiserin-Elisabeth-Promenade</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91470/</idno>
-            </event>
-            <event when-iso="1928-06-16">
-               <head>Ahornbühel</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92134/</idno>
-            </event>
-            <event when-iso="1928-06-16">
-               <head>Kaiserin-Elisabeth-Promenade</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232904/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-06-16">
                <head>Tagebuch von Clara Katharina Pollaczek, 14.–17. Juni 1928</head>

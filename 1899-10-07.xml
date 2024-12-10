@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,14 +97,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-10-07.html</idno>
             </event>
             <event when-iso="1899-10-07">
-               <head>Hotel Savoy [Berlin]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/545/</idno>
-            </event>
-            <event when-iso="1899-10-07">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb545">
+                        <placeName>Hotel Savoy [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb237374">
+                        <placeName>Luisenplatz 2</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1899-10-07">
                <head>Private Lesung von Der Schleier der Beatrice, 7.10.1899</head>
@@ -125,9 +129,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb168">Berlin</placeName>
+                        <placeName role="veranstaltet in" key="pmb237374">Luisenplatz 2</placeName>
                         <location>
-                           <geo>52,52437 13,41053</geo>
+                           <geo>52,520522 13,299819</geo>
                         </location>
                      </place>
                   </listPlace>

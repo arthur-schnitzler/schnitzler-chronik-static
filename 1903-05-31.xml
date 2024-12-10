@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,34 +96,36 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-05-31.html</idno>
             </event>
             <event when-iso="1903-05-31">
-               <head>Venedig</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
+               <head corresp="#pmb462">Venedig</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb50910">
+                        <placeName>Hotel Centrale Vapore</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-05-31">
-               <head>Hotel Centrale Vapore</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50910/</idno>
+               <head corresp="#pmb44094">Torcello</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb232819">
+                        <placeName>Santa Maria Assunta</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-05-31">
-               <head>Torcello</head>
+               <head corresp="#pmb90414">Burano</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44094/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-05-31">
-               <head>Santa Maria Assunta</head>
+               <head corresp="#pmb232826">San Francesco del Deserto</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232819/</idno>
-            </event>
-            <event when-iso="1903-05-31">
-               <head>Burano</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90414/</idno>
-            </event>
-            <event when-iso="1903-05-31">
-               <head>San Francesco del Deserto</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232826/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

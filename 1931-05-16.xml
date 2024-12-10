@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,49 +132,77 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-05-16.html</idno>
             </event>
             <event when-iso="1931-05-16">
-               <head>Semmering</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <head corresp="#pmb189">Semmering</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb200897">
+                        <placeName>Meiereiweg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-16">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>Neuwaldegg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/170/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>XIV., Penzing</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/64/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>Salmannsdorf</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/242/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>Westbahnhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/184918/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>Hütteldorf</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/271/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>Meiereiweg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200897/</idno>
-            </event>
-            <event when-iso="1931-05-16">
-               <head>Schottenhof [Penzing]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/207323/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb67">
+                        <placeName>XVII., Hernals</placeName>
+                        <listPlace>
+                           <place corresp="#pmb170">
+                              <placeName>Neuwaldegg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb242">
+                              <placeName>Salmannsdorf</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb65">
+                        <placeName>XV., Rudolfsheim-Fünfhaus</placeName>
+                        <listPlace>
+                           <place corresp="#pmb184918">
+                              <placeName>Westbahnhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb64">
+                        <placeName>XIV., Penzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb271">
+                              <placeName>Hütteldorf</placeName>
+                           </place>
+                           <place corresp="#pmb207323">
+                              <placeName>Schottenhof [Penzing]</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb64">
+                        <placeName>XIV., Penzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb271">
+                              <placeName>Hütteldorf</placeName>
+                           </place>
+                           <place corresp="#pmb207323">
+                              <placeName>Schottenhof [Penzing]</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-16">
                <head>Tagebuch von Clara Katharina Pollaczek, 16.–19. Mai 1931</head>

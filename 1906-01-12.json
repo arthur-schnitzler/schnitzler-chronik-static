@@ -81,27 +81,34 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/235514/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/235514/",
  "head":
- "Restaurant zum Jubiläumstheater, Inh. Josef Gruss"
+ "Volksoper"
 }, {
  "type":
  "schnitzler-events",
@@ -130,7 +137,20 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksoper",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

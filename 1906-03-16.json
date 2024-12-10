@@ -172,27 +172,132 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/15/",
+ "entity/237477/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/15/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237477/",
  "head":
- "Oper"
+ "Premiere von Zum großen Wurstel, Die Fahrt über den Stix, Mamzell Courasche, 16.3.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel. Burleske in einem Akt",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Die Fahrt über den Stix. Satire",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Mamzell Courasche. Ein Bild aus dem Dreißigjährigen Krieg",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237464/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237464/",
+ "head":
+ "Generalprobe von Der verlorene Vater, 16.3.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der verlorene Vater. Komödie in vier Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

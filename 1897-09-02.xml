@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,34 +88,42 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-09-02.html</idno>
             </event>
             <event when-iso="1897-09-02">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb34106">
+                              <placeName>Zum silbernen Brunnen</placeName>
+                           </place>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb73">
+                        <placeName>XXIII., Liesing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb200352">
+                              <placeName>Endresstraße 68</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-09-02">
-               <head>Zum silbernen Brunnen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34106/</idno>
-            </event>
-            <event when-iso="1897-09-02">
-               <head>[Helferstorferstraße/Hohenstaufengasse, Absteigequartier II Rosa Freudenthal und Arthur Schnitzler]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168691/</idno>
-            </event>
-            <event when-iso="1897-09-02">
-               <head>Frankgasse 1</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168934/</idno>
-            </event>
-            <event when-iso="1897-09-02">
-               <head>Endresstraße 68</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200352/</idno>
-            </event>
-            <event when-iso="1897-09-02">
-               <head>Hohenstaufengasse</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92290/</idno>
+               <head corresp="#pmb92290">Hohenstaufengasse</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb168691">
+                        <placeName>[Helferstorferstraße/Hohenstaufengasse, Absteigequartier II Rosa Freudenthal und Arthur Schnitzler]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

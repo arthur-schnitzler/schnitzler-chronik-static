@@ -81,25 +81,66 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/242/",
+ "entity/237212/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/242/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237212/",
  "head":
- "Salmannsdorf"
+ "Private Lesung aus Der Weg ins Freie, 6.–7.1.1906",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Edmund-Weiß-Gasse 7",
+ "ref":
+ ""}
+ ]
+}
 }] 

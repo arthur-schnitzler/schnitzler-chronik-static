@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,29 +91,40 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-29.html</idno>
             </event>
             <event when-iso="1893-10-29">
-               <head>Gloggnitz</head>
+               <head corresp="#pmb90727">Gloggnitz</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50715/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-10-29">
-               <head>Seebenstein</head>
+               <head corresp="#pmb91715">Seebenstein</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91715/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-10-29">
-               <head>Kirchberg am Wechsel</head>
+               <head corresp="#pmb40892">Kirchberg am Wechsel</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40892/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-10-29">
-               <head>Wiener Neustadt</head>
+               <head corresp="#pmb587">Wiener Neustadt</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/587/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-10-29">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb167782">
+                              <placeName>Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

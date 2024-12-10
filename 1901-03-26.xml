@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,24 +97,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-03-26.html</idno>
             </event>
             <event when-iso="1901-03-26">
-               <head>Nizza</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/926/</idno>
-            </event>
-            <event when-iso="1901-03-26">
-               <head>Montée Eberlé</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231370/</idno>
-            </event>
-            <event when-iso="1901-03-26">
-               <head>Promenade des Anglais</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231373/</idno>
-            </event>
-            <event when-iso="1901-03-26">
-               <head>Casino Municipal de Nice</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231376/</idno>
+               <head corresp="#pmb926">Nizza</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb231370">
+                        <placeName>Montée Eberlé</placeName>
+                     </place>
+                     <place corresp="#pmb231373">
+                        <placeName>Promenade des Anglais</placeName>
+                     </place>
+                     <place corresp="#pmb231376">
+                        <placeName>Casino Municipal de Nice</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-03-26">
                <head>Arthur Schnitzler an Olga Schnitzler, 26. 3. 1901</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,29 +91,24 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-05-08.html</idno>
             </event>
             <event when-iso="1897-05-08">
-               <head>Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
-            </event>
-            <event when-iso="1897-05-08">
-               <head>rue de Maubeuge</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
-            </event>
-            <event when-iso="1897-05-08">
-               <head>Notre-Dame de Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200100/</idno>
-            </event>
-            <event when-iso="1897-05-08">
-               <head>Bois de Boulogne</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/611/</idno>
-            </event>
-            <event when-iso="1897-05-08">
-               <head>Nouveau Cirque</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200174/</idno>
+               <head corresp="#pmb182">Paris</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb592">
+                        <placeName>rue de Maubeuge</placeName>
+                     </place>
+                     <place corresp="#pmb200100">
+                        <placeName>Notre-Dame de Paris</placeName>
+                     </place>
+                     <place corresp="#pmb611">
+                        <placeName>Bois de Boulogne</placeName>
+                     </place>
+                     <place corresp="#pmb200174">
+                        <placeName>Nouveau Cirque</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-08">
                <head>Besuch des Nouveau Cirque, 8.5.1897</head>

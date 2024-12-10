@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -135,34 +135,27 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00666.html</idno>
             </event>
             <event when-iso="1897-04-19">
-               <head>Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
-            </event>
-            <event when-iso="1897-04-19">
-               <head>rue de Maubeuge</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
-            </event>
-            <event when-iso="1897-04-19">
-               <head>Opéra Garnier</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/118440/</idno>
-            </event>
-            <event when-iso="1897-04-19">
-               <head>Tuileriengarten</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91953/</idno>
-            </event>
-            <event when-iso="1897-04-19">
-               <head>avenue des Champs-Élysées</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90464/</idno>
-            </event>
-            <event when-iso="1897-04-19">
-               <head>Grand Palais</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200119/</idno>
+               <head corresp="#pmb182">Paris</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb592">
+                        <placeName>rue de Maubeuge</placeName>
+                     </place>
+                     <place corresp="#pmb118440">
+                        <placeName>Opéra Garnier</placeName>
+                     </place>
+                     <place corresp="#pmb91953">
+                        <placeName>Tuileriengarten</placeName>
+                     </place>
+                     <place corresp="#pmb90464">
+                        <placeName>avenue des Champs-Élysées</placeName>
+                     </place>
+                     <place corresp="#pmb200119">
+                        <placeName>Grand Palais</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-04-19">
                <head>Aufführung von Tannhäuser und der Sängerkrieg, 19.4.1897</head>

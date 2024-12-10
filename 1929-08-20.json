@@ -51,27 +51,44 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/681/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/681/",
  "head":
- "Hotel Continental [München]"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [München]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -85,4 +102,42 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp714.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 19.–21. August 1929"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/236913/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/236913/",
+ "head":
+ "Aufführung von Die Dreigroschenoper, 20.8.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kammerspiele München",
+ "ref":
+ ""}
+ ]
+}
 }] 

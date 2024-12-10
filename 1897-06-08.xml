@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,29 +112,42 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-06-08.html</idno>
             </event>
             <event when-iso="1897-06-08">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1897-06-08">
-               <head>Zum Jägerhorn</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186806/</idno>
-            </event>
-            <event when-iso="1897-06-08">
-               <head>Hohenstaufengasse 2</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200233/</idno>
-            </event>
-            <event when-iso="1897-06-08">
-               <head>Kolingasse 13</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199530/</idno>
-            </event>
-            <event when-iso="1897-06-08">
-               <head>Sanatorium Loew</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/89/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb56">
+                        <placeName>VI., Mariahilf</placeName>
+                        <listPlace>
+                           <place corresp="#pmb186806">
+                              <placeName>Zum Jägerhorn</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb200233">
+                              <placeName>Hohenstaufengasse 2</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb199530">
+                              <placeName>Kolingasse 13</placeName>
+                           </place>
+                           <place corresp="#pmb89">
+                              <placeName>Sanatorium Loew</placeName>
+                           </place>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

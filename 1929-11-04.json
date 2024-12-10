@@ -58,27 +58,68 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/97/",
+ "entity/237110/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/97/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237110/",
  "head":
- "Zum Weingartl"
+ "Aufführung von Souper und Eins, zwei, drei, 4.11.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Eins, zwei, drei",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Souper",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

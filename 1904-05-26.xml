@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -130,19 +130,20 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03444.html</idno>
             </event>
             <event when-iso="1904-05-26">
-               <head>Neapel</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/595/</idno>
+               <head corresp="#pmb595">Neapel</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb234024">
+                        <placeName>Hotel Vesuvio</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-05-26">
-               <head>Hotel Vesuvio</head>
+               <head corresp="#pmb1283">Pompeji</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234024/</idno>
-            </event>
-            <event when-iso="1904-05-26">
-               <head>Pompeji</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1283/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-05-26">
                <head>Alfred Kerr an Arthur Schnitzler, 26.5.1904</head>

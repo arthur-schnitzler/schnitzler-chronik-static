@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -173,29 +173,31 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03178.html</idno>
             </event>
             <event when-iso="1896-08-08">
-               <head>Skodsborg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/958/</idno>
+               <head corresp="#pmb958">Skodsborg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb1091">
+                        <placeName>Badehotel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-08-08">
-               <head>Badehotel</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1091/</idno>
+               <head corresp="#pmb36140">Ven</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb199797">
+                        <placeName>Haken Leuchtturm</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-08-08">
-               <head>Haken Leuchtturm</head>
+               <head corresp="#pmb90917">Ven</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199797/</idno>
-            </event>
-            <event when-iso="1896-08-08">
-               <head>Ven</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/36140/</idno>
-            </event>
-            <event when-iso="1896-08-08">
-               <head>Ven</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90917/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-08-08">
                <head>Adele Sandrock an Arthur Schnitzler, 8.8.1896</head>

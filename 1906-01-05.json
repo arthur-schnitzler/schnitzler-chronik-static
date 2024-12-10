@@ -48,27 +48,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/168934/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168934/",
- "head":
- "Frankgasse 1"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -81,7 +84,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209404/",
  "head":
- "Gesangskonzert Lula Gmeiner, 5.1.1906",
+ "Gesangskonzert von Lula Gmeiner, 5.1.1906",
  "desc":
 {"listPerson":
   [
@@ -94,7 +97,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

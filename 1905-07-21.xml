@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,39 +88,40 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-07-21.html</idno>
             </event>
             <event when-iso="1905-07-21">
-               <head>Hochschwab</head>
+               <head corresp="#pmb52353">Hochschwab</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/52353/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-21">
-               <head>Fölz</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90643/</idno>
+               <head corresp="#pmb90643">Fölz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb142510">
+                        <placeName>Hotel Hochschwab</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-21">
-               <head>Hotel Hochschwab</head>
+               <head corresp="#pmb235721">Ochsensteig</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/142510/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-21">
-               <head>Ochsensteig</head>
+               <head corresp="#pmb235724">Schiestlhaus</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235721/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-21">
-               <head>Schiestlhaus</head>
+               <head corresp="#pmb235727">Häuslalm</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235724/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-21">
-               <head>Häuslalm</head>
+               <head corresp="#pmb235730">Bodenbauer</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235727/</idno>
-            </event>
-            <event when-iso="1905-07-21">
-               <head>Bodenbauer</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235730/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-07-21">
                <head>Otto Brahm an Arthur Schnitzler, 21.7.1905</head>

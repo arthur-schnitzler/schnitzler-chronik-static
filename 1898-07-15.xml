@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -201,24 +201,25 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00820.html</idno>
             </event>
             <event when-iso="1898-07-15">
-               <head>Graz</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/860/</idno>
+               <head corresp="#pmb860">Graz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb91209">
+                        <placeName>Mariatrost</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-07-15">
-               <head>Mariatrost</head>
+               <head corresp="#pmb92551">Stifting</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91209/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-07-15">
-               <head>Stifting</head>
+               <head corresp="#pmb90184">Abtissendorf</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92551/</idno>
-            </event>
-            <event when-iso="1898-07-15">
-               <head>Abtissendorf</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90184/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-07-15">
                <head>Arthur Schnitzler an Wilhelm Heller, 15. 7. 1898</head>

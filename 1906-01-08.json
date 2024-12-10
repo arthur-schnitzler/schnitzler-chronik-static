@@ -43,14 +43,20 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -63,9 +69,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209405/",
  "head":
- "Klavierkonzert Moritz Rosenthal, 8.1.1906",
+ "Klavierkonzert von Moritz Rosenthal, 8.1.1906",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -76,6 +90,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }] 

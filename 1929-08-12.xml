@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,9 +145,53 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02518.html</idno>
             </event>
             <event when-iso="1929-08-12">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb65">
+                        <placeName>XV., Rudolfsheim-Fünfhaus</placeName>
+                        <listPlace>
+                           <place corresp="#pmb438">
+                              <placeName>Westbahnhof-Restaurant</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1929-08-12">
+               <head>Aufführung von Revolte im Erziehungshaus, 12.8.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80825">Revolte im Erziehungshaus</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
+                        <location>
+                           <geo>48,192222 16,339722</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/236887/</idno>
             </event>
             <event when-iso="1929-08-12">
                <head>Arthur Schnitzler an Louis Gillet, 12. 8. 1929</head>

@@ -106,12 +106,8 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/866/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/866/",
  "head":
  "Dresden"
 }, {
@@ -119,40 +115,25 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/18/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/18/",
- "head":
- "Lessing-Theater"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/146875/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/146875/",
- "head":
- "Café Josty"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Café Josty",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

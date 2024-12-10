@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,24 +86,25 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-09-03.html</idno>
             </event>
             <event when-iso="1902-09-03">
-               <head>Semmering</head>
+               <head corresp="#pmb189">Semmering</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-03">
-               <head>Bruck an der Mur</head>
+               <head corresp="#pmb840">Bruck an der Mur</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/840/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-03">
-               <head>Leoben</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/36328/</idno>
-            </event>
-            <event when-iso="1902-09-03">
-               <head>Hotel zum Mohren</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232132/</idno>
+               <head corresp="#pmb36328">Leoben</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb232132">
+                        <placeName>Hotel zum Mohren</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,19 +100,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-12.html</idno>
             </event>
             <event when-iso="1896-01-12">
-               <head>Frankfurt am Main</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/146/</idno>
-            </event>
-            <event when-iso="1896-01-12">
-               <head>Frankfurter Hof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199460/</idno>
-            </event>
-            <event when-iso="1896-01-12">
-               <head>Frankfurter Stadttheater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199463/</idno>
+               <head corresp="#pmb146">Frankfurt am Main</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb199460">
+                        <placeName>Frankfurter Hof</placeName>
+                     </place>
+                     <place corresp="#pmb199463">
+                        <placeName>Frankfurter Stadttheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-12">
                <head>Theateraufführung im Frankfurt am Main, 12.1.1896</head>

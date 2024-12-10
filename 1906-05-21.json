@@ -96,25 +96,84 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVI., Ottakring",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/96/",
+ "entity/237582/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/96/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237582/",
  "head":
- "Meissl &amp; Schadn"
+ "Aufführung von Traumulus, 21.5.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Traumulus",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater an der Wien",
+ "ref":
+ ""}
+ ]
+}
 }] 

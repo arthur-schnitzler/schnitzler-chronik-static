@@ -48,53 +48,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/224/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/224/",
  "head":
- "London"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/185183/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/185183/",
- "head":
- "British Museum"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/185424/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/185424/",
- "head":
- "Trocadero Restaurant"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/185278/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/185278/",
- "head":
- "Empire Theatre"
+ "London",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "British Museum",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Trocadero Restaurant",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Empire Theatre",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

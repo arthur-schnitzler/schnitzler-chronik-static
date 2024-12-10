@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,29 +111,37 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-25.html</idno>
             </event>
             <event when-iso="1903-07-25">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1903-07-25">
-               <head>Gasthaus Stelzer</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/177/</idno>
-            </event>
-            <event when-iso="1903-07-25">
-               <head>Hofmannsthal-Schlössl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40297/</idno>
-            </event>
-            <event when-iso="1903-07-25">
-               <head>Willergasse 2</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231810/</idno>
-            </event>
-            <event when-iso="1903-07-25">
-               <head>Jantsch-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/43280/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb73">
+                        <placeName>XXIII., Liesing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb177">
+                              <placeName>Gasthaus Stelzer</placeName>
+                           </place>
+                           <place corresp="#pmb40297">
+                              <placeName>Hofmannsthal-Schlössl</placeName>
+                           </place>
+                           <place corresp="#pmb231810">
+                              <placeName>Willergasse 2</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb43280">
+                        <placeName>Jantsch-Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-25">
                <head>Aufführung von Der böse Geist Lumpacivagabundus, 25.7.1903</head>

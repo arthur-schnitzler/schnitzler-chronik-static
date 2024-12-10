@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -174,54 +174,56 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03384.html</idno>
             </event>
             <event when-iso="1903-08-18">
-               <head>Madonna di Campiglio</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/427/</idno>
+               <head corresp="#pmb465">Riva del Garda</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb40808">
+                        <placeName>Palast Hotel Lido</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
-               <head>Hotel Dolomiti [Madonna di Campiglio]</head>
+               <head corresp="#pmb91903">Tione di Trento</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233260/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
-               <head>Riva del Garda</head>
+               <head corresp="#pmb90152">Val d’Ampola</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/465/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
-               <head>Tione di Trento</head>
+               <head corresp="#pmb91480">Pieve di Ledro</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91903/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
-               <head>Val d’Ampola</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90152/</idno>
+               <head corresp="#pmb40501">Pinzolo</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb427">
+                        <placeName>Madonna di Campiglio</placeName>
+                        <listPlace>
+                           <place corresp="#pmb233260">
+                              <placeName>Hotel Dolomiti [Madonna di Campiglio]</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
-               <head>Pieve di Ledro</head>
+               <head corresp="#pmb90492">Condino</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91480/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
-               <head>Palast Hotel Lido</head>
+               <head corresp="#pmb91848">Storo</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40808/</idno>
-            </event>
-            <event when-iso="1903-08-18">
-               <head>Pinzolo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40501/</idno>
-            </event>
-            <event when-iso="1903-08-18">
-               <head>Condino</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90492/</idno>
-            </event>
-            <event when-iso="1903-08-18">
-               <head>Storo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91848/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-08-18">
                <head>Brief von Arthur Schnitzler an Hugo von Hofmannsthal</head>

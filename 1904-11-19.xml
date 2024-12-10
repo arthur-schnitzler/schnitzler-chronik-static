@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,34 +118,27 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-11-19.html</idno>
             </event>
             <event when-iso="1904-11-19">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1904-11-19">
-               <head>Hotel Bristol Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
-            </event>
-            <event when-iso="1904-11-19">
-               <head>Passage-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185920/</idno>
-            </event>
-            <event when-iso="1904-11-19">
-               <head>Wedl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233758/</idno>
-            </event>
-            <event when-iso="1904-11-19">
-               <head>F. W. Borchardt</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234614/</idno>
-            </event>
-            <event when-iso="1904-11-19">
-               <head>Kleines Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/208/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb127">
+                        <placeName>Hotel Bristol Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb185920">
+                        <placeName>Passage-Theater</placeName>
+                     </place>
+                     <place corresp="#pmb233758">
+                        <placeName>Wedl</placeName>
+                     </place>
+                     <place corresp="#pmb234614">
+                        <placeName>F. W. Borchardt</placeName>
+                     </place>
+                     <place corresp="#pmb208">
+                        <placeName>Kleines Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-11-19">
                <head>Probe von Der tapfere Cassian, Der grüne Kakadu, 19.11.1904</head>

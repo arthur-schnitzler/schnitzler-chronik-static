@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,29 +136,28 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00259.html</idno>
             </event>
             <event when-iso="1893-08-24">
-               <head>Toblach</head>
+               <head corresp="#pmb987">Toblach</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/987/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-08-24">
-               <head>Cortina d'Ampezzo</head>
+               <head corresp="#pmb34199">Cortina d’Ampezzo</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34199/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-08-24">
-               <head>Geburtshaus von Tizian</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192810/</idno>
-            </event>
-            <event when-iso="1893-08-24">
-               <head>Albergo dell’Angelo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192813/</idno>
-            </event>
-            <event when-iso="1893-08-24">
-               <head>Pieve di Cadore</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34112/</idno>
+               <head corresp="#pmb34112">Pieve di Cadore</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192810">
+                        <placeName>Geburtshaus von Tizian</placeName>
+                     </place>
+                     <place corresp="#pmb192813">
+                        <placeName>Albergo dell’Angelo</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

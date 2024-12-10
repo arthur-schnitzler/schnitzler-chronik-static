@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,44 +108,59 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-25.html</idno>
             </event>
             <event when-iso="1896-01-25">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb56">
+                        <placeName>VI., Mariahilf</placeName>
+                        <listPlace>
+                           <place corresp="#pmb77">
+                              <placeName>Raimund-Theater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-25">
-               <head>Raimund-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/77/</idno>
+               <head corresp="#pmb865">Klosterneuburg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb44394">
+                        <placeName>Weidlingbach</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-25">
-               <head>Klosterneuburg</head>
+               <head corresp="#pmb49210">Steinriegl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/865/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-25">
-               <head>Weidlingbach</head>
+               <head corresp="#pmb34354">Königstetten</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/473/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-25">
-               <head>Steinriegl</head>
+               <head corresp="#pmb1246">St. Andrä-Wördern</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/289/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-25">
-               <head>Königstetten</head>
+               <head corresp="#pmb46976">Kierling</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34354/</idno>
-            </event>
-            <event when-iso="1896-01-25">
-               <head>St. Andrä-Wördern</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1246/</idno>
-            </event>
-            <event when-iso="1896-01-25">
-               <head>Kierling</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/8062/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-01-25">
                <head>Premiere von Flotte Geister, 25.1.1896</head>

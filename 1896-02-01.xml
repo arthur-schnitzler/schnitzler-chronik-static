@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -250,34 +250,27 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02766.html</idno>
             </event>
             <event when-iso="1896-02-01">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1896-02-01">
-               <head>Hotel Westminster</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41234/</idno>
-            </event>
-            <event when-iso="1896-02-01">
-               <head>Hotel Kaiserhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/400/</idno>
-            </event>
-            <event when-iso="1896-02-01">
-               <head>Wintergarten</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185084/</idno>
-            </event>
-            <event when-iso="1896-02-01">
-               <head>Lessing-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/18/</idno>
-            </event>
-            <event when-iso="1896-02-01">
-               <head>Deutsches Theater Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb41234">
+                        <placeName>Hotel Westminster</placeName>
+                     </place>
+                     <place corresp="#pmb400">
+                        <placeName>Hotel Kaiserhof</placeName>
+                     </place>
+                     <place corresp="#pmb185084">
+                        <placeName>Wintergarten</placeName>
+                     </place>
+                     <place corresp="#pmb18">
+                        <placeName>Lessing-Theater</placeName>
+                     </place>
+                     <place corresp="#pmb3">
+                        <placeName>Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-02-01">
                <head>Aufführung von Infedele. Commedia in tre atti, 1.2.1896</head>

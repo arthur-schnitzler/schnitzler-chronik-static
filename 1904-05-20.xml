@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -130,19 +130,18 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01402.html</idno>
             </event>
             <event when-iso="1904-05-20">
-               <head>Taormina</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/906/</idno>
-            </event>
-            <event when-iso="1904-05-20">
-               <head>San Domenico Hotel</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234089/</idno>
-            </event>
-            <event when-iso="1904-05-20">
-               <head>Antikes Theater Taormina</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/51013/</idno>
+               <head corresp="#pmb906">Taormina</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb234089">
+                        <placeName>San Domenico Hotel</placeName>
+                     </place>
+                     <place corresp="#pmb51013">
+                        <placeName>Antikes Theater Taormina</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

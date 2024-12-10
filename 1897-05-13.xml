@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -98,19 +98,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-05-13.html</idno>
             </event>
             <event when-iso="1897-05-13">
-               <head>Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
-            </event>
-            <event when-iso="1897-05-13">
-               <head>rue de Maubeuge</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
-            </event>
-            <event when-iso="1897-05-13">
-               <head>Bal Bullier</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185908/</idno>
+               <head corresp="#pmb182">Paris</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb592">
+                        <placeName>rue de Maubeuge</placeName>
+                     </place>
+                     <place corresp="#pmb185908">
+                        <placeName>Bal Bullier</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-13">
                <head>Bullier, 13.5.1897</head>

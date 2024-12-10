@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,24 +83,23 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-05-29.html</idno>
             </event>
             <event when-iso="1903-05-29">
-               <head>Venedig</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
+               <head corresp="#pmb462">Venedig</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb50910">
+                        <placeName>Hotel Centrale Vapore</placeName>
+                     </place>
+                     <place corresp="#pmb192409">
+                        <placeName>Basilica di San Marco</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-05-29">
-               <head>Hotel Centrale Vapore</head>
+               <head corresp="#pmb91314">Murano</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50910/</idno>
-            </event>
-            <event when-iso="1903-05-29">
-               <head>Murano</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91314/</idno>
-            </event>
-            <event when-iso="1903-05-29">
-               <head>Basilica di San Marco</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192409/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

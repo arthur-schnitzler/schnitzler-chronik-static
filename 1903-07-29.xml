@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,44 +118,57 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-29.html</idno>
             </event>
             <event when-iso="1903-07-29">
-               <head>Hochschneeberg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/5836/</idno>
+               <head corresp="#pmb5836">Hochschneeberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb50925">
+                        <placeName>Fischerhütte</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-29">
-               <head>Fischerhütte</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50925/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-29">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb483">Reichenau an der Rax</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb90587">
+                        <placeName>Eng</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-29">
-               <head>Reichenau an der Rax</head>
+               <head corresp="#pmb90051">Baumgartnerhaus</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/483/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-29">
-               <head>Baumgartnerhaus</head>
+               <head corresp="#pmb233088">Hotel Leberl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90051/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-29">
-               <head>Eng</head>
+               <head corresp="#pmb233122">Erholungsheim der Gesellschaft vom Weißen Kreuze</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90587/</idno>
-            </event>
-            <event when-iso="1903-07-29">
-               <head>Hotel Leberl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233088/</idno>
-            </event>
-            <event when-iso="1903-07-29">
-               <head>Erholungsheim der Gesellschaft vom Weißen Kreuze</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233122/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-07-29">
                <head>Traum vom 29. Juli 1903</head>

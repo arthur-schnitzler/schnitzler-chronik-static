@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,34 +128,31 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01446.html</idno>
             </event>
             <event when-iso="1904-09-16">
-               <head>Lueg am Wolfgangsee</head>
+               <head corresp="#pmb186">Lueg am Wolfgangsee</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-09-16">
-               <head>Salzburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/30/</idno>
+               <head corresp="#pmb30">Salzburg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb40384">
+                        <placeName>Hotel Bristol Salzburg</placeName>
+                     </place>
+                     <place corresp="#pmb40804">
+                        <placeName>Hotel und Pension Nelböck</placeName>
+                     </place>
+                     <place corresp="#pmb41187">
+                        <placeName>Café Tomaselli</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-09-16">
-               <head>Hotel Bristol Salzburg</head>
+               <head corresp="#pmb234399">Franzosenschanze 4</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231/</idno>
-            </event>
-            <event when-iso="1904-09-16">
-               <head>Hotel und Pension Nelböck</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40804/</idno>
-            </event>
-            <event when-iso="1904-09-16">
-               <head>Café Tomaselli</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41187/</idno>
-            </event>
-            <event when-iso="1904-09-16">
-               <head>Franzosenschanze 4</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234399/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-09-16">
                <head>Traum vom 16. September 1904</head>

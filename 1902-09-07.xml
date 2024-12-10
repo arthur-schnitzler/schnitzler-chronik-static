@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,39 +95,51 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-09-07.html</idno>
             </event>
             <event when-iso="1902-09-07">
-               <head>Windischgarsten</head>
+               <head corresp="#pmb92085">Windischgarsten</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92085/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-07">
-               <head>Weißenbach am Attersee</head>
+               <head corresp="#pmb34344">Weißenbach am Attersee</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34344/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-07">
-               <head>Hinterbrühl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/75/</idno>
+               <head corresp="#pmb75">Hinterbrühl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb145165">
+                        <placeName>Hauptstraße 56</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-07">
-               <head>Kleinreifling</head>
+               <head corresp="#pmb91038">Kleinreifling</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91038/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-07">
-               <head>Amstetten</head>
+               <head corresp="#pmb38404">Amstetten</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38404/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-09-07">
-               <head>Hauptstraße 56</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/145165/</idno>
-            </event>
-            <event when-iso="1902-09-07">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

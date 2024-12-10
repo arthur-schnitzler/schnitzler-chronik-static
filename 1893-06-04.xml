@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -209,24 +209,35 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02710.html</idno>
             </event>
             <event when-iso="1893-06-04">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb167782">
+                              <placeName>Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-06-04">
-               <head>Zum goldenen Stern</head>
+               <head corresp="#pmb625">Zum goldenen Stern</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/625/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-06-04">
-               <head>Brühl</head>
+               <head corresp="#pmb44413">Brühl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44413/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1893-06-04">
-               <head>Brunn am Gebirge</head>
+               <head corresp="#pmb40201">Brunn am Gebirge</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40201/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

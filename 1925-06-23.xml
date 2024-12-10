@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,24 +102,25 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-06-23.html</idno>
             </event>
             <event when-iso="1925-06-23">
-               <head>München</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+               <head corresp="#pmb45258">München</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb806">
+                        <placeName>Hotel Rheinischer Hof München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-06-23">
-               <head>Hotel Rheinischer Hof München</head>
+               <head corresp="#pmb43520">Meran</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/806/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-06-23">
-               <head>Meran</head>
+               <head corresp="#pmb185222">Hotel Savoy [Meran]</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/887/</idno>
-            </event>
-            <event when-iso="1925-06-23">
-               <head>Hotel Savoy [Meran]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185222/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-06-23">
                <head>Tagebuch von Clara Katharina Pollaczek, 21.–23. Juni 1925</head>

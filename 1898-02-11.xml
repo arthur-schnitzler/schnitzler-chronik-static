@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,19 +88,20 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-02-11.html</idno>
             </event>
             <event when-iso="1898-02-11">
-               <head>Salzburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/30/</idno>
+               <head corresp="#pmb30">Salzburg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb49759">
+                        <placeName>Parsch</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-02-11">
-               <head>Parsch</head>
+               <head corresp="#pmb44258">Hallein</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/804/</idno>
-            </event>
-            <event when-iso="1898-02-11">
-               <head>Hallein</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/19527/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-02-11">
                <head>Samuel Fischer an Arthur Schnitzler, 11.2.1898</head>

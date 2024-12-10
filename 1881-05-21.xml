@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,24 +124,36 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1881-05-21.html</idno>
             </event>
             <event when-iso="1881-05-21">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb186493">
+                              <placeName>Galopprennbahn Freudenau</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb4">
+                              <placeName>Bösendorfer-Saal</placeName>
+                           </place>
+                           <place corresp="#pmb168765">
+                              <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1881-05-21">
-               <head>Galopprennbahn Freudenau</head>
+               <head corresp="#pmb662">Baden bei Wien</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186493/</idno>
-            </event>
-            <event when-iso="1881-05-21">
-               <head>Bösendorfer-Saal</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/4/</idno>
-            </event>
-            <event when-iso="1881-05-21">
-               <head>Baden bei Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/662/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1881-05-21">
                <head>2. internationaler Wagner-Abend, 21.5.1881</head>

@@ -43,66 +43,35 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/182/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/182/",
  "head":
- "Paris"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/592/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/592/",
- "head":
- "rue de Maubeuge"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/200100/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/200100/",
- "head":
- "Notre-Dame de Paris"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/611/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/611/",
- "head":
- "Bois de Boulogne"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/200174/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/200174/",
- "head":
- "Nouveau Cirque"
+ "Paris",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "rue de Maubeuge",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Notre-Dame de Paris",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bois de Boulogne",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Nouveau Cirque",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

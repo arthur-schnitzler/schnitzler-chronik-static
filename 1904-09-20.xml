@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,29 +100,34 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-20.html</idno>
             </event>
             <event when-iso="1904-09-20">
-               <head>Salzburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/30/</idno>
+               <head corresp="#pmb30">Salzburg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb40804">
+                        <placeName>Hotel und Pension Nelböck</placeName>
+                     </place>
+                     <place corresp="#pmb181">
+                        <placeName>Café Bazar</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-09-20">
-               <head>Hotel und Pension Nelböck</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40804/</idno>
-            </event>
-            <event when-iso="1904-09-20">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1904-09-20">
-               <head>Café Bazar</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/181/</idno>
-            </event>
-            <event when-iso="1904-09-20">
-               <head>Edmund-Weiß-Gasse 7</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168940/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168940">
+                              <placeName>Edmund-Weiß-Gasse 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-09-20">
                <head>Aufzeichnung von Bahr, 20. 9. 1904</head>

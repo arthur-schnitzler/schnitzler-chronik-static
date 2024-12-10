@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,34 +132,27 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02813.html</idno>
             </event>
             <event when-iso="1897-05-26">
-               <head>London</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/224/</idno>
-            </event>
-            <event when-iso="1897-05-26">
-               <head>Honor Oak</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/402/</idno>
-            </event>
-            <event when-iso="1897-05-26">
-               <head>Westminster Abbey</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185368/</idno>
-            </event>
-            <event when-iso="1897-05-26">
-               <head>Royal Academy of Arts</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185371/</idno>
-            </event>
-            <event when-iso="1897-05-26">
-               <head>Madame Tussauds</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185374/</idno>
-            </event>
-            <event when-iso="1897-05-26">
-               <head>Daly’s Theatre</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185377/</idno>
+               <head corresp="#pmb224">London</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb402">
+                        <placeName>Honor Oak</placeName>
+                     </place>
+                     <place corresp="#pmb185368">
+                        <placeName>Westminster Abbey</placeName>
+                     </place>
+                     <place corresp="#pmb185371">
+                        <placeName>Royal Academy of Arts</placeName>
+                     </place>
+                     <place corresp="#pmb185374">
+                        <placeName>Madame Tussauds</placeName>
+                     </place>
+                     <place corresp="#pmb185377">
+                        <placeName>Daly’s Theatre</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-26">
                <head>Aufführung von The Geisha, 26.5.1897</head>

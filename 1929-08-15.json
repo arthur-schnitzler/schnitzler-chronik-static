@@ -81,14 +81,29 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Gregor-Mendel-Straße 34"
 }, {
  "type":
  "pollaczek",
@@ -102,6 +117,56 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp712.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 8.–17. August 1929"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/236893/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/236893/",
+ "head":
+ "Privates Konzert von Pulcinella und Die Dreigroschenoper, 15.8.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Pulcinella",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Otto Paul Schinnerer",
+ "ref":
+ ""}]
+}
 }, {
  "type":
  "schnitzler-cmif",

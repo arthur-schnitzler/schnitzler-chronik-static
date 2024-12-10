@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,24 +94,23 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-05-23.html</idno>
             </event>
             <event when-iso="1888-05-23">
-               <head>London</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/224/</idno>
+               <head corresp="#pmb224">London</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb402">
+                        <placeName>Honor Oak</placeName>
+                     </place>
+                     <place corresp="#pmb90486">
+                        <placeName>City of London</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1888-05-23">
-               <head>Herne Hill</head>
+               <head corresp="#pmb90865">Herne Hill</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90865/</idno>
-            </event>
-            <event when-iso="1888-05-23">
-               <head>Honor Oak</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/402/</idno>
-            </event>
-            <event when-iso="1888-05-23">
-               <head>City of London</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90486/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1888-05-23">
                <head>Arthur Schnitzler an Johann Schnitzler, Louise Schnitzler, 23. 5. 1888</head>

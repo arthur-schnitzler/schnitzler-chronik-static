@@ -53,27 +53,81 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Komische Oper Berlin",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Savoy [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/399/",
+ "entity/237352/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237352/",
  "head":
- "Hotel Continental [Berlin]"
+ "Probe von Der Ruf des Lebens, 22.2.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -88,7 +142,15 @@
  "head":
  "Aufführung von Don Pasquale, 22.2.1906",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Komische Oper Berlin",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
@@ -107,7 +169,7 @@
   [
  {
  "placeName":
- "Berlin",
+ "Komische Oper Berlin",
  "ref":
  ""}
  ]

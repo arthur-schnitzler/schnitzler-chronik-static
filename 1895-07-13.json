@@ -56,12 +56,8 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/772/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/772/",
  "head":
  "Marienbad"
 }, {
@@ -69,38 +65,37 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/44172/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44172/",
  "head":
- "Nürnberg"
+ "Nürnberg",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nürnberger Burg",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Wiener Restaurant (Inh. Anton Haslinger)",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Stadtmauern [Nürnberg]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/199182/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/199182/",
- "head":
- "Nürnberger Burg"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/199185/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/199185/",
  "head":
  "Tiefer Brunnen"
 }, {
@@ -108,40 +103,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/199189/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/199189/",
  "head":
- "Wiener Restaurant (Inh. Anton Haslinger)"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/199197/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/199197/",
- "head":
- "Stadtmauern [Nürnberg]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44172/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44172/",
- "head":
- "Nürnberg"
+ "Nürnberg",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nürnberger Burg",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Wiener Restaurant (Inh. Anton Haslinger)",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Stadtmauern [Nürnberg]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

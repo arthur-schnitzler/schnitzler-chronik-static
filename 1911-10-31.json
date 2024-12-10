@@ -101,40 +101,25 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/652/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/652/",
  "head":
- "Prag"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/90/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/90/",
- "head":
- "Palasthotel Prag"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/118612/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/118612/",
- "head":
- "Deutsches Haus [Prag]"
+ "Prag",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Palasthotel Prag",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Deutsches Haus [Prag]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -153,7 +138,7 @@
   [
  {
  "orgName":
- "Concordia",
+ "Concordia. Journalisten- und Schriftstellerverein",
  "ref":
  ""}
  ],

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,19 +91,28 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-10-16.html</idno>
             </event>
             <event when-iso="1890-10-16">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb167805">
+                              <placeName>Kärntnerring 12/Bösendorferstraße 11 Kärntnerring 12/Bösendorferstraße 11</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb54">
+                        <placeName>IV., Wieden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1890-10-16">
-               <head>Demel</head>
+               <head corresp="#pmb92200">Demel</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92200/</idno>
-            </event>
-            <event when-iso="1890-10-16">
-               <head>IV., Wieden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/54/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1890-10-16">
                <head>Olga Waissnix an Arthur Schnitzler, 16.10.1890</head>

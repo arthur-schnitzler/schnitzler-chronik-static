@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,24 +132,23 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-11-03.html</idno>
             </event>
             <event when-iso="1922-11-03">
-               <head>Liberec</head>
+               <head corresp="#pmb47966">Liberec</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/8622/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-11-03">
-               <head>Teplice</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/955/</idno>
-            </event>
-            <event when-iso="1922-11-03">
-               <head>Lipový dvůr</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/183493/</idno>
-            </event>
-            <event when-iso="1922-11-03">
-               <head>Hotel altes Ratshaus</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186857/</idno>
+               <head corresp="#pmb955">Teplice</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb183493">
+                        <placeName>Lipový dvůr</placeName>
+                     </place>
+                     <place corresp="#pmb186857">
+                        <placeName>Hotel altes Ratshaus</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-11-03">
                <head>Lesung von Die letzten Masken, Weihnachts-Einkäufe, Zum großen Wurstl, abgebrochen, 3.11.1922</head>

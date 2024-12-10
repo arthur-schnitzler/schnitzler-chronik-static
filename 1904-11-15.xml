@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -151,34 +151,27 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01471.html</idno>
             </event>
             <event when-iso="1904-11-15">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1904-11-15">
-               <head>Hotel Bristol Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
-            </event>
-            <event when-iso="1904-11-15">
-               <head>Lessing-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/18/</idno>
-            </event>
-            <event when-iso="1904-11-15">
-               <head>Hotel und Restaurant »Prinz Wilhelm«</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232501/</idno>
-            </event>
-            <event when-iso="1904-11-15">
-               <head>Wedl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233758/</idno>
-            </event>
-            <event when-iso="1904-11-15">
-               <head>Kleines Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/208/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb127">
+                        <placeName>Hotel Bristol Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb18">
+                        <placeName>Lessing-Theater</placeName>
+                     </place>
+                     <place corresp="#pmb232501">
+                        <placeName>Hotel und Restaurant »Prinz Wilhelm«</placeName>
+                     </place>
+                     <place corresp="#pmb233758">
+                        <placeName>Wedl</placeName>
+                     </place>
+                     <place corresp="#pmb208">
+                        <placeName>Kleines Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-11-15">
                <head>Probe von Das Haus Delorme, 15.11.1904</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,29 +88,24 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-03-31.html</idno>
             </event>
             <event when-iso="1901-03-31">
-               <head>Rom</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/445/</idno>
-            </event>
-            <event when-iso="1901-03-31">
-               <head>Porta pinciana 41</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231396/</idno>
-            </event>
-            <event when-iso="1901-03-31">
-               <head>Kapitol [Rom]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231400/</idno>
-            </event>
-            <event when-iso="1901-03-31">
-               <head>Forum Romanum</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231403/</idno>
-            </event>
-            <event when-iso="1901-03-31">
-               <head>Palatin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/53246/</idno>
+               <head corresp="#pmb445">Rom</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb231396">
+                        <placeName>Porta pinciana 41</placeName>
+                     </place>
+                     <place corresp="#pmb231400">
+                        <placeName>Kapitol [Rom]</placeName>
+                     </place>
+                     <place corresp="#pmb231403">
+                        <placeName>Forum Romanum</placeName>
+                     </place>
+                     <place corresp="#pmb53246">
+                        <placeName>Palatin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-03-31">
                <head>Arthur Schnitzler an Olga Schnitzler, 31. 3. 1901</head>

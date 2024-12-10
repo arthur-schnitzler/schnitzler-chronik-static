@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -123,44 +123,39 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00570.html</idno>
             </event>
             <event when-iso="1896-07-28">
-               <head>Stockholm</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+               <head corresp="#pmb1119">Stockholm</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb40705">
+                        <placeName>Grand Hotel Stockholm</placeName>
+                     </place>
+                     <place corresp="#pmb199778">
+                        <placeName>Nationalmuseum</placeName>
+                     </place>
+                     <place corresp="#pmb199781">
+                        <placeName>Riddarholmskyrkan</placeName>
+                     </place>
+                     <place corresp="#pmb186914">
+                        <placeName>Operakällaren</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-28">
-               <head>Grand Hotel Stockholm</head>
+               <head corresp="#pmb62297">Saltsjöbaden</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40705/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-28">
-               <head>Nationalmuseum</head>
+               <head corresp="#pmb91302">Mosebacke torg</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199778/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-28">
-               <head>Riddarholmskyrkan</head>
+               <head corresp="#pmb92559">Strömparterre</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199781/</idno>
-            </event>
-            <event when-iso="1896-07-28">
-               <head>Operakällaren</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186914/</idno>
-            </event>
-            <event when-iso="1896-07-28">
-               <head>Saltsjöbaden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/62297/</idno>
-            </event>
-            <event when-iso="1896-07-28">
-               <head>Mosebacke torg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91302/</idno>
-            </event>
-            <event when-iso="1896-07-28">
-               <head>Strömparterre</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92559/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-28">
                <head>Arthur Schnitzler an Marie Reinhard, 28.7.1896</head>

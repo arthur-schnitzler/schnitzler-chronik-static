@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -69,29 +69,39 @@
       <body>
          <listEvent>
             <event when-iso="1883-08-12">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb182883">
+                              <placeName>Casino Zögernitz</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb104">
+                              <placeName>Café Arkaden</placeName>
+                           </place>
+                           <place corresp="#pmb168765">
+                              <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb92292">
+                        <placeName>Hohe Warte</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1883-08-12">
-               <head>Casino Zögernitz</head>
+               <head corresp="#pmb91568">Rathauspark</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182883/</idno>
-            </event>
-            <event when-iso="1883-08-12">
-               <head>Café Arkaden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/104/</idno>
-            </event>
-            <event when-iso="1883-08-12">
-               <head>Rathauspark</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91568/</idno>
-            </event>
-            <event when-iso="1883-08-12">
-               <head>Hohe Warte</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92292/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

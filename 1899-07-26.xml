@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -74,19 +74,20 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-07-26.html</idno>
             </event>
             <event when-iso="1899-07-26">
-               <head>Velden am Wörthersee</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/909/</idno>
+               <head corresp="#pmb909">Velden am Wörthersee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb36282">
+                        <placeName>Pension Pundschu</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1899-07-26">
-               <head>Pension Pundschu</head>
+               <head corresp="#pmb430">Wörthersee</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/36282/</idno>
-            </event>
-            <event when-iso="1899-07-26">
-               <head>Wörthersee</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/430/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

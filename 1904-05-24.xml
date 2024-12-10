@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,19 +91,20 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-24.html</idno>
             </event>
             <event when-iso="1904-05-24">
-               <head>Taormina</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/906/</idno>
+               <head corresp="#pmb906">Taormina</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb234089">
+                        <placeName>San Domenico Hotel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-05-24">
-               <head>San Domenico Hotel</head>
+               <head corresp="#pmb44129">Messina</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234089/</idno>
-            </event>
-            <event when-iso="1904-05-24">
-               <head>Messina</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1277/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

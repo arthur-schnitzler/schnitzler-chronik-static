@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,39 +99,48 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-13.html</idno>
             </event>
             <event when-iso="1895-07-13">
-               <head>Marienbad</head>
+               <head corresp="#pmb772">Marienbad</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/772/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-07-13">
-               <head>Nürnberg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44172/</idno>
+               <head corresp="#pmb44172">Nürnberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb199182">
+                        <placeName>Nürnberger Burg</placeName>
+                     </place>
+                     <place corresp="#pmb199189">
+                        <placeName>Wiener Restaurant (Inh. Anton Haslinger)</placeName>
+                     </place>
+                     <place corresp="#pmb199197">
+                        <placeName>Stadtmauern [Nürnberg]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-07-13">
-               <head>Nürnberger Burg</head>
+               <head corresp="#pmb199185">Tiefer Brunnen</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199182/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-07-13">
-               <head>Tiefer Brunnen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199185/</idno>
-            </event>
-            <event when-iso="1895-07-13">
-               <head>Wiener Restaurant (Inh. Anton Haslinger)</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199189/</idno>
-            </event>
-            <event when-iso="1895-07-13">
-               <head>Stadtmauern [Nürnberg]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199197/</idno>
-            </event>
-            <event when-iso="1895-07-13">
-               <head>Nürnberg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44172/</idno>
+               <head corresp="#pmb44172">Nürnberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb199182">
+                        <placeName>Nürnberger Burg</placeName>
+                     </place>
+                     <place corresp="#pmb199189">
+                        <placeName>Wiener Restaurant (Inh. Anton Haslinger)</placeName>
+                     </place>
+                     <place corresp="#pmb199197">
+                        <placeName>Stadtmauern [Nürnberg]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1895-07-13">
                <head>Aufführung von Fernands Ehecontract, 13.7.1895</head>

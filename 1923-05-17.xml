@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -123,14 +123,15 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-17.html</idno>
             </event>
             <event when-iso="1923-05-17">
-               <head>Stockholm</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
-            </event>
-            <event when-iso="1923-05-17">
-               <head>Östermalmsgatan</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/62679/</idno>
+               <head corresp="#pmb1119">Stockholm</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb62679">
+                        <placeName>Östermalmsgatan</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-17">
                <head>Archi: Arthur Schnitzler nu i Stockholm, 17. 5. 1923</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,39 +122,36 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00574.html</idno>
             </event>
             <event when-iso="1896-07-30">
-               <head>Stockholm</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+               <head corresp="#pmb1119">Stockholm</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb40705">
+                        <placeName>Grand Hotel Stockholm</placeName>
+                     </place>
+                     <place corresp="#pmb190258">
+                        <placeName>Tivoli [Stockholm]</placeName>
+                     </place>
+                     <place corresp="#pmb199775">
+                        <placeName>Hasselbacken</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-30">
-               <head>Grand Hotel Stockholm</head>
+               <head corresp="#pmb62282">Drottningholm</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40705/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-30">
-               <head>Tivoli [Stockholm]</head>
+               <head corresp="#pmb91764">Skeppsholmen</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/190258/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-30">
-               <head>Hasselbacken</head>
+               <head corresp="#pmb90529">Djurgården</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199775/</idno>
-            </event>
-            <event when-iso="1896-07-30">
-               <head>Drottningholm</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/25933/</idno>
-            </event>
-            <event when-iso="1896-07-30">
-               <head>Skeppsholmen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91764/</idno>
-            </event>
-            <event when-iso="1896-07-30">
-               <head>Djurgården</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90529/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-07-30">
                <head>Arthur Schnitzler an Marie Reinhard, 30.7.1896</head>

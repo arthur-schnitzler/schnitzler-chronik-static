@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -137,9 +137,29 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03587.html</idno>
             </event>
             <event when-iso="1929-09-21">
-               <head>Franzensbad</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/390/</idno>
+               <head corresp="#pmb772">Marienbad</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb236965">
+                        <placeName>Grand Hotel Marienbad</placeName>
+                     </place>
+                     <place corresp="#pmb236997">
+                        <placeName>Café und Restaurant Winterling</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1929-09-21">
+               <head corresp="#pmb390">Franzensbad</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb236968">
+                        <placeName>Königsvilla</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-09-21">
                <head>Tagebuch von Clara Katharina Pollaczek, 16.–21. September 1929</head>

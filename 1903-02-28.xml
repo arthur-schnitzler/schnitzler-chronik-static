@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,24 +136,21 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03367.html</idno>
             </event>
             <event when-iso="1903-02-28">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1903-02-28">
-               <head>Palasthotel Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/88/</idno>
-            </event>
-            <event when-iso="1903-02-28">
-               <head>Wernerstraße 16</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232189/</idno>
-            </event>
-            <event when-iso="1903-02-28">
-               <head>Deutsches Theater Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb88">
+                        <placeName>Palasthotel Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb232189">
+                        <placeName>Wernerstraße 16</placeName>
+                     </place>
+                     <place corresp="#pmb3">
+                        <placeName>Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-02-28">
                <head>Tagebuch von Schnitzler, 28. 2. 1903</head>

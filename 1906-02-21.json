@@ -76,53 +76,81 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Wedl",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hardenbergstraße 24",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/399/",
+ "entity/237346/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237346/",
  "head":
- "Hotel Continental [Berlin]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/18/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/18/",
- "head":
- "Lessing-Theater"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/233758/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/233758/",
- "head":
- "Wedl"
+ "Probe von Der Ruf des Lebens, 21.2.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

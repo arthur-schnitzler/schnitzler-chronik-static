@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,29 +109,39 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-05-28.html</idno>
             </event>
             <event when-iso="1896-05-28">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-05-28">
-               <head>Stiftskeller Klosterneuburg</head>
+               <head corresp="#pmb44413">Brühl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192317/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-05-28">
-               <head>Brühl</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44413/</idno>
-            </event>
-            <event when-iso="1896-05-28">
-               <head>Klosterneuburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/865/</idno>
-            </event>
-            <event when-iso="1896-05-28">
-               <head>Weidling</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/991/</idno>
+               <head corresp="#pmb865">Klosterneuburg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192317">
+                        <placeName>Stiftskeller Klosterneuburg</placeName>
+                     </place>
+                     <place corresp="#pmb44392">
+                        <placeName>Weidling</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

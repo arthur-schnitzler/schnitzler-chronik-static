@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,29 +102,28 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-08-31.html</idno>
             </event>
             <event when-iso="1918-08-31">
-               <head>Garmisch-Partenkirchen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/667/</idno>
+               <head corresp="#pmb667">Garmisch-Partenkirchen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb92332">
+                        <placeName>Kellerleitenweg</placeName>
+                     </place>
+                     <place corresp="#pmb92427">
+                        <placeName>Kramerplateauweg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1918-08-31">
-               <head>Pflegersee</head>
+               <head corresp="#pmb91472">Pflegersee</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91472/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1918-08-31">
-               <head>Kramerweg</head>
+               <head corresp="#pmb92344">Kramerweg</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92344/</idno>
-            </event>
-            <event when-iso="1918-08-31">
-               <head>Kellerleitenweg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92332/</idno>
-            </event>
-            <event when-iso="1918-08-31">
-               <head>Kramerplateauweg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92427/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

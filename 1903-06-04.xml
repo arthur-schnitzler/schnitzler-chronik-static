@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,29 +85,24 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-04.html</idno>
             </event>
             <event when-iso="1903-06-04">
-               <head>Mailand</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/886/</idno>
-            </event>
-            <event when-iso="1903-06-04">
-               <head>Pinacoteca di Brera</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/184611/</idno>
-            </event>
-            <event when-iso="1903-06-04">
-               <head>Mailänder Dom</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200984/</idno>
-            </event>
-            <event when-iso="1903-06-04">
-               <head>Cimitero Monumentale</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200981/</idno>
-            </event>
-            <event when-iso="1903-06-04">
-               <head>Gambrinus Halle</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232935/</idno>
+               <head corresp="#pmb886">Mailand</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb184611">
+                        <placeName>Pinacoteca di Brera</placeName>
+                     </place>
+                     <place corresp="#pmb200984">
+                        <placeName>Mailänder Dom</placeName>
+                     </place>
+                     <place corresp="#pmb200981">
+                        <placeName>Cimitero Monumentale</placeName>
+                     </place>
+                     <place corresp="#pmb232935">
+                        <placeName>Gambrinus Halle</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-06-04">
                <head>Good, Hans an Schnitzler, Arthur [Briefe]</head>

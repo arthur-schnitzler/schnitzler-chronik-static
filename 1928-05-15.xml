@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -195,54 +195,71 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-05-15.html</idno>
             </event>
             <event when-iso="1928-05-15">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb8">
+                              <placeName>Prater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb67">
+                        <placeName>XVII., Hernals</placeName>
+                        <listPlace>
+                           <place corresp="#pmb170">
+                              <placeName>Neuwaldegg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Heiligenkreuz</head>
+               <head corresp="#pmb939">Heiligenkreuz</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/939/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Prater</head>
+               <head corresp="#pmb90889">Hochroterd</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/8/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Neuwaldegg</head>
+               <head corresp="#pmb44413">Brühl</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/170/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Hochroterd</head>
+               <head corresp="#pmb685">Wurstelprater</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90889/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Brühl</head>
+               <head corresp="#pmb185318">Restauration Prochaska</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44413/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Wurstelprater</head>
+               <head corresp="#pmb192771">Hotel Hajek</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/685/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
-               <head>Restauration Prochaska</head>
+               <head corresp="#pmb185914">Zirkus Busch</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185318/</idno>
-            </event>
-            <event when-iso="1928-05-15">
-               <head>Hotel Hajek</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192771/</idno>
-            </event>
-            <event when-iso="1928-05-15">
-               <head>Zirkus Busch</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185914/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
                <head>Tagebuch von Clara Katharina Pollaczek, 2.–20. Mai 1928</head>

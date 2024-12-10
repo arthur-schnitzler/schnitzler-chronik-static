@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,29 +122,29 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00576.html</idno>
             </event>
             <event when-iso="1896-08-01">
-               <head>Göteborg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40700/</idno>
+               <head corresp="#pmb40700">Göteborg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb199794">
+                        <placeName>Masthugget</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-08-01">
-               <head>Trollhättan-Fälle</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/42675/</idno>
-            </event>
-            <event when-iso="1896-08-01">
-               <head>Trollhättan sentralstasjon</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199790/</idno>
-            </event>
-            <event when-iso="1896-08-01">
-               <head>Masthugget</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/199794/</idno>
-            </event>
-            <event when-iso="1896-08-01">
-               <head>Trollhättan</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91949/</idno>
+               <head corresp="#pmb91949">Trollhättan</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb42675">
+                        <placeName>Trollhättan-Fälle</placeName>
+                     </place>
+                     <place corresp="#pmb199790">
+                        <placeName>Trollhättan sentralstasjon</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-08-01">
                <head>Salten, Felix an Schnitzler, Arthur [Briefe]</head>

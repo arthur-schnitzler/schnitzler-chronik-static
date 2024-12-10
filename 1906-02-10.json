@@ -83,27 +83,25 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/14/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/14/",
- "head":
- "Burgtheater"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-bahr",
@@ -204,7 +202,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209413/",
  "head":
- "Aufführung von Spätfrühling, 10.2.1906",
+ "Premiere von Spätfrühling, 10.2.1906",
  "desc":
 {"listOrg":
   [
@@ -218,7 +216,12 @@
   [
  {
  "title":
- "Spätfrühling",
+ "Spätfrühling. Lustspiel in drei Akten",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Spätfrühling. (Lustspiel in drei Akten von Georg Hirschfeld. Zum erstenmal aufgeführt im Burgtheater am 10. Februar 1906)",
  "ref":
  ""}
  ],
@@ -227,6 +230,31 @@
 {
  "persName":
  "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Alexander von Weilen",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Alfred Polgar",
  "ref":
  ""}],
  "listPlace":

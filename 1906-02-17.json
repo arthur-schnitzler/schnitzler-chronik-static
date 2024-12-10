@@ -51,14 +51,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/866/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/866/",
  "head":
- "Dresden"
+ "Dresden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Bellevue [Dresden]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Grünes Gewölbe",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Semperoper",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -77,7 +93,7 @@
   [
  {
  "title":
- "Salome op. 54",
+ "Salome (op. 54)",
  "ref":
  ""}
  ],
@@ -92,7 +108,7 @@
   [
  {
  "placeName":
- "Dresden",
+ "Semperoper",
  "ref":
  ""}
  ]

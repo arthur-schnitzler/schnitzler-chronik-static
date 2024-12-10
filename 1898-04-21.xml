@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -199,29 +199,40 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02846.html</idno>
             </event>
             <event when-iso="1898-04-21">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-04-21">
-               <head>Mödling</head>
+               <head corresp="#pmb968">Mödling</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/968/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-04-21">
-               <head>Sulz im Wienerwald</head>
+               <head corresp="#pmb19055">Sulz im Wienerwald</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/12181/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-04-21">
-               <head>Breitenfurt bei Wien</head>
+               <head corresp="#pmb1022">Breitenfurt bei Wien</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1022/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-04-21">
-               <head>Purkersdorf</head>
+               <head corresp="#pmb39792">Purkersdorf</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91552/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-04-21">
                <head>Fritz Schlesinger u. a. an Bahr, 21. 4. 1898</head>

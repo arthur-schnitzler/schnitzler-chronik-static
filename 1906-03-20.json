@@ -74,27 +74,25 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/1209/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/1209/",
- "head":
- "Lustspieltheater [Wien]"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -107,18 +105,31 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209423/",
  "head":
- "Uraufführung von Die Fahrt über den Styx, Mamzell Courasche, Zum großen Wurstl, 20.3.1906",
+ "Aufführung von Die Fahrt über den Stix, Mamzell Courasche, Zum großen Wurstl, 20.3.1906",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
- "Mamzell Courasche",
+ "Mamzell Courasche. Ein Bild aus dem Dreißigjährigen Krieg",
  "ref":
  ""}
  ,  {
  "title":
  "Zum großen Wurstel. Burleske in einem Akt",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Die Fahrt über den Stix. Satire",
  "ref":
  ""}
  ],

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,24 +129,39 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-18.html</idno>
             </event>
             <event when-iso="1922-06-18">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1922-06-18">
-               <head>Dreimarkstein [Wien]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/537/</idno>
-            </event>
-            <event when-iso="1922-06-18">
-               <head>Rieglerhütte</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/551/</idno>
-            </event>
-            <event when-iso="1922-06-18">
-               <head>Sophienalpe</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/539/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb67">
+                        <placeName>XVII., Hernals</placeName>
+                        <listPlace>
+                           <place corresp="#pmb537">
+                              <placeName>Dreimarkstein [Wien]</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb64">
+                        <placeName>XIV., Penzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb551">
+                              <placeName>Rieglerhütte</placeName>
+                           </place>
+                           <place corresp="#pmb539">
+                              <placeName>Sophienalpe</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-06-18">
                <head>Ichheiser, Gustav an Schnitzler, Arthur [Briefe]</head>

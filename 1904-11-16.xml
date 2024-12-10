@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,24 +108,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-11-16.html</idno>
             </event>
             <event when-iso="1904-11-16">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1904-11-16">
-               <head>Hotel Bristol Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/127/</idno>
-            </event>
-            <event when-iso="1904-11-16">
-               <head>Hotel Savoy [Berlin]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/545/</idno>
-            </event>
-            <event when-iso="1904-11-16">
-               <head>Weinstube Eggebrecht</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233736/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb127">
+                        <placeName>Hotel Bristol Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb545">
+                        <placeName>Hotel Savoy [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb233736">
+                        <placeName>Weinstube Eggebrecht</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-11-16">
                <head>Scholz, August an Schnitzler, Arthur [Briefe]</head>

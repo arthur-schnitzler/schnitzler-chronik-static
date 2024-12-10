@@ -126,27 +126,68 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/14/",
+ "entity/237049/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/14/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237049/",
  "head":
- "Burgtheater"
+ "Aufführung von Liebe auf dem Land und Ollapotrida, 9.10.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebe auf dem Land",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Ollapotrida",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "kalliope-verbund",

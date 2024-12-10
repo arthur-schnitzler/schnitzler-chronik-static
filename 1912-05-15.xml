@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -159,34 +159,29 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02067.html</idno>
             </event>
             <event when-iso="1912-05-15">
-               <head>Triest</head>
+               <head corresp="#pmb873">Triest</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/873/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-05-15">
-               <head>Venedig</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
-            </event>
-            <event when-iso="1912-05-15">
-               <head>Hotel de l’Europe</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34050/</idno>
-            </event>
-            <event when-iso="1912-05-15">
-               <head>Lido</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/259/</idno>
-            </event>
-            <event when-iso="1912-05-15">
-               <head>Piazza San Marco</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/261/</idno>
-            </event>
-            <event when-iso="1912-05-15">
-               <head>Basilica di San Marco</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/192409/</idno>
+               <head corresp="#pmb462">Venedig</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb34050">
+                        <placeName>Hotel de l’Europe</placeName>
+                     </place>
+                     <place corresp="#pmb259">
+                        <placeName>Lido</placeName>
+                     </place>
+                     <place corresp="#pmb261">
+                        <placeName>Piazza San Marco</placeName>
+                     </place>
+                     <place corresp="#pmb192409">
+                        <placeName>Basilica di San Marco</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-05-15">
                <head>Bahr an Schnitzler, 15. 5. 1912</head>

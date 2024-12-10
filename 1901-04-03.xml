@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -161,44 +161,33 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03525.html</idno>
             </event>
             <event when-iso="1901-04-03">
-               <head>Rom</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/445/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Musei Capitolini</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231422/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Palazzo dei Conservatori</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231425/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Villa Farnesina</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231428/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Sant’Onofrio</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231431/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Villa Borghese Pinciana</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231434/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Porta pinciana 41</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231396/</idno>
-            </event>
-            <event when-iso="1901-04-03">
-               <head>Kolosseum</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231438/</idno>
+               <head corresp="#pmb445">Rom</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb231422">
+                        <placeName>Musei Capitolini</placeName>
+                     </place>
+                     <place corresp="#pmb231425">
+                        <placeName>Palazzo dei Conservatori</placeName>
+                     </place>
+                     <place corresp="#pmb231428">
+                        <placeName>Villa Farnesina</placeName>
+                     </place>
+                     <place corresp="#pmb231431">
+                        <placeName>Sant’Onofrio</placeName>
+                     </place>
+                     <place corresp="#pmb231434">
+                        <placeName>Villa Borghese Pinciana</placeName>
+                     </place>
+                     <place corresp="#pmb231396">
+                        <placeName>Porta pinciana 41</placeName>
+                     </place>
+                     <place corresp="#pmb231438">
+                        <placeName>Kolosseum</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

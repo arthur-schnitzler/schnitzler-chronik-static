@@ -116,14 +116,20 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -137,4 +143,42 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp736.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 26. September – 8. Oktober 1929"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237024/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237024/",
+ "head":
+ "Generalprobe von Metternich, 30.9.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Metternich",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ]
+}
 }] 

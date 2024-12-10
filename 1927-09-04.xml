@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,29 +99,24 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-09-04.html</idno>
             </event>
             <event when-iso="1927-09-04">
-               <head>Verona</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/900/</idno>
-            </event>
-            <event when-iso="1927-09-04">
-               <head>Arche scaligere</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232897/</idno>
-            </event>
-            <event when-iso="1927-09-04">
-               <head>Tomba di Giulietta</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232891/</idno>
-            </event>
-            <event when-iso="1927-09-04">
-               <head>Villa Giusti</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232902/</idno>
-            </event>
-            <event when-iso="1927-09-04">
-               <head>Santa Maria in Organo</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232910/</idno>
+               <head corresp="#pmb44153">Verona</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb232897">
+                        <placeName>Arche scaligere</placeName>
+                     </place>
+                     <place corresp="#pmb232891">
+                        <placeName>Tomba di Giulietta</placeName>
+                     </place>
+                     <place corresp="#pmb232902">
+                        <placeName>Villa Giusti</placeName>
+                     </place>
+                     <place corresp="#pmb232910">
+                        <placeName>Santa Maria in Organo</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-09-04">
                <head>Filmvorführung von La bionda e la bruna, 4.9.1927</head>

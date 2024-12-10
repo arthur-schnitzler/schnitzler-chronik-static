@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,39 +108,55 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-04-07.html</idno>
             </event>
             <event when-iso="1905-04-07">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
-            </event>
-            <event when-iso="1905-04-07">
-               <head>Frankgasse 1</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168934/</idno>
-            </event>
-            <event when-iso="1905-04-07">
-               <head>Hohe Warte</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92292/</idno>
-            </event>
-            <event when-iso="1905-04-07">
-               <head>Porzellangasse 45</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/231945/</idno>
-            </event>
-            <event when-iso="1905-04-07">
-               <head>Hohe Warte 50</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235406/</idno>
-            </event>
-            <event when-iso="1905-04-07">
-               <head>J. W. Brooke, Luxus- und Gebrauchsgegenstände</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235412/</idno>
-            </event>
-            <event when-iso="1905-04-07">
-               <head>Edmund-Weiß-Gasse 7</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168940/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                           <place corresp="#pmb231945">
+                              <placeName>Porzellangasse 45</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb235406">
+                              <placeName>Hohe Warte 50</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb235412">
+                              <placeName>J. W. Brooke, Luxus- und Gebrauchsgegenstände</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168940">
+                              <placeName>Edmund-Weiß-Gasse 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb92292">
+                        <placeName>Hohe Warte</placeName>
+                        <listPlace>
+                           <place corresp="#pmb235406">
+                              <placeName>Hohe Warte 50</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-04-07">
                <head>Glass, Adolf an Schnitzler, Arthur [Briefe]</head>

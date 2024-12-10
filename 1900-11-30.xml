@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,19 +83,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-11-30.html</idno>
             </event>
             <event when-iso="1900-11-30">
-               <head>Breslau</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/677/</idno>
-            </event>
-            <event when-iso="1900-11-30">
-               <head>Hotel Monopol</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/145415/</idno>
-            </event>
-            <event when-iso="1900-11-30">
-               <head>Lobe-Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/525/</idno>
+               <head corresp="#pmb677">Breslau</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb145415">
+                        <placeName>Hotel Monopol</placeName>
+                     </place>
+                     <place corresp="#pmb525">
+                        <placeName>Lobe-Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1900-11-30">
                <head>Generalprobe von Der Schleier der Beatrice, 30.11.1900</head>

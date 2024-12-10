@@ -63,12 +63,8 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/992/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/992/",
  "head":
  "Bad Vöslau"
 }, {
@@ -76,25 +72,8 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/192720/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/192720/",
- "head":
- "Krainerhütte"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/44413/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/44413/",
  "head":
  "Brühl"
 }, {
@@ -102,25 +81,27 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/91743/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/91743/",
  "head":
  "Siegenfeld"
 }, {
@@ -128,12 +109,18 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/662/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/662/",
  "head":
- "Baden bei Wien"
+ "Baden bei Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Krainerhütte",
+ "ref":
+ ""}
+ ]
+}
 }] 

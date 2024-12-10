@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,39 +102,30 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-19.html</idno>
             </event>
             <event when-iso="1904-09-19">
-               <head>Salzburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/30/</idno>
-            </event>
-            <event when-iso="1904-09-19">
-               <head>Hotel und Pension Nelböck</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40804/</idno>
-            </event>
-            <event when-iso="1904-09-19">
-               <head>Mirabell</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/180/</idno>
-            </event>
-            <event when-iso="1904-09-19">
-               <head>Café Tomaselli</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/41187/</idno>
-            </event>
-            <event when-iso="1904-09-19">
-               <head>Petersfriedhof</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/190342/</idno>
-            </event>
-            <event when-iso="1904-09-19">
-               <head>Künstlerhaus [Salzburg]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1021/</idno>
-            </event>
-            <event when-iso="1904-09-19">
-               <head>Botanischer Garten der Universität Salzburg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234411/</idno>
+               <head corresp="#pmb30">Salzburg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb40804">
+                        <placeName>Hotel und Pension Nelböck</placeName>
+                     </place>
+                     <place corresp="#pmb180">
+                        <placeName>Mirabell</placeName>
+                     </place>
+                     <place corresp="#pmb41187">
+                        <placeName>Café Tomaselli</placeName>
+                     </place>
+                     <place corresp="#pmb190342">
+                        <placeName>Petersfriedhof</placeName>
+                     </place>
+                     <place corresp="#pmb1021">
+                        <placeName>Künstlerhaus [Salzburg]</placeName>
+                     </place>
+                     <place corresp="#pmb234411">
+                        <placeName>Botanischer Garten der Universität Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

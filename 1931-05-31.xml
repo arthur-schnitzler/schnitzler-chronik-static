@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,44 +129,64 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-05-31.html</idno>
             </event>
             <event when-iso="1931-05-31">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb8">
+                              <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb185318">
+                                    <placeName>Restauration Prochaska</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb73">
+                        <placeName>XXIII., Liesing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb555">
+                              <placeName>Kalksburg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb185484">
+                              <placeName>Metrophon Konzertsalon und Musikhaus</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-31">
-               <head>Purkersdorf</head>
+               <head corresp="#pmb39792">Purkersdorf</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91552/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-31">
-               <head>Prater</head>
+               <head corresp="#pmb91091">Laab im Walde</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/8/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-31">
-               <head>Kalksburg</head>
+               <head corresp="#pmb584">Zentralkino</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/555/</idno>
-            </event>
-            <event when-iso="1931-05-31">
-               <head>Laab im Walde</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91091/</idno>
-            </event>
-            <event when-iso="1931-05-31">
-               <head>Restauration Prochaska</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185318/</idno>
-            </event>
-            <event when-iso="1931-05-31">
-               <head>Metrophon Konzertsalon und Musikhaus</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/185484/</idno>
-            </event>
-            <event when-iso="1931-05-31">
-               <head>Zentralkino</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/584/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-31">
                <head>Tagebuch von Clara Katharina Pollaczek, 31. Mai – 1. Juni 1931</head>

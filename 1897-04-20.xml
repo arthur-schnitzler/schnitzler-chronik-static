@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,29 +85,24 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-20.html</idno>
             </event>
             <event when-iso="1897-04-20">
-               <head>Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
-            </event>
-            <event when-iso="1897-04-20">
-               <head>rue de Maubeuge</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
-            </event>
-            <event when-iso="1897-04-20">
-               <head>Musée du Louvre</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/39678/</idno>
-            </event>
-            <event when-iso="1897-04-20">
-               <head>La Roulotte</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40757/</idno>
-            </event>
-            <event when-iso="1897-04-20">
-               <head>Jardin des Plantes</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90950/</idno>
+               <head corresp="#pmb182">Paris</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb592">
+                        <placeName>rue de Maubeuge</placeName>
+                     </place>
+                     <place corresp="#pmb39678">
+                        <placeName>Musée du Louvre</placeName>
+                     </place>
+                     <place corresp="#pmb40757">
+                        <placeName>La Roulotte</placeName>
+                     </place>
+                     <place corresp="#pmb90950">
+                        <placeName>Jardin des Plantes</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-04-20">
                <head>La Roulotte, 20.4.1897</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,19 +80,18 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-07-10.html</idno>
             </event>
             <event when-iso="1905-07-10">
-               <head>Reichenau an der Rax</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/483/</idno>
-            </event>
-            <event when-iso="1905-07-10">
-               <head>Kurhaus Rudolfsbad</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/44982/</idno>
-            </event>
-            <event when-iso="1905-07-10">
-               <head>Kurpark [Reichenau an der Rax]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/235717/</idno>
+               <head corresp="#pmb483">Reichenau an der Rax</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb44982">
+                        <placeName>Kurhaus Rudolfsbad</placeName>
+                     </place>
+                     <place corresp="#pmb235717">
+                        <placeName>Kurpark [Reichenau an der Rax]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,24 +85,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-09.html</idno>
             </event>
             <event when-iso="1897-04-09">
-               <head>München</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
-            </event>
-            <event when-iso="1897-04-09">
-               <head>Alte Pinakothek</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/511/</idno>
-            </event>
-            <event when-iso="1897-04-09">
-               <head>Neue Pinakothek</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/101/</idno>
-            </event>
-            <event when-iso="1897-04-09">
-               <head>Deutsches Theater München</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/35543/</idno>
+               <head corresp="#pmb45258">München</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb511">
+                        <placeName>Alte Pinakothek</placeName>
+                     </place>
+                     <place corresp="#pmb101">
+                        <placeName>Neue Pinakothek</placeName>
+                     </place>
+                     <place corresp="#pmb35543">
+                        <placeName>Deutsches Theater München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-04-09">
                <head>Aufführung von Liebelei, 9.4.1897</head>

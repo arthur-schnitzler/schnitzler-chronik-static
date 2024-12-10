@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,34 +83,34 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-25.html</idno>
             </event>
             <event when-iso="1908-09-25">
-               <head>Edlach</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/470/</idno>
+               <head corresp="#pmb470">Edlach</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb714">
+                        <placeName>Hotel Edlacherhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1908-09-25">
-               <head>Hotel Edlacherhof</head>
+               <head corresp="#pmb91572">Raxalpe</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/714/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1908-09-25">
-               <head>Raxalpe</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91572/</idno>
-            </event>
-            <event when-iso="1908-09-25">
-               <head>Otto-Schutzhaus</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234277/</idno>
-            </event>
-            <event when-iso="1908-09-25">
-               <head>Rax</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/20756/</idno>
-            </event>
-            <event when-iso="1908-09-25">
-               <head>Karl-Ludwig-Haus</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234288/</idno>
+               <head corresp="#pmb40884">Rax</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb234277">
+                        <placeName>Otto-Schutzhaus</placeName>
+                     </place>
+                     <place corresp="#pmb234288">
+                        <placeName>Karl-Ludwig-Haus</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,29 +89,30 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-08-23.html</idno>
             </event>
             <event when-iso="1885-08-23">
-               <head>Menaggio</head>
+               <head corresp="#pmb91227">Menaggio</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91227/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1885-08-23">
-               <head>Bellagio</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/984/</idno>
+               <head corresp="#pmb984">Bellagio</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb184608">
+                        <placeName>Villa Serbelloni</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1885-08-23">
-               <head>Cadenabbia</head>
+               <head corresp="#pmb90426">Cadenabbia</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90426/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1885-08-23">
-               <head>Tremezzo</head>
+               <head corresp="#pmb91936">Tremezzo</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91936/</idno>
-            </event>
-            <event when-iso="1885-08-23">
-               <head>Villa Serbelloni</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/184608/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

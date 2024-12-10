@@ -103,40 +103,35 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/399/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
- "head":
- "Hotel Continental [Berlin]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/18/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/18/",
- "head":
- "Lessing-Theater"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hardenbergstraße 24",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Savoy [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

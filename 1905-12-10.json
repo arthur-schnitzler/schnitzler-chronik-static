@@ -58,25 +58,76 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "IV., Wieden",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/168934/",
+ "entity/236773/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168934/",
+ "https://pmb.acdh.oeaw.ac.at/entity/236773/",
  "head":
- "Frankgasse 1"
+ "Private Lesung von Abendspaziergang, Ein Erfolg, 10.12.1905",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Ein Erfolg",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Abendspaziergang",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankgasse 1",
+ "ref":
+ ""}
+ ]
+}
 }] 

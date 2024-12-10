@@ -204,27 +204,30 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/37/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/37/",
- "head":
- "Theater an der Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-bahr",
@@ -370,7 +373,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209432/",
  "head":
- "Aufführung von Der Puppenspieler, 4.5.1906",
+ "Aufführung von Der Puppenspieler, Elga, 4.5.1906",
  "desc":
 {"listOrg":
   [
@@ -387,12 +390,57 @@
  "Der Puppenspieler. Studie in einem Aufzuge",
  "ref":
  ""}
+ ,  {
+ "title":
+ "Elga",
+ "ref":
+ ""}
  ],
  "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Kurt Stieler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Grethe Hoffmann",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Hermann Bahr",
  "ref":
  ""}],
  "listPlace":

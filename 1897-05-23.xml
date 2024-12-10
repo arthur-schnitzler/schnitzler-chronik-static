@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -163,34 +163,33 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03266.html</idno>
             </event>
             <event when-iso="1897-05-23">
-               <head>Paris</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <head corresp="#pmb182">Paris</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb592">
+                        <placeName>rue de Maubeuge</placeName>
+                     </place>
+                     <place corresp="#pmb200092">
+                        <placeName>Café de la Nouvelle Athènes</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-23">
-               <head>rue de Maubeuge</head>
+               <head corresp="#pmb47030">Ville-d'Avray</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/592/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-23">
-               <head>Ville-d'Avray</head>
+               <head corresp="#pmb48730">Saint-Cloud</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/7342/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-23">
-               <head>Café de la Nouvelle Athènes</head>
+               <head corresp="#pmb90603">L'Étang-la-Ville</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200092/</idno>
-            </event>
-            <event when-iso="1897-05-23">
-               <head>Saint-Cloud</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/5069/</idno>
-            </event>
-            <event when-iso="1897-05-23">
-               <head>L'Étang-la-Ville</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90603/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1897-05-23">
                <head>Arthur Schnitzler an Olga Waissnix, 23.5.1897</head>

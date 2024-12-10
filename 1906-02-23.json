@@ -63,40 +63,81 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "F. W. Borchardt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kronprinzenufer 7/In den Zelten 14",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hardenbergstraße 24",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/399/",
+ "entity/237365/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/399/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237365/",
  "head":
- "Hotel Continental [Berlin]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/234614/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/234614/",
- "head":
- "F. W. Borchardt"
+ "Generalprobe von Der Ruf des Lebens, 23.2.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "kalliope-verbund",

@@ -93,27 +93,81 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
  "filename":
- "entity/1209/",
+ "entity/237457/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/1209/",
+ "https://pmb.acdh.oeaw.ac.at/entity/237457/",
  "head":
- "Lustspieltheater [Wien]"
+ "Generalprobe von Zum großen Wurstel, Die Fahrt über den Stix, Mamzell Courasche, 15.3.1906",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel. Burleske in einem Akt",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Mamzell Courasche. Ein Bild aus dem Dreißigjährigen Krieg",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Die Fahrt über den Stix. Satire",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lustspieltheater [Wien]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -140,7 +194,7 @@
   [
  {
  "title":
- "Mamzell Courasche",
+ "Mamzell Courasche. Ein Bild aus dem Dreißigjährigen Krieg",
  "ref":
  ""}
  ,  {
@@ -150,7 +204,7 @@
  ""}
  ,  {
  "title":
- "Die Fahrt über den Stix",
+ "Die Fahrt über den Stix. Satire",
  "ref":
  ""}
  ],

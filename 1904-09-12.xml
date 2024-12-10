@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,19 +97,20 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-12.html</idno>
             </event>
             <event when-iso="1904-09-12">
-               <head>Hotel und Pension Lueg</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/824/</idno>
+               <head corresp="#pmb186">Lueg am Wolfgangsee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb824">
+                        <placeName>Hotel und Pension Lueg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-09-12">
-               <head>Lueg am Wolfgangsee</head>
+               <head corresp="#pmb234404">Falkensteinwand St.Gilgen</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/186/</idno>
-            </event>
-            <event when-iso="1904-09-12">
-               <head>Falkensteinwand St.Gilgen</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234404/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

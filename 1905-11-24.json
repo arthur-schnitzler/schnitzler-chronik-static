@@ -195,40 +195,35 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/168/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/168/",
  "head":
- "Berlin"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/208/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/208/",
- "head":
- "Kleines Theater"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/232501/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/232501/",
- "head":
- "Hotel und Restaurant »Prinz Wilhelm«"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel und Restaurant »Prinz Wilhelm«",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Continental [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -293,7 +288,7 @@
   [
  {
  "title":
- "Hidalla",
+ "Hidalla oder Sein und Haben. Schauspiel in fünf Akten",
  "ref":
  ""}
  ],

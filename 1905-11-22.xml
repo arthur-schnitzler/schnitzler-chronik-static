@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,24 +132,21 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-11-22.html</idno>
             </event>
             <event when-iso="1905-11-22">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1905-11-22">
-               <head>Neues Theater</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/720/</idno>
-            </event>
-            <event when-iso="1905-11-22">
-               <head>Wernerstraße 16</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/232189/</idno>
-            </event>
-            <event when-iso="1905-11-22">
-               <head>Aschinger</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/234649/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb720">
+                        <placeName>Neues Theater</placeName>
+                     </place>
+                     <place corresp="#pmb232189">
+                        <placeName>Wernerstraße 16</placeName>
+                     </place>
+                     <place corresp="#pmb234649">
+                        <placeName>Aschinger</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-11-22">
                <head>Aufführung von Aschenbachs, 22.11.1905</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,19 +114,29 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-18.html</idno>
             </event>
             <event when-iso="1906-02-18">
-               <head>Dresden</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
+               <head corresp="#pmb866">Dresden</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb53107">
+                        <placeName>Hotel Bellevue [Dresden]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-02-18">
-               <head>Berlin</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-            </event>
-            <event when-iso="1906-02-18">
-               <head>Hotel Continental [Berlin]</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/399/</idno>
+               <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb399">
+                        <placeName>Hotel Continental [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb232501">
+                        <placeName>Hotel und Restaurant »Prinz Wilhelm«</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-02-18">
                <head>Otto Brahm an Arthur Schnitzler, 18.2.1906</head>

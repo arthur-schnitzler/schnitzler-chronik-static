@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,14 +129,34 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-09-13.html</idno>
             </event>
             <event when-iso="1929-09-13">
-               <head>Franzensbad</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/390/</idno>
+               <head corresp="#pmb772">Marienbad</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb236965">
+                        <placeName>Grand Hotel Marienbad</placeName>
+                     </place>
+                     <place corresp="#pmb236971">
+                        <placeName>Wiener Haus</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-09-13">
-               <head>Cheb</head>
+               <head corresp="#pmb390">Franzensbad</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb236968">
+                        <placeName>Königsvilla</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1929-09-13">
+               <head corresp="#pmb90565">Cheb</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90565/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1929-09-13">
                <head>Tagebuch von Clara Katharina Pollaczek, 12.–15. September 1929</head>

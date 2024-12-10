@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,34 +112,35 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-08-26.html</idno>
             </event>
             <event when-iso="1928-08-26">
-               <head>Hohenschwangau</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90895/</idno>
+               <head corresp="#pmb90895">Hohenschwangau</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb233206">
+                        <placeName>Hotel Schwansee</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-08-26">
-               <head>Schloss Neuschwanstein</head>
+               <head corresp="#pmb91342">Schloss Neuschwanstein</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91342/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-08-26">
-               <head>Aussichtspunkt »Jugend«</head>
+               <head corresp="#pmb233191">Aussichtspunkt »Jugend«</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233191/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-08-26">
-               <head>Marienbrücke</head>
+               <head corresp="#pmb233188">Marienbrücke</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233188/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-08-26">
-               <head>Alpsee</head>
+               <head corresp="#pmb90225">Alpsee</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90225/</idno>
-            </event>
-            <event when-iso="1928-08-26">
-               <head>Hotel Schwansee</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/233206/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

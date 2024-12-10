@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-02.">02.12.2024</date>
+            <date when-iso="2024-12-10.">10.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,39 +111,49 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-05-14.html</idno>
             </event>
             <event when-iso="1898-05-14">
-               <head>Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb200745">
+                              <placeName>Praterspitz</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb184975">
+                              <placeName>Alt Pilsenetzer Bierhalle</placeName>
+                           </place>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb58">
+                        <placeName>VIII., Josefstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb818">
+                              <placeName>Florianigasse</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb200766">
+                                    <placeName>Tempel Florianigasse</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-05-14">
-               <head>Praterspitz</head>
+               <head corresp="#pmb90969">Kahlenbergerdorf</head>
                <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200745/</idno>
-            </event>
-            <event when-iso="1898-05-14">
-               <head>Alt Pilsenetzer Bierhalle</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/184975/</idno>
-            </event>
-            <event when-iso="1898-05-14">
-               <head>Tempel Florianigasse</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/200766/</idno>
-            </event>
-            <event when-iso="1898-05-14">
-               <head>Frankgasse 1</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168934/</idno>
-            </event>
-            <event when-iso="1898-05-14">
-               <head>Kahlenbergerdorf</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90969/</idno>
-            </event>
-            <event when-iso="1898-05-14">
-               <head>Florianigasse</head>
-               <desc/>
-               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/818/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-05-14">
                <head>Hochzeit von Paula Lissy und Richard Beer-Hofmann, 14.5.1898</head>

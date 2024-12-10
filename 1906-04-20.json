@@ -85,27 +85,25 @@
  "schnitzler-orte",
  "color":
  "#045344",
- "filename":
- "entity/50/",
  "caption":
  "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/50/",
  "head":
- "Wien"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "filename":
- "entity/43/",
- "caption":
- "Aufenthaltsorte",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/43/",
- "head":
- "Café Imperial"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -118,14 +116,43 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209431/",
  "head":
- "Konzert, 20.4.1906",
+ "Historisches Konzert, 20.4.1906",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Internationale Musikgesellschaft, Ortsgruppe Wien",
+ "ref":
+ ""}
+ ,  {
+ "orgName":
+ "Wiener a-capella-Chor",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Palestrina. Musikalische Legende in drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 
