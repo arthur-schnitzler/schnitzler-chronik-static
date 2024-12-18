@@ -98,6 +98,52 @@
  "color":
  "#9BC53D",
  "filename":
+ "entity/239458/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/239458/",
+ "head":
+ "Probe von Literatur, 19.11.1921",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Literatur",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
  "entity/210134/",
  "caption":
  "Ereignisse in der PMB",
@@ -106,7 +152,15 @@
  "head":
  "Violinkonzert Mayo Wadler, 19.11.1921",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -117,6 +171,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }] 

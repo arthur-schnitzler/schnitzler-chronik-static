@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-10.">10.12.2024</date>
+            <date when-iso="2024-12-18.">18.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,6 +109,22 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb255">
+                              <placeName>Grand Hotel Wien</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb57">
+                        <placeName>VII., Neubau</placeName>
+                        <listPlace>
+                           <place corresp="#pmb237711">
+                              <placeName>Restaurant Schöner</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#pmb68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -125,6 +141,31 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 5. November – 20. Dezember 1929</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp741.html</idno>
+            </event>
+            <event when-iso="1929-12-20">
+               <head>Generalprobe von Im Spiel der Sommerlüfte, 20.12.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                        <note type="relation-type">ist Generalprobe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/237706/</idno>
             </event>
             <event when-iso="1929-12-20">
                <head>Schnitzler, Arthur an Schnitzler, Heinrich [Briefe]</head>

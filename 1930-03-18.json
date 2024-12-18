@@ -75,6 +75,11 @@
   [
  {
  "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -92,6 +97,15 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Laudongasse 12"
+}, {
+ "type":
  "pollaczek",
  "color":
  "#1e81b0",
@@ -103,4 +117,42 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp765.html",
  "head":
  "Clara Katharina Pollaczek an Arthur Schnitzler, 18. März 1930"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237989/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237989/",
+ "head":
+ "Aufführung von Die heilige Flamme, 18.3.1930",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Die heilige Flamme",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater in der Josefstadt",
+ "ref":
+ ""}
+ ]
+}
 }] 

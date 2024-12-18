@@ -57,6 +57,11 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -74,9 +79,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209450/",
  "head":
- "Klavierkonzert Ernst von Dohnányi, 19.11.1906",
+ "Klavierkonzert von Ernst von Dohnányi, 19.11.1906",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -87,7 +100,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

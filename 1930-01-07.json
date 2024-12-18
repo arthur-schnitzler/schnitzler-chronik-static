@@ -99,7 +99,36 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bülowstraße 90",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Herbert-von-Karajan-Straße 15"
 }, {
  "type":
  "pollaczek",
@@ -126,6 +155,44 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp758.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 6.–13. Januar 1930"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237813/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237813/",
+ "head":
+ "Aufführung von Vom Teufel geholt, 1.7.1930",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Vom Teufel geholt",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Die Komödie",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

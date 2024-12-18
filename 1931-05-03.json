@@ -94,7 +94,37 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Neuwaldegg"
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "XVII., Hernals",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XIV., Penzing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -103,7 +133,7 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Sophienalpe"
+ "Weidlingbach"
 }, {
  "type":
  "schnitzler-orte",
@@ -112,7 +142,16 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Salmannsdorf"
+ "Steinriegl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Steinriegl"
 }, {
  "type":
  "pollaczek",
@@ -126,4 +165,55 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp904.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 2.–4. Mai 1931"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/238988/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/238988/",
+ "head":
+ "Aufführung von Der Hauptmann von Köpenick, 3.5.1931",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Hauptmann von Köpenick. Ein deutsches Märchen in drei Akten (18 Szenen)",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ ""}
+ ]
+}
 }] 

@@ -58,15 +58,69 @@
  "color":
  "#9BC53D",
  "filename":
+ "entity/239250/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/239250/",
+ "head":
+ "Probe von Professor Bernhardi, 23.11.1918",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
  "entity/209967/",
  "caption":
  "Ereignisse in der PMB",
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209967/",
  "head":
- "Konzert Franz Steiner, 23.11.1918",
+ "Liederabend von Franz Steiner, 23.11.1918",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -77,6 +131,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }] 

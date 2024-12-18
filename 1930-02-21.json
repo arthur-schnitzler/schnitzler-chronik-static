@@ -85,11 +85,6 @@
   [
  {
  "placeName":
- "V., Margareten",
- "ref":
- ""}
- ,  {
- "placeName":
  "I., Innere Stadt",
  "ref":
  ""}
@@ -100,6 +95,24 @@
  ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Tiefer Graben 17"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Gregor-Mendel-Straße 34"
 }, {
  "type":
  "pollaczek",
@@ -113,6 +126,76 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp766.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 17.–26. Februar 1930"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237951/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237951/",
+ "head":
+ "Konzert von Lili Kraus, 21.2.1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Kraus",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/237945/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/237945/",
+ "head":
+ "Private Lesung von Thérèse, 21.2.1930",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Thérèse. Chronique de la vie d'une femme.",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sternwartestraße 71",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "kalliope-verbund",

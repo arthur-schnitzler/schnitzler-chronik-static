@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-10.">10.12.2024</date>
+            <date when-iso="2024-12-18.">18.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,14 +114,6 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb55">
-                        <placeName>V., Margareten</placeName>
-                        <listPlace>
-                           <place corresp="#pmb184635">
-                              <placeName>Margaretner Orpheum</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
                      <place corresp="#pmb51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
@@ -143,9 +135,61 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-02-21">
+               <head corresp="#pmb207301">Tiefer Graben 17</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-02-21">
+               <head corresp="#pmb236372">Gregor-Mendel-Straße 34</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-02-21">
                <head>Tagebuch von Clara Katharina Pollaczek, 17.–26. Februar 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp766.html</idno>
+            </event>
+            <event when-iso="1930-02-21">
+               <head>Konzert von Lili Kraus, 21.2.1930</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb19716">Kraus, Lili</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/237951/</idno>
+            </event>
+            <event when-iso="1930-02-21">
+               <head>Private Lesung von Thérèse, 21.2.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb63314">Thérèse. Chronique de la vie d'une femme.</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb15015">Clauser, Suzanne</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
+                        <location>
+                           <geo>48,23188 16,33716</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/237945/</idno>
             </event>
             <event when-iso="1930-02-21">
                <head>Zweig, Arnold an Schnitzler, Arthur [Briefe]</head>

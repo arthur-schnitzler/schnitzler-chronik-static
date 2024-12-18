@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-10.">10.12.2024</date>
+            <date when-iso="2024-12-18.">18.12.2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -157,6 +157,39 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 1.–7. Februar 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp763.html</idno>
+            </event>
+            <event when-iso="1930-02-01">
+               <head>Probe von Paracelsus, Große Szene und Der grüne Kakadu, 1.2.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30403">Paracelsus. Versspiel in einem Akt</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb31429">Große Szene</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/237906/</idno>
             </event>
             <event when-iso="1930-02-01">
                <head>Mappe A221</head>
