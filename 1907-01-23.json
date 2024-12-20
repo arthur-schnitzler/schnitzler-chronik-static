@@ -84,9 +84,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209466/",
  "head":
- "Vorlesung Josef Kainz, 23.1.1907",
+ "Vorlesung von Josef Kainz, 23.1.1907",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -97,6 +105,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 
