@@ -134,11 +134,16 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb69">
-                        <placeName>XIX., Döbling</placeName>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb242">
-                              <placeName>Salmannsdorf</placeName>
+                           <place corresp="#pmb40694">
+                              <placeName>Gentzgasse</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Gentzgasse 110</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>
@@ -150,8 +155,21 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb242">
+                              <placeName>Salmannsdorf</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1903-05-21">
+               <head corresp="#pmb44394">Weidlingbach</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1903-05-21">

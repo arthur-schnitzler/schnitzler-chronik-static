@@ -141,6 +141,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb235784">
+                              <placeName>Oppolzergasse 6</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#pmb68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -151,6 +159,16 @@
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1928-03-23">
+               <head corresp="#pmb207301">Tiefer Graben 17</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1928-03-23">
+               <head corresp="#pmb232768">Beethovengasse 6</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

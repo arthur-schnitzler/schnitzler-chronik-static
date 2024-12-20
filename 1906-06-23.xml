@@ -187,13 +187,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-06-23">
-               <head corresp="#pmb238094">Pension Cortella</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1906-06-23">
-               <head corresp="#pmb92195">Kurpark</head>
-               <desc/>
+               <head corresp="#pmb662">Baden bei Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb238094">
+                        <placeName>Pension Cortella</placeName>
+                     </place>
+                     <place corresp="#pmb92195">
+                        <placeName>Kurpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

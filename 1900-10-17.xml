@@ -85,11 +85,6 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-10-17.html</idno>
             </event>
             <event when-iso="1900-10-17">
-               <head corresp="#pmb75">Hinterbrühl</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1900-10-17">
                <head corresp="#pmb662">Baden bei Wien</head>
                <desc>
                   <listPlace>
@@ -98,6 +93,17 @@
                      </place>
                      <place corresp="#pmb190818">
                         <placeName>Stadttheater Baden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1900-10-17">
+               <head corresp="#pmb44413">Brühl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb75">
+                        <placeName>Hinterbrühl</placeName>
                      </place>
                   </listPlace>
                </desc>

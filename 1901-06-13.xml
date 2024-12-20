@@ -86,7 +86,13 @@
             </event>
             <event when-iso="1901-06-13">
                <head corresp="#pmb30">Salzburg</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb269">
+                        <placeName>Aigen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

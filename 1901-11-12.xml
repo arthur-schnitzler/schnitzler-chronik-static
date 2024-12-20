@@ -91,13 +91,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-11-12">
-               <head corresp="#pmb714">Hotel Edlacherhof</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1901-11-12">
-               <head corresp="#pmb796">Thalhof</head>
-               <desc/>
+               <head corresp="#pmb483">Reichenau an der Rax</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb714">
+                        <placeName>Hotel Edlacherhof</placeName>
+                     </place>
+                     <place corresp="#pmb796">
+                        <placeName>Thalhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

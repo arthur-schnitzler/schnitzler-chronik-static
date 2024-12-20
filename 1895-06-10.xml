@@ -93,6 +93,14 @@
                         <listPlace>
                            <place corresp="#pmb8">
                               <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Venedig in Wien</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Schweizerhaus</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>
@@ -110,16 +118,6 @@
             </event>
             <event when-iso="1895-06-10">
                <head corresp="#pmb587">Wiener Neustadt</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1895-06-10">
-               <head corresp="#pmb422">Venedig in Wien</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1895-06-10">
-               <head corresp="#pmb47">Schweizerhaus</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

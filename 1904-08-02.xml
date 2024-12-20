@@ -105,11 +105,16 @@
                      <place corresp="#pmb52">
                         <placeName>II., Leopoldstadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb200745">
-                              <placeName>Praterspitz</placeName>
-                           </place>
-                           <place corresp="#pmb234204">
-                              <placeName>Konstantinhügel</placeName>
+                           <place corresp="#pmb8">
+                              <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Praterspitz</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Konstantinhügel</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>

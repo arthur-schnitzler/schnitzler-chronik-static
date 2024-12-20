@@ -123,11 +123,28 @@
                            <place corresp="#pmb50941">
                               <placeName>Palmenhaus Schönbrunn</placeName>
                            </place>
+                           <place corresp="#pmb92519">
+                              <placeName>Schlosspark Schönbrunn</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Tiergarten Schönbrunn</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Neptunbrunnen</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Römische Ruine [Schlosspark Schönbrunn]</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#pmb68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb237633">
+                              <placeName>Hasenauerstraße 46</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -135,26 +152,6 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1915-05-09">
-               <head corresp="#pmb39607">Tiergarten Schönbrunn</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1915-05-09">
-               <head corresp="#pmb200855">Neptunbrunnen</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1915-05-09">
-               <head corresp="#pmb200859">Römische Ruine [Schlosspark Schönbrunn]</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1915-05-09">
-               <head corresp="#pmb92519">Schlosspark Schönbrunn</head>
-               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

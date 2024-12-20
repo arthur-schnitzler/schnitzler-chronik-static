@@ -97,11 +97,16 @@
                      <place corresp="#pmb52">
                         <placeName>II., Leopoldstadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb47">
-                              <placeName>Schweizerhaus</placeName>
-                           </place>
-                           <place corresp="#pmb685">
-                              <placeName>Wurstelprater</placeName>
+                           <place corresp="#pmb8">
+                              <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Schweizerhaus</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Wurstelprater</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>

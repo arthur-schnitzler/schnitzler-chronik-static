@@ -111,6 +111,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb232166">
+                              <placeName>Gentzgasse 110</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#pmb64">
                         <placeName>XIV., Penzing</placeName>
                         <listPlace>
@@ -130,6 +138,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb67">
+                        <placeName>XVII., Hernals</placeName>
+                        <listPlace>
+                           <place corresp="#pmb170">
+                              <placeName>Neuwaldegg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#pmb59">
                         <placeName>IX., Alsergrund</placeName>
                         <listPlace>
@@ -140,6 +156,11 @@
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1903-05-03">
+               <head corresp="#pmb145">Köln</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

@@ -69,8 +69,27 @@
       <body>
          <listEvent>
             <event when-iso="1876-11-26">
-               <head corresp="#pmb40">Theater in der Josefstadt</head>
-               <desc/>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb58">
+                        <placeName>VIII., Josefstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb40">
+                              <placeName>Theater in der Josefstadt</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168765">
+                              <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1876-11-26">

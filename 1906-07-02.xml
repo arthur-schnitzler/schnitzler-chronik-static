@@ -108,13 +108,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1906-07-02">
-               <head corresp="#pmb1109">Kommunehospitalet</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1906-07-02">
-               <head corresp="#pmb238114">Havnegade 55</head>
-               <desc/>
+               <head corresp="#pmb36300">Kopenhagen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb1109">
+                        <placeName>Kommunehospitalet</placeName>
+                     </place>
+                     <place corresp="#pmb238114">
+                        <placeName>Havnegade 55</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

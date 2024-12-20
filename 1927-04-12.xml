@@ -105,7 +105,26 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-04-12.html</idno>
             </event>
             <event when-iso="1927-04-12">
-               <head corresp="#pmb185644">Peregringasse 4</head>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb185644">
+                              <placeName>Peregringasse 4</placeName>
+                           </place>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-04-12">
+               <head corresp="#pmb207301">Tiefer Graben 17</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

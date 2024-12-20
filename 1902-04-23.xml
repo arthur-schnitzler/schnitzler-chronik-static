@@ -100,14 +100,6 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb73">
-                        <placeName>XXIII., Liesing</placeName>
-                        <listPlace>
-                           <place corresp="#pmb200352">
-                              <placeName>Endresstraße 68</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
                      <place corresp="#pmb59">
                         <placeName>IX., Alsergrund</placeName>
                         <listPlace>
@@ -116,12 +108,20 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb7728">
+                        <placeName>Mauer</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-04-23">
                <head corresp="#pmb145165">Hauptstraße 56</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1902-04-23">
+               <head corresp="#pmb90721">Gießhübl</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

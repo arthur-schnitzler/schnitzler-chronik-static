@@ -94,13 +94,35 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-06-14.html</idno>
             </event>
             <event when-iso="1900-06-14">
-               <head corresp="#pmb44">Riedhof</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1900-06-14">
-               <head corresp="#pmb207344">Neutorgasse 15</head>
-               <desc/>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb58">
+                        <placeName>VIII., Josefstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb44">
+                              <placeName>Riedhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb207344">
+                              <placeName>Neutorgasse 15</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168934">
+                              <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

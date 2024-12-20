@@ -69,6 +69,22 @@
       <body>
          <listEvent>
             <event when-iso="1878-03-24">
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168765">
+                              <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1878-03-24">
                <head>Philharmonisches-Konzert, 24.3.1878</head>
                <desc>
                   <listPerson>

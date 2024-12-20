@@ -101,6 +101,17 @@
                         <listPlace>
                            <place corresp="#pmb8">
                               <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Wurstelprater</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Hauptallee</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Restauration Prochaska</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>
@@ -114,16 +125,6 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-06-08">
-               <head corresp="#pmb685">Wurstelprater</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-06-08">
-               <head corresp="#pmb53159">Hauptallee</head>
-               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-06-08">

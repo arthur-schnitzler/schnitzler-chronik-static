@@ -120,6 +120,14 @@
                            <place corresp="#pmb368">
                               <placeName>Gloriette</placeName>
                            </place>
+                           <place corresp="#pmb92519">
+                              <placeName>Schlosspark Schönbrunn</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Tiergarten Schönbrunn</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
                            <place corresp="#pmb304">
                               <placeName>Ottakringer Bräu</placeName>
                            </place>
@@ -132,17 +140,6 @@
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1905-08-09">
-               <head corresp="#pmb92519">Schlosspark Schönbrunn</head>
-               <desc>
-                  <listPlace>
-                     <place corresp="#pmb39607">
-                        <placeName>Tiergarten Schönbrunn</placeName>
                      </place>
                   </listPlace>
                </desc>

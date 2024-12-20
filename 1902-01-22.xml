@@ -112,17 +112,25 @@
                      <place corresp="#pmb73">
                         <placeName>XXIII., Liesing</placeName>
                         <listPlace>
-                           <place corresp="#pmb40297">
-                              <placeName>Hofmannsthal-Schlössl</placeName>
-                           </place>
-                           <place corresp="#pmb231810">
-                              <placeName>Willergasse 2</placeName>
+                           <place corresp="#pmb173">
+                              <placeName>Rodaun</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Hofmannsthal-Schlössl</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Willergasse 2</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>
                      <place corresp="#pmb59">
                         <placeName>IX., Alsergrund</placeName>
                         <listPlace>
+                           <place corresp="#pmb231633">
+                              <placeName>Pension Powolny</placeName>
+                           </place>
                            <place corresp="#pmb168934">
                               <placeName>Frankgasse 1</placeName>
                            </place>
@@ -130,11 +138,6 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1902-01-22">
-               <head corresp="#pmb231820">Garnisongasse 11</head>
-               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-01-22">

@@ -148,8 +148,24 @@
                      <place corresp="#pmb63">
                         <placeName>XIII., Hietzing</placeName>
                         <listPlace>
-                           <place corresp="#pmb200859">
-                              <placeName>Römische Ruine [Schlosspark Schönbrunn]</placeName>
+                           <place corresp="#pmb92519">
+                              <placeName>Schlosspark Schönbrunn</placeName>
+                              <listPlace>
+                                 <place>
+                                    <placeName>Römische Ruine [Schlosspark Schönbrunn]</placeName>
+                                 </place>
+                                 <place>
+                                    <placeName>Meidlinger Tor</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb65">
+                        <placeName>XV., Rudolfsheim-Fünfhaus</placeName>
+                        <listPlace>
+                           <place corresp="#pmb438">
+                              <placeName>Westbahnhof-Restaurant</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -166,14 +182,8 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-05-17">
-               <head corresp="#pmb92519">Schlosspark Schönbrunn</head>
-               <desc>
-                  <listPlace>
-                     <place corresp="#pmb200859">
-                        <placeName>Römische Ruine [Schlosspark Schönbrunn]</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
+               <head corresp="#pmb238048">Thalheim</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

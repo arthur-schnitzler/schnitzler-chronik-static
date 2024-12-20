@@ -96,6 +96,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb233517">
+                              <placeName>Kaiserpanorama [Wien, Schubertring 4]</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#pmb68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -106,6 +114,11 @@
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-03-14">
+               <head corresp="#pmb232800">Laudongasse 12</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
