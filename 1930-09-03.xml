@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,19 +111,27 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-09-03.html</idno>
             </event>
             <event when-iso="1930-09-03">
-               <head corresp="#pmb92097">Wolfstein</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-09-03">
                <head corresp="#pmb772">Marienbad</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb236965">
+                        <placeName>Grand Hotel Marienbad</placeName>
+                     </place>
                      <place corresp="#pmb185538">
                         <placeName>Tepler Haus</placeName>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-09-03">
+               <head corresp="#pmb92097">Wolfstein</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-09-03">
+               <head corresp="#pmb244309">Maxthal</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-09-03">

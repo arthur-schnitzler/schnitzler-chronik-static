@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -142,6 +142,31 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1931-01-19">
+               <head>Probe von Der Gang zum Weiher (1. und 2. Akt), 19.1.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/244737/</idno>
             </event>
             <event when-iso="1931-01-19">
                <head>Arthur Schnitzler an Book-of-the-Month Club, 19. 1. 1931</head>

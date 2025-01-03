@@ -144,7 +144,27 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bülowstraße 90",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bülowstraße 78",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -171,6 +191,49 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp849.html",
  "head":
  "Arthur Schnitzler an Clara Katharina Pollaczek, 12. November 1930"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/244558/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/244558/",
+ "head":
+ "Aufführung von Bürger Schippel, 12.11.1930",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Bürger Schippel. Komödie in fünf Aufzügen",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schauspielhaus Berlin",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

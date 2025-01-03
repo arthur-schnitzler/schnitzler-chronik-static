@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,6 +132,9 @@
                      <place corresp="#pmb68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb235132">
+                              <placeName>Türkenschanzstraße 48</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -142,9 +145,42 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-10-05">
+               <head corresp="#pmb235251">Hasenauerstraße 59</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-10-05">
                <head>Tagebuch von Clara Katharina Pollaczek, 30. September – 7. Oktober 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp837.html</idno>
+            </event>
+            <event when-iso="1930-10-05">
+               <head>Private Lesung von Das goldene Pferd [?], 5.10.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb244445">Das goldene Pferd</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb235251">Hasenauerstraße 59</placeName>
+                        <location>
+                           <geo>48,23365 16,33494</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/244447/</idno>
             </event>
             <event when-iso="1930-10-05">
                <head>Ahne, Anna an Schnitzler, Arthur [Briefe]</head>

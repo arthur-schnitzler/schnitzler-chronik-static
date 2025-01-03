@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,9 +133,44 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-11-04">
+               <head corresp="#pmb207301">Tiefer Graben 17</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-11-04">
+               <head corresp="#pmb235120">Schulerstraße 22</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-11-04">
                <head>Tagebuch von Clara Katharina Pollaczek, 28. Oktober – 4. November 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp843.html</idno>
+            </event>
+            <event when-iso="1930-11-04">
+               <head>Aufführung von Der brave Soldat Schwejk, 4.11.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb78519">Der brave Soldat Schwejk</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
+                        <location>
+                           <geo>48,192222 16,339722</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/244535/</idno>
             </event>
             <event when-iso="1930-11-04">
                <head>Berger, Gisela von an Schnitzler, Arthur [Briefe]</head>

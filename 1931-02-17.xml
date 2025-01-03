@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -177,9 +177,39 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-02-17">
+               <head corresp="#pmb237018">Kanzlei Dr. Hoffmann</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1931-02-17">
                <head>Tagebuch von Clara Katharina Pollaczek, 13.–18. Februar 1931</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp888.html</idno>
+            </event>
+            <event when-iso="1931-02-17">
+               <head>Aufführung von Jim und Jill, 17.2.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80427">Jim und Jill</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb60854">Wiener Bürgertheater</placeName>
+                        <location>
+                           <geo>48,20709 16,38382</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/244821/</idno>
             </event>
             <event when-iso="1931-02-17">
                <head>Schnitzler, Arthur an Wellesz, Egon [Briefe]</head>

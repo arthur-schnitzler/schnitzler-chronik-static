@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -155,6 +155,31 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 27.–31. Dezember 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp869.html</idno>
+            </event>
+            <event when-iso="1930-12-27">
+               <head>Aufführung von Elisabeth von England, 27.12.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb79156">Elisabeth von England</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/244696/</idno>
             </event>
             <event when-iso="1930-12-27">
                <head>Austro-American Institute of Education &lt;Wien&gt; an Schnitzler, Arthur [Briefe]</head>

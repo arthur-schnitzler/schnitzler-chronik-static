@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2024-12-20.">20.12.2024</date>
+            <date when-iso="2025-01-03.">03.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,9 +108,53 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-09-01.html</idno>
             </event>
             <event when-iso="1930-09-01">
+               <head corresp="#pmb772">Marienbad</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb236965">
+                        <placeName>Grand Hotel Marienbad</placeName>
+                     </place>
+                     <place corresp="#pmb35066">
+                        <placeName>Hotel Klinger</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-09-01">
+               <head corresp="#pmb244309">Maxthal</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-09-01">
                <head>Tagebuch von Clara Katharina Pollaczek, 30. August – 3. September 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp828.html</idno>
+            </event>
+            <event when-iso="1930-09-01">
+               <head>Aufführung von Frau Pick in Audienz, 1.9.1930</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80616">Frau Pick in Audienz</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb772">Marienbad</placeName>
+                        <location>
+                           <geo>49,96115 12,72872</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/244342/</idno>
             </event>
             <event when-iso="1930-09-01">
                <head>Arthur Schnitzler an Suzanne Clauser, 1. 9. 1930</head>
