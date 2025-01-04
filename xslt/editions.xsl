@@ -246,7 +246,7 @@
                         </xsl:attribute>
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@corresp, '#', ''), 'pmb', ''), '/')"
+                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(tei:head/@corresp, '#', ''), 'pmb', ''), '/')"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
