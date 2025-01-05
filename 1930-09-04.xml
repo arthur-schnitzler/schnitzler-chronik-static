@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -135,17 +135,16 @@
             </event>
             <event when-iso="1930-09-04">
                <head corresp="#pmb58678">Loket</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-09-04">
-               <head corresp="#pmb244353">Kettenbrücke Loket</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-09-04">
-               <head corresp="#pmb244356">?? [Gasthof in Loket, wo Goethe und Levetzow 1923 waren]</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb244353">
+                        <placeName>Kettenbrücke Loket</placeName>
+                     </place>
+                     <place corresp="#pmb244356">
+                        <placeName>?? [Gasthof in Loket, wo Goethe und Levetzow 1923 waren]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-09-04">

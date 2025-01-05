@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,13 +103,19 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-08-15.html</idno>
             </event>
             <event when-iso="1923-08-15">
-               <head corresp="#pmb90374">Bodensee</head>
+               <head corresp="#pmb668">Bodensee</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-08-15">
                <head corresp="#pmb58779">Friedrichshafen</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb245265">
+                        <placeName>Kurgartenhotel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-08-15">

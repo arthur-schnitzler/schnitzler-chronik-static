@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,6 +115,34 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1931-07-13">
+               <head>Private Lesung von Abendspaziergang, 13.7.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb35702">Abendspaziergang</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb15015">Clauser, Suzanne</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
+                        <location>
+                           <geo>48,23188 16,33716</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/245165/</idno>
             </event>
             <event when-iso="1931-07-13">
                <head>Mappe A25</head>

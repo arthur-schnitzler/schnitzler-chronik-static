@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -173,6 +173,9 @@
                            <place corresp="#pmb20">
                               <placeName>Volkstheater</placeName>
                            </place>
+                           <place corresp="#pmb237711">
+                              <placeName>Restaurant Schöner</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#pmb68">
@@ -186,8 +189,21 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb54">
+                        <placeName>IV., Wieden</placeName>
+                        <listPlace>
+                           <place corresp="#pmb244994">
+                              <placeName>Karolinenkirche</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1931-05-19">
+               <head corresp="#pmb232800">Laudongasse 12</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1931-05-19">
@@ -199,6 +215,31 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 19.–22. Mai 1931</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp911.html</idno>
+            </event>
+            <event when-iso="1931-05-19">
+               <head>Aufführung von Gestern und heute, 19.5.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81506">Gestern und heute</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/245019/</idno>
             </event>
          </listEvent>
       </body>

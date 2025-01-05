@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,9 +75,6 @@
                      <place corresp="#pmb51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb185863">
-                              <placeName>Ringtheater</placeName>
-                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -85,6 +82,11 @@
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1879-05-10">
+               <head corresp="#pmb185863">Ringtheater</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1879-05-10">

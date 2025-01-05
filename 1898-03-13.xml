@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,11 +115,13 @@
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb90538">
-                        <placeName>Neue Donau</placeName>
-                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1898-03-13">
+               <head corresp="#pmb90538">Neue Donau</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

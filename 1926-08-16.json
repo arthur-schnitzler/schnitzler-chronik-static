@@ -51,7 +51,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bern"
+ "Bern",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Schweizerhof Bern",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -60,7 +70,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Crans-Montana"
+ "Crans-Montana",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Standseilbahn Sierre-Montana-Crans",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel du Golf et Sports [Crans]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -69,7 +94,35 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Brig"
+ "Brig",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hôtel Couronne et Poste",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Sierre"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Hotel du Parc [Montana]"
 }, {
  "type":
  "pollaczek",

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,6 +104,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb172">
+                              <placeName>Kellerei und Gastwirtschaft Deutsches Haus, Friedrich Kargl</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#pmb68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -120,6 +128,30 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 6.–9. Juni 1931</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp920.html</idno>
+            </event>
+            <event when-iso="1931-06-08">
+               <head>Zirkusbesuch Circus Hagenbeck, 8.6.1931</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb245074">Circus Hagenbeck-Wallace</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb8">Prater</placeName>
+                        <location>
+                           <geo>48,194558 16,430054</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/245080/</idno>
             </event>
             <event when-iso="1931-06-08">
                <head>Schnitzler, Arthur an Hahn, Viktor [Briefe]</head>

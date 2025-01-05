@@ -61,7 +61,31 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Baden-Baden"
+ "Hotel Marquardt"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Baden-Baden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kurhaus Baden-Baden",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel am Sophienpark",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -88,6 +112,41 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp153.html",
  "head":
  "Arthur Schnitzler an Clara Katharina Pollaczek, 10. Januar 1925"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/245050/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/245050/",
+ "head":
+ "Konzert von Váša Přihoda, 10.1.1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Váša Přihoda",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kurhaus Baden-Baden",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

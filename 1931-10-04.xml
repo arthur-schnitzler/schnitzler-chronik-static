@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -113,14 +113,6 @@
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb51">
-                        <placeName>I., Innere Stadt</placeName>
-                        <listPlace>
-                           <place corresp="#pmb43">
-                              <placeName>Café Imperial</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
                      <place corresp="#pmb253">
                         <placeName>Imperialkino</placeName>
                      </place>
@@ -130,6 +122,11 @@
             </event>
             <event when-iso="1931-10-04">
                <head corresp="#pmb91663">Satzberg</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1931-10-04">
+               <head corresp="#pmb43">Café Imperial</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-03.">03.01.2025</date>
+            <date when-iso="2025-01-05.">05.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,8 +100,22 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-10.html</idno>
             </event>
             <event when-iso="1925-01-10">
-               <head corresp="#pmb228">Baden-Baden</head>
+               <head corresp="#pmb245225">Hotel Marquardt</head>
                <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1925-01-10">
+               <head corresp="#pmb228">Baden-Baden</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb183508">
+                        <placeName>Kurhaus Baden-Baden</placeName>
+                     </place>
+                     <place corresp="#pmb245054">
+                        <placeName>Hotel am Sophienpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-01-10">
@@ -115,6 +129,28 @@
                <head>Arthur Schnitzler an Clara Katharina Pollaczek, 10. Januar 1925</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp153.html</idno>
+            </event>
+            <event when-iso="1925-01-10">
+               <head>Konzert von Váša Přihoda, 10.1.1925</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb22942">Přihoda, Váša</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb183508">Kurhaus Baden-Baden</placeName>
+                        <location>
+                           <geo>48,7603 8,23639</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/245050/</idno>
             </event>
             <event when-iso="1925-01-10">
                <head>Hedy Kempny an Arthur Schnitzler, 10.1.1925</head>
