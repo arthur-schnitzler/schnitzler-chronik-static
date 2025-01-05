@@ -116,7 +116,7 @@
         <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
-                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ]">
+                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ][1]">
                 <xsl:variable name="e-typ-farbe">
                     <xsl:choose>
                         <xsl:when
@@ -197,7 +197,7 @@
     </xsl:template>
     <xsl:template match="tei:event">
         <!-- jeder einzelne eintrag -->
-        <xsl:variable name="e-typ" select="tei:idno/@type" as="xs:string"/>
+        <xsl:variable name="e-typ" select="tei:idno[1]/@type" as="xs:string"/>
         <xsl:variable name="e-typ-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -283,6 +283,21 @@
                         <xsl:apply-templates select="tei:desc" mode="text"/>
                     </li>
                 </xsl:element>
+            </xsl:when>
+        </xsl:choose>
+        <xsl:choose>
+            <xsl:when test="tei:idno[@type= $e-typ][2]">
+                <xsl:for-each select="tei:idno[@type= $e-typ]">
+                   <xsl:element name="a">
+                       <xsl:attribute name="href">
+                           <xsl:value-of select="."/>
+                       </xsl:attribute>
+                    <xsl:value-of select="concat('Link ', position())"/>
+                   </xsl:element> 
+                   <xsl:if test="position() != last()">
+                       <xsl:text> / </xsl:text>
+                   </xsl:if>
+                </xsl:for-each>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
