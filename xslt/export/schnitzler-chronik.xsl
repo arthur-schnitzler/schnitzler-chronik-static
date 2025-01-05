@@ -9,6 +9,7 @@
     here. The idea is to call the templates in this file something like this:
     <xsl:call-template name="mam:schnitzler-chronik">
                                     <xsl:with-param name="datum-iso" select="$datum"/>
+                                    <xsl:with-param name="current-type" select="'schnitzler-briefe'"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
                                     <xsl:with-param name="fetch-locally" select="true()"/>
                                     <xsl:with-param name="schnitzler-tagebuch" select="false()"/>
@@ -23,15 +24,17 @@
         select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     
    -->
-    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <!--<xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>-->
+    <xsl:param name="relevant-uris" select="document('list-of-relevant-uris.xml')"/>
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
     <xsl:template name="mam:schnitzler-chronik">
         <xsl:param name="datum-iso" as="xs:date"/>
+        <xsl:param name="current-type" as="xs:string"/>
         <xsl:param name="teiSource" as="xs:string"/>
         <xsl:param name="fetch-locally" as="xs:boolean"/>
-        <xsl:param name="schnitzler-tagebuch" as="xs:boolean"/>
         <xsl:param name="relevant-eventtypes" as="xs:string"/>
+        <xsl:variable name="schnitzler-tagebuch" as="xs:boolean" select="$current-type='schnitzler-tagebuch'"/>
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
