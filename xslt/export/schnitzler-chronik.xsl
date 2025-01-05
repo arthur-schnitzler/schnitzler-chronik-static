@@ -24,8 +24,8 @@
         select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     
    -->
-    <!--<xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>-->
-    <xsl:param name="relevant-uris" select="document('list-of-relevant-uris.xml')"/>
+    <xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
+    <!--<xsl:param name="relevant-uris" select="document('list-of-relevant-uris.xml')"/>-->
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
     <xsl:template name="mam:schnitzler-chronik">
@@ -54,18 +54,9 @@
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:choose>
-                        <xsl:when test="not($schnitzler-tagebuch)">
-                            <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[@type= $current-type][1]/text(), $teiSource))]"
-                            />
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
-                            />
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <xsl:copy-of
+                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[@type = $current-type][1]/text(), $teiSource))]"
+                    />
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
