@@ -71,8 +71,9 @@
                 />
             </xsl:variable>
             <div id="chronik-modal-body">
+                <xsl:value-of select="$fetchURLohneTeiSource"/>
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
-                    <xsl:with-param name="relevent-eventtypes" select="$relevant-eventtypes"/>
+                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                 </xsl:apply-templates>
                 <div class="weiteres" style="margin-top:2.5em;">
                     <xsl:variable name="datum-written" select="
@@ -202,7 +203,7 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
-        <xsl:param name="relevant-eventtypes" as="xs:string"/>
+        <xsl:param name="relevant-eventtypes"/>
         <xsl:variable name="current-group" select="." as="node()"/>
         <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
