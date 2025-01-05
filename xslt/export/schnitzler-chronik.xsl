@@ -16,7 +16,7 @@
                                     <xsl:with-param name="relevant-eventtypes" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"
                                 </xsl:call-template>
                                 
-    where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it, i.e. 'schnitzler-briefe'
+    where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it, i.e. 'L000122'
     
     At a later point this xsl became the master xsl and can be used by accessing it via the chronik-repository. Thus the many params. 
     
@@ -57,7 +57,7 @@
                     <xsl:choose>
                         <xsl:when test="not($schnitzler-tagebuch)">
                             <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
+                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[@type= $current-type][1]/text(), $teiSource))]"
                             />
                         </xsl:when>
                         <xsl:otherwise>
