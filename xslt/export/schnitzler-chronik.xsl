@@ -26,9 +26,6 @@
     <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
-    <xsl:template name="mam:sex">
-        <xsl:text>SEX</xsl:text>
-    </xsl:template>
     <xsl:template name="mam:schnitzler-chronik">
         <xsl:param name="datum-iso" as="xs:date"/>
         <xsl:param name="teiSource" as="xs:string"/>
