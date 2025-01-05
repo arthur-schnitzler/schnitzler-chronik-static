@@ -209,6 +209,16 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="e-typ-multiple" as="xs:boolean">
+            <xsl:choose>
+                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/@ana = 'multiple'">
+                    <xsl:value-of select="true()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="false()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <p>
             <xsl:choose>
                 <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
@@ -286,7 +296,7 @@
             </xsl:when>
         </xsl:choose>
         <xsl:choose>
-            <xsl:when test="tei:idno[@type= $e-typ][2]">
+            <xsl:when test="tei:idno[@type= $e-typ][2] and $e-typ-multiple">
                 <xsl:for-each select="tei:idno[@type= $e-typ]">
                    <xsl:element name="a">
                        <xsl:attribute name="href">
