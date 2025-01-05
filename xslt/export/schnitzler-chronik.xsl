@@ -71,7 +71,6 @@
                 />
             </xsl:variable>
             <div id="chronik-modal-body">
-                <xsl:value-of select="$fetchURLohneTeiSource"/>
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
                     <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                 </xsl:apply-templates>
