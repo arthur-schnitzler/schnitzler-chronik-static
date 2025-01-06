@@ -18,6 +18,8 @@
                                 
     where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it, i.e. 'L000122'
     
+    fetch-locally speeds up the process if the complete schnitzler-chronik repository is cloned into the current repo
+    
     At a later point this xsl became the master xsl and can be used by accessing it via the chronik-repository. Thus the many params. 
     
     <xsl:param name="relevant-eventtypes"
@@ -44,7 +46,7 @@
             <xsl:choose>
                 <xsl:when test="$fetch-locally">
                     <xsl:copy-of
-                        select="document(concat('../../chronik-data/', $datum-iso, '.xml'))"/>
+                        select="document(concat('../../data/', $datum-iso, '.xml'))"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:copy-of
@@ -56,18 +58,11 @@
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:choose>
-                        <xsl:when test="not($schnitzler-tagebuch)">
-                            <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
-                            />
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:copy-of
-                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
-                            />
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <xsl:for-each select="$fetchUrl/descendant::tei:listEvent/tei:event">
+                        <xsl:if test="not(tei:idno/@type= $current-type) and not(contains(tei:idno, $teiSource))">
+                            <xsl:copy-of select="."/>
+                        </xsl:if>
+                    </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
