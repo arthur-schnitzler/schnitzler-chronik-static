@@ -56,11 +56,18 @@
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:for-each select="$fetchUrl/descendant::tei:listEvent/tei:event">
-                        
-                            <xsl:copy-of select="."/>
-                        
-                    </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="not($schnitzler-tagebuch)">
+                            <xsl:copy-of
+                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:copy-of
+                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
+                            />
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
