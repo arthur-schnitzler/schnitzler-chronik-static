@@ -24,7 +24,8 @@
         select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     
    -->
-    <xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
+    <xsl:param name="relevant-uris"
+        select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
     <!--<xsl:param name="relevant-uris" select="document('list-of-relevant-uris.xml')"/>-->
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
@@ -34,7 +35,8 @@
         <xsl:param name="teiSource" as="xs:string"/>
         <xsl:param name="fetch-locally" as="xs:boolean"/>
         <xsl:param name="relevant-eventtypes" as="xs:string"/>
-        <xsl:variable name="schnitzler-tagebuch" as="xs:boolean" select="$current-type='schnitzler-tagebuch'"/>
+        <xsl:variable name="schnitzler-tagebuch" as="xs:boolean"
+            select="$current-type = 'schnitzler-tagebuch'"/>
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
@@ -54,9 +56,12 @@
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[@type = $current-type][1]/text(), $teiSource))]"
-                    />
+                    <xsl:for-each select="$fetchUrl/descendant::tei:listEvent/tei:event">
+                        <xsl:if
+                            test="not(tei:idno/@type = $current-type) and not(contains(tei:idno, $teiSource))">
+                            <xsl:copy-of select="."/>
+                        </xsl:if>
+                    </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
@@ -353,7 +358,9 @@
                                 <xsl:text>entry-title</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="href">
-                                <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(tei:head/@corresp, '#', ''), 'pmb', ''), '/')"/>
+                                <xsl:value-of
+                                    select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(tei:head/@corresp, '#', ''), 'pmb', ''), '/')"
+                                />
                             </xsl:attribute>
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
@@ -397,14 +404,14 @@
             </xsl:when>
         </xsl:choose>
         <xsl:choose>
-            <xsl:when test="tei:idno[@type= $e-typ][2] and $e-typ-multiple">
-                <xsl:for-each select="tei:idno[@type= $e-typ]">
+            <xsl:when test="tei:idno[@type = $e-typ][2] and $e-typ-multiple">
+                <xsl:for-each select="tei:idno[@type = $e-typ]">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of select="."/>
                         </xsl:attribute>
                         <xsl:value-of select="concat('Link ', position())"/>
-                    </xsl:element> 
+                    </xsl:element>
                     <xsl:if test="position() != last()">
                         <xsl:text> / </xsl:text>
                     </xsl:if>
@@ -465,97 +472,97 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-            <div
-                class="list-container"><ul class="horizontal-list">
-                    <xsl:attribute name="style">
-                        <xsl:text>--dot-color: </xsl:text>
-                        <xsl:value-of select="$e-type-farbe"/>
-                        <xsl:text>;</xsl:text>
-                    </xsl:attribute>
-                    <xsl:for-each select="tei:person/tei:persName">
-                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:element name="li">
-                            <xsl:choose>
-                                <xsl:when
-                                    test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
-                                    <xsl:variable name="normalize-gnd-ohne-http"
-                                        select="replace($ref, 'https', 'http')" as="xs:string"/>
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when
-                                    test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when
-                                    test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when
-                                    test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when
-                                    test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:otherwise>
+        <div class="list-container">
+            <ul class="horizontal-list">
+                <xsl:attribute name="style">
+                    <xsl:text>--dot-color: </xsl:text>
+                    <xsl:value-of select="$e-type-farbe"/>
+                    <xsl:text>;</xsl:text>
+                </xsl:attribute>
+                <xsl:for-each select="tei:person/tei:persName">
+                    <xsl:variable name="ref" select="concat(@ref, @key)"/>
+                    <xsl:element name="li">
+                        <xsl:choose>
+                            <xsl:when
+                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                <xsl:variable name="normalize-gnd-ohne-http"
+                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
                                     <xsl:value-of select="."/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:element>
-                    </xsl:for-each>
-                </ul>
-            </div>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when
+                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when
+                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when
+                                test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when
+                                test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:element>
+                </xsl:for-each>
+            </ul>
+        </div>
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
         <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
@@ -570,67 +577,68 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-            <div class="list-container"><ul class="horizontal-list">
-                    <xsl:attribute name="style">
-                        <xsl:text>--dot-color: </xsl:text>
-                        <xsl:value-of select="$e-type-farbe"/>
-                        <xsl:text>;</xsl:text>
-                    </xsl:attribute>
-                    <xsl:for-each select="tei:org/tei:orgName">
-                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:element name="li">
-                            <xsl:choose>
-                                <xsl:when
-                                    test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
-                                    <xsl:variable name="normalize-gnd-ohne-http"
-                                        select="replace($ref, 'https', 'http')" as="xs:string"/>
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when
-                                    test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when test="starts-with($ref, 'pmb')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:otherwise>
+        <div class="list-container">
+            <ul class="horizontal-list">
+                <xsl:attribute name="style">
+                    <xsl:text>--dot-color: </xsl:text>
+                    <xsl:value-of select="$e-type-farbe"/>
+                    <xsl:text>;</xsl:text>
+                </xsl:attribute>
+                <xsl:for-each select="tei:org/tei:orgName">
+                    <xsl:variable name="ref" select="concat(@ref, @key)"/>
+                    <xsl:element name="li">
+                        <xsl:choose>
+                            <xsl:when
+                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                <xsl:variable name="normalize-gnd-ohne-http"
+                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://correspsearch.net/de/suche.html?s=', $normalize-gnd-ohne-http)"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
                                     <xsl:value-of select="."/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:element>
-                    </xsl:for-each>
-                </ul>
-            </div>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when
+                                test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when test="starts-with($ref, 'pmb')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="."/>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:element>
+                </xsl:for-each>
+            </ul>
+        </div>
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
         <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
@@ -691,7 +699,7 @@
                                         <xsl:element name="a">
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                                  select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="target">
@@ -706,7 +714,7 @@
                                         <xsl:element name="a">
                                             <xsl:attribute name="href">
                                                 <xsl:value-of
-                                                    select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
+                                                  select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="target">
@@ -740,72 +748,72 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-         <div
-                class="list-container"><ul class="horizontal-list">
-                    <xsl:attribute name="style">
-                        <xsl:text>--dot-color: </xsl:text>
-                        <xsl:value-of select="$e-type-farbe"/>
-                        <xsl:text>;</xsl:text>
-                    </xsl:attribute>
-                    <xsl:for-each select="descendant::tei:title">
-                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:element name="li">
-                            <xsl:choose>
-                                <xsl:when
-                                    test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
+        <div class="list-container">
+            <ul class="horizontal-list">
+                <xsl:attribute name="style">
+                    <xsl:text>--dot-color: </xsl:text>
+                    <xsl:value-of select="$e-type-farbe"/>
+                    <xsl:text>;</xsl:text>
+                </xsl:attribute>
+                <xsl:for-each select="descendant::tei:title">
+                    <xsl:variable name="ref" select="concat(@ref, @key)"/>
+                    <xsl:element name="li">
+                        <xsl:choose>
+                            <xsl:when
+                                test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:choose>
+                                        <!-- Titel werden nur bis 50 Zeichen wiedergegeben -->
+                                        <xsl:when test="string-length(normalize-space(.)) &gt; 50">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:choose><!-- Titel werden nur bis 50 Zeichen wiedergegeben -->
-                                            <xsl:when
-                                                test="string-length(normalize-space(.)) &gt; 50">
-                                                <xsl:value-of
-                                                  select="substring(normalize-space(.), 1, 50)"
-                                                /><xsl:text>…</xsl:text>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="."/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:when test="starts-with($ref, 'pmb')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
+                                                select="substring(normalize-space(.), 1, 50)"/>
+                                            <xsl:text>…</xsl:text>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="."/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:when test="starts-with($ref, 'pmb')">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:choose>
+                                        <!-- Titel werden nur bis 50 Zeichen wiedergegeben -->
+                                        <xsl:when test="string-length(normalize-space(.)) &gt; 50">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:choose><!-- Titel werden nur bis 50 Zeichen wiedergegeben -->
-                                            <xsl:when
-                                                test="string-length(normalize-space(.)) &gt; 50">
-                                                <xsl:value-of
-                                                  select="substring(normalize-space(.), 1, 50)"
-                                                /><xsl:text>…</xsl:text>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="."/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:element>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="."/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:element>
-                    </xsl:for-each>
-                </ul>
-            </div>
+                                                select="substring(normalize-space(.), 1, 50)"/>
+                                            <xsl:text>…</xsl:text>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="."/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:element>
+                </xsl:for-each>
+            </ul>
+        </div>
     </xsl:template>
     <xsl:template match="tei:bibl[parent::tei:desc]" mode="desc">
         <p>
