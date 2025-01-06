@@ -57,10 +57,9 @@
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:for-each select="$fetchUrl/descendant::tei:listEvent/tei:event">
-                        <xsl:if
-                            test="not(tei:idno/@type = $current-type) and not(contains(tei:idno, $teiSource))">
+                        
                             <xsl:copy-of select="."/>
-                        </xsl:if>
+                        
                     </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
