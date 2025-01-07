@@ -35,31 +35,18 @@
         <xsl:param name="datum-iso" as="xs:date"/>
         <xsl:param name="current-type" as="xs:string"/>
         <xsl:param name="teiSource" as="xs:string"/>
-        <xsl:param name="fetch-locally" as="xs:boolean"/>
+        <xsl:param name="fetchContentsFromURL" as="node()"/>
         <xsl:param name="relevant-eventtypes" as="xs:string"/>
         <xsl:variable name="schnitzler-tagebuch" as="xs:boolean"
             select="$current-type = 'schnitzler-tagebuch'"/>
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
-        <xsl:variable name="fetchUrl" as="node()?">
-            <xsl:choose>
-                <xsl:when test="$fetch-locally">
-                    <xsl:copy-of
-                        select="document(concat('../../../', $current-type, '-static/chronik-data/', $datum-iso, '.xml'))"/>
-                    <!-- das geht davon aus, dass das schnitzler-chronik-repo lokal vorliegt -->
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:copy-of
-                        select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum-iso, '.xml'))"
-                    />
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:if test="$fetchUrl/*[1]">
+        
+        <xsl:if test="$fetchContentsFromURL/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:for-each select="$fetchUrl/descendant::tei:listEvent/tei:event">
+                    <xsl:for-each select="$fetchContentsFromUURL/descendant::tei:listEvent/tei:event">
                         <xsl:choose>
                             <xsl:when test="tei:idno[@type= $current-type][1]/contains(., $teiSource)"/>
                             <xsl:otherwise>
@@ -71,7 +58,7 @@ cd                    </xsl:for-each>
             </xsl:variable>
             <xsl:variable name="doc_title">
                 <xsl:value-of
-                    select="$fetchUrl/descendant::tei:titleStmt[1]/tei:title[@level = 'a'][1]/text()"
+                    select="$fetchContentsFromURL/descendant::tei:titleStmt[1]/tei:title[@level = 'a'][1]/text()"
                 />
             </xsl:variable>
             <div id="chronik-modal-body">
