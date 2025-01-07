@@ -7,24 +7,35 @@
         omit-xml-declaration="yes"/>
     <!-- This documentation is late in being generated thus it might not fully reflect what is going on 
     here. The idea is to call the templates in this file something like this:
-    <xsl:call-template name="mam:schnitzler-chronik">
-                                    <xsl:with-param name="datum-iso" select="$datum"/>
-                                    <xsl:with-param name="current-type" select="'schnitzler-briefe'"/>
+    
+    <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
+    <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
+    <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-briefe'"/>
+    <xsl:variable name="fetchContentsFromURL" as="node()?">
+                                    <xsl:choose>
+                                        <xsl:when test="$schnitzler-chronik_fetch-locally">
+                                            <xsl:copy-of
+                                                select="document(concat('../chronik-data/', $datum-iso, '.xml'))"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:copy-of
+                                                select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum-iso, '.xml'))"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:variable>
+                                <xsl:call-template name="mam:schnitzler-chronik">
+                                    <xsl:with-param name="datum-iso" select="$datum-iso"/>
+                                    <xsl:with-param name="current-type" select="$schnitzler-chronik_current-type"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
-                                    <xsl:with-param name="fetch-locally" select="true()"/>
-                                    <xsl:with-param name="schnitzler-tagebuch" select="false()"/>
-                                    <xsl:with-param name="relevant-eventtypes" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"
+                                    <xsl:with-param name="fetchContentsFromURL" select="$fetchContentsFromURL"/>
+                                    <xsl:with-param name="relevant-eventtypes" select="''"/>
                                 </xsl:call-template>
                                 
-    where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it, i.e. 'L000122'
+    where teiSource lists the current filename/xml:id without .xml-ending. This is to make sure the chronik doesn't reduplicate it, i.e. 'L000122'
     
-    fetch-locally speeds up the process if the complete schnitzler-chronik repository is cloned into the current repo
-    
-    At a later point this xsl became the master xsl and can be used by accessing it via the chronik-repository. Thus the many params. 
-    
-    <xsl:param name="relevant-eventtypes"
-        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
-    
+   fetchContentsFromURL already contains the chronik-day. this allows for local processing of the chronik, which increases the speed
+        
    -->
     <xsl:param name="relevant-uris"
         select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
@@ -36,24 +47,32 @@
         <xsl:param name="current-type" as="xs:string"/>
         <xsl:param name="teiSource" as="xs:string"/>
         <xsl:param name="fetchContentsFromURL" as="node()"/>
-        <xsl:param name="relevant-eventtypes" as="xs:string"/>
-        <xsl:variable name="schnitzler-tagebuch" as="xs:boolean"
-            select="$current-type = 'schnitzler-tagebuch'"/>
+        <xsl:param name="relevant-eventtypes" as="xs:string?"/>
+        <xsl:variable name="relevant-eventtypes2" as="xs:string">
+            <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
+            <xsl:choose>
+                <xsl:when test="$relevant-eventtypes = ''">
+                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$relevant-eventtypes"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
-        
         <xsl:if test="$fetchContentsFromURL/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:for-each select="$fetchContentsFromUURL/descendant::tei:listEvent/tei:event">
+                    <xsl:for-each select="$fetchContentsFromURL/descendant::tei:listEvent/tei:event">
                         <xsl:choose>
-                            <xsl:when test="tei:idno[@type= $current-type][1]/contains(., $teiSource)"/>
+                            <xsl:when
+                                test="tei:idno[@type = $current-type][1]/contains(., $teiSource)"/>
                             <xsl:otherwise>
                                 <xsl:copy-of select="."/>
                             </xsl:otherwise>
-                        </xsl:choose>
-cd                    </xsl:for-each>
+                        </xsl:choose> cd </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
@@ -63,7 +82,7 @@ cd                    </xsl:for-each>
             </xsl:variable>
             <div id="chronik-modal-body">
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
-                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
+                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes2"/>
                 </xsl:apply-templates>
                 <div class="weiteres" style="margin-top:2.5em;">
                     <xsl:variable name="datum-written" select="
@@ -193,9 +212,9 @@ cd                    </xsl:for-each>
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
-        <xsl:param name="relevant-eventtypes"/>
+        <xsl:param name="relevant-eventtypes2"/>
         <xsl:variable name="current-group" select="." as="node()"/>
-        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
+        <xsl:for-each select="tokenize($relevant-eventtypes2, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
                 select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ]">
@@ -269,7 +288,7 @@ cd                    </xsl:for-each>
                     </div>
                 </div>
                 <xsl:for-each
-                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
+                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes2, .))]]">
                     <!-- hier nun die einzelnen events -->
                     <div id="content1" class="collapse show">
                         <xsl:apply-templates mode="desc"/>
@@ -277,7 +296,7 @@ cd                    </xsl:for-each>
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
-        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
+        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes2, .))]]">
             <xsl:apply-templates mode="desc"/>
         </xsl:for-each>
     </xsl:template>
