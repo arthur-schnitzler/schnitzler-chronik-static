@@ -47,15 +47,15 @@
         <xsl:param name="current-type" as="xs:string"/>
         <xsl:param name="teiSource" as="xs:string"/>
         <xsl:param name="fetchContentsFromURL" as="node()?"/>
-        <xsl:param name="relevant-eventtypes" as="xs:string?"/>
-        <xsl:variable name="relevant-eventtypes2" as="xs:string">
+        <xsl:param name="import-eventtypes" as="xs:string?"/>
+        <xsl:variable name="relevant-eventtypes" as="xs:string">
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
             <xsl:choose>
-                <xsl:when test="$relevant-eventtypes = ''">
+                <xsl:when test="empty($import-eventtypes)">
                     <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="$relevant-eventtypes"/>
+                    <xsl:value-of select="$import-eventtypes"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -83,7 +83,7 @@
             </xsl:variable>
             <div id="chronik-modal-body">
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
-                    <xsl:with-param name="relevant-eventtypes2" select="$relevant-eventtypes2"/>
+                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                 </xsl:apply-templates>
                 <div class="weiteres" style="margin-top:2.5em;">
                     <xsl:variable name="datum-written" select="
@@ -213,9 +213,9 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
-        <xsl:param name="relevant-eventtypes2"/>
+        <xsl:param name="relevant-eventtypes"/>
         <xsl:variable name="current-group" select="." as="node()"/>
-        <xsl:for-each select="tokenize($relevant-eventtypes2, ',')">
+        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
                 select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ]">
@@ -289,7 +289,7 @@
                     </div>
                 </div>
                 <xsl:for-each
-                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes2, .))]]">
+                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
                     <!-- hier nun die einzelnen events -->
                     <div id="content1" class="collapse show">
                         <xsl:apply-templates mode="desc"/>
@@ -297,7 +297,7 @@
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
-        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes2, .))]]">
+        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
             <xsl:apply-templates mode="desc"/>
         </xsl:for-each>
     </xsl:template>
