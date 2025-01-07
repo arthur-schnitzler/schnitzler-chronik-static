@@ -66,7 +66,7 @@
                                 <xsl:copy-of select="."/>
                             </xsl:otherwise>
                         </xsl:choose>
-                    </xsl:for-each>
+cd                    </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
