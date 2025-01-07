@@ -46,7 +46,8 @@
             <xsl:choose>
                 <xsl:when test="$fetch-locally">
                     <xsl:copy-of
-                        select="document(concat('../../data/', $datum-iso, '.xml'))"/>
+                        select="document(concat('../../../', $current-type, '-static/chronik-data/', $datum-iso, '.xml'))"/>
+                    <!-- das geht davon aus, dass das schnitzler-chronik-repo lokal vorliegt -->
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:copy-of
@@ -59,9 +60,12 @@
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:for-each select="$fetchUrl/descendant::tei:listEvent/tei:event">
-                        <xsl:if test="not(tei:idno[@type= $current-type][1]/contains(., $teiSource))">
-                            <xsl:copy-of select="."/>
-                        </xsl:if>
+                        <xsl:choose>
+                            <xsl:when test="tei:idno[@type= $current-type][1]/contains(., $teiSource)"/>
+                            <xsl:otherwise>
+                                <xsl:copy-of select="."/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
