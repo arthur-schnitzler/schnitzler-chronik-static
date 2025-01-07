@@ -46,7 +46,7 @@
         <xsl:param name="datum-iso" as="xs:date"/>
         <xsl:param name="current-type" as="xs:string"/>
         <xsl:param name="teiSource" as="xs:string"/>
-        <xsl:param name="fetchContentsFromURL" as="node()"/>
+        <xsl:param name="fetchContentsFromURL" as="node()?"/>
         <xsl:param name="relevant-eventtypes" as="xs:string?"/>
         <xsl:variable name="relevant-eventtypes2" as="xs:string">
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
@@ -62,27 +62,28 @@
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
-        <xsl:if test="$fetchContentsFromURL/*[1]">
+        <xsl:if test="$fetchContentsFromURL/descendant::*:listEvent/*:event">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:for-each select="$fetchContentsFromURL/descendant::tei:listEvent/tei:event">
+                    <xsl:for-each select="$fetchContentsFromURL/descendant::*:listEvent/*:event">
                         <xsl:choose>
                             <xsl:when
-                                test="tei:idno[@type = $current-type][1]/contains(., $teiSource)"/>
+                                test="*:idno[@type = $current-type][1]/contains(., $teiSource)"/>
                             <xsl:otherwise>
                                 <xsl:copy-of select="."/>
                             </xsl:otherwise>
-                        </xsl:choose> cd </xsl:for-each>
+                        </xsl:choose> 
+                    </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
                 <xsl:value-of
-                    select="$fetchContentsFromURL/descendant::tei:titleStmt[1]/tei:title[@level = 'a'][1]/text()"
+                    select="$fetchContentsFromURL/descendant::*:titleStmt[1]/*:title[@level = 'a'][1]/text()"
                 />
             </xsl:variable>
             <div id="chronik-modal-body">
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
-                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes2"/>
+                    <xsl:with-param name="relevant-eventtypes2" select="$relevant-eventtypes2"/>
                 </xsl:apply-templates>
                 <div class="weiteres" style="margin-top:2.5em;">
                     <xsl:variable name="datum-written" select="
