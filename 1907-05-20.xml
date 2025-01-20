@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -162,18 +162,10 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb56">
-                        <placeName>VI., Mariahilf</placeName>
-                        <listPlace>
-                           <place corresp="#pmb37">
-                              <placeName>Theater an der Wien</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168940">
+                           <place corresp="#168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -214,36 +206,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041093.html</idno>
-            </event>
-            <event when-iso="1907-05-20">
-               <head>Aufführung von Fuhrmann Henschel, 20.5.1907</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb35053">Lessing-Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb33037">Fuhrmann Henschel</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
-                        <location>
-                           <geo>48,19941 16,3642</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209487/</idno>
             </event>
          </listEvent>
       </body>

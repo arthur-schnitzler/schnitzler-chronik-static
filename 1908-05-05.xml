@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,26 +83,22 @@
                <head corresp="#pmb45258">München</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
                      <place corresp="#pmb101">
                         <placeName>Neue Pinakothek</placeName>
+                     </place>
+                     <place corresp="#pmb669">
+                        <placeName>Bayerische Staatsoper</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1908-05-05">
-               <head corresp="#pmb15">Oper</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1908-05-05">
                <head>Aufführung von Undine, 5.5.1908</head>
                <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb80917">Undine</title>
@@ -116,9 +112,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <placeName role="veranstaltet in" key="pmb669">Bayerische Staatsoper</placeName>
                         <location>
-                           <geo>48,203 16,3691</geo>
+                           <geo>48,139603 11,579322</geo>
                         </location>
                      </place>
                   </listPlace>

@@ -94,16 +94,27 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bayerisches Nationalmuseum",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Ausstellung München 1908",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -116,9 +127,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209517/",
  "head":
- "Marionettentheater Brann, 11.9.1908",
+ "Aufführung von Der tapfere Cassian, 11.9.1908",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Marionettentheater Münchner Künstler",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
@@ -142,7 +161,7 @@
   [
  {
  "placeName":
- "München",
+ "Marionettentheater Münchner Künstler",
  "ref":
  ""}
  ]

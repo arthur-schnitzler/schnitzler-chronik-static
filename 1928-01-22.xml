@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,35 +108,38 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb69">
+                     <place corresp="#69">
                         <placeName>XIX., Döbling</placeName>
                         <listPlace>
-                           <place corresp="#pmb225">
+                           <place corresp="#225">
                               <placeName>Grinzing</placeName>
                            </place>
-                        </listPlace>
-                     </place>
-                     <place corresp="#pmb59">
-                        <placeName>IX., Alsergrund</placeName>
-                        <listPlace>
-                           <place corresp="#pmb34106">
-                              <placeName>Zum silbernen Brunnen</placeName>
+                           <place corresp="#574">
+                              <placeName>Kahlenberg</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#92292">
+                              <placeName>Hohe Warte</placeName>
+                           </place>
+                           <place corresp="#34106">
+                              <placeName>Zum silbernen Brunnen</placeName>
+                           </place>
+                           <place corresp="#190541">
+                              <placeName>Heimatkino</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168815">
+                           <place corresp="#168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
-                     </place>
-                     <place corresp="#pmb574">
-                        <placeName>Kahlenberg</placeName>
-                     </place>
-                     <place corresp="#pmb92292">
-                        <placeName>Hohe Warte</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -166,9 +169,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb190541">Heimatkino</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,220123 16,361439</geo>
                         </location>
                      </place>
                   </listPlace>

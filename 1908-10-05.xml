@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,18 +115,18 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb51">
+                     <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb186222">
+                           <place corresp="#186222">
                               <placeName>Cabaret Fledermaus</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168940">
+                           <place corresp="#168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -134,6 +134,31 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1908-10-05">
+               <head>Aufführung von Der Petroleumkönig oder Donauzauber, 5.10.1908</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76912">Der Petroleumkönig oder Donauzauber. Musteroperette</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb186222">Cabaret Fledermaus</placeName>
+                        <location>
+                           <geo>48,205383 16,37134</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209519/</idno>
             </event>
             <event when-iso="1908-10-05">
                <head>Erhalt von Zinaida Vengerova an Arthur Schnitzler, 1. 10. [1908]</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -198,37 +198,38 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb52">
+                     <place corresp="#52">
                         <placeName>II., Leopoldstadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb8">
+                           <place corresp="#8">
                               <placeName>Prater</placeName>
-                              <listPlace>
-                                 <place corresp="#pmb685">
-                                    <placeName>Wurstelprater</placeName>
-                                 </place>
-                                 <place corresp="#pmb185318">
-                                    <placeName>Restauration Prochaska</placeName>
-                                 </place>
-                                 <place corresp="#pmb185914">
-                                    <placeName>Zirkus Busch</placeName>
-                                 </place>
-                              </listPlace>
+                           </place>
+                           <place corresp="#685">
+                              <placeName>Wurstelprater</placeName>
+                           </place>
+                           <place corresp="#185318">
+                              <placeName>Restauration Prochaska</placeName>
+                           </place>
+                           <place corresp="#185914">
+                              <placeName>Zirkus Busch</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb67">
+                     <place corresp="#67">
                         <placeName>XVII., Hernals</placeName>
                         <listPlace>
-                           <place corresp="#pmb170">
+                           <place corresp="#170">
                               <placeName>Neuwaldegg</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168815">
+                           <place corresp="#185644">
+                              <placeName>Peregringasse 4</placeName>
+                           </place>
+                           <place corresp="#168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -239,7 +240,13 @@
             </event>
             <event when-iso="1928-05-15">
                <head corresp="#pmb939">Heiligenkreuz</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb44789">
+                        <placeName>Stift Heiligenkreuz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-05-15">
@@ -254,6 +261,16 @@
             </event>
             <event when-iso="1928-05-15">
                <head corresp="#pmb192771">Hotel Hajek</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1928-05-15">
+               <head corresp="#pmb44271">Pressbaum</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1928-05-15">
+               <head corresp="#pmb246962">Königswiese</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

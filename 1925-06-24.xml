@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,11 +95,22 @@
             </event>
             <event when-iso="1925-06-24">
                <head corresp="#pmb43520">Meran</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb185222">
+                        <placeName>Hotel Savoy [Meran]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1925-06-24">
+               <head corresp="#pmb90162">Naiftal</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-06-24">
-               <head corresp="#pmb185222">Hotel Savoy [Meran]</head>
+               <head corresp="#pmb246716">Schloss Labers</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

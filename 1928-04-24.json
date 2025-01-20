@@ -109,7 +109,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Istanbul"
+ "Istanbul",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Archäologisches Museum Istanbul",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hippodrom (Konstantinopel)",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -119,6 +134,15 @@
  "Aufenthaltsorte",
  "head":
  "Bosporus"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Marmarameer"
 }, {
  "type":
  "pollaczek",

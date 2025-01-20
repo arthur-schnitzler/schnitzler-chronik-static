@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,8 +114,19 @@
                <head corresp="#pmb462">Venedig</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb260">
+                        <placeName>Hotel Bonvecchiati</placeName>
+                     </place>
                      <place corresp="#pmb259">
                         <placeName>Lido</placeName>
+                        <listPlace>
+                           <place corresp="#246666">
+                              <placeName>Flugplatz Venedig-Lido</placeName>
+                           </place>
+                           <place corresp="#247609">
+                              <placeName>Hotel Corno d’Oro</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                      <place corresp="#pmb261">
                         <placeName>Piazza San Marco</placeName>
@@ -138,7 +149,7 @@
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp426.html</idno>
             </event>
             <event when-iso="1927-04-23">
-               <head>Filmvorführung von La Bohème, 23.4.1927</head>
+               <head>Varieté und Filmvorführung von La Bohème, 23.4.1927</head>
                <desc>
                   <listBibl>
                      <bibl>
@@ -153,9 +164,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb462">Venedig</placeName>
+                        <placeName role="veranstaltet in" key="pmb247612">Teatro San Benedetto</placeName>
                         <location>
-                           <geo>45,43713 12,33265</geo>
+                           <geo>45,43525 12,33312</geo>
                         </location>
                      </place>
                   </listPlace>

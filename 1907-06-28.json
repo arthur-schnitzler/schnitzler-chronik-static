@@ -101,7 +101,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Klagenfurt"
+ "Klagenfurt",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Kaiser von Österreich",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -111,4 +121,23 @@
  "Aufenthaltsorte",
  "head":
  "Wocheiner See"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Ribčev Laz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Die Wochein",
+ "ref":
+ ""}
+ ]
+}
 }] 

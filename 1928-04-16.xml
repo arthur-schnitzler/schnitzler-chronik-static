@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,37 +115,29 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-16.html</idno>
             </event>
             <event when-iso="1928-04-16">
-               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 16. April 1928</head>
-               <desc/>
-               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp525.html</idno>
-            </event>
-            <event when-iso="1928-04-16">
-               <head>Filmvorführung von A Man’s Past, 16.4.1928</head>
+               <head corresp="#pmb41212">Korfu</head>
                <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb200286">A Man’s Past</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
-                     </person>
-                  </listPerson>
                   <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
+                     <place corresp="#pmb235052">
+                        <placeName>Mon Repos</placeName>
+                     </place>
+                     <place corresp="#pmb246206">
+                        <placeName>Alte Venezianische Festung</placeName>
+                     </place>
+                     <place corresp="#pmb246209">
+                        <placeName>St.-Spyridon-Kirche</placeName>
+                     </place>
+                     <place corresp="#pmb246213">
+                        <placeName>Hafen von Korfu</placeName>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210988/</idno>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1928-04-16">
+               <head>Clara Katharina Pollaczek an Arthur Schnitzler, 16. April 1928</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp525.html</idno>
             </event>
             <event when-iso="1928-04-16">
                <head>Traum vom 16. April 1928</head>

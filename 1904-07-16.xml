@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,11 +105,14 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-07-16.html</idno>
             </event>
             <event when-iso="1904-07-16">
-               <head corresp="#pmb948">Payerbach</head>
+               <head corresp="#pmb483">Reichenau an der Rax</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb234273">
-                        <placeName>Franz Oberdorfer</placeName>
+                     <place corresp="#pmb44982">
+                        <placeName>Kurhaus Rudolfsbad</placeName>
+                     </place>
+                     <place corresp="#pmb147590">
+                        <placeName>Bahnhof Payerbach-Reichenau</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -126,11 +129,19 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1904-07-16">
+               <head corresp="#pmb234273">Franz Oberdorfer</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1904-07-16">
                <head corresp="#pmb483">Reichenau an der Rax</head>
                <desc>
                   <listPlace>
                      <place corresp="#pmb44982">
                         <placeName>Kurhaus Rudolfsbad</placeName>
+                     </place>
+                     <place corresp="#pmb147590">
+                        <placeName>Bahnhof Payerbach-Reichenau</placeName>
                      </place>
                   </listPlace>
                </desc>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,18 +117,24 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb51">
+                     <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb185989">
+                           <place corresp="#185989">
                               <placeName>Opernrestaurant</placeName>
+                           </place>
+                           <place corresp="#207301">
+                              <placeName>Tiefer Graben 17</placeName>
+                           </place>
+                           <place corresp="#235120">
+                              <placeName>Schulerstraße 22</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168815">
+                           <place corresp="#168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -138,9 +144,29 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-02-01">
-               <head corresp="#pmb207301">Tiefer Graben 17</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
+               <head>Aufführung von Intermezzo op. 72, 1.2.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76842">Intermezzo op. 72</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247024/</idno>
             </event>
             <event when-iso="1927-02-01">
                <head>Haas, Willy an Schnitzler, Arthur [Briefe]</head>

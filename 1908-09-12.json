@@ -149,7 +149,31 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bernheimer-Haus",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Münchner Künstlertheater"
 }, {
  "type":
  "schnitzler-events",
@@ -201,6 +225,14 @@
  "persName":
  "Fritz Erler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Münchner Künstlertheater",
+ "ref":
+ ""}
+ ]
 }
 }] 

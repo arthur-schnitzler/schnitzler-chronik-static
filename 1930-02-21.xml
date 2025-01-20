@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,10 +114,24 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb68">
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#43">
+                              <placeName>Café Imperial</placeName>
+                           </place>
+                           <place corresp="#207301">
+                              <placeName>Tiefer Graben 17</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168815">
+                           <place corresp="#236372">
+                              <placeName>Gregor-Mendel-Straße 34</placeName>
+                           </place>
+                           <place corresp="#168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -127,27 +141,12 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-02-21">
-               <head corresp="#pmb43">Café Imperial</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-02-21">
-               <head corresp="#pmb207301">Tiefer Graben 17</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-02-21">
-               <head corresp="#pmb236372">Gregor-Mendel-Straße 34</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1930-02-21">
                <head>Tagebuch von Clara Katharina Pollaczek, 17.–26. Februar 1930</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp766.html</idno>
             </event>
             <event when-iso="1930-02-21">
-               <head>Konzert von Lili Kraus, 21.2.1930</head>
+               <head>Klavierkonzert von Lili Kraus, 21.2.1930</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -157,6 +156,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/237951/</idno>
             </event>

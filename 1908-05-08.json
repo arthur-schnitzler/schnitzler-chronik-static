@@ -135,26 +135,27 @@
   [
  {
  "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "Englischer Garten [München]",
  "ref":
  ""}
- ]
-}
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "München",
- "desc":
-{"listPlace":
-  [
- {
+ ,  {
  "placeName":
- "Englischer Garten [München]",
+ "Gasteig",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "München-Schwabing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Münchner Marionettentheater",
  "ref":
  ""}
  ]
@@ -171,9 +172,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209510/",
  "head":
- "Marionettentheater Schmidt, 8.5.1908",
+ "Marionettentheateraufführung von Faust, 8.5.1908",
  "desc":
-{"listPerson":
+{"listBibl":
+  [
+ {
+ "title":
+ "Faust. Eine Tragödie",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -184,12 +193,17 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
+ ""},
+ {
+ "persName":
+ "Adolf Lentner",
+ "ref":
  ""}],
  "listPlace":
   [
  {
  "placeName":
- "München",
+ "Münchner Marionettentheater",
  "ref":
  ""}
  ]

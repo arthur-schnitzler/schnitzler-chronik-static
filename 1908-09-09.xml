@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,12 +90,19 @@
             </event>
             <event when-iso="1908-09-09">
                <head corresp="#pmb45258">München</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1908-09-09">
-               <head corresp="#pmb45258">München</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
+                     <place corresp="#pmb247526">
+                        <placeName>Ausstellung München 1908</placeName>
+                     </place>
+                     <place corresp="#pmb703">
+                        <placeName>Prinzregenten-Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1908-09-09">
@@ -114,9 +121,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb45258">München</placeName>
+                        <placeName role="veranstaltet in" key="pmb703">Prinzregenten-Theater</placeName>
                         <location>
-                           <geo>48,13743 11,57549</geo>
+                           <geo>48,138986 11,605591</geo>
                         </location>
                      </place>
                   </listPlace>

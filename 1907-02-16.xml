@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,29 +117,29 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb51">
+                     <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb15">
+                           <place corresp="#15">
                               <placeName>Oper</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb67">
+                     <place corresp="#67">
                         <placeName>XVII., Hernals</placeName>
                         <listPlace>
-                           <place corresp="#pmb499">
+                           <place corresp="#499">
                               <placeName>Dornbach</placeName>
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb169">
+                           <place corresp="#169">
                               <placeName>Pötzleinsdorf</placeName>
                            </place>
-                           <place corresp="#pmb168940">
+                           <place corresp="#168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -149,7 +149,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1907-02-16">
-               <head>Aufführung von Marionettentreue, 16.2.1907</head>
+               <head>Aufführung von Rigoletto, Marionettentreue, 16.2.1907</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -159,6 +159,10 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb80226">Marionettentreue</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb76698">Rigoletto</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>

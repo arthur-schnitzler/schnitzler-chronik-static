@@ -42,6 +42,11 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -49,13 +54,42 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
+ "filename":
+ "entity/209522/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/209522/",
  "head":
- "Café Imperial"
+ "1. Tonkünstlererchesterkonzert, 29.10.1908",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Tonkünstler-Orchester",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

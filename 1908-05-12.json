@@ -69,7 +69,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Franziskanerkeller",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -87,7 +102,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Garmisch-Partenkirchen"
+ "Garmisch-Partenkirchen",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Posthotel",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -123,5 +148,5 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Pullach im Isartal"
+ "Oberes Isartal"
 }] 

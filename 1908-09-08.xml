@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,8 +92,58 @@
             </event>
             <event when-iso="1908-09-08">
                <head corresp="#pmb45258">München</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
+                     <place corresp="#pmb9">
+                        <placeName>Königlich Bayerische Hoftheater</placeName>
+                     </place>
+                     <place corresp="#pmb247526">
+                        <placeName>Ausstellung München 1908</placeName>
+                        <listPlace>
+                           <place corresp="#247522">
+                              <placeName>Marionettentheater Münchner Künstler</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1908-09-08">
+               <head>Aufführung von Kasperl als Prinz, 8.9.1908</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb186212">Marionettentheater Münchner Künstler</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81127">Kasperl als Prinz</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10998">Brann, Paul</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb247522">Marionettentheater Münchner Künstler</placeName>
+                        <location>
+                           <geo>48,12987 11,5445</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247536/</idno>
             </event>
          </listEvent>
       </body>

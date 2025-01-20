@@ -34,7 +34,56 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Mahlerstraße 13"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/246061/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/246061/",
+ "head":
+ "Besuch der Jubiläums-Modenausstellung, 1.4.1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gartenbausäle",
  "ref":
  ""}
  ]
@@ -53,13 +102,34 @@
  "head":
  "Symphoniekonzert, 1.4.1908",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Konzertverein",
+ "ref":
+ ""}
+ ,  {
+ "orgName":
+ "Wiener Symphoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

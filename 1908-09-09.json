@@ -43,16 +43,27 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Ausstellung München 1908",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Prinzregenten-Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -86,7 +97,7 @@
   [
  {
  "placeName":
- "München",
+ "Prinzregenten-Theater",
  "ref":
  ""}
  ]

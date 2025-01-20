@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -101,12 +101,36 @@
             </event>
             <event when-iso="1928-04-22">
                <head corresp="#pmb966">Istanbul</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb207185">
+                        <placeName>Galatabrücke</placeName>
+                     </place>
+                     <place corresp="#pmb246248">
+                        <placeName>Sultan-Ahmed-Moschee</placeName>
+                     </place>
+                     <place corresp="#pmb246251">
+                        <placeName>Theodosianische Mauer</placeName>
+                     </place>
+                     <place corresp="#pmb246254">
+                        <placeName>Rumeli Hisarı</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-04-22">
                <head corresp="#pmb90575">Eyüpsultan</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb246257">
+                        <placeName>Eyüp-Sultan-Moschee</placeName>
+                     </place>
+                     <place corresp="#pmb246260">
+                        <placeName>Friedhof Eyüp</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1928-04-22">

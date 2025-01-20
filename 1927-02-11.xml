@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,16 +109,32 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb168815">
+                           <place corresp="#185644">
+                              <placeName>Peregringasse 4</placeName>
+                           </place>
+                           <place corresp="#168815">
                               <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#235120">
+                              <placeName>Schulerstraße 22</placeName>
                            </place>
                         </listPlace>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-02-11">
+               <head corresp="#pmb235184">Himmelstraße 55</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-02-11">
@@ -135,7 +151,7 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person role="hat als Teilnehmer:in">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                        <persName key="pmb19262">Kempny, Hedy</persName>
                      </person>
                   </listPerson>
                   <listPlace>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,17 +121,37 @@
             </event>
             <event when-iso="1908-09-11">
                <head corresp="#pmb45258">München</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1908-09-11">
-               <head corresp="#pmb45258">München</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1908-09-11">
-               <head>Marionettentheater Brann, 11.9.1908</head>
                <desc>
+                  <listPlace>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
+                     <place corresp="#pmb233217">
+                        <placeName>Bayerisches Nationalmuseum</placeName>
+                     </place>
+                     <place corresp="#pmb247526">
+                        <placeName>Ausstellung München 1908</placeName>
+                        <listPlace>
+                           <place corresp="#247522">
+                              <placeName>Marionettentheater Münchner Künstler</placeName>
+                           </place>
+                           <place corresp="#247571">
+                              <placeName>Restauration Ausstellung München 1908</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1908-09-11">
+               <head>Aufführung von Der tapfere Cassian, 11.9.1908</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb186212">Marionettentheater Münchner Künstler</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
@@ -148,9 +168,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb45258">München</placeName>
+                        <placeName role="veranstaltet in" key="pmb247522">Marionettentheater Münchner Künstler</placeName>
                         <location>
-                           <geo>48,13743 11,57549</geo>
+                           <geo>48,12987 11,5445</geo>
                         </location>
                      </place>
                   </listPlace>

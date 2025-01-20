@@ -142,28 +142,27 @@
 }
 }, {
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Beethovengasse 6"
-}, {
- "type":
  "schnitzler-events",
  "color":
  "#9BC53D",
  "filename":
- "entity/210407/",
+ "entity/247220/",
  "caption":
  "Ereignisse in der PMB",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/210407/",
+ "https://pmb.acdh.oeaw.ac.at/entity/247220/",
  "head":
- "Marionettentheater im Apollotheater, 22.3.1927",
+ "Aufführung von Komödie der Verführung, 22.3.1927",
  "desc":
-{"listPerson":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -174,7 +173,45 @@
   [
  {
  "placeName":
- "Apollo-Theater [Wien]",
+ "Burgtheater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/247216/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/247216/",
+ "head":
+ "Generalprobe von Komtesse Mizzi, 22.3.1927",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komtesse Mizzi oder: Der Familientag",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Akademietheater",
  "ref":
  ""}
  ]

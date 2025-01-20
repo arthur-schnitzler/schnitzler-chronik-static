@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,18 +145,19 @@
                      <place corresp="#pmb235052">
                         <placeName>Mon Repos</placeName>
                      </place>
+                     <place corresp="#pmb235044">
+                        <placeName>Korfu [Stadt]</placeName>
+                        <listPlace>
+                           <place corresp="#235041">
+                              <placeName>Alte Festung</placeName>
+                           </place>
+                           <place corresp="#235046">
+                              <placeName>Grand Hotel Saint Georges</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1905-03-13">
-               <head corresp="#pmb235041">Alte Festung</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1905-03-13">
-               <head corresp="#pmb235046">Grand Hotel Saint Georges</head>
-               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

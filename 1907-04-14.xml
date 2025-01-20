@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-05.">05.01.2025</date>
+            <date when-iso="2025-01-20.">20.01.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,21 +122,13 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb51">
-                        <placeName>I., Innere Stadt</placeName>
-                        <listPlace>
-                           <place corresp="#pmb15">
-                              <placeName>Oper</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
-                     <place corresp="#pmb68">
+                     <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#pmb169">
+                           <place corresp="#169">
                               <placeName>Pötzleinsdorf</placeName>
                            </place>
-                           <place corresp="#pmb168940">
+                           <place corresp="#168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -144,36 +136,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1907-04-14">
-               <head>Aufführung von Iphigénie en Aulide, 14.4.1907</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31217">Iphigénie en Aulide</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
-                        <location>
-                           <geo>48,203 16,3691</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209477/</idno>
             </event>
             <event when-iso="1907-04-14">
                <head>Mappe A105</head>
