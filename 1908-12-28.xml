@@ -135,15 +135,23 @@
                      <place corresp="#59">
                         <placeName>IX., Alsergrund</placeName>
                         <listPlace>
-                           <place corresp="#168934">
+                           <place corresp="#pmb168934">
                               <placeName>Frankgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#57">
+                        <placeName>VII., Neubau</placeName>
+                        <listPlace>
+                           <place corresp="#pmb20">
+                              <placeName>Volkstheater</placeName>
                            </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -151,6 +159,70 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1908-12-28">
+               <head>Arrangierprobe von Komtesse Mizzi, Liebelei, 28.12.1908</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29931">Komtesse Mizzi oder: Der Familientag</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11224">Edthofer, Anton</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11394">Galafrès, Elsa Marguerite</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb17109">Glöckner, Josefine</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb17831">Hannemann, Käthe</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb8246">Klitsch, Wilhelm</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11981">Kramer, Leopold</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12025">Lackner, Hans</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11670">Herzka, Julius</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12936">Thaller, Wilhelm</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb26610">Waldow, Charlotte</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247891/</idno>
             </event>
          </listEvent>
       </body>

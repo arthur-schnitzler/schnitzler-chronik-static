@@ -111,10 +111,18 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#54">
+                        <placeName>IV., Wieden</placeName>
+                        <listPlace>
+                           <place corresp="#pmb92435">
+                              <placeName>Palais Toskana</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168815">
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -124,8 +132,14 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-07-25">
-               <head corresp="#pmb192771">Hotel Hajek</head>
-               <desc/>
+               <head corresp="#pmb968">Mödling</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192771">
+                        <placeName>Hotel Hajek</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

@@ -111,10 +111,10 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#185989">
+                           <place corresp="#pmb185989">
                               <placeName>Opernrestaurant</placeName>
                            </place>
-                           <place corresp="#185474">
+                           <place corresp="#pmb185474">
                               <placeName>Klara Wimberger Opernrestaurant</placeName>
                            </place>
                         </listPlace>
@@ -122,7 +122,7 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168815">
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -130,6 +130,25 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-05-25">
+               <head>Ausstellungsbesuch Wien und die Wiener, 25.5.1927</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb247932">MuseumsQuartier</placeName>
+                        <location>
+                           <geo>48,203333333333 16,358888888889</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247935/</idno>
             </event>
             <event when-iso="1927-05-25">
                <head>Filmvorführung von Die Hochzeitsnacht, 25.5.1927</head>

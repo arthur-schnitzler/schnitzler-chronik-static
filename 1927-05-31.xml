@@ -132,15 +132,26 @@
                      <place corresp="#58">
                         <placeName>VIII., Josefstadt</placeName>
                         <listPlace>
-                           <place corresp="#232800">
+                           <place corresp="#pmb232800">
                               <placeName>Laudongasse 12</placeName>
+                           </place>
+                           <place corresp="#pmb235874">
+                              <placeName>Lange Gasse 65</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb207301">
+                              <placeName>Tiefer Graben 17</placeName>
                            </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168815">
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -148,6 +159,35 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-05-31">
+               <head corresp="#pmb245793">Speditionsgeschäft Josef J. Leinkauf</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-05-31">
+               <head corresp="#pmb247950">H. J. Adutt [Teppichhandel]</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-05-31">
+               <head>Ausstellungsbesuch Jahresausstellung der Marchfelder Vereinigung bildender Künstler, 31.5.1927</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247959/</idno>
             </event>
          </listEvent>
       </body>

@@ -69,7 +69,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Semmering"
+ "Semmering",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Johannespromenade",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Semmering",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -94,6 +109,15 @@
  ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Dürrgraben"
 }, {
  "type":
  "schnitzler-cmif",

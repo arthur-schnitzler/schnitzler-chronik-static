@@ -99,7 +99,7 @@
                      <place corresp="#69">
                         <placeName>XIX., Döbling</placeName>
                         <listPlace>
-                           <place corresp="#242">
+                           <place corresp="#pmb242">
                               <placeName>Salmannsdorf</placeName>
                            </place>
                         </listPlace>
@@ -107,20 +107,52 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#169">
+                           <place corresp="#pmb169">
                               <placeName>Pötzleinsdorf</placeName>
                            </place>
-                           <place corresp="#291">
+                           <place corresp="#pmb291">
                               <placeName>Gersthof</placeName>
                            </place>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb246847">
+                              <placeName>Geologengasse 5</placeName>
                            </place>
                         </listPlace>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1908-11-04">
+               <head>Treffen Union dramatischer Autoren und Komponisten, 4.11.1908</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb192474">Union dramatischer Autoren und Komponisten</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb246847">Geologengasse 5</placeName>
+                        <location>
+                           <geo>48,204893 16,394461</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247731/</idno>
             </event>
          </listEvent>
       </body>

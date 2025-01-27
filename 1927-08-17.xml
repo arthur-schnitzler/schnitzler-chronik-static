@@ -98,11 +98,31 @@
             </event>
             <event when-iso="1927-08-17">
                <head corresp="#pmb40260">Bozen</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248181">
+                        <placeName>Stadt Hotel Città</placeName>
+                     </place>
+                     <place corresp="#pmb248188">
+                        <placeName>Stazione di Bolzano</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-08-17">
                <head corresp="#pmb50822">Klobenstein</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248204">
+                        <placeName>Villa Hochegg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-08-17">
+               <head corresp="#pmb92474">Rappersbichl</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

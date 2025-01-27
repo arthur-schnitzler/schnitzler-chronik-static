@@ -106,11 +106,19 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#237633">
+                           <place corresp="#pmb237633">
                               <placeName>Hasenauerstraße 46</placeName>
                            </place>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -126,11 +134,25 @@
                         <orgName key="pmb183617">Wiener Tonkünstler-Orchester</orgName>
                      </org>
                   </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb76806">Griselidis. Symphonische Dichtung für Mezzosopran, Frauenchor, Orgel und Orchester</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209537/</idno>
             </event>

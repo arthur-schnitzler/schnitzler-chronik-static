@@ -106,7 +106,16 @@
             </event>
             <event when-iso="1927-05-20">
                <head corresp="#pmb189">Semmering</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb92309">
+                        <placeName>Johannespromenade</placeName>
+                     </place>
+                     <place corresp="#pmb238255">
+                        <placeName>Bahnhof Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-05-20">
@@ -116,7 +125,7 @@
                      <place corresp="#60">
                         <placeName>X., Favoriten</placeName>
                         <listPlace>
-                           <place corresp="#132">
+                           <place corresp="#pmb132">
                               <placeName>Südbahnhof</placeName>
                            </place>
                         </listPlace>
@@ -124,13 +133,18 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168815">
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-05-20">
+               <head corresp="#pmb92221">Dürrgraben</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-05-20">

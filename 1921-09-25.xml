@@ -150,15 +150,23 @@
                      <place corresp="#69">
                         <placeName>XIX., Döbling</placeName>
                         <listPlace>
-                           <place corresp="#288">
+                           <place corresp="#pmb288">
                               <placeName>Sievering</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#54">
+                        <placeName>IV., Wieden</placeName>
+                        <listPlace>
+                           <place corresp="#pmb185942">
+                              <placeName>Arbeiterheim Favoriten</placeName>
                            </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168815">
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -172,6 +180,31 @@
             </event>
             <event when-iso="1921-09-25">
                <head corresp="#pmb49210">Steinriegl</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-09-25">
+               <head corresp="#pmb44394">Weidlingbach</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-09-25">
+               <head corresp="#pmb90609">Exelberg</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-09-25">
+               <head corresp="#pmb34354">Königstetten</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-09-25">
+               <head corresp="#pmb91592">Riederberg</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-09-25">
+               <head corresp="#pmb39792">Purkersdorf</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
@@ -193,12 +226,15 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb60">X., Favoriten</placeName>
+                        <placeName role="veranstaltet in" key="pmb185942">Arbeiterheim Favoriten</placeName>
                         <location>
-                           <geo>48,17111 16,37778</geo>
+                           <geo>48,1809 16,3734</geo>
                         </location>
                      </place>
                   </listPlace>

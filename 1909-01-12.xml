@@ -144,10 +144,21 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#56">
+                        <placeName>VI., Mariahilf</placeName>
+                        <listPlace>
+                           <place corresp="#pmb248191">
+                              <placeName>Köstlergasse 4</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#234823">
+                           <place corresp="#pmb4">
+                              <placeName>Bösendorfer-Saal</placeName>
+                           </place>
+                           <place corresp="#pmb234823">
                               <placeName>Dorotheergasse 11</placeName>
                            </place>
                         </listPlace>
@@ -155,7 +166,7 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -163,6 +174,30 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-01-12">
+               <head>Ausstellungsbesuch Wilhelm Trübner bei Miethke, 12.1.1909</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb43902">Galerie Miethke</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb234823">Dorotheergasse 11</placeName>
+                        <location>
+                           <geo>48,207163 16,369299</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/248180/</idno>
             </event>
             <event when-iso="1909-01-12">
                <head>Auftritt von Quartett Rosé, 12.1.1909</head>
@@ -180,6 +215,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209541/</idno>
             </event>

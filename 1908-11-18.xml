@@ -178,15 +178,18 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#14">
+                           <place corresp="#pmb14">
                               <placeName>Burgtheater</placeName>
+                           </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
                            </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -198,6 +201,11 @@
             <event when-iso="1908-11-18">
                <head>Gesangskonzert Sven Scholander, 18.11.1908</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37148">Concert-Direktion Albert Gutmann</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb12707">Scholander, Sven</persName>
@@ -206,6 +214,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209529/</idno>
             </event>

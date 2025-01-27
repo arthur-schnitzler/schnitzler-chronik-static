@@ -150,13 +150,27 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168815">
+                           <place corresp="#pmb494">
+                              <placeName>Lutherkirche</placeName>
+                           </place>
+                           <place corresp="#pmb185644">
+                              <placeName>Peregringasse 4</placeName>
+                           </place>
+                           <place corresp="#pmb232834">
+                              <placeName>Gregor-Mendel-Straße 50</placeName>
+                           </place>
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-07-03">
+               <head corresp="#pmb245142">Kaasgrabengasse 12</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1927-07-03">
@@ -254,6 +268,31 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041383.html</idno>
+            </event>
+            <event when-iso="1927-07-03">
+               <head>Hochzeit von Magda Wellesz und Karl Friedrich Pollaczek, 3.7.1927</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb22698">Pollaczek, Karl Friedrich</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb28022">Pollaczek, Magda</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb494">Lutherkirche</placeName>
+                        <location>
+                           <geo>48,220419114984 16,340158593507</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/248036/</idno>
             </event>
          </listEvent>
       </body>

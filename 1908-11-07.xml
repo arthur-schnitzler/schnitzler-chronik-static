@@ -96,6 +96,9 @@
                <head corresp="#pmb189">Semmering</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb413">
+                        <placeName>Südbahnhotel [Semmering]</placeName>
+                     </place>
                      <place corresp="#pmb200876">
                         <placeName>Meierei des Südbahnhotels</placeName>
                      </place>
@@ -107,34 +110,15 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1908-11-07">
-               <head corresp="#pmb1209">Lustspieltheater [Wien]</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1908-11-07">
-               <head>Generalprobe von Das Vermächtnis, 9.11.1908</head>
+               <head corresp="#pmb250">Orthof</head>
                <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
-                        <note type="relation-type">ist Generalprobe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
                   <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb1209">Lustspieltheater [Wien]</placeName>
-                        <location>
-                           <geo>48,21766 16,3957</geo>
-                        </location>
+                     <place corresp="#pmb233426">
+                        <placeName>Ortbauer</placeName>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209523/</idno>
+               <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
       </body>

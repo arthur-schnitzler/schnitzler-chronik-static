@@ -117,10 +117,13 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#169">
+                           <place corresp="#pmb169">
                               <placeName>Pötzleinsdorf</placeName>
                            </place>
-                           <place corresp="#168815">
+                           <place corresp="#pmb235132">
+                              <placeName>Türkenschanzstraße 48</placeName>
+                           </place>
+                           <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
@@ -128,7 +131,7 @@
                      <place corresp="#67">
                         <placeName>XVII., Hernals</placeName>
                         <listPlace>
-                           <place corresp="#170">
+                           <place corresp="#pmb170">
                               <placeName>Neuwaldegg</placeName>
                            </place>
                         </listPlace>
@@ -136,6 +139,37 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1927-06-10">
+               <head>Private Lesung von Aphoristisches, 10.6.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb35745">Aphoristisches</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2238">Cappellini, Lili</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
+                        <location>
+                           <geo>48,23188 16,33716</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247986/</idno>
             </event>
          </listEvent>
       </body>

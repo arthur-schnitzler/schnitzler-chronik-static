@@ -106,15 +106,23 @@
                      <place corresp="#56">
                         <placeName>VI., Mariahilf</placeName>
                         <listPlace>
-                           <place corresp="#77">
+                           <place corresp="#pmb77">
                               <placeName>Raimund-Theater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#57">
+                        <placeName>VII., Neubau</placeName>
+                        <listPlace>
+                           <place corresp="#pmb20">
+                              <placeName>Volkstheater</placeName>
                            </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -122,6 +130,36 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1908-12-30">
+               <head>Probe von Komtesse Mizzi, 30.12.1908</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29931">Komtesse Mizzi oder: Der Familientag</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/247917/</idno>
             </event>
             <event when-iso="1908-12-30">
                <head>Aufführung von Carmen. Oper in vier Akten, 30.12.1908</head>

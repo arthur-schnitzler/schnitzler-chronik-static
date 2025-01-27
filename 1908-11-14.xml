@@ -158,10 +158,18 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb247756">
+                              <placeName>Dominikanerkirche [Wien]</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
-                           <place corresp="#168940">
+                           <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
                         </listPlace>
@@ -171,11 +179,16 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1908-11-14">
-               <head>Generalprobe von Missa solemnis D-Dur op. 123, 14.11.1908</head>
+               <head>Generalprobe von Missa solemnis D-Dur, 14.11.1908</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb247753">Sängerbund „Dreizehnlinden“</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb77165">Missa solemnis D-Dur op. 123</title>
+                        <title key="pmb247750">Missa solemnis in D-dur</title>
                         <note type="relation-type">ist Generalprobe von</note>
                      </bibl>
                   </listBibl>
@@ -184,6 +197,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb247756">Dominikanerkirche [Wien]</placeName>
+                        <location>
+                           <geo>48,2089 16,3789</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209527/</idno>
             </event>
