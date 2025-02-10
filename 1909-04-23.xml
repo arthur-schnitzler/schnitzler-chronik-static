@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,11 +133,51 @@
             </event>
             <event when-iso="1909-04-23">
                <head corresp="#pmb652">Prag</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248575">
+                        <placeName>Letohrádek královny Anny</placeName>
+                     </place>
+                     <place corresp="#pmb33910">
+                        <placeName>Hradčany</placeName>
+                     </place>
+                     <place corresp="#pmb91">
+                        <placeName>Neues Deutsches Theater</placeName>
+                     </place>
+                     <place corresp="#pmb93">
+                        <placeName>Hotel Blauer Stern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-04-23">
-               <head>Premiere von Ruf des Lebens, 23.4.1909</head>
+               <head>Probe von Der Ruf des Lebens, 23.4.1909</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb91">Neues Deutsches Theater</placeName>
+                        <location>
+                           <geo>50,080556 14,432778</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/248634/</idno>
+            </event>
+            <event when-iso="1909-04-23">
+               <head>Premiere von Der Ruf des Lebens, 23.4.1909</head>
                <desc>
                   <listBibl>
                      <bibl>
@@ -152,13 +192,14 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb652">Prag</placeName>
+                        <placeName role="veranstaltet in" key="pmb91">Neues Deutsches Theater</placeName>
                         <location>
-                           <geo>50,08333 14,46667</geo>
+                           <geo>50,080556 14,432778</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/35182/</idno>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209559/</idno>
             </event>
          </listEvent>

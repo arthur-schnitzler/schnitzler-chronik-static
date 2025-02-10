@@ -119,7 +119,60 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Dresden"
+ "Dresden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Bellevue [Dresden]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Semperoper",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/249701/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/249701/",
+ "head":
+ "Nachprobe von Der Schleier der Pierrette, 22.1.1910",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Pierrette. Pantomime in drei Bildern",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semperoper",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -132,13 +185,18 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/35373/",
  "head":
- "Uraufführung von Der Schleier der Pierrette, 22.1.1910",
+ "Uraufführung von Der Schleier der Pierrette, Premiere von Versiegelt, 22.1.1910",
  "desc":
 {"listBibl":
   [
  {
  "title":
- "Der Schleier der Pierette. Pantomime in drei Bildern",
+ "Der Schleier der Pierrette. Pantomime in drei Bildern",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Versiegelt. Komische Oper",
  "ref":
  ""}
  ],
@@ -168,7 +226,7 @@
   [
  {
  "placeName":
- "Dresden",
+ "Semperoper",
  "ref":
  ""}
  ]

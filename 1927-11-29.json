@@ -104,7 +104,40 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Bristol Berlin",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Frolies Bar",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "S. Fischer Verlag"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Franziskus-Krankenhaus Berlin"
 }, {
  "type":
  "pollaczek",
@@ -146,12 +179,17 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
  ""}],
  "listPlace":
   [
  {
  "placeName":
- "Berlin",
+ "Ufa-Palast am Zoo",
  "ref":
  ""}
  ]

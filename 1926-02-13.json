@@ -109,7 +109,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -119,6 +129,24 @@
  "Aufenthaltsorte",
  "head":
  "Musikverein"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bode-Museum"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Olivaer Platz 1"
 }, {
  "type":
  "pollaczek",
@@ -132,6 +160,36 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp300.html",
  "head":
  "Clara Katharina Pollaczek an Arthur Schnitzler, 13. Februar 1926"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/249730/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/249730/",
+ "head":
+ "Neger-Revue im Nelson-Theater, 13.2.1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nelson-Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",

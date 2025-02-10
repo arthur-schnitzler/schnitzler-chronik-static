@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,13 +97,59 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-16.html</idno>
             </event>
             <event when-iso="1909-06-16">
-               <head corresp="#pmb824">Hotel und Pension Lueg</head>
+               <head corresp="#pmb33">St. Gilgen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb186">
+                        <placeName>Lueg</placeName>
+                        <listPlace>
+                           <place corresp="#pmb824">
+                              <placeName>Hotel und Pension Lueg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb234399">
+                        <placeName>Franzosenschanze 4</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-06-16">
+               <head corresp="#pmb91671">Scharfling</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-06-16">
-               <head corresp="#pmb33">St. Gilgen</head>
+               <head corresp="#pmb91494">Plomberg</head>
                <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-06-16">
+               <head corresp="#pmb877">Unterach am Attersee</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-06-16">
+               <head corresp="#pmb34344">Weißenbach am Attersee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248748">
+                        <placeName>Wolterhäuser</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-06-16">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb232919">
+                        <placeName>Konditorei Zauner</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-06-16">

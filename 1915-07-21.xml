@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,7 +133,21 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1915-07-21">
-               <head corresp="#pmb231184">Pension Rauhenstein</head>
+               <head corresp="#pmb662">Baden bei Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb231184">
+                        <placeName>Pension Rauhenstein</placeName>
+                     </place>
+                     <place corresp="#pmb246546">
+                        <placeName>Jägerhaus [Baden bei Wien]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1915-07-21">
+               <head corresp="#pmb992">Bad Vöslau</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

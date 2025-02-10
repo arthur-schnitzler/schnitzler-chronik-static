@@ -99,7 +99,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Territet"
+ "Territet",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hôtel des Alpes-Grand Hôtel",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -108,5 +118,29 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Genf"
+ "Genf",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hôtel de la Paix [Genf]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Restaurant Du Nord [Genf]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Genfer See"
 }] 

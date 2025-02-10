@@ -91,7 +91,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Konstanzer Straße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -109,8 +124,27 @@
  "Hamburger Hafen",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Hamburger Kammerspiele",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Jungfernstieg",
+ "ref":
+ ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Olivaer Platz 1"
 }, {
  "type":
  "pollaczek",

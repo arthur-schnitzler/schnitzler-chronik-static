@@ -96,7 +96,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -122,13 +132,31 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210801/",
  "head":
- "Filmvorführung, 15.2.1926",
+ "Filmvorführung von Wildente, 15.2.1926",
  "desc":
-{"listPerson":
+{"listBibl":
+  [
+ {
+ "title":
+ "Wildente",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Lili Cappellini",
  "ref":
  ""}],
  "listPlace":

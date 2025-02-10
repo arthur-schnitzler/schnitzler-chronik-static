@@ -148,6 +148,16 @@
  "Hotel Imperial [Frankfurt am Main]",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Schauspielhaus Frankfurt am Main",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Frankfurt (Main) Hauptbahnhof",
+ "ref":
+ ""}
  ]
 }
 }, {
@@ -158,7 +168,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Wiesbaden"
+ "Wiesbaden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kurhaus Wiesbaden",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -176,5 +196,38 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Rüdesheim"
+ "Rüdesheim",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Darmstädter Hof",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Rüdesheim",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Daubachtal"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Langenscheid"
 }] 

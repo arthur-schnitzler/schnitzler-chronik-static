@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,12 +89,35 @@
                      <place corresp="#pmb190402">
                         <placeName>Hotel Imperial [Frankfurt am Main]</placeName>
                      </place>
+                     <place corresp="#pmb118470">
+                        <placeName>Frankfurt (Main) Hauptbahnhof</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1910-09-15">
                <head corresp="#pmb882">Heidelberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb250820">
+                        <placeName>Hauptstraße [Heidelberg]</placeName>
+                     </place>
+                     <place corresp="#pmb250823">
+                        <placeName>Heidelberger Bergbahn</placeName>
+                     </place>
+                     <place corresp="#pmb250826">
+                        <placeName>Heidelberger Schloss</placeName>
+                     </place>
+                     <place corresp="#pmb250833">
+                        <placeName>Molkenkur Bergbahnhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1910-09-15">
+               <head corresp="#pmb250829">Königstuhl</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

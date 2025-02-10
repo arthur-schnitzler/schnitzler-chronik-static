@@ -89,7 +89,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bank für Auswärtigen Handel",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -103,6 +118,59 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp340.html",
  "head":
  "Arthur Schnitzler an Clara Katharina Pollaczek, 17. Mai 1926"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/250485/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/250485/",
+ "head":
+ "Private Lesung von Der Geist im Wort und der Geist in der Tat, 17.5.1926",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Lili Cappellini",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -130,6 +198,16 @@
 {
  "persName":
  "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Lili Cappellini",
  "ref":
  ""}],
  "listPlace":

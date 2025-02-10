@@ -59,7 +59,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Adelboden"
+ "Adelboden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nevada Palace",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -73,6 +83,49 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp380.html",
  "head":
  "Tagebuch von Clara Katharina Pollaczek, 5.–16. August 1926"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/251049/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/251049/",
+ "head":
+ "Private Lesung von Therese, 8.8.1926",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Adelboden",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

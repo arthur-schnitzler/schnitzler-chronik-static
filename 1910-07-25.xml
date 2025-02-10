@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,9 @@
                            <place corresp="#pmb422">
                               <placeName>Venedig in Wien</placeName>
                            </place>
+                           <place corresp="#pmb250610">
+                              <placeName>Sportpalast</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -110,7 +113,32 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1910-07-25">
-               <head>Filmvorführung, 25.7.1910</head>
+               <head>Aufführung von Die rote Hand, 25.7.1910</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb250609">Die rote Hand. Detektivkomödie</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb250610">Sportpalast</placeName>
+                        <location>
+                           <geo>48,217281 16,39504</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/250615/</idno>
+            </event>
+            <event when-iso="1910-07-25">
+               <head>Filmvorführung im Sportpalast, 25.7.1910</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
@@ -119,9 +147,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb250610">Sportpalast</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,217281 16,39504</geo>
                         </location>
                      </place>
                   </listPlace>

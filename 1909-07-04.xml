@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -93,11 +93,19 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-04.html</idno>
             </event>
             <event when-iso="1909-07-04">
-               <head corresp="#pmb470">Edlach</head>
+               <head corresp="#pmb483">Reichenau an der Rax</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb714">
-                        <placeName>Hotel Edlacherhof</placeName>
+                     <place corresp="#pmb470">
+                        <placeName>Edlach</placeName>
+                        <listPlace>
+                           <place corresp="#pmb714">
+                              <placeName>Hotel Edlacherhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb44982">
+                        <placeName>Kurhaus Rudolfsbad</placeName>
                      </place>
                   </listPlace>
                </desc>

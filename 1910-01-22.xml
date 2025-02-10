@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,16 +136,54 @@
             </event>
             <event when-iso="1910-01-22">
                <head corresp="#pmb866">Dresden</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb53107">
+                        <placeName>Hotel Bellevue [Dresden]</placeName>
+                     </place>
+                     <place corresp="#pmb1034">
+                        <placeName>Semperoper</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1910-01-22">
-               <head>Uraufführung von Der Schleier der Pierrette, 22.1.1910</head>
+               <head>Nachprobe von Der Schleier der Pierrette, 22.1.1910</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb30215">Der Schleier der Pierette. Pantomime in drei Bildern</title>
+                        <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1034">Semperoper</placeName>
+                        <location>
+                           <geo>51,054508 13,735169</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/249701/</idno>
+            </event>
+            <event when-iso="1910-01-22">
+               <head>Uraufführung von Der Schleier der Pierrette, Premiere von Versiegelt, 22.1.1910</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
                         <note type="relation-type">ist Uraufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb44525">Versiegelt. Komische Oper</title>
+                        <note type="relation-type">ist Premiere von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -164,9 +202,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb866">Dresden</placeName>
+                        <placeName role="veranstaltet in" key="pmb1034">Semperoper</placeName>
                         <location>
-                           <geo>51,0833 13,7666</geo>
+                           <geo>51,054508 13,735169</geo>
                         </location>
                      </place>
                   </listPlace>

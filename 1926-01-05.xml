@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,6 +132,20 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb236816">
+                              <placeName>Fischerstiege 6</placeName>
+                           </place>
+                           <place corresp="#pmb233016">
+                              <placeName>Stadttempel</placeName>
+                           </place>
+                           <place corresp="#pmb249182">
+                              <placeName>Schwarzenbergplatz 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -143,6 +157,34 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-01-05">
+               <head>Eheschließung von Elly Steiner und Karl Schnitzler, 5.1.1927</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb24414">Schnitzler, Elly</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb24413">Schnitzler, Karl</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11312">Feuchtwang, David</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb233016">Stadttempel</placeName>
+                        <location>
+                           <geo>48,211649 16,374825</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/249176/</idno>
             </event>
             <event when-iso="1926-01-05">
                <head>Filmvorführung von Der König der Radfahrer, 5.1.1926</head>

@@ -154,7 +154,31 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Frolies Bar",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Herbert-von-Karajan-Straße 4"
 }, {
  "type":
  "pollaczek",
@@ -168,4 +192,47 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp301.html",
  "head":
  "Clara Katharina Pollaczek an Arthur Schnitzler, 14. Februar 1926"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/249733/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/249733/",
+ "head":
+ "Aufführung von Wallensteins Lager und Die Piccolomini, 14.2.1926",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Wallensteins Lager. Ein dramatisches Gedicht",
+ "ref":
+ ""}
+ ,  {
+ "title":
+ "Die Piccolomini. Dramatisches Gedicht in fünf Aufzügen",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schiller-Theater",
+ "ref":
+ ""}
+ ]
+}
 }] 

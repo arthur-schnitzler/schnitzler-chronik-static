@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,8 +112,39 @@
             </event>
             <event when-iso="1910-08-27">
                <head corresp="#pmb45258">München</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
+                     <place corresp="#pmb247530">
+                        <placeName>Bavariapark</placeName>
+                     </place>
+                     <place corresp="#pmb250750">
+                        <placeName>Isabellastraße 24</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1910-08-27">
+               <head>Ausstellungsbesuch in Meisterwerke muhammedanischer Kunst, 27.8.1910</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb247530">Bavariapark</placeName>
+                        <location>
+                           <geo>48,1309991979556 11,5430544337425</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/250745/</idno>
             </event>
             <event when-iso="1910-08-27">
                <head>Filmvorführung, 27.8.1910</head>

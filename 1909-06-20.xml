@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -177,23 +177,39 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03499.html</idno>
             </event>
             <event when-iso="1909-06-20">
-               <head corresp="#pmb824">Hotel und Pension Lueg</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1909-06-20">
                <head corresp="#pmb33">St. Gilgen</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb186">
+                        <placeName>Lueg</placeName>
+                        <listPlace>
+                           <place corresp="#pmb824">
+                              <placeName>Hotel und Pension Lueg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb248780">
+                        <placeName>Seehotel [St. Gilgen]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-06-20">
-               <head corresp="#pmb84">Hotel zum goldenen Kreuz</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1909-06-20">
-               <head corresp="#pmb1219">Ramsauer Garni Café</head>
-               <desc/>
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb84">
+                        <placeName>Hotel zum goldenen Kreuz [Bad Ischl]</placeName>
+                     </place>
+                     <place corresp="#pmb1219">
+                        <placeName>Ramsauer Garni Café</placeName>
+                     </place>
+                     <place corresp="#pmb248791">
+                        <placeName>Bahnhof Bad Ischl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

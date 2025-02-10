@@ -34,7 +34,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Luzern"
+ "Luzern",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel St. Gotthard Luzern",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -43,7 +53,36 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Interlaken"
+ "Interlaken",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Beaurivage",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Heimwehfluh",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Rugenparkstrasse",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Brünig"
 }, {
  "type":
  "schnitzler-cmif",

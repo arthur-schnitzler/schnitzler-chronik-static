@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -165,14 +165,63 @@
                            <place corresp="#pmb235251">
                               <placeName>Hasenauerstraße 59</placeName>
                            </place>
+                           <place corresp="#pmb61755">
+                              <placeName>Cottage-Sanatorium für Nerven- und Stoffwechselkranke</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#58">
+                        <placeName>VIII., Josefstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb232800">
+                              <placeName>Laudongasse 12</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb185324">
+                              <placeName>Meinl Churhaus-Restaurant</placeName>
                            </place>
                         </listPlace>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-06-02">
+               <head>Aufführung von Jaákobs Traum, 2.6.1926</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb250544">Habimah</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31595">Jaákobs Traum. Ein Vorspiel</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
+                        <location>
+                           <geo>48,215 16,384444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/250540/</idno>
             </event>
          </listEvent>
       </body>

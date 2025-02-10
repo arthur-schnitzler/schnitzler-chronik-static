@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,6 +111,9 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb61755">
+                              <placeName>Cottage-Sanatorium für Nerven- und Stoffwechselkranke</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -121,8 +124,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1926-07-08">
-               <head corresp="#pmb237565">Meiereiwiese [Mödling]</head>
-               <desc/>
+               <head corresp="#pmb968">Mödling</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb237565">
+                        <placeName>Meiereiwiese [Mödling]</placeName>
+                     </place>
+                     <place corresp="#pmb192771">
+                        <placeName>Hotel Hajek</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

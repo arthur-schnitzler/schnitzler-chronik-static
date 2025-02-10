@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,12 +91,36 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-19.html</idno>
             </event>
             <event when-iso="1909-06-19">
-               <head corresp="#pmb824">Hotel und Pension Lueg</head>
+               <head corresp="#pmb33">St. Gilgen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb186">
+                        <placeName>Lueg</placeName>
+                        <listPlace>
+                           <place corresp="#pmb824">
+                              <placeName>Hotel und Pension Lueg</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb248776">
+                        <placeName>Oberburgau</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-06-19">
+               <head corresp="#pmb895">Strobl</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-06-19">
-               <head corresp="#pmb33">St. Gilgen</head>
+               <head corresp="#pmb248774">Waldhotel Kreuzstein</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-06-19">
+               <head corresp="#pmb40874">Wolfgangsee</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

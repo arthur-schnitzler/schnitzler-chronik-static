@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -148,6 +148,12 @@
                      <place corresp="#pmb485">
                         <placeName>Hotel Vier Jahreszeiten</placeName>
                      </place>
+                     <place corresp="#pmb248975">
+                        <placeName>Japan und Ostasien in der Kunst, Ausstellungsgelände 1909</placeName>
+                     </place>
+                     <place corresp="#pmb248979">
+                        <placeName>Prinz-Ludwigs-Höhe</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
@@ -159,9 +165,34 @@
                      <place corresp="#pmb485">
                         <placeName>Hotel Vier Jahreszeiten</placeName>
                      </place>
+                     <place corresp="#pmb248975">
+                        <placeName>Japan und Ostasien in der Kunst, Ausstellungsgelände 1909</placeName>
+                     </place>
+                     <place corresp="#pmb248979">
+                        <placeName>Prinz-Ludwigs-Höhe</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1909-08-26">
+               <head>Ausstellungsbesuch Japan und Ostasien in der Kunst, 26.8.1909</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb248975">Japan und Ostasien in der Kunst, Ausstellungsgelände 1909</placeName>
+                        <location>
+                           <geo>48,1314861 11,540899</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/248973/</idno>
             </event>
             <event when-iso="1909-08-26">
                <head>Private Lesung von Der junge Medardus, 26.8.1909</head>
@@ -194,9 +225,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb45258">München</placeName>
+                        <placeName role="veranstaltet in" key="pmb248979">Prinz-Ludwigs-Höhe</placeName>
                         <location>
-                           <geo>48,13743 11,57549</geo>
+                           <geo>48,0809 11,5346</geo>
                         </location>
                      </place>
                   </listPlace>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -190,14 +190,6 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#57">
-                        <placeName>VII., Neubau</placeName>
-                        <listPlace>
-                           <place corresp="#pmb20">
-                              <placeName>Volkstheater</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
@@ -206,9 +198,28 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#57">
+                        <placeName>VII., Neubau</placeName>
+                        <listPlace>
+                           <place corresp="#pmb20">
+                              <placeName>Volkstheater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb28">
+                              <placeName>Volksoper Wien</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb28">
+                              <placeName>Volksoper Wien</placeName>
+                           </place>
                            <place corresp="#pmb168940">
                               <placeName>Edmund-Weiß-Gasse 7</placeName>
                            </place>
@@ -217,6 +228,36 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1910-01-17">
+               <head>Aufführung von Das Tal der Liebe, 17.1.1910</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb63157">Volksoper Wien</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb77127">Das Tal der Liebe. Eine musikalische Komödie in drei Aufzügen</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb28">Volksoper Wien</placeName>
+                        <location>
+                           <geo>48,224472 16,350361</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/249662/</idno>
             </event>
          </listEvent>
       </body>

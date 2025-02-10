@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -156,9 +156,6 @@
                      <place corresp="#pmb129">
                         <placeName>Grunewald</placeName>
                      </place>
-                     <place corresp="#pmb237733">
-                        <placeName>Bülowstraße 78</placeName>
-                     </place>
                      <place corresp="#pmb245">
                         <placeName>Hotel Esplanade [Berlin]</placeName>
                      </place>
@@ -167,6 +164,11 @@
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1930-01-05">
+               <head corresp="#pmb246987">Hubertus Allee 24</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1930-01-05">
@@ -222,9 +224,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb237733">Bülowstraße 78</placeName>
+                        <placeName role="veranstaltet in" key="pmb246987">Hubertus Allee 24</placeName>
                         <location>
-                           <geo>52,497646 13,364497</geo>
+                           <geo>52,49074 13,285098</geo>
                         </location>
                      </place>
                   </listPlace>

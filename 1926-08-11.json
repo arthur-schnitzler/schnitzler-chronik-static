@@ -109,7 +109,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Adelboden"
+ "Adelboden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nevada Palace",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -127,8 +137,22 @@
  "Hotel Schweizerhof Bern",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Bahnhof Bern",
+ "ref":
+ ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Frutigen"
 }, {
  "type":
  "pollaczek",
@@ -169,11 +193,6 @@
 {
  "persName":
  "Arthur Schnitzler",
- "ref":
- ""},
- {
- "persName":
- "Clara Katharina Pollaczek",
  "ref":
  ""}],
  "listPlace":

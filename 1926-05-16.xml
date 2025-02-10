@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-01-27.">27.01.2025</date>
+            <date when-iso="2025-02-10.">10.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -163,6 +163,36 @@
             </event>
             <event when-iso="1926-05-16">
                <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb245">
+                        <placeName>Hotel Esplanade [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb233590">
+                        <placeName>Frolies Bar</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-05-16">
+               <head corresp="#pmb249499">Olivaer Platz 1</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-05-16">
+               <head corresp="#pmb90508">Dahlem</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb250448">
+                        <placeName>Hohenzollerndamm 90</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-05-16">
+               <head corresp="#pmb235344">Podbielskiallee 35–37</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
@@ -170,6 +200,30 @@
                <head>Clara Katharina Pollaczek an Arthur Schnitzler, 16. Mai 1926</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp339.html</idno>
+            </event>
+            <event when-iso="1926-05-16">
+               <head>Empfang zum vierten internationalen PEN-Kongress, 16.5.1926</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb250476">PEN International</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb250470">Schadowstraße 6/7</placeName>
+                        <location>
+                           <geo>52,517908 13,383747</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/250475/</idno>
             </event>
          </listEvent>
       </body>
