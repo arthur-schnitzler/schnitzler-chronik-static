@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -135,52 +135,15 @@
                <head corresp="#pmb45258">München</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb485">
+                        <placeName>Hotel Vier Jahreszeiten</placeName>
+                     </place>
                      <place corresp="#pmb11">
                         <placeName>Münchner Schauspielhaus</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1910-12-10">
-               <head>Aufführung von Die letzten Masken, Literatur, Komtesse Mizi, 10.12.1910</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29931">Komtesse Mizzi oder: Der Familientag</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb29869">Literatur</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb29877">Die letzten Masken</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb14953">Glümer, Marie</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb3103">Ergas, Rudolf</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb27283">Woiwode, Lina</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb15967">Ergas, Friederike</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb10413">Waldau, Gustav</persName>
-                     </person>
-                  </listPerson>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/167730/</idno>
             </event>
             <event when-iso="1910-12-10">
                <head>Aufführung von Die letzten Masken, Komtesse Mizzi, Premiere von Literatur, 10.12.1910</head>
@@ -208,6 +171,21 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14953">Glümer, Marie</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb3103">Ergas, Rudolf</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb27283">Woiwode, Lina</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb15967">Ergas, Friederike</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10413">Waldau, Gustav</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
@@ -219,6 +197,7 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/47078/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/167730/</idno>
             </event>
             <event when-iso="1910-12-10">
                <head>Otto Brahm an Arthur Schnitzler, 10.12.1910</head>

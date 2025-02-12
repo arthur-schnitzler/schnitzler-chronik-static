@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,22 +108,22 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#51">
-                        <placeName>I., Innere Stadt</placeName>
-                        <listPlace>
-                           <place corresp="#pmb1013">
-                              <placeName>Urania</placeName>
-                           </place>
-                           <place corresp="#pmb186034">
-                              <placeName>Urania Theater</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
                      <place corresp="#56">
                         <placeName>VI., Mariahilf</placeName>
                         <listPlace>
                            <place corresp="#pmb37">
                               <placeName>Theater an der Wien</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb186034">
+                              <placeName>Urania Theater</placeName>
+                           </place>
+                           <place corresp="#pmb281">
+                              <placeName>Franz Hartmann, Leidingers Nachfolger</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -140,7 +140,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-01-21">
-               <head>Aufführung von Parodie auf den Jungen Medardus, 21.1.1911</head>
+               <head>Aufführung einer Parodie auf Der junge Medardus, 21.1.1911</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -150,6 +150,9 @@
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb7574">Grünbaum, Fritz</persName>
                      </person>
                   </listPerson>
                   <listPlace>
@@ -164,11 +167,24 @@
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209592/</idno>
             </event>
             <event when-iso="1911-01-21">
-               <head>Urania, 21.1.1911</head>
+               <head>Aufführung von Prinz Violon, Mädchen von Elizondo, 21.1.1911</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb251545">Prinz Violon</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb251547">Das Mädchen von Elizondo</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10998">Brann, Paul</persName>
                      </person>
                   </listPerson>
                   <listPlace>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -138,6 +138,9 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb185644">
+                              <placeName>Peregringasse 4</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -146,6 +149,28 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-10-20">
+               <head>Empfang zu Ehren Paul Valérys, 20.10.1926</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb10328">Valéry, Paul</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb251194">Französische Botschaft in Wien</placeName>
+                        <location>
+                           <geo>48,1986 16,3745</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/251196/</idno>
             </event>
          </listEvent>
       </body>

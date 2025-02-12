@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,7 +89,19 @@
             </event>
             <event when-iso="1911-02-28">
                <head corresp="#pmb168">Berlin</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb245">
+                        <placeName>Hotel Esplanade [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb251729">
+                        <placeName>Kaufhaus Wertheim am Leipziger Platz</placeName>
+                     </place>
+                     <place corresp="#pmb216">
+                        <placeName>Unter den Linden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

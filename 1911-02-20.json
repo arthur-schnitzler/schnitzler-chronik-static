@@ -89,13 +89,21 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209594/",
  "head":
- "Konzert Eugène Ysaye, Pablo Casals, 20.2.1911",
+ "III. Konzert von Eugène Ysaÿe; mit Pablo Casals, 20.2.1911",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
- "Eugène Ysaye",
+ "Eugène Ysaÿe",
  "ref":
  ""},
  {
@@ -107,7 +115,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

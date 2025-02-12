@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,8 +120,36 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-02-12.html</idno>
             </event>
             <event when-iso="1911-02-12">
-               <head corresp="#pmb183303">Reduta</head>
-               <desc/>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1911-02-12">
+               <head corresp="#pmb833">Brünn</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb183303">
+                        <placeName>Reduta</placeName>
+                     </place>
+                     <place corresp="#pmb251671">
+                        <placeName>Brünn Hauptbahnhof</placeName>
+                     </place>
+                     <place corresp="#pmb233389">
+                        <placeName>Grand Hotel [Brünn]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-02-12">

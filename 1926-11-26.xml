@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,6 +127,31 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-11-26">
+               <head>Revue im Wiener Stadttheater, 26.11.1926</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80476">Wien lacht wieder</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb211373">Wiener Stadttheater [8. Wiener Gemeindebezirk]</placeName>
+                        <location>
+                           <geo>48,21327 16,34629</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/251250/</idno>
             </event>
             <event when-iso="1926-11-26">
                <head>Hedy Kempny, Tagebucheintrag vom 26. November 1926</head>

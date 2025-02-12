@@ -74,7 +74,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Luzern"
+ "Luzern",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Sankt Gotthard-Terminus",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -92,7 +102,7 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Rigi–Scheidegg-Bahn"
+ "Rigi Scheidegg"
 }, {
  "type":
  "schnitzler-orte",
@@ -101,7 +111,26 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Rigi Scheidegg"
+ "Vitznau",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Vitznau-Rigi-Bahn",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Rigi Kulm"
 }, {
  "type":
  "pollaczek",

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,7 +109,13 @@
             </event>
             <event when-iso="1926-09-07">
                <head corresp="#pmb967">Luzern</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb251098">
+                        <placeName>Hotel Sankt Gotthard-Terminus</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1926-09-07">
@@ -118,12 +124,23 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1926-09-07">
-               <head corresp="#pmb245412">Rigi–Scheidegg-Bahn</head>
+               <head corresp="#pmb245416">Rigi Scheidegg</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1926-09-07">
-               <head corresp="#pmb245416">Rigi Scheidegg</head>
+               <head corresp="#pmb92021">Vitznau</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb251106">
+                        <placeName>Vitznau-Rigi-Bahn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-09-07">
+               <head corresp="#pmb91598">Rigi Kulm</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

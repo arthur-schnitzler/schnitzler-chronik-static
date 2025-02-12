@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -123,6 +123,9 @@
                      <place corresp="#pmb186638">
                         <placeName>Talhofweg</placeName>
                      </place>
+                     <place corresp="#pmb238255">
+                        <placeName>Bahnhof Semmering</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
@@ -131,6 +134,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#60">
+                        <placeName>X., Favoriten</placeName>
+                        <listPlace>
+                           <place corresp="#pmb132">
+                              <placeName>Südbahnhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -142,6 +153,16 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1910-10-19">
+               <head corresp="#pmb91482">Pinkenkogel</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1910-10-19">
+               <head>Tintenfass der Wiener Werkstätte (Bertold Löffler, Michael Powolny) von Marianne Benedict</head>
+               <desc/>
+               <idno type="schnitzler-chronik-manuell">https://wienerschnitzler.org/tintenfass</idno>
             </event>
          </listEvent>
       </body>

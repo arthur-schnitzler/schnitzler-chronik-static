@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -156,18 +156,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1910-05-21">
-               <head corresp="#pmb964">Palace Hotel Axenfels</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1910-05-21">
                <head corresp="#pmb49170">Morschach</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1910-05-21">
-               <head corresp="#pmb53636">Hotel Axenstein</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb964">
+                        <placeName>Palace Hotel Axenfels</placeName>
+                     </place>
+                     <place corresp="#pmb53636">
+                        <placeName>Hotel Axenstein</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1910-05-21">

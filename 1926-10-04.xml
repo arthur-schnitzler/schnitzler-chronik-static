@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-10.">10.02.2025</date>
+            <date when-iso="2025-02-12.">12.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -175,6 +175,28 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1926-10-04">
+               <head>Empfang zu Ehren des ersten Paneuropa-Kongresses, 4.10.1926</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb9420">Ramek, Rudolf</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb21799">Schloss Schönbrunn</placeName>
+                        <location>
+                           <geo>48,18479 16,31227</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/251162/</idno>
             </event>
             <event when-iso="1926-10-04">
                <head>Stefan Zweig an Arthur Schnitzler, 4.10.1926</head>
