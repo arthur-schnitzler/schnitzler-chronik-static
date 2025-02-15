@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,6 +112,12 @@
                            <place corresp="#pmb236244">
                               <placeName>Heinrich Grünbaum, Kleidermacher</placeName>
                            </place>
+                           <place corresp="#pmb186034">
+                              <placeName>Urania Theater</placeName>
+                           </place>
+                           <place corresp="#pmb251849">
+                              <placeName>Café-Conditorei W. Todesco</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -125,6 +131,39 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1911-03-18">
+               <head>Marionettentheateraufführung von Die Zaubergeige, 18.3.1911</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb186212">Marionettentheater Münchner Künstler</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81125">Die Zaubergeige</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb186034">Urania Theater</placeName>
+                        <location>
+                           <geo>48,207691 16,378158</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/251842/</idno>
             </event>
             <event when-iso="1911-03-18">
                <head>Weissel, Edmund an Schnitzler, Arthur [Briefe]</head>

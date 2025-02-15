@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -168,11 +168,17 @@
                            <place corresp="#pmb14">
                               <placeName>Burgtheater</placeName>
                            </place>
+                           <place corresp="#pmb249395">
+                              <placeName>Falkestraße 3</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb113">
+                              <placeName>Türkenschanzpark</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -183,7 +189,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-09-20">
-               <head>Aufführung von Pagliacci, Der Schleier der Pierrette, 20.9.1911</head>
+               <head>Aufführung von I Pagliacci, Premiere von Der Schleier der Pierrette, 20.9.1911</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -197,7 +203,7 @@
                      </bibl>
                      <bibl>
                         <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
-                        <note type="relation-type">ist Aufführung von</note>
+                        <note type="relation-type">ist Premiere von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
@@ -218,36 +224,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209611/</idno>
-            </event>
-            <event when-iso="1911-09-20">
-               <head>Premiere von Der Schleier der Pierrette, 20.9.1911</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
-                        <location>
-                           <geo>48,203 16,3691</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/35376/</idno>
             </event>
             <event when-iso="1911-09-20">
                <head>Arthur Schnitzler an Alfred, Freiherr

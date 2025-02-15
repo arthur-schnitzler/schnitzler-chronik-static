@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,7 +104,21 @@
             </event>
             <event when-iso="1911-04-12">
                <head corresp="#pmb667">Garmisch-Partenkirchen</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb2318">
+                        <placeName>Partenkirchen</placeName>
+                        <listPlace>
+                           <place corresp="#pmb250697">
+                              <placeName>Dr. Wigger’s Kurheim Sanatorium für Innen-, Nervenkranke und Erholungsbedürftige</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb251910">
+                        <placeName>Berggasthof Almhütte [Garmisch-Partenkirchen]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-04-12">

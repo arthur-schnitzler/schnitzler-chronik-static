@@ -46,7 +46,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Menton"
+ "Menton",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Grand Hôtel National [Menton]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Casino Municipal [Menton]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -55,5 +70,24 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Nizza"
+ "Nizza",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Café-Hôtel-Restaurant de la Régence",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Cimiez"
 }] 

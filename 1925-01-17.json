@@ -76,7 +76,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "St. Gallen"
+ "St. Gallen",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Hecht",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -85,7 +95,27 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Zürich"
+ "Zürich",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel St. Gotthard Zürich",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Altstadt von Zürich",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kongresshaus Zürich",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",

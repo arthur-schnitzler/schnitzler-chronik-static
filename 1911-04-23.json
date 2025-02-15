@@ -64,7 +64,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Menton"
+ "Menton",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Grand Hôtel National [Menton]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -74,6 +84,30 @@
  "Aufenthaltsorte",
  "head":
  "Roquebrune-Cap-Martin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Monte Carlo",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Monte Carlo Casino",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Café de Paris [Monte Carlo]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-traeume",

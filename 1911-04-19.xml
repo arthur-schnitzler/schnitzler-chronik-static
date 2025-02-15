@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,11 +92,31 @@
             </event>
             <event when-iso="1911-04-19">
                <head corresp="#pmb36456">Menton</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb251927">
+                        <placeName>Grand Hôtel National [Menton]</placeName>
+                     </place>
+                     <place corresp="#pmb251944">
+                        <placeName>Casino Municipal [Menton]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-04-19">
                <head corresp="#pmb926">Nizza</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb251940">
+                        <placeName>Café-Hôtel-Restaurant de la Régence</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1911-04-19">
+               <head corresp="#pmb90482">Cimiez</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

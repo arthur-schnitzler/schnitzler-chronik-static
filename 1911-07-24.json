@@ -76,7 +76,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Salzburg"
+ "Salzburg",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hauptbahnhof Salzburg",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -85,7 +95,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "St. Gilgen"
+ "St. Gilgen",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Lueg",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Seehotel [St. Gilgen]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -95,6 +120,25 @@
  "Aufenthaltsorte",
  "head":
  "Plomberg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Obersalzberg",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Antenberg",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-mikrofilme-daten",

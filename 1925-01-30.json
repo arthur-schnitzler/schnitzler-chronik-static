@@ -119,7 +119,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Sankt Moritz"
+ "Sankt Moritz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Suvretta",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -128,5 +138,24 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Julierhof"
+ "Privathotel [Sankt Moritz]"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Champfèr",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Julierhof",
+ "ref":
+ ""}
+ ]
+}
 }] 

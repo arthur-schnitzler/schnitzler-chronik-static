@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -147,6 +147,9 @@
                            <place corresp="#pmb14">
                               <placeName>Burgtheater</placeName>
                            </place>
+                           <place corresp="#pmb251867">
+                              <placeName>Haus der Wiener Kaufmannschaft</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -162,7 +165,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-03-27">
-               <head>Gesangskonzert Julia Bertha Culp, 27.3.1911</head>
+               <head>Gesangskonzert von Julia Culp, 27.3.1911</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -172,6 +175,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb251867">Haus der Wiener Kaufmannschaft</placeName>
+                        <location>
+                           <geo>48,200763 16,374143</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209603/</idno>
             </event>

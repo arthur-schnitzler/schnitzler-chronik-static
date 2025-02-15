@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,6 +108,9 @@
                            <place corresp="#pmb170">
                               <placeName>Neuwaldegg</placeName>
                            </place>
+                           <place corresp="#pmb176">
+                              <placeName>Schwarzenbergpark</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -121,6 +124,34 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1911-03-12">
+               <head>Private Lesung von Marionetten [Zum großen Wurstel], 12.3.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29951">Zum großen Wurstel. Burleske in einem Akt</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
+                        <location>
+                           <geo>48,23188 16,33716</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/251837/</idno>
             </event>
          </listEvent>
       </body>

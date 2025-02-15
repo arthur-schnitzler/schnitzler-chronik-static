@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -101,12 +101,30 @@
             </event>
             <event when-iso="1911-08-26">
                <head corresp="#pmb189">Semmering</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb252271">
+                        <placeName>Waldhof, Dependance des Südbahnhotels Semmering</placeName>
+                     </place>
+                     <place corresp="#pmb238255">
+                        <placeName>Bahnhof Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-08-26">
-               <head corresp="#pmb184727">Hotel Sacher Baden</head>
-               <desc/>
+               <head corresp="#pmb662">Baden bei Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb184727">
+                        <placeName>Hotel Sacher Baden</placeName>
+                     </place>
+                     <place corresp="#pmb249350">
+                        <placeName>Bahnhof Baden bei Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

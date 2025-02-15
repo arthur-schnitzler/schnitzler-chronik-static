@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -206,9 +206,34 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb15">
+                              <placeName>Oper</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#70">
+                        <placeName>XX., Brigittenau</placeName>
+                        <listPlace>
+                           <place corresp="#pmb252513">
+                              <placeName>Wiener Friedhofkunst Basel, Forstner &amp; Poppovits</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb113">
+                              <placeName>Türkenschanzpark</placeName>
+                           </place>
+                           <place corresp="#pmb252012">
+                              <placeName>Hasenauerstraße 42</placeName>
+                           </place>
+                           <place corresp="#pmb252012">
+                              <placeName>Hasenauerstraße 42</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -217,6 +242,31 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Besichtigung des Stoclet-Frieses, 20.10.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb252519">Stoclet-Fries</title>
+                        <note type="relation-type">ist Ausstellung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb252513">Wiener Friedhofkunst Basel, Forstner &amp; Poppovits</placeName>
+                        <location>
+                           <geo>48,234126 16,371037</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/252521/</idno>
             </event>
             <event when-iso="1911-10-20">
                <head>Arthur Schnitzler an Samuel Fischer, 20. 10. 1911</head>

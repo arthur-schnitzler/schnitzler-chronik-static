@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-12.">12.02.2025</date>
+            <date when-iso="2025-02-15.">15.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,11 +85,6 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-03.html</idno>
             </event>
             <event when-iso="1911-04-03">
-               <head corresp="#pmb189">Semmering</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1911-04-03">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -108,6 +103,9 @@
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
+                     </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
                      </place>
                   </listPlace>
                </desc>
