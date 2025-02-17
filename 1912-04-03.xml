@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-15.">15.02.2025</date>
+            <date when-iso="2025-02-17.">17.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,11 +145,11 @@
                      <place corresp="#pmb230">
                         <placeName>Österreichischer Hof</placeName>
                      </place>
-                     <place corresp="#pmb180">
-                        <placeName>Mirabell</placeName>
+                     <place corresp="#pmb1014">
+                        <placeName>Hotel Mirabell</placeName>
                      </place>
-                     <place corresp="#pmb195432">
-                        <placeName>Salzburger Landestheater</placeName>
+                     <place corresp="#pmb252984">
+                        <placeName>Lifka’s Grand Théatre électrique</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -161,7 +161,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-04-03">
-               <head>Filmvorführung, 3.4.1912</head>
+               <head>Filmvorführung von Glückstaumel, Indianerstolz, Der Tag im Film, Die Besteigung des Berges Ingrar-Nielsen, Eine Tartarenhochzeit in Mezö-Kövesd, Das Zirkuskind, Der kleine Irrwisch, Moritz’s Jugendliebe, Der alte Geck, 3.4.1912</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
@@ -175,42 +175,15 @@
                            <geo>47,80067 13,04532</geo>
                         </location>
                      </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210466/</idno>
-            </event>
-            <event when-iso="1912-04-03">
-               <head>Aufführung von Baumeister Solness, 3.4.1912</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb169129">Salzburger Stadttheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31157">Baumeister Solness</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb12837">Steinrück, Albert</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb195432">Salzburger Landestheater</placeName>
+                        <placeName role="veranstaltet in" key="pmb252984">Lifka’s Grand Théatre électrique</placeName>
                         <location>
-                           <geo>47,802778 13,042778</geo>
+                           <geo>47,803328 13,042542</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209638/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210466/</idno>
             </event>
             <event when-iso="1912-04-03">
                <head>Erhalt von Isabella Vengerova an Arthur Schnitzler, 2. 4. 1912</head>

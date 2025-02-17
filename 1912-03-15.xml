@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-15.">15.02.2025</date>
+            <date when-iso="2025-02-17.">17.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,17 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                           <place corresp="#pmb4">
+                              <placeName>Bösendorfer-Saal</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -110,11 +121,53 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-03-15">
-               <head>Auftritt von Quartett Rosé, 15.3.1912</head>
+               <head>Probe von Der tapfere Kassian. Singspiel, 15.3.1912</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29752">Concordia. Journalisten- und Schriftstellerverein</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb46124">Der tapfere Kassian. Singspiel</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb16448">Francillo-Kauffmann, Hedwig</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb8784">Maikl, Georg</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb18365">Hofbauer, Rudolf</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/252938/</idno>
+            </event>
+            <event when-iso="1912-03-15">
+               <head>5. Kammermusikabend von Quartett Rosé, 15.3.1912</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
                         <orgName key="pmb51780">Rosé-Quartett</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37148">Concert-Direktion Albert Gutmann</orgName>
                      </org>
                   </listOrg>
                   <listPerson>
@@ -122,6 +175,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209632/</idno>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-15.">15.02.2025</date>
+            <date when-iso="2025-02-17.">17.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,8 +121,13 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-12-08">
-               <head>Aufführung von Symphonie Nr. 3 D-Moll, 8.12.1911</head>
+               <head>Gesellschaftskonzert, Aufführung von Symphonie Nr. 3 D-Moll, 8.12.1911</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb183617">Wiener Tonkünstler-Orchester</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb30123">Symphonie Nr. 3 D-Moll</title>
@@ -132,6 +137,9 @@
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12335">Nedbal, Oskar</persName>
                      </person>
                   </listPerson>
                   <listPlace>

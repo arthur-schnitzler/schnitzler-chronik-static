@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-15.">15.02.2025</date>
+            <date when-iso="2025-02-17.">17.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,11 +114,11 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#59">
-                        <placeName>IX., Alsergrund</placeName>
+                     <place corresp="#65">
+                        <placeName>XV., Rudolfsheim-Fünfhaus</placeName>
                         <listPlace>
-                           <place corresp="#pmb34399">
-                              <placeName>Neue Wiener Bühne</placeName>
+                           <place corresp="#pmb184918">
+                              <placeName>Westbahnhof</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -140,6 +140,12 @@
                   <listPlace>
                      <place corresp="#pmb230">
                         <placeName>Österreichischer Hof</placeName>
+                     </place>
+                     <place corresp="#pmb195432">
+                        <placeName>Salzburger Landestheater</placeName>
+                     </place>
+                     <place corresp="#pmb50792">
+                        <placeName>Hauptbahnhof Salzburg</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -325,34 +331,37 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030081.html</idno>
             </event>
             <event when-iso="1912-04-01">
-               <head>Probe von Professor Bernhardi, 1.4.1912</head>
+               <head>Aufführung von Baumeister Solness, 1.4.1912</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
+                        <orgName key="pmb169129">Salzburger Stadttheater</orgName>
                      </org>
                   </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
-                        <note type="relation-type">ist Probe von</note>
+                        <title key="pmb31157">Baumeister Solness</title>
+                        <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12837">Steinrück, Albert</persName>
+                     </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb34399">Neue Wiener Bühne</placeName>
+                        <placeName role="veranstaltet in" key="pmb195432">Salzburger Landestheater</placeName>
                         <location>
-                           <geo>48,2195962 16,3589845</geo>
+                           <geo>47,802778 13,042778</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/239142/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209638/</idno>
             </event>
             <event when-iso="1912-04-01">
                <head>Brandes, Marthe an Schnitzler, Arthur [Briefe]</head>

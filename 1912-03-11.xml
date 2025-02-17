@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-15.">15.02.2025</date>
+            <date when-iso="2025-02-17.">17.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,6 +105,12 @@
                            <place corresp="#pmb96">
                               <placeName>Meissl &amp; Schadn</placeName>
                            </place>
+                           <place corresp="#pmb186034">
+                              <placeName>Urania Theater</placeName>
+                           </place>
+                           <place corresp="#pmb4">
+                              <placeName>Bösendorfer-Saal</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -120,8 +126,38 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-03-11">
-               <head>Trio Ernst von Dohnányi, Becker, Marteau, 11.3.1912</head>
+               <head>Probe von Der Schleier der Pierrette, 11.3.1912</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb186034">Urania Theater</placeName>
+                        <location>
+                           <geo>48,207691 16,378158</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/252920/</idno>
+            </event>
+            <event when-iso="1912-03-11">
+               <head>1. Kammermusikabend von Ernst von Dohnányi, Hugo Becker, Henri Marteau, 11.3.1912</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37148">Concert-Direktion Albert Gutmann</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb11165">Dohnányi, Ernst von</persName>
@@ -136,6 +172,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209630/</idno>
             </event>

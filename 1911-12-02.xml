@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-15.">15.02.2025</date>
+            <date when-iso="2025-02-17.">17.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -174,6 +174,17 @@
                            <place corresp="#pmb516">
                               <placeName>Musikverein</placeName>
                            </place>
+                           <place corresp="#pmb234548">
+                              <placeName>Jordangasse 9</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb248406">
+                              <placeName>Weimarer Straße 86</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -189,8 +200,13 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1911-12-02">
-               <head>Aufführung von Symphonie Nr. 2 C-Moll, 2.12.1911</head>
+               <head>1. statutarisches Akademiekonzert der Wiener Singakademie (Gedenkfeier für Gustav Mahler), 2.12.1911</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb201025">Wiener Singakademie</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb30777">Symphonie Nr. 2 C-Moll</title>

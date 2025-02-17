@@ -78,6 +78,11 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -95,9 +100,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209628/",
  "head":
- "Gesangskonzert Lucille Marcel, 8.3.1912",
+ "Orchesterkonzert mit Gesang von Lucille Marcel, 8.3.1912",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -108,6 +121,19 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Felix von Weingartner",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 
