@@ -70,7 +70,47 @@
  ""}
  ,  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/255390/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/255390/",
+ "head":
+ "Konzert von Eugen d’Albert, 22.11.1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Eugen d’Albert",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
  "ref":
  ""}
  ]
@@ -87,15 +127,31 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209705/",
  "head":
- "Konzert Eugen d’Albert, 22.11.1913",
+ "3. Konzert der Zeitschrift »Der Merker«, 22.11.1913",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Der Merker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,6 +118,9 @@
                            <place corresp="#pmb232768">
                               <placeName>Beethovengasse 6</placeName>
                            </place>
+                           <place corresp="#pmb700">
+                              <placeName>Hotel Regina [Wien]</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -133,6 +136,25 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-02-25">
+               <head>Ausstellungsbesuch Galerie Würthle, 25.2.1925</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb253222">Galerie Würthle</placeName>
+                        <location>
+                           <geo>48,20706459682485 16,373042597822973</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/253224/</idno>
+            </event>
+            <event when-iso="1925-02-25">
                <head>Filmvorführung von Ingeborg, 25.2.1925</head>
                <desc>
                   <listBibl>
@@ -146,7 +168,7 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person role="hat als Teilnehmer:in">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                        <persName key="pmb19262">Kempny, Hedy</persName>
                      </person>
                   </listPerson>
                   <listPlace>

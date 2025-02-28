@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,11 +94,30 @@
                      <place corresp="#pmb681">
                         <placeName>Hotel Continental [München]</placeName>
                      </place>
-                     <place corresp="#pmb681">
-                        <placeName>Hotel Continental [München]</placeName>
+                     <place corresp="#pmb247583">
+                        <placeName>Hauptbahnhof München</placeName>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1913-09-04">
+               <head corresp="#pmb44374">St. Moritz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb254904">
+                        <placeName>Grand Hotel St. Moritz</placeName>
+                     </place>
+                     <place corresp="#pmb252070">
+                        <placeName>Bahnhof St. Moritz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1913-09-04">
+               <head corresp="#pmb986">Lindau am Bodensee</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

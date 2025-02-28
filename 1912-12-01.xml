@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,9 +140,65 @@
                      <place corresp="#pmb207196">
                         <placeName>Lehrter Bahnhof</placeName>
                      </place>
+                     <place corresp="#pmb1039">
+                        <placeName>Krematorium Wedding</placeName>
+                     </place>
+                     <place corresp="#pmb235952">
+                        <placeName>Palais Arnim</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1912-12-01">
+               <head>Ausstellungsbesuch von Alt-Ostasiatische Kunst China-Japan 1912, 1.12.1912</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb235952">Palais Arnim</placeName>
+                        <location>
+                           <geo>52,515 13,3792</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/254002/</idno>
+            </event>
+            <event when-iso="1912-12-01">
+               <head>Beerdigung von Otto Brahm, 1.12.1912</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11617">Hauptmann, Gerhart</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11795">Hülsen-Haeseler, Georg von</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12491">Reicher, Emanuel</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12671">Schlenther, Paul</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1039">Krematorium Wedding</placeName>
+                        <location>
+                           <geo>52,54516 13,36601</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/253994/</idno>
             </event>
             <event when-iso="1912-12-01">
                <head>Schnitzler, Arthur an Gussmann, Elisabeth [Briefe]</head>

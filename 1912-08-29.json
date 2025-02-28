@@ -61,7 +61,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Gossensass"
+ "Gossensaß",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Gossensaß",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -70,7 +80,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hauptbahnhof München",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -86,6 +106,11 @@
  {
  "placeName":
  "Hotel Simson",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Tutzing",
  "ref":
  ""}
  ]

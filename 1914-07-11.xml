@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -136,13 +136,19 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-07-11">
-               <head corresp="#pmb231184">Pension Rauhenstein</head>
+               <head corresp="#pmb90721">Gießhübl</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-07-11">
-               <head corresp="#pmb90721">Gießhübl</head>
-               <desc/>
+               <head corresp="#pmb662">Baden bei Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb231184">
+                        <placeName>Pension Rauhenstein</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

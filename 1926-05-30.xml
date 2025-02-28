@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,14 +99,16 @@
                      <place corresp="#52">
                         <placeName>II., Leopoldstadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb185">
-                              <placeName>Lusthaus</placeName>
-                           </place>
-                           <place corresp="#pmb200745">
-                              <placeName>Praterspitz</placeName>
-                           </place>
                            <place corresp="#pmb8">
                               <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb185">
+                                    <placeName>Lusthaus</placeName>
+                                 </place>
+                                 <place corresp="#pmb200745">
+                                    <placeName>Praterspitz</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>

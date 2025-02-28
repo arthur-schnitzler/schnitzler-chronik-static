@@ -87,6 +87,16 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -134,20 +144,36 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209697/",
  "head":
- "Gesangskonzert Marie Luise Debogis, 31.10.1913",
+ "Gesangskonzert Marie-Louise Debogis, 31.10.1913",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
- "Marie Luise Debogis",
+ "Marie-Louise Debogis",
  "ref":
  ""},
  {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

@@ -86,7 +86,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Vöslau"
+ "Bad Vöslau",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bad [Bad Vöslau]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -95,5 +105,43 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Wiednerspital"
+ "Hotel Hallmayer"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Kurpark [Baden bei Wien]"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "IV., Wieden",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "X., Favoriten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
 }] 

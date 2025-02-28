@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,7 +145,7 @@
                         <placeName>III., Landstraße</placeName>
                         <listPlace>
                            <place corresp="#pmb240">
-                              <placeName>Konzerthaus</placeName>
+                              <placeName>Wiener Konzerthaus</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -154,6 +154,12 @@
                         <listPlace>
                            <place corresp="#pmb43">
                               <placeName>Café Imperial</placeName>
+                           </place>
+                           <place corresp="#pmb14">
+                              <placeName>Burgtheater</placeName>
+                           </place>
+                           <place corresp="#pmb255487">
+                              <placeName>Domgasse 1</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -168,6 +174,36 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1913-12-18">
+               <head>Generalprobe von Jedermann, 18.12.1913</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30129">Jedermann. Das Spiel vom Sterben des reichen Mannes</title>
+                        <note type="relation-type">ist Generalprobe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/255481/</idno>
             </event>
             <event when-iso="1913-12-18">
                <head>Konzert im Wiener Konzerthaus, 18.12.1913</head>
@@ -188,7 +224,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb240">Konzerthaus</placeName>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
                         <location>
                            <geo>48,200771836002 16,377197811369</geo>
                         </location>
@@ -198,7 +234,7 @@
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209710/</idno>
             </event>
             <event when-iso="1913-12-18">
-               <head>Konzert Grete Neufeld, 18.12.1913</head>
+               <head>Konzert von Grete Neufeld, 18.12.1913</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -219,7 +255,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb240">Konzerthaus</placeName>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
                         <location>
                            <geo>48,200771836002 16,377197811369</geo>
                         </location>

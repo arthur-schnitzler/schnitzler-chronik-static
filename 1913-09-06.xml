@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -130,15 +130,54 @@
                      <place corresp="#pmb681">
                         <placeName>Hotel Continental [München]</placeName>
                      </place>
-                     <place corresp="#pmb681">
-                        <placeName>Hotel Continental [München]</placeName>
-                     </place>
                      <place corresp="#pmb185933">
                         <placeName>Kammerspiele München</placeName>
+                     </place>
+                     <place corresp="#pmb9">
+                        <placeName>Königlich Bayerische Hoftheater</placeName>
+                     </place>
+                     <place corresp="#pmb11">
+                        <placeName>Münchner Schauspielhaus</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1913-09-06">
+               <head>Probe von Liebelei, 6.9.1913</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb47085">Münchner Schauspielhaus</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14953">Glümer, Marie</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb15531">Duniecki, Arthur Stanislaus</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb11">Münchner Schauspielhaus</placeName>
+                        <location>
+                           <geo>48,138122 11,582478</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/255052/</idno>
             </event>
             <event when-iso="1913-09-06">
                <head>Premiere von Ruf des Lebens, 6.9.1913</head>
@@ -150,6 +189,15 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb142471">Ziegel, Erich</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb21647">Marx, Paul</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2549">Horwitz, Mirjam</persName>
+                     </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>

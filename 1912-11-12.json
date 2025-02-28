@@ -120,26 +120,88 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Wien",
+ "Berlin",
  "desc":
 {"listPlace":
   [
  {
  "placeName":
- "XVIII., Währing",
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel und Restaurant »Prinz Wilhelm«",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bülowstraße 90",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Potsdamerstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kammerlichtspiele [Berlin]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kleines Theater",
  "ref":
  ""}
  ]
 }
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
+ "filename":
+ "entity/253904/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/253904/",
  "head":
- "Berlin"
+ "Arrangierprobe von Professor Bernhardi, 12.11.1912",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -165,7 +227,7 @@
   [
  {
  "placeName":
- "Berlin",
+ "Kammerlichtspiele [Berlin]",
  "ref":
  ""}
  ]

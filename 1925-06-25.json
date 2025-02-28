@@ -51,7 +51,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Hotel Savoy [Meran]"
+ "Meran",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Savoy [Meran]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Gilfpromenade",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -69,17 +84,13 @@
  "Hotel Greif",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Hotel Bristol Laurin",
+ "ref":
+ ""}
  ]
 }
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Gilfpromenade"
 }, {
  "type":
  "pollaczek",

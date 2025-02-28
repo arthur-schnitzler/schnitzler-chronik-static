@@ -170,7 +170,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Neuhaus"
+ "Neuhaus",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel d’Orange",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kurhotel Stefanie [Neuhaus]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -190,11 +205,25 @@
  ""}
  ,  {
  "placeName":
- "Kurpark",
+ "Kurpark [Baden bei Wien]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Baden bei Wien",
  "ref":
  ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bad Vöslau"
 }, {
  "type":
  "schnitzler-bahr",

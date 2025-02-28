@@ -79,7 +79,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Semmering"
+ "Semmering",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kurhaus Semmering",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Villa Kleinhans",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -99,6 +114,15 @@
  ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Pinkenkogel"
 }, {
  "type":
  "kalliope-verbund",

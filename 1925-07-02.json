@@ -61,7 +61,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bozen"
+ "Bozen",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Greif",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Bristol Laurin",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -90,6 +105,15 @@
  "Aufenthaltsorte",
  "head":
  "Ponte Gardena"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Sella Pass"
 }, {
  "type":
  "pollaczek",

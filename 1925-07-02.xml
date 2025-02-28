@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -101,7 +101,16 @@
             </event>
             <event when-iso="1925-07-02">
                <head corresp="#pmb40260">Bozen</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb233170">
+                        <placeName>Hotel Greif</placeName>
+                     </place>
+                     <place corresp="#pmb248108">
+                        <placeName>Hotel Bristol Laurin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-07-02">
@@ -110,6 +119,11 @@
                   <listPlace>
                      <place corresp="#pmb65736">
                         <placeName>Selva di Val Gardena</placeName>
+                        <listPlace>
+                           <place corresp="#pmb254413">
+                              <placeName>Hotel Oswald</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                   </listPlace>
                </desc>
@@ -117,6 +131,11 @@
             </event>
             <event when-iso="1925-07-02">
                <head corresp="#pmb40343">Ponte Gardena</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1925-07-02">
+               <head corresp="#pmb91731">Sella Pass</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

@@ -111,7 +111,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Venedig"
+ "Venedig",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Monaco Grand Canal",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Bonvecchiati",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -130,4 +145,13 @@
  "Aufenthaltsorte",
  "head":
  "San Francesco del Deserto"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Murano"
 }] 

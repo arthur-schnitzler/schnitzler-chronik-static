@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,13 +100,53 @@
             </event>
             <event when-iso="1925-09-12">
                <head corresp="#pmb44248">Forte dei Marmi</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52716">
+                        <placeName>Grand Hotel Forte dei Marmi</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-09-12">
                <head corresp="#pmb44248">Forte dei Marmi</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52716">
+                        <placeName>Grand Hotel Forte dei Marmi</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1925-09-12">
+               <head>Private Lesung von Der Gang zum Weiher (2. und 3. Akt), 12.9.1925</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb44248">Forte dei Marmi</placeName>
+                        <location>
+                           <geo>43,96388 10,17478</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/254943/</idno>
             </event>
             <event when-iso="1925-09-12">
                <head>Private Lesung von Der Gang zum Weiher (1. Akt), 12.9.1925</head>

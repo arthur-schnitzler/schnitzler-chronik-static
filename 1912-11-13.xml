@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -178,20 +178,51 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02096.html</idno>
             </event>
             <event when-iso="1912-11-13">
-               <head corresp="#pmb50">Wien</head>
+               <head corresp="#pmb168">Berlin</head>
                <desc>
                   <listPlace>
-                     <place corresp="#68">
-                        <placeName>XVIII., Währing</placeName>
-                        <listPlace>
-                           <place corresp="#pmb168815">
-                              <placeName>Sternwartestraße 71</placeName>
-                           </place>
-                        </listPlace>
+                     <place corresp="#pmb245">
+                        <placeName>Hotel Esplanade [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb253880">
+                        <placeName>Restaurant Kannenberg</placeName>
+                     </place>
+                     <place corresp="#pmb208">
+                        <placeName>Kleines Theater</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1912-11-13">
+               <head>Arrangierprobe von Professor Bernhardi, 13.11.1912</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45430">Kleines Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb208">Kleines Theater</placeName>
+                        <location>
+                           <geo>52,517222 13,389167</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/253919/</idno>
             </event>
          </listEvent>
       </body>

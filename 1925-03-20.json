@@ -93,7 +93,26 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berlin"
+ "Berlin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Esplanade [Berlin]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Zum Austernmeyer"
 }, {
  "type":
  "schnitzler-events",
@@ -122,12 +141,22 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
+ ""},
+ {
+ "persName":
+ "Bettina Bauer",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
  ""}],
  "listPlace":
   [
  {
  "placeName":
- "Berlin",
+ "Marmorhaus",
  "ref":
  ""}
  ]

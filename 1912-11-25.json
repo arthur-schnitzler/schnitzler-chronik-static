@@ -75,6 +75,67 @@
  "Hotel Kaiserhof",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Restaurant Kannenberg",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Friedrichstraße 13",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/253941/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/253941/",
+ "head":
+ "Probe von Professor Bernhardi, 25.11.1912",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Kleines Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ ""}
  ]
 }
 }, {
@@ -89,9 +150,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210469/",
  "head":
- "Filmvorführung, 25.11.1912",
+ "Private Filmvorführung, 25.11.1912",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Nordisk Film",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -103,6 +172,11 @@
  {
  "placeName":
  "Berlin",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Friedrichstraße 13",
  "ref":
  ""}
  ]

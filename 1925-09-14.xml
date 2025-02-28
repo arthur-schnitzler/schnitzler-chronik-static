@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,7 +124,13 @@
             </event>
             <event when-iso="1925-09-14">
                <head corresp="#pmb44248">Forte dei Marmi</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52716">
+                        <placeName>Grand Hotel Forte dei Marmi</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-09-14">
@@ -137,8 +143,28 @@
                      <place corresp="#pmb52728">
                         <placeName>San Miniato al Monte</placeName>
                      </place>
+                     <place corresp="#pmb254949">
+                        <placeName>Grand Hotel Baglioni</placeName>
+                     </place>
+                     <place corresp="#pmb140806">
+                        <placeName>Kathedrale von Florenz</placeName>
+                     </place>
+                     <place corresp="#pmb254953">
+                        <placeName>Baptisterium San Giovanni</placeName>
+                     </place>
+                     <place corresp="#pmb254956">
+                        <placeName>Gilli</placeName>
+                     </place>
+                     <place corresp="#pmb254959">
+                        <placeName>Gran Caffè Doney</placeName>
+                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1925-09-14">
+               <head corresp="#pmb1174">Viareggio</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1925-09-14">

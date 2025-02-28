@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -135,13 +135,8 @@
                            <place corresp="#pmb233517">
                               <placeName>Kaiserpanorama [Wien, Schubertring 4]</placeName>
                            </place>
-                        </listPlace>
-                     </place>
-                     <place corresp="#53">
-                        <placeName>III., Landstraße</placeName>
-                        <listPlace>
-                           <place corresp="#pmb240">
-                              <placeName>Konzerthaus</placeName>
+                           <place corresp="#pmb4">
+                              <placeName>Bösendorfer-Saal</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -158,7 +153,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1909-01-20">
-               <head>Liederkonzert Paul Schmedes, Theo Drill-Oridge, 20.1.1909</head>
+               <head>Liederkonzert Paul Schmedes, Theo Drill-Oridge, Richard Mandl, 20.1.1909</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -170,12 +165,15 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb20914">Mandl, Richard</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb240">Konzerthaus</placeName>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
                         <location>
-                           <geo>48,200771836002 16,377197811369</geo>
+                           <geo>48,209167 16,366111</geo>
                         </location>
                      </place>
                   </listPlace>

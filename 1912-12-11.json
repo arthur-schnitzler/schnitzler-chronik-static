@@ -77,6 +77,11 @@
  ""}
  ,  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -94,9 +99,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209662/",
  "head":
- "Konzert Willy Bardas, Therese Bardas-Leonard, 11.12.1912",
+ "Konzert von Willy Bardas und Therese Bardas-Leonard, 11.12.1912",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Gesellschaft der Musikfreunde",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -112,6 +125,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }] 

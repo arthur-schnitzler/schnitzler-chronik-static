@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,23 +117,25 @@
                      <place corresp="#63">
                         <placeName>XIII., Hietzing</placeName>
                         <listPlace>
-                           <place corresp="#pmb368">
-                              <placeName>Gloriette</placeName>
-                           </place>
-                           <place corresp="#pmb39607">
-                              <placeName>Tiergarten Schönbrunn</placeName>
-                           </place>
-                           <place corresp="#pmb200855">
-                              <placeName>Neptunbrunnen</placeName>
-                           </place>
-                           <place corresp="#pmb200859">
-                              <placeName>Römische Ruine [Schlosspark Schönbrunn]</placeName>
-                           </place>
                            <place corresp="#pmb50941">
                               <placeName>Palmenhaus Schönbrunn</placeName>
                            </place>
                            <place corresp="#pmb92519">
                               <placeName>Schlosspark Schönbrunn</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb368">
+                                    <placeName>Gloriette</placeName>
+                                 </place>
+                                 <place corresp="#pmb39607">
+                                    <placeName>Tiergarten Schönbrunn</placeName>
+                                 </place>
+                                 <place corresp="#pmb200855">
+                                    <placeName>Neptunbrunnen</placeName>
+                                 </place>
+                                 <place corresp="#pmb200859">
+                                    <placeName>Römische Ruine [Schlosspark Schönbrunn]</placeName>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>

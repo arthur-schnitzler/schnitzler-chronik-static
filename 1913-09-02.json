@@ -66,7 +66,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Sankt Moritz"
+ "St. Moritz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Grand Hotel St. Moritz",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof St. Moritz",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -76,6 +91,30 @@
  "Aufenthaltsorte",
  "head":
  "Champfèr"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Pontresina",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Roseg-Gletscher",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Pontresina",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-traeume",

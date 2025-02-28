@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-17.">17.02.2025</date>
+            <date when-iso="2025-02-28.">28.02.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -165,7 +165,16 @@
             </event>
             <event when-iso="1913-04-23">
                <head corresp="#pmb47414">Neuhaus</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb254544">
+                        <placeName>Hotel d’Orange</placeName>
+                     </place>
+                     <place corresp="#pmb254549">
+                        <placeName>Kurhotel Stefanie [Neuhaus]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1913-04-23">
@@ -176,10 +185,18 @@
                         <placeName>Grüner Baum</placeName>
                      </place>
                      <place corresp="#pmb92195">
-                        <placeName>Kurpark</placeName>
+                        <placeName>Kurpark [Baden bei Wien]</placeName>
+                     </place>
+                     <place corresp="#pmb249350">
+                        <placeName>Bahnhof Baden bei Wien</placeName>
                      </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1913-04-23">
+               <head corresp="#pmb992">Bad Vöslau</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1913-04-23">
