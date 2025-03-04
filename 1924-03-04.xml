@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,6 +145,35 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1924-03-04">
+               <head corresp="#pmb255067">Riemergasse 1</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1924-03-04">
+               <head>Ausstellungsbesuch Ausstellung russischer Künstler, 4.3.1924</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb256434">Gesellschaft zur Förderung moderner Kunst</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb237070">Neue Galerie</placeName>
+                        <location>
+                           <geo>48,207689 16,375759</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/256437/</idno>
             </event>
             <event when-iso="1924-03-04">
                <head>Filmvorführung von Das jungfräuliche Paradies, 4.3.1924</head>

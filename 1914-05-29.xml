@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,14 +86,59 @@
                      <place corresp="#pmb245732">
                         <placeName>Amstelhotel</placeName>
                      </place>
+                     <place corresp="#pmb256379">
+                        <placeName>Amsterdam Centraal</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-05-29">
                <head corresp="#pmb145">Köln</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb256391">
+                        <placeName>Köln Hauptbahnhof</placeName>
+                     </place>
+                     <place corresp="#pmb256397">
+                        <placeName>Excelsior Hotel Ernst</placeName>
+                     </place>
+                     <place corresp="#pmb256400">
+                        <placeName>Kölner Werkbundausstellung 1914</placeName>
+                     </place>
+                     <place corresp="#pmb256408">
+                        <placeName>Hotel Ewige Lampe</placeName>
+                     </place>
+                     <place corresp="#pmb256408">
+                        <placeName>Hotel Ewige Lampe</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-05-29">
+               <head corresp="#pmb112653">Köln-Deutz</head>
                <desc/>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-05-29">
+               <head>Ausstellungsbesuch Kölner Werkbundausstellung, 29.5.1914</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb256400">Kölner Werkbundausstellung 1914</placeName>
+                        <location>
+                           <geo>50,94327 6,97106</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/256405/</idno>
             </event>
          </listEvent>
       </body>

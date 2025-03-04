@@ -118,6 +118,11 @@
  "XVIII., Währing",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
  ]
 }
 }, {
@@ -132,9 +137,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209723/",
  "head":
- "Orchesterkonzert Bruno Walter, 5.3.1914",
+ "Symphoniekonzert (Mozart-Beethoven) mit Bruno Walter, 5.3.1914",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -145,7 +158,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

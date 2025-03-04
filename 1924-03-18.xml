@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -139,6 +139,9 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb185644">
+                              <placeName>Peregringasse 4</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -149,19 +152,33 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1924-03-18">
-               <head>Puppenspiel Gong, 18.3.1924</head>
+               <head>Pressevorführung eines Puppenspiels im Gong, 18.3.1924</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb256478">Der Gong</placeName>
+                        <location>
+                           <geo>48,206828 16,376692</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210276/</idno>
             </event>
             <event when-iso="1924-03-18">
-               <head>Vorlesung im Musikverein, 18.3.1924</head>
+               <head>Vortrag von Fritz von Unruh: Unser Schicksal, 18.3.1924</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195881">Unser Schicksal</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb12993">Unruh, Fritz von</persName>

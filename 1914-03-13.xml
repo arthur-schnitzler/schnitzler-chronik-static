@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,6 +127,9 @@
                            <place corresp="#pmb43">
                               <placeName>Café Imperial</placeName>
                            </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -142,7 +145,29 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-03-13">
-               <head>Aufführung von Auferstehung. Komödie in einem Akt, Vagabunden. Lustspiel in drei Akten, 13.3.1914</head>
+               <head>Schulvorstellung der Schule Jacques Dalcroze, 13.3.1914</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb3933">Jaques-Dalcroze, Émile</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/256030/</idno>
+            </event>
+            <event when-iso="1914-03-13">
+               <head>Aufführung von Auferstehung, Vagabunden, 13.3.1914</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">

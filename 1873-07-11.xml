@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -69,13 +69,20 @@
       <body>
          <listEvent>
             <event when-iso="1873-07-11">
-               <head corresp="#pmb246533">Villa Mandl</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1873-07-11">
-               <head corresp="#pmb246538">Vöslauer Sommerarena</head>
-               <desc/>
+               <head corresp="#pmb992">Bad Vöslau</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb246533">
+                        <placeName>Villa Mandl</placeName>
+                     </place>
+                     <place corresp="#pmb246538">
+                        <placeName>Vöslauer Sommerarena</placeName>
+                     </place>
+                     <place corresp="#pmb246533">
+                        <placeName>Villa Mandl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

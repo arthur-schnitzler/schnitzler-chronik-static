@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -69,28 +69,53 @@
       <body>
          <listEvent>
             <event when-iso="1874-08-02">
-               <head corresp="#pmb992">Bad Vöslau</head>
+               <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb253420">
-                        <placeName>Jägermayerstraße 13 »Marienhaus«</placeName>
-                     </place>
-                     <place corresp="#pmb246533">
-                        <placeName>Villa Mandl</placeName>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168765">
+                              <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1874-08-02">
-               <head corresp="#pmb992">Bad Vöslau</head>
+               <head corresp="#pmb55279">Neulengbach</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1874-08-02">
+               <head corresp="#pmb49880">St. Pölten</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1874-08-02">
+               <head corresp="#pmb332">Linz</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1874-08-02">
+               <head corresp="#pmb30">Salzburg</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb253420">
-                        <placeName>Jägermayerstraße 13 »Marienhaus«</placeName>
+                     <place corresp="#pmb40804">
+                        <placeName>Hotel und Pension Nelböck</placeName>
                      </place>
-                     <place corresp="#pmb246533">
-                        <placeName>Villa Mandl</placeName>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1874-08-02">
+               <head corresp="#pmb1181">Bad Reichenhall</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb255564">
+                        <placeName>Hotel Burkart</placeName>
                      </place>
                   </listPlace>
                </desc>

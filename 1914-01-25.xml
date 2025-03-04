@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,14 +111,27 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-01-25.html</idno>
             </event>
             <event when-iso="1914-01-25">
+               <head corresp="#pmb255832">Hotel Grüner Kranz</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-01-25">
                <head corresp="#pmb45258">München</head>
                <desc>
                   <listPlace>
                      <place corresp="#pmb401">
                         <placeName>Hotel Marienbad</placeName>
                      </place>
+                     <place corresp="#pmb247583">
+                        <placeName>Hauptbahnhof München</placeName>
+                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-01-25">
+               <head corresp="#pmb255837">Hauptbahnhof Regensburg</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

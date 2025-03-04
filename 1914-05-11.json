@@ -39,7 +39,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Florenz"
+ "Florenz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel d’Italie [Florenz]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Firenze Santa Maria Novella",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -48,7 +63,55 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Pisa"
+ "Pisa",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Pisa Hauptbahnhof",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Duomo di Pisa",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Battistero di San Giovanni",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Camposanto Monumentale [Pisa]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel de Londres [Pisa]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bahnhof Genua"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Grand Hotel Eden"
 }, {
  "type":
  "kalliope-verbund",

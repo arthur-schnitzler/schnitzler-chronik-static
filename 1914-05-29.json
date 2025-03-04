@@ -38,6 +38,11 @@
  "Amstelhotel",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Amsterdam Centraal",
+ "ref":
+ ""}
  ]
 }
 }, {
@@ -48,5 +53,74 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Köln"
+ "Köln",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Köln Hauptbahnhof",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Excelsior Hotel Ernst",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Kölner Werkbundausstellung 1914",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Ewige Lampe",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Ewige Lampe",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Köln-Deutz"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/256405/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/256405/",
+ "head":
+ "Ausstellungsbesuch Kölner Werkbundausstellung, 29.5.1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kölner Werkbundausstellung 1914",
+ "ref":
+ ""}
+ ]
+}
 }] 

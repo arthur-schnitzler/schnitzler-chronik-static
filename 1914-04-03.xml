@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-02-28.">28.02.2025</date>
+            <date when-iso="2025-03-04.">04.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,6 +117,17 @@
                            <place corresp="#pmb43">
                               <placeName>Café Imperial</placeName>
                            </place>
+                           <place corresp="#pmb255506">
+                              <placeName>Zedlitzgasse 7</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -130,6 +141,42 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-04-03">
+               <head>Aufführung von 8. Sinfonie von Gustav Mahler, 3.4.1914</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb195394">Gesellschaft der Musikfreunde</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb183617">Wiener Tonkünstler-Orchester</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb250194">Philharmonischer Chor</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb148402">8. Sinfonie in Es-Dur</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/256082/</idno>
             </event>
             <event when-iso="1914-04-03">
                <head>Mappe A116</head>
