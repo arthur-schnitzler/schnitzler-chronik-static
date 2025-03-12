@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,6 +107,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -120,7 +128,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-11-05">
-               <head>Auftritt von Tonkünstlerorchester, 5.11.1914</head>
+               <head>Auftritt des Tonkünstlerorchesters, 5.11.1914</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -131,12 +139,18 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12335">Nedbal, Oskar</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb11533">Grünfeld, Alfred</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,201265597319 16,372564182283</geo>
                         </location>
                      </place>
                   </listPlace>

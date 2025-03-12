@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -198,12 +198,30 @@
             </event>
             <event when-iso="1914-08-10">
                <head corresp="#pmb49990">Bad Ragaz</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb256955">
+                        <placeName>Hotel Krone</placeName>
+                     </place>
+                     <place corresp="#pmb256980">
+                        <placeName>Ruine Freudenberg</placeName>
+                     </place>
+                     <place corresp="#pmb256952">
+                        <placeName>Bad Ragaz Bahnhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-08-10">
                <head corresp="#pmb859">Buchs</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb254661">
+                        <placeName>Bahnhof Buchs SG</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

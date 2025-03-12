@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,6 +124,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -137,7 +145,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1915-04-23">
-               <head>Trio Schnabel, Busch, Grümmer, 23.4.1915</head>
+               <head>Volkstümlicher Trioabend von Artur Schnabel, Adolf Busch, Paul Grümmer, 23.4.1915</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -153,6 +161,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209758/</idno>
             </event>

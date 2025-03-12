@@ -86,16 +86,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Ragaz"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Celerina"
+ "Bad Ragaz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Grand Hotel Hof Ragaz",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -111,6 +112,25 @@
  {
  "placeName":
  "Hotel Steinbock",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Engadin",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Celerina",
  "ref":
  ""}
  ]

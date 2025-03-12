@@ -57,6 +57,11 @@
   [
  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -74,9 +79,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209752/",
  "head":
- "Konzert Siegfried Ochs, 27.3.1915",
+ "Konzert von Siegfried Ochs, 27.3.1915",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Konzertverein",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -87,7 +100,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

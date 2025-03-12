@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,11 +122,31 @@
             </event>
             <event when-iso="1914-10-26">
                <head corresp="#pmb168">Berlin</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb127">
+                        <placeName>Hotel Bristol Berlin</placeName>
+                     </place>
+                     <place corresp="#pmb201052">
+                        <placeName>Alte Nationalgalerie</placeName>
+                     </place>
+                     <place corresp="#pmb253666">
+                        <placeName>Platz der Republik 5</placeName>
+                     </place>
+                     <place corresp="#pmb146893">
+                        <placeName>Alte Philharmonie [Berlin]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-10-26">
+               <head corresp="#pmb246994">Hotel Fürstenhof [Berlin]</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1914-10-26">
-               <head>Wohltätigkeitskonzert Leo Blech, 26.10.1914</head>
+               <head>Konzert zum Besten der Hilfsvereinigung für Musiker und Vortragskünstler, 26.10.1914</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -135,12 +155,18 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb7383">Gerhardt, Elena</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10627">Wüllner, Ludwig</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb168">Berlin</placeName>
+                        <placeName role="veranstaltet in" key="pmb146893">Alte Philharmonie [Berlin]</placeName>
                         <location>
-                           <geo>52,52437 13,41053</geo>
+                           <geo>52,505242 13,377264</geo>
                         </location>
                      </place>
                   </listPlace>

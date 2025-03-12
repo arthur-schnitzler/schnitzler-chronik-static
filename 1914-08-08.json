@@ -56,7 +56,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Celerina"
+ "Celerina",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Celerina",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -65,7 +75,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Ragaz"
+ "Bad Ragaz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ragaz Bahnhof",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Krone",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -74,5 +99,20 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Davos"
+ "Davos",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Davos Dorf Bahnhof",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Grand Hotel Belvédère, Davos",
+ "ref":
+ ""}
+ ]
+}
 }] 

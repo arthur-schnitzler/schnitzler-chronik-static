@@ -107,6 +107,11 @@
  ""}
  ,  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -124,9 +129,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209737/",
  "head":
- "Wohltätigkeitskonzert Selma Kurz, Vera Schapira, William Miller, 5.1.1915",
+ "Wohltätigkeitskonzert zugunsten der Ausspeisung von Flüchtlingen, 5.1.1915",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Schwarz-gelbes Kreuz",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -147,6 +160,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }] 

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,15 +99,59 @@
                <head corresp="#pmb168">Berlin</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb127">
+                        <placeName>Hotel Bristol Berlin</placeName>
+                     </place>
                      <place corresp="#pmb233808">
                         <placeName>Hotel Prinz-Friedrich-Carl</placeName>
                      </place>
                      <place corresp="#pmb252558">
                         <placeName>Erdener Straße 8</placeName>
                      </place>
+                     <place corresp="#pmb18">
+                        <placeName>Lessing-Theater</placeName>
+                     </place>
+                     <place corresp="#pmb253377">
+                        <placeName>Restaurant Töpfer</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-10-25">
+               <head corresp="#pmb90841">Havelsee</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1914-10-25">
+               <head>Aufführung von Der junge Medardus, 25.10.1914</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb18">Lessing-Theater</placeName>
+                        <location>
+                           <geo>52,5225 13,376389</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/257123/</idno>
             </event>
             <event when-iso="1914-10-25">
                <head>Elbogen, Franz F. an Schnitzler, Arthur [Briefe]</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -146,11 +146,13 @@
                      <place corresp="#pmb256209">
                         <placeName>Hotel d’Italie [Florenz]</placeName>
                      </place>
-                     <place corresp="#pmb167769">
-                        <placeName>Villa La Capponcina</placeName>
-                     </place>
                      <place corresp="#pmb167770">
                         <placeName>Settignano</placeName>
+                        <listPlace>
+                           <place corresp="#pmb167769">
+                              <placeName>Villa La Capponcina</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                      <place corresp="#pmb256227">
                         <placeName>Gran Ristorante Piccioli Melini</placeName>

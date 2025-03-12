@@ -123,7 +123,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Kochel"
+ "Kochel",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Walchensee [Ort]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -132,23 +142,15 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Walchensee [Ort]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Bahnhof Scharnitz"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Scharnitz"
+ "Scharnitz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Scharnitz",
+ "ref":
+ ""}
+ ]
+}
 }] 

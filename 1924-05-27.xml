@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,11 +112,54 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1924-05-27">
-               <head>Filmvorführung von Vampyre der Rennbahn, 27.5.1924</head>
+               <head>Ausstellungsbesuch Neunte repräsentative ungarische Ausstellung, 27.5.1924</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb21">Künstlerhaus</placeName>
+                        <location>
+                           <geo>48,200556 16,371667</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/256862/</idno>
+            </event>
+            <event when-iso="1924-05-27">
+               <head>Ausstellungsbesuch Ausstellung Meisterwerke italienischer Renaissance aus Privatbesitz, 27.5.1924</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb256849">Verein der Museumskunde</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb7">Secession</placeName>
+                        <location>
+                           <geo>48,200364 16,365508</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/256855/</idno>
+            </event>
+            <event when-iso="1924-05-27">
+               <head>Filmvorführung von The Fast Mail, 27.5.1924</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb80398">Vampyre der Rennbahn</title>
+                        <title key="pmb80398">The Fast Mail</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>

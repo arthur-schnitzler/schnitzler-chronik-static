@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -130,6 +130,20 @@
                            <place corresp="#pmb29">
                               <placeName>Hotel Sacher</placeName>
                            </place>
+                           <place corresp="#pmb232655">
+                              <placeName>Goldschmiedgasse 1</placeName>
+                           </place>
+                           <place corresp="#pmb1120">
+                              <placeName>Hotel Krantz</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -145,8 +159,13 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1915-01-05">
-               <head>Wohltätigkeitskonzert Selma Kurz, Vera Schapira, William Miller, 5.1.1915</head>
+               <head>Wohltätigkeitskonzert zugunsten der Ausspeisung von Flüchtlingen, 5.1.1915</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb257259">Schwarz-gelbes Kreuz</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb8382">Kurz, Selma</persName>
@@ -161,6 +180,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209737/</idno>
             </event>

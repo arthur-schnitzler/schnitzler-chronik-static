@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,11 +99,21 @@
                      <place corresp="#52">
                         <placeName>II., Leopoldstadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb47">
-                              <placeName>Schweizerhaus</placeName>
-                           </place>
-                           <place corresp="#pmb685">
-                              <placeName>Wurstelprater</placeName>
+                           <place corresp="#pmb8">
+                              <placeName>Prater</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb47">
+                                    <placeName>Schweizerhaus</placeName>
+                                 </place>
+                                 <place corresp="#pmb685">
+                                    <placeName>Wurstelprater</placeName>
+                                    <listPlace>
+                                       <place corresp="#pmb257378">
+                                          <placeName>Alt Wiener Grottenbahn</placeName>
+                                       </place>
+                                    </listPlace>
+                                 </place>
+                              </listPlace>
                            </place>
                         </listPlace>
                      </place>

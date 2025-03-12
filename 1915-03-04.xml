@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-04.">04.03.2025</date>
+            <date when-iso="2025-03-12.">12.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,6 +106,9 @@
                            <place corresp="#pmb206958">
                               <placeName>Gauermanngasse 4</placeName>
                            </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -132,7 +135,21 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12335">Nedbal, Oskar</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb19484">Kocián, Jaroslav</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209749/</idno>
             </event>
