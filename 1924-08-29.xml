@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-12.">12.03.2025</date>
+            <date when-iso="2025-03-14.">14.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,12 +107,38 @@
             </event>
             <event when-iso="1924-08-29">
                <head corresp="#pmb885">Lugano</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263339">
+                        <placeName>Bahnhof Lugano</placeName>
+                     </place>
+                     <place corresp="#pmb263330">
+                        <placeName>Biaggi</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1924-08-29">
                <head corresp="#pmb91850">Stresa</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263346">
+                        <placeName>Grand Hotel Des Iles Borromee</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1924-08-29">
+               <head corresp="#pmb91502">Ponte Tresa</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263343">
+                        <placeName>Bahnhof Ponte Tresa</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1924-08-29">

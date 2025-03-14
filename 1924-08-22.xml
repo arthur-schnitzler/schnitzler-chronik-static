@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-12.">12.03.2025</date>
+            <date when-iso="2025-03-14.">14.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -141,7 +141,16 @@
             </event>
             <event when-iso="1924-08-22">
                <head corresp="#pmb967">Luzern</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb251101">
+                        <placeName>Bahnhof Luzern</placeName>
+                     </place>
+                     <place corresp="#pmb200956">
+                        <placeName>Hotel St. Gotthard Luzern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1924-08-22">
@@ -168,9 +177,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb12589">Celerina</placeName>
+                        <placeName role="veranstaltet in" key="pmb967">Luzern</placeName>
                         <location>
-                           <geo>46,5146 9,8622</geo>
+                           <geo>47,05048 8,30635</geo>
                         </location>
                      </place>
                   </listPlace>

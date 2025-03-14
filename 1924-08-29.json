@@ -71,7 +71,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Lugano"
+ "Lugano",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Lugano",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Biaggi",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -80,7 +95,36 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Stresa"
+ "Stresa",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Grand Hotel Des Iles Borromee",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Ponte Tresa",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Ponte Tresa",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-kempny-buch",

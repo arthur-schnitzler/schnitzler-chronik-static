@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-12.">12.03.2025</date>
+            <date when-iso="2025-03-14.">14.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -116,6 +116,31 @@
             </event>
             <event when-iso="1924-08-28">
                <head corresp="#pmb885">Lugano</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb661">
+                        <placeName>Monte Bré</placeName>
+                        <listPlace>
+                           <place corresp="#pmb263327">
+                              <placeName>Standseilbahn Monte Bré</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb263330">
+                        <placeName>Biaggi</placeName>
+                     </place>
+                     <place corresp="#pmb263333">
+                        <placeName>Huguenin</placeName>
+                     </place>
+                     <place corresp="#pmb263336">
+                        <placeName>Teatro Kursaal</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1924-08-28">
+               <head corresp="#pmb91433">Paradiso</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

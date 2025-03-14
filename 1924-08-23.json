@@ -44,7 +44,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Luzern"
+ "Luzern",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel St. Gotthard Luzern",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -57,9 +67,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210689/",
  "head":
- "Filmvorführung, 23.8.1924",
+ "Filmvorführung von Der Schrecken des Meeres, 23.8.1924",
  "desc":
-{"listPerson":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Schrecken des Meeres",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
