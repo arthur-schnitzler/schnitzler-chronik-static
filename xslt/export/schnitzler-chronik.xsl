@@ -52,7 +52,7 @@
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
             <xsl:choose>
                 <xsl:when test="empty($import-eventtypes)">
-                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
+                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="$import-eventtypes"/>
