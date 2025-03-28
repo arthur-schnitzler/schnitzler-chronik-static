@@ -174,7 +174,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Seewirt"
+ "Bad Aussee",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nikolaus-Lenau-Hügel",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -183,16 +193,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Aussee"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Gasthaus zum Hirschen"
+ "Altaussee",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Seewirt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Gasthaus zum Hirschen",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

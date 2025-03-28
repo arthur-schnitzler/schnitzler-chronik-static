@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -150,11 +150,33 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02241.html</idno>
             </event>
             <event when-iso="1916-09-24">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-24">
                <head corresp="#pmb34401">Altaussee</head>
                <desc>
                   <listPlace>
                      <place corresp="#pmb34387">
                         <placeName>Villa Annerl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-24">
+               <head corresp="#pmb415">Bad Aussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb264727">
+                        <placeName>Gasthaus »zum Loitzl«</placeName>
+                     </place>
+                     <place corresp="#pmb264727">
+                        <placeName>Gasthaus »zum Loitzl«</placeName>
+                     </place>
+                     <place corresp="#pmb91938">
+                        <placeName>Tressenstein</placeName>
                      </place>
                   </listPlace>
                </desc>

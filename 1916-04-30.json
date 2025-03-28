@@ -85,6 +85,11 @@
  ""}
  ,  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -102,18 +107,26 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209833/",
  "head":
- "Aufführung von Der Ring des Polykrates op. 7, Violanta op. 8, 30.4.1916",
+ "Aufführung von Der Ring des Polykrates, Violanta, 30.4.1916",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "K.K. Hof-Oper",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
- "Der Ring des Polykrates op. 7",
+ "Der Ring des Polykrates. Heitere Oper in einem Akt [op. 7]",
  "ref":
  ""}
  ,  {
  "title":
- "Violanta op. 8",
+ "Violanta. Oper in einem Akt [op. 8]",
  "ref":
  ""}
  ],
@@ -123,6 +136,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Oper",
+ "ref":
+ ""}
+ ]
 }
 }] 

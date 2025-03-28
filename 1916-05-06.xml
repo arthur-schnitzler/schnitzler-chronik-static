@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,6 +105,20 @@
                            <place corresp="#pmb192662">
                               <placeName>Naturhistorisches Museum</placeName>
                            </place>
+                           <place corresp="#pmb103">
+                              <placeName>Volksgarten</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb245035">
+                                    <placeName>Theseustempel</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
+                           <place corresp="#pmb320">
+                              <placeName>Hofburg</placeName>
+                           </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -120,8 +134,13 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-05-06">
-               <head>Orgelkonzert Karl Straube, 6.5.1916</head>
+               <head>Orgelkonzert von Karl Straube, 6.5.1916</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb195394">Gesellschaft der Musikfreunde</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb10077">Straube, Karl</persName>
@@ -130,6 +149,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209834/</idno>
             </event>

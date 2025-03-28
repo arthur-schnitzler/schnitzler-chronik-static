@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -156,11 +156,31 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-09-02.html</idno>
             </event>
             <event when-iso="1916-09-02">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248791">
+                        <placeName>Bahnhof Bad Ischl</placeName>
+                     </place>
+                     <place corresp="#pmb84">
+                        <placeName>Hotel zum goldenen Kreuz [Bad Ischl]</placeName>
+                     </place>
+                     <place corresp="#pmb84">
+                        <placeName>Hotel zum goldenen Kreuz [Bad Ischl]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-02">
                <head corresp="#pmb30">Salzburg</head>
                <desc>
                   <listPlace>
                      <place corresp="#pmb152">
                         <placeName>Grand Hotel de L’Europe, G. Jung</placeName>
+                     </place>
+                     <place corresp="#pmb50792">
+                        <placeName>Hauptbahnhof Salzburg</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -172,6 +192,37 @@
                   <listPlace>
                      <place corresp="#pmb34387">
                         <placeName>Villa Annerl</placeName>
+                     </place>
+                     <place corresp="#pmb264887">
+                        <placeName>Villa Hellmann</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-02">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248791">
+                        <placeName>Bahnhof Bad Ischl</placeName>
+                     </place>
+                     <place corresp="#pmb84">
+                        <placeName>Hotel zum goldenen Kreuz [Bad Ischl]</placeName>
+                     </place>
+                     <place corresp="#pmb84">
+                        <placeName>Hotel zum goldenen Kreuz [Bad Ischl]</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-02">
+               <head corresp="#pmb415">Bad Aussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263516">
+                        <placeName>Bahnhof Bad Aussee</placeName>
                      </place>
                   </listPlace>
                </desc>

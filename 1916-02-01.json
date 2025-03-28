@@ -62,6 +62,11 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -79,9 +84,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209807/",
  "head":
- "Gesangskonzert Claire Dux, 1.2.1916",
+ "Gesangskonzert von Claire Dux, 1.2.1916",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Tonkünstler-Orchester",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -92,7 +105,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

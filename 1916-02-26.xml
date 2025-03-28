@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -101,6 +101,33 @@
                            <place corresp="#pmb245839">
                               <placeName>J. Eisenstein &amp; Co. Buchhandlung und Antiquariat</placeName>
                            </place>
+                           <place corresp="#pmb232768">
+                              <placeName>Beethovengasse 6</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#58">
+                        <placeName>VIII., Josefstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb232800">
+                              <placeName>Laudongasse 12</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb253629">
+                              <placeName>Bundesgymnasium Döbling</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#63">
+                        <placeName>XIII., Hietzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb264329">
+                              <placeName>Park-Kino</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -116,8 +143,14 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-02-26">
-               <head>Filmvorführung, 26.2.1916</head>
+               <head>Filmvorführung von Das Mirakel, 26.2.1916</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb264318">Das Mirakel</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -125,9 +158,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb264329">Park-Kino</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,18635 16,30038</geo>
                         </location>
                      </place>
                   </listPlace>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,6 +117,11 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-08-30.html</idno>
             </event>
             <event when-iso="1916-08-30">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-08-30">
                <head corresp="#pmb34401">Altaussee</head>
                <desc>
                   <listPlace>
@@ -126,9 +131,49 @@
                      <place corresp="#pmb106">
                         <placeName>Seewirt</placeName>
                      </place>
+                     <place corresp="#pmb92411">
+                        <placeName>Moosberg</placeName>
+                     </place>
+                     <place corresp="#pmb92411">
+                        <placeName>Moosberg</placeName>
+                     </place>
+                     <place corresp="#pmb264818">
+                        <placeName>Salzberg Altaussee</placeName>
+                     </place>
+                     <place corresp="#pmb91474">
+                        <placeName>Ruine Pflindsberg</placeName>
+                     </place>
+                     <place corresp="#pmb264904">
+                        <placeName>Seevilla</placeName>
+                     </place>
+                     <place corresp="#pmb264904">
+                        <placeName>Seevilla</placeName>
+                     </place>
+                     <place corresp="#pmb264887">
+                        <placeName>Villa Hellmann</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-08-30">
+               <head>Wohltätigkeitskonzert, 30.8.1916</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb264904">Seevilla</placeName>
+                        <location>
+                           <geo>47,63601 13,76819</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/264996/</idno>
             </event>
          </listEvent>
       </body>

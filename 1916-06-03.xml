@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,7 +106,27 @@
             </event>
             <event when-iso="1916-06-03">
                <head corresp="#pmb34401">Altaussee</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb92411">
+                        <placeName>Moosberg</placeName>
+                     </place>
+                     <place corresp="#pmb264748">
+                        <placeName>Frosch-Haus</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-06-03">
+               <head corresp="#pmb46000">Grundlsee [Gemeinde]</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb264744">
+                        <placeName>Tressensattel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-06-03">

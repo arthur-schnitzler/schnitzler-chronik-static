@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -138,6 +138,17 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb248458">
+                              <placeName>Silbergasse 42</placeName>
+                           </place>
+                           <place corresp="#pmb263789">
+                              <placeName>Arthaber-Hof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -151,37 +162,35 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1915-11-21">
-               <head>Gesangskonzert im Volksbildungsverein, 21.11.1915</head>
+               <head>Uraufführung von Klavierquintett [op. 54], 21.11.1915</head>
                <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb183214">Wiener Volksbildungsverein</orgName>
-                     </org>
-                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb263796">Klavierquintett [op. 54]</title>
+                        <note type="relation-type">ist Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb17540">Gund, Robert</persName>
-                     </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb17223">Gomperz-Bettelheim, Karoline von</persName>
                      </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb1023">Volkshochschule Stöbergasse</placeName>
+                        <placeName role="veranstaltet in" key="pmb263789">Arthaber-Hof</placeName>
                         <location>
-                           <geo>48,18551 16,35493</geo>
+                           <geo>48,242453 16,355738</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209789/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/263798/</idno>
             </event>
             <event when-iso="1915-11-21">
-               <head>Gesangskonzert Olga Schnitzler, 21.11.1915</head>
+               <head>Gesangskonzert von Olga Schnitzler, 21.11.1915</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -209,6 +218,7 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/183707/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209789/</idno>
             </event>
             <event when-iso="1915-11-21">
                <head>Lorma, Grete an Schnitzler, Arthur [Briefe]</head>

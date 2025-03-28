@@ -66,7 +66,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Lugano"
+ "Lugano",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Lugano",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Ristorante Biaggi",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -75,5 +90,29 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Locarno"
+ "Locarno",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Locarno",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Grand Hôtel Locarno",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Madonna del Sasso"
 }] 

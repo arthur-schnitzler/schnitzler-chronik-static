@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-17.">17.03.2025</date>
+            <date when-iso="2025-03-28.">28.03.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,11 +104,34 @@
             </event>
             <event when-iso="1924-08-31">
                <head corresp="#pmb885">Lugano</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263339">
+                        <placeName>Bahnhof Lugano</placeName>
+                     </place>
+                     <place corresp="#pmb263330">
+                        <placeName>Ristorante Biaggi</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1924-08-31">
                <head corresp="#pmb49781">Locarno</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263996">
+                        <placeName>Bahnhof Locarno</placeName>
+                     </place>
+                     <place corresp="#pmb264004">
+                        <placeName>Grand Hôtel Locarno</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1924-08-31">
+               <head corresp="#pmb264001">Madonna del Sasso</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

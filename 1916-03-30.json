@@ -62,6 +62,11 @@
  ""}
  ,  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -79,9 +84,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209824/",
  "head":
- "Klavierkonzert Severin Eisenberger, 30.3.1916",
+ "Klavierkonzert von Severin Eisenberger, 30.3.1916",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Hugo Heller",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -92,7 +105,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":
