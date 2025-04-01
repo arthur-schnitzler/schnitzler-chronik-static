@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,6 +94,30 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -107,13 +131,72 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-01-04">
-               <head>Tonkünstlerorchester, 4.1.1917</head>
+               <head corresp="#pmb50">Wien</head>
                <desc>
+                  <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1917-01-04">
+               <head>Konzert des Tonkünstler-Orchesters, 4.1.1917</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb183617">Wiener Tonkünstler-Orchester</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12335">Nedbal, Oskar</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14250">Bittner, Emilie</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209864/</idno>
             </event>

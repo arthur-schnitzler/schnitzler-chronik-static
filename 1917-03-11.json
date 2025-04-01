@@ -98,7 +98,114 @@
   [
  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/265544/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/265544/",
+ "head":
+ "Sechstes (letztes) Abonnementskonzert von Quartett Rosé, 11.3.1917",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Rosé-Quartett",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
  "ref":
  ""}
  ]
@@ -115,18 +222,13 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209873/",
  "head":
- "Auftritt von Tonkünstlerkonzert, 11.3.1917",
+ "Konzert des Tonkünstler-Orchesters, 11.3.1917",
  "desc":
 {"listOrg":
   [
  {
  "orgName":
  "Wiener Tonkünstler-Orchester",
- "ref":
- ""}
- ,  {
- "orgName":
- "Rosé-Quartett",
  "ref":
  ""}
  ],
@@ -136,7 +238,25 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Oskar Nedbal",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Juan Reyes",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

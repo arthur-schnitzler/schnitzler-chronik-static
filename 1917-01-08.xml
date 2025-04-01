@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,46 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb15">
+                              <placeName>Oper</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb236091">
+                              <placeName>Lannerstraße 36</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb15">
+                              <placeName>Oper</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb236091">
+                              <placeName>Lannerstraße 36</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -103,6 +143,92 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1917-01-08">
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb15">
+                              <placeName>Oper</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb236091">
+                              <placeName>Lannerstraße 36</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb15">
+                              <placeName>Oper</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb236091">
+                              <placeName>Lannerstraße 36</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1917-01-08">
+               <head>Aufführung von Ariadne auf Naxos, 8.1.1917</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30907">Ariadne auf Naxos. Oper in einem Aufzug</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/265368/</idno>
             </event>
             <event when-iso="1917-01-08">
                <head>Man, Edith an Schnitzler, Arthur [Briefe]</head>

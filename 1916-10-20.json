@@ -72,6 +72,75 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -89,9 +158,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209844/",
  "head":
- "Klassisches Konzert, 20.10.1916",
+ "Klassischer Abend zugunsten des Deutschen Schulvereins, 20.10.1916",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Konzertverein",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -107,7 +184,20 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Ferdinand Löwe",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

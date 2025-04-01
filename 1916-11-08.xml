@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -194,6 +194,30 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -207,7 +231,47 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1916-11-08">
-               <head>Klavierkonzert Paul Weingarten, 8.11.1916</head>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-11-08">
+               <head>Konzert mit Orchester von Paul Weingarten, 8.11.1916</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -217,6 +281,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209850/</idno>
             </event>

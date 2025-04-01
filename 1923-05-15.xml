@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -184,18 +184,36 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02399.html</idno>
             </event>
             <event when-iso="1923-05-15">
-               <head corresp="#pmb58094">Hotel Phönix</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1923-05-15">
                <head corresp="#pmb57941">Roskilde</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb265486">
+                        <placeName>Flensborg Bog &amp; idé</placeName>
+                     </place>
+                     <place corresp="#pmb265489">
+                        <placeName>Roskilde Domkirke</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1923-05-15">
+               <head corresp="#pmb265189">Kastelsvej 17</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-15">
-               <head corresp="#pmb1079">Det Kongelige Teater</head>
-               <desc/>
+               <head corresp="#pmb36300">Kopenhagen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb58094">
+                        <placeName>Hotel Phönix</placeName>
+                     </place>
+                     <place corresp="#pmb1079">
+                        <placeName>Det Kongelige Teater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-15">

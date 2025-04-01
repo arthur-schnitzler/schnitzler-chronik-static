@@ -162,7 +162,124 @@
   [
  {
  "placeName":
+ "II., Leopoldstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "II., Leopoldstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "II., Leopoldstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "II., Leopoldstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/265081/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/265081/",
+ "head":
+ "Besuch der Kriegsausstellung, 8.10.1916",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Kriegsausstellung 1916 im Wiener Prater",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Lili Cappellini",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kriegsausstellung im Wiener Prater",
  "ref":
  ""}
  ]
@@ -179,9 +296,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209839/",
  "head":
- "Konzert Arnold Rosé, Rudolf Fitzner, Rudolf Serkin, 8.10.1916",
+ "Oktettabend von Fitzner-Quartett und Rosé-Quartett, 8.10.1916",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Rosé-Quartett",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -202,6 +327,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }] 

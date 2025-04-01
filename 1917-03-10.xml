@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -93,6 +93,30 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -106,7 +130,47 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-03-10">
-               <head>Klavierkonzert Gelbard, 10.3.1917</head>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1917-03-10">
+               <head>Klavierkonzert von Margarete Gelbard, 10.3.1917</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -116,6 +180,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209872/</idno>
             </event>

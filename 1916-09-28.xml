@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,7 +127,45 @@
             </event>
             <event when-iso="1916-09-28">
                <head corresp="#pmb874">Gmunden</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb245505">
+                        <placeName>Bahnhof Gmunden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-28">
+               <head corresp="#pmb415">Bad Aussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb263516">
+                        <placeName>Bahnhof Bad Aussee</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-28">
+               <head corresp="#pmb42349">Hotel Schiff</head>
                <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-28">
+               <head corresp="#pmb47963">Altmünster</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-09-28">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb248791">
+                        <placeName>Bahnhof Bad Ischl</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

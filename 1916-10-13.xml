@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,70 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb118">
+                              <placeName>Carl-Theater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb118">
+                              <placeName>Carl-Theater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1916-10-13">
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb118">
+                              <placeName>Carl-Theater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#52">
+                        <placeName>II., Leopoldstadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb118">
+                              <placeName>Carl-Theater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -112,9 +176,14 @@
             <event when-iso="1916-10-13">
                <head>Aufführung von Mein Annerl, 13.10.1916</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb63031">Carl-Theater</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb80745">Mein Annerl</title>
+                        <title key="pmb80745">Mein Annerl. Operette in drei Akten</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
@@ -126,6 +195,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
+                        <location>
+                           <geo>48,215 16,384444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209841/</idno>
             </event>

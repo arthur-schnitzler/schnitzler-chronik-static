@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-03-28.">28.03.2025</date>
+            <date when-iso="2025-04-01.">01.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,18 +145,124 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb92417">
+                              <placeName>Nedergasse</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb237633">
+                              <placeName>Hasenauerstraße 46</placeName>
+                           </place>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb92417">
+                              <placeName>Nedergasse</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-02-09">
-               <head corresp="#pmb45258">München</head>
-               <desc/>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb237633">
+                              <placeName>Hasenauerstraße 46</placeName>
+                           </place>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb92417">
+                              <placeName>Nedergasse</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb237633">
+                              <placeName>Hasenauerstraße 46</placeName>
+                           </place>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb92417">
+                              <placeName>Nedergasse</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-02-09">
-               <head>Konzert von Mahler I, 9.2.1917</head>
+               <head>Deutsche Musikstädte, 3. München, 9.2.1917</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195868">1. Sinfonie in D-Dur</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb13041">Walter, Bruno</persName>
@@ -170,9 +276,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb45258">München</placeName>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
                         <location>
-                           <geo>48,13743 11,57549</geo>
+                           <geo>48,201265597319 16,372564182283</geo>
                         </location>
                      </place>
                   </listPlace>
