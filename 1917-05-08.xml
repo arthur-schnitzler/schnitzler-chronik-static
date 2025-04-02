@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-01.">01.04.2025</date>
+            <date when-iso="2025-04-02.">02.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -126,11 +126,11 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-05-08">
-               <head>Aufführung von Daphnis-Lieder, 8.5.1917</head>
+               <head>Aufführung von Dafnis-Lieder, 8.5.1917</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb43506">Daphnis-Lieder</title>
+                        <title key="pmb43506">Dafnis-Lieder</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
@@ -144,7 +144,18 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2173">Schnitzler, Olga</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14332">Blümel, Alfons</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/43508/</idno>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-01.">01.04.2025</date>
+            <date when-iso="2025-04-02.">02.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -168,7 +168,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-05-10">
-               <head>Klavierkonzert Paul Weingarten, 10.5.1917</head>
+               <head>Klavierkonzert von Paul Weingarten, 10.5.1917</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -178,6 +178,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209885/</idno>
             </event>
