@@ -57,6 +57,11 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -74,9 +79,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209951/",
  "head":
- "Orchesterkonzert Arthur Nikisch, 27.5.1918",
+ "3. Symphoniekonzert des Berliner philharmonischen Orchesters, 27.5.1918",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Berliner Symphonisches Orchester",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -87,6 +100,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

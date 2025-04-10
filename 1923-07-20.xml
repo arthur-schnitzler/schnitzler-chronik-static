@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,6 +114,27 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#73">
+                        <placeName>XXIII., Liesing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb7728">
+                              <placeName>Mauer</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#63">
+                        <placeName>XIII., Hietzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb165">
+                              <placeName>Ober Sankt Veit</placeName>
+                              <listPlace>
+                                 <place corresp="#pmb251007">
+                                    <placeName>Leupold’s Hubertushof</placeName>
+                                 </place>
+                              </listPlace>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -121,6 +142,20 @@
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
                         </listPlace>
+                     </place>
+                     <place corresp="#pmb256164">
+                        <placeName>Austria-Bank</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1923-07-20">
+               <head corresp="#pmb75">Hinterbrühl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb44510">
+                        <placeName>Hotel Radetzky</placeName>
                      </place>
                   </listPlace>
                </desc>

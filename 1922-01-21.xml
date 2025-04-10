@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -161,6 +161,9 @@
                         <listPlace>
                            <place corresp="#pmb14">
                               <placeName>Burgtheater</placeName>
+                           </place>
+                           <place corresp="#pmb186043">
+                              <placeName>Elisabethstraße 22</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -298,13 +301,8 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041341.html</idno>
             </event>
             <event when-iso="1922-01-21">
-               <head>Grillparzer-Feier der Concordia, 21.1.1922</head>
+               <head>Aufführung von Esther, 21.1.1922</head>
                <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb30827">Esther</title>
@@ -312,9 +310,6 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb2446">Devrient, Max</persName>
-                     </person>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
@@ -324,6 +319,30 @@
                         <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
                         <location>
                            <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/268144/</idno>
+            </event>
+            <event when-iso="1922-01-21">
+               <head>Grillparzer-Gedenkfeier, 21.1.1922</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29752">Concordia. Journalisten- und Schriftstellerverein</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
                         </location>
                      </place>
                   </listPlace>

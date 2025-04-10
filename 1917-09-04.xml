@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,15 +118,41 @@
             </event>
             <event when-iso="1917-09-04">
                <head corresp="#pmb45258">München</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb247583">
+                        <placeName>Hauptbahnhof München</placeName>
+                     </place>
+                     <place corresp="#pmb9">
+                        <placeName>Königlich Bayerische Hoftheater</placeName>
+                     </place>
+                     <place corresp="#pmb265909">
+                        <placeName>Tivolistraße 1</placeName>
+                     </place>
+                     <place corresp="#pmb265914">
+                        <placeName>Pfälzische Weinstube</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1917-09-04">
                <head corresp="#pmb667">Garmisch-Partenkirchen</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb808">
-                        <placeName>Haus Tannenberg</placeName>
+                     <place corresp="#pmb2318">
+                        <placeName>Partenkirchen</placeName>
+                        <listPlace>
+                           <place corresp="#pmb808">
+                              <placeName>Haus Tannenberg</placeName>
+                           </place>
+                           <place corresp="#pmb34392">
+                              <placeName>Villa Zufriedenheit</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb265939">
+                        <placeName>Bahnhof Garmisch-Partenkirchen</placeName>
                      </place>
                   </listPlace>
                </desc>

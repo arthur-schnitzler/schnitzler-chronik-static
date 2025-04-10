@@ -76,7 +76,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Chur"
+ "Chur",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Chur",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -104,7 +114,27 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Hotel Weißes Kreuz [Bregenz]"
+ "Bregenz",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Weißes Kreuz [Bregenz]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Bregenz",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Gasthaus Schiff",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",

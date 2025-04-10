@@ -52,6 +52,11 @@
   [
  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -69,9 +74,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209975/",
  "head":
- "Klavierkonzert Julius Wolfssohn, 31.3.1919",
+ "Klavierkonzert mit Orchester von Juliusz Wolfssohn, 31.3.1919",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -82,7 +95,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

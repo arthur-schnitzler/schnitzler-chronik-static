@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,7 +121,19 @@
             </event>
             <event when-iso="1923-05-22">
                <head corresp="#pmb1119">Stockholm</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb265500">
+                        <placeName>Östermalmsgatan 69</placeName>
+                     </place>
+                     <place corresp="#pmb266222">
+                        <placeName>Nordiska Museet</placeName>
+                     </place>
+                     <place corresp="#pmb265505">
+                        <placeName>Nordiska Kompaniet</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-22">
@@ -137,7 +149,7 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person role="hat als Teilnehmer:in">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                        <persName key="pmb24992">Singer, Walter</persName>
                      </person>
                   </listPerson>
                   <listPlace>
@@ -178,9 +190,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb1119">Stockholm</placeName>
+                        <placeName role="veranstaltet in" key="pmb147893">Kungliga Dramatiska Teatern</placeName>
                         <location>
-                           <geo>59,325 18,05</geo>
+                           <geo>59,33325 18,076992</geo>
                         </location>
                      </place>
                   </listPlace>

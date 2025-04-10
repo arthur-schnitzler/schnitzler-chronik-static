@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,19 +112,8 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-05-24.html</idno>
             </event>
             <event when-iso="1918-05-24">
-               <head corresp="#pmb50">Wien</head>
-               <desc>
-                  <listPlace>
-                     <place corresp="#68">
-                        <placeName>XVIII., Währing</placeName>
-                        <listPlace>
-                           <place corresp="#pmb168815">
-                              <placeName>Sternwartestraße 71</placeName>
-                           </place>
-                        </listPlace>
-                     </place>
-                  </listPlace>
-               </desc>
+               <head corresp="#pmb266720">Hotel Rohrbacherhof</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1918-05-24">
@@ -133,6 +122,27 @@
                   <listPlace>
                      <place corresp="#pmb186592">
                         <placeName>Marienwasserfall</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-05-24">
+               <head corresp="#pmb91566">Rasing</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-05-24">
+               <head corresp="#pmb90599">Erlaufsee</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-05-24">
+               <head corresp="#pmb91747">Sigmundsberg</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb266752">
+                        <placeName>Filialkirche hl. Sigmund</placeName>
                      </place>
                   </listPlace>
                </desc>

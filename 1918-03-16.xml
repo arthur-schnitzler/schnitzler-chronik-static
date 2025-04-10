@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,6 +129,15 @@
                            <place corresp="#pmb185989">
                               <placeName>Opernrestaurant</placeName>
                            </place>
+                           <place corresp="#pmb266378">
+                              <placeName>Liebiggasse 4</placeName>
+                           </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
+                           <place corresp="#pmb205">
+                              <placeName>Hotel Bristol Wien</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#57">
@@ -150,6 +159,31 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-03-16">
+               <head>Konzert von Margarete Kolbe, 16.3.1918</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb19518">Kolbe, Margarete</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb17540">Gund, Robert</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/266603/</idno>
             </event>
             <event when-iso="1918-03-16">
                <head>Bernheimer, Ilse an Schnitzler, Arthur [Briefe]</head>

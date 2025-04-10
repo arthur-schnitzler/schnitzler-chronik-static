@@ -64,16 +64,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Celerina"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Schafberg [Pontresina]"
+ "Celerina",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Cresta Palace",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -83,4 +84,56 @@
  "Aufenthaltsorte",
  "head":
  "Schafberg [Wien]"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Muottas Muragl",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Muottas-Muragl-Bahn",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Pontresina",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Schafberg [Pontresina]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Pontresina",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Samedan"
 }] 

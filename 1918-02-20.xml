@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -131,6 +131,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb234548">
+                              <placeName>Jordangasse 9</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -148,33 +156,7 @@
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
-                        <persName key="pmb10475">Weingarten, Paul</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
                         <persName key="pmb7571">Grümmer, Paul</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb14481">Brandt-Buys, Jan</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209932/</idno>
-            </event>
-            <event when-iso="1918-02-20">
-               <head>Wohltätigkeitskonzert, 20.2.1918</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb7571">Grümmer, Paul</persName>
-                     </person>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb10475">Weingarten, Paul</persName>
                      </person>
                      <person role="hat als Arbeitskraft">
                         <persName key="pmb2173">Schnitzler, Olga</persName>
@@ -188,6 +170,9 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb25265">Spitzmüller-Harmersbach, Ernestine von</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb10475">Weingarten, Paul</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
@@ -199,6 +184,7 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/183786/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209932/</idno>
             </event>
             <event when-iso="1918-02-20">
                <head>Woiwode, Lina an Schnitzler, Arthur [Briefe]</head>

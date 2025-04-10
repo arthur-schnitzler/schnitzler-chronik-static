@@ -59,7 +59,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Stockholm"
+ "Stockholm",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Östermalmsgatan 69",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Stockholms centralstation",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",
@@ -73,6 +88,49 @@
  "https://pollaczek.acdh.oeaw.ac.at/ckp066.html",
  "head":
  "Arthur Schnitzler an Clara Katharina Pollaczek, 22.–24. Mai 1923"
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/266228/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/266228/",
+ "head":
+ "Private Lesung von [Traumnovellenskizze], 23.5.1923",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "[Traumnovellenskizze]",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Walter Singer",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Östermalmsgatan 69",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-cmif",

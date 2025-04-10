@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,8 +103,43 @@
                <head corresp="#pmb667">Garmisch-Partenkirchen</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb808">
-                        <placeName>Haus Tannenberg</placeName>
+                     <place corresp="#pmb2318">
+                        <placeName>Partenkirchen</placeName>
+                        <listPlace>
+                           <place corresp="#pmb808">
+                              <placeName>Haus Tannenberg</placeName>
+                           </place>
+                           <place corresp="#pmb34392">
+                              <placeName>Villa Zufriedenheit</placeName>
+                           </place>
+                           <place corresp="#pmb266949">
+                              <placeName>Haus Schäuffelen</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb92406">
+                        <placeName>Mittenwalder Straße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-09-01">
+               <head corresp="#pmb92043">Wamberg</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-09-01">
+               <head corresp="#pmb90985">Kaltenbrunn</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1918-09-01">
+               <head corresp="#pmb91685">Schlattan</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb266943">
+                        <placeName>Gschwandtnerbauer</placeName>
                      </place>
                   </listPlace>
                </desc>

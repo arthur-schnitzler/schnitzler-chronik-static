@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,13 +114,25 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-08-19.html</idno>
             </event>
             <event when-iso="1923-08-19">
-               <head corresp="#pmb90336">Bergün</head>
-               <desc/>
+               <head corresp="#pmb12589">Celerina</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb1138">
+                        <placeName>Cresta Palace</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-08-19">
-               <head corresp="#pmb12589">Celerina</head>
-               <desc/>
+               <head corresp="#pmb44374">St. Moritz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb52175">
+                        <placeName>Hôtel La Margna</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

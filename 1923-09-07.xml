@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,7 +110,13 @@
             </event>
             <event when-iso="1923-09-07">
                <head corresp="#pmb2448">Chur</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb254664">
+                        <placeName>Bahnhof Chur</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-09-07">
@@ -125,8 +131,20 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-09-07">
-               <head corresp="#pmb186940">Hotel Weißes Kreuz [Bregenz]</head>
-               <desc/>
+               <head corresp="#pmb40321">Bregenz</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb186940">
+                        <placeName>Hotel Weißes Kreuz [Bregenz]</placeName>
+                     </place>
+                     <place corresp="#pmb266545">
+                        <placeName>Bahnhof Bregenz</placeName>
+                     </place>
+                     <place corresp="#pmb266548">
+                        <placeName>Gasthaus Schiff</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-09-07">

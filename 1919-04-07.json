@@ -47,6 +47,11 @@
   [
  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -64,9 +69,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209977/",
  "head":
- "Klavierkonzert Margarete Gelbard, 7.4.1919",
+ "Klavierkonzert von Margarete Gelbard, 7.4.1919",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -77,7 +90,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

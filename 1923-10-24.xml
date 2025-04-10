@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -173,14 +173,13 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-10-24">
-               <head>Aufführung von Schöne Seelen. Komödie in einem Akt, 24.10.1923</head>
+               <head corresp="#pmb255067">Riemergasse 1</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1923-10-24">
+               <head>Beerdigung von Hugo Schmidl, 24.10.1923</head>
                <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31659">Schöne Seelen. Komödie in einem Akt</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -188,14 +187,14 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb633">Kammerspiele Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb841">Döblinger Friedhof</placeName>
                         <location>
-                           <geo>48,211111 16,375833</geo>
+                           <geo>48,238759 16,328044</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210244/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/267943/</idno>
             </event>
             <event when-iso="1923-10-24">
                <head>Aufführung von Komtesse Mizzi, 24.10.1923</head>
@@ -203,6 +202,10 @@
                   <listBibl>
                      <bibl>
                         <title key="pmb29931">Komtesse Mizzi oder: Der Familientag</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb31659">Schöne Seelen. Komödie in einem Akt</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>

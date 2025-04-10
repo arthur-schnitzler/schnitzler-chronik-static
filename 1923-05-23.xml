@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-02.">02.04.2025</date>
+            <date when-iso="2025-04-10.">10.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,13 +100,50 @@
             </event>
             <event when-iso="1923-05-23">
                <head corresp="#pmb1119">Stockholm</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb265500">
+                        <placeName>Östermalmsgatan 69</placeName>
+                     </place>
+                     <place corresp="#pmb265496">
+                        <placeName>Stockholms centralstation</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1923-05-23">
                <head>Arthur Schnitzler an Clara Katharina Pollaczek, 22.–24. Mai 1923</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp066.html</idno>
+            </event>
+            <event when-iso="1923-05-23">
+               <head>Private Lesung von [Traumnovellenskizze], 23.5.1923</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb266227">[Traumnovellenskizze]</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb24992">Singer, Walter</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb265500">Östermalmsgatan 69</placeName>
+                        <location>
+                           <geo>59,34147 18,08137</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/266228/</idno>
             </event>
             <event when-iso="1923-05-23">
                <head>Annie Quensel an Arthur Schnitzler, 23.5.1923</head>
