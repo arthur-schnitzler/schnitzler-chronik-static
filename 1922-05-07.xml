@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,7 +104,13 @@
             </event>
             <event when-iso="1922-05-07">
                <head corresp="#pmb40725">Oosterbeek</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb288613">
+                        <placeName>De Beekhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-05-07">
@@ -113,8 +119,14 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-05-07">
-               <head corresp="#pmb119151">Arnheim</head>
-               <desc/>
+               <head corresp="#pmb90542">Doorwerth</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb288617">
+                        <placeName>Schloss Doorwerth</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-05-07">
@@ -159,12 +171,18 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb14543">Brevée, Bertha</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb14551">Brevée, Isaäc</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb119151">Arnheim</placeName>
+                        <placeName role="veranstaltet in" key="pmb40725">Oosterbeek</placeName>
                         <location>
-                           <geo>51,979999 5,911109</geo>
+                           <geo>51,98583 5,84583</geo>
                         </location>
                      </place>
                   </listPlace>

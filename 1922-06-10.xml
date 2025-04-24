@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,7 +127,19 @@
             </event>
             <event when-iso="1922-06-10">
                <head corresp="#pmb860">Graz</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb288767">
+                        <placeName>Palais-Hotel Erzherzog-Johann</placeName>
+                     </place>
+                     <place corresp="#pmb288764">
+                        <placeName>Stadtpark Graz</placeName>
+                     </place>
+                     <place corresp="#pmb288774">
+                        <placeName>Hansa Privatklinikum Graz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-06-10">
@@ -146,9 +158,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb860">Graz</placeName>
+                        <placeName role="veranstaltet in" key="pmb288777">Opernhaus Graz</placeName>
                         <location>
-                           <geo>47,06667 15,43333</geo>
+                           <geo>47,069 15,4456</geo>
                         </location>
                      </place>
                   </listPlace>

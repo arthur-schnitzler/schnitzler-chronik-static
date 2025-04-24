@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -171,16 +171,6 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1896-04-25">
-               <head corresp="#pmb39860">Burg Liechtenstein</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1896-04-25">
-               <head corresp="#pmb625">Zum goldenen Stern</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1896-04-25">
                <head corresp="#pmb44413">Brühl</head>
                <desc/>
                <idno type="schnitzler-orte"/>
@@ -188,6 +178,20 @@
             <event when-iso="1896-04-25">
                <head corresp="#pmb40201">Brunn am Gebirge</head>
                <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1896-04-25">
+               <head corresp="#pmb968">Mödling</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb39860">
+                        <placeName>Burg Liechtenstein</placeName>
+                     </place>
+                     <place corresp="#pmb625">
+                        <placeName>Zum goldenen Stern</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

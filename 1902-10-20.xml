@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,27 +94,30 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-10-20.html</idno>
             </event>
             <event when-iso="1902-10-20">
-               <head corresp="#pmb735">Jagniątków</head>
+               <head corresp="#pmb677">Breslau</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb1052">
-                        <placeName>Haus Wiesenstein</placeName>
+                     <place corresp="#pmb125">
+                        <placeName>Weinrestaurant Christian Hansen</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1902-10-20">
-               <head corresp="#pmb232217">Burg Chojnik</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1902-10-20">
-               <head corresp="#pmb677">Breslau</head>
+               <head corresp="#pmb12044">Jelenia Góra</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb125">
-                        <placeName>Weinrestaurant Christian Hansen</placeName>
+                     <place corresp="#pmb735">
+                        <placeName>Jagniątków</placeName>
+                        <listPlace>
+                           <place corresp="#pmb1052">
+                              <placeName>Haus Wiesenstein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb232217">
+                        <placeName>Burg Chojnik</placeName>
                      </place>
                   </listPlace>
                </desc>

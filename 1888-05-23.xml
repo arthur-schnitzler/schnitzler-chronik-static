@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,19 +97,27 @@
                <head corresp="#pmb224">London</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb90865">
+                        <placeName>Herne Hill</placeName>
+                     </place>
                      <place corresp="#pmb402">
                         <placeName>Honor Oak</placeName>
+                        <listPlace>
+                           <place corresp="#pmb288554">
+                              <placeName>Woodville Hall</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                      <place corresp="#pmb90486">
                         <placeName>City of London</placeName>
+                        <listPlace>
+                           <place corresp="#pmb288544">
+                              <placeName>New London Bridge</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1888-05-23">
-               <head corresp="#pmb90865">Herne Hill</head>
-               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1888-05-23">

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,43 +102,38 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-05-23.html</idno>
             </event>
             <event when-iso="1918-05-23">
-               <head corresp="#pmb266720">Hotel Rohrbacherhof</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1918-05-23">
-               <head corresp="#pmb90420">Bürgeralpe</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1918-05-23">
-               <head corresp="#pmb256717">Hotel Schwarzer Adler [Mariazell]</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1918-05-23">
-               <head corresp="#pmb91566">Rasing</head>
+               <head corresp="#pmb431">Mariazell</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb266732">
-                        <placeName>Gasthof Zur 1000-jährigen Linde</placeName>
+                     <place corresp="#pmb266720">
+                        <placeName>Hotel Rohrbacherhof</placeName>
+                     </place>
+                     <place corresp="#pmb256717">
+                        <placeName>Hotel Schwarzer Adler [Mariazell]</placeName>
+                     </place>
+                     <place corresp="#pmb91566">
+                        <placeName>Rasing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb266732">
+                              <placeName>Gasthof Zur 1000-jährigen Linde</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb266738">
+                        <placeName>Josefswarte</placeName>
+                     </place>
+                     <place corresp="#pmb266741">
+                        <placeName>Elisabethswarte</placeName>
+                     </place>
+                     <place corresp="#pmb52179">
+                        <placeName>Basilika Mariä Geburt</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1918-05-23">
-               <head corresp="#pmb266738">Josefswarte</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1918-05-23">
-               <head corresp="#pmb266741">Elisabethswarte</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1918-05-23">
-               <head corresp="#pmb52179">Basilika Mariä Geburt</head>
+               <head corresp="#pmb90420">Bürgeralpe</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

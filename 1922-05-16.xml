@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,7 +110,13 @@
             </event>
             <event when-iso="1922-05-16">
                <head corresp="#pmb44172">Nürnberg</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb288655">
+                        <placeName>Hotel Württemberger Hof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-05-16">
@@ -120,8 +126,19 @@
                      <place corresp="#pmb706">
                         <placeName>Englischer Garten [München]</placeName>
                      </place>
+                     <place corresp="#pmb806">
+                        <placeName>Hotel Rheinischer Hof München</placeName>
+                     </place>
+                     <place corresp="#pmb246148">
+                        <placeName>Franziskanerkeller</placeName>
+                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1922-05-16">
+               <head corresp="#pmb288669">Leopoldstraße 21</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

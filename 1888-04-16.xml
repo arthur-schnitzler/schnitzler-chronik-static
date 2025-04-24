@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,7 +133,10 @@
                         <placeName>Dorotheenstraße 60</placeName>
                      </place>
                      <place corresp="#pmb185035">
-                        <placeName>Café Bauer</placeName>
+                        <placeName>Café Bauer [Berlin]</placeName>
+                     </place>
+                     <place corresp="#pmb145351">
+                        <placeName>Staatsoper Berlin</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -150,6 +153,9 @@
                   <listOrg>
                      <org role="veranstaltet von">
                         <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37043">Staatsoper Unter den Linden</orgName>
                      </org>
                   </listOrg>
                   <listBibl>
@@ -169,9 +175,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <placeName role="veranstaltet in" key="pmb145351">Staatsoper Berlin</placeName>
                         <location>
-                           <geo>48,203 16,3691</geo>
+                           <geo>52,5171 13,3947</geo>
                         </location>
                      </place>
                   </listPlace>

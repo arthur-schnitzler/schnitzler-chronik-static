@@ -97,6 +97,11 @@
  ""}
  ,  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -160,9 +165,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210040/",
  "head":
- "Konzert Erika Wagner, 5.3.1920",
+ "2. Liederabend von Erika Wagner, 5.3.1920",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Concert-Direktion Albert Gutmann",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -173,6 +186,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }] 

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,6 +108,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb190445">
+                              <placeName>Wiener Bioscop</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -125,7 +133,7 @@
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb80498">Judex</title>
+                        <title key="pmb80498">Judex neue Mission</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
@@ -136,9 +144,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb190445">Wiener Bioscop</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,20411 16,37131</geo>
                         </location>
                      </place>
                   </listPlace>

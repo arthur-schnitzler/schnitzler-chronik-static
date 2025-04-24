@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,9 +80,37 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb43280">
+                        <placeName>Jantsch-Theater</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1883-07-23">
+               <head>Aufführung von Von Tisch und Bett, 23.7.1883</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb288530">Von Tisch und Bett. Oder: Frei will er sein. Original-Posse mit Gesang in 3 Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb43280">Jantsch-Theater</placeName>
+                        <location>
+                           <geo>48,217566 16,3957</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/288531/</idno>
             </event>
          </listEvent>
       </body>

@@ -69,7 +69,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hauptbahnhof München",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -78,7 +88,35 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Feldafing"
+ "Feldafing",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Kaiserin Elisabeth [Feldafing]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Gasthaus »Zum Fischmeister« Karl Schauer"
 }, {
  "type":
  "schnitzler-cmif",

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,6 +117,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#63">
+                        <placeName>XIII., Hietzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb44649">
+                              <placeName>Schlosstheater Schönbrunn</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
@@ -133,9 +141,6 @@
                            </place>
                         </listPlace>
                      </place>
-                     <place corresp="#pmb44649">
-                        <placeName>Schlosstheater Schönbrunn</placeName>
-                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
@@ -143,9 +148,14 @@
             <event when-iso="1919-10-15">
                <head>Generalprobe von Diebe im Haus, 15.10.1919</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb80779">Diebe im Haus</title>
+                        <title key="pmb80779">Diebe im Haus. Komödie in drei Akten</title>
                         <note type="relation-type">ist Generalprobe von</note>
                      </bibl>
                   </listBibl>

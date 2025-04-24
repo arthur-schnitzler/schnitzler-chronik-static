@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,8 +85,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1886-03-27">
-               <head corresp="#pmb185866">Kurhaus Meran</head>
-               <desc/>
+               <head corresp="#pmb43520">Meran</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb184767">
+                        <placeName>Hotel und Pension Tirolerhof</placeName>
+                     </place>
+                     <place corresp="#pmb185866">
+                        <placeName>Kurhaus Meran</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1886-03-27">

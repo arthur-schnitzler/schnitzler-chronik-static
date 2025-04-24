@@ -82,6 +82,11 @@
  ""}
  ,  {
  "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -99,9 +104,25 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210026/",
  "head":
- "Aufführung von Mahler I, 6.12.1919",
+ "1. Orchesterkonzert, 6.12.1919",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Hugo Heller",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "1. Sinfonie in D-Dur",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -112,7 +133,20 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Karl Aagaard Østvig",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

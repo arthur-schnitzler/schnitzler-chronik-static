@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -126,13 +126,19 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-04-07">
-               <head corresp="#pmb91810">San Pietro in Vaticano</head>
+               <head corresp="#pmb91920">Trastevere</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-04-07">
-               <head corresp="#pmb91920">Trastevere</head>
-               <desc/>
+               <head corresp="#pmb1002">Vatikan</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb91810">
+                        <placeName>San Pietro in Vaticano</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1901-04-07">

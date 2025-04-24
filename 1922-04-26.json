@@ -210,7 +210,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Den Haag"
+ "Den Haag",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bezuidenhoutseweg 65",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -219,7 +229,26 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Rotterdam"
+ "Rotterdam",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hafen Rotterdam",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Delft"
 }, {
  "type":
  "schnitzler-bahr",
@@ -341,6 +370,41 @@
  "Wien",
  "ref":
  "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/288469/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/288469/",
+ "head":
+ "Bankett für Arthur Schnitzler, 26.4.1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Hellmuth von Lucius von Stoedten",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Den Haag",
+ "ref":
+ ""}
  ]
 }
 }, {

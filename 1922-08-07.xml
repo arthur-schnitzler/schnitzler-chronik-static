@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -166,7 +166,16 @@
             </event>
             <event when-iso="1922-08-07">
                <head corresp="#pmb53150">Feldafing</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb53152">
+                        <placeName>Hotel Kaiserin Elisabeth [Feldafing]</placeName>
+                     </place>
+                     <place corresp="#pmb288681">
+                        <placeName>Bahnhof Feldafing</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-08-07">
@@ -185,6 +194,9 @@
                      <place corresp="#pmb485">
                         <placeName>Hotel Vier Jahreszeiten</placeName>
                      </place>
+                     <place corresp="#pmb248958">
+                        <placeName>Mannhardtstraße 3</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
@@ -196,13 +208,22 @@
                      <place corresp="#pmb256554">
                         <placeName>Bahnhof Possenhofen</placeName>
                      </place>
+                     <place corresp="#pmb288674">
+                        <placeName>Gasthaus »Zum Fischmeister« Karl Schauer</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-08-07">
-               <head>Filmvorführung, 7.8.1922</head>
+               <head>Filmvorführung von Der Sträfling von Cayenn, 7.8.1922</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80843">Der Sträfling von Cayenne</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>

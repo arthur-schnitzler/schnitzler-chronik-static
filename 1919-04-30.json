@@ -79,11 +79,25 @@
   [
  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
  ]
 }
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Kohlmarkt 11"
 }, {
  "type":
  "schnitzler-events",
@@ -96,9 +110,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209984/",
  "head":
- "Gesangskonzert Maria Schrecker, 30.4.1919",
+ "Arien- und Liederabend von Maria Schreker, 30.4.1919",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Konzerthausgesellschaft",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -109,7 +131,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

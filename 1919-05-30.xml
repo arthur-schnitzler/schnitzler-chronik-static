@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-10.">10.04.2025</date>
+            <date when-iso="2025-04-24.">24.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -141,6 +141,18 @@
                            <place corresp="#pmb373">
                               <placeName>Rathaus [Wien]</placeName>
                            </place>
+                           <place corresp="#pmb281514">
+                              <placeName>Wipplingerstraße 20</placeName>
+                           </place>
+                           <place corresp="#pmb235784">
+                              <placeName>Oppolzergasse 6</placeName>
+                           </place>
+                           <place corresp="#pmb103">
+                              <placeName>Volksgarten</placeName>
+                           </place>
+                           <place corresp="#pmb320">
+                              <placeName>Hofburg</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#58">
@@ -162,6 +174,28 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1919-05-30">
+               <head>Vorstandssitzung der Genossenschaft dramatischer Autoren und Komponisten in Österreich, 30.5.1919</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb13335">Altmann, Adolf</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb281514">Wipplingerstraße 20</placeName>
+                        <location>
+                           <geo>48,212694 16,369055</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/281583/</idno>
             </event>
          </listEvent>
       </body>

@@ -169,7 +169,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Feldafing"
+ "Feldafing",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Kaiserin Elisabeth [Feldafing]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhof Feldafing",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -202,6 +217,11 @@
  "Hotel Vier Jahreszeiten",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Mannhardtstraße 3",
+ "ref":
+ ""}
  ]
 }
 }, {
@@ -221,6 +241,11 @@
  "Bahnhof Possenhofen",
  "ref":
  ""}
+ ,  {
+ "placeName":
+ "Gasthaus »Zum Fischmeister« Karl Schauer",
+ "ref":
+ ""}
  ]
 }
 }, {
@@ -235,9 +260,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210584/",
  "head":
- "Filmvorführung, 7.8.1922",
+ "Filmvorführung von Der Sträfling von Cayenn, 7.8.1922",
  "desc":
-{"listPerson":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Sträfling von Cayenne",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
