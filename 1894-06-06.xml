@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -111,23 +111,16 @@
                      <place corresp="#pmb497">
                         <placeName>Glaspalast</placeName>
                      </place>
+                     <place corresp="#pmb290367">
+                        <placeName>Münchner Volkstheater</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1894-06-06">
-               <head corresp="#pmb20">Volkstheater</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1894-06-06">
                <head>Aufführung von La princesse de Trébizonde, 6.6.1894</head>
                <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
                   <listBibl>
                      <bibl>
                         <title key="pmb77019">La princesse de Trébizonde</title>
@@ -144,6 +137,12 @@
                         <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
                         <location>
                            <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb290367">Münchner Volkstheater</placeName>
+                        <location>
+                           <geo>48,138302 11,565707</geo>
                         </location>
                      </place>
                   </listPlace>

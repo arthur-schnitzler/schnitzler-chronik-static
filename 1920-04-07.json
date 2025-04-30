@@ -97,7 +97,55 @@
   [
  {
  "placeName":
+ "VI., Mariahilf",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/290394/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/290394/",
+ "head":
+ "Sitzung des Deutsch-Österreichischen Autorenverbands, 7.4.1920",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Deutsch-Österreichischer Autorenverband",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsch-österreichischer Autorenverband",
  "ref":
  ""}
  ]
@@ -114,9 +162,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210045/",
  "head":
- "Konzert Georg Szell, 7.4.1920",
+ "4. Konzert des »Anbruch«, 7.4.1920",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Der Anbruch",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -127,7 +183,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

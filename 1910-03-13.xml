@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,13 +140,17 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1910-03-13">
-               <head corresp="#pmb249874">Hotel Lauer</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1910-03-13">
-               <head corresp="#pmb249877">Bahnhof Olmütz</head>
-               <desc/>
+               <head corresp="#pmb44176">Olomouc</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb249874">
+                        <placeName>Hotel Lauer</placeName>
+                     </place>
+                     <place corresp="#pmb249877">
+                        <placeName>Bahnhof Olmütz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

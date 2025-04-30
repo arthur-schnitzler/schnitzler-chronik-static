@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,6 +105,9 @@
                <head corresp="#pmb47487">Beatenberg</head>
                <desc>
                   <listPlace>
+                     <place corresp="#pmb251090">
+                        <placeName>Thunersee-Beatenberg-Bahn</placeName>
+                     </place>
                      <place corresp="#pmb251093">
                         <placeName>Grand Hotel Regina Palace [Beatenberg]</placeName>
                      </place>
@@ -118,13 +121,22 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1926-09-01">
-               <head corresp="#pmb251087">Beatenbucht</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1926-09-01">
-               <head corresp="#pmb251090">Thunersee-Beatenberg-Bahn</head>
-               <desc/>
+               <head corresp="#pmb290278">Sigriswil</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb251087">
+                        <placeName>Beatenbucht</placeName>
+                        <listPlace>
+                           <place corresp="#pmb251090">
+                              <placeName>Thunersee-Beatenberg-Bahn</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#pmb251090">
+                        <placeName>Thunersee-Beatenberg-Bahn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1926-09-01">

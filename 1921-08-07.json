@@ -96,7 +96,27 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Seewirt"
+ "Altaussee",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Seewirt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Promenadenweg [Nordufer]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Promenadenweg [Südufer]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -106,4 +126,13 @@
  "Aufenthaltsorte",
  "head":
  "Bad Aussee"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Promenadenweg [Ostufer]"
 }] 

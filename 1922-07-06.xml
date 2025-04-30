@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,7 +133,7 @@
                <desc>
                   <listPlace>
                      <place corresp="#pmb289386">
-                        <placeName>Hotel Post</placeName>
+                        <placeName>Hotel Post [Aspang-Markt]</placeName>
                      </place>
                      <place corresp="#pmb289389">
                         <placeName>Aspang-Markt Bahnhof</placeName>
@@ -143,13 +143,27 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-07-06">
-               <head corresp="#pmb192358">Aspangbahnhof</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1922-07-06">
-               <head corresp="#pmb168815">Sternwartestraße 71</head>
-               <desc/>
+               <head corresp="#pmb50">Wien</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb192358">
+                              <placeName>Aspangbahnhof</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#68">
+                        <placeName>XVIII., Währing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168815">
+                              <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-07-06">

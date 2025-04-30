@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,8 +114,16 @@
                <head corresp="#pmb34401">Altaussee</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb34387">
-                        <placeName>Villa Annerl</placeName>
+                     <place corresp="#pmb34402">
+                        <placeName>Fischerndorf</placeName>
+                        <listPlace>
+                           <place corresp="#pmb34387">
+                              <placeName>Villa Annerl</placeName>
+                           </place>
+                           <place corresp="#pmb91167">
+                              <placeName>Loserhütte</placeName>
+                           </place>
+                        </listPlace>
                      </place>
                   </listPlace>
                </desc>
@@ -123,11 +131,6 @@
             </event>
             <event when-iso="1916-07-10">
                <head corresp="#pmb264803">Altausseer See</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1916-07-10">
-               <head corresp="#pmb91167">Loserhütte</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>

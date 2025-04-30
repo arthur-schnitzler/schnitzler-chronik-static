@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -116,11 +116,17 @@
             </event>
             <event when-iso="1922-10-29">
                <head corresp="#pmb652">Prag</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb183469">
+                        <placeName>Urania Prag</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-10-29">
-               <head>Philharmonisches-Konzert Schillings, 29.10.1922</head>
+               <head>II. Philharmonisches Konzert, 29.10.1922</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -132,9 +138,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb652">Prag</placeName>
+                        <placeName role="veranstaltet in" key="pmb91">Neues Deutsches Theater</placeName>
                         <location>
-                           <geo>50,08333 14,46667</geo>
+                           <geo>50,080556 14,432778</geo>
                         </location>
                      </place>
                   </listPlace>

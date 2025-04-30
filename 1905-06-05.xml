@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -161,8 +161,19 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-06-05">
-               <head corresp="#pmb40512">Cur- und Wasserheilanstalt Hinterbrühl</head>
-               <desc/>
+               <head corresp="#pmb44413">Brühl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb75">
+                        <placeName>Hinterbrühl</placeName>
+                        <listPlace>
+                           <place corresp="#pmb40512">
+                              <placeName>Cur- und Wasserheilanstalt Hinterbrühl</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1905-06-05">

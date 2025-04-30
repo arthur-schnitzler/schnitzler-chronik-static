@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -145,13 +145,19 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1915-08-06">
-               <head corresp="#pmb92293">Hoisnradalm</head>
+               <head corresp="#pmb92339">Kolowratshöhe</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1915-08-06">
-               <head corresp="#pmb92339">Kolowratshöhe</head>
-               <desc/>
+               <head corresp="#pmb91453">Perneck</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb92293">
+                        <placeName>Hoisnradalm</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

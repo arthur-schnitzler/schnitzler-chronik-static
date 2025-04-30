@@ -66,16 +66,60 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Prag"
+ "Brünn",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Konzertdirektion Bondy",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Brünn Hauptbahnhof",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
- "schnitzler-orte",
+ "schnitzler-events",
  "color":
- "#045344",
+ "#9BC53D",
+ "filename":
+ "entity/290897/",
  "caption":
- "Aufenthaltsorte",
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/290897/",
  "head":
- "Brünn"
+ "Probe von Der grüne Kakadu, 26.10.1922",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brünn",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-events",
@@ -88,7 +132,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210184/",
  "head":
- "Aufführung von Literatur, Die letzten Masken, Der grüne Kakadu, 26.10.1922",
+ "Aufführung von Literatur, Die letzten Masken, 26.10.1922",
  "desc":
 {"listBibl":
   [
@@ -100,11 +144,6 @@
  ,  {
  "title":
  "Die letzten Masken",
- "ref":
- ""}
- ,  {
- "title":
- "Der grüne Kakadu. Groteske in einem Akt",
  "ref":
  ""}
  ],

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,13 +108,28 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-10-25.html</idno>
             </event>
             <event when-iso="1922-10-25">
-               <head corresp="#pmb652">Prag</head>
+               <head corresp="#pmb118612">Deutsches Haus [Prag]</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-10-25">
-               <head corresp="#pmb437">Deutsches Haus [Brünn]</head>
-               <desc/>
+               <head corresp="#pmb833">Brünn</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb290888">
+                        <placeName>Festung Špilberk</placeName>
+                     </place>
+                     <place corresp="#pmb233389">
+                        <placeName>Grand Hotel [Brünn]</placeName>
+                     </place>
+                     <place corresp="#pmb290893">
+                        <placeName>Konzertdirektion Bondy</placeName>
+                     </place>
+                     <place corresp="#pmb251671">
+                        <placeName>Brünn Hauptbahnhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-10-25">
@@ -145,9 +160,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb437">Deutsches Haus [Brünn]</placeName>
+                        <placeName role="veranstaltet in" key="pmb118612">Deutsches Haus [Prag]</placeName>
                         <location>
-                           <geo>49,199167 16,606667</geo>
+                           <geo>50,08687 14,42729</geo>
                         </location>
                      </place>
                   </listPlace>

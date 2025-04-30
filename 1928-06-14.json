@@ -158,7 +158,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Spital am Pyhrn"
+ "Spital am Pyhrn",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kollegiatstift Spital am Pyhrn",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -177,15 +187,6 @@
  "Aufenthaltsorte",
  "head":
  "Pötschenhöhe"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Bahnhof Stainach-Irdning"
 }, {
  "type":
  "schnitzler-orte",
@@ -241,6 +242,25 @@
  "Aufenthaltsorte",
  "head":
  "Liezen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Stainach",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Stainach-Irdning",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "pollaczek",

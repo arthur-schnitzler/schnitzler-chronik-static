@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -162,35 +162,45 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-04-28">
-               <head corresp="#pmb75">Hinterbrühl</head>
+               <head corresp="#pmb44413">Brühl</head>
                <desc>
                   <listPlace>
-                     <place corresp="#pmb168033">
-                        <placeName>Römerwand</placeName>
+                     <place corresp="#pmb75">
+                        <placeName>Hinterbrühl</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168033">
+                              <placeName>Römerwand</placeName>
+                           </place>
+                           <place corresp="#pmb145165">
+                              <placeName>Hauptstraße 56</placeName>
+                           </place>
+                           <place corresp="#pmb44510">
+                              <placeName>Hotel Radetzky</placeName>
+                           </place>
+                        </listPlace>
                      </place>
-                     <place corresp="#pmb145165">
-                        <placeName>Hauptstraße 56</placeName>
-                     </place>
-                     <place corresp="#pmb44510">
-                        <placeName>Hotel Radetzky</placeName>
+                     <place corresp="#pmb957">
+                        <placeName>Vorderbrühl</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1912-04-28">
-               <head corresp="#pmb957">Vorderbrühl</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1912-04-28">
-               <head corresp="#pmb252697">Bahnhof Mödling</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1912-04-28">
-               <head corresp="#pmb92324">Kalenderberg</head>
-               <desc/>
+               <head corresp="#pmb968">Mödling</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb957">
+                        <placeName>Vorderbrühl</placeName>
+                     </place>
+                     <place corresp="#pmb252697">
+                        <placeName>Bahnhof Mödling</placeName>
+                     </place>
+                     <place corresp="#pmb92324">
+                        <placeName>Kalenderberg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

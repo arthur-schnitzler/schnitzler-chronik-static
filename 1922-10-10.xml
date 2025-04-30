@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -144,6 +144,18 @@
                            <place corresp="#pmb14">
                               <placeName>Burgtheater</placeName>
                            </place>
+                           <place corresp="#pmb250232">
+                              <placeName>Magistratsabteilung 10 - Steuern und Abgaben [1920-1939]</placeName>
+                           </place>
+                           <place corresp="#pmb290824">
+                              <placeName>K.K. Telegrafen Centrale</placeName>
+                           </place>
+                           <place corresp="#pmb264287">
+                              <placeName>Internationale Konzertdirektion »Ika«</placeName>
+                           </place>
+                           <place corresp="#pmb235784">
+                              <placeName>Oppolzergasse 6</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#59">
@@ -157,6 +169,9 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb61755">
+                              <placeName>Cottage-Sanatorium für Nerven- und Stoffwechselkranke</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -167,8 +182,14 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-10-10">
-               <head>Filmvorführung, 10.10.1922</head>
+               <head>Filmvorführung von Dr. Mabuse, der Spieler (Teil 1), 10.10.1922</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80831">Dr. Mabuse, der Spieler</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>

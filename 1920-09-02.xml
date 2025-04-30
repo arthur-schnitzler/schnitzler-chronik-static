@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -138,8 +138,38 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-09-02.html</idno>
             </event>
             <event when-iso="1920-09-02">
-               <head corresp="#pmb415">Bad Aussee</head>
+               <head corresp="#pmb34401">Altaussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb106">
+                        <placeName>Seewirt</placeName>
+                     </place>
+                     <place corresp="#pmb290936">
+                        <placeName>Villa Gisela und Markus Hajek</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1920-09-02">
+               <head corresp="#pmb264803">Altausseer See</head>
                <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1920-09-02">
+               <head corresp="#pmb415">Bad Aussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb36473">
+                        <placeName>Obertressen</placeName>
+                        <listPlace>
+                           <place corresp="#pmb44924">
+                              <placeName>Hugo-von-Hofmannsthal-Weg 6</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1920-09-02">

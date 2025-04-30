@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,17 +103,46 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-10-26.html</idno>
             </event>
             <event when-iso="1922-10-26">
-               <head corresp="#pmb652">Prag</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1922-10-26">
                <head corresp="#pmb833">Brünn</head>
-               <desc/>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb290893">
+                        <placeName>Konzertdirektion Bondy</placeName>
+                     </place>
+                     <place corresp="#pmb251671">
+                        <placeName>Brünn Hauptbahnhof</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-10-26">
-               <head>Aufführung von Literatur, Die letzten Masken, Der grüne Kakadu, 26.10.1922</head>
+               <head>Probe von Der grüne Kakadu, 26.10.1922</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb833">Brünn</placeName>
+                        <location>
+                           <geo>49,19522 16,60796</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/290897/</idno>
+            </event>
+            <event when-iso="1922-10-26">
+               <head>Aufführung von Literatur, Die letzten Masken, 26.10.1922</head>
                <desc>
                   <listBibl>
                      <bibl>
@@ -122,10 +151,6 @@
                      </bibl>
                      <bibl>
                         <title key="pmb29877">Die letzten Masken</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>

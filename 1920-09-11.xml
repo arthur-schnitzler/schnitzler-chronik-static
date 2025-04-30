@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-24.">24.04.2025</date>
+            <date when-iso="2025-04-30.">30.04.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -126,18 +126,17 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-09-11.html</idno>
             </event>
             <event when-iso="1920-09-11">
-               <head corresp="#pmb415">Bad Aussee</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1920-09-11">
-               <head corresp="#pmb192390">Vordere Sandlingalm</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1920-09-11">
-               <head corresp="#pmb192397">Hintere Sandlingalm</head>
-               <desc/>
+               <head corresp="#pmb34401">Altaussee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb106">
+                        <placeName>Seewirt</placeName>
+                     </place>
+                     <place corresp="#pmb290949">
+                        <placeName>Villa Schöneck</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1920-09-11">
@@ -146,6 +145,42 @@
                   <listPlace>
                      <place corresp="#pmb264681">
                         <placeName>Gasthaus zum Bachwirt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1920-09-11">
+               <head corresp="#pmb213">Bad Ischl</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192397">
+                        <placeName>Hintere Sandlingalm</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1920-09-11">
+               <head corresp="#pmb614">Sandling</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192397">
+                        <placeName>Hintere Sandlingalm</placeName>
+                     </place>
+                     <place corresp="#pmb192390">
+                        <placeName>Vordere Sandlingalm</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1920-09-11">
+               <head corresp="#pmb672">Bad Goisern</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb192390">
+                        <placeName>Vordere Sandlingalm</placeName>
                      </place>
                   </listPlace>
                </desc>

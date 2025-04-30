@@ -83,15 +83,6 @@
 }
 }, {
  "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Café de l’Opera"
-}, {
- "type":
  "schnitzler-events",
  "color":
  "#9BC53D",
@@ -102,9 +93,17 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210198/",
  "head":
- "Blauer Vogel, 21.12.1922",
+ "Der Blaue Vogel in den Kammerspielen, 21.12.1922",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Der Blaue Vogel",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
@@ -115,7 +114,7 @@
   [
  {
  "placeName":
- "Café de l’Opera",
+ "Kammerspiele Wien",
  "ref":
  ""}
  ]

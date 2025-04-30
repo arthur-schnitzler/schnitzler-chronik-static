@@ -51,34 +51,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Ischl"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Hütteneckalm"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Vordere Sandlingalm"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Hintere Sandlingalm"
+ "Bad Ischl",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hintere Sandlingalm",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -88,6 +71,54 @@
  "Aufenthaltsorte",
  "head":
  "Loser"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Sandling",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Vordere Sandlingalm",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hintere Sandlingalm",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bad Goisern",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hütteneckalm",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Vordere Sandlingalm",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "kalliope-verbund",
