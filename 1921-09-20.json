@@ -74,16 +74,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Kreuzberg [Breitenstein]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Breitenstein am Semmering"
+ "Breitenstein am Semmering",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kreuzberg [Breitenstein]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -104,6 +105,30 @@
  ,  {
  "placeName":
  "Stojerhöhe",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "X., Favoriten",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
  "ref":
  ""}
  ]

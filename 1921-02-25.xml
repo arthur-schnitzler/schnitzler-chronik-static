@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-30.">30.04.2025</date>
+            <date when-iso="2025-05-11.">11.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -143,8 +143,19 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb292057">
+                              <placeName>Vereins-Realgymnasium mit Öffentlichkeitsrecht</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#54">
+                        <placeName>IV., Wieden</placeName>
+                        <listPlace>
+                           <place corresp="#pmb291756">
+                              <placeName>Brahmsplatz 4</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -153,11 +164,20 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1921-02-25">
-               <head>Filmvorführung, 25.2.1921</head>
+               <head>Filmvorführung von Glaube und Heimat, 25.2.1921</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80660">Glaube und Heimat</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
                      </person>
                   </listPerson>
                   <listPlace>

@@ -84,7 +84,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Ischl"
+ "Bad Ischl",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Kaiserkrone",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -93,7 +103,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hauptbahnhof München",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Vier Jahreszeiten",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -114,6 +139,11 @@
  ,  {
  "placeName":
  "Österreichischer Hof",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hauptbahnhof Salzburg",
  "ref":
  ""}
  ]

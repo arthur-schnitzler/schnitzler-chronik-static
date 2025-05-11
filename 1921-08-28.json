@@ -69,7 +69,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berchtesgaden"
+ "Berchtesgaden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden Hauptbahnhof",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -78,5 +88,48 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "Gasthof Schönfeldspitze"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hauptbahnhof München",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Marienbad [München]",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Maria Gern",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Wallfahrtskirche Maria Gern",
+ "ref":
+ ""}
+ ]
+}
 }] 

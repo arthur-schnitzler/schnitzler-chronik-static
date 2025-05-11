@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-30.">30.04.2025</date>
+            <date when-iso="2025-05-11.">11.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -116,13 +116,27 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb190658">
+                              <placeName>Opernkino</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1920-12-28">
-               <head>Filmvorführung, 28.12.1920</head>
+               <head>Filmvorführung von Der Brand auf Sollberga (Herrn Arnes Schatz), 28.12.1920</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb292075">Herrn Arnes Schatz</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -130,9 +144,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb190658">Opernkino</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,201301 16,368085</geo>
                         </location>
                      </place>
                   </listPlace>

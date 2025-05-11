@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-30.">30.04.2025</date>
+            <date when-iso="2025-05-11.">11.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,6 +121,25 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#69">
+                        <placeName>XIX., Döbling</placeName>
+                        <listPlace>
+                           <place corresp="#pmb253629">
+                              <placeName>Bundesgymnasium Döbling</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb292518">
+                              <placeName>Heinrich Grimm, Handel mit Seiden- und Tuchwaren</placeName>
+                           </place>
+                           <place corresp="#pmb232655">
+                              <placeName>Goldschmiedgasse 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -134,8 +153,14 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1921-03-16">
-               <head>Filmvorführung, 16.3.1921</head>
+               <head>Filmvorführung von Katharina die Große, 16.3.1921</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81283">Katharina die Große</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>

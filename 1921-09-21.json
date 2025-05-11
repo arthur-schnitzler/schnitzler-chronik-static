@@ -69,16 +69,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Kreuzberg [Breitenstein]"
-}, {
- "type":
- "schnitzler-orte",
- "color":
- "#045344",
- "caption":
- "Aufenthaltsorte",
- "head":
- "Breitenstein am Semmering"
+ "Breitenstein am Semmering",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kreuzberg [Breitenstein]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Orthofstraße",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -94,6 +100,68 @@
  {
  "placeName":
  "Hotel Marienhof",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Payerbach",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Payerbach-Reichenau",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Mödling",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Mödling",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Wien",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
  "ref":
  ""}
  ]

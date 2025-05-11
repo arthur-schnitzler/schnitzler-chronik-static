@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-30.">30.04.2025</date>
+            <date when-iso="2025-05-11.">11.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,25 +120,37 @@
                      <place corresp="#pmb230">
                         <placeName>Österreichischer Hof</placeName>
                      </place>
-                     <place corresp="#pmb190287">
-                        <placeName>Stift St Peter</placeName>
-                     </place>
-                     <place corresp="#pmb180">
-                        <placeName>Schloss Mirabell</placeName>
-                     </place>
                      <place corresp="#pmb41187">
                         <placeName>Café Tomaselli</placeName>
                      </place>
                      <place corresp="#pmb181">
                         <placeName>Café Bazar</placeName>
                      </place>
+                     <place corresp="#pmb292327">
+                        <placeName>Salzburger Dom</placeName>
+                     </place>
+                     <place corresp="#pmb292331">
+                        <placeName>Zur goldenen Birne [Salzburg]</placeName>
+                     </place>
+                     <place corresp="#pmb292334">
+                        <placeName>Kino Lifka</placeName>
+                     </place>
+                     <place corresp="#pmb1014">
+                        <placeName>Hotel Mirabell</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1921-08-26">
-               <head>Filmvorführung, 26.8.1921</head>
+               <head>Filmvorführung von The Virgin of Stamboul, 26.8.1921</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80243">The Virgin of Stamboul</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -149,6 +161,12 @@
                         <placeName role="veranstaltet in" key="pmb30">Salzburg</placeName>
                         <location>
                            <geo>47,80067 13,04532</geo>
+                        </location>
+                     </place>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb292334">Kino Lifka</placeName>
+                        <location>
+                           <geo>47,801198 13,045752</geo>
                         </location>
                      </place>
                   </listPlace>

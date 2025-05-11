@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-30.">30.04.2025</date>
+            <date when-iso="2025-05-11.">11.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -137,18 +137,30 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-08-29">
-               <head corresp="#pmb289883">Aschauer Weiher</head>
-               <desc/>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1922-08-29">
                <head corresp="#pmb91054">Königssee</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb292457">
+                        <placeName>Bahnhof Königssee (Oberbay)</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1922-08-29">
+               <head corresp="#pmb91979">Haltestelle Unterstein</head>
                <desc/>
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1922-08-29">
-               <head corresp="#pmb91979">Unterstein</head>
-               <desc/>
+               <head corresp="#pmb263493">Bischofswiesen</head>
+               <desc>
+                  <listPlace>
+                     <place corresp="#pmb289883">
+                        <placeName>Aschauer Weiher</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>

@@ -87,6 +87,16 @@
  ""}
  ,  {
  "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -104,13 +114,21 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/210071/",
  "head":
- "Aufführung von Das Lied von der Erde, 7.12.1920",
+ "Aufführung von Das klagende Lied, 7.12.1920",
  "desc":
-{"listBibl":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Singakademie",
+ "ref":
+ ""}
+ ],
+ "listBibl":
   [
  {
  "title":
- "Das Lied von der Erde",
+ "Das klagende Lied",
  "ref":
  ""}
  ],
@@ -125,6 +143,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Konzerthaus",
+ "ref":
+ ""}
+ ]
 }
 }] 

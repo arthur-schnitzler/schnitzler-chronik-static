@@ -94,7 +94,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Aussee"
+ "Altaussee",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel am See",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Villa Gisela und Markus Hajek",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -103,5 +118,44 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Bad Ischl"
+ "Bad Ischl",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Bad Ischl",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hotel Kaiserkrone",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Brennerstraße",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bad Aussee",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Bad Aussee",
+ "ref":
+ ""}
+ ]
+}
 }] 

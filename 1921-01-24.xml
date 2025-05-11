@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-04-30.">30.04.2025</date>
+            <date when-iso="2025-05-11.">11.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,11 +132,11 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
-                     <place corresp="#63">
-                        <placeName>XIII., Hietzing</placeName>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb263537">
-                              <placeName>Woltergasse 2a</placeName>
+                           <place corresp="#pmb633">
+                              <placeName>Kammerspiele Wien</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -148,9 +148,50 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#pmb63">
+                        <placeName>XIII., Hietzing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb263537">
+                              <placeName>Woltergasse 2a</placeName>
+                           </place>
+                           <place corresp="#pmb291445">
+                              <placeName>Klinik Hietzing</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-01-24">
+               <head corresp="#pmb49452">Lainz</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-01-24">
+               <head>Probe von Reigen, 24.1.1921</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29855">Reigen. Zehn Dialoge</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb633">Kammerspiele Wien</placeName>
+                        <location>
+                           <geo>48,211111 16,375833</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/291439/</idno>
             </event>
             <event when-iso="1921-01-24">
                <head>Traum vom 24. Januar 1921</head>

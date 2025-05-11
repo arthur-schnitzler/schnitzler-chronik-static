@@ -69,7 +69,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Berchtesgaden"
+ "Berchtesgaden",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden Hauptbahnhof",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -90,6 +100,30 @@
  ,  {
  "placeName":
  "Hauptbahnhof Salzburg",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bischofswiesen",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Gasthof Schönfeldspitze",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Aschauer Weiher",
  "ref":
  ""}
  ]

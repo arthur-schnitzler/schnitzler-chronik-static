@@ -81,7 +81,22 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "München"
+ "München",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Marienbad [München]",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Hauptbahnhof München",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -90,7 +105,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Oberau"
+ "Oberau",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Bahnhof Oberau",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -99,7 +124,17 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Ettal"
+ "Ettal",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Mariä Himmelfahrt [Ettal]",
+ "ref":
+ ""}
+ ]
+}
 }, {
  "type":
  "schnitzler-orte",
@@ -108,5 +143,20 @@
  "caption":
  "Aufenthaltsorte",
  "head":
- "Oberammergau"
+ "Oberammergau",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Haus 27",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "Bahnhofshotel [Oberammergau]",
+ "ref":
+ ""}
+ ]
+}
 }] 
