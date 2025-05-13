@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-11.">11.05.2025</date>
+            <date when-iso="2025-05-13.">13.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,8 +110,18 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1921-10-24">
-               <head>Filmvorführung, 24.10.1921</head>
+               <head>Filmvorführung von Das fliegende Auto, Charlies Hochzeitsreise, 24.10.1921</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb292855">Das fliegende Auto</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb292858">A Dog’s Life</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>

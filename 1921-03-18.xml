@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-11.">11.05.2025</date>
+            <date when-iso="2025-05-13.">13.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -180,6 +180,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#73">
+                        <placeName>XXIII., Liesing</placeName>
+                        <listPlace>
+                           <place corresp="#pmb7728">
+                              <placeName>Mauer</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -199,6 +207,15 @@
                      <place corresp="#pmb92195">
                         <placeName>Kurpark [Baden bei Wien]</placeName>
                      </place>
+                     <place corresp="#pmb249350">
+                        <placeName>Bahnhof Baden bei Wien</placeName>
+                     </place>
+                     <place corresp="#pmb292661">
+                        <placeName>Schlosshotel »Bellevue« [Baden]</placeName>
+                     </place>
+                     <place corresp="#pmb90809">
+                        <placeName>Sanatorium Gutenbrunn</placeName>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
@@ -213,8 +230,21 @@
                      <place corresp="#pmb237565">
                         <placeName>Meiereiwiese [Mödling]</placeName>
                      </place>
+                     <place corresp="#pmb252697">
+                        <placeName>Bahnhof Mödling</placeName>
+                     </place>
                   </listPlace>
                </desc>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-03-18">
+               <head corresp="#pmb44510">Hotel Radetzky</head>
+               <desc/>
+               <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-03-18">
+               <head corresp="#pmb44413">Brühl</head>
+               <desc/>
                <idno type="schnitzler-orte"/>
             </event>
          </listEvent>
