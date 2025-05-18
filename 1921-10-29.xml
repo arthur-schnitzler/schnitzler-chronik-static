@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-13.">13.05.2025</date>
+            <date when-iso="2025-05-18.">18.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -133,6 +133,25 @@
                            <place corresp="#pmb92525">
                               <placeName>Kammer-Lichtspiele [Wien]</placeName>
                            </place>
+                           <place corresp="#pmb237597">
+                              <placeName>Neulinggasse 13</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb293047">
+                              <placeName>Kammer für Handel, Gewerbe und Industrie in Wien</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#59">
+                        <placeName>IX., Alsergrund</placeName>
+                        <listPlace>
+                           <place corresp="#pmb238">
+                              <placeName>Gastwirtschaft Josef Gruß</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#68">
@@ -146,6 +165,39 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1921-10-29">
+               <head>Tagung deutscher und österreichischer Theaterverbände, 29.10.1921</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29275">Genossenschaft dramatischer Autoren und Komponisten in Österreich</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36964">Verband deutscher Bühnenschriftsteller und Bühnenkomponisten e.V.</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36953">Vereinigung der deutschen Bühnenverleger</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29205">Deutschösterreichischer Bühnenverein</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb293047">Kammer für Handel, Gewerbe und Industrie in Wien</placeName>
+                        <location>
+                           <geo>48,20956 16,381908</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/293051/</idno>
             </event>
             <event when-iso="1921-10-29">
                <head>Filmvorführung, 29.10.1921</head>

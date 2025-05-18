@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-13.">13.05.2025</date>
+            <date when-iso="2025-05-18.">18.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -179,6 +179,9 @@
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
+                           <place corresp="#pmb245446">
+                              <placeName>Gregor-Mendel-Straße 32</placeName>
+                           </place>
                            <place corresp="#pmb168815">
                               <placeName>Sternwartestraße 71</placeName>
                            </place>
@@ -206,35 +209,17 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
-                        <location>
-                           <geo>48,205142 16,3566</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/239514/</idno>
-            </event>
-            <event when-iso="1921-12-07">
-               <head>Generalprobe von Lebendige Stunden, 7.12.1921</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29863">Lebendige Stunden. Vier Einakter</title>
-                        <note type="relation-type">ist Generalprobe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
                      <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                        <persName key="pmb2312">Zuckerkandl, Berta</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb7235">Freud, Anna</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb10762">Andreas-Salomé, Lou</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb19220">Kaufmann, Irmgard</persName>
                      </person>
                   </listPerson>
                   <listPlace>
@@ -247,6 +232,7 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/238815/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/239514/</idno>
             </event>
             <event when-iso="1921-12-07">
                <head>Neueinstudierung von Lebendige Stunden, 7.12.1921</head>

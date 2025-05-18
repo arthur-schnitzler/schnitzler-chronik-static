@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-13.">13.05.2025</date>
+            <date when-iso="2025-05-18.">18.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,6 +120,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb1013">
+                              <placeName>Urania</placeName>
+                           </place>
                            <place corresp="#pmb238481">
                               <placeName>Kaiserpanorama [Wien, Stubenring 12]</placeName>
                            </place>
@@ -166,6 +169,40 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/292815/</idno>
+            </event>
+            <event when-iso="1921-05-17">
+               <head>Schnitzler-Abend, 17.5.1921</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29815">Wanderbühne des österreichischen Volksbildungsamtes</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30403">Paracelsus. Versspiel in einem Akt</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1013">Urania</placeName>
+                        <location>
+                           <geo>48,211453732859 16,383906681096</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210094/</idno>
             </event>
             <event when-iso="1921-05-17">
                <head>Gustaf Linden an Arthur Schnitzler, 17.5.1921</head>

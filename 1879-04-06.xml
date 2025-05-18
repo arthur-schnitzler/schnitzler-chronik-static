@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-13.">13.05.2025</date>
+            <date when-iso="2025-05-18.">18.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,6 +78,9 @@
                            <place corresp="#pmb182757">
                               <placeName>Thalia-Theater [Wien. II]</placeName>
                            </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -113,8 +116,13 @@
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207484/</idno>
             </event>
             <event when-iso="1879-04-06">
-               <head>Philharmonisches-Konzert im Wien, 6.4.1879</head>
+               <head>8. Abonnementkonzert der Wiener Philharmoniker, 6.4.1879</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb234535">Wiener Symphoniker</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -122,9 +130,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,201265597319 16,372564182283</geo>
                         </location>
                      </place>
                   </listPlace>

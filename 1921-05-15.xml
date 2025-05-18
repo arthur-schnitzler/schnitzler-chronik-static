@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-13.">13.05.2025</date>
+            <date when-iso="2025-05-18.">18.05.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -189,11 +189,20 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1921-05-15">
-               <head>Filmvorführung, 15.5.1921</head>
+               <head>Filmvorführung eines Sherlock Holmes-Films, 15.5.1921</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb292971">?? [Sherlock Holmes-Film]</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
                      </person>
                   </listPerson>
                   <listPlace>
