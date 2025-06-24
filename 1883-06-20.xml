@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,6 +75,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb14">
+                              <placeName>Burgtheater</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -85,7 +88,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1883-06-20">
-               <head>Aufführung von Heinrich VI, 20.6.1883</head>
+               <head>Aufführung von König Heinrich der Sechste, 20.6.1883</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -94,7 +97,11 @@
                   </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb164857">König Heinrich der Sechste (Erster Theil). In fünf Aufzügen</title>
+                        <title key="pmb164857">König Heinrich der Sechste (Erster Teil). In fünf Aufzügen</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb294458">König Heinrich der Sechste (Zweiter Teil)</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
@@ -103,6 +110,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207817/</idno>
             </event>

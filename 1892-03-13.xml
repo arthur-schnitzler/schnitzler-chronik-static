@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,6 +128,9 @@
                            <place corresp="#pmb29">
                               <placeName>Hotel Sacher</placeName>
                            </place>
+                           <place corresp="#pmb168900">
+                              <placeName>Österreichischer Ingenieur- und Architektenverein</placeName>
+                           </place>
                            <place corresp="#pmb167805">
                               <placeName>Kärntnerring 12/Bösendorferstraße 11</placeName>
                            </place>
@@ -199,13 +202,21 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041023.html</idno>
             </event>
             <event when-iso="1892-03-13">
-               <head>Auftritt von Volksquartett Duisberg, 13.3.1892</head>
+               <head>22. Konzert des ersten Wiener Volksquartetts für classische Musik, 13.3.1892</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168900">Österreichischer Ingenieur- und Architektenverein</placeName>
+                        <location>
+                           <geo>48,20204 16,36338</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208539/</idno>
             </event>

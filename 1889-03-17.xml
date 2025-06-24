@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,9 @@
                            <place corresp="#pmb8">
                               <placeName>Prater</placeName>
                            </place>
+                           <place corresp="#pmb294803">
+                              <placeName>Czerningasse 17</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#51">
@@ -112,13 +115,24 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1889-03-17">
-               <head>Soirée Rosenberg, 17.3.1889</head>
+               <head>Ball von Leopold Rosenberg, 17.3.1889</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb23573">Rosenberg, Leopold</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb294803">Czerningasse 17</placeName>
+                        <location>
+                           <geo>48,215395 16,388818</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208322/</idno>
             </event>

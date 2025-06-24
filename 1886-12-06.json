@@ -19,6 +19,15 @@
 }
 }, {
  "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "caption":
+ "Aufenthaltsorte",
+ "head":
+ "Bösendorfer-Saal"
+}, {
+ "type":
  "schnitzler-events",
  "color":
  "#9BC53D",
@@ -29,20 +38,28 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208079/",
  "head":
- "Klavierkonzert Moritz Rosenthal, 6.12.1886",
+ "Klavierkonzert von Moriz Rosenthal, 6.12.1886",
  "desc":
 {"listPerson":
   [
 {
  "persName":
- "Moritz Rosenthal",
+ "Moriz Rosenthal",
  "ref":
  ""},
  {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -130,6 +130,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb527">
+                              <placeName>Zum Lothringer</placeName>
+                           </place>
                            <place corresp="#pmb167805">
                               <placeName>Kärntnerring 12/Bösendorferstraße 11</placeName>
                            </place>
@@ -140,7 +143,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1892-01-18">
-               <head>Letzte Generalversammlung Freie Bühne, 18.1.1892</head>
+               <head>Letzte Generalversammlung der Freien Bühne, 18.1.1892</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -164,6 +167,14 @@
                         <persName key="pmb2450">Fels, Friedrich Michael</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb527">Zum Lothringer</placeName>
+                        <location>
+                           <geo>48,20823 16,36671</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/89316/</idno>
             </event>

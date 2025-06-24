@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,9 +103,36 @@
                      <place corresp="#pmb3">
                         <placeName>Deutsches Theater Berlin</placeName>
                      </place>
+                     <place corresp="#pmb293233">
+                        <placeName>Grand Hotel Alexanderplatz</placeName>
+                        <listPlace>
+                           <place corresp="#pmb293230">
+                              <placeName>Budapester Possen- und Operettentheater</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-orte"/>
+            </event>
+            <event when-iso="1899-04-27">
+               <head>Besuch des Budapester Possen- und Operettentheaters, 27.4.1899</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb293230">Budapester Possen- und Operettentheater</placeName>
+                        <location>
+                           <geo>52,521369 13,412515</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/293237/</idno>
             </event>
             <event when-iso="1899-04-27">
                <head>Probe von Der grüne Kakadu. Drei Einakter, 27.4.1899</head>

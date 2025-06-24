@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,9 @@
                            <place corresp="#pmb194841">
                               <placeName>Löwelstraße 16</placeName>
                            </place>
+                           <place corresp="#pmb168765">
+                              <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
                            <place corresp="#pmb168768">
                               <placeName>Wohnung und Ordination Arthur Schnitzler Burgring 1</placeName>
                            </place>
@@ -105,24 +108,46 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1889-01-01">
-               <head>Polterabend Zinner, 1.1.1889</head>
+               <head>Polterabend von Zinner, 1.1.1889</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208294/</idno>
             </event>
             <event when-iso="1889-01-01">
-               <head>Ball Johann und Louise Schnitzler, 1.1.1889</head>
+               <head>Ball von Johann und Louise Schnitzler, 1.1.1889</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12695">Schnitzler, Johann</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb12701">Schnitzler, Louise</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168765">Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                        <location>
+                           <geo>48,20334 16,363819</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208293/</idno>
             </event>

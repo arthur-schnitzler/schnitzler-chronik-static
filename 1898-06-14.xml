@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,8 +110,8 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
-                           <place corresp="#pmb185621">
-                              <placeName>Burgtheater [Altes Burgtheater]</placeName>
+                           <place corresp="#pmb14">
+                              <placeName>Burgtheater</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -133,13 +133,19 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1898-06-14">
-               <head>Aufführung von Bibliothekar, 14.6.1898</head>
+               <head>Aufführung von Der Bibliothekar, 14.6.1898</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
                         <orgName key="pmb36247">Burgtheater</orgName>
                      </org>
                   </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195634">Der Bibliothekar. Schwank in vier Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
@@ -147,9 +153,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb185621">Burgtheater [Altes Burgtheater]</placeName>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
                         <location>
-                           <geo>48,20778 16,36645</geo>
+                           <geo>48,210333 16,361139</geo>
                         </location>
                      </place>
                   </listPlace>

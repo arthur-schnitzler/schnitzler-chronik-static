@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-05-18.">18.05.2025</date>
+            <date when-iso="2025-06-24.">24.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,8 +88,22 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1883-05-19">
-               <head>Premiere von Der erste Brief. Original-Lustspiel in einem Acte, Der neue Paganini. Lustspiel in einem Acte, Recept gegen Hausfreunde. Lustspiel in zwei Acten, 19.5.1883</head>
+               <head>Premiere von Der erste Brief, Der neue Paganini, Recept gegen Hausfreunde, 19.5.1883</head>
                <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195628">Der erste Brief. Original-Lustspiel in einem Acte</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb195629">Der neue Paganini. Lustspiel in einem Acte</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb195630">Recept gegen Hausfreunde. Lustspiel in zwei Acten</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>

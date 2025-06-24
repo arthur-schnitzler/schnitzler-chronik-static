@@ -47,6 +47,11 @@
  ""}
  ,  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "I., Innere Stadt",
  "ref":
  ""}
@@ -69,14 +74,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208386/",
  "head":
- "Poliklinik-Kränzchen, 4.3.1890",
+ "Kränzchen zu Gunsten der Allgemeinen Poliklinik, 4.3.1890",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Allgemeine Poliklinik",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sofiensäle",
+ "ref":
+ ""}
+ ]
 }
 }] 
