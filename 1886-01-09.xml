@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-24.">24.06.2025</date>
+            <date when-iso="2025-06-27.">27.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,8 +107,19 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb294895">
+                              <placeName>Helferstorferstraße 6</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb107">
+                              <placeName>Sofiensäle</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -117,24 +128,43 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1886-01-09">
-               <head>Maskenball, 9.1.1886</head>
+               <head>Erster Elite-Maskenball, 9.1.1886</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb107">Sofiensäle</placeName>
+                        <location>
+                           <geo>48,206662 16,391263</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207999/</idno>
             </event>
             <event when-iso="1886-01-09">
-               <head>Gesellschaftsabend Markbreiter, 9.1.1886</head>
+               <head>Gesellschaftsabend von Edmund Markbreiter, 9.1.1886</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb3814">Markbreiter, Edmund</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb294895">Helferstorferstraße 6</placeName>
+                        <location>
+                           <geo>48,21383 16,36542</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207998/</idno>
             </event>

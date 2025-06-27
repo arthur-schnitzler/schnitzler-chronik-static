@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-24.">24.06.2025</date>
+            <date when-iso="2025-06-27.">27.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,13 +99,24 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1886-01-23">
-               <head>Soirée Kohnberger (Spielpartie), 23.1.1886</head>
+               <head>Soirée von Innozenz Kohnberger (Spielpartie), 23.1.1886</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb19512">Kohnberger, Innozenz</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb194841">Löwelstraße 16</placeName>
+                        <location>
+                           <geo>48,210795 16,362269</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208005/</idno>
             </event>

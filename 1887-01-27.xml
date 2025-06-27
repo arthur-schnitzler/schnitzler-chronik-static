@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-24.">24.06.2025</date>
+            <date when-iso="2025-06-27.">27.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,7 +85,7 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1887-01-27">
-               <head>Spielabend Löti, 27.1.1887</head>
+               <head>Spielabend von J. Löti, 27.1.1887</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -95,6 +95,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208093/</idno>
             </event>

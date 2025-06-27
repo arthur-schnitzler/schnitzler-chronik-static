@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-24.">24.06.2025</date>
+            <date when-iso="2025-06-27.">27.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,6 +83,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -112,7 +115,7 @@
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208022/</idno>
             </event>
             <event when-iso="1886-03-17">
-               <head>Aufführung von Fausts Verdammnis op. 24, 17.3.1886</head>
+               <head>Erstes außerordentliches Gesellschaftskonzert, 17.3.1886</head>
                <desc>
                   <listBibl>
                      <bibl>
@@ -125,6 +128,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208021/</idno>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-24.">24.06.2025</date>
+            <date when-iso="2025-06-27.">27.06.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -83,6 +83,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb294813">
+                              <placeName>Am Heumarkt 17</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
@@ -96,13 +104,24 @@
                <idno type="schnitzler-orte"/>
             </event>
             <event when-iso="1885-12-12">
-               <head>Ball Theimer, 12.12.1885</head>
+               <head>Ball von Eduard Theimer, 12.12.1885</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb25979">Theimer, Eduard</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb294813">Am Heumarkt 17</placeName>
+                        <location>
+                           <geo>48,201225 16,379919</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207984/</idno>
             </event>
