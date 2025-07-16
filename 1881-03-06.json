@@ -1,10 +1,10 @@
 [{
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -29,14 +29,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/207671/",
  "head":
- "Philharmonisches-Konzert, 6.3.1881",
+ "Sechstes Abonnementkonzert der Wiener Philharmoniker, 6.3.1881",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

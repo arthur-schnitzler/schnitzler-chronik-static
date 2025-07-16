@@ -13,11 +13,11 @@
  "Tagebuch, 7. April 1889"
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -42,14 +42,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208327/",
  "head":
- "Philharmonisches-Konzert, 7.4.1889",
+ "Achtes und letztes Abonnementkonzert der Wiener Philharmoniker, 7.4.1889",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

@@ -52,11 +52,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -81,7 +81,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/207664/",
  "head":
- "Soirée dansante Brüll, 20.2.1881",
+ "Soirée dansante bei Eduard Brüll, 20.2.1881",
  "desc":
 {"listPerson":
   [
@@ -89,29 +89,20 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
-}
-}, {
- "type":
- "schnitzler-events",
- "color":
- "#9BC53D",
- "filename":
- "entity/207663/",
- "caption":
- "Ereignisse in der PMB",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/207663/",
- "head":
- "Tanzabend bei Brülls, 20.2.1881",
- "desc":
-{"listPerson":
-  [
-{
+ ""},
+ {
  "persName":
- "Arthur Schnitzler",
+ "Eduard Brüll",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schottenring 28",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

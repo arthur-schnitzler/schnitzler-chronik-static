@@ -42,17 +42,22 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
 {"listPlace":
   [
  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
  "placeName":
  "I., Innere Stadt",
  "ref":
@@ -71,7 +76,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/207863/",
  "head":
- "Ball Theimer, 17.3.1884",
+ "Hausball bei Eduard Theimer, 17.3.1884",
  "desc":
 {"listPerson":
   [
@@ -79,7 +84,20 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Eduard Theimer",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Am Heumarkt 17",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

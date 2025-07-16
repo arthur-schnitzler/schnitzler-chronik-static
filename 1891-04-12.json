@@ -40,11 +40,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -69,14 +69,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208477/",
  "head":
- "Philharmonisches-Konzert, 12.4.1891",
+ "Philharmonisches Konzert zu Gunsten des Vereins »Nicolai«, 12.4.1891",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

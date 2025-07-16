@@ -22,11 +22,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -51,14 +51,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208441/",
  "head":
- "Philharmonisches-Konzert, 4.1.1891",
+ "Fünftes Abonnementkonzert der Wiener Philharmoniker, 4.1.1891",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

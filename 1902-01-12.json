@@ -75,11 +75,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -88,6 +88,11 @@
  {
  "placeName":
  "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
  "ref":
  ""}
  ]
@@ -104,14 +109,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209231/",
  "head":
- "Philharmonisches-Konzert, 12.1.1902",
+ "Fünftes Abonnementkonzert der Wiener Philharmoniker, 12.1.1902",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

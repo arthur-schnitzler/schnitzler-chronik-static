@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-27.">27.06.2025</date>
+            <date when-iso="2025-07-16.">16.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,6 +78,9 @@
                            <place corresp="#pmb19">
                               <placeName>Ronacher</placeName>
                            </place>
+                           <place corresp="#pmb182754">
+                              <placeName>Gartenbausäle</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -85,10 +88,10 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
+               <idno type="wienerschnitzler"/>
             </event>
             <event when-iso="1882-03-11">
-               <head>Liedertafel des Kaufmännischen Gesangsvereins, 11.3.1882</head>
+               <head>Heitere Liedertafel des Kaufmännischen Gesangsvereins, 11.3.1882</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -100,6 +103,14 @@
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb182754">Gartenbausäle</placeName>
+                        <location>
+                           <geo>48,205565 16,378011</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207746/</idno>
             </event>

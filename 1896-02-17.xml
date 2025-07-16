@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-27.">27.06.2025</date>
+            <date when-iso="2025-07-16.">16.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,6 +106,14 @@
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
+                     <place corresp="#51">
+                        <placeName>I., Innere Stadt</placeName>
+                        <listPlace>
+                           <place corresp="#pmb168900">
+                              <placeName>Österreichischer Ingenieur- und Architektenverein</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#59">
                         <placeName>IX., Alsergrund</placeName>
                         <listPlace>
@@ -116,10 +124,10 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
+               <idno type="wienerschnitzler"/>
             </event>
             <event when-iso="1896-02-17">
-               <head>Lesung Literarische Vereinigung, 17.2.1896</head>
+               <head>Rezitationsabend bis nun nicht gedruckter literarischer Novitäten, 17.2.1896</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -152,9 +160,9 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb168900">Österreichischer Ingenieur- und Architektenverein</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,20204 16,36338</geo>
                         </location>
                      </place>
                   </listPlace>

@@ -102,11 +102,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -136,7 +136,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/207739/",
  "head":
- "Ball Palaster , 1.3.1882",
+ "Hausball bei Paul Pallester, 1.3.1882",
  "desc":
 {"listPerson":
   [
@@ -144,7 +144,20 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Paul Pallester",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":
@@ -158,7 +171,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/207738/",
  "head":
- "Konzert Gustav Walter, 1.3.1882",
+ "Dritter und letzter Liederabend von Gustav Walter, 1.3.1882",
  "desc":
 {"listPerson":
   [
@@ -171,6 +184,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ ""}
+ ]
 }
 }] 

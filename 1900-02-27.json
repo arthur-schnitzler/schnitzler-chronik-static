@@ -22,11 +22,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -40,6 +40,11 @@
  ,  {
  "placeName":
  "IX., Alsergrund",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
  "ref":
  ""}
  ]
@@ -166,12 +171,28 @@
  "head":
  "Symphonisches Konzert, 27.2.1900",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Symphoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

@@ -42,17 +42,22 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
 {"listPlace":
   [
  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
  "placeName":
  "IX., Alsergrund",
  "ref":
@@ -233,15 +238,31 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208707/",
  "head":
- "Philharmonisches-Konzert, 16.12.1894",
+ "Viertes Abonnementkonzert der Wiener Philharmoniker, 16.12.1894",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

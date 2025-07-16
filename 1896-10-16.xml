@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-27.">27.06.2025</date>
+            <date when-iso="2025-07-16.">16.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,37 +129,7 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
-            </event>
-            <event when-iso="1896-10-16">
-               <head>Premiere von Sein Sohn, 16.10.1896</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb39666">Raimund-Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb42009">Sein Sohn</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
-                        <location>
-                           <geo>48,192222 16,339722</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208861/</idno>
+               <idno type="wienerschnitzler"/>
             </event>
             <event when-iso="1896-10-16">
                <head>Generalprobe von Die Mütter, 16.10.1896</head>
@@ -190,6 +160,49 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/199884/</idno>
+            </event>
+            <event when-iso="1896-10-16">
+               <head>Uraufführung von Sein Sohn, 16.10.1896</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb39666">Raimund-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb42009">Sein Sohn. Schauspiel in vier Acten</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2128">Plessner, Elsa</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb18308">Feld, Leo</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb296035">Freiburg, Max</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb154198">Furlani</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
+                        <location>
+                           <geo>48,192222 16,339722</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/42011/</idno>
+               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208861/</idno>
             </event>
          </listEvent>
       </body>

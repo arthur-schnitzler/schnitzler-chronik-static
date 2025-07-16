@@ -27,17 +27,22 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
 {"listPlace":
   [
  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
  "placeName":
  "IX., Alsergrund",
  "ref":
@@ -56,7 +61,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209133/",
  "head":
- "Philharmonisches Konzert, 30.1.1900",
+ "Zweites Symphoniekonzert des Neuen philharmonischen Orchesters, 30.1.1900",
  "desc":
 {"listPerson":
   [
@@ -64,6 +69,14 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

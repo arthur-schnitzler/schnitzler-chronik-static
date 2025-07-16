@@ -75,11 +75,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -149,15 +149,31 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209273/",
  "head":
- "Symphoniekonzert, 17.12.1902",
+ "Drittes Symphoniekonzert im Mittwochzyklus des Wiener Konzertvereins, 17.12.1902",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Konzertverein",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

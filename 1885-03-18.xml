@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-27.">27.06.2025</date>
+            <date when-iso="2025-07-16.">16.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,6 +75,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb294895">
+                              <placeName>Helferstorferstraße 6</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -82,16 +85,27 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
+               <idno type="wienerschnitzler"/>
             </event>
             <event when-iso="1885-03-18">
-               <head>Ball Baecher, 18.3.1885</head>
+               <head>Hausball bei Bernhard Bächer, 18.3.1885</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb14743">Bächer, Bernhard</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb294895">Helferstorferstraße 6</placeName>
+                        <location>
+                           <geo>48,21383 16,36542</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207906/</idno>
             </event>

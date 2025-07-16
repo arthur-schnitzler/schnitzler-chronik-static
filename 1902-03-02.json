@@ -1,16 +1,21 @@
 [{
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
 {"listPlace":
   [
  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
  "placeName":
  "IX., Alsergrund",
  "ref":
@@ -29,15 +34,31 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209244/",
  "head":
- "Philharmonisches-Konzert, 2.3.1902",
+ "Siebtes Abonnementkonzert der Wiener Philharmoniker, 2.3.1902",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

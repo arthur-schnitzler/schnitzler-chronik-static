@@ -40,11 +40,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -58,6 +58,11 @@
  ,  {
  "placeName":
  "XVIII., Währing",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
  "ref":
  ""}
  ,  {
@@ -81,12 +86,28 @@
  "head":
  "Symphoniekonzert, 19.11.1902",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Symphoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

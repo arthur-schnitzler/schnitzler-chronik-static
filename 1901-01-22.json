@@ -133,11 +133,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -146,6 +146,11 @@
  {
  "placeName":
  "II., Leopoldstadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
  "ref":
  ""}
  ,  {
@@ -169,12 +174,28 @@
  "head":
  "Symphoniekonzert, 22.1.1901",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Symphoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

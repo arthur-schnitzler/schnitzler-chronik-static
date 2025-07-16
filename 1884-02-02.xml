@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-27.">27.06.2025</date>
+            <date when-iso="2025-07-16.">16.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,6 +75,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb295463">
+                              <placeName>Rosengasse 8</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                            </place>
@@ -82,16 +85,27 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
+               <idno type="wienerschnitzler"/>
             </event>
             <event when-iso="1884-02-02">
-               <head>Ball Monti, 2.2.1884</head>
+               <head>Hausball bei Alois Monti, 2.2.1884</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb8968">Monti, Alois</persName>
+                     </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb295463">Rosengasse 8</placeName>
+                        <location>
+                           <geo>48,21154 16,3617</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207844/</idno>
             </event>

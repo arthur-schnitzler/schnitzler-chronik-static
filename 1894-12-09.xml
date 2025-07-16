@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-06-27.">27.06.2025</date>
+            <date when-iso="2025-07-16.">16.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -117,6 +117,9 @@
                            <place corresp="#pmb192844">
                               <placeName>Opernring 19</placeName>
                            </place>
+                           <place corresp="#pmb516">
+                              <placeName>Musikverein</placeName>
+                           </place>
                         </listPlace>
                      </place>
                      <place corresp="#59">
@@ -129,7 +132,7 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-orte"/>
+               <idno type="wienerschnitzler"/>
             </event>
             <event when-iso="1894-12-09">
                <head>Tagebuch von Schnitzler, 9. 12. 1894</head>
@@ -174,13 +177,26 @@
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041124.html</idno>
             </event>
             <event when-iso="1894-12-09">
-               <head>Philharmonisches-Konzert, 9.12.1894</head>
+               <head>Drittes Abonnementkonzert der Wiener Philharmoniker, 9.12.1894</head>
                <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29378">Wiener Philharmoniker</orgName>
+                     </org>
+                  </listOrg>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208705/</idno>
             </event>

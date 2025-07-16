@@ -13,11 +13,11 @@
  "Tagebuch, 21. Dezember 1890"
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -42,14 +42,30 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/208438/",
  "head":
- "Philharmonisches-Konzert, 21.12.1890",
+ "Viertes Abonnementkonzert der Wiener Philharmoniker, 21.12.1890",
  "desc":
-{"listPerson":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
   [
 {
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }] 

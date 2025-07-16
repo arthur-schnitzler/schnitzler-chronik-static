@@ -1,10 +1,10 @@
 [{
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -13,6 +13,11 @@
  {
  "placeName":
  "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "II., Leopoldstadt",
  "ref":
  ""}
  ,  {
@@ -48,6 +53,44 @@
  {
  "placeName":
  "Sofiensäle",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/207837/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/207837/",
+ "head":
+ "Tanzkränzchen des Ruderclubs »Lia« zu Gunsten der Wiener Freiwilligen Rettungs-Gesellschaft, 26.1.1884",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Erster Wiener Ruderclub LIA",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zum weißen Rössel",
  "ref":
  ""}
  ]

@@ -55,11 +55,11 @@
 }
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -78,52 +78,6 @@
  ,  {
  "placeName":
  "IX., Alsergrund",
- "ref":
- ""}
- ]
-}
-}, {
- "type":
- "schnitzler-events",
- "color":
- "#9BC53D",
- "filename":
- "entity/208861/",
- "caption":
- "Ereignisse in der PMB",
- "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/208861/",
- "head":
- "Premiere von Sein Sohn, 16.10.1896",
- "desc":
-{"listOrg":
-  [
- {
- "orgName":
- "Raimund-Theater",
- "ref":
- ""}
- ],
- "listBibl":
-  [
- {
- "title":
- "Sein Sohn",
- "ref":
- ""}
- ],
- "listPerson":
-  [
-{
- "persName":
- "Arthur Schnitzler",
- "ref":
- ""}],
- "listPlace":
-  [
- {
- "placeName":
- "Raimund-Theater",
  "ref":
  ""}
  ]
@@ -170,6 +124,72 @@
  {
  "placeName":
  "Volkstheater",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-events",
+ "color":
+ "#9BC53D",
+ "filename":
+ "entity/42011/",
+ "caption":
+ "Ereignisse in der PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/42011/",
+ "head":
+ "Uraufführung von Sein Sohn, 16.10.1896",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Raimund-Theater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sein Sohn. Schauspiel in vier Acten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Elsa Plessner",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Max Freiburg",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Furlani",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
  "ref":
  ""}
  ]

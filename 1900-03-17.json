@@ -13,17 +13,22 @@
  "Tagebuch, 17. März 1900"
 }, {
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
 {"listPlace":
   [
  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
  "placeName":
  "IX., Alsergrund",
  "ref":
@@ -42,7 +47,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/209145/",
  "head":
- "Symphoniekonzert, 17.3.1900",
+ "Fünftes Symphoniekonzert des Neuen philharmonischen Orchesters, 17.3.1900",
  "desc":
 {"listPerson":
   [
@@ -50,7 +55,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":

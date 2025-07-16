@@ -1,10 +1,10 @@
 [{
  "type":
- "schnitzler-orte",
+ "wienerschnitzler",
  "color":
- "#045344",
+ "#ECDA98",
  "caption":
- "Aufenthaltsorte",
+ "Wiener Schnitzler",
  "head":
  "Wien",
  "desc":
@@ -13,6 +13,11 @@
  {
  "placeName":
  "I., Innere Stadt",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
+ "III., Landstraße",
  "ref":
  ""}
  ]
@@ -37,7 +42,15 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sofiensäle",
+ "ref":
+ ""}
+ ]
 }
 }, {
  "type":
@@ -51,7 +64,7 @@
  "idno":
  "https://pmb.acdh.oeaw.ac.at/entity/207848/",
  "head":
- "Soirée Kohnberger, 12.2.1884",
+ "Soirée bei Innozenz Kohnberger, 12.2.1884",
  "desc":
 {"listPerson":
   [
@@ -59,6 +72,19 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
- ""}]
+ ""},
+ {
+ "persName":
+ "Innozenz Kohnberger",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Löwelstraße 16",
+ "ref":
+ ""}
+ ]
 }
 }] 
