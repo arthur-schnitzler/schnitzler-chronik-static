@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const map = L.map("wienerschnitzler-map").setView([48.2082, 16.3738], 6);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 18,
-    attribution: "© OpenStreetMap",
+    attribution:
+      '© <a href="https://www.openstreetmap.org/">OpenStreetMap</a> | Quelle: <a href="https://www.wienerschnitzler.org/tag.html#' +
+      encodeURIComponent(datum) +
+      '" target="_blank">wienerschnitzler.org</a>',
   }).addTo(map);
 
   fetch(geojsonUrl)
@@ -25,7 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((err) => console.error("Fehler beim Laden der GeoJSON-Datei:", err));
 
-  // Wenn du `mapInitialized` brauchst, musst du es vorher deklarieren
-  // let mapInitialized = true;
   setTimeout(() => map.invalidateSize(), 200);
 });
