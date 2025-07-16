@@ -52,7 +52,7 @@
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
             <xsl:choose>
                 <xsl:when test="empty($import-eventtypes)">
-                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
+                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,wienerschnitzler,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="$import-eventtypes"/>
@@ -667,7 +667,7 @@
         </xsl:variable>
         <div class="list-container">
             <xsl:choose>
-                <xsl:when test="$e-typ = 'schnitzler-orte'">
+                <xsl:when test="$e-typ = 'wienerschnitzler'">
                     <ul>
                         <xsl:attribute name="style">
                             <xsl:text>--dot-color: </xsl:text>
@@ -680,7 +680,7 @@
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:value-of
-                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                            select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="target">
