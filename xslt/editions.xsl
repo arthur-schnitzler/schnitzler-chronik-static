@@ -43,6 +43,8 @@
                     .navBarNavDropdown ul li:nth-child(2) {
                         display: none !important;
                     }</style>
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"/>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
             </head>
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -84,6 +86,9 @@
                                 </div>
                             </div>
                             <div class="card-body">
+                                <xsl:call-template name="karte-mit-datum">
+                                    <xsl:with-param name="datum" select="$datum-iso"/>
+                                </xsl:call-template>
                                 <xsl:apply-templates select=".//tei:body"/>
                             </div>
                         </div>
@@ -96,8 +101,6 @@
                     <xsl:call-template name="html_footer"/>
                 </div>
                 <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
-                <script type="text/javascript" src="js/run.js"/>
-                <script type="text/javascript" src="js/osd_scroll.js"/>
             </body>
         </html>
     </xsl:template>
@@ -296,17 +299,17 @@
             </xsl:when>
         </xsl:choose>
         <xsl:choose>
-            <xsl:when test="tei:idno[@type= $e-typ][2] and $e-typ-multiple">
-                <xsl:for-each select="tei:idno[@type= $e-typ]">
-                   <xsl:element name="a">
-                       <xsl:attribute name="href">
-                           <xsl:value-of select="."/>
-                       </xsl:attribute>
-                    <xsl:value-of select="concat('Link ', position())"/>
-                   </xsl:element> 
-                   <xsl:if test="position() != last()">
-                       <xsl:text> / </xsl:text>
-                   </xsl:if>
+            <xsl:when test="tei:idno[@type = $e-typ][2] and $e-typ-multiple">
+                <xsl:for-each select="tei:idno[@type = $e-typ]">
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="."/>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat('Link ', position())"/>
+                    </xsl:element>
+                    <xsl:if test="position() != last()">
+                        <xsl:text> / </xsl:text>
+                    </xsl:if>
                 </xsl:for-each>
             </xsl:when>
         </xsl:choose>
@@ -579,14 +582,15 @@
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:choose>
-                                            <xsl:when test="starts-with(@ref, '#pmb') or starts-with(@ref, 'pmb')">
+                                            <xsl:when
+                                                test="starts-with(@ref, '#pmb') or starts-with(@ref, 'pmb')">
                                                 <xsl:value-of
-                                                    select="concat('https://www.wienerschnitzler.org/', replace($ref, '#', ''), '.html')"
+                                                  select="concat('https://www.wienerschnitzler.org/', replace($ref, '#', ''), '.html')"
                                                 />
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:value-of
-                                                    select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
+                                                  select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
                                                 />
                                             </xsl:otherwise>
                                         </xsl:choose>
@@ -789,4 +793,12 @@
                     else
                         $base * mam:power($base, $exp - 1)"/>
     </xsl:function>
+    <xsl:template name="karte-mit-datum">
+        <xsl:param name="datum"/>
+        <!-- HTML- und JS-Teil -->
+        <div id="collapseMap">
+            <div id="wienerschnitzler-map" style="height: 300px;" data-datum="{$datum}"/>
+        </div>
+        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@418b500/xslt/export/wienerschnitzler-map.js?v=4"></script>
+    </xsl:template>
 </xsl:stylesheet>
