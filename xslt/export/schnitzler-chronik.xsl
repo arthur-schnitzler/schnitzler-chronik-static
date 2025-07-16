@@ -82,6 +82,8 @@
                 />
             </xsl:variable>
             <div id="chronik-modal-body">
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"/>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
                 <xsl:call-template name="karte-mit-datum">
                     <xsl:with-param name="datum" select="$datum-iso"/>
                 </xsl:call-template>
