@@ -578,9 +578,18 @@
                             <xsl:element name="li">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
-                                        <xsl:value-of
-                                            select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
-                                        />
+                                        <xsl:choose>
+                                            <xsl:when test="starts-with(@ref, '#pmb') or starts-with(@ref, 'pmb')">
+                                                <xsl:value-of
+                                                    select="concat('https://www.wienerschnitzler.org/', replace($ref, '#', ''), '.html')"
+                                                />
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of
+                                                    select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
+                                                />
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </xsl:attribute>
                                     <xsl:attribute name="target">
                                         <xsl:text>_blank</xsl:text>
