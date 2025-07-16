@@ -82,6 +82,9 @@
                 />
             </xsl:variable>
             <div id="chronik-modal-body">
+                <xsl:call-template name="karte-mit-datum">
+                    <xsl:with-param name="datum" select="$datum-iso"/>
+                </xsl:call-template>
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
                     <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                 </xsl:apply-templates>
@@ -888,4 +891,12 @@
                     else
                         $base * mam:power($base, $exp - 1)"/>
     </xsl:function>
+    <xsl:template name="karte-mit-datum">
+        <xsl:param name="datum"/>
+        <!-- HTML- und JS-Teil -->
+        <div id="collapseMap">
+            <div id="wienerschnitzler-map" style="height: 300px;" data-datum="{$datum}"/>
+        </div>
+        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@418b500/xslt/export/wienerschnitzler-map.js?v=4"></script>
+    </xsl:template>
 </xsl:stylesheet>
