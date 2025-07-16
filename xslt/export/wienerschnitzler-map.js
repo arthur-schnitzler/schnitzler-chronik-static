@@ -1,12 +1,9 @@
-            const mapElement = document.getElementById("wienerschnitzler-map");
-            const datum = mapElement.getAttribute("data-datum");
-
-            document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const mapElement = document.getElementById("wienerschnitzler-map");
   if (!mapElement) return;
 
   const datum = mapElement.getAttribute("data-datum");
-  const geojsonUrl = `https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/refs/heads/main/data/editions/geojson/${datum}.geojson`;
+  const geojsonUrl = `https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/main/data/editions/geojson/${datum}.geojson`;
 
   const map = L.map("wienerschnitzler-map").setView([48.2082, 16.3738], 6);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -27,11 +24,8 @@
       map.fitBounds(layer.getBounds());
     })
     .catch((err) => console.error("Fehler beim Laden der GeoJSON-Datei:", err));
+
+  // Wenn du `mapInitialized` brauchst, musst du es vorher deklarieren
+  // let mapInitialized = true;
+  setTimeout(() => map.invalidateSize(), 200);
 });
-            
-            mapInitialized = true;
-            } else {
-            setTimeout(() => map.invalidateSize(), 200);
-            }
-            });
-            });
