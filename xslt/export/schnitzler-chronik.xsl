@@ -895,10 +895,23 @@
     </xsl:function>
     <xsl:template name="karte-mit-datum">
         <xsl:param name="datum"/>
-        <!-- HTML- und JS-Teil -->
+        
         <div id="collapseMap">
-            <div id="wienerschnitzler-map" style="height: 300px;" data-datum="{$datum}"/>
+            <div id="wienerschnitzler-map" style="height: 300px;" data-datum="{$datum}"></div>
         </div>
+        
+        <!-- Externes Leaflet-Script -->
         <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@418b500/xslt/export/wienerschnitzler-map.js?v=4"></script>
+        
+        <!-- Event-Handler für das Bootstrap-Modal -->
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+            setTimeout(function () {
+            if (typeof map !== 'undefined') {
+            map.invalidateSize();
+            }
+            }, 200);
+            });
+        </script>
     </xsl:template>
 </xsl:stylesheet>
