@@ -895,22 +895,29 @@
     </xsl:function>
     <xsl:template name="karte-mit-datum">
         <xsl:param name="datum"/>
-        
         <div id="collapseMap">
-            <div id="wienerschnitzler-map" style="height: 300px;" data-datum="{$datum}"></div>
+            <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="{$datum}"></div>
         </div>
         
         <!-- Externes Leaflet-Script -->
-        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@92e8f34/xslt/export/wienerschnitzler-map.js?v=4"></script>
+        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script>
         
         <!-- Event-Handler für das Bootstrap-Modal -->
         <script>
-            $('#myModal').on('shown.bs.modal', function () {
-            // Nur einmal initialisieren
+            $('#tagfuertag').on('shown.bs.modal', function () {
+            console.log('Modal shown event triggered');
+            // Kurz warten, dann initialisieren
+            setTimeout(function() {
             if (!window._wienerschnitzlerMapInitialized) {
             window.initWienerschnitzlerMap();
             window._wienerschnitzlerMapInitialized = true;
             }
+            }, 100);
+            });
+            
+            // Zusätzlich: Map zurücksetzen beim Schließen
+            $('#tagfuertag').on('hidden.bs.modal', function () {
+            window._wienerschnitzlerMapInitialized = false;
             });
         </script>
     </xsl:template>
