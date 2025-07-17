@@ -901,16 +901,16 @@
         </div>
         
         <!-- Externes Leaflet-Script -->
-        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@418b500/xslt/export/wienerschnitzler-map.js?v=4"></script>
+        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@92e8f34/xslt/export/wienerschnitzler-map.js?v=4"></script>
         
         <!-- Event-Handler für das Bootstrap-Modal -->
         <script>
             $('#myModal').on('shown.bs.modal', function () {
-            setTimeout(function () {
-            if (typeof map !== 'undefined') {
-            map.invalidateSize();
+            // Nur einmal initialisieren
+            if (!window._wienerschnitzlerMapInitialized) {
+            window.initWienerschnitzlerMap();
+            window._wienerschnitzlerMapInitialized = true;
             }
-            }, 200);
             });
         </script>
     </xsl:template>
