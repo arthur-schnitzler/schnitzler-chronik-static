@@ -280,10 +280,10 @@
                             </xsl:choose>
                         </xsl:element>
                         <span class="toggle-icon" data-bs-toggle="collapse"
-                            data-bs-target="#{$e-typ}" aria-expanded="true" aria-controls="content1"
-                            >−</span>
+                            data-bs-target="#{$e-typ}" aria-expanded="false" aria-controls="content1"
+                            style="cursor: pointer; user-select: none;">+</span>
                     </div>
-                    <div class="collapse show">
+                    <div class="collapse">
                         <xsl:attribute name="id">
                             <xsl:value-of select="$e-typ"/>
                         </xsl:attribute>
@@ -296,7 +296,7 @@
                 <xsl:for-each
                     select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
                     <!-- hier nun die einzelnen events -->
-                    <div id="content1" class="collapse show">
+                    <div id="content1" class="collapse">
                         <xsl:apply-templates mode="desc"/>
                     </div>
                 </xsl:for-each>
