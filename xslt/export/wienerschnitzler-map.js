@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+// wienerschnitzler-map.js
+window.initWienerschnitzlerMap = function () {
   const mapElement = document.getElementById("wienerschnitzler-map");
   if (!mapElement) return;
 
@@ -29,4 +30,4 @@ document.addEventListener("DOMContentLoaded", function () {
     .catch((err) => console.error("Fehler beim Laden der GeoJSON-Datei:", err));
 
   setTimeout(() => map.invalidateSize(), 200);
-});
+};
