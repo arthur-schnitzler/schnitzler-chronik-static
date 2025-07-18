@@ -333,6 +333,20 @@
         <xsl:if test="tei:head">
             <p>
                 <xsl:choose>
+                    <xsl:when test="$e-typ='wienerschnitzler'">
+                        <xsl:element name="a">
+                            <xsl:attribute name="class">
+                                <xsl:text>entry-title</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('http://wienerschnitzler.org/pmb', replace(@corresp, '#', ''), '.html')"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:head/text()"/>
+                        </xsl:element>
+                    </xsl:when>
                     <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
                         <xsl:element name="a">
                             <xsl:attribute name="class">
@@ -685,9 +699,10 @@
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:choose>
-                                            <xsl:when test="starts-with(@ref, '#pmb') or starts-with(@ref, 'pmb')">
+                                            <xsl:when
+                                                test="starts-with($ref, 'pmb')">
                                                 <xsl:value-of
-                                                    select="concat('https://www.wienerschnitzler.org/', replace($ref, '#', ''), '.html')"
+                                                    select="concat('https://www.wienerschnitzler.org/', $ref, '.html')"
                                                 />
                                             </xsl:when>
                                             <xsl:otherwise>
