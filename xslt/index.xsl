@@ -69,7 +69,7 @@
                                     <li><a href="1927-11-07.xml">1927-11-07.xml</a></li>
                                 </ul>
                             </p>
-                            <p class="mt-3">Derzeit sind insgesamt über 50.000 Daten aufgenommen. Folgende digitale Editionen
+                            <p class="mt-3">Derzeit sind insgesamt knapp 64.000 Daten aufgenommen. Folgende digitale Editionen
                                 sind
                                 eingebunden:</p>
                             <ul>
@@ -83,7 +83,11 @@
                                 <li>
                                     <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/"
                                         target="_blank">Arthur Schnitzler: <i>Briefwechsel mit
-                                            Autorinnen und Autoren</i></a> (3.049 Einträge)
+                                            Autorinnen und Autoren</i></a> (3.800 Einträge)
+                                </li>
+                                <li>
+                                    <a href="https://wienerschnitzler.org/" target="blank">Wiener Schnitzler – Schnitzlers Wien. Eine geografische Verortung</a> (23.593 Einträge)
+                                    
                                 </li>
                                 <li>
                                     <a href="https://pollaczek.acdh.oeaw.ac.at/" target="_blank"
@@ -106,12 +110,9 @@
                                 berücksichtigt:</p>
                             <ul>
                                 <li>
-                                    <a href="https://schnitzler-orte.acdh.oeaw.ac.at/"
-                                        target="_blank">
-                                        <i>Aufenthaltsorte von Arthur Schnitzler</i> 
-                                    </a> (22.556 Einträge)
+                                    <a href="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/">Datumsangaben in der Mikroverfilmung des Cambridger Nachlassteils von Arthur Schnitzler</a>, erhoben
+                                    von Julius Handl (1065 Einträge)
                                 </li>
-                                
                                 <li>
                                     <a href="https://kalliope-verbund.info/search.html?q=Arthur+Schnitzler" target="_blank">
                                         <i>Suche »Arthur Schnitzler« im Verbundkatalog Kalliope</i>
@@ -151,9 +152,14 @@
                                 digitalen Ressourcen, die es ermöglichen, umfassende Recherchen zum
                                 Leben und Werk Arthur Schnitzlers für jeden Tag seines Lebens
                                 durchzuführen.</p>
+                            <p class="mt-3">Die »Chronik« ist nicht nur quelloffen, sondern ist auch offen
+                            für Beiträge von weiteren Forschungsprojekten und Unternehmungen. Bitte nehmen Sie
+                            Kontakt auf!
+                            </p>
+                        </div>
                             <p class="mt-3"/>
                             <p class="mt-3" style="text-align:right; font-style: italic;">Martin
-                                Anton Müller, Laura Untner<br/>Wien, Mai 2023</p>
+                                Anton Müller, Laura Untner<br/>Wien, Mai 2023 – 2025</p>
 
                         </div>
                     </div>
