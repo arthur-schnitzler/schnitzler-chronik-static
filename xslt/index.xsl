@@ -133,7 +133,7 @@
                                     ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
                                     Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
                                     1984. (Neue Frau)  (163 Einträge)</li>
-                                <li>Ergänzungen über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a> (34 Einträge)</li>
+                                <li>Ergänzungen über eine <a href="https://docs.google.com/spreadsheets/d/1D7DOS22f-j5o6BfCANtqTdRebi8Q4_cAsqqMcrNbRxw/edit#gid=0" target="_blank">Google Sheet-Tabelle</a> (64 Einträge)</li>
                             </ul>
                             <p class="mt-3">Es ist geplant, die Webseite fortlaufend zu erweitern.
                                 Dies soll unter anderem durch das Einbinden von Erscheinungsdaten
