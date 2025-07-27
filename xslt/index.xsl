@@ -198,8 +198,9 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
                     <xsl:call-template name="html_footer"/>
-                </div>
+               
             </body>
         </html>
     </xsl:template>
