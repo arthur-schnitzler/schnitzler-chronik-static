@@ -21,6 +21,8 @@
             <body class="page" style="background-color:#f1f1f1;">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
+                    
+                    <!-- Intro Section -->
                     <div class="container">
                         <div class="row intro">
                             <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
@@ -40,6 +42,8 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Main Content Section -->
                     <div class="container-fluid" style="margin:2em auto;">
                         <div style="max-width: 650px; margin: auto;">
                             <span style="display: block;
@@ -89,13 +93,13 @@
                                 <li>
                                     <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/"
                                         target="_blank">Hermann Bahr, Arthur Schnitzler:
-                                            <i>Briefwechsel, Aufzeichungen, Dokumente
-                                                (1891–1931)</i></a>  (1.367 Einträge)
+                                        <i>Briefwechsel, Aufzeichungen, Dokumente
+                                            (1891–1931)</i></a>  (1.367 Einträge)
                                 </li>
                                 <li>
                                     <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/"
                                         target="_blank">Arthur Schnitzler: <i>»Das Zeitlose ist von kürzester Dauer.« Interviews,
-                                        Meinungen, Proteste (1891–1931)</i></a>  (236 Einträge)
+                                            Meinungen, Proteste (1891–1931)</i></a>  (236 Einträge)
                                 </li>
                             </ul>
                             <p class="mt-3">Weiters werden Daten von folgenden Projekten
@@ -116,7 +120,7 @@
                                             Korrespondenzstücke</i></a> Schnitzlers bei
                                     correspSearch</li> (3.469 Einträge)
                                 <li><a
-                                    href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"  target="_blank"
+                                        href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/event/list/?name=&amp;related_entity_name=schnitzler"  target="_blank"
                                         >Ereignisse in der PMB</a> (Teilnahme an
                                     Theateraufführungen, 273 Einträge)</li> 
                                 <li>Arthur Schnitzler: <a href="https://www.wallstein-verlag.de/9783835310292-traeume.html" target="_blank">Träume. Das Traumtagebuch 1875–1931</a> (643 Einträge)</li>
@@ -136,7 +140,7 @@
                                     href="https://github.com/arthur-schnitzler/schnitzler-chronik-data/"
                                     target="_blank">GitHub</a> eingesehen und heruntergeladen
                                 werden. Der Source Code zur vorliegenden Webseite findet sich gleich
-                                    <a
+                                <a
                                     href="https://github.com/arthur-schnitzler/schnitzler-chronik-static"
                                     target="_blank">daneben</a>.</p>
                             <p class="mt-3">»Arthur Schnitzler: Chronik« ist ein Ausgangspunkt.
@@ -145,17 +149,15 @@
                                 Leben und Werk Arthur Schnitzlers für jeden Tag seines Lebens
                                 durchzuführen.</p>
                             <p class="mt-3">Die »Chronik« ist nicht nur quelloffen, sondern ist auch offen
-                            für Beiträge von weiteren Forschungsprojekten und Unternehmungen. Bitte nehmen Sie
-                            Kontakt auf!
+                                für Beiträge von weiteren Forschungsprojekten und Unternehmungen. Bitte nehmen Sie
+                                Kontakt auf!
                             </p>
-                        </div>
-                            <p class="mt-3"/>
                             <p class="mt-3" style="text-align:right; font-style: italic;">Martin
-                                Anton Müller, Laura Untner<br/>Wien, Mai 2023 – 2025</p>
-
+                                Anton Müller, Laura Untner<br/>Wien, Mai 2023 – 2025</p>
                         </div>
                     </div>
-                <div class="w-100"></div>
+                    
+                    <!-- Bottom Cards Section -->
                     <div class="container-fluid" style="margin:2em auto;">
                         <div class="row wrapper img_bottom">
                             <div class="col-md-6 col-lg-6 col-sm-12">
@@ -191,8 +193,9 @@
                             </div>
                         </div>
                     </div>
+                    
                     <xsl:call-template name="html_footer"/>
-               
+                </div>
             </body>
         </html>
     </xsl:template>
