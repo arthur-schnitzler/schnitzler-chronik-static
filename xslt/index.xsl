@@ -163,6 +163,7 @@
 
                         </div>
                     </div>
+               
                     <div class="container-fluid" style="margin:2em auto;">
                         <div class="row wrapper img_bottom">
                             <div class="col-md-6 col-lg-6 col-sm-12">
@@ -197,7 +198,6 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
