@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,16 +91,32 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-09-08.html</idno>
             </event>
             <event when-iso="1898-09-08">
-               <head>Felix Salten an Arthur Schnitzler, [zwischen 5. und 12. 9. 1898]</head>
+               <head>Felix Salten an Arthur Schnitzler, [8.? 9. 1898]</head>
                <desc>
                   <listPerson>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb3762">
+                  Elisabeth von Österreich-Ungarn
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2412">William Shakespeare</persName>
+                     </person>
                   </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb169102">Ein Wintermärchen. Schauspiel in vier Aufzügen</title>
+                     </bibl>
+                  </listBibl>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb63">XIII., Hietzing</placeName>

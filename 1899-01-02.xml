@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -81,6 +81,33 @@
                   </listPerson>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-01-02.html</idno>
+            </event>
+            <event when-iso="1899-01-02">
+               <head>Elsa Plessner an Arthur Schnitzler, 2. 1. 1899</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2128">Elsa Plessner</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb295201">Der neue Lehrer. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb43198">Die Wage. Eine Wiener Wochenschrift</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb295169">Spiegelgasse 2</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03718.html</idno>
             </event>
             <event when-iso="1899-01-02">
                <head corresp="#pmb50">Wien</head>

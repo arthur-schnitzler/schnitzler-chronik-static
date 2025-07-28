@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -141,7 +141,7 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-15.html</idno>
             </event>
             <event when-iso="1906-05-15">
-               <head>Richard Beer-Hofmann an Arthur Schnitzler, [zum 15.?] 5. 1906</head>
+               <head>Richard Beer-Hofmann an Arthur Schnitzler, [15.?] 5. 1906</head>
                <desc>
                   <listPerson>
                      <person>
@@ -153,15 +153,26 @@
                         <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
                      </bibl>
                      <bibl>
+                        <title ref="pmb144926">Der einsame Weg</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb29855">Reigen. Zehn Dialoge</title>
                      </bibl>
                   </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb37">Theater an der Wien</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -189,7 +200,7 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
                      </place>
                   </listPlace>
                </desc>

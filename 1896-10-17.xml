@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -164,7 +164,9 @@
                         <persName ref="pmb3966">Jean Thorel</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2996"> Nikolaus II. von Russland </persName>
+                        <persName ref="pmb2996">
+                  Nikolaus II. von Russland
+               </persName>
                      </person>
                      <person>
                         <persName ref="pmb112786">Alix von Hessen-Darmstadt</persName>
@@ -182,7 +184,9 @@
                         <persName ref="pmb114034">Theodor Siepmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb114760"> ?? [Wirt im Café Tannhäuser] </persName>
+                        <persName ref="pmb114760">
+                  ?? [Wirt im Café Tannhäuser]
+               </persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -190,15 +194,13 @@
                         <title ref="pmb36344">Frankfurter Zeitung</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb92876">Amourette. Pièce en trois actes. Adaptée de Arthur
-                           Schnitzler</title>
+                        <title ref="pmb92876">Amourette. Pièce en trois actes. Adaptée de Arthur Schnitzler</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb112509">Tages-Rundschau [Offizier hat Bürger
-                           niedergestochen]</title>
+                        <title ref="pmb112509">Tages-Rundschau [Offizier hat Bürger niedergestochen]</title>
                      </bibl>
                   </listBibl>
                   <listOrg>
@@ -206,8 +208,7 @@
                         <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
                      </org>
                      <org>
-                        <orgName ref="pmb29397">Société des Auteurs et Compositeurs
-                           Dramatiques</orgName>
+                        <orgName ref="pmb29397">Société des Auteurs et Compositeurs Dramatiques</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb39689">Theater in der Josefstadt</orgName>
@@ -247,6 +248,51 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02787.html</idno>
+            </event>
+            <event when-iso="1896-10-17">
+               <head>Elsa Plessner an Arthur Schnitzler, 17. 10. 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2128">Elsa Plessner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2425">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18308">Leo Feld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb294750">Clementine Plessner</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb42009">Sein Sohn</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296028">Heimweh [dreiaktige Tragikomödie]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb295211">Bäckerstraße 1</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03705.html</idno>
             </event>
             <event when-iso="1896-10-17">
                <head corresp="#pmb50">Wien</head>

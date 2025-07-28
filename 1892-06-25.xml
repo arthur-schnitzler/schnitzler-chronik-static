@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,6 +78,36 @@
                   </listPerson>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-06-25.html</idno>
+            </event>
+            <event when-iso="1892-06-25">
+               <head>Arthur Schnitzler an Karl Emil Franzos, 25. 6. 1892</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb7218">Karl Emil Franzos</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30181">Anfang vom Ende</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41113">Deutsche Dichtung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb265330">Bösendorferstraße 7</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03615.html</idno>
             </event>
             <event when-iso="1892-06-25">
                <head corresp="#pmb50">Wien</head>

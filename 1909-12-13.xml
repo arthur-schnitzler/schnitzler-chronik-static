@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,8 +128,7 @@
                   </listBibl>
                   <listOrg>
                      <org>
-                        <orgName ref="pmb29212">Neue Rundschau, Neue Deutsche Rundschau, Freie
-                           Bühne</orgName>
+                        <orgName ref="pmb29212">Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</orgName>
                      </org>
                   </listOrg>
                   <listPlace>
@@ -148,7 +147,9 @@
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
-                        <persName ref="pmb46562"> Böhm </persName>
+                        <persName ref="pmb46562">
+                  Böhm
+               </persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -166,6 +167,75 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01899.html</idno>
+            </event>
+            <event when-iso="1909-12-13">
+               <head>Stefan Zweig an Arthur Schnitzler, 13. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7827">Rudolf Herzog</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb293655">Max Jordan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11910">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11813">Siegfried Jacobsohn</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb293663">Lessing Theater. Zum ersten Male: »Der Ruf des Lebens«, Schauspiel in drei Akten von Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41512">Berliner Neueste Nachrichten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb293658">Lessing Theater. Zum ersten Mal: »Der Ruf des Lebens«, Schauspiel in drei Akten von Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41531">Berliner Tageblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb169072">Ödipus und der Ruf des Lebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36156">Die neue Rundschau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb276072">Der Ruf des Lebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41564">Die Schaubühne</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb249577">Kochgasse 8</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03624.html</idno>
             </event>
             <event when-iso="1909-12-13">
                <head corresp="#pmb50">Wien</head>

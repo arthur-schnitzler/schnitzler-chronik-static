@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,10 +140,22 @@
                      <bibl>
                         <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33041">Verleihung des Grillparzer-Preises an Artur Schnitzler</title>
+                     </bibl>
                   </listBibl>
                   <listOrg>
                      <org>
+                        <orgName ref="pmb29626">Die Zeit</orgName>
+                     </org>
+                     <org>
                         <orgName ref="pmb29677">Franz-Grillparzer-Preis</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
                      </org>
                   </listOrg>
                   <listPlace>
@@ -156,6 +168,30 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03490.html</idno>
+            </event>
+            <event when-iso="1908-01-15">
+               <head>Stefan Zweig an Arthur Schnitzler, 15. 1. 190[8]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb249577">Kochgasse 8</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03621.html</idno>
             </event>
             <event when-iso="1908-01-15">
                <head corresp="#pmb50">Wien</head>

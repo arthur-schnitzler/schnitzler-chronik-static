@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-07-16.">16.07.2025</date>
+            <date when-iso="2025-07-28.">28.07.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -108,23 +108,34 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-04-21.html</idno>
             </event>
             <event when-iso="1908-04-21">
-               <head>Felix Salten an Arthur Schnitzler, [zwischen 19. und
-                  24. 4. 1908]</head>
+               <head>Felix Salten an Arthur Schnitzler, [zwischen 19. und 21. 4. 1908]</head>
                <desc>
                   <listPerson>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb101307">Reinhard Ernst Petermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb147781">?? [Dalmatinisches Buch]</title>
+                        <title ref="pmb164584">Führer durch Dalmatien</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29931">Komtesse Mizzi oder: Der Familientag</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb169784">Unsichere Reise</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35935">Die Zeit</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb33758">Der Tod des Junggesellen. Novelle</title>
@@ -139,6 +150,18 @@
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb265">Dalmatien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb873">Triest</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb851">Pula</placeName>
                      </place>
                   </listPlace>
                </desc>
