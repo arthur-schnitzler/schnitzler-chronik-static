@@ -230,7 +230,7 @@
                             <xsl:text>entry-title</xsl:text>
                         </xsl:attribute>
                         <xsl:attribute name="href">
-                            <xsl:value-of select="concat('http://wienerschnitzler.org/pmb', replace(tei:head/@corresp, '#', ''), '.html')"/>
+                            <xsl:value-of select="concat('http://wienerschnitzler.org/', replace(tei:head/@corresp, '#', ''), '.html')"/>
                         </xsl:attribute>
                         <xsl:attribute name="target">
                             <xsl:text>_blank</xsl:text>
