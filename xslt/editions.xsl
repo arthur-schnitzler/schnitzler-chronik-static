@@ -33,12 +33,77 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@level = 'a'][1]/text()"/>
         </xsl:variable>
+        <xsl:variable name="doc_description">
+            <xsl:choose>
+                <xsl:when test="//tei:event[1]/tei:desc[normalize-space(.) != '']">
+                    <xsl:value-of select="concat('Am ', format-date($datum-iso, '[D1]. [MNn] [Y]', 'de', (), ()), ': ', substring(normalize-space(//tei:event[1]/tei:desc[1]), 1, 160))"/>
+                    <xsl:if test="string-length(normalize-space(//tei:event[1]/tei:desc[1])) > 160">
+                        <xsl:text>...</xsl:text>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="concat('Ereignisse und Dokumentation zu Arthur Schnitzler am ', format-date($datum-iso, '[D1]. [MNn] [Y]', 'de', (), ()))"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
                 <xsl:call-template name="html_head">
-                    <xsl:with-param name="html_title" select="$doc_title"/>
+                    <xsl:with-param name="html_title" select="concat($doc_title, ' | ', $project_title)"/>
+                    <xsl:with-param name="html_description" select="$doc_description"/>
+                    <xsl:with-param name="page_url" select="$link"/>
+                    <xsl:with-param name="page_date" select="$datum-iso"/>
                 </xsl:call-template>
+                
+                <!-- JSON-LD Structured Data -->
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "<xsl:value-of select="replace($doc_title, '"', '\\"')"/>",
+                    "description": "<xsl:value-of select="replace($doc_description, '"', '\\"')"/>",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Arthur Schnitzler Digital",
+                        "url": "https://www.oeaw.ac.at/acdh/"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "ACDH-CH",
+                        "url": "https://www.oeaw.ac.at/acdh/",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "<xsl:value-of select="concat($base_url, '/img/acdh-logo.png')" />"
+                        }
+                    },
+                    "datePublished": "<xsl:value-of select="$datum-iso"/>",
+                    "dateModified": "<xsl:value-of select="current-date()"/>",
+                    "url": "<xsl:value-of select="concat($base_url, '/', $link)"/>",
+                    "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "<xsl:value-of select="concat($base_url, '/', $link)"/>"
+                    },
+                    "about": {
+                        "@type": "Person",
+                        "name": "Arthur Schnitzler",
+                        "birthDate": "1862-05-15",
+                        "deathDate": "1931-10-21",
+                        "nationality": "Austrian",
+                        "occupation": ["Writer", "Playwright", "Doctor"],
+                        "sameAs": [
+                            "https://www.wikidata.org/wiki/Q44331",
+                            "https://d-nb.info/gnd/118609807"
+                        ]
+                    },
+                    "inLanguage": "de-AT",
+                    "isPartOf": {
+                        "@type": "WebSite",
+                        "name": "<xsl:value-of select="$project_title"/>",
+                        "url": "<xsl:value-of select="$base_url"/>"
+                    }
+                }
+                </script>
                 <style>
                     .navBarNavDropdown ul li:nth-child(2) {
                         display: none !important;

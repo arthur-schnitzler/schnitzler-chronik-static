@@ -8,6 +8,10 @@
     <xsl:include href="./params.xsl"/>
     <xsl:template match="/" name="html_head">
         <xsl:param name="html_title" select="$project_short_title"></xsl:param>
+        <xsl:param name="html_description" select="''"></xsl:param>
+        <xsl:param name="page_url" select="''"></xsl:param>
+        <xsl:param name="page_date" select="''"></xsl:param>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -16,9 +20,63 @@
         <meta name="apple-mobile-web-app-title" content="{$html_title}" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="{$project_logo}" />
+        
+        <!-- SEO Meta Tags -->
+        <xsl:choose>
+            <xsl:when test="$html_description != ''">
+                <meta name="description" content="{$html_description}" />
+            </xsl:when>
+            <xsl:otherwise>
+                <meta name="description" content="Chronologische Dokumentation zu Arthur Schnitzlers Leben und Werk. Tageweise Darstellung von Ereignissen, Begegnungen und literarischem Schaffen." />
+            </xsl:otherwise>
+        </xsl:choose>
+        <meta name="author" content="Arthur Schnitzler Digital" />
+        <meta name="keywords" content="Arthur Schnitzler, Literatur, Chronik, Wien, österreichische Literatur, Tagebuch" />
+        <meta name="robots" content="index, follow" />
+        
+        <!-- Canonical URL -->
+        <xsl:if test="$page_url != ''">
+            <link rel="canonical" href="{concat($base_url, '/', $page_url)}" />
+        </xsl:if>
+        
+        <!-- Open Graph Tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="{$html_title}" />
+        <xsl:choose>
+            <xsl:when test="$html_description != ''">
+                <meta property="og:description" content="{$html_description}" />
+            </xsl:when>
+            <xsl:otherwise>
+                <meta property="og:description" content="Chronologische Dokumentation zu Arthur Schnitzlers Leben und Werk" />
+            </xsl:otherwise>
+        </xsl:choose>
+        <meta property="og:site_name" content="{$project_title}" />
+        <xsl:if test="$page_url != ''">
+            <meta property="og:url" content="{concat($base_url, '/', $page_url)}" />
+        </xsl:if>
+        <meta property="og:image" content="{concat($base_url, '/img/schnitzler-chronik-og.jpg')}" />
+        <meta property="og:image:alt" content="Arthur Schnitzler Chronik" />
+        <meta property="og:locale" content="de_AT" />
+        <xsl:if test="$page_date != ''">
+            <meta property="article:published_time" content="{$page_date}" />
+        </xsl:if>
+        
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="{$html_title}" />
+        <xsl:choose>
+            <xsl:when test="$html_description != ''">
+                <meta name="twitter:description" content="{$html_description}" />
+            </xsl:when>
+            <xsl:otherwise>
+                <meta name="twitter:description" content="Chronologische Dokumentation zu Arthur Schnitzlers Leben und Werk" />
+            </xsl:otherwise>
+        </xsl:choose>
+        <meta name="twitter:image" content="{concat($base_url, '/img/schnitzler-chronik-og.jpg')}" />
+        
         <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any" />
         <link rel="profile" href="http://gmpg.org/xfn/11"></link>
-        <title>schnitzler-chronik</title>
+        <title><xsl:value-of select="$html_title"/></title>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
