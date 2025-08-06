@@ -55,55 +55,6 @@
                     <xsl:with-param name="page_url" select="$link"/>
                     <xsl:with-param name="page_date" select="$datum-iso"/>
                 </xsl:call-template>
-                
-                <!-- JSON-LD Structured Data -->
-                <script type="application/ld+json">
-                {
-                    "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "<xsl:value-of select="replace($doc_title, '"', '\\"')"/>",
-                    "description": "<xsl:value-of select="replace($doc_description, '"', '\\"')"/>",
-                    "author": {
-                        "@type": "Organization",
-                        "name": "Arthur Schnitzler Digital",
-                        "url": "https://www.oeaw.ac.at/acdh/"
-                    },
-                    "publisher": {
-                        "@type": "Organization",
-                        "name": "ACDH-CH",
-                        "url": "https://www.oeaw.ac.at/acdh/",
-                        "logo": {
-                            "@type": "ImageObject",
-                            "url": "<xsl:value-of select="concat($base_url, '/img/acdh-logo.png')" />"
-                        }
-                    },
-                    "datePublished": "<xsl:value-of select="$datum-iso"/>",
-                    "dateModified": "<xsl:value-of select="current-date()"/>",
-                    "url": "<xsl:value-of select="concat($base_url, '/', $link)"/>",
-                    "mainEntityOfPage": {
-                        "@type": "WebPage",
-                        "@id": "<xsl:value-of select="concat($base_url, '/', $link)"/>"
-                    },
-                    "about": {
-                        "@type": "Person",
-                        "name": "Arthur Schnitzler",
-                        "birthDate": "1862-05-15",
-                        "deathDate": "1931-10-21",
-                        "nationality": "Austrian",
-                        "occupation": ["Writer", "Playwright", "Doctor"],
-                        "sameAs": [
-                            "https://www.wikidata.org/wiki/Q44331",
-                            "https://d-nb.info/gnd/118609807"
-                        ]
-                    },
-                    "inLanguage": "de-AT",
-                    "isPartOf": {
-                        "@type": "WebSite",
-                        "name": "<xsl:value-of select="$project_title"/>",
-                        "url": "<xsl:value-of select="$base_url"/>"
-                    }
-                }
-                </script>
                 <style>
                     .navBarNavDropdown ul li:nth-child(2) {
                         display: none !important;
