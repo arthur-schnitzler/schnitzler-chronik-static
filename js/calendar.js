@@ -16,22 +16,19 @@ var data = calendarData.map(r =>
   linkId: r.id,
   colors: r.colors || ['#C67F53'],  // Use multiple colors or fallback to default
   event_types: r.event_types || []
-})).filter(r => r.startDate.getFullYear() === 1900);
+})).filter(r => r.startDate.getFullYear() === 1931);
 
 
 
+
+// Filter state - all event types enabled by default
+var eventTypeFilters = {};
 
 years = Array.from(new Set(calendarData.map(getYear))).sort();
 var yearsTable = document.getElementById('years-table');
 for (var i = 0; i <= years.length; i++) {
   yearsTable.insertAdjacentHTML('beforeend', createyearcell(years[i]));
 }
-
-// Create legend/filter component
-createLegendFilter();
-
-// Filter state - all event types enabled by default
-var eventTypeFilters = {};
 
 // Create legend/filter component
 function createLegendFilter() {
@@ -171,10 +168,13 @@ function toggleEventTypeFilter(eventType) {
   }, 100);
 }
 
+// Create legend after function definition
+createLegendFilter();
+
 //document.getElementById("ybtn1900").classList.add("focus");
 
 const calendar = new Calendar('#calendar', {
-  startYear: 1900,
+  startYear: 1931,
   language: "de",
   dataSource: data,
   displayHeader: false,
