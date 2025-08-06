@@ -61,19 +61,6 @@
             <meta property="article:published_time" content="{$page_date}" />
         </xsl:if>
         
-        <!-- Twitter Card Tags -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="{$html_title}" />
-        <xsl:choose>
-            <xsl:when test="$html_description != ''">
-                <meta name="twitter:description" content="{$html_description}" />
-            </xsl:when>
-            <xsl:otherwise>
-                <meta name="twitter:description" content="Chronologische Dokumentation zu Arthur Schnitzlers Leben und Werk" />
-            </xsl:otherwise>
-        </xsl:choose>
-        <meta name="twitter:image" content="{concat($base_url, '/img/schnitzler-chronik-og.jpg')}" />
-        
         <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any" />
         <link rel="profile" href="http://gmpg.org/xfn/11"></link>
         <title><xsl:value-of select="$html_title"/></title>
