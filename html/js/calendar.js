@@ -14,7 +14,8 @@ var data = calendarData.map(r =>
   endDate: new Date(r.startDate),
   name: r.name,
   linkId: r.id,
-  color: '#C67F53'
+  colors: r.colors || ['#C67F53'],  // Use multiple colors or fallback to default
+  event_types: r.event_types || []
 })).filter(r => r.startDate.getFullYear() === 1900);
 
 
@@ -33,6 +34,18 @@ const calendar = new Calendar('#calendar', {
   language: "de",
   dataSource: data,
   displayHeader: false,
+  renderEnd: function (e) {
+    const buttons = document.querySelectorAll(".yearbtn");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove('focus');
+    }
+    document.getElementById(`ybtn${e.currentYear}`).classList.add("focus");
+    
+    // Apply custom stacking after calendar renders
+    setTimeout(() => {
+      applyEventStacking(e.currentYear);
+    }, 200);
+  },
   clickDay: function (e) {
     //window.location = e.events[0].linkId;
 
@@ -83,15 +96,146 @@ const calendar = new Calendar('#calendar', {
 
     }
     else { window.location = entries.map(entry => entry.linkId).join(); }
-  },
-  renderEnd: function (e) {
-    const buttons = document.querySelectorAll(".yearbtn");
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].classList.remove('focus');
-    }
-    document.getElementById(`ybtn${e.currentYear}`).classList.add("focus");
   }
 });
+
+// Function to apply custom event stacking for multiple event types per day
+function applyEventStacking(year) {
+  const currentYear = year || calendar.getYear();
+  const calendarElement = document.querySelector('#calendar');
+  if (!calendarElement) return;
+  
+  // Add CSS styles for stacked events
+  if (!document.getElementById('event-stacking-styles')) {
+    const style = document.createElement('style');
+    style.id = 'event-stacking-styles';
+    style.textContent = `
+      /* Improve day cell styling */
+      .calendar table td.day {
+        position: relative !important;
+        vertical-align: top !important;
+        padding: 2px !important;
+        min-height: 30px !important;
+      }
+      
+      /* Ensure day content appears above event bars */
+      .calendar .day-content {
+        position: relative !important;
+        z-index: 10 !important;
+      }
+      
+      /* Custom event bars container */
+      .custom-event-bars {
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+        pointer-events: auto !important;
+      }
+      
+      .custom-event-bars .custom-event-bar {
+        height: 2px !important;
+        width: 100% !important;
+        display: block !important;
+        margin: 0 !important;
+        border: none !important;
+      }
+      
+      /* Hide original events completely */
+      .calendar .event {
+        display: none !important;
+      }
+      
+      /* Improve hover effect */
+      .calendar table td.day:hover {
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2) !important;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+  
+  // Create custom event bars after calendar renders
+  setTimeout(() => {
+    // Create our own data source from calendarData
+    const dataSource = calendarData.map(r => ({
+      startDate: new Date(r.startDate),
+      endDate: new Date(r.startDate),
+      name: r.name,
+      linkId: r.id,
+      event_types: r.event_types || [],
+      colors: r.colors || ['#C67F53']
+    })).filter(r => r.startDate.getFullYear() === currentYear);
+    
+    // Process each day cell
+    const dayElements = calendarElement.querySelectorAll('td.day');
+    
+    dayElements.forEach((dayEl) => {
+      let eventsForDay = [];
+      
+      // Try to extract date from day element
+      const dayContentEl = dayEl.querySelector('.day-content');
+      if (!dayContentEl) return;
+      
+      const dayText = dayContentEl.textContent.trim();
+      const dayNumber = parseInt(dayText);
+      
+      if (dayNumber && dayNumber >= 1 && dayNumber <= 31) {
+        // Find the month container this day belongs to
+        let currentMonth = -1;
+        const monthContainers = calendarElement.querySelectorAll('.month-container');
+        for (let i = 0; i < monthContainers.length; i++) {
+          const container = monthContainers[i];
+          if (container.contains(dayEl)) {
+            currentMonth = i;
+            break;
+          }
+        }
+        
+        if (currentMonth >= 0) {
+          // Find events that match this exact day, month and year
+          eventsForDay = dataSource.filter(event => {
+            const eventDate = event.startDate.getDate();
+            const eventMonth = event.startDate.getMonth();
+            const eventYear = event.startDate.getFullYear();
+            return eventDate === dayNumber && 
+                   eventMonth === currentMonth && 
+                   eventYear === currentYear;
+          });
+        }
+      }
+      
+      // Remove existing custom bars
+      const existingBars = dayEl.querySelector('.custom-event-bars');
+      if (existingBars) {
+        existingBars.remove();
+      }
+      
+      if (eventsForDay.length > 0 && eventsForDay[0].colors) {
+        // Create container for custom event bars
+        const barsContainer = document.createElement('div');
+        barsContainer.className = 'custom-event-bars';
+        
+        // Create individual bars for each event type - stacked vertically
+        eventsForDay[0].colors.forEach((color, index) => {
+          const bar = document.createElement('div');
+          bar.className = 'custom-event-bar';
+          bar.style.backgroundColor = color;
+          bar.style.height = '2px';
+          bar.style.width = '100%';
+          bar.style.display = 'block';
+          bar.title = eventsForDay[0].event_types[index] || 'Event type';
+          barsContainer.appendChild(bar);
+        });
+        
+        dayEl.appendChild(barsContainer);
+      }
+    });
+  }, 300);
+}
 
 function updateyear(year) {
   calendar.setYear(year);
@@ -101,7 +245,16 @@ function updateyear(year) {
     endDate: new Date(r.startDate),
     name: r.name,
     linkId: r.id,
-    color: '#C67F53'
+    colors: r.colors || ['#C67F53'],  // Use multiple colors or fallback to default
+    event_types: r.event_types || []
   })).filter(r => r.startDate.getFullYear() === parseInt(year));
+  
+  // Update global data variable
+  data = dataSource;
   calendar.setDataSource(dataSource);
+  
+  // Apply custom stacking after year change
+  setTimeout(() => {
+    applyEventStacking(parseInt(year));
+  }, 200);
 }
