@@ -35,6 +35,9 @@ function createLegendFilter() {
   const yearsTable = document.getElementById('years-table');
   if (!yearsTable) return;
   
+  // Initialize eventTypeFilters if not already done
+  eventTypeFilters = eventTypeFilters || {};
+  
   // Get all unique event types and their colors from calendar data
   const eventTypeMap = new Map();
   calendarData.forEach(item => {
@@ -153,6 +156,9 @@ function createLegendFilter() {
 
 // Toggle event type filter and refresh calendar
 function toggleEventTypeFilter(eventType) {
+  if (!eventTypeFilters) {
+    eventTypeFilters = {};
+  }
   eventTypeFilters[eventType] = !eventTypeFilters[eventType];
   
   // Update the checkbox state
@@ -168,8 +174,10 @@ function toggleEventTypeFilter(eventType) {
   }, 100);
 }
 
-// Create legend after function definition
-createLegendFilter();
+// Initialize the legend after all variables are ready
+setTimeout(() => {
+  createLegendFilter();
+}, 100);
 
 //document.getElementById("ybtn1900").classList.add("focus");
 
@@ -369,7 +377,7 @@ function applyEventStacking(year) {
         // Only show bars for enabled event types
         eventsForDay[0].colors.forEach((color, index) => {
           const eventType = eventsForDay[0].event_types[index];
-          if (eventType && eventTypeFilters[eventType]) {
+          if (eventType && eventTypeFilters && eventTypeFilters[eventType]) {
             const bar = document.createElement('div');
             bar.className = 'custom-event-bar';
             bar.style.backgroundColor = color;
