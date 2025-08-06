@@ -215,7 +215,7 @@ setTimeout(() => {
 //document.getElementById("ybtn1900").classList.add("focus");
 
 const calendar = new Calendar('#calendar', {
-  startYear: 1931,
+  startYear: 1900,
   language: "de",
   dataSource: [], // Empty - we handle events manually
   displayHeader: false,
