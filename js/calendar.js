@@ -104,7 +104,17 @@ function createLegendFilter() {
   // Create legend container
   const legendContainer = document.createElement('div');
   legendContainer.id = 'legend-filter';
-  legendContainer.style.cssText = 'margin-top: 15px; text-align: center; padding: 10px; border-top: 1px solid #e0e0e0; max-height: 200px; overflow-y: auto;';
+  legendContainer.style.cssText = `
+    margin: 15px 0; 
+    padding: 15px; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 8px;
+    font-size: 13px;
+  `;
   
   // Create legend items
   const sortedEventTypes = Array.from(eventTypeMap.entries()).sort((a, b) => {
@@ -116,11 +126,19 @@ function createLegendFilter() {
   sortedEventTypes.forEach(([eventType, color]) => {
     const label = eventTypeLabels[eventType] || eventType;
     const legendItem = document.createElement('div');
-    legendItem.style.cssText = 'display: inline-block; margin: 5px 10px; cursor: pointer; user-select: none; font-size: 12px;';
+    legendItem.style.cssText = `
+      display: flex; 
+      align-items: center; 
+      cursor: pointer; 
+      user-select: none; 
+      padding: 4px 8px; 
+      border-radius: 4px;
+      transition: background-color 0.2s ease;
+    `;
     legendItem.innerHTML = `
-      <input type="checkbox" id="filter-${eventType}" checked style="margin-right: 6px;" aria-describedby="legend-desc-${eventType}">
-      <span style="display: inline-block; width: 10px; height: 10px; background-color: ${color}; margin-right: 4px; vertical-align: middle; border-radius: 2px;" aria-hidden="true"></span>
-      <label for="filter-${eventType}" style="cursor: pointer; font-size: 12px; color: #333;" id="legend-desc-${eventType}">${label}</label>
+      <input type="checkbox" id="filter-${eventType}" checked style="margin-right: 8px;" aria-describedby="legend-desc-${eventType}">
+      <span style="display: inline-block; width: 14px; height: 14px; background-color: ${color}; margin-right: 8px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.1);" aria-hidden="true"></span>
+      <label for="filter-${eventType}" style="cursor: pointer; font-size: 13px; color: #333; line-height: 1.3;" id="legend-desc-${eventType}">${label}</label>
     `;
     
     // Add click handler for the entire item
@@ -142,6 +160,15 @@ function createLegendFilter() {
       }
     });
     
+    // Add hover effects
+    legendItem.addEventListener('mouseenter', function() {
+      legendItem.style.backgroundColor = '#e9ecef';
+    });
+    
+    legendItem.addEventListener('mouseleave', function() {
+      legendItem.style.backgroundColor = '';
+    });
+    
     // Make focusable
     legendItem.setAttribute('tabindex', '0');
     legendItem.setAttribute('role', 'checkbox');
@@ -150,8 +177,14 @@ function createLegendFilter() {
     legendContainer.appendChild(legendItem);
   });
   
-  // Insert legend after years table
-  yearsTable.parentNode.insertBefore(legendContainer, yearsTable.nextSibling);
+  // Insert legend before the calendar
+  const calendarElement = document.querySelector('#calendar');
+  if (calendarElement) {
+    calendarElement.parentNode.insertBefore(legendContainer, calendarElement);
+  } else {
+    // Fallback: insert after years table if calendar not found yet
+    yearsTable.parentNode.insertBefore(legendContainer, yearsTable.nextSibling);
+  }
 }
 
 // Toggle event type filter and refresh calendar
@@ -184,7 +217,7 @@ setTimeout(() => {
 const calendar = new Calendar('#calendar', {
   startYear: 1931,
   language: "de",
-  dataSource: data,
+  dataSource: [], // Empty - we handle events manually
   displayHeader: false,
   renderEnd: function (e) {
     const buttons = document.querySelectorAll(".yearbtn");
@@ -401,7 +434,9 @@ function applyEventStacking(year) {
 
 function updateyear(year) {
   calendar.setYear(year);
-  const dataSource = calendarData.map(r =>
+  
+  // Update global data variable for our custom rendering
+  data = calendarData.map(r =>
   ({
     startDate: new Date(r.startDate),
     endDate: new Date(r.startDate),
@@ -411,9 +446,7 @@ function updateyear(year) {
     event_types: r.event_types || []
   })).filter(r => r.startDate.getFullYear() === parseInt(year));
   
-  // Update global data variable
-  data = dataSource;
-  calendar.setDataSource(dataSource);
+  // Don't set dataSource - we handle events manually
   
   // Apply custom stacking after year change
   setTimeout(() => {
