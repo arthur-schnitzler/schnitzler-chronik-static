@@ -57,7 +57,7 @@
         <meta property="og:image" content="{concat($base_url, '/img/schnitzler-chronik-og.jpg')}" />
         <meta property="og:image:alt" content="Arthur Schnitzler Chronik" />
         <meta property="og:locale" content="de_AT" />
-        <xsl:if test="$page_date != ''">
+        <xsl:if test="string($page_date) != ''">
             <meta property="article:published_time" content="{$page_date}" />
         </xsl:if>
         
