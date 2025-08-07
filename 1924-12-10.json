@@ -84,6 +84,11 @@
  "pmb10992"},
  {
  "persName":
+ "Gaius Iulius Caesar",
+ "ref":
+ "pmb14796"},
+ {
+ "persName":
  "Charles Maurice de Talleyrand-Périgord",
  "ref":
  "pmb5533"},
@@ -99,17 +104,17 @@
  "pmb5539"},
  {
  "persName":
- "Gaius Iulius Caesar",
- "ref":
- "pmb14796"},
- {
- "persName":
  "Erwin Magnus",
  "ref":
  "pmb5543"}],
  "listBibl":
   [
  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
  "title":
  "Fräulein Else",
  "ref":
@@ -121,9 +126,9 @@
  "pmb30205"}
  ,  {
  "title":
- "Lieutenant Gustl. Novelle",
+ "Gaius Julius Cæsar",
  "ref":
- "pmb29853"}
+ "pmb33376"}
  ,  {
  "title":
  "Hertuginden af Dino og Fyrsten af Talleyrand",
@@ -139,11 +144,6 @@
  "Urkristendom",
  "ref":
  "pmb33404"}
- ,  {
- "title":
- "Gaius Julius Cæsar",
- "ref":
- "pmb33376"}
  ],
  "listOrg":
   [
@@ -157,14 +157,29 @@
   [
  {
  "placeName":
+ "Seeland",
+ "ref":
+ "pmb1154"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
  "Kopenhagen",
  "ref":
  "pmb36300"}
  ,  {
  "placeName":
- "Wien",
+ "Österreich",
  "ref":
- "pmb50"}
+ "pmb41240"}
  ,  {
  "placeName":
  "Dänemark",
@@ -177,29 +192,14 @@
  "pmb44252"}
  ,  {
  "placeName":
- "Seeland",
+ "Wien",
  "ref":
- "pmb1154"}
+ "pmb50"}
  ,  {
  "placeName":
  "Skandinavien",
  "ref":
  "pmb745"}
- ,  {
- "placeName":
- "Russland",
- "ref":
- "pmb34438"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Frankreich",
- "ref":
- "pmb166"}
  ]
 }
 }, {
@@ -219,6 +219,16 @@
 {"listPerson":
   [
 {
+ "persName":
+ "Albert Einstein",
+ "ref":
+ "pmb11237"},
+ {
+ "persName":
+ "Frank Wedekind",
+ "ref":
+ "pmb13068"},
+ {
  "persName":
  "Else Lasker-Schüler",
  "ref":
@@ -240,16 +250,6 @@
  "pmb88461"},
  {
  "persName":
- "Frank Wedekind",
- "ref":
- "pmb13068"},
- {
- "persName":
- "Albert Einstein",
- "ref":
- "pmb11237"},
- {
- "persName":
  "?? [Freund 2 von Paul Lasker Schüler]",
  "ref":
  "pmb88464"}],
@@ -260,31 +260,6 @@
  "Berlin",
  "ref":
  "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Motzstraße",
- "ref":
- "pmb52928"}
- ,  {
- "placeName":
- "Hotel Koschel",
- "ref":
- "pmb88435"}
- ,  {
- "placeName":
- "Florianigasse",
- "ref":
- "pmb818"}
- ,  {
- "placeName":
- "Gastwirtschaft Schiedlbauer",
- "ref":
- "pmb88429"}
  ,  {
  "placeName":
  "Café Central",
@@ -302,9 +277,34 @@
  "pmb484"}
  ,  {
  "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Motzstraße",
+ "ref":
+ "pmb52928"}
+ ,  {
+ "placeName":
+ "Florianigasse",
+ "ref":
+ "pmb818"}
+ ,  {
+ "placeName":
  "Haberlandstraße",
  "ref":
  "pmb88409"}
+ ,  {
+ "placeName":
+ "Gastwirtschaft Schiedlbauer",
+ "ref":
+ "pmb88429"}
+ ,  {
+ "placeName":
+ "Hotel Koschel",
+ "ref":
+ "pmb88435"}
  ]
 }
 }, {

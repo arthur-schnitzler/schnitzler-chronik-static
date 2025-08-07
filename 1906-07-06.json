@@ -51,29 +51,9 @@
   [
 {
  "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
- {
- "persName":
- "Richard Strauss",
- "ref":
- "pmb12870"},
- {
- "persName":
- "Max Liebermann",
- "ref":
- "pmb12068"},
- {
- "persName":
  "Ludwig Bauer",
  "ref":
  "pmb10848"},
- {
- "persName":
- "Ernst Egon Friedegg",
- "ref":
- "pmb147600"},
  {
  "persName":
  "Julius von Gans-Ludassy",
@@ -81,24 +61,19 @@
  "pmb11406"},
  {
  "persName":
- "Ignaz Salzmann",
+ "Max Liebermann",
  "ref":
- "pmb142919"},
+ "pmb12068"},
  {
  "persName":
- "Agathe Salzmann",
+ "Heinrich Schnitzler",
  "ref":
- "pmb147584"},
+ "pmb12692"},
  {
  "persName":
- "Marie Salzmann",
+ "Richard Strauss",
  "ref":
- "pmb142895"},
- {
- "persName":
- "Katharina Salzmann",
- "ref":
- "pmb142958"},
+ "pmb12870"},
  {
  "persName":
  "Philipp Salzmann",
@@ -106,19 +81,34 @@
  "pmb142892"},
  {
  "persName":
- "Ottilie Salten",
+ "Marie Salzmann",
  "ref":
- "pmb23918"},
+ "pmb142895"},
  {
  "persName":
- "Anna Katharina Rehmann",
+ "Ignaz Salzmann",
  "ref":
- "pmb23915"},
+ "pmb142919"},
  {
  "persName":
- "Paul Salten",
+ "Katharina Salzmann",
  "ref":
- "pmb2922"},
+ "pmb142958"},
+ {
+ "persName":
+ "Agathe Salzmann",
+ "ref":
+ "pmb147584"},
+ {
+ "persName":
+ "Ernst Egon Friedegg",
+ "ref":
+ "pmb147600"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
  {
  "persName":
  "Olga Schnitzler",
@@ -126,9 +116,19 @@
  "pmb2173"},
  {
  "persName":
- "Heinrich Schnitzler",
+ "Anna Katharina Rehmann",
  "ref":
- "pmb12692"}],
+ "pmb23915"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "pmb23918"},
+ {
+ "persName":
+ "Paul Salten",
+ "ref":
+ "pmb2922"}],
  "listBibl":
   [
  {
@@ -141,9 +141,9 @@
   [
  {
  "orgName":
- "Berliner Morgenpost",
+ "Die Zeit",
  "ref":
- "pmb46218"}
+ "pmb29626"}
  ,  {
  "orgName":
  "B.Z. am Mittag",
@@ -151,97 +151,22 @@
  "pmb29702"}
  ,  {
  "orgName":
- "Die Zeit",
- "ref":
- "pmb29626"}
- ,  {
- "orgName":
  "Morgen. Wochenschrift für deutsche Kultur",
  "ref":
  "pmb34262"}
+ ,  {
+ "orgName":
+ "Berliner Morgenpost",
+ "ref":
+ "pmb46218"}
  ],
  "listPlace":
   [
  {
  "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Marienlyst",
- "ref":
- "pmb959"}
- ,  {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Preußen",
- "ref":
- "pmb206"}
- ,  {
- "placeName":
- "England",
- "ref":
- "pmb254"}
- ,  {
- "placeName":
- "Bansin",
- "ref":
- "pmb147498"}
- ,  {
- "placeName":
- "Kopenhagen",
- "ref":
- "pmb36300"}
- ,  {
- "placeName":
  "Nordsee",
  "ref":
  "pmb118890"}
- ,  {
- "placeName":
- "Noordwijk",
- "ref":
- "pmb960"}
- ,  {
- "placeName":
- "London",
- "ref":
- "pmb224"}
- ,  {
- "placeName":
- "Stratford-upon-Avon",
- "ref":
- "pmb49870"}
- ,  {
- "placeName":
- "Cambridge",
- "ref":
- "pmb893"}
- ,  {
- "placeName":
- "Southampton",
- "ref":
- "pmb47658"}
- ,  {
- "placeName":
- "Plymouth",
- "ref":
- "pmb147595"}
  ,  {
  "placeName":
  "Cherbourg-Octeville",
@@ -249,14 +174,89 @@
  "pmb145903"}
  ,  {
  "placeName":
- "Dornbach",
+ "Bansin",
  "ref":
- "pmb499"}
+ "pmb147498"}
+ ,  {
+ "placeName":
+ "Plymouth",
+ "ref":
+ "pmb147595"}
  ,  {
  "placeName":
  "Seestraße",
  "ref":
  "pmb147597"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Preußen",
+ "ref":
+ "pmb206"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb254"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Southampton",
+ "ref":
+ "pmb47658"}
+ ,  {
+ "placeName":
+ "Stratford-upon-Avon",
+ "ref":
+ "pmb49870"}
+ ,  {
+ "placeName":
+ "Dornbach",
+ "ref":
+ "pmb499"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Cambridge",
+ "ref":
+ "pmb893"}
+ ,  {
+ "placeName":
+ "Marienlyst",
+ "ref":
+ "pmb959"}
+ ,  {
+ "placeName":
+ "Noordwijk",
+ "ref":
+ "pmb960"}
  ]
 }
 }, {

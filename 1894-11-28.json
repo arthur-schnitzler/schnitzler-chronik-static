@@ -73,14 +73,9 @@
   [
  {
  "placeName":
- "IV., Wieden",
+ "Wollzeile",
  "ref":
- "pmb54"}
- ,  {
- "placeName":
- "I., Innere Stadt",
- "ref":
- "pmb51"}
+ "pmb338"}
  ,  {
  "placeName":
  "Wien",
@@ -88,9 +83,14 @@
  "pmb50"}
  ,  {
  "placeName":
- "Wollzeile",
+ "I., Innere Stadt",
  "ref":
- "pmb338"}
+ "pmb51"}
+ ,  {
+ "placeName":
+ "IV., Wieden",
+ "ref":
+ "pmb54"}
  ]
 }
 }, {
@@ -111,24 +111,9 @@
   [
 {
  "persName":
- "Paul Goldmann",
+ "Hermann Bahr",
  "ref":
- "pmb11485"},
- {
- "persName":
- "Leopold Sonnemann",
- "ref":
- "pmb87771"},
- {
- "persName":
- "Gabriele D’Annunzio",
- "ref":
- "pmb2142"},
- {
- "persName":
- "Pierre Lalo",
- "ref":
- "pmb8429"},
+ "pmb10815"},
  {
  "persName":
  "Richard Beer-Hofmann",
@@ -136,29 +121,9 @@
  "pmb10863"},
  {
  "persName":
- "Hermann Bahr",
+ "Moriz Benedikt",
  "ref":
- "pmb10815"},
- {
- "persName":
- "Friedrich Uhl",
- "ref":
- "pmb12987"},
- {
- "persName":
- "Hugo Lubliner",
- "ref":
- "pmb8722"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "pmb12618"},
- {
- "persName":
- "Ludwig Speidel",
- "ref":
- "pmb12816"},
+ "pmb10875"},
  {
  "persName":
  "Max Eugen Burckhard",
@@ -166,14 +131,9 @@
  "pmb11036"},
  {
  "persName":
- "Clemens Sokal",
+ "Paul Goldmann",
  "ref":
- "pmb25076"},
- {
- "persName":
- "Moriz Benedikt",
- "ref":
- "pmb10875"},
+ "pmb11485"},
  {
  "persName":
  "Theodor Herzl",
@@ -181,9 +141,9 @@
  "pmb11673"},
  {
  "persName":
- "Louise Schnitzler",
+ "Adele Sandrock",
  "ref":
- "pmb12701"},
+ "pmb12618"},
  {
  "persName":
  "Julius Schnitzler",
@@ -191,16 +151,86 @@
  "pmb12698"},
  {
  "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Ludwig Speidel",
+ "ref":
+ "pmb12816"},
+ {
+ "persName":
+ "Friedrich Uhl",
+ "ref":
+ "pmb12987"},
+ {
+ "persName":
+ "Gabriele D’Annunzio",
+ "ref":
+ "pmb2142"},
+ {
+ "persName":
  "Helene Schnitzler",
  "ref":
- "pmb24423"}],
+ "pmb24423"},
+ {
+ "persName":
+ "Clemens Sokal",
+ "ref":
+ "pmb25076"},
+ {
+ "persName":
+ "Pierre Lalo",
+ "ref":
+ "pmb8429"},
+ {
+ "persName":
+ "Hugo Lubliner",
+ "ref":
+ "pmb8722"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"}],
  "listBibl":
   [
  {
  "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
  "Sterben. Novelle",
  "ref":
  "pmb30117"}
+ ,  {
+ "title":
+ "Novellen",
+ "ref":
+ "pmb32832"}
+ ,  {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "Urfaust",
+ "ref":
+ "pmb76800"}
+ ,  {
+ "title":
+ "Das neue Stück. Lustspiel in 4 Acten",
+ "ref":
+ "pmb80892"}
+ ,  {
+ "title":
+ "Wiener Brief",
+ "ref":
+ "pmb88060"}
  ,  {
  "title":
  "Au jour le jour. M. Arthur Schnitzler",
@@ -211,44 +241,14 @@
  "Journal des débats. Politiques et littéraires",
  "ref":
  "pmb92648"}
- ,  {
- "title":
- "Novellen",
- "ref":
- "pmb32832"}
- ,  {
- "title":
- "Urfaust",
- "ref":
- "pmb76800"}
- ,  {
- "title":
- "Wiener Brief",
- "ref":
- "pmb88060"}
- ,  {
- "title":
- "Das neue Stück. Lustspiel in 4 Acten",
- "ref":
- "pmb80892"}
- ,  {
- "title":
- "Frankfurter Zeitung",
- "ref":
- "pmb36344"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
  ],
  "listOrg":
   [
  {
  "orgName":
- "Frankfurter Zeitung",
+ "Die Zeit. Wiener Wochenschrift",
  "ref":
- "pmb29442"}
+ "pmb29209"}
  ,  {
  "orgName":
  "Journal des débats",
@@ -256,9 +256,9 @@
  "pmb29221"}
  ,  {
  "orgName":
- "Volkstheater",
+ "Frankfurter Zeitung",
  "ref":
- "pmb36430"}
+ "pmb29442"}
  ,  {
  "orgName":
  "Burgtheater",
@@ -266,9 +266,9 @@
  "pmb36247"}
  ,  {
  "orgName":
- "Die Zeit. Wiener Wochenschrift",
+ "Volkstheater",
  "ref":
- "pmb29209"}
+ "pmb36430"}
  ],
  "listPlace":
   [
@@ -279,14 +279,14 @@
  "pmb182"}
  ,  {
  "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
  "rue Feydeau",
  "ref":
  "pmb42671"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ,  {
  "placeName":
  "Boulevard de Courcelles",

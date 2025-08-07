@@ -68,14 +68,14 @@
   [
  {
  "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
  "Volkstheater",
  "ref":
  "pmb20"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
@@ -96,9 +96,9 @@
   [
 {
  "persName":
- "Paul Goldmann",
+ "Richard Beer-Hofmann",
  "ref":
- "pmb11485"},
+ "pmb10863"},
  {
  "persName":
  "Moriz Benedikt",
@@ -106,19 +106,9 @@
  "pmb10875"},
  {
  "persName":
- "Olga Schnitzler",
+ "Paul Goldmann",
  "ref":
- "pmb2173"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
+ "pmb11485"},
  {
  "persName":
  "Gerhart Hauptmann",
@@ -126,14 +116,9 @@
  "pmb11617"},
  {
  "persName":
- "Herman Heijermans",
+ "Hugo von Hofmannsthal",
  "ref":
- "pmb7767"},
- {
- "persName":
- "Herman (Sr.) Heijermans",
- "ref":
- "pmb144159"},
+ "pmb11740"},
  {
  "persName":
  "Alfred Kerr",
@@ -141,14 +126,9 @@
  "pmb11910"},
  {
  "persName":
- "Marie Glümer",
+ "Walther Rathenau",
  "ref":
- "pmb14953"},
- {
- "persName":
- "Auguste Glümer",
- "ref":
- "pmb14948"},
+ "pmb12471"},
  {
  "persName":
  "Irene Triesch",
@@ -156,19 +136,19 @@
  "pmb12977"},
  {
  "persName":
- "Richard Beer-Hofmann",
+ "Herman (Sr.) Heijermans",
  "ref":
- "pmb10863"},
+ "pmb144159"},
  {
  "persName":
- "Berta Doepler",
+ "Auguste Glümer",
  "ref":
- "pmb45120"},
+ "pmb14948"},
  {
  "persName":
- "Else Lasker-Schüler",
+ "Marie Glümer",
  "ref":
- "pmb38973"},
+ "pmb14953"},
  {
  "persName":
  "Peter Dorner",
@@ -176,56 +156,41 @@
  "pmb15445"},
  {
  "persName":
- "Walther Rathenau",
+ "Felix Salten",
  "ref":
- "pmb12471"},
+ "pmb2167"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
  {
  "persName":
  "Elisabeth Steinrück",
  "ref":
- "pmb2315"}],
+ "pmb2315"},
+ {
+ "persName":
+ "Else Lasker-Schüler",
+ "ref":
+ "pmb38973"},
+ {
+ "persName":
+ "Berta Doepler",
+ "ref":
+ "pmb45120"},
+ {
+ "persName":
+ "Herman Heijermans",
+ "ref":
+ "pmb7767"}],
  "listBibl":
   [
  {
  "title":
- "Neue Freie Presse",
- "ref":
- "pmb36374"}
- ,  {
- "title":
- "Theater- und Kunstnachrichten [zur Eröffnung des Jung-Wiener Theaters zum lieben Augustin]",
- "ref":
- "pmb144527"}
- ,  {
- "title":
- "Lebendige Stunden. Vier Einakter",
- "ref":
- "pmb29863"}
- ,  {
- "title":
- "Lebendige Stunden",
- "ref":
- "pmb29957"}
- ,  {
- "title":
  "Berliner Theater. (»Lebendige Stunden« von Arthur Schnitzler.)",
  "ref":
  "pmb144122"}
- ,  {
- "title":
- "Einsame Menschen. Drama",
- "ref":
- "pmb29879"}
- ,  {
- "title":
- "Berliner Theater. »Einsame Menschen« im Deutschen Theater",
- "ref":
- "pmb29861"}
- ,  {
- "title":
- "Die Hoffnung auf Segen. Eine Fischertragödie in vier Acten",
- "ref":
- "pmb79860"}
  ,  {
  "title":
  "Op hoop van zegen. Spel van de zee in vier bedrijven",
@@ -233,19 +198,49 @@
  "pmb144156"}
  ,  {
  "title":
+ "Die Schmiedekunst seit dem Ende der Renaissance",
+ "ref":
+ "pmb144245"}
+ ,  {
+ "title":
+ "Physiologie des Kunstempfindens. Der Grundsatz",
+ "ref":
+ "pmb144522"}
+ ,  {
+ "title":
+ "Theater- und Kunstnachrichten [zur Eröffnung des Jung-Wiener Theaters zum lieben Augustin]",
+ "ref":
+ "pmb144527"}
+ ,  {
+ "title":
  "»Die Hoffnung«. »Ein Seestück« von Heyermans. Erst-Aufführung im Deutschen Theater",
  "ref":
  "pmb144532"}
  ,  {
  "title":
- "Der Tag",
+ "Berliner Theater. »Einsame Menschen« im Deutschen Theater",
  "ref":
- "pmb41560"}
+ "pmb29861"}
  ,  {
  "title":
- "Die Schmiedekunst seit dem Ende der Renaissance",
+ "Lebendige Stunden. Vier Einakter",
  "ref":
- "pmb144245"}
+ "pmb29863"}
+ ,  {
+ "title":
+ "Einsame Menschen. Drama",
+ "ref":
+ "pmb29879"}
+ ,  {
+ "title":
+ "Lebendige Stunden",
+ "ref":
+ "pmb29957"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
  ,  {
  "title":
  "Die Zukunft",
@@ -253,9 +248,14 @@
  "pmb40042"}
  ,  {
  "title":
- "Physiologie des Kunstempfindens. Der Grundsatz",
+ "Der Tag",
  "ref":
- "pmb144522"}
+ "pmb41560"}
+ ,  {
+ "title":
+ "Die Hoffnung auf Segen. Eine Fischertragödie in vier Acten",
+ "ref":
+ "pmb79860"}
  ],
  "listOrg":
   [
@@ -271,14 +271,14 @@
  "pmb144041"}
  ,  {
  "orgName":
- "Frankfurter Stadttheater",
- "ref":
- "pmb88756"}
- ,  {
- "orgName":
  "Deutsches Theater Berlin",
  "ref":
  "pmb35597"}
+ ,  {
+ "orgName":
+ "Frankfurter Stadttheater",
+ "ref":
+ "pmb88756"}
  ],
  "listPlace":
   [
@@ -289,11 +289,6 @@
  "pmb168"}
  ,  {
  "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
  "Dessauer Straße",
  "ref":
  "pmb40583"}
@@ -302,6 +297,11 @@
  "Amsterdam",
  "ref":
  "pmb40709"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }, {
