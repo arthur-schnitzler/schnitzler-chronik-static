@@ -232,55 +232,16 @@ const calendar = new Calendar('#calendar', {
     }, 200);
   },
   clickDay: function (e) {
-    //window.location = e.events[0].linkId;
-
-    var entries = []
-    $.each(e.events, function (key, entry) {
-      entries.push(entry)
-    });
-    //window.location = ids.join();
-    if (entries.length > 1) {
-      let html = "<div class='modal' id='dialogForLinks' tabindex='-1' role='dialog' aria-labelledby='modalLabel' aria-hidden='true'>";
-      html += "<div class='modal-dialog' role='document'>";
-      html += "<div class='modal-content'>";
-      html += "<div class='modal-header'>";
-      html += "<h3 class='modal-title' id='modalLabel'>Links</h3>";
-      html += "<button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
-      html += "<span aria-hidden='true'>&times;</span>";
-      html += "</button></div>";
-      html += "<div class='modal-body'>";
-      let numbersTitlesAndIds = new Array();
-      for (let i = 0; i < entries.length; i++) {
-        let linkTitle = entries[i].name;
-        let linkId = entries[i].linkId;
-        let numberInSeriesOfLetters = 1;
-        numbersTitlesAndIds.push({ 'i': i, 'position': numberInSeriesOfLetters, 'linkTitle': linkTitle, 'id': linkId });
-      }
-
-      numbersTitlesAndIds.sort(function (a, b) {
-        let positionOne = parseInt(a.position);
-        let positionTwo = parseInt(b.position);
-        if (positionOne < positionTwo) {
-          return -1;
-        }
-        if (positionOne > positionTwo) {
-          return 1;
-        }
-        return 0;
-      });
-      for (let k = 0; k < numbersTitlesAndIds.length; k++) {
-        html += "<div class='indent'><a href='" + numbersTitlesAndIds[k].id + "'>" + numbersTitlesAndIds[k].linkTitle + "</a></div>";
-      }
-      html += "</div>";
-      html += "<div class='modal-footer'>";
-      html += "<button type='button' class='btn btn-secondary' data-dismiss='modal'>X</button>";
-      html += "</div></div></div></div>";
-      $('#dialogForLinks').remove();
-      $('#loadModal').append(html);
-      $('#dialogForLinks').modal('show');
-
-    }
-    else { window.location = entries.map(entry => entry.linkId).join(); }
+    // Format date to YYYY-MM-DD format and navigate to the corresponding HTML file
+    const clickedDate = e.date;
+    const year = clickedDate.getFullYear();
+    const month = String(clickedDate.getMonth() + 1).padStart(2, '0');
+    const day = String(clickedDate.getDate()).padStart(2, '0');
+    const dateString = `${year}-${month}-${day}`;
+    const htmlFile = `${dateString}.html`;
+    
+    // Navigate to the HTML file
+    window.location.href = htmlFile;
   }
 });
 
