@@ -19,9 +19,6 @@
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
             <body class="page">
-                <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
-                <script src="https://unpkg.com/js-year-calendar@latest/locales/js-year-calendar.de.js"></script>
-                <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
                 <script src="js-data/calendarData.js"></script>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
@@ -43,8 +40,11 @@
                                                 <p style="text-align:center;font-weight:bold;margin-bottom:0;">Jahr</p>
                                             </div>
                                         </div>
-                                        <div class="row justify-content-md-center" id="years-table" >
+                                        <div class="row justify-content-md-center" id="years-table">
                                             
+                                        </div>
+                                        <div id="sidebar-controls">
+                                            <!-- View controls and legend will be inserted here by JavaScript -->
                                         </div>
                                     </div>
                                     <div class="col-sm-10">
