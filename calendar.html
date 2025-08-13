@@ -37,7 +37,7 @@
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
                 g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
                 })();
-            </script><body class="page"><script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script><script src="https://unpkg.com/js-year-calendar@latest/locales/js-year-calendar.de.js"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" /><script src="js-data/calendarData.js"></script><div class="hfeed site" id="page">
+            </script><body class="page"><script src="js-data/calendarData.js"></script><div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-top hide-reading" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a><nav class="navbar"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="images/schnitzler-chronik.svg" class="img-fluid" alt="Schnitzler Tage" itemprop="logo" /></a><span style="text-align: right; margin-left: 10px; margin-right: 3em; font-weight: bold;"><a title="Kalender" class="nav-link" href="calendar.html">Kalender</a></span><span style="text-align: right; margin-left: 10px; margin-right: 3em; font-weight: bold;"><a title="Suche" class="nav-link" href="search.html">Suche</a></span></nav>
          </div>
          <div class="container-fluid">
@@ -54,6 +54,7 @@
                            </div>
                         </div>
                         <div class="row justify-content-md-center" id="years-table"></div>
+                        <div id="sidebar-controls"></div>
                      </div>
                      <div class="col-sm-10">
                         <div id="calendar"></div>
