@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,6 +88,48 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-01-15.html</idno>
             </event>
             <event when-iso="1915-01-15">
+               <head>Arthur Schnitzler an Stefan Zweig, 15. 1. 1915</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12543">Romain Rolland</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14304">Richard Bloch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb94544">Paul Amann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb58493">Journal de Genève</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb58490">Une protestation d’Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296393">Ein Brief Artur Schnitzlers</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb42406">Neue Zürcher Zeitung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03771.html</idno>
+            </event>
+            <event when-iso="1915-01-15">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -110,21 +152,6 @@
                <head>Mappe A5</head>
                <desc>»Nichts ist dem mittelmäßigen Menschen wohltuender…«</desc>
                <idno type="schnitzler-mikrofilme-daten">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1589063_0072.html</idno>
-            </event>
-            <event when-iso="1915-01-15">
-               <head>Arthur Schnitzler an Stefan Zweig, 15.1.1915</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -132,6 +132,25 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02095.html</idno>
+            </event>
+            <event when-iso="1912-11-12">
+               <head>Lou Andreas-Salomé an Arthur Schnitzler, [vor dem 15. 11. 1912?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10762">Lou Andreas-Salomé</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5416">Ellen Delp</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02097.html</idno>
             </event>
             <event when-iso="1912-11-12">
                <head>Stefan Zweig an Arthur Schnitzler, 12. 11. 1912</head>
@@ -242,33 +261,18 @@
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210467/</idno>
             </event>
             <event when-iso="1912-11-12">
-               <head>Stefan Zweig an Arthur Schnitzler, 12.11.1912</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
-            </event>
-            <event when-iso="1912-11-12">
                <head>Erhalt von Isabella Vengerova an Arthur Schnitzler, 7. 11. [1912]</head>
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/119401215">Vengerova, Isabella</persName>
+                        <persName ref="https://d-nb.info/gnd/119401215">Vengerova,
+                              Isabella</persName>
                      </person>
                   </listPerson>
-                  <bibl>Die
-                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
-                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
-                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
-                    (2022), S. 7–91.</bibl>
+                  <bibl>Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und
+                        Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton
+                        Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022),
+                        S. 7–91.</bibl>
                </desc>
                <idno type="schnitzler-cmif"
                      subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
@@ -278,12 +282,12 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler,
+                              Olga</persName>
                      </person>
                   </listPerson>
-                  <bibl>Arthur Schnitzler:
-               Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main:
-               S. Fischer 1981.</bibl>
+                  <bibl>Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich
+                        Schnitzler. Frankfurt am Main: S. Fischer 1981.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
             </event>

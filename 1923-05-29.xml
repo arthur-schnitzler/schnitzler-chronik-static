@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,12 +106,57 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
                      </person>
                      <person>
-                        <persName ref="#pmb13212">Zweig, Stefan</persName>
+                        <persName ref="pmb4836">Therese Rie</persName>
                      </person>
                   </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30899">Das Gänsemännchen. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296377">[L. Andro (Therese Rie), »Der Klimenole«, Deutsche Verlagsanstalt, Stuttgart]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296371">Der Klimenole. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb293717">Antiquariat Emil Hirsch</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb253003">Paschinger Schlössl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43570">Dänemark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44335">Schweden</placeName>
+                     </place>
+                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03758.html</idno>
             </event>
@@ -207,21 +252,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210234/</idno>
-            </event>
-            <event when-iso="1923-05-29">
-               <head>Arthur Schnitzler an Stefan Zweig, 29.5.1923</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
             </event>
             <event when-iso="1923-05-29">
                <head>Schnitzler, Arthur an Schnitzler, Libie S. [Briefe]</head>

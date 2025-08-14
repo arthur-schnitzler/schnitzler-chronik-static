@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -101,6 +101,42 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-29.html</idno>
+            </event>
+            <event when-iso="1912-05-29">
+               <head>Arthur Schnitzler an Stefan Zweig, [zwischen 25. und 31.?] 5. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13644">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17483">Max Grünfeld</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41568">Der Merker. Österreichische Zeitschrift für Musik und Theater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296412">Schnitzler und die Jugend</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296416">?? [Verse zu Arthur Schnitzlers 50. Geburtstag]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03781.html</idno>
             </event>
             <event when-iso="1912-05-29">
                <head corresp="#pmb50">Wien</head>

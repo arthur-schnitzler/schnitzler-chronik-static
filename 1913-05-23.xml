@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,43 +106,85 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
-                        <persName ref="pmb13212">Stefan Zweig</persName>
+                        <persName ref="pmb11646">Hugo Heller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26880">Adolf Weisse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb296131">J. V.</persName>
                      </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30313">Gesammelte Werke</title>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb30486">Frau Bertha Garlan. Roman</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30313">Gesammelte Werke</title>
                      </bibl>
                   </listBibl>
                   <listOrg>
+                     <org>
+                        <orgName ref="pmb296156">Bezirkshauptmannschaft Leitmeritz</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb44133">Ministerium für Inneres</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36865">Polizeidirektion Wien</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29747">Hugo Heller</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29253">Niederösterreichische Statthalterei</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb296151">Niederösterreichischer Zensurbeirat</orgName>
+                     </org>
                      <org>
                         <orgName ref="pmb29767">Akademischer Verein für Kunst und Literatur</orgName>
                      </org>
                   </listOrg>
                   <listPlace>
                      <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb249577">Kochgasse 8</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb386">Universität Wien</placeName>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb39368">Litoměřice</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb57">VII., Neubau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb386">Universität Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb836">Elektrotechnisches Institut der Technischen Universität</placeName>
@@ -225,29 +267,12 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
-            </event>
-            <event when-iso="1913-05-23">
-               <head>Stefan Zweig an Arthur Schnitzler, 23.5.1913</head>
-               <desc>
-                  <listPerson>
-                     <person>
                         <persName>Zweig, Stefan</persName>
                      </person>
                   </listPerson>
-                  <bibl> Hermann
-                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
-                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
-                    Verlag 2018 
-               </bibl>
+                  <bibl> Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente
+                        1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen:
+                        Wallstein Verlag 2018 </bibl>
                </desc>
                <idno type="schnitzler-cmif"
                      subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>

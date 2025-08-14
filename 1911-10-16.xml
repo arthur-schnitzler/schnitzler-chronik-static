@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,6 +91,32 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-16.html</idno>
             </event>
             <event when-iso="1911-10-16">
+               <head>Arthur Schnitzler an Stefan Zweig, 16. 10. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03788.html</idno>
+            </event>
+            <event when-iso="1911-10-16">
                <head>Hugo von Hofmannsthal an Arthur Schnitzler, 16. 10. [1911?]</head>
                <desc>
                   <listPerson>
@@ -130,16 +156,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10840">Friedrich Basil</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12170">Heinrich Mann</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb12176">Thomas Mann</persName>
                      </person>
                      <person>
+                        <persName ref="pmb10840">Friedrich Basil</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb12837">Albert Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12170">Heinrich Mann</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -147,6 +173,11 @@
                         <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
                      </bibl>
                   </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb48177">Residenztheater München</orgName>
+                     </org>
+                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb45258">München</placeName>
@@ -173,21 +204,6 @@
                   </listPlace>
                </desc>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1911-10-16</idno>
-            </event>
-            <event when-iso="1911-10-16">
-               <head>Arthur Schnitzler an Stefan Zweig, 16.10.1911</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
             </event>
          </listEvent>
       </body>

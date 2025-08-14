@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -140,6 +140,25 @@
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01907.html</idno>
             </event>
             <event when-iso="1909-12-22">
+               <head>Arthur Schnitzler an Stefan Zweig, 22. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03806.html</idno>
+            </event>
+            <event when-iso="1909-12-22">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -217,13 +236,13 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/118795112">Schlenther, Paul</persName>
+                        <persName ref="https://d-nb.info/gnd/118795112">Schlenther,
+                              Paul</persName>
                      </person>
                   </listPerson>
-                  <bibl>Hans Peter
-                    Buohler: Arthur Schnitzlers »Medardus Affairen« Teil 1: Korrespondenzen. In:
-                    Hofmannsthal-Jahrbuch ⋅ Zur europäischen Moderne, Jg. 19 (2011), S. 79–215. 
-               </bibl>
+                  <bibl>Hans Peter Buohler: Arthur Schnitzlers »Medardus Affairen« Teil 1:
+                        Korrespondenzen. In: Hofmannsthal-Jahrbuch ⋅ Zur europäischen Moderne, Jg.
+                        19 (2011), S. 79–215. </bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#s364f351-b14a-4d77-b480-295e58878c66"/>
             </event>
@@ -235,9 +254,8 @@
                         <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
                      </person>
                   </listPerson>
-                  <bibl>Der Briefwechsel Arthur
-               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
-               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+                  <bibl>Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe.
+                        Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975.</bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
             </event>

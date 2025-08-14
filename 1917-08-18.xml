@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -88,6 +88,39 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-08-18.html</idno>
             </event>
             <event when-iso="1917-08-18">
+               <head>Arthur Schnitzler an Stefan Zweig, 18. 8. 1917</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30201">Doktor Gräsler, Badearzt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76769">Jeremias. Ein dramatische Dichtung in neun Bildern</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb296113">Lanzarote</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03786.html</idno>
+            </event>
+            <event when-iso="1917-08-18">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -102,21 +135,6 @@
                   </listPlace>
                </desc>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1917-08-18</idno>
-            </event>
-            <event when-iso="1917-08-18">
-               <head>Arthur Schnitzler an Stefan Zweig, 18.8.1917</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
             </event>
          </listEvent>
       </body>

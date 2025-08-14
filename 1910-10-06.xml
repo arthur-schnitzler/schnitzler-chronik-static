@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-07.">07.08.2025</date>
+            <date when-iso="2025-08-14.">14.08.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -105,6 +105,80 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-06.html</idno>
             </event>
             <event when-iso="1910-10-06">
+               <head>Stefan Zweig an Arthur Schnitzler, [5. oder 6. 10. 1910?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Cappellini</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11461">Johann Wolfgang von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11220">Johann Peter Eckermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296501">[Hausspruch von Goethe]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33676">Tag- und Jahreshefte</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb249577">Kochgasse 8</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb197">Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb64287">Bad Pyrmont</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb293709">Lügde</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03626.html</idno>
+            </event>
+            <event when-iso="1910-10-06">
+               <head>Arthur Schnitzler an Stefan Zweig, 6. 10. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03796.html</idno>
+            </event>
+            <event when-iso="1910-10-06">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -137,32 +211,17 @@
                <idno type="schnitzler-mikrofilme-daten">https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428748_0146.html</idno>
             </event>
             <event when-iso="1910-10-06">
-               <head>Arthur Schnitzler an Stefan Zweig, 6.10.1910</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Stefan Zweig:
-                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
-                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
-                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
-            </event>
-            <event when-iso="1910-10-06">
                <head>Samuel Fischer an Arthur Schnitzler, 6.10.1910</head>
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="https://d-nb.info/gnd/118691406">Fischer, Samuel</persName>
+                        <persName ref="https://d-nb.info/gnd/118691406">Fischer,
+                              Samuel</persName>
                      </person>
                   </listPerson>
-                  <bibl>Hans Peter
-                    Buohler: Arthur Schnitzlers »Medardus Affairen« Teil 1: Korrespondenzen. In:
-                    Hofmannsthal-Jahrbuch ⋅ Zur europäischen Moderne, Jg. 19 (2011), S. 79–215. 
-               </bibl>
+                  <bibl>Hans Peter Buohler: Arthur Schnitzlers »Medardus Affairen« Teil 1:
+                        Korrespondenzen. In: Hofmannsthal-Jahrbuch ⋅ Zur europäischen Moderne, Jg.
+                        19 (2011), S. 79–215. </bibl>
                </desc>
                <idno type="schnitzler-cmif" subtype="#s364f351-b14a-4d77-b480-295e58878c66"/>
             </event>
@@ -174,11 +233,10 @@
                         <persName>Vengerova, Zinaida</persName>
                      </person>
                   </listPerson>
-                  <bibl>Die
-                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
-                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
-                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
-                    (2022), S. 7–91.</bibl>
+                  <bibl>Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und
+                        Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton
+                        Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022),
+                        S. 7–91.</bibl>
                </desc>
                <idno type="schnitzler-cmif"
                      subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
@@ -191,11 +249,10 @@
                         <persName>Vengerova, Zinaida</persName>
                      </person>
                   </listPerson>
-                  <bibl>Die
-                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
-                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
-                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
-                    (2022), S. 7–91.</bibl>
+                  <bibl>Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und
+                        Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton
+                        Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022),
+                        S. 7–91.</bibl>
                </desc>
                <idno type="schnitzler-cmif"
                      subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
