@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,9 @@
                            <place corresp="#pmb21">
                               <placeName>Künstlerhaus</placeName>
                            </place>
+                           <place corresp="#pmb296613">
+                              <placeName>Elisabethstraße 4</placeName>
+                           </place>
                            <place corresp="#pmb167805">
                               <placeName>Kärntnerring 12/Bösendorferstraße 11</placeName>
                            </place>
@@ -100,6 +103,25 @@
                   </listPlace>
                </desc>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1890-03-28</idno>
+            </event>
+            <event when-iso="1890-03-28">
+               <head>Besuch des Künstlerhauses, 28.3.1890</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb21">Künstlerhaus</placeName>
+                        <location>
+                           <geo>48,200556 16,371667</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb296994.html</idno>
             </event>
             <event when-iso="1890-03-28">
                <head>Hausball bei Leopold Klein, 28.3.1890</head>
@@ -114,14 +136,15 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb296613">Elisabethstraße
+                                4</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,201942 16,368371</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208392/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208392.html</idno>
             </event>
          </listEvent>
       </body>

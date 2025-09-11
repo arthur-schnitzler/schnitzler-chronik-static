@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -168,6 +168,41 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1920-09-30</idno>
             </event>
             <event when-iso="1920-09-30">
+               <head>Mahler-Zyklus. 3. Abend: 3. Sinfonie,
+                        30.9.1920</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29747">Hugo Heller</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30123">3. Sinfonie in d-Moll</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb16608">Fried, Oscar</persName>
+                     </person>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener
+                                Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210052.html</idno>
+            </event>
+            <event when-iso="1920-09-30">
                <head>[»Reigen« nicht verfilmt], 30. 9. 1920</head>
                <desc>
                   <listPerson>
@@ -196,39 +231,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/P109.html</idno>
-            </event>
-            <event when-iso="1920-09-30">
-               <head>Mahler-Zyklus. 3. Abend: 3. Sinfonie, 30.9.1920</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb29747">Hugo Heller</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30123">3. Sinfonie in d-Moll</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat als Arbeitskraft">
-                        <persName key="pmb16608">Fried, Oscar</persName>
-                     </person>
-                     <person role="hat als Teilnehmer:in">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
-                        <location>
-                           <geo>48,200771836002 16,377197811369</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/210052/</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -169,23 +169,8 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1905-10-12</idno>
             </event>
             <event when-iso="1905-10-12">
-               <head>Aufzeichnung von Bahr, 12. 10. 1905</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041480.html</idno>
-            </event>
-            <event when-iso="1905-10-12">
-               <head>Uraufführung von Zwischenspiel, 12.10.1905</head>
+               <head>Uraufführung von Zwischenspiel,
+                        12.10.1905</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -255,8 +240,24 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/35173/</idno>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209382/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35173.html</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35173.html</idno>
+            </event>
+            <event when-iso="1905-10-12">
+               <head>Aufzeichnung von Bahr, 12. 10. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041480.html</idno>
             </event>
             <event when-iso="1905-10-12">
                <head>Schnitzler, Arthur an Ratislav, Josef Karl [Briefe]</head>

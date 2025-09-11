@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,6 +114,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#53">
+                        <placeName>III., Landstraße</placeName>
+                        <listPlace>
+                           <place corresp="#pmb240">
+                              <placeName>Wiener Konzerthaus</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -127,7 +135,8 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1916-02-17</idno>
             </event>
             <event when-iso="1916-02-17">
-               <head>Klavierkonzert von Margarete Gelbard, 17.2.1916</head>
+               <head>Heiterer Abend von Hugo Knepler und Margarete Gelbard,
+                        17.2.1916</head>
                <desc>
                   <listPerson>
                      <person role="hat als Arbeitskraft">
@@ -136,17 +145,21 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb19464">Knepler, Hugo</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener
+                                Konzerthaus</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,200771836002 16,377197811369</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/209812/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209812.html</idno>
             </event>
             <event when-iso="1916-02-17">
                <head>Mappe A108</head>

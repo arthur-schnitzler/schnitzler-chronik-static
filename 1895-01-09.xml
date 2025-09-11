@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -120,7 +120,29 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-01-09</idno>
             </event>
             <event when-iso="1895-01-09">
-               <head>Aufführung von Nora oder ein Puppenheim, 9.1.1895</head>
+               <head>Besuch des Kunsthistorischen Museums,
+                        9.1.1895</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb47660">Kunsthistorisches
+                                Museum</placeName>
+                        <location>
+                           <geo>48,203661 16,361378</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297231.html</idno>
+            </event>
+            <event when-iso="1895-01-09">
+               <head>Aufführung von Nora oder ein Puppenheim,
+                        9.1.1895</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -129,7 +151,8 @@
                   </listOrg>
                   <listBibl>
                      <bibl>
-                        <title key="pmb31395">Nora oder ein Puppenheim. Schauspiel in drei Akten</title>
+                        <title key="pmb31395">Nora oder ein Puppenheim. Schauspiel in drei
+                                Akten</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
@@ -147,7 +170,7 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208716/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208716.html</idno>
             </event>
             <event when-iso="1895-01-09">
                <head>Theodor Herzl an Arthur Schnitzler, 9.1.1895</head>

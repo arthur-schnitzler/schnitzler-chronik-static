@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -128,6 +128,14 @@
                            </place>
                         </listPlace>
                      </place>
+                     <place corresp="#57">
+                        <placeName>VII., Neubau</placeName>
+                        <listPlace>
+                           <place corresp="#pmb291923">
+                              <placeName>Seidengasse 13</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
                      <place corresp="#68">
                         <placeName>XVIII., Währing</placeName>
                         <listPlace>
@@ -141,7 +149,8 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1921-03-24</idno>
             </event>
             <event when-iso="1921-03-24">
-               <head>Ausstellungsbesuch Atelierausstellung von Edmund Pick-Morino, Johanna Kampmann und anderen, 24.3.1921</head>
+               <head>Ausstellungsbesuch Atelierausstellung von
+                        Edmund Pick-Morino, Johanna Kampmann und anderen, 24.3.1921</head>
                <desc>
                   <listPerson>
                      <person role="hat als Teilnehmer:in">
@@ -150,14 +159,15 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb291923">Seidengasse
+                                13</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,200172 16,34535</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/292687/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb292687.html</idno>
             </event>
             <event when-iso="1921-03-24">
                <head>Landesberger, Hans an Schnitzler, Arthur [Briefe]</head>

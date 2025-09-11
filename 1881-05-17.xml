@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -75,8 +75,19 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb233016">
+                              <placeName>Stadttempel</placeName>
+                           </place>
                            <place corresp="#pmb168765">
                               <placeName>Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                           </place>
+                        </listPlace>
+                     </place>
+                     <place corresp="#60">
+                        <placeName>X., Favoriten</placeName>
+                        <listPlace>
+                           <place corresp="#pmb296582">
+                              <placeName>Landgutgasse 26</placeName>
                            </place>
                         </listPlace>
                      </place>
@@ -91,17 +102,30 @@
                      <person role="hat als Teilnehmer:in">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb296572">Klein, Pauline</persName>
+                     </person>
+                     <person role="hat als Arbeitskraft">
+                        <persName key="pmb296571">Klein, Anton</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb233016">Stadttempel</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,211649 16,374825</geo>
+                        </location>
+                     </place>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb296582">Landgutgasse
+                                26</placeName>
+                        <location>
+                           <geo>48,181382 16,37399</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/207692/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb207692.html</idno>
             </event>
          </listEvent>
       </body>

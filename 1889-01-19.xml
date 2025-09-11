@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,6 +86,9 @@
                      <place corresp="#51">
                         <placeName>I., Innere Stadt</placeName>
                         <listPlace>
+                           <place corresp="#pmb296613">
+                              <placeName>Elisabethstraße 4</placeName>
+                           </place>
                            <place corresp="#pmb168768">
                               <placeName>Wohnung und Ordination Arthur Schnitzler Burgring 1</placeName>
                            </place>
@@ -108,14 +111,15 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <placeName role="veranstaltet in" key="pmb296613">Elisabethstraße
+                                4</placeName>
                         <location>
-                           <geo>48,208333 16,373056</geo>
+                           <geo>48,201942 16,368371</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/208302/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208302.html</idno>
             </event>
          </listEvent>
       </body>

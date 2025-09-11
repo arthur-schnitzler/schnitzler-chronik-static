@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -149,6 +149,27 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1922-04-27</idno>
             </event>
             <event when-iso="1922-04-27">
+               <head>Besuch des Koninklijk Kabinet van Schilderijen
+                        Mauritshuis, 27.4.1922</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb245754">Koninklijk Kabinet van
+                                Schilderijen Mauritshuis</placeName>
+                        <location>
+                           <geo>52,080436 4,314417</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb298188.html</idno>
+            </event>
+            <event when-iso="1922-04-27">
                <head>Souper für Arthur Schnitzler, 27.4.1922</head>
                <desc>
                   <listPerson>
@@ -158,17 +179,19 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb185341">Restaurant Royal</placeName>
+                        <placeName role="veranstaltet in" key="pmb185341">Restaurant
+                                Royal</placeName>
                         <location>
                            <geo>52,083538 4,312845</geo>
                         </location>
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/288478/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb288478.html</idno>
             </event>
             <event when-iso="1922-04-27">
-               <head>Lesung von Die Hirtenflöte, Die letzten Masken, 27.4.1922</head>
+               <head>Lesung von Die Hirtenflöte, Die letzten Masken,
+                        27.4.1922</head>
                <desc>
                   <listBibl>
                      <bibl>
@@ -194,7 +217,7 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/183422/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183422.html</idno>
             </event>
          </listEvent>
       </body>

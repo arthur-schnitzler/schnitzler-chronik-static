@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-08-14.">14.08.2025</date>
+            <date when-iso="2025-09-11.">11.09.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -156,7 +156,27 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1898-12-03</idno>
             </event>
             <event when-iso="1898-12-03">
-               <head>Uraufführung von Die Lumpen, 3.12.1898</head>
+               <head>Besuch des Gewerbemuseums, 3.12.1898</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat als Teilnehmer:in">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb201129">Gewerbemuseum</placeName>
+                        <location>
+                           <geo>48,22327 16,351339</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297471.html</idno>
+            </event>
+            <event when-iso="1898-12-03">
+               <head>Uraufführung von Die Lumpen,
+                        3.12.1898</head>
                <desc>
                   <listOrg>
                      <org role="veranstaltet von">
@@ -186,7 +206,7 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-events">https://pmb.acdh.oeaw.ac.at/entity/63347/</idno>
+               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb63347.html</idno>
             </event>
          </listEvent>
       </body>

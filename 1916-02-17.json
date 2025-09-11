@@ -79,6 +79,11 @@
  ""}
  ,  {
  "placeName":
+ "III., Landstraße",
+ "ref":
+ ""}
+ ,  {
+ "placeName":
  "XVIII., Währing",
  "ref":
  ""}
@@ -86,17 +91,18 @@
 }
 }, {
  "type":
- "schnitzler-events",
+ "schnitzler-kultur",
  "color":
- "#9BC53D",
+ "#6B4C5A",
  "filename":
- "entity/209812/",
+ "pmb209812",
  "caption":
- "Ereignisse in der PMB",
+ "Kulturveranstaltungen",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/209812/",
+ "https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209812.html",
  "head":
- "Klavierkonzert von Margarete Gelbard, 17.2.1916",
+ "Heiterer Abend von Hugo Knepler und Margarete Gelbard,
+                        17.2.1916",
  "desc":
 {"listPerson":
   [
@@ -109,12 +115,17 @@
  "persName":
  "Arthur Schnitzler",
  "ref":
+ ""},
+ {
+ "persName":
+ "Hugo Knepler",
+ "ref":
  ""}],
  "listPlace":
   [
  {
  "placeName":
- "Wien",
+ "Wiener Konzerthaus",
  "ref":
  ""}
  ]
