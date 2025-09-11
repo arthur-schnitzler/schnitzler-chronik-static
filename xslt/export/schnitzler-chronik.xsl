@@ -52,7 +52,7 @@
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
             <xsl:choose>
                 <xsl:when test="empty($import-eventtypes)">
-                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,wienerschnitzler,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
+                    <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,wienerschnitzler,schnitzler-kultur,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="$import-eventtypes"/>
@@ -559,11 +559,11 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
+                                test="$e-typ = 'schnitzler-kultur' and (starts-with($ref, 'pmb'))">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:value-of
-                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                            select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="target">
@@ -636,11 +636,11 @@
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
+                                test="$e-typ = 'schnitzler-kultur' and (starts-with($ref, 'pmb'))">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:value-of
-                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                            select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="target">
@@ -735,19 +735,17 @@
                             <xsl:variable name="ref" select="concat(@ref, @key)"/>
                             <xsl:choose>
                                 <xsl:when
-                                    test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                    <xsl:element name="li">
-                                        <xsl:element name="a">
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of
-                                                  select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
-                                                />
-                                            </xsl:attribute>
-                                            <xsl:attribute name="target">
-                                                <xsl:text>_blank</xsl:text>
-                                            </xsl:attribute>
-                                            <xsl:value-of select="."/>
-                                        </xsl:element>
+                                    test="$e-typ = 'schnitzler-kultur' and (starts-with($ref, 'pmb'))">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of
+                                                select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">
+                                            <xsl:text>_blank</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/>
                                     </xsl:element>
                                 </xsl:when>
                                 <xsl:when test="starts-with($ref, 'pmb')">
@@ -800,12 +798,14 @@
                     <xsl:variable name="ref" select="concat(@ref, @key)"/>
                     <xsl:element name="li">
                         <xsl:choose>
+                           
+                              
                             <xsl:when
-                                test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
+                                test="$e-typ = 'schnitzler-kultur' and (starts-with($ref, 'pmb'))">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:value-of
-                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                            select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
                                         />
                                     </xsl:attribute>
                                     <xsl:attribute name="target">
