@@ -41,9 +41,9 @@
                                     <br/> Juristische Person öffentlichen Rechts (BGBl 569/1921 idF
                                     BGBl I 130/2003) <br/>
                                     <a href="https://acdh.oeaw.ac.at">Austrian Centre for Digital
-                                        Humanities and Cultural Heritage (ACDH-CH)</a>
+                                        Humanities (ACDH)</a>
                                     <br/> Dr. Ignaz Seipel-Platz 2, 1010 Wien, Österreich <br/>
-                                    E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk(at)oeaw.ac.at</a></p>
+                                    E-Mail: <a href="mailto:acdh-helpdesk@oeaw.ac.at">acdh-helpdesk(at)oeaw.ac.at</a></p>
                                 <p>Zusammengestellt von Martin Anton Müller und Laura Untner</p>
                                 <h3>Unternehmensgegenstand:</h3>
                                 <p>Die Österreichische Akademie der Wissenschaften (ÖAW) hat den
@@ -51,10 +51,10 @@
                                     fördern. Als Gelehrtengesellschaft pflegt die ÖAW den Diskurs
                                     und die Zusammenarbeit der Wissenschaft mit Öffentlichkeit,
                                     Politik und Wirtschaft.</p>
-                                <p>Das Austrian Centre for Digital Humanities and Cultural Heritage
-                                    (ACDH-CH) ist ein Institut der ÖAW, das mit dem Ziel gegründet
+                                <p>Das Austrian Centre for Digital Humanities
+                                    (ACDH) ist ein Institut der ÖAW, das mit dem Ziel gegründet
                                     wurde, digitale Methoden und Ansätze in den
-                                    geisteswissenschaftlichen Disziplinen zu fördern. Das ACDH-CH
+                                    geisteswissenschaftlichen Disziplinen zu fördern. Das ACDH
                                     unterstützt digitale Forschung in vielfältiger Weise.</p>
                                 <p>Eine Seite, die Tag für Tag zum Leben Arthur Schnitzlers Auskunft
                                     gibt</p>
