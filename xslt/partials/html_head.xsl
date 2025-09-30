@@ -12,7 +12,7 @@
         <xsl:param name="page_url" select="''"></xsl:param>
         <xsl:param name="page_date" select="''"></xsl:param>
         
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -20,6 +20,7 @@
         <meta name="apple-mobile-web-app-title" content="{$html_title}" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="{$project_logo}" />
+        <meta name="theme-color" content="#C67F53" />
         
         <!-- SEO Meta Tags -->
         <xsl:choose>
@@ -60,7 +61,20 @@
         <xsl:if test="string($page_date) != ''">
             <meta property="article:published_time" content="{$page_date}" />
         </xsl:if>
-        
+
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="{$html_title}" />
+        <xsl:choose>
+            <xsl:when test="$html_description != ''">
+                <meta name="twitter:description" content="{$html_description}" />
+            </xsl:when>
+            <xsl:otherwise>
+                <meta name="twitter:description" content="Chronologische Dokumentation zu Arthur Schnitzlers Leben und Werk" />
+            </xsl:otherwise>
+        </xsl:choose>
+        <meta name="twitter:image" content="{concat($base_url, '/img/schnitzler-chronik-og.jpg')}" />
+
         <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any" />
         <link rel="profile" href="http://gmpg.org/xfn/11"></link>
         <title><xsl:value-of select="$html_title"/></title>
@@ -88,5 +102,30 @@
                 })();
             </script>
             <!-- End Matomo Code -->
+
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "<xsl:value-of select="$project_title"/>",
+            "description": "Chronologische Dokumentation zu Arthur Schnitzlers Leben und Werk. Tageweise Darstellung von Ereignissen, Begegnungen und literarischem Schaffen.",
+            "url": "<xsl:value-of select="$base_url"/>",
+            "inLanguage": "de",
+            "about": {
+                "@type": "Person",
+                "@id": "http://d-nb.info/gnd/118609807",
+                "name": "Arthur Schnitzler",
+                "birthDate": "1862-05-15",
+                "deathDate": "1931-10-21",
+                "description": "Österreichischer Erzähler und Dramatiker"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Austrian Centre for Digital Humanities",
+                "url": "https://www.oeaw.ac.at/acdh/"
+            }
+        }
+        </script>
     </xsl:template>
 </xsl:stylesheet>

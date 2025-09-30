@@ -6,19 +6,19 @@
     <xsl:template match="/" name="nav_bar">
         <div class="wrapper-fluid wrapper-navbar sticky-top hide-reading" id="wrapper-navbar">
             <a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a>
-            <nav class="navbar">
-                <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                    <img src="{$project_logo}" class="img-fluid" alt="Schnitzler Tage"
-                        itemprop="logo"/>
+            <nav class="navbar" aria-label="Hauptnavigation">
+                <a href="index.html" class="navbar-brand custom-logo-link" rel="home" aria-label="Zur Startseite">
+                    <img src="{$project_logo}" class="img-fluid" alt="Arthur Schnitzler Chronik Logo"
+                        width="150" height="50"/>
                 </a>
                 <!-- end custom logo -->
                 <span style="text-align: right; margin-left: 10px; margin-right: 3em; font-weight: bold;">
-                    <a title="Kalender" class="nav-link" href="calendar.html">Kalender</a>
+                    <a class="nav-link" href="calendar.html" aria-label="Zur Kalenderansicht">Kalender</a>
 
                 </span>
                 <span style="text-align: right; margin-left: 10px; margin-right: 3em; font-weight: bold;">
-                    <a title="Suche" class="nav-link" href="search.html">Suche</a>
-                    
+                    <a class="nav-link" href="search.html" aria-label="Zur Suche">Suche</a>
+
                 </span>
             </nav>
             <!-- .site-navigation -->

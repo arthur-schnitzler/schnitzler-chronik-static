@@ -12,7 +12,7 @@
             <xsl:value-of select="descendant::tei:titleSmt[1]/tei:title[@level = 'a']/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-        <html xmlns="http://www.w3.org/1999/xhtml">
+        <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <head>
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"/>
@@ -21,39 +21,45 @@
             <body class="page" style="background-color:#f1f1f1;">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container">
-                        <div class="row intro">
-                            <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
-                                <div class="intro_left">
-                                    <h1>Arthur Schnitzler – Chronik</h1>
-                                    <h3>
-                                        <i>Eine digitale Ressource zu den einzelnen Tagen seines
-                                            Lebens. </i>
-                                    </h3>
-                                    <p style="text-align: right">
-                                        <a href="#body">
-                                            <button class="btn btn-round"
-                                                style="background-color: #C67F53; color: white; font-weight: bolder;"
-                                                >Weiter</button>
-                                        </a></p>
+                    <a class="skip-link screen-reader-text" href="#body">Direkt zum Inhalt springen</a>
+                    <main>
+                        <div class="container">
+                            <div class="row intro">
+                                <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
+                                    <div class="intro_left">
+                                        <h1>Arthur Schnitzler – Chronik</h1>
+                                        <p class="lead" style="font-style: italic;">
+                                            Eine digitale Ressource zu den einzelnen Tagen seines
+                                            Lebens.
+                                        </p>
+                                        <p style="text-align: right">
+                                            <a href="#body">
+                                                <button class="btn btn-round"
+                                                    style="background-color: #C67F53; color: white; font-weight: bolder;"
+                                                    aria-label="Zum Hauptinhalt springen"
+                                                    >Weiter</button>
+                                            </a></p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12">
-                                <div class="intro_right wrapper">
-                                    <img src="images/background-index.jpg" class="d-block w-100"
-                                        style="max-width=30%;"
-                                        alt="Ein bearbeitetes Bild Schnitzlers nach einer Zeichnung von Bertha Czegka"
-                                    />
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="intro_right wrapper">
+                                        <img src="images/background-index.jpg" class="d-block w-100"
+                                            style="max-width=30%;"
+                                            alt="Porträt von Arthur Schnitzler nach einer Zeichnung von Bertha Czegka"
+                                            loading="lazy"
+                                            width="800"
+                                            height="600"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="container-fluid" style="margin:2em auto;">
-                        <div style="max-width: 650px; margin: auto;">
-                            <span style="display: block;
-                                position: relative;
-                                top: -250px; visibility: hidden"
-                                id="body"/>
+                        <article class="container-fluid" style="margin:2em auto;">
+                            <div style="max-width: 650px; margin: auto;">
+                                <span style="display: block;
+                                    position: relative;
+                                    top: -250px; visibility: hidden"
+                                    id="body"/>
                             <p class="mt-3">In den letzten Jahren wurden von mehreren
                                 Forschungsprojekten biographische und literarische Dokumente von
                                 Arthur Schnitzler (1862–1931) digitalisiert und ediert.</p>
@@ -155,33 +161,41 @@
                                 Anton Müller, Laura Untner<br/>Wien, April 2023</p>
 
                         </div>
-                    </div>
-                    <div class="container-fluid" style="margin:2em auto;">
+                    </article>
+                    <section class="container-fluid" style="margin:2em auto;" aria-label="Externe Ressourcen">
+                        <h2 class="sr-only">Verwandte Projekte</h2>
                         <div class="row wrapper img_bottom">
                             <div class="col-md-6 col-lg-6 col-sm-12">
                                 <a href="https://schnitzler.acdh.oeaw.ac.at/" class="index-link"
-                                    target="_blank">
+                                    target="_blank" rel="noopener noreferrer"
+                                    aria-label="Schnitzler am ACDH (öffnet in neuem Tab)">
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img class="d-block w-100"
                                                 src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/schnitzler-acdh.jpg"
-                                                title="Schnitzler am ACDH-CH"
-                                                alt="Schnitzler am ACDH-CH"/>
+                                                alt="Übersichtsseite der Schnitzler-Projekte am Austrian Centre for Digital Humanities"
+                                                loading="lazy"
+                                                width="600"
+                                                height="400"/>
                                         </div>
                                         <div class="card-header">
-                                            <p>Schnitzler am ACDH-CH</p>
+                                            <p>Schnitzler am ACDH</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-12">
-                                <a href="https://github.com/arthur-schnitzler" class="index-link">
+                                <a href="https://github.com/arthur-schnitzler" class="index-link"
+                                    target="_blank" rel="noopener noreferrer"
+                                    aria-label="Schnitzler Repositories auf GitHub (öffnet in neuem Tab)">
                                     <div class="card index-card">
                                         <div class="card-body">
                                             <img class="d-block w-100"
                                                 src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/schnitzler-github.jpg"
-                                                title="Schnitzler Repositories auf Github"
-                                                alt="Schnitzler Repositories auf Github"/>
+                                                alt="GitHub-Logo mit Hinweis auf Schnitzler-Repositories"
+                                                loading="lazy"
+                                                width="600"
+                                                height="400"/>
                                         </div>
                                         <div class="card-header">
                                             <p>Quelldaten dieser Webseite auf GitHub</p>
@@ -190,7 +204,8 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    </main>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>

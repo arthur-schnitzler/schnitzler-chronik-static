@@ -58,4 +58,6 @@
             <include name="**/*.xml"/>
         </fileset>
     </copy>
+    <copy file="robots.txt" todir="${target}"/>
+    <copy file="${target}/img/og-image.jpg" tofile="${target}/img/schnitzler-chronik-og.jpg" failonerror="false"/>
 </project>

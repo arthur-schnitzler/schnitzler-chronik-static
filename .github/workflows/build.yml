@@ -31,6 +31,7 @@ jobs:
         python make_calendar_data.py
         python make_ts_index.py
         ant
+        python make_sitemap.py
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

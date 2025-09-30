@@ -167,11 +167,11 @@
                                         <div class="card-body">
                                             <img class="d-block w-100"
                                                 src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/schnitzler-acdh.jpg"
-                                                title="Schnitzler am ACDH-CH"
-                                                alt="Schnitzler am ACDH-CH"/>
+                                                title="Schnitzler am"
+                                                alt="Schnitzler am ACDH"/>
                                         </div>
                                         <div class="card-header">
-                                            <p>Schnitzler am ACDH-CH</p>
+                                            <p>Schnitzler am ACDH</p>
                                         </div>
                                     </div>
                                 </a>
