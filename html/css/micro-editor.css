@@ -144,7 +144,7 @@ input:checked + .i-slider:before {
   top: 10%;
   left: 50%;
   border: 8px solid #f1f1f1; /* Light grey */
-  border-top: 8px solid #C67F53;
+  border-top: 8px solid #008B8B;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -193,7 +193,7 @@ input:checked + .i-slider:before {
 }
 
 .nav-link.btn.active {
-  background-color: #C67F53 !important;
+  background-color: #008B8B !important;
 }
 
 .nav-link.btn {

@@ -30,7 +30,7 @@
                                     <h1>Arthur Schnitzler – Chronik</h1>
                                     <h3><i>Eine digitale Ressource …</i></h3>
                                     <p class="text-end">
-                                        <a href="#body" class="btn btn-round text-white fw-bold" style="background-color: #C67F53;">Weiter</a>
+                                        <a href="#body" class="btn btn-round text-white fw-bold" style="background-color: #008B8B;"> Weiter</a>
                                     </p>
                                 </div>
                             </div>
