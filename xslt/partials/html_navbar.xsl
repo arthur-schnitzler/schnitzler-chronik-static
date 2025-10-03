@@ -16,7 +16,7 @@
                     <span class="navbar-toggler-icon"/>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="calendar.html">Kalender</a>
                         </li>
@@ -40,7 +40,7 @@
                                 <li><a class="dropdown-item" href="https://pmb.acdh.oeaw.ac.at/" target="_blank">PMB – Personen der Moderne Basis</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a title="Suche" class="nav-link" href="search.html" aria-label="Zur Suchseite"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
