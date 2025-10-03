@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-09-11.">11.09.2025</date>
+            <date when-iso="2025-10-03.">03.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,13 +96,11 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1885-08-02</idno>
             </event>
             <event when-iso="1885-08-02">
-               <head>Aufführung von Ein Taugenichts, Resch und
-                        Fesch, Heimliche Liebe, 2.8.1885</head>
+               <head>Aufführung von Ein Taugenichts, Resch und Fesch, Heimliche Liebe, 2.8.1885</head>
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb195662">Ein Taugenichts. Schwank mit Gesang in einem
-                                Akt</title>
+                        <title key="pmb195662">Ein Taugenichts. Schwank mit Gesang in einem Akt</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
@@ -110,13 +108,12 @@
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                      <bibl>
-                        <title key="pmb195664">Heimliche Liebe. Schwank mit Gesank in einem
-                                Akt</title>
+                        <title key="pmb195664">Heimliche Liebe. Schwank mit Gesank in einem Akt</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Arbeitskraft">
+                     <person role="hat als mitwirkend">
                         <persName key="pmb195377">Fish, Marguerite</persName>
                      </person>
                      <person role="hat als Teilnehmer:in">
@@ -133,12 +130,13 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb207932.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb207932.html</idno>
             </event>
             <event when-iso="1885-08-02">
                <head>Konzert von Leopoldine Kutzel, 2.8.1885</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Arbeitskraft">
+                     <person role="hat als mitwirkend">
                         <persName key="pmb19907">Kutzel, Leopoldine</persName>
                      </person>
                      <person role="hat als Teilnehmer:in">
@@ -147,8 +145,7 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName role="veranstaltet in" key="pmb295">Hotel zum Schwarzen Adler
-                                [Wien]</placeName>
+                        <placeName role="veranstaltet in" key="pmb295">Hotel zum Schwarzen Adler [Wien]</placeName>
                         <location>
                            <geo>48,21363 16,37945</geo>
                         </location>
@@ -156,6 +153,7 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb207931.html</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb207931.html</idno>
             </event>
          </listEvent>
       </body>
