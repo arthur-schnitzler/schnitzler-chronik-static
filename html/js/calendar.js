@@ -81,7 +81,7 @@ class SimpleCalendar {
       });
       
       usedCategories.forEach(category => {
-        this.eventCategories[category] = '#C67F53'; // Default color
+        this.eventCategories[category] = '#008B8B'; // Default color
         this.categoryLabels[category] = category;
       });
       
@@ -1528,7 +1528,7 @@ async function initializeCalendar() {
     endDate: new Date(r.startDate),
     name: r.name,
     linkId: r.id,
-    colors: r.colors || ['#C67F53'],
+    colors: r.colors || ['#008B8B'],
     event_types: r.event_types || []
   }));
 
