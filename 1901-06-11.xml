@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10992">Brandes, Georg</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -146,19 +152,16 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb144212">Ulrich Levysohn</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb144214">Dora Jacobs</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb144398">Dieudonné Thiébault</persName>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
                         <persName ref="pmb14953">Marie Glümer</persName>
@@ -167,42 +170,43 @@
                         <persName ref="pmb18721">Monty Jacobs</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                        <persName ref="pmb144214">Dora Jacobs</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                        <persName ref="pmb144212">Ulrich Levysohn</persName>
                      </person>
                      <person>
-                        <persName ref="pmb4823">
-      Friedrich II. von Preußen
-  </persName>
+                        <persName ref="pmb144398">Dieudonné Thiébault</persName>
                      </person>
                      <person>
                         <persName ref="pmb6684">Heinrich Conrad</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb4823">
+                  Friedrich II. von Preußen
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb144408">Arthur Schnitzler’s neue Werke</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb145383">Friedrich der Große und sein Hof. Persönliche Erinnerungen an einen zwanzigjährigen Aufenthalt in Berlin</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb41289">Berliner Börsen-Courier</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb144408">Arthur Schnitzler’s neue Werke</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb145383">Friedrich der Große und sein Hof. Persönliche Erinnerungen an einen zwanzigjährigen Aufenthalt in Berlin</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb143489">Robert Lutz</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29406">Berliner Börsen-Courier</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -217,12 +221,20 @@
                         <placeName ref="pmb423">Tirol</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb430">Wörthersee</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb969">Südtirol</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb430">Wörthersee</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29406">Berliner Börsen-Courier</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb143489">Robert Lutz</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03069.html</idno>
             </event>

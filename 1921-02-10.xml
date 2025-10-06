@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,16 +107,22 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11527">Großmann, Stefan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11527">Stefan Großmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb11581">Maximilian Harden</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12762">Ignaz Seipel</persName>
+                        <persName ref="pmb5339">Leopold Kunschak</persName>
                      </person>
                      <person>
-                        <persName ref="pmb5339">Leopold Kunschak</persName>
+                        <persName ref="pmb12762">Ignaz Seipel</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -124,16 +130,10 @@
                         <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb33201">Reigen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb40042">Die Zukunft</title>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb46569">Tilla zürnt der Zeit</title>
@@ -141,35 +141,41 @@
                      <bibl>
                         <title ref="pmb46573">Hänischs Reigen. Eine unsittliche Szenenfolge</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb33201">Reigen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb40042">Die Zukunft</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb37544">Das Tage-Buch</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb47285">Fernsprechamt Lietzow</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb151">Deutschland</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb362">Potsdamer Straße</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb37544">Das Tage-Buch</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb47285">Fernsprechamt Lietzow</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02362.html</idno>
             </event>
@@ -193,7 +199,7 @@
                <head>Filmvorführung, 10.2.1921</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

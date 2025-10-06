@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -116,6 +116,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -127,14 +133,6 @@
                         <title ref="pmb30233">Der Graf von Charolais. Ein Trauerspiel</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb45430">Kleines Theater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb45434">Neues Theater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
@@ -155,6 +153,14 @@
                         <placeName ref="pmb68">XVIII., Währing</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb45430">Kleines Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb45434">Neues Theater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01516.html</idno>
             </event>
@@ -162,6 +168,15 @@
                <head>Hugo von Hofmannsthal, Gerty von Hofmannsthal an Arthur Schnitzler, 11. 5. 1905</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Hofmannsthal, Gerty von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
@@ -231,13 +246,13 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb27955">Sikora, Anna</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb12740">Schwarzkopf, Gustav</persName>
                      </person>
                   </listPerson>

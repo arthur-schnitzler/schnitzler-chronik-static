@@ -69,6 +69,16 @@
  "pmb10815"},
  {
  "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
  "Max Eugen Burckhard",
  "ref":
  "pmb11036"},
@@ -115,14 +125,6 @@
  "ref":
  "pmb44080"}
  ],
- "listOrg":
-  [
- {
- "orgName":
- "Niederösterreichische Statthalterei",
- "ref":
- "pmb29253"}
- ],
  "listPlace":
   [
  {
@@ -130,6 +132,14 @@
  "Wien",
  "ref":
  "pmb50"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Niederösterreichische Statthalterei",
+ "ref":
+ "pmb29253"}
  ]
 }
 }, {
@@ -150,29 +160,14 @@
   [
 {
  "persName":
- "Hermann Bahr",
+ "Felix Salten",
  "ref":
- "pmb10815"},
+ "pmb2167"},
  {
  "persName":
- "Paul Goldmann",
+ "Arthur Schnitzler",
  "ref":
- "pmb11485"},
- {
- "persName":
- "Theodor Herzl",
- "ref":
- "pmb11673"},
- {
- "persName":
- "Gustav Schwarzkopf",
- "ref":
- "pmb12740"},
- {
- "persName":
- "Isidor Singer",
- "ref":
- "pmb12790"},
+ "pmb2121"},
  {
  "persName":
  "Felix Salten",
@@ -180,36 +175,56 @@
  "pmb2167"},
  {
  "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
  "Markus Hajek",
  "ref":
- "pmb2284"}],
+ "pmb2284"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"}],
  "listBibl":
   [
  {
  "title":
- "Feuilleton. Carl-Theater. (»Freiwild«, Schauspiel von Arthur Schnitzler.)",
+ "Arthur Schnitzler und sein »Reigen«",
  "ref":
- "pmb118777"}
+ "pmb31401"}
  ,  {
  "title":
- "Das junge Österreich. II",
+ "Anatol",
  "ref":
- "pmb134137"}
- ,  {
- "title":
- "»Der Schleier der Beatrice«. (Zum erstenmale aufgeführt im Lobe-Theater zu Breslau)",
- "ref":
- "pmb143996"}
- ,  {
- "title":
- "Berliner Theater. (»Der Schleier der Beatrice« von Arthur Schnitzler.)",
- "ref":
- "pmb144087"}
+ "pmb29935"}
  ,  {
  "title":
  "Das Märchen. Schauspiel in drei Aufzügen",
  "ref":
  "pmb29823"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
  ,  {
  "title":
  "Der grüne Kakadu. Groteske in einem Akt",
@@ -222,54 +237,14 @@
  "pmb29845"}
  ,  {
  "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ,  {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ,  {
- "title":
- "Die Frau mit dem Dolche",
- "ref":
- "pmb29865"}
- ,  {
- "title":
- "Literatur",
- "ref":
- "pmb29869"}
- ,  {
- "title":
- "Die letzten Masken",
- "ref":
- "pmb29877"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ,  {
- "title":
  "Paracelsus. Versspiel in einem Akt",
  "ref":
  "pmb30403"}
  ,  {
  "title":
- "Arthur Schnitzler und sein »Reigen«",
+ "»Der Schleier der Beatrice«. (Zum erstenmale aufgeführt im Lobe-Theater zu Breslau)",
  "ref":
- "pmb31401"}
- ,  {
- "title":
- "Neue Freie Presse",
- "ref":
- "pmb36374"}
+ "pmb143996"}
  ,  {
  "title":
  "Wiener Allgemeine Zeitung",
@@ -277,17 +252,62 @@
  "pmb39950"}
  ,  {
  "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das junge Österreich. II",
+ "ref":
+ "pmb134137"}
+ ,  {
+ "title":
  "Deutsche Zeitung",
  "ref":
  "pmb41471"}
+ ,  {
+ "title":
+ "Feuilleton. Carl-Theater. (»Freiwild«, Schauspiel von Arthur Schnitzler.)",
+ "ref":
+ "pmb118777"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ,  {
+ "title":
+ "Berliner Theater. (»Der Schleier der Beatrice« von Arthur Schnitzler.)",
+ "ref":
+ "pmb144087"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Die Frau mit dem Dolche",
+ "ref":
+ "pmb29865"}
  ],
  "listPlace":
   [
  {
  "placeName":
- "Berlin",
+ "Wien",
  "ref":
- "pmb168"}
+ "pmb50"}
  ,  {
  "placeName":
  "Frankgasse 1",
@@ -295,9 +315,9 @@
  "pmb168934"}
  ,  {
  "placeName":
- "Wien",
+ "Berlin",
  "ref":
- "pmb50"}
+ "pmb168"}
  ]
 }
 }, {

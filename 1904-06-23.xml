@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -84,6 +84,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10860">Paula Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -120,16 +126,22 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10986">Otto Brahm</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12071">Detlev von Liliencron</persName>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
                      </person>
                      <person>
                         <persName ref="pmb12078">Paul Lindau</persName>
@@ -138,26 +150,26 @@
                         <persName ref="pmb12504">Max Reinhardt</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb15665">
-      Eduard VII.
-  </persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb23674">Theodore Rottenberg</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2566">
-      Wilhelm II. von Preußen
-  </persName>
+                        <persName ref="pmb9598">Ludwig Rottenberg</persName>
                      </person>
                      <person>
-                        <persName ref="pmb9598">Ludwig Rottenberg</persName>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12071">Detlev von Liliencron</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15665">
+                  Eduard VII.
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2566">
+                  Wilhelm II. von Preußen
+               </persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -168,6 +180,41 @@
                         <title ref="pmb33243">Tagebuch</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb906">Taormina</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1283">Pompeji</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb772">Marienbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb907">Kiel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb254">England</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb35053">Lessing-Theater</orgName>
@@ -176,41 +223,6 @@
                         <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb1283">Pompeji</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb146">Frankfurt am Main</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb151">Deutschland</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb254">England</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb772">Marienbad</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb906">Taormina</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb907">Kiel</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03445.html</idno>
             </event>

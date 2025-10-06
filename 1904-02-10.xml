@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,6 +104,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                   </listPerson>
@@ -112,11 +118,6 @@
                         <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -125,6 +126,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01371.html</idno>
             </event>
@@ -132,6 +138,12 @@
                <head>Arthur Schnitzler an Felix Salten, [10.?] 2. 1904</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
@@ -141,11 +153,6 @@
                         <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -154,6 +161,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03604.html</idno>
             </event>
@@ -192,7 +204,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
@@ -223,13 +235,13 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2173">Schnitzler, Olga</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2315">Steinrück, Elisabeth</persName>
                      </person>
                   </listPerson>

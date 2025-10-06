@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -84,6 +84,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -115,16 +121,22 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb115853">Henri Rivière</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
-                        <persName ref="pmb145796">Georges Fragerolle</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
                         <persName ref="pmb25793">Julius Szeps</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb145796">Georges Fragerolle</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb115853">Henri Rivière</persName>
                      </person>
                      <person>
                         <persName ref="pmb3167">Hugo Felix</persName>
@@ -135,35 +147,18 @@
                         <title ref="pmb145803">»Lieutenant Gustl.« (Ein ehrenrätliches Urtheil.)</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb30486">Frau Bertha Garlan. Roman</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb30486">Frau Bertha Garlan. Roman</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb117961">Le Chat Noir</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb143199">Jung-Wiener Theater zum Lieben Augustin</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb212">St. Anton am Arlberg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb213">Bad Ischl</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb30">Salzburg</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb40310">Arlberg</placeName>
+                        <placeName ref="pmb867">Innsbruck</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb40384">Hotel Bristol Salzburg</placeName>
@@ -172,18 +167,35 @@
                         <placeName ref="pmb41240">Österreich</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb484">Zürich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb212">St. Anton am Arlberg</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb834">Darmstadt</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb867">Innsbruck</placeName>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40310">Arlberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb484">Zürich</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb117961">Le Chat Noir</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb143199">Jung-Wiener Theater zum Lieben Augustin</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03315.html</idno>
             </event>

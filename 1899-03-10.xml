@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -93,6 +93,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10992">Brandes, Georg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10992">Georg Brandes</persName>
                      </person>
                      <person>
@@ -140,17 +146,6 @@
                         <title ref="pmb41541">Tilskueren</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29807">Die Nation</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb1114">Südschleswig</placeName>
@@ -174,6 +169,17 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29807">Die Nation</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00905.html</idno>
             </event>
@@ -221,10 +227,10 @@
                      </org>
                   </listOrg>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb117040">Kaim, Franz</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

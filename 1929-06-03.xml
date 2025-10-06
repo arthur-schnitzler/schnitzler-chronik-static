@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
@@ -109,16 +115,16 @@
                         <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29921">Dämmerseelen. Novellen</title>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29923">Der Weg ins Freie. Roman</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29941">Fräulein Else</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                        <title ref="pmb29921">Dämmerseelen. Novellen</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
@@ -126,13 +132,13 @@
                         <placeName ref="pmb173">Rodaun</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb40306">Italien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb445">Rom</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -172,10 +178,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
                      </person>
                   </listPerson>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -106,10 +106,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -117,11 +123,6 @@
                         <title ref="pmb61305">[Mein lieber Felix Salten]</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb36907">Paul Zsolnay Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb46000">Grundlsee [Gemeinde]</placeName>
@@ -136,6 +137,11 @@
                         <placeName ref="pmb772">Marienbad</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36907">Paul Zsolnay Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03587.html</idno>
             </event>
@@ -184,10 +190,10 @@
                <head>Filmvorführung, 21.9.1929</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
                      </person>
                   </listPerson>

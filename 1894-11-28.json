@@ -66,6 +66,16 @@
   [
 {
  "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
  "Richard Beer-Hofmann",
  "ref":
  "pmb10863"}],
@@ -111,24 +121,14 @@
   [
 {
  "persName":
- "Hermann Bahr",
+ "Paul Goldmann",
  "ref":
- "pmb10815"},
+ "pmb11485"},
  {
  "persName":
- "Richard Beer-Hofmann",
+ "Arthur Schnitzler",
  "ref":
- "pmb10863"},
- {
- "persName":
- "Moriz Benedikt",
- "ref":
- "pmb10875"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "pmb11036"},
+ "pmb2121"},
  {
  "persName":
  "Paul Goldmann",
@@ -136,34 +136,9 @@
  "pmb11485"},
  {
  "persName":
- "Theodor Herzl",
+ "Leopold Sonnemann",
  "ref":
- "pmb11673"},
- {
- "persName":
- "Adele Sandrock",
- "ref":
- "pmb12618"},
- {
- "persName":
- "Julius Schnitzler",
- "ref":
- "pmb12698"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "pmb12701"},
- {
- "persName":
- "Ludwig Speidel",
- "ref":
- "pmb12816"},
- {
- "persName":
- "Friedrich Uhl",
- "ref":
- "pmb12987"},
+ "pmb87771"},
  {
  "persName":
  "Gabriele D’Annunzio",
@@ -171,19 +146,24 @@
  "pmb2142"},
  {
  "persName":
- "Helene Schnitzler",
- "ref":
- "pmb24423"},
- {
- "persName":
- "Clemens Sokal",
- "ref":
- "pmb25076"},
- {
- "persName":
  "Pierre Lalo",
  "ref":
  "pmb8429"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Friedrich Uhl",
+ "ref":
+ "pmb12987"},
  {
  "persName":
  "Hugo Lubliner",
@@ -191,46 +171,56 @@
  "pmb8722"},
  {
  "persName":
- "Leopold Sonnemann",
+ "Adele Sandrock",
  "ref":
- "pmb87771"}],
+ "pmb12618"},
+ {
+ "persName":
+ "Ludwig Speidel",
+ "ref":
+ "pmb12816"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Clemens Sokal",
+ "ref":
+ "pmb25076"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"}],
  "listBibl":
   [
  {
  "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
  "Sterben. Novelle",
  "ref":
  "pmb30117"}
- ,  {
- "title":
- "Novellen",
- "ref":
- "pmb32832"}
- ,  {
- "title":
- "Frankfurter Zeitung",
- "ref":
- "pmb36344"}
- ,  {
- "title":
- "Urfaust",
- "ref":
- "pmb76800"}
- ,  {
- "title":
- "Das neue Stück. Lustspiel in 4 Acten",
- "ref":
- "pmb80892"}
- ,  {
- "title":
- "Wiener Brief",
- "ref":
- "pmb88060"}
  ,  {
  "title":
  "Au jour le jour. M. Arthur Schnitzler",
@@ -241,34 +231,36 @@
  "Journal des débats. Politiques et littéraires",
  "ref":
  "pmb92648"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Die Zeit. Wiener Wochenschrift",
- "ref":
- "pmb29209"}
  ,  {
- "orgName":
- "Journal des débats",
+ "title":
+ "Novellen",
  "ref":
- "pmb29221"}
+ "pmb32832"}
  ,  {
- "orgName":
+ "title":
+ "Urfaust",
+ "ref":
+ "pmb76800"}
+ ,  {
+ "title":
+ "Wiener Brief",
+ "ref":
+ "pmb88060"}
+ ,  {
+ "title":
+ "Das neue Stück. Lustspiel in 4 Acten",
+ "ref":
+ "pmb80892"}
+ ,  {
+ "title":
  "Frankfurter Zeitung",
  "ref":
- "pmb29442"}
+ "pmb36344"}
  ,  {
- "orgName":
- "Burgtheater",
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
  "ref":
- "pmb36247"}
- ,  {
- "orgName":
- "Volkstheater",
- "ref":
- "pmb36430"}
+ "pmb29917"}
  ],
  "listPlace":
   [
@@ -279,19 +271,47 @@
  "pmb182"}
  ,  {
  "placeName":
- "rue Feydeau",
- "ref":
- "pmb42671"}
- ,  {
- "placeName":
  "Wien",
  "ref":
  "pmb50"}
  ,  {
  "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
  "Boulevard de Courcelles",
  "ref":
  "pmb65745"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "Journal des débats",
+ "ref":
+ "pmb29221"}
+ ,  {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ,  {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
  ]
 }
 }, {

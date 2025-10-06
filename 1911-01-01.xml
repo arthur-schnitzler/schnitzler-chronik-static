@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -130,6 +130,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10955">Blei, Franz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10955">Franz Blei</persName>
                      </person>
                      <person>
@@ -147,17 +153,33 @@
                         <title ref="pmb36156">Die neue Rundschau</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb1171">Tengstraße</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb44248">Forte dei Marmi</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb263">Florenz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44267">Pisa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44265">Pietrasanta</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb1174">Viareggio</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44122">Massa</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb169705">Carrara</placeName>
@@ -165,28 +187,12 @@
                      <place>
                         <placeName ref="pmb259">Lido</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb263">Florenz</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44122">Massa</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44248">Forte dei Marmi</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44265">Pietrasanta</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44267">Pisa</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01998.html</idno>
             </event>

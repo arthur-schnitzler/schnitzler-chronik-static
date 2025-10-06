@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,34 +124,32 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb653">Universitätsstraße</placeName>
@@ -159,7 +157,15 @@
                      <place>
                         <placeName ref="pmb729">Schulerstraße</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03187.html</idno>
             </event>
@@ -190,7 +196,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

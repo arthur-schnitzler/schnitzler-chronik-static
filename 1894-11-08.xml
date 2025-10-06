@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,6 +89,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -116,6 +122,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -131,6 +143,74 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00399.html</idno>
+            </event>
+            <event when-iso="1894-11-08">
+               <head>Theodor Herzl an Arthur Schnitzler, 8. 11. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11904">Leon Kellner</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76499">Das neue Ghetto. Schauspiel in vier Acten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb298263">Die Glosse. Lustspiel in einem Act</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb296731">8, Rue de Monceau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29380">Berliner Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb45434">Neues Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29561">Freie Bühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03835.html</idno>
             </event>
             <event when-iso="1894-11-08">
                <head corresp="#pmb50">Wien</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,10 +92,19 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11527">Stefan Großmann</persName>
+                        <persName ref="pmb12408">Pernerstorfer, Engelbert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11527">Großmann, Stefan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb12408">Engelbert Pernerstorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11527">Stefan Großmann</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -103,19 +112,19 @@
                         <title ref="pmb46360">Der Strom. Organ der Wiener Freien Volksbühne</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46358">Schönbrunnerstraße</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29569">Wiener Freie Volksbühne</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb46358">Schönbrunnerstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02013.html</idno>
             </event>
@@ -147,13 +156,13 @@
                <head>Konzert von Therese Behr-Schnabel und Artur Schnabel, 14.3.1911</head>
                <desc>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb6195">Behr-Schnabel, Therese</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb24348">Schnabel, Artur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

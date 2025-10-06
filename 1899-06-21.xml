@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,6 +96,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10860">Paula Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -120,11 +126,6 @@
                         <persName ref="pmb2668">Mirjam Beer-Hofmann</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb1036">Gutenstein</placeName>
@@ -199,6 +200,11 @@
                         <placeName ref="pmb992">Bad Vöslau</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00928.html</idno>
             </event>
@@ -206,6 +212,12 @@
                <head>Arthur Schnitzler an Richard Beer-Hofmann, 21. 6. 1899</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
@@ -232,10 +244,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25793">Julius Szeps</persName>
                      </person>
                      <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
@@ -244,10 +262,10 @@
                         <persName ref="pmb12740">Gustav Schwarzkopf</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
                      </person>
                      <person>
-                        <persName ref="pmb25793">Julius Szeps</persName>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -255,18 +273,38 @@
                         <title ref="pmb143251">Wiener Allgemeine Montags-Zeitung</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb143253">Scene aus der »Hochzeit der Sobeide«. (Ältere Niederschrift. Wien 1897. — Ungedruckt.)</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb146069">?? [Feuilleton über Paul Goldmann]</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb167898">Wiener Allgemeine Rundschau</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29855">Reigen. Zehn Dialoge</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb143253">Scene aus der »Hochzeit der Sobeide«. (Ältere Niederschrift. Wien 1897. — Ungedruckt.)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb146069">?? [Feuilleton über Paul Goldmann]</title>
+                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb198">Pelikangasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb729">Schulerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40529">Slawonien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43471">Budapest</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
@@ -275,26 +313,6 @@
                         <orgName ref="pmb36247">Burgtheater</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb198">Pelikangasse</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40529">Slawonien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb43471">Budapest</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb729">Schulerstraße</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03293.html</idno>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -129,7 +135,22 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Gussmann, Olga</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2400">Bjørnstjerne Bjørnson</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2315">Elisabeth Steinrück</persName>
                      </person>
                      <person>
                         <persName ref="pmb13169">Ernst von Wolzogen</persName>
@@ -137,46 +158,37 @@
                      <person>
                         <persName ref="pmb14953">Marie Glümer</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2315">Elisabeth Steinrück</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2400">Bjørnstjerne Bjørnson</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb182224">Berliner Theater. [Über unsere Kraft, zweiter Teil von Bjørnstjerne Bjørnson]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29883">Über unsere Kraft. Zweiter Teil</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb36374">Neue Freie Presse</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb29883">Über unsere Kraft. Zweiter Teil</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb144041">Überbrettl</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb144036">?? [Sanatorium, Aufenthaltsort von Marie Glümer 1901]</placeName>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb40583">Dessauer Straße</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb144036">?? [Sanatorium, Aufenthaltsort von Marie Glümer 1901]</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb144041">Überbrettl</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03525.html</idno>
             </event>
@@ -213,7 +225,7 @@
                <head>Besuch der Villa Borghese Pinciana, 3.4.1901</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
@@ -233,7 +245,7 @@
                <head>Besuch des Palazzo dei Conservatori, 3.4.1901</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

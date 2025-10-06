@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,6 +115,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
@@ -126,11 +132,6 @@
                         <title ref="pmb29943">Bayreuth</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
@@ -139,6 +140,11 @@
                         <placeName ref="pmb864">Leipzig</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02042.html</idno>
             </event>
@@ -190,7 +196,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

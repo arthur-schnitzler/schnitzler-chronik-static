@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,31 +115,37 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2292">Hofmannsthal, Gerty</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12870">Richard Strauss</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb12630">Franz Schalk</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12870">Richard Strauss</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb3241">Raimund von Hofmannsthal</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb34146">Musikverlag Adolph Fürstner</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb34146">Musikverlag Adolph Fürstner</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02544.html</idno>
             </event>
@@ -148,10 +154,13 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11666">Marie Herzfeld</persName>
+                        <persName ref="pmb11666">Herzfeld, Marie</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11666">Marie Herzfeld</persName>
                      </person>
                      <person>
                         <persName ref="pmb12692">Heinrich Schnitzler</persName>
@@ -159,20 +168,11 @@
                      <person>
                         <persName ref="pmb65504">Reinhard Urbach</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb31091">Das gerettete Venedig. Trauerspiel in fünf Aufzügen</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb31967">Ascanio und Gioconda</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb36156">Die neue Rundschau</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb40069">Venice Preserv'd</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb65339">Corona. Zweimonatsschrift</title>
                      </bibl>
@@ -182,16 +182,28 @@
                      <bibl>
                         <title ref="pmb65348">Briefe an Freunde</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb36156">Die neue Rundschau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31967">Ascanio und Gioconda</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb40069">Venice Preserv'd</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31091">Das gerettete Venedig. Trauerspiel in fünf Aufzügen</title>
+                     </bibl>
                   </listBibl>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb65336">Ölzeltgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                   </listPlace>
                </desc>

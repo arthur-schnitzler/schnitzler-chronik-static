@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,17 +112,18 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
                         <persName ref="pmb27665">Ernst Gòth</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29306">Pester Lloyd</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
@@ -131,6 +132,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29306">Pester Lloyd</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01666.html</idno>
             </event>
@@ -162,7 +168,7 @@
                <head>Besuch der Secession, 10.4.1907</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

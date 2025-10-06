@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,6 +96,59 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-11-26.html</idno>
             </event>
             <event when-iso="1914-11-26">
+               <head>Stefan Zweig an Arthur Schnitzler, [26. 11. 1914?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Zweig, Stefan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10836">Rudolf Hans Bartsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7414">Franz Karl Ginzkey</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb294943">Tagebuch im Kriegsjahr 1914 vom Tage der deutschen Kriegserklärung an Rußland</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296393">Ein Brief Artur Schnitzlers</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32959">?? [Fiktives Interview aus der Kriegszeit]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb249577">Kochgasse 8</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb865">Klosterneuburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb433">Sankt Petersburg</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb293828">Kriegsarchiv</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03647.html</idno>
+            </event>
+            <event when-iso="1914-11-26">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -126,7 +179,7 @@
                <head>Besuch des Kaiserpanoramas [Wien, Schubertring 4], 26.11.1914</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

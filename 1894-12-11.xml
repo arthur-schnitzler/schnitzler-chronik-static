@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,6 +99,74 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-11.html</idno>
             </event>
             <event when-iso="1894-12-11">
+               <head>Theodor Herzl an Arthur Schnitzler, 11. 12. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2420">Friedrich Schik</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb298263">Die Glosse. Lustspiel in einem Act</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76499">Das neue Ghetto. Schauspiel in vier Acten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb112436">Palais Bourbon</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41831">Reisnerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb296539">Reisnerstraße 35</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb87814">rue Monceau</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb45434">Neues Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29561">Freie Bühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb52775">Universität Wien</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03838.html</idno>
+            </event>
+            <event when-iso="1894-12-11">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -137,16 +205,16 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb11988">Kraus, Karl</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb11098">Conrad, Michael Georg</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb18890">John, Richard</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

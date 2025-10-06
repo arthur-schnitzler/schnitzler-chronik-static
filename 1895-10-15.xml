@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -115,6 +115,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                   </listPerson>
@@ -129,15 +135,10 @@
                         <title ref="pmb33243">Tagebuch</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29752">Concordia. Journalisten- und Schriftstellerverein</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb43143">Wiener Schachclub</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb14">Burgtheater</placeName>
                      </place>
@@ -147,10 +148,15 @@
                      <place>
                         <placeName ref="pmb417">Hörlgasse</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29752">Concordia. Journalisten- und Schriftstellerverein</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb43143">Wiener Schachclub</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03039.html</idno>
             </event>
@@ -158,6 +164,15 @@
                <head>Friedrich M. Fels, Jenny Nordegg an Arthur Schnitzler, 15. 10. 1895</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb2450">Fels, Friedrich M.</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb42508">Nordegg, Jenny</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11555">Karl Gutzkow</persName>
                      </person>
@@ -219,37 +234,52 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb87771">Leopold Sonnemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12816">Ludwig Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2416">Jakob Julius David</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12365">Max Nordau</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11673">Theodor Herzl</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12365">Max Nordau</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12816">Ludwig Speidel</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2416">Jakob Julius David</persName>
                      </person>
                      <person>
                         <persName ref="pmb2586">Emil Granichstaedten</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb87771">Leopold Sonnemann</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
+                     <bibl>
+                        <title ref="pmb93273">Burgtheater. (»Liebelei«, Schauspiel in drei Aufzügen von Arthur Schnitzler. – »Rechte der Seele«, Schauspiel in einem Act von Giuseppe Giacosa, deutsch von Otto Eisenschitz.)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
                      <bibl>
                         <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
                      </bibl>
@@ -257,41 +287,27 @@
                         <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <title ref="pmb33243">Tagebuch</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb31905">Ein Regentag. Charakterbild</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb33243">Tagebuch</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb36374">Neue Freie Presse</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb41189">Die Presse</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb93273">Burgtheater. (»Liebelei«, Schauspiel in drei Aufzügen von Arthur Schnitzler. – »Rechte der Seele«, Schauspiel in einem Act von Giuseppe Giacosa, deutsch von Otto Eisenschitz.)</title>
+                        <title ref="pmb93304">Theater- und Kunstnachrichten. [Deutsches Volkstheater.] [Ein Regentag]</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb93300">Deutsches Volkstheater. (»Ein Regentag«, Charakterbild von J. J. David.)</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb93304">Theater- und Kunstnachrichten. [Deutsches Volkstheater.] [Ein Regentag]</title>
+                        <title ref="pmb41189">Die Presse</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb42671">rue Feydeau</placeName>
@@ -299,10 +315,15 @@
                      <place>
                         <placeName ref="pmb45258">München</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02753.html</idno>
             </event>
@@ -358,7 +379,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,6 +109,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11036">Burckhard, Max</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11036">Max Eugen Burckhard</persName>
                      </person>
                   </listPerson>
@@ -122,6 +128,9 @@
                         <placeName ref="pmb33">St. Gilgen</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb436">Porzellangasse</placeName>
                      </place>
                      <place>
@@ -129,9 +138,6 @@
                      </place>
                      <place>
                         <placeName ref="pmb451">Sizilien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -142,30 +148,36 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb198">Pelikangasse</placeName>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb89">Sanatorium Loew</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb198">Pelikangasse</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -221,7 +233,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

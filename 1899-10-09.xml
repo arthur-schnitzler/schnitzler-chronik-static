@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -102,23 +102,40 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11324">Samuel Fischer</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
                         <persName ref="pmb11701">Georg Hirschfeld</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
                      </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb32426">Der Gemeine. Schauspiel in drei Aufzügen</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb33301">Der Hinterbliebene. Kurze Novellen</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb32426">Der Gemeine. Schauspiel in drei Aufzügen</title>
+                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29639">S. Fischer Verlag</orgName>
@@ -127,17 +144,6 @@
                         <orgName ref="pmb36430">Volkstheater</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03301.html</idno>
             </event>
@@ -171,7 +177,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

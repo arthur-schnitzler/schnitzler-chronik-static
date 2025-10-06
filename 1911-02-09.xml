@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11230">Ehrenstein, Albert</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11230">Albert Ehrenstein</persName>
                      </person>
                      <person>
@@ -101,19 +107,19 @@
                         <persName ref="pmb11988">Karl Kraus</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29308">Die Fackel</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02008.html</idno>
             </event>
@@ -121,6 +127,12 @@
                <head>Robert Adam an Arthur Schnitzler, 9. 2. 1911</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb12438">Adam, Robert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb12438">Robert Adam</persName>
                      </person>
@@ -130,16 +142,16 @@
                         <title ref="pmb33580">Neidhard</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02009.html</idno>
             </event>
@@ -176,10 +188,10 @@
                      </org>
                   </listOrg>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb8915">Messchaert, Johan</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

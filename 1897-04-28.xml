@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11324">Samuel Fischer</persName>
                      </person>
                      <person>
@@ -134,28 +140,32 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
                      </person>
                      <person>
                         <persName ref="pmb118481">Dora Villé</persName>
                      </person>
                      <person>
                         <persName ref="pmb118499">
-      ?? [blonder junger Musiker in Paris]
-  </persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2378">Marie Reinhard</persName>
+                  ?? [blonder junger Musiker in Paris]
+               </persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb118464">Hotel Deutscher Kaiser</placeName>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb118474">Concert Parisien</placeName>
@@ -167,15 +177,17 @@
                         <placeName ref="pmb118491">Panthéon</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb146">Frankfurt am Main</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb182">Paris</placeName>
+                        <placeName ref="pmb118464">Hotel Deutscher Kaiser</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02810.html</idno>
             </event>

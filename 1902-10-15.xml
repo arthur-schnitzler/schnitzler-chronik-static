@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,6 +122,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                   </listPerson>
@@ -151,6 +157,12 @@
                <head>Hermann Bahr an Arthur Schnitzler, 15. 10. 1902</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
@@ -197,7 +209,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11673">Theodor Herzl</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12790">Isidor Singer</persName>
                      </person>
                      <person>
                         <persName ref="pmb11867">Heinrich Kanner</persName>
@@ -206,30 +227,27 @@
                         <persName ref="pmb12140">Raphael Löwenfeld</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12790">Isidor Singer</persName>
+                        <persName ref="pmb145962">Paul Paschen</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                        <persName ref="pmb146114">
+                  Forster
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2618">Hugo Ganz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
                      </person>
                      <person>
                         <persName ref="pmb13055">Jakob Wassermann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb145962">Paul Paschen</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb146114">
-      Forster
-  </persName>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
                      </person>
                      <person>
                         <persName ref="pmb2164">Ernst Gettke</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2618">Hugo Ganz</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -237,7 +255,7 @@
                         <title ref="pmb145957">Fünfkreuzertanz</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb145975">»Altneuland«</title>
+                        <title ref="pmb35935">Die Zeit</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb168196">[Aufsatz über volkstümliche Klassikervorstellungen]</title>
@@ -246,24 +264,41 @@
                         <title ref="pmb168198">[Artikel über Kulissenton]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb35935">Die Zeit</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb76498">Altneuland. Roman</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb76513">Die kleine Veronika</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb76940">Der Moloch</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb76498">Altneuland. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb145975">»Altneuland«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb120">Wipplingerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29626">Die Zeit</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb57124">Schiller-Theater</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb29639">S. Fischer Verlag</orgName>
@@ -274,24 +309,7 @@
                      <org>
                         <orgName ref="pmb39666">Raimund-Theater</orgName>
                      </org>
-                     <org>
-                        <orgName ref="pmb57124">Schiller-Theater</orgName>
-                     </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb120">Wipplingerstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb77">Raimund-Theater</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03335.html</idno>
             </event>

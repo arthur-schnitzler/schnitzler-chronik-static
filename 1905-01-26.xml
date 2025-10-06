@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -116,6 +116,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10860">Paula Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -125,14 +131,6 @@
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb51616">Internationales Reise-Bureau Schenker</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb51619">Hamburg-Amerika-Linie</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb12515">Alexandria</placeName>
@@ -360,6 +358,14 @@
                         <placeName ref="pmb994">Genua</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb51616">Internationales Reise-Bureau Schenker</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb51619">Hamburg-Amerika-Linie</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01495.html</idno>
             </event>
@@ -402,7 +408,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

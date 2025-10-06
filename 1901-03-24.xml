@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -84,10 +84,22 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11093">Rudolf Christians</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11093">Christians, Rudolf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb144060">Christians, Bertha</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11093">Rudolf Christians</persName>
                      </person>
                      <person>
                         <persName ref="pmb144060">Bertha Klein</persName>
@@ -95,24 +107,31 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                        <title ref="pmb29935">Anatol</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29935">Anatol</title>
+                        <title ref="pmb30163">Weihnachts-Einkäufe</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb30005">Abschiedssouper</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb30163">Weihnachts-Einkäufe</title>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168934">Frankgasse 1</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb144055">Lanzsch &amp; Co.</placeName>
                      </place>
@@ -120,21 +139,14 @@
                         <placeName ref="pmb144057">Charlottenstraße</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168934">Frankgasse 1</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb59">IX., Alsergrund</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb784">Schauspielhaus Berlin</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03061.html</idno>
             </event>
@@ -171,7 +183,7 @@
                      </org>
                   </listOrg>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

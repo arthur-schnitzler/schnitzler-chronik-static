@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,6 +90,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10986">Otto Brahm</persName>
                      </person>
                      <person>
@@ -115,19 +121,19 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb113623">Eduard Grisebach</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb12977">Irene Triesch</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2157">Leo Ebermann</persName>
+                        <persName ref="pmb3386">Fritz Mauthner</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
@@ -136,10 +142,16 @@
                         <persName ref="pmb2315">Elisabeth Steinrück</persName>
                      </person>
                      <person>
-                        <persName ref="pmb3386">Fritz Mauthner</persName>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2157">Leo Ebermann</persName>
                      </person>
                      <person>
                         <persName ref="pmb39417">Sébastien Roch Nicolas Chamfort</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb113623">Eduard Grisebach</persName>
                      </person>
                      <person>
                         <persName ref="pmb5787">Arthur Schopenhauer</persName>
@@ -147,7 +159,28 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb144557">Hebbels »Maria Magdalena«. (Deutsches Theater.)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41531">Berliner Tageblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29879">Einsame Menschen. Drama</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb145492">Berliner Brief. [»Schluck und Jau« von Gerhart Hauptmann am Deutschen Theater]</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb142613">»Michael Kramer.«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29861">Berliner Theater. »Einsame Menschen« im Deutschen Theater</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb144258">Œuvres choisies de N. Chamfort, publiées avec préface, notes et tables</title>
@@ -155,39 +188,19 @@
                      <bibl>
                         <title ref="pmb144550">Schopenhauer’s Gespräche und Selbstgespräche: Nach der Handschrift eis heauton</title>
                      </bibl>
-                     <bibl>
-                        <title ref="pmb144557">Hebbels »Maria Magdalena«. (Deutsches Theater.)</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb145492">Berliner Brief. [»Schluck und Jau« von Gerhart Hauptmann am Deutschen Theater]</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29861">Berliner Theater. »Einsame Menschen« im Deutschen Theater</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29879">Einsame Menschen. Drama</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb36374">Neue Freie Presse</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb41531">Berliner Tageblatt</title>
-                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb144553">Ernst Hofmann &amp; Co.</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb948">Payerbach</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb45258">München</placeName>
@@ -195,13 +208,12 @@
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb506">Hamburg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb948">Payerbach</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb144553">Ernst Hofmann &amp; Co.</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03090.html</idno>
             </event>
@@ -233,13 +245,13 @@
                <head>Konzert im Bösendorfer-Saal, 9.11.1901</head>
                <desc>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb8375">Kurt, Melanie</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb195378">Halácsy, Irma von</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

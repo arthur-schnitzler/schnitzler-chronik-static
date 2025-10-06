@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                   </listPerson>
@@ -105,11 +111,6 @@
                         <title ref="pmb30383">Renaissance. Neue Studien zur Kritik der Moderne</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -118,6 +119,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00638.html</idno>
             </event>
@@ -125,6 +131,12 @@
                <head>Georg Brandes an Arthur Schnitzler, 16. 1. 1897</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb10992">Brandes, Georg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
@@ -177,6 +189,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
@@ -191,6 +209,11 @@
                         <title ref="pmb30075">Die Frau des Weisen. Erzählung</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29209">Die Zeit. Wiener Wochenschrift</orgName>
@@ -199,11 +222,6 @@
                         <orgName ref="pmb29639">S. Fischer Verlag</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00640.html</idno>
             </event>
@@ -212,10 +230,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -226,6 +250,17 @@
                         <title ref="pmb168896">Dulfein. Ein Liebesmärchen</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb955">Teplice</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168900">Österreichischer Ingenieur- und Architektenverein</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb146124">Stadttheater Teplitz</orgName>
@@ -234,17 +269,6 @@
                         <orgName ref="pmb29558">Grillparzer-Gesellschaft</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168900">Österreichischer Ingenieur- und Architektenverein</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb955">Teplice</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03263.html</idno>
             </event>
@@ -290,7 +314,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

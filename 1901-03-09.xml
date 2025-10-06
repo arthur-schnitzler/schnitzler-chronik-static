@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,25 +95,28 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Gussmann, Olga</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12078">Paul Lindau</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb21647">Paul Marx</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
+                        <persName ref="pmb12078">Paul Lindau</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2315">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21647">Paul Marx</persName>
                      </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb147955">[Portraitfoto von Olga Gussmann]</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb29859">Marionetten. Drei Einakter</title>
                      </bibl>
@@ -123,29 +126,32 @@
                      <bibl>
                         <title ref="pmb33243">Tagebuch</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb147955">[Portraitfoto von Olga Gussmann]</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb144041">Überbrettl</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29380">Berliner Theater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29805">Konservatorium der Gesellschaft der Musikfreunde</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb144041">Überbrettl</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29805">Konservatorium der Gesellschaft der Musikfreunde</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29380">Berliner Theater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03526.html</idno>
             </event>
@@ -173,7 +179,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

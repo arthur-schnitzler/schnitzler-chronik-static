@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -121,7 +121,16 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10992">Brandes, Georg</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10992">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb29117">Grete Prozor</persName>
                      </person>
                      <person>
                         <persName ref="pmb12701">Louise Schnitzler</persName>
@@ -129,21 +138,44 @@
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb29117">Grete Prozor</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb33364">Ibsen in Frankreich</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb36374">Neue Freie Presse</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29351">Neue Freie Presse</orgName>
@@ -152,32 +184,6 @@
                         <orgName ref="pmb36247">Burgtheater</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb146">Frankfurt am Main</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168815">Sternwartestraße 71</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb36300">Kopenhagen</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb506">Hamburg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb68">XVIII., Währing</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02035.html</idno>
             </event>
@@ -231,7 +237,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -100,6 +100,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
@@ -107,6 +113,9 @@
                      </person>
                   </listPerson>
                   <listBibl>
+                     <bibl>
+                        <title ref="pmb31847">Tagebuch. 10. Januar [1930]</title>
+                     </bibl>
                      <bibl>
                         <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
                      </bibl>
@@ -119,10 +128,18 @@
                      <bibl>
                         <title ref="pmb30053">Buch der Sprüche und Bedenken</title>
                      </bibl>
-                     <bibl>
-                        <title ref="pmb31847">Tagebuch. 10. Januar [1930]</title>
-                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1001">Exeter</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29675">Bauernfeld-Preis</orgName>
@@ -131,17 +148,6 @@
                         <orgName ref="pmb29677">Franz-Grillparzer-Preis</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb1001">Exeter</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02531.html</idno>
             </event>

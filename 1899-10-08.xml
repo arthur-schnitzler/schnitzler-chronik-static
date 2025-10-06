@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -140,6 +146,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
@@ -163,11 +175,6 @@
                         <title ref="pmb32432">Das Bergwerk zu Falun</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -182,6 +189,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00990.html</idno>
             </event>
@@ -190,7 +202,10 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
@@ -199,7 +214,10 @@
                         <persName ref="pmb135001">G. Zanetta</persName>
                      </person>
                      <person>
-                        <persName ref="pmb140820">Gertrud Rottenberg</persName>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb9598">Ludwig Rottenberg</persName>
                      </person>
                      <person>
                         <persName ref="pmb140824">Johann Nepomuk Fuchs</persName>
@@ -208,9 +226,32 @@
                         <persName ref="pmb23674">Theodore Rottenberg</persName>
                      </person>
                      <person>
-                        <persName ref="pmb9598">Ludwig Rottenberg</persName>
+                        <persName ref="pmb140820">Gertrud Rottenberg</persName>
                      </person>
                   </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb263">Florenz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb134998">Hôtel Pension Barbensi</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb134996">Lungarno Guicciardini</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb36689">K.K. Hof-Oper</orgName>
@@ -219,29 +260,6 @@
                         <orgName ref="pmb46954">Frankfurter Opernhaus</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb134996">Lungarno Guicciardini</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb134998">Hôtel Pension Barbensi</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb146">Frankfurt am Main</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb263">Florenz</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb462">Venedig</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02889.html</idno>
             </event>
@@ -269,7 +287,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

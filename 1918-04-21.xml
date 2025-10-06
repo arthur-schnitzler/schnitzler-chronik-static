@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,7 +109,16 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11002">Braun, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11002">Felix Braun</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5759">Arthur I. Kauffmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb13058">Julie Wassermann</persName>
@@ -117,35 +126,24 @@
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb5759">Arthur I. Kauffmann</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
                      <bibl>
                         <title ref="pmb30313">Gesammelte Werke</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
                      </bibl>
-                     <bibl>
-                        <title ref="pmb30971">Casanovas Heimfahrt</title>
-                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29584">Georg Müller Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29585">Allgemeine elsässische Bankgesellschaft</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb1234">Elisabethstraße [München]</placeName>
+                        <placeName ref="pmb45258">München</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb1235">Hotel Schottenhamel</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -154,12 +152,20 @@
                         <placeName ref="pmb44119">Mainz</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb45258">München</placeName>
+                        <placeName ref="pmb1234">Elisabethstraße [München]</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb1235">Hotel Schottenhamel</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29584">Georg Müller Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29585">Allgemeine elsässische Bankgesellschaft</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02285.html</idno>
             </event>
@@ -203,19 +209,19 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2456">Specht, Richard</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb10788">Auernheimer, Raoul</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb5799">Rosenthal, Friedrich</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2173">Schnitzler, Olga</persName>
                      </person>
                   </listPerson>

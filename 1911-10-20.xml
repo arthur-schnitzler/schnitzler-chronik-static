@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,6 +124,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
@@ -132,22 +138,10 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb142698">Der gute König Dagobert. Lustspiel in vier Aufzügen</title>
+                        <title ref="pmb32400">Burgtheater (»Das weite Land«, Tragikomödie in fünf Akten von Arthur Schnitzler. – Zum erstenmal am 14. Oktober 1911)</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb142702">Burgtheater. »Das weite Land.« Tragikomödie von Arthur Schnitzler</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29935">Anatol</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb32400">Burgtheater (»Das weite Land«, Tragikomödie in fünf Akten von Arthur Schnitzler. – Zum erstenmal am 14. Oktober 1911)</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb35935">Die Zeit</title>
@@ -156,9 +150,41 @@
                         <title ref="pmb52212">Pester Lloyd</title>
                      </bibl>
                      <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142698">Der gute König Dagobert. Lustspiel in vier Aufzügen</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb80174">Le Bon Roi Dagobert</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb175">Amerika</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb866">Dresden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
@@ -167,26 +193,6 @@
                         <orgName ref="pmb36430">Volkstheater</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb175">Amerika</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb506">Hamburg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb652">Prag</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb866">Dresden</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02949.html</idno>
             </event>
@@ -246,7 +252,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

@@ -101,6 +101,16 @@
   [
 {
  "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
  "Hermann Bahr",
  "ref":
  "pmb10815"}],
@@ -153,6 +163,16 @@
 {"listPerson":
   [
 {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
  "persName":
  "Hermann Bahr",
  "ref":
@@ -232,9 +252,24 @@
   [
 {
  "persName":
- "Theodor Herzl",
+ "Felix Salten",
  "ref":
- "pmb11673"},
+ "pmb2167"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
  {
  "persName":
  "Heinrich Kanner",
@@ -247,21 +282,6 @@
  "pmb12140"},
  {
  "persName":
- "Isidor Singer",
- "ref":
- "pmb12790"},
- {
- "persName":
- "Siegfried Trebitsch",
- "ref":
- "pmb12968"},
- {
- "persName":
- "Jakob Wassermann",
- "ref":
- "pmb13055"},
- {
- "persName":
  "Paul Paschen",
  "ref":
  "pmb145962"},
@@ -272,19 +292,29 @@
  "pmb146114"},
  {
  "persName":
- "Ernst Gettke",
- "ref":
- "pmb2164"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
- {
- "persName":
  "Hugo Ganz",
  "ref":
- "pmb2618"}],
+ "pmb2618"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Ernst Gettke",
+ "ref":
+ "pmb2164"}],
  "listBibl":
   [
  {
@@ -294,9 +324,9 @@
  "pmb145957"}
  ,  {
  "title":
- "»Altneuland«",
+ "Die Zeit",
  "ref":
- "pmb145975"}
+ "pmb35935"}
  ,  {
  "title":
  "[Aufsatz über volkstümliche Klassikervorstellungen]",
@@ -309,21 +339,6 @@
  "pmb168198"}
  ,  {
  "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Die Zeit",
- "ref":
- "pmb35935"}
- ,  {
- "title":
- "Altneuland. Roman",
- "ref":
- "pmb76498"}
- ,  {
- "title":
  "Die kleine Veronika",
  "ref":
  "pmb76513"}
@@ -332,6 +347,44 @@
  "Der Moloch",
  "ref":
  "pmb76940"}
+ ,  {
+ "title":
+ "Altneuland. Roman",
+ "ref":
+ "pmb76498"}
+ ,  {
+ "title":
+ "»Altneuland«",
+ "ref":
+ "pmb145975"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wipplingerstraße",
+ "ref":
+ "pmb120"}
+ ,  {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
  ],
  "listOrg":
   [
@@ -340,6 +393,11 @@
  "Die Zeit",
  "ref":
  "pmb29626"}
+ ,  {
+ "orgName":
+ "Schiller-Theater",
+ "ref":
+ "pmb57124"}
  ,  {
  "orgName":
  "S. Fischer Verlag",
@@ -355,34 +413,6 @@
  "Raimund-Theater",
  "ref":
  "pmb39666"}
- ,  {
- "orgName":
- "Schiller-Theater",
- "ref":
- "pmb57124"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Wipplingerstraße",
- "ref":
- "pmb120"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Raimund-Theater",
- "ref":
- "pmb77"}
  ]
 }
 }, {

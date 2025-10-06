@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,19 +85,25 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb19143">Bertha Karlsburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2563">Eduard Michael Kafka</persName>
                      </person>
                      <person>
                         <persName ref="pmb19998">Max L.</persName>
                      </person>
                      <person>
                         <persName ref="pmb2150">Julius Bauer</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2563">Eduard Michael Kafka</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -107,16 +113,16 @@
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb167789">Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168765">Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb46">Café Kremser</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb168765">Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb167789">Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb52510">Berggasse</placeName>
@@ -129,6 +135,12 @@
                <head>Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1892</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb14328">Blumenthal, Oscar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb12491">Emanuel Reicher</persName>
                      </person>
@@ -144,14 +156,6 @@
                         <title ref="pmb33243">Tagebuch</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29252">Emanuel Reicher’s Deutsche Gastspielgesellschaft</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb35053">Lessing-Theater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -166,6 +170,14 @@
                         <placeName ref="pmb822">Alexanderstraße</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29252">Emanuel Reicher’s Deutsche Gastspielgesellschaft</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00062.html</idno>
             </event>

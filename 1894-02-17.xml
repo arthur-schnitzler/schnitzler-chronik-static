@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -89,6 +89,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
@@ -111,34 +117,31 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb15611">Emil Dürer</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb2801">Henri Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb64866">August Niemann</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb15611">Emil Dürer</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb30163">Weihnachts-Einkäufe</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb32252">Moderner Musen-Almanach auf das Jahr 1894. Ein Jahrbuch deutscher Kunst</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb34296">Le nouvel almanach de M. Bierbaum</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb36344">Frankfurter Zeitung</title>
                      </bibl>
@@ -146,20 +149,24 @@
                         <title ref="pmb36349">Mercure de France</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb79030">Der Junggesell. Humoreske</title>
+                        <title ref="pmb87789">La Société Nouvelle. Revue internationale. Sociologie, Arts, Sciences, Lettres</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb87789">La Société Nouvelle. Revue internationale. Sociologie, Arts, Sciences, Lettres</title>
+                        <title ref="pmb34296">Le nouvel almanach de M. Bierbaum</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32252">Moderner Musen-Almanach auf das Jahr 1894. Ein Jahrbuch deutscher Kunst</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30163">Weihnachts-Einkäufe</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb88050">L'Idée libre. Revue mensuelle de Littérature et d'Art</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb79030">Der Junggesell. Humoreske</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29561">Freie Bühne</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb182">Paris</placeName>
@@ -168,6 +175,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29561">Freie Bühne</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02609.html</idno>
             </event>

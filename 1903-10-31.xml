@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,10 +78,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
                      </person>
                      <person>
                         <persName ref="pmb89578">Caroline Kotter</persName>
@@ -100,34 +106,11 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
                      </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb32814">Dialog vom Tragischen</title>
-                     </bibl>
-                  </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01332.html</idno>
-            </event>
-            <event when-iso="1903-10-31">
-               <head>Hermann Bahr an Arthur Schnitzler, [31. 10. 1903]</head>
-               <desc>
-                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
@@ -137,11 +120,41 @@
                         <title ref="pmb32814">Dialog vom Tragischen</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
-                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
                      </org>
                   </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01332.html</idno>
+            </event>
+            <event when-iso="1903-10-31">
+               <head>Hermann Bahr an Arthur Schnitzler, [31. 10. 1903]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32814">Dialog vom Tragischen</title>
+                     </bibl>
+                  </listBibl>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
@@ -150,6 +163,11 @@
                         <placeName ref="pmb683">Steyrerhof</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01333.html</idno>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -142,6 +142,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11527">Großmann, Stefan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11527">Stefan Großmann</persName>
                      </person>
                      <person>
@@ -156,23 +162,12 @@
                         <title ref="pmb47287">Von der kleinen Liebe</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb37544">Das Tage-Buch</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb47285">Fernsprechamt Lietzow</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb151">Deutschland</placeName>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb362">Potsdamer Straße</placeName>
@@ -181,9 +176,20 @@
                         <placeName ref="pmb41240">Österreich</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb151">Deutschland</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb37544">Das Tage-Buch</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29756">Ernst Rowohlt Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb47285">Fernsprechamt Lietzow</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02378.html</idno>
             </event>
@@ -218,10 +224,10 @@
                <head>Bankett für Arthur Schnitzler, 26.4.1922</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb20644">Lucius von Stoedten, Hellmuth von</persName>
                      </person>
                   </listPerson>
@@ -255,7 +261,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

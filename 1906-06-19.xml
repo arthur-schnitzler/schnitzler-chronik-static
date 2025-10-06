@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,10 +112,19 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10608">Julius Ferdinand Wollf</persName>
                      </person>
                      <person>
-                        <persName ref="pmb150123">Richard Haldane</persName>
+                        <persName ref="pmb21399">Max Meyerfeld</persName>
                      </person>
                      <person>
                         <persName ref="pmb169681">Winston Churchill</persName>
@@ -124,16 +133,13 @@
                         <persName ref="pmb20530">David Lloyd George</persName>
                      </person>
                      <person>
-                        <persName ref="pmb21399">Max Meyerfeld</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb23915">Anna Katharina Rehmann</persName>
+                        <persName ref="pmb150123">Richard Haldane</persName>
                      </person>
                      <person>
                         <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23915">Anna Katharina Rehmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb2922">Paul Salten</persName>
@@ -144,35 +150,21 @@
                         <title ref="pmb168879">Erinnerungen</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb147552">Deutsch-amerikanische Seepost</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb147555">Kronprinz Wilhelm</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb53340">Norddeutscher Lloyd</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb118890">Nordsee</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb147498">Bansin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb147557">Klopeiner See</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb224">London</placeName>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147557">Klopeiner See</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb254">England</placeName>
@@ -181,30 +173,44 @@
                         <placeName ref="pmb36766">Bremerhaven</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb43570">Dänemark</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb47658">Southampton</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb49870">Stratford-upon-Avon</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb893">Cambridge</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb147498">Bansin</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb64659">Heringsdorf</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb893">Cambridge</placeName>
+                        <placeName ref="pmb43570">Dänemark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb959">Marienlyst</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb147552">Deutsch-amerikanische Seepost</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb53340">Norddeutscher Lloyd</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb147555">Kronprinz Wilhelm</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03427.html</idno>
             </event>
@@ -255,7 +261,7 @@
                <head>Besuch des Kaiserpanoramas [Wien, Schubertring 4], 19.6.1906</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

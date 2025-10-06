@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,6 +92,12 @@
                <head>Arthur Schnitzler an Hugo von Hofmannsthal, 27. 7. 1899</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
@@ -171,7 +177,10 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
@@ -188,43 +197,46 @@
                      <person>
                         <persName ref="pmb4986">Fedor Mamroth</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb43228">Der Ring des Nibelungen</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29811">Bayreuther Festspiele</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb142348">Grönland</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb151">Deutschland</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40306">Italien</placeName>
+                        <placeName ref="pmb734">Bayreuth</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb40454">Villach</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb909">Velden am Wörthersee</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb430">Wörthersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb55293">Rennes</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb734">Bayreuth</placeName>
+                        <placeName ref="pmb142348">Grönland</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb909">Velden am Wörthersee</placeName>
+                        <placeName ref="pmb40306">Italien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29811">Bayreuther Festspiele</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02881.html</idno>
             </event>
@@ -233,13 +245,10 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
@@ -254,21 +263,30 @@
                         <persName ref="pmb28530">Leopold Geiringer</persName>
                      </person>
                      <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb4216">Alfred Dreyfus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
                      </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb118028">Neue französische Humoristen</title>
+                        <title ref="pmb167898">Wiener Allgemeine Rundschau</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb143251">Wiener Allgemeine Montags-Zeitung</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb146069">?? [Feuilleton über Paul Goldmann]</title>
+                        <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb167898">Wiener Allgemeine Rundschau</title>
+                        <title ref="pmb146069">?? [Feuilleton über Paul Goldmann]</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb33346">Ein Sommer in China. Reisebilder</title>
@@ -277,27 +295,27 @@
                         <title ref="pmb36344">Frankfurter Zeitung</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
+                        <title ref="pmb118028">Neue französische Humoristen</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb166">Frankreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb34824">Seeboden</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40454">Villach</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb909">Velden am Wörthersee</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb877">Unterach am Attersee</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb909">Velden am Wörthersee</placeName>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40454">Villach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34824">Seeboden</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb91350">Niederdorf</placeName>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,6 +94,45 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-03-24.html</idno>
             </event>
             <event when-iso="1926-03-24">
+               <head>Sigmund Freud an Arthur Schnitzler, 24. 3. 1926</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11370">Freud, Sigmund</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11370">Sigmund Freud</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Thomas Mann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33247">Der Zauberberg. Roman</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb253790">Berggasse 19</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb61755">Cottage-Sanatorium für Nerven- und Stoffwechselkranke</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03889.html</idno>
+            </event>
+            <event when-iso="1926-03-24">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -127,7 +166,7 @@
                <head>Ausstellungsbesuch Französische Kunst der Gegenwart, 24.3.1926</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
@@ -147,10 +186,10 @@
                <head>Hans Pfitzner-Konzert, 24.3.1926</head>
                <desc>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2674">Pfitzner, Hans</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

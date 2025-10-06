@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,16 +90,25 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                        <persName ref="pmb4986">Fedor Mamroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23593">Josef Rosengart</persName>
                      </person>
                      <person>
                         <persName ref="pmb12701">Louise Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb23593">Josef Rosengart</persName>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
                      </person>
                      <person>
                         <persName ref="pmb24423">Helene Schnitzler</persName>
@@ -107,17 +116,8 @@
                      <person>
                         <persName ref="pmb2461">Gisela Hajek</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb4986">Fedor Mamroth</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb30649">Der blinde Geronimo und sein Bruder</title>
                      </bibl>
@@ -127,23 +127,29 @@
                      <bibl>
                         <title ref="pmb36374">Neue Freie Presse</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb142610">Reuterweg</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb146">Frankfurt am Main</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb142610">Reuterweg</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02946.html</idno>
             </event>

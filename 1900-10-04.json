@@ -53,6 +53,16 @@
  "persName":
  "Hugo von Hofmannsthal",
  "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
  "pmb11740"}],
  "listPlace":
   [
@@ -111,14 +121,14 @@
   [
 {
  "persName":
- "Hermann Bahr",
+ "Paul Goldmann",
  "ref":
- "pmb10815"},
+ "pmb11485"},
  {
  "persName":
- "Georg Brandes",
+ "Arthur Schnitzler",
  "ref":
- "pmb10992"},
+ "pmb2121"},
  {
  "persName":
  "Paul Goldmann",
@@ -126,9 +136,19 @@
  "pmb11485"},
  {
  "persName":
+ "Wilhelm Ernst Oswalt",
+ "ref":
+ "pmb141828"},
+ {
+ "persName":
  "Otto Erich Hartleben",
  "ref":
  "pmb11605"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
  {
  "persName":
  "Siegfried Loewy",
@@ -141,14 +161,14 @@
  "pmb12358"},
  {
  "persName":
- "Wilhelm Ernst Oswalt",
- "ref":
- "pmb141828"},
- {
- "persName":
  "Malwida von Meysenbug",
  "ref":
  "pmb141847"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
  {
  "persName":
  "?? [intime Partnerin von Georg Brandes, Dresden, Oktober 1900]",
@@ -163,14 +183,19 @@
   [
  {
  "title":
- "Die Erziehung zur Ehe. (»Die Lore«, Plauderei in einem Act von Otto Erich Hartleben; »Die Erziehung zur Ehe«, Satire in drei Acten von Otto Erich Hartleben. Zum ersten Mal aufgeführt im Deutschen Volkstheater am 11. September 1897)",
- "ref":
- "pmb133513"}
- ,  {
- "title":
  "Ein Sommer in China. Reisebilder. Zweite, durchgesehene und vermehrte Auflage",
  "ref":
  "pmb141823"}
+ ,  {
+ "title":
+ "Ein Sommer in China. Reisebilder",
+ "ref":
+ "pmb33346"}
+ ,  {
+ "title":
+ "Rosenmontag",
+ "ref":
+ "pmb31767"}
  ,  {
  "title":
  "Kritische Tagebuchblätter",
@@ -178,9 +203,19 @@
  "pmb141842"}
  ,  {
  "title":
- "Der erste Nietzsche",
+ "Die Erziehung zur Ehe. (»Die Lore«, Plauderei in einem Act von Otto Erich Hartleben; »Die Erziehung zur Ehe«, Satire in drei Acten von Otto Erich Hartleben. Zum ersten Mal aufgeführt im Deutschen Volkstheater am 11. September 1897)",
  "ref":
- "pmb141850"}
+ "pmb133513"}
+ ,  {
+ "title":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb36340"}
+ ,  {
+ "title":
+ "Wienerinnen. Lustspiel in drei Akten",
+ "ref":
+ "pmb29885"}
  ,  {
  "title":
  "Theater und Musik [Wienerinnen]",
@@ -198,39 +233,9 @@
  "pmb142451"}
  ,  {
  "title":
- "Wienerinnen. Lustspiel in drei Akten",
+ "Vossische Zeitung",
  "ref":
- "pmb29885"}
- ,  {
- "title":
- "Liebelei. Schauspiel in drei Akten",
- "ref":
- "pmb29917"}
- ,  {
- "title":
- "Rosenmontag",
- "ref":
- "pmb31767"}
- ,  {
- "title":
- "Ein Sommer in China. Reisebilder",
- "ref":
- "pmb33346"}
- ,  {
- "title":
- "Die Zeit. Wiener Wochenschrift",
- "ref":
- "pmb36340"}
- ,  {
- "title":
- "Neue Freie Presse",
- "ref":
- "pmb36374"}
- ,  {
- "title":
- "Berliner Börsen-Courier",
- "ref":
- "pmb41289"}
+ "pmb52605"}
  ,  {
  "title":
  "Berliner Tageblatt",
@@ -238,40 +243,42 @@
  "pmb41531"}
  ,  {
  "title":
- "Vossische Zeitung",
+ "Berliner Börsen-Courier",
  "ref":
- "pmb52605"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Rütten &amp; Loening",
+ "pmb41289"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
  "ref":
- "pmb29309"}
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der erste Nietzsche",
+ "ref":
+ "pmb141850"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
  ],
  "listPlace":
   [
  {
- "placeName":
- "Frankfurt am Main",
- "ref":
- "pmb146"}
- ,  {
- "placeName":
- "Frankreich",
- "ref":
- "pmb166"}
- ,  {
  "placeName":
  "Berlin",
  "ref":
  "pmb168"}
  ,  {
  "placeName":
- "Volkstheater",
+ "Wien",
  "ref":
- "pmb20"}
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
  ,  {
  "placeName":
  "Deutsches Theater Berlin",
@@ -279,9 +286,14 @@
  "pmb3"}
  ,  {
  "placeName":
- "Wien",
+ "Volkstheater",
  "ref":
- "pmb50"}
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
  ,  {
  "placeName":
  "Donau",
@@ -292,6 +304,14 @@
  "Dresden",
  "ref":
  "pmb866"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Rütten &amp; Loening",
+ "ref":
+ "pmb29309"}
  ]
 }
 }, {

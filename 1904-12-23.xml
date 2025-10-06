@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -113,6 +113,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -140,13 +146,19 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
                         <persName ref="pmb13024">Richard Wagner</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
                      </person>
                      <person>
                         <persName ref="pmb23918">Ottilie Salten</persName>
@@ -154,21 +166,21 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb29897">Tristan und Isolde</title>
+                        <title ref="pmb30123">3. Sinfonie in d-Moll</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb30123">3. Sinfonie in d-Moll</title>
+                        <title ref="pmb29897">Tristan und Isolde</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb15">Oper</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb44">Riedhof</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb15">Oper</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -179,34 +191,40 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11867">Heinrich Kanner</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12790">Isidor Singer</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
+                        <persName ref="pmb12790">Isidor Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11867">Heinrich Kanner</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb23918">Ottilie Salten</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29626">Die Zeit</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb120">Wipplingerstraße</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb44">Riedhof</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29626">Die Zeit</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03404.html</idno>
             </event>

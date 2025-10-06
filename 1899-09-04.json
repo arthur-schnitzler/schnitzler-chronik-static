@@ -29,9 +29,19 @@
   [
 {
  "persName":
- "Ferdinand Bronner",
+ "Arthur Schnitzler",
  "ref":
- "pmb11021"},
+ "pmb2121"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
  {
  "persName":
  "Johann Wolfgang von Goethe",
@@ -39,9 +49,14 @@
  "pmb11461"},
  {
  "persName":
- "Hugo von Hofmannsthal",
+ "Ferdinand Bronner",
  "ref":
- "pmb11740"},
+ "pmb11021"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
  {
  "persName":
  "Guy de Maupassant",
@@ -49,9 +64,14 @@
  "pmb12201"},
  {
  "persName":
- "Siegfried Trebitsch",
+ "Friedrich von Oppeln-Bronikowski",
  "ref":
- "pmb12968"},
+ "pmb9149"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
  {
  "persName":
  "Ida Falk",
@@ -61,39 +81,19 @@
  "persName":
  "Ludwig Grann",
  "ref":
- "pmb17326"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
- {
- "persName":
- "Friedrich von Oppeln-Bronikowski",
- "ref":
- "pmb9149"}],
+ "pmb17326"}],
  "listBibl":
   [
  {
  "title":
+ "Flucht",
+ "ref":
+ "pmb93681"}
+ ,  {
+ "title":
  "Das Manhard-Zimmer",
  "ref":
  "pmb143241"}
- ,  {
- "title":
- "Wiener Allgemeine Montags-Zeitung",
- "ref":
- "pmb143251"}
- ,  {
- "title":
- "Eine Goethe-Enquête",
- "ref":
- "pmb143256"}
- ,  {
- "title":
- "Aus dem Nachlasse von Maupassant. Eine Leidenschaft",
- "ref":
- "pmb143260"}
  ,  {
  "title":
  "Fernen",
@@ -111,44 +111,9 @@
  "pmb145738"}
  ,  {
  "title":
- "Vater Milon und andere Erzählungen. Neue Novellen aus dem litterarischen Nachlaß",
- "ref":
- "pmb148493"}
- ,  {
- "title":
- "Wiener Allgemeine Rundschau",
- "ref":
- "pmb167898"}
- ,  {
- "title":
  "Der Hinterbliebene",
  "ref":
  "pmb29839"}
- ,  {
- "title":
- "Der Schleier der Beatrice. Schauspiel in fünf Akten",
- "ref":
- "pmb29857"}
- ,  {
- "title":
- "Schöne Seelen. Komödie in einem Akt",
- "ref":
- "pmb31659"}
- ,  {
- "title":
- "Familie Wawroch. Ein österreichisches Drama in vier Akten",
- "ref":
- "pmb31863"}
- ,  {
- "title":
- "Das Bergwerk zu Falun",
- "ref":
- "pmb32432"}
- ,  {
- "title":
- "Der Hinterbliebene. Kurze Novellen",
- "ref":
- "pmb33301"}
  ,  {
  "title":
  "Begräbnis",
@@ -161,9 +126,97 @@
  "pmb76518"}
  ,  {
  "title":
- "Flucht",
+ "Der Hinterbliebene. Kurze Novellen",
  "ref":
- "pmb93681"}
+ "pmb33301"}
+ ,  {
+ "title":
+ "Schöne Seelen. Komödie in einem Akt",
+ "ref":
+ "pmb31659"}
+ ,  {
+ "title":
+ "Wiener Allgemeine Montags-Zeitung",
+ "ref":
+ "pmb143251"}
+ ,  {
+ "title":
+ "Wiener Allgemeine Rundschau",
+ "ref":
+ "pmb167898"}
+ ,  {
+ "title":
+ "Eine Goethe-Enquête",
+ "ref":
+ "pmb143256"}
+ ,  {
+ "title":
+ "Familie Wawroch. Ein österreichisches Drama in vier Akten",
+ "ref":
+ "pmb31863"}
+ ,  {
+ "title":
+ "Aus dem Nachlasse von Maupassant. Eine Leidenschaft",
+ "ref":
+ "pmb143260"}
+ ,  {
+ "title":
+ "Vater Milon und andere Erzählungen. Neue Novellen aus dem litterarischen Nachlaß",
+ "ref":
+ "pmb148493"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Das Bergwerk zu Falun",
+ "ref":
+ "pmb32432"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "ref":
+ "pmb414"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Nürnberg",
+ "ref":
+ "pmb44172"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
  ],
  "listOrg":
   [
@@ -172,49 +225,6 @@
  "Emil Goldschmidt Verlag",
  "ref":
  "pmb148518"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Frankfurt am Main",
- "ref":
- "pmb146"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Bad Ischl",
- "ref":
- "pmb213"}
- ,  {
- "placeName":
- "Hotel und Pension Rudolfshöhe (Leopold Petter)",
- "ref":
- "pmb414"}
- ,  {
- "placeName":
- "Nürnberg",
- "ref":
- "pmb44172"}
- ,  {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Wiesbaden",
- "ref":
- "pmb883"}
  ]
 }
 }, {

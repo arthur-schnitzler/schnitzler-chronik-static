@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,16 +107,28 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb89007">Rena R. Schlein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb89004">Leo P. Reckford</persName>
                      </person>
                      <person>
                         <persName ref="pmb12692">Heinrich Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb21481">Lucien Millevoye</persName>
+                        <persName ref="pmb4216">Alfred Dreyfus</persName>
                      </person>
                      <person>
-                        <persName ref="pmb4216">Alfred Dreyfus</persName>
+                        <persName ref="pmb21481">Lucien Millevoye</persName>
                      </person>
                      <person>
                         <persName ref="pmb88979">Félix Fénéon</persName>
@@ -124,19 +136,10 @@
                      <person>
                         <persName ref="pmb88985">Rowland Strong</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb89004">Leo P. Reckford</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb89007">Rena R. Schlein</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb30287">Ritterlichkeit</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb41265">Wiener Zeitung</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb88967">Die Enthüllungen über die Affaire Dreyfus</title>
@@ -148,34 +151,37 @@
                         <title ref="pmb88975">Dreyfus, die öffentliche Meinung und die deutsche Regierung</title>
                      </bibl>
                      <bibl>
+                        <title ref="pmb89001">Justice!</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb88998">La Patrie. Organe de la défense nationale</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb88988">[Duell Goldmann – Millevoye]</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb88993">Le Petit Parisien.  Journal quotidien du soir</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb88998">La Patrie. Organe de la défense nationale</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb89001">Justice!</title>
+                        <title ref="pmb41265">Wiener Zeitung</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb182">Paris</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb42671">rue Feydeau</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02684.html</idno>
             </event>
@@ -183,6 +189,12 @@
                <head>Paul Goldmann an Arthur Schnitzler, 21. 11. 1896</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
@@ -240,7 +252,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

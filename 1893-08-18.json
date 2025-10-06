@@ -84,6 +84,16 @@
   [
 {
  "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
  "Richard Beer-Hofmann",
  "ref":
  "pmb10863"},
@@ -139,59 +149,19 @@
   [
 {
  "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
  "Paul Goldmann",
  "ref":
  "pmb11485"},
  {
  "persName":
- "Knut Hamsun",
+ "Arthur Schnitzler",
  "ref":
- "pmb11570"},
+ "pmb2121"},
  {
  "persName":
- "Hugo von Hofmannsthal",
+ "Paul Goldmann",
  "ref":
- "pmb11740"},
- {
- "persName":
- "Hermann Sudermann",
- "ref":
- "pmb12899"},
- {
- "persName":
- "Gabriele D’Annunzio",
- "ref":
- "pmb2142"},
- {
- "persName":
- "Emerich von Bukovics",
- "ref":
- "pmb2161"},
- {
- "persName":
- "Willy Gretor",
- "ref":
- "pmb2896"},
- {
- "persName":
- "Albert Langen",
- "ref":
- "pmb3379"},
- {
- "persName":
- "Georges Clemenceau",
- "ref":
- "pmb4719"},
- {
- "persName":
- "Fedor Mamroth",
- "ref":
- "pmb4986"},
+ "pmb11485"},
  {
  "persName":
  "Leopold Sonnemann",
@@ -201,34 +171,64 @@
  "persName":
  "Jean Casimir-Perier",
  "ref":
- "pmb88076"}],
+ "pmb88076"},
+ {
+ "persName":
+ "Georges Clemenceau",
+ "ref":
+ "pmb4719"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Knut Hamsun",
+ "ref":
+ "pmb11570"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Albert Langen",
+ "ref":
+ "pmb3379"},
+ {
+ "persName":
+ "Willy Gretor",
+ "ref":
+ "pmb2896"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "pmb12899"},
+ {
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "pmb2161"},
+ {
+ "persName":
+ "Gabriele D’Annunzio",
+ "ref":
+ "pmb2142"}],
  "listBibl":
   [
  {
  "title":
- "Das Märchen. Schauspiel in drei Aufzügen",
- "ref":
- "pmb29823"}
- ,  {
- "title":
  "Anatol",
  "ref":
  "pmb29935"}
- ,  {
- "title":
- "Sterben. Novelle",
- "ref":
- "pmb30117"}
- ,  {
- "title":
- "Die Ehre. Schauspiel in 4 Akten",
- "ref":
- "pmb30255"}
- ,  {
- "title":
- "Gabriele d’Annunzio",
- "ref":
- "pmb31873"}
  ,  {
  "title":
  "Frankfurter Zeitung",
@@ -236,19 +236,14 @@
  "pmb36344"}
  ,  {
  "title":
+ "Vermischtes",
+ "ref":
+ "pmb89938"}
+ ,  {
+ "title":
  "Vorwärts",
  "ref":
  "pmb58129"}
- ,  {
- "title":
- "Mysterien. Roman",
- "ref":
- "pmb78039"}
- ,  {
- "title":
- "Neue Erde. Roman",
- "ref":
- "pmb78041"}
  ,  {
  "title":
  "Sult",
@@ -256,9 +251,19 @@
  "pmb78051"}
  ,  {
  "title":
- "Vermischtes",
+ "Neue Erde. Roman",
  "ref":
- "pmb89938"}
+ "pmb78041"}
+ ,  {
+ "title":
+ "Mysterien. Roman",
+ "ref":
+ "pmb78039"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
  ,  {
  "title":
  "Im Zwielicht. Zwanglose Geschichten",
@@ -269,6 +274,129 @@
  "Frau Sorge",
  "ref":
  "pmb89950"}
+ ,  {
+ "title":
+ "Die Ehre. Schauspiel in 4 Akten",
+ "ref":
+ "pmb30255"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Gabriele d’Annunzio",
+ "ref":
+ "pmb31873"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "rue Richelieu",
+ "ref":
+ "pmb34187"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Tirol",
+ "ref":
+ "pmb423"}
+ ,  {
+ "placeName":
+ "Südtirol",
+ "ref":
+ "pmb969"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Kärnten",
+ "ref":
+ "pmb651"}
+ ,  {
+ "placeName":
+ "Niederösterreich",
+ "ref":
+ "pmb1003"}
+ ,  {
+ "placeName":
+ "Steiermark",
+ "ref":
+ "pmb17"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb254"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika [USA]",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Mexiko",
+ "ref":
+ "pmb367"}
+ ,  {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "rue de Vaugirard",
+ "ref":
+ "pmb93001"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
  ],
  "listOrg":
   [
@@ -297,114 +425,6 @@
  "Volkstheater",
  "ref":
  "pmb36430"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Niederösterreich",
- "ref":
- "pmb1003"}
- ,  {
- "placeName":
- "Deutschland",
- "ref":
- "pmb151"}
- ,  {
- "placeName":
- "Frankreich",
- "ref":
- "pmb166"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Steiermark",
- "ref":
- "pmb17"}
- ,  {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "England",
- "ref":
- "pmb254"}
- ,  {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "rue Richelieu",
- "ref":
- "pmb34187"}
- ,  {
- "placeName":
- "Russland",
- "ref":
- "pmb34438"}
- ,  {
- "placeName":
- "Mexiko",
- "ref":
- "pmb367"}
- ,  {
- "placeName":
- "Spanien",
- "ref":
- "pmb388"}
- ,  {
- "placeName":
- "Italien",
- "ref":
- "pmb40306"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
- "Tirol",
- "ref":
- "pmb423"}
- ,  {
- "placeName":
- "Vereinigte Staaten von Amerika [USA]",
- "ref":
- "pmb43406"}
- ,  {
- "placeName":
- "Reichenau an der Rax",
- "ref":
- "pmb483"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
- "Kärnten",
- "ref":
- "pmb651"}
- ,  {
- "placeName":
- "rue de Vaugirard",
- "ref":
- "pmb93001"}
- ,  {
- "placeName":
- "Südtirol",
- "ref":
- "pmb969"}
  ]
 }
 }, {
@@ -425,24 +445,14 @@
   [
 {
  "persName":
- "Franz Defregger",
+ "Felix Salten",
  "ref":
- "pmb113222"},
+ "pmb2167"},
  {
  "persName":
- "Philipp Salzmann",
+ "Arthur Schnitzler",
  "ref":
- "pmb142892"},
- {
- "persName":
- "Theodor Salzmann",
- "ref":
- "pmb142928"},
- {
- "persName":
- "Marie Glümer",
- "ref":
- "pmb14953"},
+ "pmb2121"},
  {
  "persName":
  "Felix Salten",
@@ -450,9 +460,14 @@
  "pmb2167"},
  {
  "persName":
- "Hermine von Schaffgotsch",
+ "Michael Emil Salzmann",
  "ref":
- "pmb24033"},
+ "pmb45493"},
+ {
+ "persName":
+ "Philipp Salzmann",
+ "ref":
+ "pmb142892"},
  {
  "persName":
  "Josefine Lydia von Weisswasser",
@@ -460,9 +475,24 @@
  "pmb26888"},
  {
  "persName":
- "Michael Emil Salzmann",
+ "Marie Glümer",
  "ref":
- "pmb45493"}],
+ "pmb14953"},
+ {
+ "persName":
+ "Theodor Salzmann",
+ "ref":
+ "pmb142928"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "pmb24033"},
+ {
+ "persName":
+ "Franz Defregger",
+ "ref":
+ "pmb113222"}],
  "listPlace":
   [
  {
@@ -472,54 +502,9 @@
  "pmb141909"}
  ,  {
  "placeName":
- "Mittewald an der Drau",
- "ref":
- "pmb144475"}
- ,  {
- "placeName":
- "Kaiser-Franz-Josefs-Höhe",
- "ref":
- "pmb144485"}
- ,  {
- "placeName":
- "Cortina d’Ampezzo",
- "ref":
- "pmb34199"}
- ,  {
- "placeName":
- "Ampezzo",
- "ref":
- "pmb39757"}
- ,  {
- "placeName":
- "München",
- "ref":
- "pmb45258"}
- ,  {
- "placeName":
  "Wien",
  "ref":
  "pmb50"}
- ,  {
- "placeName":
- "Lienz",
- "ref":
- "pmb897"}
- ,  {
- "placeName":
- "Pasterze Glacier",
- "ref":
- "pmb90060"}
- ,  {
- "placeName":
- "Großglockner",
- "ref":
- "pmb90779"}
- ,  {
- "placeName":
- "Heiligenblut am Großglockner",
- "ref":
- "pmb90843"}
  ,  {
  "placeName":
  "Dölsach",
@@ -527,9 +512,54 @@
  "pmb945"}
  ,  {
  "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
  "Toblach",
  "ref":
  "pmb987"}
+ ,  {
+ "placeName":
+ "Cortina d’Ampezzo",
+ "ref":
+ "pmb34199"}
+ ,  {
+ "placeName":
+ "Lienz",
+ "ref":
+ "pmb897"}
+ ,  {
+ "placeName":
+ "Mittewald an der Drau",
+ "ref":
+ "pmb144475"}
+ ,  {
+ "placeName":
+ "Großglockner",
+ "ref":
+ "pmb90779"}
+ ,  {
+ "placeName":
+ "Ampezzo",
+ "ref":
+ "pmb39757"}
+ ,  {
+ "placeName":
+ "Heiligenblut am Großglockner",
+ "ref":
+ "pmb90843"}
+ ,  {
+ "placeName":
+ "Kaiser-Franz-Josefs-Höhe",
+ "ref":
+ "pmb144485"}
+ ,  {
+ "placeName":
+ "Pasterze Glacier",
+ "ref":
+ "pmb90060"}
  ]
 }
 }, {

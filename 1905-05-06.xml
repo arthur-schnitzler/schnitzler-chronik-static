@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,13 +109,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb12504">Max Reinhardt</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
-                        <persName ref="pmb21365">Richard Metzl</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
@@ -123,38 +126,45 @@
                      <person>
                         <persName ref="pmb23918">Ottilie Salten</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb21365">Richard Metzl</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb147280">Ein Sommernachtstraum. Komödie in fünf Aufzügen</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29951">Zum großen Wurstel. Burleske in einem Akt</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb33243">Tagebuch</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb35933">Schiller-Feier</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb35935">Die Zeit</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel. Burleske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35933">Schiller-Feier</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb45430">Kleines Theater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb45434">Neues Theater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb51">I., Innere Stadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb263">Florenz</placeName>
+                        <placeName ref="pmb92457">Pötzleinsdorferstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92548">Starkfriedgassse</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb37">Theater an der Wien</placeName>
@@ -163,21 +173,17 @@
                         <placeName ref="pmb431">Mariazell</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb51">I., Innere Stadt</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb68">XVIII., Währing</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92457">Pötzleinsdorferstraße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb92548">Starkfriedgassse</placeName>
+                        <placeName ref="pmb263">Florenz</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb45430">Kleines Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb45434">Neues Theater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03408.html</idno>
             </event>

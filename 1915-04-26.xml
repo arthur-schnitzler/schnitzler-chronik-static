@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -126,44 +126,64 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                        <persName ref="pmb13212">Zweig, Stefan</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12556">Richard Rosenbaum</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12570">Arnold Rosé</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12948">Hugo Thimig</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb13041">Bruno Walter</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb13212">Stefan Zweig</persName>
                      </person>
                      <person>
-                        <persName ref="pmb13374">Gustinus Ambrosi</persName>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12556">Richard Rosenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12948">Hugo Thimig</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                        <persName ref="pmb13041">Bruno Walter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12570">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13374">Gustinus Ambrosi</persName>
                      </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb29925">Elektra [op. 58]</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb30717">Komödie der Worte. Drei Einakter</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb77679">Das Lied von der Erde</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb29925">Elektra [op. 58]</title>
+                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb249577">Kochgasse 8</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb240">Wiener Konzerthaus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb516">Musikverein</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb36247">Burgtheater</orgName>
@@ -172,20 +192,6 @@
                         <orgName ref="pmb36689">K.K. Hof-Oper</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb240">Wiener Konzerthaus</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb249577">Kochgasse 8</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb516">Musikverein</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03654.html</idno>
             </event>
@@ -226,7 +232,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
@@ -257,13 +263,13 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb12743">Schönberg, Arnold</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb16370">Foerstel, Gertrude</persName>
                      </person>
                   </listPerson>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -99,6 +99,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7218">Franzos, Karl Emil</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb7218">Karl Emil Franzos</persName>
                      </person>
                      <person>
@@ -135,13 +141,19 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb12695">Johann Schnitzler</persName>
+                        <persName ref="pmb7218">Franzos, Karl Emil</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb7218">Karl Emil Franzos</persName>
                      </person>
                      <person>
                         <persName ref="pmb7222">Ottilie Franzos</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695">Johann Schnitzler</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -155,6 +167,20 @@
                         <title ref="pmb33814">Erbschaft</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb872">Stuttgart</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb292772">Kaiserin-Augusta-Straße 71</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb292896">Deutsche Dichtung</orgName>
@@ -163,20 +189,6 @@
                         <orgName ref="pmb29619">Adolf Bonz &amp; Comp.</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb292772">Kaiserin-Augusta-Straße 71</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb872">Stuttgart</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03619.html</idno>
             </event>

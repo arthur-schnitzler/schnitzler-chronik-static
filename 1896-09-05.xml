@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -113,6 +113,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -156,10 +162,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb12468">Ferdinand Raimund</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12468">Ferdinand Raimund</persName>
                      </person>
                      <person>
                         <persName ref="pmb3021">Julian Sternberg</persName>
@@ -170,14 +182,6 @@
                         <title ref="pmb77405">Das Mädchen aus der Feenwelt oder Der Bauer als Millionär</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb41943">Südbahnstrecke</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
@@ -192,6 +196,14 @@
                         <placeName ref="pmb77">Raimund-Theater</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb41943">Südbahnstrecke</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03180.html</idno>
             </event>
@@ -234,13 +246,13 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb25110">Sonnenthal, Felix von</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb25108">Sonnenthal, Adele von</persName>
                      </person>
                   </listPerson>

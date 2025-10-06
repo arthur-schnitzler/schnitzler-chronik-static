@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10860">Paula Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -134,6 +140,12 @@
                <head>Oscar Blumenthal an Arthur Schnitzler, 12. 5. 1897</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb14328">Blumenthal, Oscar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10325">Hermann Vallentin</persName>
                      </person>
@@ -195,20 +207,6 @@
                         <persName ref="pmb35639">Georg Engels</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb35053">Lessing-Theater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb35546">Deutsches Theater München</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb35555">Irving Place Theatre</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb35563">Hoftheater Meiningen</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -238,6 +236,20 @@
                         <placeName ref="pmb784">Schauspielhaus Berlin</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35546">Deutsches Theater München</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35555">Irving Place Theatre</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35563">Hoftheater Meiningen</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00676.html</idno>
             </event>
@@ -265,7 +277,7 @@
                <head>Puppenspiel im Grand Guignol, 12.5.1897</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

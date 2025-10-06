@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,6 +109,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
                      </person>
                      <person>
@@ -168,48 +174,54 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
                         <persName ref="pmb11701">Georg Hirschfeld</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb30474">Agnes Jordan. Schauspiel in fünf Akten</title>
+                        <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb31913">Theater, Kunst und Literatur [Agnes Jordan nicht am Burgtheater]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
+                        <title ref="pmb30474">Agnes Jordan. Schauspiel in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb213">Bad Ischl</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb30">Salzburg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                        <placeName ref="pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03270.html</idno>
             </event>
@@ -242,40 +254,40 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb14899">Cavar, Alfred</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb23683">Rottmann, Alexander</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb10863">Beer-Hofmann, Richard</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb3308">Lenoir, Rudolf</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb21858">Nerz, Ludwig</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb10181">Tautenhayn, Ernst Maximilian</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb12025">Lackner, Hans</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb28387">Straßmeyer, Leopold</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb101172">Peer, Heinrich</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb43197">Grossmüller, Frieda</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb26867">Weiss, Pepi</persName>
                      </person>
                   </listPerson>

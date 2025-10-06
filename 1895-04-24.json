@@ -76,6 +76,16 @@
  "pmb12183"},
  {
  "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Laura Marholm",
+ "ref":
+ "pmb12183"},
+ {
+ "persName":
  "Johann Schnitzler",
  "ref":
  "pmb12695"},
@@ -134,24 +144,14 @@
   [
 {
  "persName":
- "Leopold von Andrian-Werburg",
+ "Paul Goldmann",
  "ref":
- "pmb10765"},
+ "pmb11485"},
  {
  "persName":
- "Hermann Bahr",
+ "Arthur Schnitzler",
  "ref":
- "pmb10815"},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
- "Max Eugen Burckhard",
- "ref":
- "pmb11036"},
+ "pmb2121"},
  {
  "persName":
  "Paul Goldmann",
@@ -162,6 +162,11 @@
  "Theodor Herzl",
  "ref":
  "pmb11673"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
  {
  "persName":
  "Paul Lindau",
@@ -179,14 +184,29 @@
  "pmb2570"},
  {
  "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Moriz Necker",
+ "ref":
+ "pmb28523"},
+ {
+ "persName":
  "Carl von Torresani-Lanzenfeld",
  "ref":
  "pmb26121"},
  {
  "persName":
- "Moriz Necker",
+ "Richard Beer-Hofmann",
  "ref":
- "pmb28523"}],
+ "pmb10863"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"}],
  "listBibl":
   [
  {
@@ -194,26 +214,6 @@
  "Liebelei. Schauspiel in drei Akten",
  "ref":
  "pmb29917"}
- ,  {
- "title":
- "Der Garten der Erkenntnis",
- "ref":
- "pmb30435"}
- ,  {
- "title":
- "Der Garten der Erkenntnis",
- "ref":
- "pmb32338"}
- ,  {
- "title":
- "Die Zeit. Wiener Wochenschrift",
- "ref":
- "pmb36340"}
- ,  {
- "title":
- "Neue Freie Presse",
- "ref":
- "pmb36374"}
  ,  {
  "title":
  "Frauenlob. Ein Lustspiel in drei Aufzügen",
@@ -229,24 +229,26 @@
  "Das junge Österreich",
  "ref":
  "pmb93362"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Verein der Literaturfreunde",
- "ref":
- "pmb29634"}
  ,  {
- "orgName":
- "Deutsches Theater Berlin",
+ "title":
+ "Neue Freie Presse",
  "ref":
- "pmb35597"}
+ "pmb36374"}
  ,  {
- "orgName":
- "Burgtheater",
+ "title":
+ "Die Zeit. Wiener Wochenschrift",
  "ref":
- "pmb36247"}
+ "pmb36340"}
+ ,  {
+ "title":
+ "Der Garten der Erkenntnis",
+ "ref":
+ "pmb32338"}
+ ,  {
+ "title":
+ "Der Garten der Erkenntnis",
+ "ref":
+ "pmb30435"}
  ],
  "listPlace":
   [
@@ -257,14 +259,14 @@
  "pmb146"}
  ,  {
  "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
  "Deutschland",
  "ref":
  "pmb151"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
  ,  {
  "placeName":
  "Paris",
@@ -272,9 +274,27 @@
  "pmb182"}
  ,  {
  "placeName":
- "Wien",
+ "Berlin",
  "ref":
- "pmb50"}
+ "pmb168"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ,  {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Verein der Literaturfreunde",
+ "ref":
+ "pmb29634"}
  ]
 }
 }, {

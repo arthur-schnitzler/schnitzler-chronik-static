@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -107,30 +107,36 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb143748">Die Gedenktafel der Prinzessin Anna. Der Schrei der Liebe. Zwei Novellen</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb76510">Der Schrei der Liebe. Novelle</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb143748">Die Gedenktafel der Prinzessin Anna. Der Schrei der Liebe. Zwei Novellen</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29584">Georg Müller Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29636">Wiener Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29636">Wiener Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29584">Georg Müller Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03586.html</idno>
             </event>
@@ -139,7 +145,10 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb14850">Arnoldo Cappellini</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
@@ -147,34 +156,37 @@
                      <person>
                         <persName ref="pmb2238">Lili Cappellini</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb14850">Arnoldo Cappellini</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb30969">Quer durch den Wurstelprater</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb142987">Stella d’Italia</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb44292">Rhodos</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb505">Athen</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb873">Triest</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb505">Athen</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb966">Istanbul</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb44292">Rhodos</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb142987">Stella d’Italia</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03024.html</idno>
             </event>
@@ -220,10 +232,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
                      </person>
                   </listPerson>

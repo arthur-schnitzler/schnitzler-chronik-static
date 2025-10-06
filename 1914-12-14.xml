@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -114,6 +114,77 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-12-14.html</idno>
             </event>
             <event when-iso="1914-12-14">
+               <head>Arthur Schnitzler an Romain Rolland, 14. 12. 1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12543">Rolland, Romain</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12543">Romain Rolland</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3068">Isabella Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21549">Alice Moller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3739">Leo N. von Tolstoi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12156">Maurice Maeterlinck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4279">Anatole France</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2412">William Shakespeare</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27739">
+                  ?? [Journalist, der fiktives russisches Interview verantwortet]
+               </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb296393">Ein Brief Artur Schnitzlers</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32959">?? [Fiktives Interview aus der Kriegszeit]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33640">Jean Christophe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb562">Genf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03884.html</idno>
+            </event>
+            <event when-iso="1914-12-14">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -141,7 +212,7 @@
                <head>Filmvorführung, 14.12.1914</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

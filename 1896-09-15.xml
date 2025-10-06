@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,6 +103,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10860">Paula Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -133,26 +139,32 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2128">Plessner, Elsa</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2128">Elsa Plessner</persName>
                      </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb295716">Pierettes Tagebuch [19 unveröffentlichte Gedichte]</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb296028">Heimweh [dreiaktige Tragikomödie]</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb32316">Warten</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb295716">Pierettes Tagebuch [19 unveröffentlichte Gedichte]</title>
+                     </bibl>
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb295211">Bäckerstraße 1</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb295211">Bäckerstraße 1</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -163,7 +175,16 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2128">Plessner, Elsa</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2128">Elsa Plessner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb64831">Maria Janitschek</persName>
                      </person>
                      <person>
                         <persName ref="pmb295657">Louis Plessner</persName>
@@ -171,31 +192,19 @@
                      <person>
                         <persName ref="pmb3379">Albert Langen</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb64831">Maria Janitschek</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb295179">Baby</title>
+                        <title ref="pmb29935">Anatol</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb295182">Der Begräbnißtag</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb295184">Die Leiter der Seele</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb295186">Im Feuer geprüft</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb295188">Im Widerschein</title>
+                        <title ref="pmb78869">Vom Weibe. Charakterzeichnungen</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb296201">Vom Weibe</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29935">Anatol</title>
+                        <title ref="pmb41189">Die Presse</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb32230">Der gläserne Käfig. Skizzen und Novellen</title>
@@ -204,24 +213,33 @@
                         <title ref="pmb32316">Warten</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb36376">Neues Wiener Journal</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb41189">Die Presse</title>
+                        <title ref="pmb295184">Die Leiter der Seele</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb50245">Simplicissimus</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb78869">Vom Weibe. Charakterzeichnungen</title>
+                        <title ref="pmb295179">Baby</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb295182">Der Begräbnißtag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb295188">Im Widerschein</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb295186">Im Feuer geprüft</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36376">Neues Wiener Journal</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb295211">Bäckerstraße 1</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb295211">Bäckerstraße 1</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -274,10 +292,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb11438">Gimnig, Oskar</persName>
                      </person>
                   </listPerson>
@@ -312,10 +330,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb11438">Gimnig, Oskar</persName>
                      </person>
                   </listPerson>

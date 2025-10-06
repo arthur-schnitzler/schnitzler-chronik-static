@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,6 +95,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13212">Zweig, Stefan</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb13212">Stefan Zweig</persName>
                      </person>
                   </listPerson>
@@ -103,16 +109,16 @@
                         <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03788.html</idno>
             </event>
@@ -120,6 +126,12 @@
                <head>Hugo von Hofmannsthal an Arthur Schnitzler, 16. 10. [1911?]</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
@@ -129,25 +141,25 @@
                         <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb35053">Lessing-Theater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb33996">Neubeuern</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02038.html</idno>
             </event>
@@ -155,6 +167,12 @@
                <head>Thomas Mann an Arthur Schnitzler, 16. 10. 1911</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb12176">Mann, Thomas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb12176">Thomas Mann</persName>
                      </person>
@@ -173,11 +191,6 @@
                         <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb48177">Residenztheater München</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb45258">München</placeName>
@@ -186,6 +199,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb48177">Residenztheater München</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02039.html</idno>
             </event>

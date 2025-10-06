@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,7 +95,16 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
                         <persName ref="pmb11617">Gerhart Hauptmann</persName>
@@ -103,34 +112,31 @@
                      <person>
                         <persName ref="pmb13169">Ernst von Wolzogen</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb144168">Der rothe Hahn. Tragikomödie in vier Akten</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb144041">Überbrettl</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb144041">Überbrettl</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03092.html</idno>
             </event>
@@ -176,7 +182,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

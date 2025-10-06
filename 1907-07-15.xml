@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,6 +94,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb12225">Mell, Max</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb12225">Max Mell</persName>
                      </person>
                      <person>
@@ -114,11 +120,6 @@
                         <title ref="pmb50960">Almanach der Wiener Werkstätte</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb40016">Wiener Werkstätte</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb1238">Wittelsbachstraße</placeName>
@@ -136,6 +137,11 @@
                         <placeName ref="pmb57">VII., Neubau</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb40016">Wiener Werkstätte</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01692.html</idno>
             </event>
@@ -144,13 +150,10 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12163">Gustav Mahler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb147681">Maria Anna Mahler</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
@@ -159,13 +162,22 @@
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb23918">Ottilie Salten</persName>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb34949">Alois Hofmann</persName>
                      </person>
                      <person>
+                        <persName ref="pmb12163">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb147681">Maria Anna Mahler</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb45493">Michael Emil Salzmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -173,26 +185,15 @@
                         <title ref="pmb147688">Kindertotenlieder</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb69">XIX., Döbling</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb428">Welsberg-Taisten</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb44456">Wocheiner See</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb470">Edlach</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb69">XIX., Döbling</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb723">Wildbad Waldbrunn</placeName>
@@ -200,7 +201,18 @@
                      <place>
                         <placeName ref="pmb969">Südtirol</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb44456">Wocheiner See</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03488.html</idno>
             </event>

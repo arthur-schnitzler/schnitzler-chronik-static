@@ -56,6 +56,16 @@
  "persName":
  "Hermann Bahr",
  "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
  "pmb10815"}],
  "listBibl":
   [
@@ -107,9 +117,14 @@
   [
 {
  "persName":
- "Josef Kainz",
+ "Elsa Plessner",
  "ref":
- "pmb11851"},
+ "pmb2128"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
  {
  "persName":
  "Elsa Plessner",
@@ -117,19 +132,19 @@
  "pmb2128"},
  {
  "persName":
- "Jolantha Ramazetta",
- "ref":
- "pmb23028"},
- {
- "persName":
  "Louis Plessner",
  "ref":
  "pmb295657"},
  {
  "persName":
- "Rosine Hutzler",
+ "Josef Kainz",
  "ref":
- "pmb295669"},
+ "pmb11851"},
+ {
+ "persName":
+ "Jolantha Ramazetta",
+ "ref":
+ "pmb23028"},
  {
  "persName":
  "Lajos Stael-Dergy",
@@ -144,19 +159,54 @@
  "persName":
  "Sara Kainz",
  "ref":
- "pmb3908"}],
+ "pmb3908"},
+ {
+ "persName":
+ "Rosine Hutzler",
+ "ref":
+ "pmb295669"}],
  "listBibl":
   [
  {
  "title":
- "Das erste Kapitel. Schauspiel in drei Akten",
- "ref":
- "pmb295177"}
- ,  {
- "title":
  "Baby",
  "ref":
  "pmb295179"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb41321"}
+ ,  {
+ "title":
+ "Berliner Börsen-Courier",
+ "ref":
+ "pmb41289"}
+ ,  {
+ "title":
+ "Der gläserne Käfig. Skizzen und Novellen",
+ "ref":
+ "pmb32230"}
+ ,  {
+ "title":
+ "Die Ehrlosen. Schauspiel in drei Acten",
+ "ref":
+ "pmb295204"}
+ ,  {
+ "title":
+ "Der neue Lehrer. Novelle",
+ "ref":
+ "pmb295201"}
+ ,  {
+ "title":
+ "Das erste Kapitel. Schauspiel in drei Akten",
+ "ref":
+ "pmb295177"}
  ,  {
  "title":
  "Der Begräbnißtag",
@@ -194,31 +244,6 @@
  "pmb295194"}
  ,  {
  "title":
- "Reminiscenz",
- "ref":
- "pmb295196"}
- ,  {
- "title":
- "Warum",
- "ref":
- "pmb295198"}
- ,  {
- "title":
- "Der neue Lehrer. Novelle",
- "ref":
- "pmb295201"}
- ,  {
- "title":
- "Die Ehrlosen. Schauspiel in drei Acten",
- "ref":
- "pmb295204"}
- ,  {
- "title":
- "Anatol",
- "ref":
- "pmb29935"}
- ,  {
- "title":
  "Der gläserne Käfig. Eine Parabel",
  "ref":
  "pmb30265"}
@@ -229,9 +254,9 @@
  "pmb32161"}
  ,  {
  "title":
- "Der gläserne Käfig. Skizzen und Novellen",
+ "Reminiscenz",
  "ref":
- "pmb32230"}
+ "pmb295196"}
  ,  {
  "title":
  "Warten",
@@ -239,35 +264,17 @@
  "pmb32316"}
  ,  {
  "title":
- "Berliner Börsen-Courier",
+ "Warum",
  "ref":
- "pmb41289"}
- ,  {
- "title":
- "Neues Wiener Tagblatt",
- "ref":
- "pmb41321"}
- ],
- "listOrg":
-  [
- {
- "orgName":
- "Deutsches Theater Berlin",
- "ref":
- "pmb35597"}
+ "pmb295198"}
  ],
  "listPlace":
   [
  {
  "placeName":
- "Berlin",
+ "Wien",
  "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Paris",
- "ref":
- "pmb182"}
+ "pmb50"}
  ,  {
  "placeName":
  "Kärntner Straße 10",
@@ -280,9 +287,9 @@
  "pmb35512"}
  ,  {
  "placeName":
- "Sankt Petersburg",
+ "Berlin",
  "ref":
- "pmb433"}
+ "pmb168"}
  ,  {
  "placeName":
  "Budapest",
@@ -290,14 +297,27 @@
  "pmb43471"}
  ,  {
  "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Sankt Petersburg",
+ "ref":
+ "pmb433"}
+ ,  {
+ "placeName":
  "Meran",
  "ref":
  "pmb43520"}
- ,  {
- "placeName":
- "Wien",
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
  "ref":
- "pmb50"}
+ "pmb35597"}
  ]
 }
 }, {

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,10 +104,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb12176">Thomas Mann</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Mann, Thomas</persName>
                      </person>
                      <person>
                         <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Thomas Mann</persName>
                      </person>
                      <person>
                         <persName ref="pmb24825">Thomas Seltzer</persName>
@@ -118,29 +124,21 @@
                         <title ref="pmb30971">Casanovas Heimfahrt</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb33247">Der Zauberberg. Roman</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb33600">Von deutscher Republik. Gerhart Hauptmann zum sechzigsten Geburtstag</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb36156">Die neue Rundschau</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb33247">Der Zauberberg. Roman</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29586">Brandt &amp; Kirkpatrick</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb42889">The New York Society for the Suppression of Vice</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb34478">Slowakei</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb43406">Vereinigte Staaten von Amerika [USA]</placeName>
@@ -149,18 +147,26 @@
                         <placeName ref="pmb43430">Tschechische Republik</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb34478">Slowakei</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb43570">Dänemark</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb44335">Schweden</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb42889">The New York Society for the Suppression of Vice</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29586">Brandt &amp; Kirkpatrick</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02394.html</idno>
             </event>
@@ -187,7 +193,7 @@
                <head>Filmvorführung, 28.12.1922</head>
                <desc>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

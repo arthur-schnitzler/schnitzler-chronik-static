@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -112,6 +112,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
@@ -145,31 +151,37 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb14953">Marie Glümer</persName>
                      </person>
                      <person>
-                        <persName ref="pmb18523">Paul Horn</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2167">Felix Salten</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb22574">Rudolf Eduard von Cuny-Pierron</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2456">Richard Specht</persName>
                      </person>
                      <person>
                         <persName ref="pmb2601">Josef Jarno</persName>
                      </person>
                      <person>
+                        <persName ref="pmb5336">Ignaz Wild</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18523">Paul Horn</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb27355">Grethe Wreden</persName>
                      </person>
                      <person>
-                        <persName ref="pmb5336">Ignaz Wild</persName>
+                        <persName ref="pmb2456">Richard Specht</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -189,20 +201,21 @@
                         <title ref="pmb30749">Die Frage an das Schicksal</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb167893">Salzkammergut-Lokalbahn</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb42649">Saisontheater Ischl</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb1179">Lehártheater</placeName>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb213">Bad Ischl</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb895">Strobl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90254">Anzenau</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb30">Salzburg</placeName>
@@ -211,18 +224,17 @@
                         <placeName ref="pmb35512">Ungarn</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb895">Strobl</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb90254">Anzenau</placeName>
+                        <placeName ref="pmb1179">Lehártheater</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb42649">Saisontheater Ischl</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb167893">Salzkammergut-Lokalbahn</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02958.html</idno>
             </event>

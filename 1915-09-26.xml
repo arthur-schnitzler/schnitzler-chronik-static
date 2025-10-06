@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -109,6 +109,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb12438">Adam, Robert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb12438">Robert Adam</persName>
                      </person>
                   </listPerson>
@@ -117,23 +123,12 @@
                         <title ref="pmb33606">Der Fremde</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29602">Bezirksgericht Wien Floridsdorf</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb1239">Meidlinger Hauptstraße</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb44400">Zistersdorf</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb62">XII., Meidling</placeName>
@@ -141,7 +136,18 @@
                      <place>
                         <placeName ref="pmb71">XXI., Floridsdorf</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb1239">Meidlinger Hauptstraße</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29602">Bezirksgericht Wien Floridsdorf</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02219.html</idno>
             </event>

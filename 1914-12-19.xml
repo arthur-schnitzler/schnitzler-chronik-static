@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -94,6 +94,62 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-12-19.html</idno>
             </event>
             <event when-iso="1914-12-19">
+               <head>Romain Rolland an Arthur Schnitzler, 19. 12. 1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12543">Rolland, Romain</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12543">Romain Rolland</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb298521">R. Santo</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb259326">Paul Seippel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb58490">Une protestation d’Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb58493">Journal de Genève</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296393">Ein Brief Artur Schnitzlers</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb562">Genf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb294001">Hôtel Beau-Séjour</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb468">Europa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb294004">Champel</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29672">Neue Zürcher Zeitung</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03882.html</idno>
+            </event>
+            <event when-iso="1914-12-19">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -135,7 +191,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

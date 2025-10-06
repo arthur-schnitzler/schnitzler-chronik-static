@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -113,6 +113,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
@@ -181,20 +187,6 @@
                         <title ref="pmb42824">Menschliches, Allzumenschliches. Ein Buch für freie Geister</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29610">Linzer Volksblatt</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29771">E. Pierson’s Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb42826">Schmeitzner Verlagsbuchhandlung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb1267">Dublin</placeName>
@@ -221,6 +213,20 @@
                         <placeName ref="pmb866">Dresden</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29610">Linzer Volksblatt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29771">E. Pierson’s Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb42826">Schmeitzner Verlagsbuchhandlung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00023.html</idno>
             </event>
@@ -249,22 +255,22 @@
                      </org>
                   </listOrg>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb12408">Pernerstorfer, Engelbert</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb13088">Wengraf, Edmund</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2509">Osten, Heinrich</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2563">Kafka, Eduard Michael</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb19832">Kulka, Julius</persName>
                      </person>
                   </listPerson>

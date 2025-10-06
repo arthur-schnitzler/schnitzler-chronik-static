@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -96,10 +96,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb12695">Johann Schnitzler</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695">Johann Schnitzler</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -126,57 +132,63 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb64866">August Niemann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb87783">Richard Salinger</persName>
+                        <persName ref="pmb88276">Adolf Silberstein</persName>
                      </person>
                      <person>
-                        <persName ref="pmb88276">Adolf Silberstein</persName>
+                        <persName ref="pmb87783">Richard Salinger</persName>
                      </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb52212">Pester Lloyd</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb79030">Der Junggesell. Humoreske</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb88273">Heirathen oder nicht?</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb52212">Pester Lloyd</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb87782">Philosophisch-historischer Verlag Dr. R. Salinger</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168934">Frankgasse 1</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb182">Paris</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb87780">place de la Bourse</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb59">IX., Alsergrund</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb87780">place de la Bourse</placeName>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168934">Frankgasse 1</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb87782">Philosophisch-historischer Verlag Dr. R. Salinger</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02607.html</idno>
             </event>
@@ -216,13 +228,13 @@
                      </org>
                   </listOrg>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb7463">Goldbaum, Wilhelm</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb11533">Grünfeld, Alfred</persName>
                      </person>
                   </listPerson>

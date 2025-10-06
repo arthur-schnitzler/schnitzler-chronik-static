@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                   </listPerson>
@@ -130,10 +136,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10986">Otto Brahm</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
@@ -144,49 +156,49 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb122258">Berliner Morgenpost</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb144537">Kleine Chronik. [Berliner Theater.]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb144544">Arthur Schnitzler [Lebendige Stunden am Deutschen Theater Berlin]</title>
+                        <title ref="pmb36374">Neue Freie Presse</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29873">Der Puppenspieler. Studie in einem Aufzuge</title>
+                        <title ref="pmb144544">Arthur Schnitzler [Lebendige Stunden am Deutschen Theater Berlin]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb36374">Neue Freie Presse</title>
+                        <title ref="pmb122258">Berliner Morgenpost</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29873">Der Puppenspieler. Studie in einem Aufzuge</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
-                     <org>
-                        <orgName ref="pmb35053">Lessing-Theater</orgName>
-                     </org>
                      <org>
                         <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb46218">Berliner Morgenpost</orgName>
                      </org>
+                     <org>
+                        <orgName ref="pmb35053">Lessing-Theater</orgName>
+                     </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03089.html</idno>
             </event>
@@ -216,10 +228,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb12740">Schwarzkopf, Gustav</persName>
                      </person>
                   </listPerson>

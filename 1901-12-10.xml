@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,21 +92,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11469">Alfred Gold</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Gussmann, Olga</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2315">Gussmann, Elisabeth</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb147989">
-      Kohrl
-  </persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb21137">Paul Marx</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
@@ -115,10 +110,24 @@
                         <persName ref="pmb2315">Elisabeth Steinrück</persName>
                      </person>
                      <person>
-                        <persName ref="pmb4986">Fedor Mamroth</persName>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11469">Alfred Gold</persName>
                      </person>
                      <person>
                         <persName ref="pmb94397">Johanna Mamroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4986">Fedor Mamroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb147989">
+                  Kohrl
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21137">Paul Marx</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -126,18 +135,25 @@
                         <title ref="pmb144168">Der rothe Hahn. Tragikomödie in vier Akten</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb147925">Barcarole</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb77023">Hoffmanns Erzählungen</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb147925">Barcarole</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182265">?? [Wohnung von Olga und Elisabeth Gussmann, 1901/1902]</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb144140">Grünentorgasse</placeName>
                      </place>
@@ -145,24 +161,17 @@
                         <placeName ref="pmb145165">Hauptstraße 56</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb182265">?? [Wohnung von Olga und Elisabeth Gussmann, 1901/1902]</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb423">Tirol</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb969">Südtirol</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03536.html</idno>
             </event>
@@ -199,7 +208,7 @@
                      </org>
                   </listOrg>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

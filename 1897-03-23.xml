@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -84,6 +84,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
@@ -125,6 +131,17 @@
                         <title ref="pmb41521">Cosmopolis</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29213">Gemütliche Harmonie</orgName>
@@ -142,17 +159,6 @@
                         <orgName ref="pmb36430">Volkstheater</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00658.html</idno>
             </event>
@@ -160,6 +166,12 @@
                <head>Hermann Bahr an Arthur Schnitzler, 23. 3. 1897</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Bahr, Hermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
@@ -176,11 +188,6 @@
                         <persName ref="pmb2147">Peter Altenberg</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29209">Die Zeit. Wiener Wochenschrift</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb296">Günthergasse</placeName>
@@ -189,6 +196,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29209">Die Zeit. Wiener Wochenschrift</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00659.html</idno>
             </event>
@@ -196,6 +208,12 @@
                <head>Richard Beer-Hofmann an Arthur Schnitzler, 23. 3. 1897</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
@@ -225,41 +243,47 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb13797">Marie Bashkirtseff</persName>
+                        <persName ref="pmb2128">Plessner, Elsa</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2128">Elsa Plessner</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb13797">Marie Bashkirtseff</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb295194">Ein Brief</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb296028">Heimweh [dreiaktige Tragikomödie]</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb296030">Orchideen [Schauspiel in drei Akten]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb30265">Der gläserne Käfig. Eine Parabel</title>
+                        <title ref="pmb79230">Journal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb295194">Ein Brief</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb36376">Neues Wiener Journal</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb79230">Journal</title>
+                        <title ref="pmb30265">Der gläserne Käfig. Eine Parabel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb296028">Heimweh [dreiaktige Tragikomödie]</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb295159">Florianigasse 44</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb43520">Meran</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
                </desc>

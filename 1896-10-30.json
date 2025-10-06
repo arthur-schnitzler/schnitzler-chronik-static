@@ -92,6 +92,16 @@
   [
 {
  "persName":
+ "Max Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
  "Max Eugen Burckhard",
  "ref":
  "pmb11036"},
@@ -115,14 +125,6 @@
  "ref":
  "pmb29899"}
  ],
- "listOrg":
-  [
- {
- "orgName":
- "Deutsches Theater Berlin",
- "ref":
- "pmb35597"}
- ],
  "listPlace":
   [
  {
@@ -140,6 +142,14 @@
  "Wien",
  "ref":
  "pmb50"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
  ]
 }
 }, {
@@ -159,6 +169,16 @@
 {"listPerson":
   [
 {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
  "persName":
  "George Gordon Noël Lord Byron",
  "ref":
@@ -226,14 +246,6 @@
  "ref":
  "pmb36374"}
  ],
- "listOrg":
-  [
- {
- "orgName":
- "S. Fischer Verlag",
- "ref":
- "pmb29639"}
- ],
  "listPlace":
   [
  {
@@ -251,6 +263,14 @@
  "Wien",
  "ref":
  "pmb50"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
  ]
 }
 }, {
@@ -270,6 +290,16 @@
 {"listPerson":
   [
 {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
  "persName":
  "Richard Beer-Hofmann",
  "ref":
@@ -319,24 +349,34 @@
   [
 {
  "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
  "Samuel Fischer",
  "ref":
  "pmb11324"},
  {
  "persName":
- "Friedrich Mitterwurzer",
- "ref":
- "pmb12265"},
- {
- "persName":
- "Wilhelmine Mitterwurzer",
- "ref":
- "pmb12268"},
- {
- "persName":
  "Max Nordau",
  "ref":
  "pmb12365"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
  {
  "persName":
  "Jenny Bally",
@@ -349,36 +389,61 @@
  "pmb167756"},
  {
  "persName":
- "?? [Kadett]",
- "ref":
- "pmb168868"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
- {
- "persName":
- "Marie Reinhard",
- "ref":
- "pmb2378"},
- {
- "persName":
  "Friedrich Hebbel",
  "ref":
- "pmb2404"}],
+ "pmb2404"},
+ {
+ "persName":
+ "Wilhelmine Mitterwurzer",
+ "ref":
+ "pmb12268"},
+ {
+ "persName":
+ "Friedrich Mitterwurzer",
+ "ref":
+ "pmb12265"},
+ {
+ "persName":
+ "?? [Kadett]",
+ "ref":
+ "pmb168868"}],
  "listBibl":
   [
  {
  "title":
- "Einiges über Schiller’s »Don Carlos«",
+ "Freiwild. Schauspiel in 3 Akten",
  "ref":
- "pmb144915"}
+ "pmb29899"}
+ ,  {
+ "title":
+ "Der Hinterbliebene. Kurze Novellen",
+ "ref":
+ "pmb33301"}
+ ,  {
+ "title":
+ "Heldentod",
+ "ref":
+ "pmb76518"}
+ ,  {
+ "title":
+ "Der Hinterbliebene",
+ "ref":
+ "pmb29839"}
+ ,  {
+ "title":
+ "Flucht",
+ "ref":
+ "pmb93681"}
  ,  {
  "title":
  "Cocotte und Kellner",
  "ref":
  "pmb144994"}
+ ,  {
+ "title":
+ "Begräbnis",
+ "ref":
+ "pmb34361"}
  ,  {
  "title":
  "Der Hund",
@@ -391,14 +456,14 @@
  "pmb144998"}
  ,  {
  "title":
- "Der Hinterbliebene",
+ "Die kleine Veronika",
  "ref":
- "pmb29839"}
+ "pmb76513"}
  ,  {
  "title":
- "Freiwild. Schauspiel in 3 Akten",
+ "Einiges über Schiller’s »Don Carlos«",
  "ref":
- "pmb29899"}
+ "pmb144915"}
  ,  {
  "title":
  "Don Karlos, Infant von Spanien",
@@ -406,39 +471,32 @@
  "pmb33023"}
  ,  {
  "title":
- "Der Hinterbliebene. Kurze Novellen",
- "ref":
- "pmb33301"}
- ,  {
- "title":
- "Begräbnis",
- "ref":
- "pmb34361"}
- ,  {
- "title":
  "Neue Freie Presse",
  "ref":
  "pmb36374"}
  ,  {
  "title":
- "Die kleine Veronika",
- "ref":
- "pmb76513"}
- ,  {
- "title":
- "Heldentod",
- "ref":
- "pmb76518"}
- ,  {
- "title":
  "Judith. Eine Tragödie in fünf Aufzügen",
  "ref":
  "pmb76689"}
- ,  {
- "title":
- "Flucht",
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
  "ref":
- "pmb93681"}
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
  ],
  "listOrg":
   [
@@ -452,24 +510,6 @@
  "Wiener Allgemeine Zeitung",
  "ref":
  "pmb29670"}
- ],
- "listPlace":
-  [
- {
- "placeName":
- "Burgtheater",
- "ref":
- "pmb14"}
- ,  {
- "placeName":
- "Berlin",
- "ref":
- "pmb168"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
  ]
 }
 }, {

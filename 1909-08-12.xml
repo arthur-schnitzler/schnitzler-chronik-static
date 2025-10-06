@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,15 +110,25 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb51999">St. Elisabeth-Kirchlein-Baucomité</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb5836">Hochschneeberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb843">Santa Maria Elisabetta</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb52001">Magistratisches Bezirksamt für den 3. Bezirk</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb259">Lido</placeName>
                      </place>
@@ -128,16 +138,12 @@
                      <place>
                         <placeName ref="pmb51994">Berghaus Hochschneeberg</placeName>
                      </place>
-                     <place>
-                        <placeName ref="pmb52001">Magistratisches Bezirksamt für den 3. Bezirk</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb5836">Hochschneeberg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb843">Santa Maria Elisabetta</placeName>
-                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb51999">St. Elisabeth-Kirchlein-Baucomité</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01864.html</idno>
             </event>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,6 +110,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb11036">Burckhard, Max</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11036">Max Eugen Burckhard</persName>
                      </person>
                   </listPerson>
@@ -121,11 +127,6 @@
                         <title ref="pmb30163">Weihnachts-Einkäufe</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29576">Ferienheim</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb107">Sofiensäle</placeName>
@@ -137,6 +138,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29576">Ferienheim</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00763.html</idno>
             </event>
@@ -145,32 +151,30 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10986">Otto Brahm</persName>
+                        <persName ref="pmb34971">Rosengart, Vally</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11342">Theodor Fontane</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb34971">Vally Rosengart</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb116151">Friedrich Stephany</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb12671">Paul Schlenther</persName>
                      </person>
                      <person>
-                        <persName ref="pmb34971">Vally Rosengart</persName>
+                        <persName ref="pmb11342">Theodor Fontane</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb116151">Friedrich Stephany</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29331">Vossische Zeitung</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb146">Frankfurt am Main</placeName>
@@ -179,6 +183,14 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29331">Vossische Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02797.html</idno>
             </event>
@@ -236,7 +248,7 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
@@ -271,28 +283,28 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb12618">Sandrock, Adele</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb11093">Christians, Rudolf</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb12651">Schildkraut, Rudolf</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb11981">Kramer, Leopold</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb25544">Stoessel, Hiero</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb21952">Niese, Hansi</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb22666">Pohl-Meiser, Victoria</persName>
                      </person>
                   </listPerson>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -87,6 +87,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11737">Hugo August von Hofmannsthal</persName>
                      </person>
                      <person>
@@ -123,40 +129,38 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2147">Peter Altenberg</persName>
+                        <persName ref="pmb87771">Leopold Sonnemann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb87771">Leopold Sonnemann</persName>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2147">Peter Altenberg</persName>
                      </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb30965">Wie ich es sehe</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb36344">Frankfurter Zeitung</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb30965">Wie ich es sehe</title>
+                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb112434">Transvaal</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb182">Paris</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb42671">rue Feydeau</placeName>
@@ -165,15 +169,23 @@
                         <placeName ref="pmb43570">Dänemark</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb958">Skodsborg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb112434">Transvaal</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb468">Europa</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb958">Skodsborg</placeName>
+                        <placeName ref="pmb41240">Österreich</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02779.html</idno>
             </event>

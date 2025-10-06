@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,15 +95,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb118692">Rolf von Brockdorff</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
-                        <persName ref="pmb22404">
-      Paulus
-  </persName>
+                        <persName ref="pmb118692">Rolf von Brockdorff</persName>
                      </person>
                      <person>
                         <persName ref="pmb25627">Rudolf Strauss</persName>
@@ -111,28 +112,33 @@
                      <person>
                         <persName ref="pmb7605">Eugen Gura</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb22404">
+                  Paulus
+               </persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb118690">Liebelei. Eine Wiener Zeitschrift</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
                      </bibl>
+                     <bibl>
+                        <title ref="pmb118690">Liebelei. Eine Wiener Zeitschrift</title>
+                     </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb19">Ronacher</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb19">Ronacher</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03167.html</idno>
             </event>
@@ -167,10 +173,10 @@
                <head>Konzert Eugen Gura, 12.12.1895</head>
                <desc>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb7605">Gura, Eugen</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>
@@ -190,13 +196,13 @@
                <head>Gastspiel Paulus, 12.12.1895</head>
                <desc>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb22404">Paulus</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2167">Salten, Felix</persName>
                      </person>
                   </listPerson>

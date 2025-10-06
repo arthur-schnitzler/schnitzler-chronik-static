@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -101,6 +101,12 @@
                <head>Paul Goldmann an Arthur Schnitzler, 16. 2. [1897]</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
@@ -254,29 +260,21 @@
                         <title ref="pmb36344">Frankfurter Zeitung</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb118407">Kreta</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb182">Paris</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb41759">Riviera</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb42671">rue Feydeau</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb44293">Griechenland</placeName>
+                        <placeName ref="pmb118407">Kreta</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb44293">Griechenland</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb773">Türkei</placeName>
@@ -284,7 +282,15 @@
                      <place>
                         <placeName ref="pmb92693">Panama</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb41759">Riviera</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02803.html</idno>
             </event>

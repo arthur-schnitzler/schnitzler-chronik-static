@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -90,6 +90,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -123,6 +129,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb9550">Rodenberg, Julius</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb35005">Willy Pastor</persName>
                      </person>
                      <person>
@@ -134,11 +146,6 @@
                         <title ref="pmb30486">Frau Bertha Garlan. Roman</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb34931">Deutsche Rundschau</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
@@ -150,6 +157,11 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb34931">Deutsche Rundschau</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01048.html</idno>
             </event>
@@ -158,13 +170,16 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10844">Albert Bassermann</persName>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10883">Alfred von Berger</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
                      </person>
                      <person>
                         <persName ref="pmb11701">Georg Hirschfeld</persName>
@@ -173,19 +188,22 @@
                         <persName ref="pmb12078">Paul Lindau</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12671">Paul Schlenther</persName>
+                        <persName ref="pmb10844">Albert Bassermann</persName>
                      </person>
                      <person>
                         <persName ref="pmb12977">Irene Triesch</persName>
                      </person>
                      <person>
-                        <persName ref="pmb14948">Auguste Glümer</persName>
+                        <persName ref="pmb10883">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2850">Stella Hohenfels</persName>
                      </person>
                      <person>
                         <persName ref="pmb14953">Marie Glümer</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2850">Stella Hohenfels</persName>
+                        <persName ref="pmb14948">Auguste Glümer</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -193,15 +211,44 @@
                         <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1122">Schlesien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb117">Alpen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58636">Dolomiten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb141756">Vorarlberg</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
-                     <org>
-                        <orgName ref="pmb29380">Berliner Theater</orgName>
-                     </org>
                      <org>
                         <orgName ref="pmb36247">Burgtheater</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29380">Berliner Theater</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb45530">Deutsches Schauspielhaus in Hamburg</orgName>
@@ -210,35 +257,6 @@
                         <orgName ref="pmb88756">Frankfurter Stadttheater</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb1122">Schlesien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb117">Alpen</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb141756">Vorarlberg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb146">Frankfurt am Main</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb506">Hamburg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb58636">Dolomiten</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02921.html</idno>
             </event>

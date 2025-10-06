@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,13 +95,13 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12504">Max Reinhardt</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
@@ -109,17 +109,14 @@
                      <person>
                         <persName ref="pmb40072">Agnes Beer</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb235251">Hasenauerstraße 59</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb470">Edlach</placeName>
                      </place>
@@ -127,10 +124,19 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb68">XVIII., Währing</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb235251">Hasenauerstraße 59</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb714">Hotel Edlacherhof</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -141,7 +147,16 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2922">Paul Salten</persName>
                      </person>
                      <person>
                         <persName ref="pmb23915">Anna Katharina Rehmann</persName>
@@ -149,37 +164,34 @@
                      <person>
                         <persName ref="pmb23918">Ottilie Salten</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb2922">Paul Salten</persName>
-                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb33243">Tagebuch</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb41943">Südbahnstrecke</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb1003">Niederösterreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44102">Kaltenleutgeben</placeName>
+                        <placeName ref="pmb758">Höhlenstein</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb470">Edlach</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb1003">Niederösterreich</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb758">Höhlenstein</placeName>
+                        <placeName ref="pmb44102">Kaltenleutgeben</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb41943">Südbahnstrecke</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03505.html</idno>
             </event>

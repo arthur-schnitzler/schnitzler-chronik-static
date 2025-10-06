@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -139,36 +139,51 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10986">Otto Brahm</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11324">Samuel Fischer</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb13194">Émile Zola</persName>
+                        <persName ref="pmb2167">Salten, Felix</persName>
                      </person>
                      <person>
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2914">Oskar Bie</persName>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13194">Émile Zola</persName>
                      </person>
                      <person>
                         <persName ref="pmb3797">Eduard von Keyserling</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb2914">Oskar Bie</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb143236">Monna Vanna. Schauspiel in drei Akten</title>
+                        <title ref="pmb76513">Die kleine Veronika</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36152">Neue Deutsche Rundschau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78906">Beate und Mareile. Eine Schloßgeschichte</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb143236">Monna Vanna. Schauspiel in drei Akten</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29885">Wienerinnen. Lustspiel in drei Akten</title>
@@ -176,42 +191,19 @@
                      <bibl>
                         <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
                      </bibl>
-                     <bibl>
-                        <title ref="pmb36152">Neue Deutsche Rundschau</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb76513">Die kleine Veronika</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb78906">Beate und Mareile. Eine Schloßgeschichte</title>
-                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb36247">Burgtheater</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb57124">Schiller-Theater</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb127">Hotel Bristol Berlin</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb127">Hotel Bristol Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb735">Jagniątków</placeName>
@@ -220,6 +212,20 @@
                         <placeName ref="pmb738">Berliner Theater</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb57124">Schiller-Theater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02979.html</idno>
             </event>
@@ -264,10 +270,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb2315">Steinrück, Elisabeth</persName>
                      </person>
                   </listPerson>

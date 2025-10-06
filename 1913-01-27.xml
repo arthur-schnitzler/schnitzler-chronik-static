@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -116,21 +116,33 @@
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11165">Ernst von Dohnányi</persName>
+                        <persName ref="pmb4836">Rie, Therese</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4836">Therese Rie</persName>
                      </person>
                      <person>
                         <persName ref="pmb2674">Hans Pfitzner</persName>
                      </person>
                      <person>
-                        <persName ref="pmb4836">Therese Rie</persName>
+                        <persName ref="pmb11165">Ernst von Dohnányi</persName>
                      </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb29897">Tristan und Isolde</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                        <title ref="pmb56077">Bühnentradition</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31681">Palestrina. Musikalische Legende in drei Akten</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
@@ -139,27 +151,10 @@
                         <title ref="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb31681">Palestrina. Musikalische Legende in drei Akten</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb56066">Tante Simona. Komische Oper in einem Akt</title>
                      </bibl>
-                     <bibl>
-                        <title ref="pmb56077">Bühnentradition</title>
-                     </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb56043">Oper Straßburg</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb319">Straßburg</placeName>
-                     </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
@@ -167,12 +162,23 @@
                         <placeName ref="pmb52498">Schönburgstraße</placeName>
                      </place>
                      <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb864">Leipzig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb319">Straßburg</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb866">Dresden</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb56043">Oper Straßburg</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02571.html</idno>
             </event>

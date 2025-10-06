@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -72,6 +72,12 @@
                <head>Paul Goldmann an Arthur Schnitzler, 17. 4. [1902]</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
@@ -165,6 +171,32 @@
                         <title ref="pmb31085">Francesca da Rimini</title>
                      </bibl>
                   </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb690">Tierschutzhaus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44278">Pörtschach am Wörthersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb872">Stuttgart</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb864">Leipzig</placeName>
+                     </place>
+                  </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29302">Wiener Tierschutz-Verein</orgName>
@@ -194,32 +226,6 @@
                         <orgName ref="pmb145454">Oskar Leiner GmbH &amp; Co. KG</orgName>
                      </org>
                   </listOrg>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb40583">Dessauer Straße</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb652">Prag</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb690">Tierschutzhaus</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44278">Pörtschach am Wörthersee</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb872">Stuttgart</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb864">Leipzig</placeName>
-                     </place>
-                  </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03204.html</idno>
             </event>

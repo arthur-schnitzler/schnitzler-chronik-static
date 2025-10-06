@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -98,6 +98,12 @@
                <desc>
                   <listPerson>
                      <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
@@ -127,6 +133,12 @@
                <head>Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1893]</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
                      <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
@@ -166,17 +178,6 @@
                         <title ref="pmb33698">Hugo von Hofmannsthal</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29614">Wiener Akademische Vereinigung</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29616">Houghton Library</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29716">Bibliographisches Bureau</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb1283">Pompeji</placeName>
@@ -194,6 +195,17 @@
                         <placeName ref="pmb83">Museum für Angewandte Kunst</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29614">Wiener Akademische Vereinigung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29616">Houghton Library</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29716">Bibliographisches Bureau</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00170.html</idno>
             </event>
@@ -201,6 +213,12 @@
                <head>Hugo von Hofmannsthal an Arthur Schnitzler, 1. 2. [1893]</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
@@ -219,11 +237,6 @@
                         <title ref="pmb30117">Sterben. Novelle</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29424">Deutsche Zeitung</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
@@ -232,6 +245,11 @@
                         <placeName ref="pmb566">Siebenbrunnengasse</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29424">Deutsche Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00171.html</idno>
             </event>
@@ -274,10 +292,10 @@
                      </bibl>
                   </listBibl>
                   <listPerson>
-                     <person role="hat als mitwirkend">
+                     <person role="hat mitwirkend">
                         <persName key="pmb148834">Schweighofer, Felix</persName>
                      </person>
-                     <person role="hat als Teilnehmer:in">
+                     <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                   </listPerson>

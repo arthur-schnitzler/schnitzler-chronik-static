@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -91,6 +91,12 @@
                <head>Arthur Schnitzler an Richard Beer-Hofmann, 11. 3. 1892</head>
                <desc>
                   <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
                      <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
@@ -181,14 +187,6 @@
                         <title ref="pmb35919">Die Gesellschaft. Monatsschrift für Litteratur, Kunst und Sozialpolitik</title>
                      </bibl>
                   </listBibl>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29661">F. Fontane</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29781">»Freie Bühne« Verein für moderne Literatur</orgName>
-                     </org>
-                  </listOrg>
                   <listPlace>
                      <place>
                         <placeName ref="pmb34">Café Griensteidl</placeName>
@@ -206,6 +204,14 @@
                         <placeName ref="pmb756">Pension Quisisana</placeName>
                      </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29661">F. Fontane</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29781">»Freie Bühne« Verein für moderne Literatur</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00079.html</idno>
             </event>

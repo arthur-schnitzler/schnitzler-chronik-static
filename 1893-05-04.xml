@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-03.">03.10.2025</date>
+            <date when-iso="2025-10-06.">06.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -92,35 +92,118 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-05-04.html</idno>
             </event>
             <event when-iso="1893-05-04">
-               <head>Paul Goldmann an Arthur Schnitzler, 4. 5. [1893]</head>
+               <head>Theodor Herzl an Arthur Schnitzler, 4. 5. 1893</head>
                <desc>
                   <listPerson>
                      <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2461">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2284">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27132">Johanna Wilheim</persName>
                      </person>
                      <person>
                         <persName ref="pmb12695">Johann Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb87771">Leopold Sonnemann</persName>
+                        <persName ref="pmb10809">Eduard Bacher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10875">Moriz Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10872">Ernst Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25793">Julius Szeps</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
-                     </org>
-                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb41189">Die Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41265">Wiener Zeitung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
+                     </bibl>
+                  </listBibl>
                   <listPlace>
                      <place>
                         <placeName ref="pmb182">Paris</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb34187">rue Richelieu</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb296731">8, Rue de Monceau</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03827.html</idno>
+            </event>
+            <event when-iso="1893-05-04">
+               <head>Paul Goldmann an Arthur Schnitzler, 4. 5. [1893]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Goldmann, Paul</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb87771">Leopold Sonnemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695">Johann Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
+                     <place>
+                        <placeName ref="pmb34187">rue Richelieu</placeName>
+                     </place>
                   </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29442">Frankfurter Zeitung</orgName>
+                     </org>
+                  </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02706.html</idno>
             </event>
