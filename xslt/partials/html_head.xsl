@@ -89,7 +89,6 @@
             </xsl:otherwise>
         </xsl:choose>
         <meta name="twitter:image" content="{concat($base_url, '/img/og-image.jpg')}"/>
-        <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
         <link rel="profile" href="http://gmpg.org/xfn/11"/>
         <title>
             <xsl:value-of select="$html_title"/>
