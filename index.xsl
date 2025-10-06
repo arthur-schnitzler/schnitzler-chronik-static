@@ -35,7 +35,7 @@
                                         <p style="text-align: right">
                                             <a href="#body">
                                                 <button class="btn btn-round"
-                                                    style="background-color: #008B8B; color: white; font-weight: bolder; padding-left: 1.5em; padding-right: 1.5em;"
+                                                    style="background-color: #008B8B; color: white; font-weight: bolder; padding: 0.5em 2em; min-width: 120px;"
                                                     aria-label="Zum Hauptinhalt springen"
                                                     >Weiter</button>
                                             </a></p>
