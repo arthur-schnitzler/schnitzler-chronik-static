@@ -186,6 +186,38 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1922-03-19</idno>
             </event>
             <event when-iso="1922-03-19">
+               <head>Aufführung von Die zärtlichen Verwandten und Lottchens Geburtstag, 19.3.1922</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb77945">Die zärtlichen Verwandten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb77318">Lottchens Geburtstag. Lustspiel in einem Akt</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb52826">Favoritner Arbeitertheater</placeName>
+                        <location>
+                           <geo>48,1809 16,3734</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210157.html</idno>
+            </event>
+            <event when-iso="1922-03-19">
                <head>Aufzeichnung von Bahr, 19. 3. 1922</head>
                <desc>
                   <listPerson>
@@ -246,39 +278,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041595.html</idno>
-            </event>
-            <event when-iso="1922-03-19">
-               <head>Aufführung von Die zärtlichen Verwandten und Lottchens Geburtstag, 19.3.1922</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb77945">Die zärtlichen Verwandten</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb77318">Lottchens Geburtstag. Lustspiel in einem Akt</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb52826">Favoritner Arbeitertheater</placeName>
-                        <location>
-                           <geo>48,1809 16,3734</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210157/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210157.html</idno>
             </event>
          </listEvent>
       </body>

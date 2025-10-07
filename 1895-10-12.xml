@@ -153,6 +153,44 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-10-12</idno>
             </event>
             <event when-iso="1895-10-12">
+               <head>Uraufführung von Ein Regentag, 12.10.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31905">Ein Regentag. Charakterbild</title>
+                        <note type="relation-type">ist Uraufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb93304">Theater- und Kunstnachrichten. [Deutsches Volkstheater.] [Ein Regentag]</title>
+                        <note type="relation-type">wird rezensiert in</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb93300">Deutsches Volkstheater. (»Ein Regentag«, Charakterbild von J. J. David.)</title>
+                        <note type="relation-type">wird rezensiert in</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb43136.html</idno>
+            </event>
+            <event when-iso="1895-10-12">
                <head>Bahr: [Liebelei], 12. 10. 1895</head>
                <desc>
                   <listPerson>
@@ -243,46 +281,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030011.html</idno>
-            </event>
-            <event when-iso="1895-10-12">
-               <head>Uraufführung von Ein Regentag, 12.10.1895</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31905">Ein Regentag. Charakterbild</title>
-                        <note type="relation-type">ist Uraufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb93304">Theater- und Kunstnachrichten. [Deutsches Volkstheater.] [Ein Regentag]</title>
-                        <note type="relation-type">wird rezensiert in</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb93300">Deutsches Volkstheater. (»Ein Regentag«, Charakterbild von J. J. David.)</title>
-                        <note type="relation-type">wird rezensiert in</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
-                        <location>
-                           <geo>48,205142 16,3566</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43136/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb43136.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb43136.html</idno>
             </event>
             <event when-iso="1895-10-12">
                <head>Schnitzler, Arthur: Freiwild [Dramatisches] (Drucktitel)</head>

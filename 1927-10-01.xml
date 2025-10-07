@@ -126,6 +126,34 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1927-10-01</idno>
             </event>
             <event when-iso="1927-10-01">
+               <head>Filmvorführung von Die Liebschaften der Leopoldine Habsburger, 1.10.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80536">Die Liebschaften der Leopoldine Habsburger</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210926.html</idno>
+            </event>
+            <event when-iso="1927-10-01">
                <head>Artur Schnitzler über den »Boykott« der »Ravag«, 1. 10. 1927</head>
                <desc>
                   <listPerson>
@@ -278,35 +306,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I065.html</idno>
-            </event>
-            <event when-iso="1927-10-01">
-               <head>Filmvorführung von Die Liebschaften der Leopoldine Habsburger, 1.10.1927</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb80536">Die Liebschaften der Leopoldine Habsburger</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210926/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210926.html</idno>
             </event>
             <event when-iso="1927-10-01">
                <head>Schnitzler geht ins Kino, 1. Oktober 1927</head>

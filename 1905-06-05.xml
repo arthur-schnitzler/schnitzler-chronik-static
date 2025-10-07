@@ -177,6 +177,51 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1905-06-05</idno>
             </event>
             <event when-iso="1905-06-05">
+               <head>Premiere von Sanna, 5.6.1906</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45417">Reinhardt-Bühnen</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45430">Kleines Theater</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb45434">Neues Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29901">Sanna. Schauspiel in fünf Aufzügen</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb11791">Höflich, Lucie</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2232">Pagay, Hans</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
+                        <location>
+                           <geo>48,19941 16,3642</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35170.html</idno>
+            </event>
+            <event when-iso="1905-06-05">
                <head>Tagebuch von Schnitzler, 5. 6. 1905</head>
                <desc>
                   <listPerson>
@@ -241,52 +286,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041525.html</idno>
-            </event>
-            <event when-iso="1905-06-05">
-               <head>Premiere von Sanna, 5.6.1906</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb45417">Reinhardt-Bühnen</orgName>
-                     </org>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb45430">Kleines Theater</orgName>
-                     </org>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb45434">Neues Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29901">Sanna. Schauspiel in fünf Aufzügen</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb11791">Höflich, Lucie</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2232">Pagay, Hans</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
-                        <location>
-                           <geo>48,19941 16,3642</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35170/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35170.html</idno>
             </event>
          </listEvent>
       </body>

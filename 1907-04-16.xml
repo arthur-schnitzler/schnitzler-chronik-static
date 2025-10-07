@@ -182,31 +182,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1907-04-16</idno>
             </event>
             <event when-iso="1907-04-16">
-               <head>Schnitzler an Bahr, 16. 4. 1907</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2173">Olga Schnitzler</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041094.html</idno>
-            </event>
-            <event when-iso="1907-04-16">
                <head>Ausstellungsbesuch Paul Gauguin, 16.4.1907</head>
                <desc>
                   <listOrg>
@@ -231,8 +206,32 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/246445/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb246445.html</idno>
+            </event>
+            <event when-iso="1907-04-16">
+               <head>Schnitzler an Bahr, 16. 4. 1907</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041094.html</idno>
             </event>
          </listEvent>
       </body>

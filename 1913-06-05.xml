@@ -140,6 +140,55 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1913-06-05</idno>
             </event>
             <event when-iso="1913-06-05">
+               <head>Ausstellungsbesuch der Tapetenausstellung, 5.6.1913</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb83">Museum für Angewandte Kunst</placeName>
+                        <location>
+                           <geo>48,2075 16,381667</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb254647.html</idno>
+            </event>
+            <event when-iso="1913-06-05">
+               <head>Aufführung von Josephine. Ein Spiel in vier Akten, 5.6.1913</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30137">Josephine. Ein Spiel in vier Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209682.html</idno>
+            </event>
+            <event when-iso="1913-06-05">
                <head>Tagebuch von Schnitzler, 5. 6. 1913</head>
                <desc>
                   <listPerson>
@@ -177,57 +226,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041527.html</idno>
-            </event>
-            <event when-iso="1913-06-05">
-               <head>Ausstellungsbesuch der Tapetenausstellung, 5.6.1913</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb83">Museum für Angewandte Kunst</placeName>
-                        <location>
-                           <geo>48,2075 16,381667</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/254647/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb254647.html</idno>
-            </event>
-            <event when-iso="1913-06-05">
-               <head>Aufführung von Josephine. Ein Spiel in vier Akten, 5.6.1913</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30137">Josephine. Ein Spiel in vier Akten</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
-                        <location>
-                           <geo>48,205142 16,3566</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209682/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209682.html</idno>
             </event>
          </listEvent>
       </body>

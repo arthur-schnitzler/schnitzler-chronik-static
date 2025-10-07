@@ -297,43 +297,13 @@
 }
 }, {
  "type":
- "schnitzler-bahr",
- "color":
- "#639FF9",
- "filename":
- "L041019",
- "caption":
- "Schnitzler/Bahr",
- "idno":
- "https://schnitzler-bahr.acdh.oeaw.ac.at/L041019.html",
- "head":
- "Schnitzler an Bahr, 14. 10. 1898",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ]
-}
-}, {
- "type":
  "URL",
  "subtype":
- "pmb",
+ "schnitzler-kultur",
  "filename":
- "entity/209035/",
+ "pmb209035",
  "idno":
- "https://pmb.acdh.oeaw.ac.at/entity/209035/",
+ "https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209035.html",
  "head":
  "Aufführung von Wallensteins Tod, 14.10.1898",
  "desc":
@@ -367,6 +337,36 @@
  "Burgtheater",
  "ref":
  ""}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#639FF9",
+ "filename":
+ "L041019",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041019.html",
+ "head":
+ "Schnitzler an Bahr, 14. 10. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
  ]
 }
 }] 

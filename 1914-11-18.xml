@@ -120,6 +120,53 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1914-11-18</idno>
             </event>
             <event when-iso="1914-11-18">
+               <head>Besuch des Kaiserpanoramas [Wien, Schubertring 4], 18.11.1914</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb233517">Kaiserpanorama [Wien, Schubertring 4]</placeName>
+                        <location>
+                           <geo>48,203191 16,375811</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297948.html</idno>
+            </event>
+            <event when-iso="1914-11-18">
+               <head>Private Lesung von Große Szene, 18.11.1914</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31429">Große Szene</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
+                        <location>
+                           <geo>48,23188 16,33716</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb257182.html</idno>
+            </event>
+            <event when-iso="1914-11-18">
                <head>Schnitzler an Victor Barnowsky, 18. 11. 1914</head>
                <desc>
                   <listPerson>
@@ -168,55 +215,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041453.html</idno>
-            </event>
-            <event when-iso="1914-11-18">
-               <head>Besuch des Kaiserpanoramas [Wien, Schubertring 4], 18.11.1914</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb233517">Kaiserpanorama [Wien, Schubertring 4]</placeName>
-                        <location>
-                           <geo>48,203191 16,375811</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/297948/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297948.html</idno>
-            </event>
-            <event when-iso="1914-11-18">
-               <head>Private Lesung von Große Szene, 18.11.1914</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31429">Große Szene</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
-                        <location>
-                           <geo>48,23188 16,33716</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/257182/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb257182.html</idno>
             </event>
             <event when-iso="1914-11-18">
                <head>Arthur Schnitzler an Victor Barnowsky, 18. 11. 1914</head>

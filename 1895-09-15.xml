@@ -294,6 +294,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-09-15</idno>
             </event>
             <event when-iso="1895-09-15">
+               <head>Aufführung von , 15.9.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36996">Theater an der Wien</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81385">Der Mikado, oder: Ein Tag in Titipu. Burlesk-Oper in zwei Abtheilungen</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
+                        <location>
+                           <geo>48,19941 16,3642</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208777.html</idno>
+            </event>
+            <event when-iso="1895-09-15">
                <head>Schnitzler an Beer-Hofmann, 15. 9. 1895</head>
                <desc>
                   <listPerson>
@@ -415,37 +445,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041381.html</idno>
-            </event>
-            <event when-iso="1895-09-15">
-               <head>Aufführung von , 15.9.1895</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36996">Theater an der Wien</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb81385">Der Mikado, oder: Ein Tag in Titipu. Burlesk-Oper in zwei Abtheilungen</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb37">Theater an der Wien</placeName>
-                        <location>
-                           <geo>48,19941 16,3642</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208777/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208777.html</idno>
             </event>
          </listEvent>
       </body>

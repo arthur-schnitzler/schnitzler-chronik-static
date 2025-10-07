@@ -204,6 +204,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1898-01-24</idno>
             </event>
             <event when-iso="1898-01-24">
+               <head>Probe von Freiwild, 24.1.1898</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb63031">Carl-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
+                        <location>
+                           <geo>48,215 16,384444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200574.html</idno>
+            </event>
+            <event when-iso="1898-01-24">
                <head>Bahr an Schnitzler, 24. 1. 1898</head>
                <desc>
                   <listPerson>
@@ -268,37 +298,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041217.html</idno>
-            </event>
-            <event when-iso="1898-01-24">
-               <head>Probe von Freiwild, 24.1.1898</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb63031">Carl-Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                        <note type="relation-type">ist Probe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
-                        <location>
-                           <geo>48,215 16,384444</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/200574/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200574.html</idno>
             </event>
          </listEvent>
       </body>

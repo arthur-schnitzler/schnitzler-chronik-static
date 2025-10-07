@@ -216,6 +216,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-01-28</idno>
             </event>
             <event when-iso="1895-01-28">
+               <head>Premiere von Die erste Lüge, 28.1.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31161">Die erste Lüge</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208722.html</idno>
+            </event>
+            <event when-iso="1895-01-28">
                <head>Tagebuch von Schnitzler, 28. 1. 1895</head>
                <desc>
                   <listPerson>
@@ -244,37 +274,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041133.html</idno>
-            </event>
-            <event when-iso="1895-01-28">
-               <head>Premiere von Die erste Lüge, 28.1.1895</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31161">Die erste Lüge</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
-                        <location>
-                           <geo>48,210333 16,361139</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208722/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208722.html</idno>
             </event>
          </listEvent>
       </body>

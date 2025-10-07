@@ -189,6 +189,45 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1913-04-16</idno>
             </event>
             <event when-iso="1913-04-16">
+               <head>Aufführung von Professor Bernhardi, 16.4.1913</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35053">Lessing-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb15259">Decarli, Bruno</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb20041">Landa, Max</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb10833">Barnowsky, Victor</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb56521">Ungarisches Theater</placeName>
+                        <location>
+                           <geo>47,5035412619 19,072559007</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb46014.html</idno>
+            </event>
+            <event when-iso="1913-04-16">
                <head>Bahr an Schnitzler, 16. 4. 1913</head>
                <desc>
                   <listPerson>
@@ -227,46 +266,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041337.html</idno>
-            </event>
-            <event when-iso="1913-04-16">
-               <head>Aufführung von Professor Bernhardi, 16.4.1913</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb35053">Lessing-Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb15259">Decarli, Bruno</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb20041">Landa, Max</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb10833">Barnowsky, Victor</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb56521">Ungarisches Theater</placeName>
-                        <location>
-                           <geo>47,5035412619 19,072559007</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46014/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb46014.html</idno>
             </event>
          </listEvent>
       </body>

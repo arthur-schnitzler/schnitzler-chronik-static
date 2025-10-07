@@ -137,6 +137,64 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-01-27</idno>
             </event>
             <event when-iso="1895-01-27">
+               <head>Aufführung von Die Fledermaus, 27.1.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30421">Die Fledermaus. Komische Oper in drei Acten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208721.html</idno>
+            </event>
+            <event when-iso="1895-01-27">
+               <head>Volkstümliches Konzert, 27.1.1895</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb107">Sofiensäle</placeName>
+                        <location>
+                           <geo>48,206662 16,391263</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb195995.html</idno>
+            </event>
+            <event when-iso="1895-01-27">
                <head>Tagebuch von Schnitzler, 27. 1. 1895</head>
                <desc>
                   <listPerson>
@@ -171,66 +229,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041132.html</idno>
-            </event>
-            <event when-iso="1895-01-27">
-               <head>Aufführung von Die Fledermaus, 27.1.1895</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30421">Die Fledermaus. Komische Oper in drei Acten</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
-                        <location>
-                           <geo>48,203 16,3691</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208721/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208721.html</idno>
-            </event>
-            <event when-iso="1895-01-27">
-               <head>Volkstümliches Konzert, 27.1.1895</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2167">Salten, Felix</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb107">Sofiensäle</placeName>
-                        <location>
-                           <geo>48,206662 16,391263</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/195995/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb195995.html</idno>
             </event>
          </listEvent>
       </body>

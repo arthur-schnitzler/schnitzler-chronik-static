@@ -107,6 +107,31 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1922-02-13</idno>
             </event>
             <event when-iso="1922-02-13">
+               <head>Filmvorführung von Erotikon, 13.2.1922</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb62328">Erotikon</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210571.html</idno>
+            </event>
+            <event when-iso="1922-02-13">
                <head>Olga an Arthur Schnitzler, 13. 2. 1922</head>
                <desc>
                   <listPerson>
@@ -239,32 +264,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041672.html</idno>
-            </event>
-            <event when-iso="1922-02-13">
-               <head>Filmvorführung von Erotikon, 13.2.1922</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb62328">Erotikon</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210571/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210571.html</idno>
             </event>
             <event when-iso="1922-02-13">
                <head>Olga Schnitzler an Arthur Schnitzler, 13.2.1922</head>

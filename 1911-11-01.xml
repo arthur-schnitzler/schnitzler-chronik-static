@@ -183,6 +183,35 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1911-11-01</idno>
             </event>
             <event when-iso="1911-11-01">
+               <head>Lesung von Der Mörder, Lieutenant Gustl, 1.11.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb33754">Der Mörder. Novelle</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb29853">Lieutenant Gustl. Novelle</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb252547">Künstlerhaus Dresden-Loschwitz</placeName>
+                        <location>
+                           <geo>51,0460483 13,82312894</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183325.html</idno>
+            </event>
+            <event when-iso="1911-11-01">
                <head>Bahr: Widmungsexemplar Bayreuth, November 1911</head>
                <desc>
                   <listPerson>
@@ -210,36 +239,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041581.html</idno>
-            </event>
-            <event when-iso="1911-11-01">
-               <head>Lesung von Der Mörder, Lieutenant Gustl, 1.11.1911</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb33754">Der Mörder. Novelle</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb29853">Lieutenant Gustl. Novelle</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb252547">Künstlerhaus Dresden-Loschwitz</placeName>
-                        <location>
-                           <geo>51,0460483 13,82312894</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/183325/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183325.html</idno>
             </event>
             <event when-iso="1911-11-01">
                <head>Mappe A117</head>

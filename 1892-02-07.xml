@@ -122,28 +122,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1892-02-07</idno>
             </event>
             <event when-iso="1892-02-07">
-               <head>Hofmannsthal an Bahr, [nach dem 7. 2. 1892?]</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041466.html</idno>
-            </event>
-            <event when-iso="1892-02-07">
                <head>Lesung von Emanuel Reicher, 7.2.1892</head>
                <desc>
                   <listPerson>
@@ -166,9 +144,29 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/190928/</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208528/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb190928.html</idno>
+            </event>
+            <event when-iso="1892-02-07">
+               <head>Hofmannsthal an Bahr, [nach dem 7. 2. 1892?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041466.html</idno>
             </event>
          </listEvent>
       </body>

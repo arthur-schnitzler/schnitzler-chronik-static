@@ -139,27 +139,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1901-01-25</idno>
             </event>
             <event when-iso="1901-01-25">
-               <head>Schnitzler an Bahr, 25. 1. 1901</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29951">Zum großen Wurstel</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041034.html</idno>
-            </event>
-            <event when-iso="1901-01-25">
                <head>Aufführung von Iphigenie auf Tauris, 25.1.1901</head>
                <desc>
                   <listOrg>
@@ -187,8 +166,28 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209184/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209184.html</idno>
+            </event>
+            <event when-iso="1901-01-25">
+               <head>Schnitzler an Bahr, 25. 1. 1901</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041034.html</idno>
             </event>
          </listEvent>
       </body>

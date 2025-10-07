@@ -185,6 +185,37 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1923-03-21</idno>
             </event>
             <event when-iso="1923-03-21">
+               <head>Filmvorführung von My Boy, 21.3.1923</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80103">My Boy</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2238">Cappellini, Lili</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb24945">Simandt, Hermine</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190445">Wiener Bioscop</placeName>
+                        <location>
+                           <geo>48,20411 16,37131</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210610.html</idno>
+            </event>
+            <event when-iso="1923-03-21">
                <head>Rudolph Kayser an Schnitzler, 21. 3. 1923</head>
                <desc>
                   <listPerson>
@@ -225,38 +256,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041360.html</idno>
-            </event>
-            <event when-iso="1923-03-21">
-               <head>Filmvorführung von My Boy, 21.3.1923</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb80103">My Boy</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2238">Cappellini, Lili</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb24945">Simandt, Hermine</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb190445">Wiener Bioscop</placeName>
-                        <location>
-                           <geo>48,20411 16,37131</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210610/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210610.html</idno>
             </event>
             <event when-iso="1923-03-21">
                <head>Rudolph Kayser an Arthur Schnitzler, 21.3.1923</head>

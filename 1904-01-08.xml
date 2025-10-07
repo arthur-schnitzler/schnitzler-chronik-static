@@ -243,6 +243,30 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1904-01-08</idno>
             </event>
             <event when-iso="1904-01-08">
+               <head>Dritte Soirée des Böhmischen Streich-Quartetts, 8.1.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb195426">Böhmisches Quartett</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209311.html</idno>
+            </event>
+            <event when-iso="1904-01-08">
                <head>Schnitzler an Bahr, 8. 1. 1904</head>
                <desc>
                   <listPerson>
@@ -321,31 +345,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041446.html</idno>
-            </event>
-            <event when-iso="1904-01-08">
-               <head>Dritte Soirée des Böhmischen Streich-Quartetts, 8.1.1904</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb195426">Böhmisches Quartett</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
-                        <location>
-                           <geo>48,209167 16,366111</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209311/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209311.html</idno>
             </event>
          </listEvent>
       </body>

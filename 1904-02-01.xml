@@ -233,6 +233,30 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1904-02-01</idno>
             </event>
             <event when-iso="1904-02-01">
+               <head>Konzert des Böhmischen Streich-Quartetts, 1.2.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb195426">Böhmisches Quartett</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209314.html</idno>
+            </event>
+            <event when-iso="1904-02-01">
                <head>Schnitzler an Bahr, 1. 2. 1904</head>
                <desc>
                   <listPerson>
@@ -347,31 +371,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041457.html</idno>
-            </event>
-            <event when-iso="1904-02-01">
-               <head>Konzert des Böhmischen Streich-Quartetts, 1.2.1904</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb195426">Böhmisches Quartett</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
-                        <location>
-                           <geo>48,209167 16,366111</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209314/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209314.html</idno>
             </event>
             <event when-iso="1904-02-01">
                <head>Otto Brahm an Arthur Schnitzler, 1.2.1904</head>

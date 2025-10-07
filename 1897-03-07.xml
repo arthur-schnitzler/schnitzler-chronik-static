@@ -126,6 +126,60 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1897-03-07</idno>
             </event>
             <event when-iso="1897-03-07">
+               <head>Siebtes Abonnementkonzert der Wiener Philharmoniker, 7.3.1897</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29378">Wiener Philharmoniker</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208908.html</idno>
+            </event>
+            <event when-iso="1897-03-07">
+               <head>Aufführung von Liebelei, 7.3.1897</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200042.html</idno>
+            </event>
+            <event when-iso="1897-03-07">
                <head>Tagebuch von Arthur Schnitzler, 21. Februar – 29. November 1897</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp015.html</idno>
@@ -162,62 +216,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041522.html</idno>
-            </event>
-            <event when-iso="1897-03-07">
-               <head>Siebtes Abonnementkonzert der Wiener Philharmoniker, 7.3.1897</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb29378">Wiener Philharmoniker</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
-                        <location>
-                           <geo>48,201265597319 16,372564182283</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208908/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208908.html</idno>
-            </event>
-            <event when-iso="1897-03-07">
-               <head>Aufführung von Liebelei, 7.3.1897</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29917">Liebelei. Schauspiel in drei Akten</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
-                        <location>
-                           <geo>48,210333 16,361139</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/200042/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200042.html</idno>
             </event>
          </listEvent>
       </body>

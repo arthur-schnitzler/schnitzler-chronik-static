@@ -120,6 +120,30 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1891-12-27</idno>
             </event>
             <event when-iso="1891-12-27">
+               <head>Viertes Abonnementkonzert der Wiener Philharmoniker, 27.12.1891</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29378">Wiener Philharmoniker</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208516.html</idno>
+            </event>
+            <event when-iso="1891-12-27">
                <head>Tagebuch von Schnitzler, 27. 12. 1891</head>
                <desc>
                   <listPerson>
@@ -150,31 +174,6 @@
                   </listPerson>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041014.html</idno>
-            </event>
-            <event when-iso="1891-12-27">
-               <head>Viertes Abonnementkonzert der Wiener Philharmoniker, 27.12.1891</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb29378">Wiener Philharmoniker</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
-                        <location>
-                           <geo>48,201265597319 16,372564182283</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208516/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208516.html</idno>
             </event>
          </listEvent>
       </body>

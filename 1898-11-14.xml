@@ -145,6 +145,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1898-11-14</idno>
             </event>
             <event when-iso="1898-11-14">
+               <head>Probe von Das Vermächtnis, 14.11.1898</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb201082.html</idno>
+            </event>
+            <event when-iso="1898-11-14">
                <head>Bahr an Schnitzler, 14. 11. 1898</head>
                <desc>
                   <listPerson>
@@ -173,37 +203,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041221.html</idno>
-            </event>
-            <event when-iso="1898-11-14">
-               <head>Probe von Das Vermächtnis, 14.11.1898</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
-                        <note type="relation-type">ist Probe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
-                        <location>
-                           <geo>48,210333 16,361139</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/201082/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb201082.html</idno>
             </event>
             <event when-iso="1898-11-14">
                <head>Arthur Schnitzler an Otto Brahm, nach 12.11.1898 und vor 15.11.1898</head>

@@ -195,6 +195,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1898-12-10</idno>
             </event>
             <event when-iso="1898-12-10">
+               <head>Uraufführung von Der Star, 10.12.1898</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30127">Der Star. Ein Wiener Stück in vier Akten</title>
+                        <note type="relation-type">ist Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35312.html</idno>
+            </event>
+            <event when-iso="1898-12-10">
                <head>Schnitzler an Bahr, 10. 12. 1898</head>
                <desc>
                   <listPerson>
@@ -244,37 +274,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041183.html</idno>
-            </event>
-            <event when-iso="1898-12-10">
-               <head>Uraufführung von Der Star, 10.12.1898</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30127">Der Star. Ein Wiener Stück in vier Akten</title>
-                        <note type="relation-type">ist Uraufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
-                        <location>
-                           <geo>48,205142 16,3566</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35312/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb35312.html</idno>
             </event>
          </listEvent>
       </body>

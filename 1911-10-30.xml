@@ -146,6 +146,62 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1911-10-30</idno>
             </event>
             <event when-iso="1911-10-30">
+               <head>Generalprobe von Jan Hus, 30.10.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30351">Jan Hus</title>
+                        <note type="relation-type">ist Generalprobe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb12011">Kvapil, Jaroslav</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb92">Národní divadlo</placeName>
+                        <location>
+                           <geo>50,0809 14,4138</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb252537.html</idno>
+            </event>
+            <event when-iso="1911-10-30">
+               <head>Aufführung von Das weite Land, 30.10.1911</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb16067">Faber, Marius</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb27">Ständetheater</placeName>
+                        <location>
+                           <geo>50,086122 14,423933</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb88630.html</idno>
+            </event>
+            <event when-iso="1911-10-30">
                <head>Arthur an Olga Schnitzler, 30. 10. 1911</head>
                <desc>
                   <listPerson>
@@ -315,64 +371,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041074.html</idno>
-            </event>
-            <event when-iso="1911-10-30">
-               <head>Generalprobe von Jan Hus, 30.10.1911</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30351">Jan Hus</title>
-                        <note type="relation-type">ist Generalprobe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb12011">Kvapil, Jaroslav</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb92">Národní divadlo</placeName>
-                        <location>
-                           <geo>50,0809 14,4138</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/252537/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb252537.html</idno>
-            </event>
-            <event when-iso="1911-10-30">
-               <head>Aufführung von Das weite Land, 30.10.1911</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb16067">Faber, Marius</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb27">Ständetheater</placeName>
-                        <location>
-                           <geo>50,086122 14,423933</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88630/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb88630.html</idno>
             </event>
             <event when-iso="1911-10-30">
                <head>Arthur Schnitzler an Olga Schnitzler, 30.10.1911</head>

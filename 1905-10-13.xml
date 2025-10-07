@@ -252,6 +252,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1905-10-13</idno>
             </event>
             <event when-iso="1905-10-13">
+               <head>Probe von Der grüne Kakadu, 13.10.1905</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36430">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
+                        <location>
+                           <geo>48,205142 16,3566</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb236542.html</idno>
+            </event>
+            <event when-iso="1905-10-13">
                <head>Bahr an Schnitzler, 13. 10. 1905</head>
                <desc>
                   <listPerson>
@@ -436,37 +466,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030014.html</idno>
-            </event>
-            <event when-iso="1905-10-13">
-               <head>Probe von Der grüne Kakadu, 13.10.1905</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36430">Volkstheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
-                        <note type="relation-type">ist Probe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb20">Volkstheater</placeName>
-                        <location>
-                           <geo>48,205142 16,3566</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/236542/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb236542.html</idno>
             </event>
             <event when-iso="1905-10-13">
                <head>Otto Brahm an Arthur Schnitzler, 13.10.1905</head>

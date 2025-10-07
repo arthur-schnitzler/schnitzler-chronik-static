@@ -140,6 +140,34 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1927-12-02</idno>
             </event>
             <event when-iso="1927-12-02">
+               <head>Varieté im Scala, 2.12.1927</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb16530">Fratellini, Paolo</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb16527">Fratellini, François</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb16524">Fratellini, Alberto</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb185955">Scala</placeName>
+                        <location>
+                           <geo>52,4981 13,3451</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210431.html</idno>
+            </event>
+            <event when-iso="1927-12-02">
                <head>Kurt Mühsam: Mit Arthur Schnitzler im Film-Atelier, 2. 12. 1927</head>
                <desc>
                   <listPerson>
@@ -250,35 +278,6 @@
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp500.html</idno>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp501.html</idno>
-            </event>
-            <event when-iso="1927-12-02">
-               <head>Varieté im Scala, 2.12.1927</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb16530">Fratellini, Paolo</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb16527">Fratellini, François</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb16524">Fratellini, Alberto</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb185955">Scala</placeName>
-                        <location>
-                           <geo>52,4981 13,3451</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210431/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210431.html</idno>
             </event>
          </listEvent>
       </body>

@@ -179,6 +179,34 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1925-06-07</idno>
             </event>
             <event when-iso="1925-06-07">
+               <head>Filmvorführung von Der Schrecken des unterirdischen Paris, 7.6.1925</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195911">Der Schrecken des unterirdischen Paris</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210757.html</idno>
+            </event>
+            <event when-iso="1925-06-07">
                <head>Festgrüße an Thomas Mann, 7. 6. 1925</head>
                <desc>
                   <listPerson>
@@ -208,35 +236,6 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M073.html</idno>
-            </event>
-            <event when-iso="1925-06-07">
-               <head>Filmvorführung von Der Schrecken des unterirdischen Paris, 7.6.1925</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb195911">Der Schrecken des unterirdischen Paris</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210757/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210757.html</idno>
             </event>
             <event when-iso="1925-06-07">
                <head>Schnitzler geht ins Kino, 7. Juni 1925</head>

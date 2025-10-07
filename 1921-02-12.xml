@@ -133,6 +133,31 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1921-02-12</idno>
             </event>
             <event when-iso="1921-02-12">
+               <head>Filmvorführung von Anna Boleyn, 12.2.1921</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80922">Anna Boleyn</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210545.html</idno>
+            </event>
+            <event when-iso="1921-02-12">
                <head>–sch [=Ludwig Basch]: Eine Begegnung mit Dr. Artur Schnitzler,
                             12. 2. 1921</head>
                <desc>
@@ -187,32 +212,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I042.html</idno>
-            </event>
-            <event when-iso="1921-02-12">
-               <head>Filmvorführung von Anna Boleyn, 12.2.1921</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb80922">Anna Boleyn</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210545/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210545.html</idno>
             </event>
             <event when-iso="1921-02-12">
                <head>Schnitzler geht ins Kino, 12. Februar 1921</head>

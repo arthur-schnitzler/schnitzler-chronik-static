@@ -115,6 +115,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1914-12-21</idno>
             </event>
             <event when-iso="1914-12-21">
+               <head>Aufführung von Falstaff, 21.12.1914</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30935">Falstaff</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209735.html</idno>
+            </event>
+            <event when-iso="1914-12-21">
                <head>Une protestation d’Arthur Schnitzler, 21. 12. 1914</head>
                <desc>
                   <listPerson>
@@ -255,37 +285,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/P111.html</idno>
-            </event>
-            <event when-iso="1914-12-21">
-               <head>Aufführung von Falstaff, 21.12.1914</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30935">Falstaff</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
-                        <location>
-                           <geo>48,203 16,3691</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209735/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209735.html</idno>
             </event>
          </listEvent>
       </body>

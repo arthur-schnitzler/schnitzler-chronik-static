@@ -176,8 +176,56 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/254327/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb254327.html</idno>
+            </event>
+            <event when-iso="1913-03-31">
+               <head>Orchesterkonzert [Watschenkonzert] im Musikverein, 31.3.1913</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29504">Wiener Konzertverein</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb234535">Wiener Symphoniker</orgName>
+                     </org>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36889">Akademischer Verband für Literatur und Musik in Wien</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80153">Zwei Orchesterlieder nach Ansichtskartentexten von Peter Altenberg</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb254338">Kammersymphonie Nr. 1 E-Dur op. 9</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb12743">Schönberg, Arnold</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb11054">Buschbeck, Erhard</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12861">Straus, Oscar</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209674.html</idno>
             </event>
          </listEvent>
       </body>

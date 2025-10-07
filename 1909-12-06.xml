@@ -133,25 +133,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1909-12-06</idno>
             </event>
             <event when-iso="1909-12-06">
-               <head>Aufzeichnung von Bahr, 6. 12. 1909</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb140">Halle an der Saale</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041500.html</idno>
-            </event>
-            <event when-iso="1909-12-06">
                <head>Probe von Ruf des Lebens, 6.12.1909</head>
                <desc>
                   <listOrg>
@@ -179,8 +160,26 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249485/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb249485.html</idno>
+            </event>
+            <event when-iso="1909-12-06">
+               <head>Aufzeichnung von Bahr, 6. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb140">Halle an der Saale</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041500.html</idno>
             </event>
          </listEvent>
       </body>

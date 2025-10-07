@@ -218,6 +218,34 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1909-07-06</idno>
             </event>
             <event when-iso="1909-07-06">
+               <head>Private Lesung von Der junge Medardus, 6.7.1909</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb714">Hotel Edlacherhof</placeName>
+                        <location>
+                           <geo>47,689132 15,805582</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb248810.html</idno>
+            </event>
+            <event when-iso="1909-07-06">
                <head>Tagebuch von Schnitzler, 6. 7. 1909</head>
                <desc>
                   <listPerson>
@@ -279,35 +307,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041049.html</idno>
-            </event>
-            <event when-iso="1909-07-06">
-               <head>Private Lesung von Der junge Medardus, 6.7.1909</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb714">Hotel Edlacherhof</placeName>
-                        <location>
-                           <geo>47,689132 15,805582</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/248810/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb248810.html</idno>
             </event>
          </listEvent>
       </body>

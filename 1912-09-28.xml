@@ -183,6 +183,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1912-09-28</idno>
             </event>
             <event when-iso="1912-09-28">
+               <head>Premiere von Narrentanz, 28.9.1912</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37214">Neue Wiener Bühne</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80177">Narrentanz. Komödie in vier Akten</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb34399">Neue Wiener Bühne</placeName>
+                        <location>
+                           <geo>48,2195962 16,3589845</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209652.html</idno>
+            </event>
+            <event when-iso="1912-09-28">
                <head>Bahr an Schnitzler, 28. 9. 1912</head>
                <desc>
                   <listPerson>
@@ -229,37 +259,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041335.html</idno>
-            </event>
-            <event when-iso="1912-09-28">
-               <head>Premiere von Narrentanz, 28.9.1912</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb37214">Neue Wiener Bühne</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb80177">Narrentanz. Komödie in vier Akten</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb34399">Neue Wiener Bühne</placeName>
-                        <location>
-                           <geo>48,2195962 16,3589845</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209652/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209652.html</idno>
             </event>
          </listEvent>
       </body>

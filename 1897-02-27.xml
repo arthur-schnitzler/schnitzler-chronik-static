@@ -187,6 +187,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1897-02-27</idno>
             </event>
             <event when-iso="1897-02-27">
+               <head>Premiere von Das Tschaperl, 27.2.1897</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb63031">Carl-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29829">Das Tschaperl. Ein Wiener Stück in vier Aufzügen</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
+                        <location>
+                           <geo>48,215 16,384444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208907.html</idno>
+            </event>
+            <event when-iso="1897-02-27">
                <head>Tagebuch von Schnitzler, 27. 2. 1897</head>
                <desc>
                   <listPerson>
@@ -218,37 +248,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041167.html</idno>
-            </event>
-            <event when-iso="1897-02-27">
-               <head>Premiere von Das Tschaperl, 27.2.1897</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb63031">Carl-Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29829">Das Tschaperl. Ein Wiener Stück in vier Aufzügen</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb118">Carl-Theater</placeName>
-                        <location>
-                           <geo>48,215 16,384444</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208907/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208907.html</idno>
             </event>
          </listEvent>
       </body>

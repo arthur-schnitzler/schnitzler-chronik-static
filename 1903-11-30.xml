@@ -123,6 +123,25 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1903-11-30</idno>
             </event>
             <event when-iso="1903-11-30">
+               <head>Besuch des Gewerbemuseums, 30.11.1903</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb201129">Gewerbemuseum</placeName>
+                        <location>
+                           <geo>48,22327 16,351339</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297480.html</idno>
+            </event>
+            <event when-iso="1903-11-30">
                <head>Aufzeichnung von Bahr, 30. 11. 1903</head>
                <desc>
                   <listPerson>
@@ -172,26 +191,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041446.html</idno>
-            </event>
-            <event when-iso="1903-11-30">
-               <head>Besuch des Gewerbemuseums, 30.11.1903</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb201129">Gewerbemuseum</placeName>
-                        <location>
-                           <geo>48,22327 16,351339</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/297480/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297480.html</idno>
             </event>
          </listEvent>
       </body>

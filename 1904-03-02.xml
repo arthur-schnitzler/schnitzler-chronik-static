@@ -110,6 +110,33 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1904-03-02</idno>
             </event>
             <event when-iso="1904-03-02">
+               <head>Symphoniekonzert, 2.3.1904</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb234535">Wiener Symphoniker</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb20751">Löwe, Ferdinand</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209323.html</idno>
+            </event>
+            <event when-iso="1904-03-02">
                <head>Die ausgewiesene »Rose Bernd«, 2. 3. 1904</head>
                <desc>
                   <listPerson>
@@ -162,34 +189,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I033.html</idno>
-            </event>
-            <event when-iso="1904-03-02">
-               <head>Symphoniekonzert, 2.3.1904</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb234535">Wiener Symphoniker</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb20751">Löwe, Ferdinand</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
-                        <location>
-                           <geo>48,201265597319 16,372564182283</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209323/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209323.html</idno>
             </event>
             <event when-iso="1904-03-02">
                <head>Ludwig, August an Schnitzler, Arthur [Briefe]</head>

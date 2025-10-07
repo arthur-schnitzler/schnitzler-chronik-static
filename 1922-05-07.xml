@@ -130,6 +130,31 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1922-05-07</idno>
             </event>
             <event when-iso="1922-05-07">
+               <head>Filmvorführung, 7.5.1922</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb14543">Brevée, Bertha</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb14551">Brevée, Isaäc</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb40725">Oosterbeek</placeName>
+                        <location>
+                           <geo>51,98583 5,84583</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210581.html</idno>
+            </event>
+            <event when-iso="1922-05-07">
                <head>Aufzeichnung von Bahr, 7. 5. 1922</head>
                <desc>
                   <listPerson>
@@ -163,32 +188,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041597.html</idno>
-            </event>
-            <event when-iso="1922-05-07">
-               <head>Filmvorführung, 7.5.1922</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb14543">Brevée, Bertha</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb14551">Brevée, Isaäc</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb40725">Oosterbeek</placeName>
-                        <location>
-                           <geo>51,98583 5,84583</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210581/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210581.html</idno>
             </event>
             <event when-iso="1922-05-07">
                <head>Hedy Kempny an Arthur Schnitzler, 7.5.1922</head>

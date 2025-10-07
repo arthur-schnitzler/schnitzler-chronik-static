@@ -148,6 +148,33 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1923-12-08</idno>
             </event>
             <event when-iso="1923-12-08">
+               <head>Souper für Georges Duhamel, 8.12.1923</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb250515">Österreichischer PEN-Club</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb11187">Duhamel, Georges</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb250518">Annagasse 5</placeName>
+                        <location>
+                           <geo>48,204532 16,372557</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb268046.html</idno>
+            </event>
+            <event when-iso="1923-12-08">
                <head>Paul Wertheimer: Begegnung mit Artur Schnitzler, 8. 12. 1923</head>
                <desc>
                   <listPerson>
@@ -338,34 +365,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I026.html</idno>
-            </event>
-            <event when-iso="1923-12-08">
-               <head>Souper für Georges Duhamel, 8.12.1923</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb250515">Österreichischer PEN-Club</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb11187">Duhamel, Georges</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb250518">Annagasse 5</placeName>
-                        <location>
-                           <geo>48,204532 16,372557</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/268046/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb268046.html</idno>
             </event>
          </listEvent>
       </body>

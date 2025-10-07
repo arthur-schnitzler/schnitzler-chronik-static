@@ -161,6 +161,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-01-30</idno>
             </event>
             <event when-iso="1895-01-30">
+               <head>Ballett im Oper, 30.1.1895</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80953">Excelsior. Ballet in 5 Akten (14 Bildern)</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208723.html</idno>
+            </event>
+            <event when-iso="1895-01-30">
                <head>Tagebuch von Schnitzler, 30. 1. 1895</head>
                <desc>
                   <listPerson>
@@ -225,37 +255,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041135.html</idno>
-            </event>
-            <event when-iso="1895-01-30">
-               <head>Ballett im Oper, 30.1.1895</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb80953">Excelsior. Ballet in 5 Akten (14 Bildern)</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
-                        <location>
-                           <geo>48,203 16,3691</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208723/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208723.html</idno>
             </event>
             <event when-iso="1895-01-30">
                <head>Arthur Schnitzler an Theodor Herzl, 30. 1. 1895</head>

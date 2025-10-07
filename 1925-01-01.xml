@@ -139,6 +139,43 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1925-01-01</idno>
             </event>
             <event when-iso="1925-01-01">
+               <head>Privates Konzert von Klavierkonzert Nr. 22 Es-Dur KV 482, 1.1.1925</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb77207">Klavierkonzert Nr. 22 Es-Dur KV 482</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb54787">Zuckerkandl, Victor</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb22728">Pollak, Frieda</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2753">Zuckerkandl, Marianne</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb3095">Zuckerkandl, Amalie</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
+                        <location>
+                           <geo>48,23188 16,33716</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb251618.html</idno>
+            </event>
+            <event when-iso="1925-01-01">
                <head>Josef Popper-Lynkeus: Gespräche, Mai 1925</head>
                <desc>
                   <listPerson>
@@ -394,44 +431,6 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M138.html</idno>
-            </event>
-            <event when-iso="1925-01-01">
-               <head>Privates Konzert von Klavierkonzert Nr. 22 Es-Dur KV 482, 1.1.1925</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb77207">Klavierkonzert Nr. 22 Es-Dur KV 482</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb54787">Zuckerkandl, Victor</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb22728">Pollak, Frieda</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2753">Zuckerkandl, Marianne</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb3095">Zuckerkandl, Amalie</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb168815">Sternwartestraße 71</placeName>
-                        <location>
-                           <geo>48,23188 16,33716</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/251618/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb251618.html</idno>
             </event>
          </listEvent>
       </body>

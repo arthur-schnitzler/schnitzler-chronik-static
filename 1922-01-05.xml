@@ -257,6 +257,25 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1922-01-05</idno>
             </event>
             <event when-iso="1922-01-05">
+               <head>Filmvorführung, 5.1.1922</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210568.html</idno>
+            </event>
+            <event when-iso="1922-01-05">
                <head>Tagebuch von Schnitzler, 5. 1. 1922</head>
                <desc>
                   <listPerson>
@@ -295,26 +314,6 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041567.html</idno>
-            </event>
-            <event when-iso="1922-01-05">
-               <head>Filmvorführung, 5.1.1922</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210568/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210568.html</idno>
             </event>
             <event when-iso="1922-01-05">
                <head>Schnitzler geht ins Kino, 5. Januar 1922</head>

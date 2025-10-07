@@ -150,6 +150,28 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1918-10-14</idno>
             </event>
             <event when-iso="1918-10-14">
+               <head>Gesangskonzert von Artur Fleischer, 14.10.1918</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb16320">Fleischer, Artur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209961.html</idno>
+            </event>
+            <event when-iso="1918-10-14">
                <head>Schnitzler: Leutnant Gustl. Äußere Schicksale, [14. 10. 1918?]</head>
                <desc>
                   <listPerson>
@@ -181,29 +203,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030051.html</idno>
-            </event>
-            <event when-iso="1918-10-14">
-               <head>Gesangskonzert von Artur Fleischer, 14.10.1918</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb16320">Fleischer, Artur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
-                        <location>
-                           <geo>48,200771836002 16,377197811369</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209961/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209961.html</idno>
             </event>
          </listEvent>
       </body>

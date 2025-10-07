@@ -157,6 +157,44 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1906-08-13</idno>
             </event>
             <event when-iso="1906-08-13">
+               <head>Besuch des Schillerhauses, 13.8.1906</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb192">Schillerhaus</placeName>
+                        <location>
+                           <geo>50,978936 11,327767</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297108.html</idno>
+            </event>
+            <event when-iso="1906-08-13">
+               <head>Besuch von Goethes Wohnhaus, 13.8.1906</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb191">Goethes Wohnhaus</placeName>
+                        <location>
+                           <geo>50,9775 11,328611</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297105.html</idno>
+            </event>
+            <event when-iso="1906-08-13">
                <head>Tagebuch von Schnitzler, 13. 8. 1906</head>
                <desc>
                   <listPerson>
@@ -195,46 +233,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041272.html</idno>
-            </event>
-            <event when-iso="1906-08-13">
-               <head>Besuch des Schillerhauses, 13.8.1906</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb192">Schillerhaus</placeName>
-                        <location>
-                           <geo>50,978936 11,327767</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/297108/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297108.html</idno>
-            </event>
-            <event when-iso="1906-08-13">
-               <head>Besuch von Goethes Wohnhaus, 13.8.1906</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb191">Goethes Wohnhaus</placeName>
-                        <location>
-                           <geo>50,9775 11,328611</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/297105/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297105.html</idno>
             </event>
          </listEvent>
       </body>

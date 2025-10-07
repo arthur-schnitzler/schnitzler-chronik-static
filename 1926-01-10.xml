@@ -123,6 +123,34 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1926-01-10</idno>
             </event>
             <event when-iso="1926-01-10">
+               <head>Private Lesung von [Der Gang zum Weiher, französisch], 10.1.1926</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb249191">?? [Der Gang zum Weiher, französisch]</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb185644">Peregringasse 4</placeName>
+                        <location>
+                           <geo>48,216445 16,364586</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb249195.html</idno>
+            </event>
+            <event when-iso="1926-01-10">
                <head>Literarische Legendenbildung. Eine Richtigstellung, 10. 1. 1926</head>
                <desc>
                   <listPerson>
@@ -214,35 +242,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/P089.html</idno>
-            </event>
-            <event when-iso="1926-01-10">
-               <head>Private Lesung von [Der Gang zum Weiher, französisch], 10.1.1926</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb249191">?? [Der Gang zum Weiher, französisch]</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb185644">Peregringasse 4</placeName>
-                        <location>
-                           <geo>48,216445 16,364586</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/249195/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb249195.html</idno>
             </event>
          </listEvent>
       </body>

@@ -216,6 +216,40 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1893-07-19</idno>
             </event>
             <event when-iso="1893-07-19">
+               <head>Aufführung von Fräulein Frau, Abschiedssouper, 19.7.1893</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb42649">Saisontheater Ischl</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb32702">Fräulein Frau</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb30005">Abschiedssouper</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb1179">Lehártheater</placeName>
+                        <location>
+                           <geo>47,712959 13,622439</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208617.html</idno>
+            </event>
+            <event when-iso="1893-07-19">
                <head>Hofmannsthal an Schnitzler, 19. 7. 1893</head>
                <desc>
                   <listPerson>
@@ -276,41 +310,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041427.html</idno>
-            </event>
-            <event when-iso="1893-07-19">
-               <head>Aufführung von Fräulein Frau, Abschiedssouper, 19.7.1893</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb42649">Saisontheater Ischl</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb32702">Fräulein Frau</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb30005">Abschiedssouper</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb1179">Lehártheater</placeName>
-                        <location>
-                           <geo>47,712959 13,622439</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208617/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208617.html</idno>
             </event>
          </listEvent>
       </body>

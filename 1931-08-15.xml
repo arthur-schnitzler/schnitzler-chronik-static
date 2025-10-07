@@ -131,6 +131,37 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1931-08-15</idno>
             </event>
             <event when-iso="1931-08-15">
+               <head>Private Lesung von Der Ruf des Lebens, 15.8.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb874">Gmunden</placeName>
+                        <location>
+                           <geo>47,91839 13,79933</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb245511.html</idno>
+            </event>
+            <event when-iso="1931-08-15">
                <head>Jób Paál: Schnitzler Arthur büszke arra, hogy magyar zsidó,
                             15. 8. 1931</head>
                <desc>
@@ -274,38 +305,6 @@
                <head>Tagebuch von Clara Katharina Pollaczek, 12.–16. August 1931</head>
                <desc/>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp970.html</idno>
-            </event>
-            <event when-iso="1931-08-15">
-               <head>Private Lesung von Der Ruf des Lebens, 15.8.1931</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12692">Schnitzler, Heinrich</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb874">Gmunden</placeName>
-                        <location>
-                           <geo>47,91839 13,79933</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/245511/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb245511.html</idno>
             </event>
          </listEvent>
       </body>

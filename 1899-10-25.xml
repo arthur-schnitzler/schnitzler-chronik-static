@@ -112,6 +112,31 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1899-10-25</idno>
             </event>
             <event when-iso="1899-10-25">
+               <head>Trauerfeier für Johann Strauss, 25.10.1899</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb78198">Ein deutsches Requiem op. 45</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209109.html</idno>
+            </event>
+            <event when-iso="1899-10-25">
                <head>–rm–: Wiener Burgtheater. (»Agnes Jordan« von Georg Hirschfeld),
                             25. 10. 1899</head>
                <desc>
@@ -187,32 +212,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M182.html</idno>
-            </event>
-            <event when-iso="1899-10-25">
-               <head>Trauerfeier für Johann Strauss, 25.10.1899</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb78198">Ein deutsches Requiem op. 45</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
-                        <location>
-                           <geo>48,201265597319 16,372564182283</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209109/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209109.html</idno>
             </event>
          </listEvent>
       </body>

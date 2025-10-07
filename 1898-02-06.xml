@@ -218,32 +218,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1898-02-06</idno>
             </event>
             <event when-iso="1898-02-06">
-               <head>Schnitzler: Widmungsexemplar Freiwild, 6. 2. 1898</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb168">Berlin</placeName>
-                     </place>
-                  </listPlace>
-                  <listOrg>
-                     <org>
-                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
-                     </org>
-                  </listOrg>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041687.html</idno>
-            </event>
-            <event when-iso="1898-02-06">
                <head>3. Aufführung von Freiwild, 6.2.1898</head>
                <desc>
                   <listOrg>
@@ -274,8 +248,33 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/200654/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200654.html</idno>
+            </event>
+            <event when-iso="1898-02-06">
+               <head>Schnitzler: Widmungsexemplar Freiwild, 6. 2. 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041687.html</idno>
             </event>
          </listEvent>
       </body>

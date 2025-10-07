@@ -123,33 +123,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1899-02-22</idno>
             </event>
             <event when-iso="1899-02-22">
-               <head>Hofmannsthal an Bahr, 22. 2. 1899</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29849">Die Hochzeit der Sobeide</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041475.html</idno>
-            </event>
-            <event when-iso="1899-02-22">
                <head>Probe von Der grüne Kakadu, 22.2.1899</head>
                <desc>
                   <listOrg>
@@ -177,8 +150,34 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/206916/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb206916.html</idno>
+            </event>
+            <event when-iso="1899-02-22">
+               <head>Hofmannsthal an Bahr, 22. 2. 1899</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29849">Die Hochzeit der Sobeide</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041475.html</idno>
             </event>
          </listEvent>
       </body>

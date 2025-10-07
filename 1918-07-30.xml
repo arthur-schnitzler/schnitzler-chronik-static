@@ -134,6 +134,25 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1918-07-30</idno>
             </event>
             <event when-iso="1918-07-30">
+               <head>Besuch des Kaiserpanoramas [Wien, Stubenring 12], 30.7.1918</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb238481">Kaiserpanorama [Wien, Stubenring 12]</placeName>
+                        <location>
+                           <geo>48,209294 16,381895</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb298137.html</idno>
+            </event>
+            <event when-iso="1918-07-30">
                <head>Tagebuch von Schnitzler, 30. 7. 1918</head>
                <desc>
                   <listPerson>
@@ -165,26 +184,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041545.html</idno>
-            </event>
-            <event when-iso="1918-07-30">
-               <head>Besuch des Kaiserpanoramas [Wien, Stubenring 12], 30.7.1918</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb238481">Kaiserpanorama [Wien, Stubenring 12]</placeName>
-                        <location>
-                           <geo>48,209294 16,381895</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/298137/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb298137.html</idno>
             </event>
          </listEvent>
       </body>

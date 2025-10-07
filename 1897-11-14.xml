@@ -145,27 +145,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1897-11-14</idno>
             </event>
             <event when-iso="1897-11-14">
-               <head>Schnitzler an Bahr, 1[4?]. 11. 1897</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29833">Die Toten schweigen</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041016.html</idno>
-            </event>
-            <event when-iso="1897-11-14">
                <head>Aufführung von Die heilige Ludmila op. 71, 14.11.1897</head>
                <desc>
                   <listOrg>
@@ -193,8 +172,28 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208975/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208975.html</idno>
+            </event>
+            <event when-iso="1897-11-14">
+               <head>Schnitzler an Bahr, 1[4?]. 11. 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29833">Die Toten schweigen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041016.html</idno>
             </event>
          </listEvent>
       </body>

@@ -206,6 +206,38 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1903-11-03</idno>
             </event>
             <event when-iso="1903-11-03">
+               <head>Private Lesung von Die Gouvernante, Das Haus Delorme, 3.11.1903</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb33784">Die Gouvernante</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb10848">Bauer, Ludwig</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168934">Frankgasse 1</placeName>
+                        <location>
+                           <geo>48,21533 16,35736</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb233414.html</idno>
+            </event>
+            <event when-iso="1903-11-03">
                <head>Aufzeichnung von Bahr, 3. 11. 1903</head>
                <desc>
                   <listPerson>
@@ -324,39 +356,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041586.html</idno>
-            </event>
-            <event when-iso="1903-11-03">
-               <head>Private Lesung von Die Gouvernante, Das Haus Delorme, 3.11.1903</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb33784">Die Gouvernante</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb31547">Das Haus Delorme. Eine Familienszene</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb10848">Bauer, Ludwig</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb168934">Frankgasse 1</placeName>
-                        <location>
-                           <geo>48,21533 16,35736</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/233414/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb233414.html</idno>
             </event>
          </listEvent>
       </body>

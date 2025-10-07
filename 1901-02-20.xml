@@ -146,6 +146,33 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1901-02-20</idno>
             </event>
             <event when-iso="1901-02-20">
+               <head>Symphonisches Konzert, 20.2.1901</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb29504">Wiener Konzertverein</orgName>
+                     </org>
+                  </listOrg>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb20751">Löwe, Ferdinand</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
+                        <location>
+                           <geo>48,201265597319 16,372564182283</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb231305.html</idno>
+            </event>
+            <event when-iso="1901-02-20">
                <head>Bahr an Schnitzler, 20. 2. 1901</head>
                <desc>
                   <listPerson>
@@ -180,34 +207,6 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041235.html</idno>
-            </event>
-            <event when-iso="1901-02-20">
-               <head>Symphonisches Konzert, 20.2.1901</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb29504">Wiener Konzertverein</orgName>
-                     </org>
-                  </listOrg>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb20751">Löwe, Ferdinand</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb516">Musikverein</placeName>
-                        <location>
-                           <geo>48,201265597319 16,372564182283</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/231305/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb231305.html</idno>
             </event>
          </listEvent>
       </body>

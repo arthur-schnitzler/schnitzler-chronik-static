@@ -219,6 +219,34 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1901-10-18</idno>
             </event>
             <event when-iso="1901-10-18">
+               <head>Private Lesung von Der Puppenspieler, 18.10.1901</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29873">Der Puppenspieler. Studie in einem Aufzuge</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12740">Schwarzkopf, Gustav</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb231662.html</idno>
+            </event>
+            <event when-iso="1901-10-18">
                <head>Schnitzler an Bahr, 18. 10. 1901</head>
                <desc>
                   <listPerson>
@@ -250,35 +278,6 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041041.html</idno>
-            </event>
-            <event when-iso="1901-10-18">
-               <head>Private Lesung von Der Puppenspieler, 18.10.1901</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29873">Der Puppenspieler. Studie in einem Aufzuge</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12740">Schwarzkopf, Gustav</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/231662/</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb231662.html</idno>
             </event>
          </listEvent>
       </body>
