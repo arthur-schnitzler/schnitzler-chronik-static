@@ -510,8 +510,8 @@
                     <xsl:value-of select="$e-type-farbe"/>
                     <xsl:text>;</xsl:text>
                 </xsl:attribute>
-                <xsl:for-each select="tei:person/tei:persName">
-                    <xsl:variable name="ref" select="concat(@ref, @key)"/>
+                <xsl:for-each select="tei:person/tei:persName[1]">
+                    <xsl:variable name="ref" select="concat(@ref[1], @key[1])"/>
                     <xsl:element name="li">
                         <xsl:choose>
                             <xsl:when
