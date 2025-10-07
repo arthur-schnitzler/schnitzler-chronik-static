@@ -491,7 +491,7 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:listPerson" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno[1]/@type"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -596,7 +596,7 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno[1]/@type"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -672,7 +672,7 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno[1]/@type"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -777,7 +777,7 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:desc/tei:listBibl" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno[1]/@type"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
