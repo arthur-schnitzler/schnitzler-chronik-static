@@ -223,7 +223,7 @@
         <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
-                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ]">
+                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ][1]">
                 <xsl:variable name="e-typ-farbe">
                     <xsl:choose>
                         <xsl:when
@@ -736,16 +736,18 @@
                             <xsl:choose>
                                 <xsl:when
                                     test="$e-typ = 'schnitzler-kultur' and (starts-with($ref, 'pmb'))">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
+                                    <xsl:element name="li">
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="target">
+                                                <xsl:text>_blank</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </xsl:element>
                                     </xsl:element>
                                 </xsl:when>
                                 <xsl:when test="starts-with($ref, 'pmb')">
