@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -270,26 +270,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1906-03-28</idno>
             </event>
             <event when-iso="1906-03-28">
-               <head>Varieté im Colosseum, 28.3.1906</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb147768">Colosseum</placeName>
-                        <location>
-                           <geo>48,222506 16,3537237</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209424.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209424.html</idno>
-            </event>
-            <event when-iso="1906-03-28">
                <head>Salten an Schnitzler, 28. 3. 1906</head>
                <desc>
                   <listPerson>
@@ -395,6 +375,26 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041373.html</idno>
+            </event>
+            <event when-iso="1906-03-28">
+               <head>Varieté im Colosseum, 28.3.1906</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb147768">Colosseum</placeName>
+                        <location>
+                           <geo>48,222506 16,3537237</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209424/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209424.html</idno>
             </event>
          </listEvent>
       </body>

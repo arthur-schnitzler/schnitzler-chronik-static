@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -153,35 +153,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1924-02-29</idno>
             </event>
             <event when-iso="1924-02-29">
-               <head>Filmvorführung von Der Wetterwart, 29.2.1924</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb80552">Der Wetterwart</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb190567">Gersthofer Elitetheater</placeName>
-                        <location>
-                           <geo>48,234219 16,327625</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210652.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210652.html</idno>
-            </event>
-            <event when-iso="1924-02-29">
                <head>J. L. Benvenisti: Arthur Schnitzler. A Snap Shot, 29. 2. 1924</head>
                <desc>
                   <listPerson>
@@ -274,6 +245,35 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I028.html</idno>
+            </event>
+            <event when-iso="1924-02-29">
+               <head>Filmvorführung von Der Wetterwart, 29.2.1924</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb80552">Der Wetterwart</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190567">Gersthofer Elitetheater</placeName>
+                        <location>
+                           <geo>48,234219 16,327625</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210652/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210652.html</idno>
             </event>
             <event when-iso="1924-02-29">
                <head>Schnitzler im Gersthofer Elitetheater, 29. Februar 1924</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -147,32 +147,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1916-02-12</idno>
             </event>
             <event when-iso="1916-02-12">
-               <head>Premiere von Der Schrei, den niemand hört, 12.2.1916</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30913">Der Schrei, den niemand hört</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb280">Renaissancetheater</placeName>
-                        <location>
-                           <geo>48,201139 16,349222</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209810.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209810.html</idno>
-            </event>
-            <event when-iso="1916-02-12">
                <head>Tagebuch von Schnitzler, 12. 2. 1916</head>
                <desc>
                   <listPerson>
@@ -228,6 +202,32 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041369.html</idno>
+            </event>
+            <event when-iso="1916-02-12">
+               <head>Premiere von Der Schrei, den niemand hört, 12.2.1916</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30913">Der Schrei, den niemand hört</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb280">Renaissancetheater</placeName>
+                        <location>
+                           <geo>48,201139 16,349222</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209810/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209810.html</idno>
             </event>
          </listEvent>
       </body>

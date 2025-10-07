@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -212,41 +212,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1903-12-14</idno>
             </event>
             <event when-iso="1903-12-14">
-               <head>Private Lesung von Der Schleier der Pierrette, 14.12.1903</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb26640">Wallner, Carl</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb3105">Karczag, Wilhelm</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb11165">Dohnányi, Ernst von</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb233524.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb233524.html</idno>
-            </event>
-            <event when-iso="1903-12-14">
                <head>Schnitzler u. a. an Bahr, 14. 12. 1903</head>
                <desc>
                   <listPerson>
@@ -343,6 +308,41 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030036.html</idno>
+            </event>
+            <event when-iso="1903-12-14">
+               <head>Private Lesung von Der Schleier der Pierrette, 14.12.1903</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30215">Der Schleier der Pierrette. Pantomime in drei Bildern</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb26640">Wallner, Carl</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb3105">Karczag, Wilhelm</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb11165">Dohnányi, Ernst von</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/233524/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb233524.html</idno>
             </event>
             <event when-iso="1903-12-14">
                <head>Arthur Schnitzler, Olga Schnitzler, Hugo von Hofmannsthal, Gerty von

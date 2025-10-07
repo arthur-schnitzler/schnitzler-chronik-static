@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -205,53 +205,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1892-05-07</idno>
             </event>
             <event when-iso="1892-05-07">
-               <head>Aufführung von Stella, Die Mitschuldigen, 7.5.1892</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30191">Stella. Ein Schauspiel für Liebende</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb30193">Die Mitschuldigen.  Ein Lustspiel in drei Aufzügen</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb11851">Kainz, Josef</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb49827">Retty, Rudolf</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb21985">Nissen, Hermann</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb11845">Kadelburg, Gustav</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb45128">Internationales Ausstellungstheater im k.k. Prater</placeName>
-                        <location>
-                           <geo>48,212222 16,409444</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167833.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167833.html</idno>
-            </event>
-            <event when-iso="1892-05-07">
                <head>Schnitzler an Hofmannsthal, [7. 5. 1892?]</head>
                <desc>
                   <listPerson>
@@ -314,6 +267,53 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041025.html</idno>
+            </event>
+            <event when-iso="1892-05-07">
+               <head>Aufführung von Stella, Die Mitschuldigen, 7.5.1892</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30191">Stella. Ein Schauspiel für Liebende</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb30193">Die Mitschuldigen.  Ein Lustspiel in drei Aufzügen</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb11851">Kainz, Josef</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb49827">Retty, Rudolf</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb21985">Nissen, Hermann</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb11845">Kadelburg, Gustav</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb45128">Internationales Ausstellungstheater im k.k. Prater</placeName>
+                        <location>
+                           <geo>48,212222 16,409444</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167833/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb167833.html</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -168,44 +168,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1896-06-18</idno>
             </event>
             <event when-iso="1896-06-18">
-               <head>Private Lesung von Freiwild, 18.6.1896</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12740">Schwarzkopf, Gustav</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb10860">Beer-Hofmann, Paula</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb338">Wollzeile</placeName>
-                        <location>
-                           <geo>48,20852 16,37592</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183891.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183891.html</idno>
-            </event>
-            <event when-iso="1896-06-18">
                <head>Bahr an Schnitzler, [18. 6. 1896]</head>
                <desc>
                   <listPerson>
@@ -242,6 +204,44 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041184.html</idno>
+            </event>
+            <event when-iso="1896-06-18">
+               <head>Private Lesung von Freiwild, 18.6.1896</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12740">Schwarzkopf, Gustav</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb10860">Beer-Hofmann, Paula</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb338">Wollzeile</placeName>
+                        <location>
+                           <geo>48,20852 16,37592</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/183891/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183891.html</idno>
             </event>
             <event when-iso="1896-06-18">
                <head>Popovics, Dobrivoj an Schnitzler, Arthur [Briefe]</head>

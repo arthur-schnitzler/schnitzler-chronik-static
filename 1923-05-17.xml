@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -146,32 +146,6 @@
                <head corresp="#pmb90529">Djurgården</head>
                <desc/>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1923-05-17</idno>
-            </event>
-            <event when-iso="1923-05-17">
-               <head>Aufführung von Götterdämmerung, 17.5.1923</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb203322">Der Ring des Nibelungen. Dritter Tag: Götterdämmerung</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb147893">Kungliga Dramatiska Teatern</placeName>
-                        <location>
-                           <geo>59,33325 18,076992</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb265510.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb265510.html</idno>
             </event>
             <event when-iso="1923-05-17">
                <head>Archi: Arthur Schnitzler nu i Stockholm, 17. 5. 1923</head>
@@ -413,6 +387,32 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/I097.html</idno>
+            </event>
+            <event when-iso="1923-05-17">
+               <head>Aufführung von Götterdämmerung, 17.5.1923</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb203322">Der Ring des Nibelungen. Dritter Tag: Götterdämmerung</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb147893">Kungliga Dramatiska Teatern</placeName>
+                        <location>
+                           <geo>59,33325 18,076992</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/265510/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb265510.html</idno>
             </event>
             <event when-iso="1923-05-17">
                <head>Filmaufnahme Arthur Schnitzler in Stockholm, 17.5.1923</head>

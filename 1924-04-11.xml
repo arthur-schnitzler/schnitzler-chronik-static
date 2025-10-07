@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -138,6 +138,27 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1924-04-11</idno>
             </event>
             <event when-iso="1924-04-11">
+               <head>[Abonnentenwerbung The Jewish Tribune], 11. 4. 1924</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb60274">The Jewish Tribune and Hebrew
+                                        Standard</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb60276">[Subskriptionswerbung The Jewish
+                                        Tribune]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb60279">Marbridge Building</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M140.html</idno>
+            </event>
+            <event when-iso="1924-04-11">
                <head>Aufführung von Mittagswende, 11.4.1924</head>
                <desc>
                   <listBibl>
@@ -160,29 +181,8 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb256539.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/256539/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb256539.html</idno>
-            </event>
-            <event when-iso="1924-04-11">
-               <head>[Abonnentenwerbung The Jewish Tribune], 11. 4. 1924</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb60274">The Jewish Tribune and Hebrew
-                                        Standard</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb60276">[Subskriptionswerbung The Jewish
-                                        Tribune]</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb60279">Marbridge Building</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M140.html</idno>
             </event>
          </listEvent>
       </body>

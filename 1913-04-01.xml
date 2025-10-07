@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -124,6 +124,26 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1913-04-01</idno>
             </event>
             <event when-iso="1913-04-01">
+               <head>Schnitzler an [Paul Dorff oder Robert Ress], [April] 1913</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb3338">Robert Ress</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27945">Paul Dorff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22728">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041022.html</idno>
+            </event>
+            <event when-iso="1913-04-01">
                <head>Probe von Professor Bernhardi, 1.4.1913</head>
                <desc>
                   <listOrg>
@@ -151,28 +171,8 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb239142.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/239142/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb239142.html</idno>
-            </event>
-            <event when-iso="1913-04-01">
-               <head>Schnitzler an [Paul Dorff oder Robert Ress], [April] 1913</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb3338">Robert Ress</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb27945">Paul Dorff</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb22728">Frieda Pollak</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                  </listPerson>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041022.html</idno>
             </event>
             <event when-iso="1913-04-01">
                <head>Grunwald, Max an Schnitzler, Arthur [Briefe]</head>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -122,56 +122,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1899-11-26</idno>
             </event>
             <event when-iso="1899-11-26">
-               <head>Private Lesung von Der Schleier der Beatrice, 26.11.1899</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2456">Specht, Richard</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2167">Salten, Felix</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12740">Schwarzkopf, Gustav</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb11701">Hirschfeld, Georg</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb13055">Wassermann, Jakob</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb10765">Andrian-Werburg, Leopold von</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
-                        <location>
-                           <geo>48,208333 16,373056</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183921.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183921.html</idno>
-            </event>
-            <event when-iso="1899-11-26">
                <head>Bahr: Theater und Kunst [Liebelei im Burgtheater], 26. 11. 1899</head>
                <desc>
                   <listPerson>
@@ -227,6 +177,56 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030016.html</idno>
+            </event>
+            <event when-iso="1899-11-26">
+               <head>Private Lesung von Der Schleier der Beatrice, 26.11.1899</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2456">Specht, Richard</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb11740">Hofmannsthal, Hugo von</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2167">Salten, Felix</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb10863">Beer-Hofmann, Richard</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12740">Schwarzkopf, Gustav</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb11701">Hirschfeld, Georg</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb13055">Wassermann, Jakob</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb10765">Andrian-Werburg, Leopold von</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb50">Wien</placeName>
+                        <location>
+                           <geo>48,208333 16,373056</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/183921/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb183921.html</idno>
             </event>
          </listEvent>
       </body>

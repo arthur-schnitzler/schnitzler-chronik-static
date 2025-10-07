@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -170,69 +170,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1920-03-23</idno>
             </event>
             <event when-iso="1920-03-23">
-               <head>Probe von Die Schwestern oder Casanova in Spa, 23.3.1920</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36247">Burgtheater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
-                        <note type="relation-type">ist Probe von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
-                        <location>
-                           <geo>48,210333 16,361139</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb289283.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb289283.html</idno>
-            </event>
-            <event when-iso="1920-03-23">
-               <head>Aufführung von Das Lied von der Erde, 23.3.1920</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb77679">Das Lied von der Erde</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb16608">Fried, Oscar</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb14801">Madame Charles Cahier</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
-                        <location>
-                           <geo>48,200771836002 16,377197811369</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210043.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210043.html</idno>
-            </event>
-            <event when-iso="1920-03-23">
                <head>Kundgebungen für das Andenken Moriz Benedikts, 23. 3. 1920</head>
                <desc>
                   <listPerson>
@@ -270,6 +207,69 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/M174.html</idno>
+            </event>
+            <event when-iso="1920-03-23">
+               <head>Probe von Die Schwestern oder Casanova in Spa, 23.3.1920</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36247">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                        <note type="relation-type">ist Probe von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb14">Burgtheater</placeName>
+                        <location>
+                           <geo>48,210333 16,361139</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/289283/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb289283.html</idno>
+            </event>
+            <event when-iso="1920-03-23">
+               <head>Aufführung von Das Lied von der Erde, 23.3.1920</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb77679">Das Lied von der Erde</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb16608">Fried, Oscar</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb14801">Madame Charles Cahier</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb240">Wiener Konzerthaus</placeName>
+                        <location>
+                           <geo>48,200771836002 16,377197811369</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210043/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210043.html</idno>
             </event>
             <event when-iso="1920-03-23">
                <head>Deutsches Theater an Arthur Schnitzler, 23.3.1920</head>

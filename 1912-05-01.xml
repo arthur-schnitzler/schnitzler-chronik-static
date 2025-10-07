@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -157,26 +157,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1912-05-01</idno>
             </event>
             <event when-iso="1912-05-01">
-               <head>Ausstellungsbesuch um Künstlerhaus [Ignacio Zuloaga], 1.5.1912</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb21">Künstlerhaus</placeName>
-                        <location>
-                           <geo>48,200556 16,371667</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb253120.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb253120.html</idno>
-            </event>
-            <event when-iso="1912-05-01">
                <head>Bahr: Glückwunsch, Mai 1912</head>
                <desc>
                   <listPerson>
@@ -267,6 +247,26 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030029.html</idno>
+            </event>
+            <event when-iso="1912-05-01">
+               <head>Ausstellungsbesuch um Künstlerhaus [Ignacio Zuloaga], 1.5.1912</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb21">Künstlerhaus</placeName>
+                        <location>
+                           <geo>48,200556 16,371667</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/253120/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb253120.html</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,6 +118,36 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1896-02-11</idno>
             </event>
             <event when-iso="1896-02-11">
+               <head>Tagebuch von Schnitzler, 11. 2. 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18308">Leo Feld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30457">Der Dornenweg</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041158.html</idno>
+            </event>
+            <event when-iso="1896-02-11">
                <head>Premiere von Der Dornenweg, 11.2.1896</head>
                <desc>
                   <listOrg>
@@ -155,38 +185,8 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168382.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168382/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb168382.html</idno>
-            </event>
-            <event when-iso="1896-02-11">
-               <head>Tagebuch von Schnitzler, 11. 2. 1896</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb2378">Marie Reinhard</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb18308">Leo Feld</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12618">Adele Sandrock</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb30457">Der Dornenweg</title>
-                     </bibl>
-                  </listBibl>
-                  <listPlace>
-                     <place>
-                        <placeName ref="pmb14">Burgtheater</placeName>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041158.html</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -220,38 +220,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1905-08-15</idno>
             </event>
             <event when-iso="1905-08-15">
-               <head>Private Lesung von Der Ruf des Lebens, 15.8.1905</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
-                        <note type="relation-type">ist Lesung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2315">Steinrück, Elisabeth</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12837">Steinrück, Albert</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb168940">Edmund-Weiß-Gasse 7</placeName>
-                        <location>
-                           <geo>48,2304 16,33472</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb184021.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb184021.html</idno>
-            </event>
-            <event when-iso="1905-08-15">
                <head>Beer-Hofmann an Schnitzler, Mitte August 1905</head>
                <desc>
                   <listPerson>
@@ -309,6 +277,38 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041520.html</idno>
+            </event>
+            <event when-iso="1905-08-15">
+               <head>Private Lesung von Der Ruf des Lebens, 15.8.1905</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                        <note type="relation-type">ist Lesung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2315">Steinrück, Elisabeth</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12837">Steinrück, Albert</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                        <location>
+                           <geo>48,2304 16,33472</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/184021/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb184021.html</idno>
             </event>
             <event when-iso="1905-08-15">
                <head>Bermann, ... an Markbreiter, Edmund [Briefe]</head>

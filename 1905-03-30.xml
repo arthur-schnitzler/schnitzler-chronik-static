@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -149,29 +149,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1905-03-30</idno>
             </event>
             <event when-iso="1905-03-30">
-               <head>2. Gesangskonzert von Alice Barbi, 30.3.1905</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb3031">Barbi, Alice</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
-                        <location>
-                           <geo>48,209167 16,366111</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209366.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209366.html</idno>
-            </event>
-            <event when-iso="1905-03-30">
                <head>Tagebuch von Schnitzler, 30. 3. 1905</head>
                <desc>
                   <listPerson>
@@ -218,6 +195,29 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041250.html</idno>
+            </event>
+            <event when-iso="1905-03-30">
+               <head>2. Gesangskonzert von Alice Barbi, 30.3.1905</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb3031">Barbi, Alice</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209366/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209366.html</idno>
             </event>
          </listEvent>
       </body>

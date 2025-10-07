@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -186,6 +186,43 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1897-03-24</idno>
             </event>
             <event when-iso="1897-03-24">
+               <head>Tagebuch von Schnitzler, 24. 3. 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12740">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29835">Bei Beiden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041169.html</idno>
+            </event>
+            <event when-iso="1897-03-24">
                <head>Probe für die Vorlesung, 24.3.1897</head>
                <desc>
                   <listBibl>
@@ -231,45 +268,8 @@
                      </place>
                   </listPlace>
                </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200052.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/200052/</idno>
                <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb200052.html</idno>
-            </event>
-            <event when-iso="1897-03-24">
-               <head>Tagebuch von Schnitzler, 24. 3. 1897</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="pmb2378">Marie Reinhard</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11701">Georg Hirschfeld</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb13082">Carl Karlweis</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12740">Gustav Schwarzkopf</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
-                     </person>
-                  </listPerson>
-                  <listBibl>
-                     <bibl>
-                        <title ref="pmb29835">Bei Beiden</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
-                     </bibl>
-                  </listBibl>
-               </desc>
-               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041169.html</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -118,40 +118,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1921-10-27</idno>
             </event>
             <event when-iso="1921-10-27">
-               <head>Aufführung von Hamlet, 27.10.1921</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb57809">Tschechow-Kunsttheater Moskau</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30009">Hamlet</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb19194">Katschalow, Wassili I.</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb211373">Wiener Stadttheater [8. Wiener Gemeindebezirk]</placeName>
-                        <location>
-                           <geo>48,21327 16,34629</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210122.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210122.html</idno>
-            </event>
-            <event when-iso="1921-10-27">
                <head>Aufzeichnung von Bahr, 27. 10. 1921</head>
                <desc>
                   <listPerson>
@@ -185,6 +151,40 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041590.html</idno>
+            </event>
+            <event when-iso="1921-10-27">
+               <head>Aufführung von Hamlet, 27.10.1921</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb57809">Tschechow-Kunsttheater Moskau</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30009">Hamlet</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb19194">Katschalow, Wassili I.</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb211373">Wiener Stadttheater [8. Wiener Gemeindebezirk]</placeName>
+                        <location>
+                           <geo>48,21327 16,34629</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210122/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210122.html</idno>
             </event>
             <event when-iso="1921-10-27">
                <head>Schnitzler, Arthur: Der Schleier der Pierrette [Dramatisches] (Drucktitel)</head>

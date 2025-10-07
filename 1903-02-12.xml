@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -149,45 +149,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1903-02-12</idno>
             </event>
             <event when-iso="1903-02-12">
-               <head>Aufführung von Der Bajazzo, Cavalleria rusticana, Pan, 12.2.1903</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30605">Der Bajazzo. Drama in 2 Akten und einem Prolog</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb30603">Cavalleria rusticana. Oper in einem Aufzuge</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb78359">Pan. Mythologisches Divertissement in 1 Act</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
-                        <location>
-                           <geo>48,203 16,3691</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209281.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209281.html</idno>
-            </event>
-            <event when-iso="1903-02-12">
                <head>Aufzeichnung von Bahr, 12. 2. 1903</head>
                <desc>
                   <listPerson>
@@ -251,6 +212,45 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041211.html</idno>
+            </event>
+            <event when-iso="1903-02-12">
+               <head>Aufführung von Der Bajazzo, Cavalleria rusticana, Pan, 12.2.1903</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb36689">K.K. Hof-Oper</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30605">Der Bajazzo. Drama in 2 Akten und einem Prolog</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb30603">Cavalleria rusticana. Oper in einem Aufzuge</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb78359">Pan. Mythologisches Divertissement in 1 Act</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb15">Oper</placeName>
+                        <location>
+                           <geo>48,203 16,3691</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/209281/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209281.html</idno>
             </event>
          </listEvent>
       </body>

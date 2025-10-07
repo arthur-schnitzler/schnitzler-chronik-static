@@ -232,87 +232,6 @@
 }
 }, {
  "type":
- "schnitzler-kultur",
- "color":
- "#6B4C5A",
- "filename":
- "pmb297006",
- "caption":
- "Kulturveranstaltungen",
- "idno":
- "https://schnitzler-kultur.acdh.oeaw.ac.at/pmb297006.html",
- "head":
- "Besuch des Künstlerhauses, 5.1.1895",
- "desc":
-{"listPerson":
-  [
-{
- "persName":
- "Arthur Schnitzler",
- "ref":
- ""}],
- "listPlace":
-  [
- {
- "placeName":
- "Künstlerhaus",
- "ref":
- ""}
- ]
-}
-}, {
- "type":
- "schnitzler-kultur",
- "color":
- "#6B4C5A",
- "filename":
- "pmb208713",
- "caption":
- "Kulturveranstaltungen",
- "idno":
- "https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208713.html",
- "head":
- "Premiere von Ein Kind des Glücks, 5.1.1895",
- "desc":
-{"listOrg":
-  [
- {
- "orgName":
- "Volkstheater",
- "ref":
- ""}
- ],
- "listBibl":
-  [
- {
- "title":
- "Ein Kind des Glücks. Original-Schauspiel in 5 Akten",
- "ref":
- ""}
- ],
- "listPerson":
-  [
-{
- "persName":
- "Rosa Albach-Retty",
- "ref":
- ""},
- {
- "persName":
- "Arthur Schnitzler",
- "ref":
- ""}],
- "listPlace":
-  [
- {
- "placeName":
- "Volkstheater",
- "ref":
- ""}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#639FF9",
@@ -397,6 +316,83 @@
  "Burgtheater",
  "ref":
  "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "URL",
+ "subtype":
+ "pmb",
+ "filename":
+ "entity/297006/",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/297006/",
+ "head":
+ "Besuch des Künstlerhauses, 5.1.1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Künstlerhaus",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "URL",
+ "subtype":
+ "pmb",
+ "filename":
+ "entity/208713/",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/208713/",
+ "head":
+ "Premiere von Ein Kind des Glücks, 5.1.1895",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ ""}
+ ],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Kind des Glücks. Original-Schauspiel in 5 Akten",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Rosa Albach-Retty",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ ""}
  ]
 }
 }] 

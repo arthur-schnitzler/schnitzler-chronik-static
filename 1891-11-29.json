@@ -192,102 +192,6 @@
 }
 }, {
  "type":
- "schnitzler-kultur",
- "color":
- "#6B4C5A",
- "filename":
- "pmb208509",
- "caption":
- "Kulturveranstaltungen",
- "idno":
- "https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208509.html",
- "head":
- "Zweites Abonnementkonzert der Wiener Philharmoniker, 29.11.1891",
- "desc":
-{"listOrg":
-  [
- {
- "orgName":
- "Wiener Philharmoniker",
- "ref":
- ""}
- ],
- "listPerson":
-  [
-{
- "persName":
- "Arthur Schnitzler",
- "ref":
- ""}],
- "listPlace":
-  [
- {
- "placeName":
- "Musikverein",
- "ref":
- ""}
- ]
-}
-}, {
- "type":
- "schnitzler-kultur",
- "color":
- "#6B4C5A",
- "filename":
- "pmb190898",
- "caption":
- "Kulturveranstaltungen",
- "idno":
- "https://schnitzler-kultur.acdh.oeaw.ac.at/pmb190898.html",
- "head":
- "Lesung von Abschiedssouper, 29.11.1891",
- "desc":
-{"listBibl":
-  [
- {
- "title":
- "Abschiedssouper",
- "ref":
- ""}
- ],
- "listPerson":
-  [
-{
- "persName":
- "Arthur Schnitzler",
- "ref":
- ""},
- {
- "persName":
- "Hermann Bahr",
- "ref":
- ""},
- {
- "persName":
- "Richard Beer-Hofmann",
- "ref":
- ""},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- ""},
- {
- "persName":
- "Felix Salten",
- "ref":
- ""}],
- "listPlace":
-  [
- {
- "placeName":
- "Wien",
- "ref":
- ""}
- ]
-}
-}, {
- "type":
  "schnitzler-bahr",
  "color":
  "#639FF9",
@@ -367,6 +271,98 @@
  "Linz",
  "ref":
  "pmb332"}
+ ]
+}
+}, {
+ "type":
+ "URL",
+ "subtype":
+ "pmb",
+ "filename":
+ "entity/208509/",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/208509/",
+ "head":
+ "Zweites Abonnementkonzert der Wiener Philharmoniker, 29.11.1891",
+ "desc":
+{"listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Philharmoniker",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ ""}
+ ]
+}
+}, {
+ "type":
+ "URL",
+ "subtype":
+ "pmb",
+ "filename":
+ "entity/190898/",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/190898/",
+ "head":
+ "Lesung von Abschiedssouper, 29.11.1891",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ ""}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ ""},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ ""}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ ""}
  ]
 }
 }] 

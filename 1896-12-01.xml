@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -204,32 +204,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1896-12-01</idno>
             </event>
             <event when-iso="1896-12-01">
-               <head>Schulvorstellung Klasse Eugenie Petrasch, 1.12.1896</head>
-               <desc>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb22465">Petrasch, Eugenie</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2378">Reinhard, Marie</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb199550">Stubenbastei 1</placeName>
-                        <location>
-                           <geo>48,207431 16,379094</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb199941.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb199941.html</idno>
-            </event>
-            <event when-iso="1896-12-01">
                <head>Bahr an Alois Bahr, 1. 12. 1896</head>
                <desc>
                   <listPerson>
@@ -303,6 +277,32 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041356.html</idno>
+            </event>
+            <event when-iso="1896-12-01">
+               <head>Schulvorstellung Klasse Eugenie Petrasch, 1.12.1896</head>
+               <desc>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb22465">Petrasch, Eugenie</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2378">Reinhard, Marie</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb199550">Stubenbastei 1</placeName>
+                        <location>
+                           <geo>48,207431 16,379094</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/199941/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb199941.html</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -149,35 +149,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1931-09-18</idno>
             </event>
             <event when-iso="1931-09-18">
-               <head>Filmvorführung von Die Privatsekretärin, 18.9.1931</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb81415">Die Privatsekretärin</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb190541">Heimatkino</placeName>
-                        <location>
-                           <geo>48,220123 16,361439</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211264.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211264.html</idno>
-            </event>
-            <event when-iso="1931-09-18">
                <head>Artur Schnitzler läßt sich nicht interviewen!, 18. 9. 1931</head>
                <desc>
                   <listPerson>
@@ -233,6 +204,35 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/P031.html</idno>
+            </event>
+            <event when-iso="1931-09-18">
+               <head>Filmvorführung von Die Privatsekretärin, 18.9.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb81415">Die Privatsekretärin</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb12435">Pollaczek, Clara Katharina</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb190541">Heimatkino</placeName>
+                        <location>
+                           <geo>48,220123 16,361439</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/211264/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211264.html</idno>
             </event>
             <event when-iso="1931-09-18">
                <head>Schnitzler im Heimatkino, 18. September 1931</head>

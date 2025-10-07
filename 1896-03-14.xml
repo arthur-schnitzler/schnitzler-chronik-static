@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -212,37 +212,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1896-03-14</idno>
             </event>
             <event when-iso="1896-03-14">
-               <head>Premiere von Die versunkene Stadt, 14.3.1896</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb39666">Raimund-Theater</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb195809">Die versunkene Stadt. Märchen in 2 Acten</title>
-                        <note type="relation-type">ist Premiere von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
-                        <location>
-                           <geo>48,192222 16,339722</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208832.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208832.html</idno>
-            </event>
-            <event when-iso="1896-03-14">
                <head>Bahr an Schnitzler, 14. 3. 1896</head>
                <desc>
                   <listPerson>
@@ -274,6 +243,37 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041183.html</idno>
+            </event>
+            <event when-iso="1896-03-14">
+               <head>Premiere von Die versunkene Stadt, 14.3.1896</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb39666">Raimund-Theater</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb195809">Die versunkene Stadt. Märchen in 2 Acten</title>
+                        <note type="relation-type">ist Premiere von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb77">Raimund-Theater</placeName>
+                        <location>
+                           <geo>48,192222 16,339722</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/208832/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb208832.html</idno>
             </event>
             <event when-iso="1896-03-14">
                <head>Schnitzler, Arthur an S. Fischer-Verlag [Briefe]</head>

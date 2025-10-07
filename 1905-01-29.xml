@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -239,57 +239,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1905-01-29</idno>
             </event>
             <event when-iso="1905-01-29">
-               <head>Mahler-Abend, 29.1.1905</head>
-               <desc>
-                  <listOrg>
-                     <org role="veranstaltet von">
-                        <orgName key="pmb37148">Concert-Direktion Albert Gutmann</orgName>
-                     </org>
-                  </listOrg>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb31173">Dreißig Lieder aus Des Knaben Wunderhorn</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                     <bibl>
-                        <title key="pmb147688">Kindertotenlieder</title>
-                        <note type="relation-type">ist Uraufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb2349">Gutheil-Schoder, Marie</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb7528">Gregori, Ferdinand</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb24658">Schwarzwald, Eugenie</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2173">Schnitzler, Olga</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb3956">Weidemann, Friedrich</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
-                        <location>
-                           <geo>48,209167 16,366111</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45077.html</idno>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45077.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45077.html</idno>
-            </event>
-            <event when-iso="1905-01-29">
                <head>Bahr: Freiwild, 29. 1. 1905</head>
                <desc>
                   <listPerson>
@@ -378,6 +327,57 @@
                   </listPlace>
                </desc>
                <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030023.html</idno>
+            </event>
+            <event when-iso="1905-01-29">
+               <head>Mahler-Abend, 29.1.1905</head>
+               <desc>
+                  <listOrg>
+                     <org role="veranstaltet von">
+                        <orgName key="pmb37148">Concert-Direktion Albert Gutmann</orgName>
+                     </org>
+                  </listOrg>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb31173">Dreißig Lieder aus Des Knaben Wunderhorn</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                     <bibl>
+                        <title key="pmb147688">Kindertotenlieder</title>
+                        <note type="relation-type">ist Uraufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb2349">Gutheil-Schoder, Marie</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb7528">Gregori, Ferdinand</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb24658">Schwarzwald, Eugenie</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2173">Schnitzler, Olga</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb3956">Weidemann, Friedrich</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb4">Bösendorfer-Saal</placeName>
+                        <location>
+                           <geo>48,209167 16,366111</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45077/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/147690/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb45077.html</idno>
             </event>
          </listEvent>
       </body>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-06.">06.10.2025</date>
+            <date when-iso="2025-10-07.">07.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -207,38 +207,6 @@
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1927-01-01</idno>
             </event>
             <event when-iso="1927-01-01">
-               <head>Aufführung von Hamlet, 1.1.1927</head>
-               <desc>
-                  <listBibl>
-                     <bibl>
-                        <title key="pmb30009">Hamlet</title>
-                        <note type="relation-type">ist Aufführung von</note>
-                     </bibl>
-                  </listBibl>
-                  <listPerson>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb11975">Kortner, Fritz</persName>
-                     </person>
-                     <person role="hat mitwirkend">
-                        <persName key="pmb11836">Jessner, Leopold</persName>
-                     </person>
-                     <person role="hat teilnehmend">
-                        <persName key="pmb2121">Schnitzler, Arthur</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place>
-                        <placeName role="veranstaltet in" key="pmb784">Schauspielhaus Berlin</placeName>
-                        <location>
-                           <geo>52,513611 13,392222</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </desc>
-               <idno type="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210396.html</idno>
-               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210396.html</idno>
-            </event>
-            <event when-iso="1927-01-01">
                <head>Merryle Rukeyser: Financial Advice to a Young Man (Ausschnitt),
                             1927</head>
                <desc>
@@ -287,6 +255,38 @@
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp417.html</idno>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp418.html</idno>
                <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp419.html</idno>
+            </event>
+            <event when-iso="1927-01-01">
+               <head>Aufführung von Hamlet, 1.1.1927</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title key="pmb30009">Hamlet</title>
+                        <note type="relation-type">ist Aufführung von</note>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb11975">Kortner, Fritz</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb11836">Jessner, Leopold</persName>
+                     </person>
+                     <person role="hat teilnehmend">
+                        <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName role="veranstaltet in" key="pmb784">Schauspielhaus Berlin</placeName>
+                        <location>
+                           <geo>52,513611 13,392222</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/210396/</idno>
+               <idno type="URL" subtype="schnitzler-kultur">https://schnitzler-kultur.acdh.oeaw.ac.at/pmb210396.html</idno>
             </event>
          </listEvent>
       </body>
