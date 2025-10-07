@@ -135,7 +135,7 @@
         <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
-                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ])]/tei:idno[@type = $e-typ][1]">
+                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ])]/tei:idno[@type = $e-typ or @subtype = $e-typ][1]">
                 <xsl:variable name="e-typ-farbe">
                     <xsl:choose>
                         <xsl:when
@@ -174,7 +174,7 @@
                             </xsl:attribute>
                             <xsl:attribute name="href">
                                 <xsl:value-of
-                                    select="$current-group/descendant::tei:idno[@type = $e-typ][1]"
+                                    select="$current-group/descendant::tei:idno[@type = $e-typ or @subtype = $e-typ][1]"
                                 />
                             </xsl:attribute>
                             <xsl:choose>
@@ -200,12 +200,12 @@
                         </xsl:attribute>
                         <div class="card-body">
                             <xsl:apply-templates
-                                select="$current-group/tei:event[tei:idno/@type = $e-typ]"/>
+                                select="$current-group/tei:event[tei:idno/@type = $e-typ or tei:idno/@subtype = $e-typ]"/>
                         </div>
                     </div>
                 </div>
                 <xsl:for-each
-                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
+                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
                     <!-- hier nun die einzelnen events -->
                     <div id="content1" class="collapse show">
                         <xsl:apply-templates mode="desc"/>
@@ -216,7 +216,7 @@
     </xsl:template>
     <xsl:template match="tei:event">
         <!-- jeder einzelne eintrag -->
-        <xsl:variable name="e-typ" select="tei:idno[1]/@type" as="xs:string"/>
+        <xsl:variable name="e-typ" select="(tei:idno/@type[. != 'URL'], tei:idno/@subtype)[1]" as="xs:string"/>
         <xsl:variable name="e-typ-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -329,8 +329,8 @@
             </xsl:when>
         </xsl:choose>
         <xsl:choose>
-            <xsl:when test="tei:idno[@type = $e-typ][2] and $e-typ-multiple">
-                <xsl:for-each select="tei:idno[@type = $e-typ]">
+            <xsl:when test="tei:idno[@type = $e-typ or @subtype = $e-typ][2] and $e-typ-multiple">
+                <xsl:for-each select="tei:idno[@type = $e-typ or @subtype = $e-typ]">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of select="."/>
@@ -390,7 +390,7 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:listPerson" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -503,7 +503,7 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -582,7 +582,7 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
@@ -685,7 +685,7 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:desc/tei:listBibl" mode="desc">
-        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
         <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
