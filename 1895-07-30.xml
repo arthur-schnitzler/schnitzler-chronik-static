@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,40 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-30.html</idno>
             </event>
             <event when-iso="1895-07-30">
+               <head>Theodor Herzl an Arthur Schnitzler, [zwischen 28. 7.  und 5. 8. 1895?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb298721">Villa Fuchs</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb263516">Bahnhof Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03894.html</idno>
+            </event>
+            <event when-iso="1895-07-30">
                <head>Peter Altenberg an Arthur Schnitzler, [30. 7. 1895]</head>
                <desc>
                   <listPerson>
@@ -107,39 +141,39 @@
                         <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb2147">Peter Altenberg</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2147">Peter Altenberg</persName>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb169709">Traunstein [Berg]</placeName>
+                        <placeName ref="pmb874">Gmunden</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb213">Bad Ischl</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb43435">Schweiz</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb911">Ostende</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb44313">Scheveningen</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb842">Karlsbad</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb772">Marienbad</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb842">Karlsbad</placeName>
+                        <placeName ref="pmb169709">Traunstein [Berg]</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb874">Gmunden</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb911">Ostende</placeName>
+                        <placeName ref="pmb43435">Schweiz</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -159,13 +193,16 @@
                         <persName ref="pmb2167">Felix Salten</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb89571">Elisabeth Kotter</persName>
                      </person>
                      <person>
                         <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25793">Julius Szeps</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -199,16 +236,16 @@
                         <placeName ref="pmb724">Pustertal</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb30">Salzburg</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb45258">München</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb142884">Rügen</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb64659">Heringsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
                      </place>
                   </listPlace>
                </desc>

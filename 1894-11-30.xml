@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -78,6 +78,57 @@
                   </listPerson>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-11-30.html</idno>
+            </event>
+            <event when-iso="1894-11-30">
+               <head>Arthur Schnitzler an Theodor Herzl, 30. 11. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2420">Friedrich Schik</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb298453">Josef Anton Schik</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76499">Das neue Ghetto. Schauspiel in vier Acten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30393">Die Glosse. Lustspiel in einem Act</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30117">Sterben. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb298477">Reisnerstraße 25</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb296539">Reisnerstraße 35</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb298906">Schulhof 6</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03911.html</idno>
             </event>
             <event when-iso="1894-11-30">
                <head corresp="#pmb50">Wien</head>

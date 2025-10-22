@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -103,6 +103,12 @@
                      <person>
                         <persName ref="pmb28539">Bronisław Huberman</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb12624">Victorien Sardou</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2412">William Shakespeare</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
@@ -114,23 +120,62 @@
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb14">Burgtheater</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb338">Wollzeile</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb51">I., Innere Stadt</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb338">Wollzeile</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00424.html</idno>
+            </event>
+            <event when-iso="1895-03-09">
+               <head>Arthur Schnitzler an Theodor Herzl, 9. 3. 1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2980">Miguel de Cervantes Saavedra</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb94369">Emil Gött</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb94368">Verbotene Früchte. Lustspiel nach einem Zwischenspiel von Cervantes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03925.html</idno>
             </event>
             <event when-iso="1895-03-09">
                <head corresp="#pmb50">Wien</head>

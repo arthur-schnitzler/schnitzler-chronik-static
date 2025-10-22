@@ -81,11 +81,6 @@
  "pmb2121"},
  {
  "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
  "Richard Beer-Hofmann",
  "ref":
  "pmb10863"},
@@ -94,6 +89,11 @@
  "Max Eugen Burckhard",
  "ref":
  "pmb11036"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
  {
  "persName":
  "Karl Lueger",
@@ -111,9 +111,19 @@
   [
  {
  "placeName":
- "Bad Ischl",
+ "Schleb",
  "ref":
- "pmb213"}
+ "pmb990"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Čáslav",
+ "ref":
+ "pmb767"}
  ,  {
  "placeName":
  "Nový Bydžov",
@@ -126,24 +136,115 @@
  "pmb39547"}
  ,  {
  "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
  "Böhmen",
  "ref":
  "pmb628"}
  ,  {
  "placeName":
- "Čáslav",
+ "Bad Ischl",
  "ref":
- "pmb767"}
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L03896",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L03896.html",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 23. 6. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Leon Kellner",
+ "ref":
+ "pmb11904"},
+ {
+ "persName":
+ "Paul Heyse",
+ "ref":
+ "pmb11691"},
+ {
+ "persName":
+ "Hermann Rinn",
+ "ref":
+ "pmb53068"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Judenstaat. Versuch einer modernen Lösung der Judenfrage",
+ "ref":
+ "pmb33053"}
+ ,  {
+ "title":
+ "Weihe der Kunst",
+ "ref":
+ "pmb298714"}
+ ,  {
+ "title":
+ "Der Kunstwart",
+ "ref":
+ "pmb53069"}
+ ,  {
+ "title":
+ "Theodor Herzls Lehrjahre",
+ "ref":
+ "pmb33051"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
  ,  {
  "placeName":
- "Schleb",
+ "Wien",
  "ref":
- "pmb990"}
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Salzkammergut",
+ "ref":
+ "pmb429"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Comptoir d’Escompte",
+ "ref":
+ "pmb298719"}
  ]
 }
 }, {
@@ -181,14 +282,14 @@
   [
  {
  "placeName":
- "Frankreich",
- "ref":
- "pmb166"}
- ,  {
- "placeName":
  "Wien",
  "ref":
  "pmb50"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
  ]
 }
 }, {

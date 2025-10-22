@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -86,6 +86,59 @@
                   </listBibl>
                </desc>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-19.html</idno>
+            </event>
+            <event when-iso="1894-12-19">
+               <head>Arthur Schnitzler an Theodor Herzl, 19. 12. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2941">Theodor Loewe</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30393">Die Glosse. Lustspiel in einem Act</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76501">Tabarin. Schauspiel in einem Act. Frei nach Catulle Mendès</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76499">Das neue Ghetto. Schauspiel in vier Acten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb677">Breslau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03913.html</idno>
             </event>
             <event when-iso="1894-12-19">
                <head corresp="#pmb50">Wien</head>

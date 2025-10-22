@@ -81,24 +81,14 @@
  "pmb10863"},
  {
  "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
  "Richard Beer-Hofmann",
  "ref":
  "pmb10863"},
  {
  "persName":
- "Paul Goldmann",
+ "Hermann Bahr",
  "ref":
- "pmb11485"},
- {
- "persName":
- "Max Graf",
- "ref":
- "pmb11512"},
+ "pmb10815"},
  {
  "persName":
  "Felix Markbreiter",
@@ -106,64 +96,54 @@
  "pmb21028"},
  {
  "persName":
- "Peter Altenberg",
+ "Paul Goldmann",
  "ref":
- "pmb2147"},
+ "pmb11485"},
  {
  "persName":
  "Marie Reinhard",
  "ref":
- "pmb2378"}],
+ "pmb2378"},
+ {
+ "persName":
+ "Max Graf",
+ "ref":
+ "pmb11512"},
+ {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"}],
  "listBibl":
   [
  {
  "title":
- "Reigen. Zehn Dialoge",
- "ref":
- "pmb29855"}
- ,  {
- "title":
  "Sterben. Novelle",
  "ref":
  "pmb30117"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
  ],
  "listPlace":
   [
  {
  "placeName":
- "Paris",
- "ref":
- "pmb182"}
- ,  {
- "placeName":
- "Bad Ischl",
- "ref":
- "pmb213"}
- ,  {
- "placeName":
- "London",
- "ref":
- "pmb224"}
- ,  {
- "placeName":
- "Wollzeile",
- "ref":
- "pmb338"}
- ,  {
- "placeName":
- "Honor Oak",
- "ref":
- "pmb402"}
- ,  {
- "placeName":
- "Österreich",
- "ref":
- "pmb41240"}
- ,  {
- "placeName":
  "rue Milton",
  "ref":
  "pmb43403"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
  ,  {
  "placeName":
  "Wien",
@@ -171,9 +151,29 @@
  "pmb50"}
  ,  {
  "placeName":
- "I., Innere Stadt",
+ "Wollzeile",
  "ref":
- "pmb51"}
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Honor Oak",
+ "ref":
+ "pmb402"}
  ]
 }
 }, {
@@ -204,9 +204,14 @@
  "pmb11740"},
  {
  "persName":
- "Richard Beer-Hofmann",
+ "Hugo von Hofmannsthal",
  "ref":
- "pmb10863"},
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "pmb21028"},
  {
  "persName":
  "Paul Goldmann",
@@ -214,41 +219,31 @@
  "pmb11485"},
  {
  "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
  "Hugo August von Hofmannsthal",
  "ref":
  "pmb11737"},
  {
  "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
  "Anna von Hofmannsthal",
  "ref":
- "pmb18404"},
- {
- "persName":
- "Felix Markbreiter",
- "ref":
- "pmb21028"}],
+ "pmb18404"}],
  "listPlace":
   [
  {
- "placeName":
- "Riesengebirge",
- "ref":
- "pmb169714"}
- ,  {
  "placeName":
  "Paris",
  "ref":
  "pmb182"}
  ,  {
  "placeName":
- "Bad Ischl",
+ "Wien",
  "ref":
- "pmb213"}
+ "pmb50"}
  ,  {
  "placeName":
  "London",
@@ -261,14 +256,19 @@
  "pmb402"}
  ,  {
  "placeName":
- "Wien",
+ "Riesengebirge",
  "ref":
- "pmb50"}
+ "pmb169714"}
  ,  {
  "placeName":
  "Bayreuth",
  "ref":
  "pmb734"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
  ]
 }
 }, {
@@ -299,24 +299,9 @@
  "pmb2121"},
  {
  "persName":
- "Hermann Bahr",
- "ref":
- "pmb10815"},
- {
- "persName":
- "Paula Beer-Hofmann",
- "ref":
- "pmb10860"},
- {
- "persName":
  "Richard Beer-Hofmann",
  "ref":
  "pmb10863"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
  {
  "persName":
  "Louise Schnitzler",
@@ -324,16 +309,31 @@
  "pmb12701"},
  {
  "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
  "Peter Altenberg",
  "ref":
- "pmb2147"}],
+ "pmb2147"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
  "listPlace":
   [
  {
  "placeName":
- "Bad Ischl",
+ "Wien",
  "ref":
- "pmb213"}
+ "pmb50"}
  ,  {
  "placeName":
  "London",
@@ -341,14 +341,14 @@
  "pmb224"}
  ,  {
  "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
  "Tiergarten Schönbrunn",
  "ref":
  "pmb39607"}
- ,  {
- "placeName":
- "Wien",
- "ref":
- "pmb50"}
  ]
 }
 }, {

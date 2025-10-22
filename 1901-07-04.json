@@ -26,34 +26,9 @@
  "pmb10863"},
  {
  "persName":
- "Paula Beer-Hofmann",
- "ref":
- "pmb10860"},
- {
- "persName":
  "Richard Beer-Hofmann",
  "ref":
  "pmb10863"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
- "Louise Schnitzler",
- "ref":
- "pmb12701"},
- {
- "persName":
- "Felix Salten",
- "ref":
- "pmb2167"},
  {
  "persName":
  "Olga Schnitzler",
@@ -61,14 +36,24 @@
  "pmb2173"},
  {
  "persName":
- "Gertrude von Hofmannsthal",
- "ref":
- "pmb2292"},
- {
- "persName":
  "Elisabeth Steinrück",
  "ref":
  "pmb2315"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
  {
  "persName":
  "Naëmah Beer-Hofmann",
@@ -78,20 +63,25 @@
  "persName":
  "Mirjam Beer-Hofmann",
  "ref":
- "pmb2668"}],
+ "pmb2668"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"}],
  "listBibl":
   [
  {
- "title":
- "Die Frau mit dem Dolche",
- "ref":
- "pmb29865"}
- ,  {
- "title":
- "Lebendige Stunden",
- "ref":
- "pmb29957"}
- ,  {
  "title":
  "Der einsame Weg. Schauspiel in fünf Akten",
  "ref":
@@ -101,84 +91,24 @@
  "Professor Bernhardi. Komödie in fünf Akten",
  "ref":
  "pmb30203"}
+ ,  {
+ "title":
+ "Lebendige Stunden",
+ "ref":
+ "pmb29957"}
+ ,  {
+ "title":
+ "Die Frau mit dem Dolche",
+ "ref":
+ "pmb29865"}
  ],
  "listPlace":
   [
  {
  "placeName":
- "Villa Arnstein",
- "ref":
- "pmb1110"}
- ,  {
- "placeName":
  "St. Anton am Arlberg",
  "ref":
  "pmb212"}
- ,  {
- "placeName":
- "Österreichischer Hof",
- "ref":
- "pmb230"}
- ,  {
- "placeName":
- "Chur",
- "ref":
- "pmb2448"}
- ,  {
- "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
- "Hellbrunn",
- "ref":
- "pmb31"}
- ,  {
- "placeName":
- "Pension Pundschu",
- "ref":
- "pmb36282"}
- ,  {
- "placeName":
- "Flims",
- "ref":
- "pmb40407"}
- ,  {
- "placeName":
- "Tiroler Hof",
- "ref":
- "pmb41088"}
- ,  {
- "placeName":
- "Monatsschlössl",
- "ref":
- "pmb41090"}
- ,  {
- "placeName":
- "Tamins",
- "ref":
- "pmb41250"}
- ,  {
- "placeName":
- "Reichenau [Schweiz]",
- "ref":
- "pmb41251"}
- ,  {
- "placeName":
- "Wörthersee",
- "ref":
- "pmb430"}
- ,  {
- "placeName":
- "Schweiz",
- "ref":
- "pmb43435"}
- ,  {
- "placeName":
- "Landeck",
- "ref":
- "pmb44110"}
  ,  {
  "placeName":
  "Pörtschach am Wörthersee",
@@ -186,9 +116,29 @@
  "pmb44278"}
  ,  {
  "placeName":
- "Wien",
+ "Wörthersee",
  "ref":
- "pmb50"}
+ "pmb430"}
+ ,  {
+ "placeName":
+ "Villa Arnstein",
+ "ref":
+ "pmb1110"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Österreichischer Hof",
+ "ref":
+ "pmb230"}
+ ,  {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
  ,  {
  "placeName":
  "Schönberg im Stubaital",
@@ -196,9 +146,59 @@
  "pmb759"}
  ,  {
  "placeName":
- "Innsbruck",
+ "Landeck",
  "ref":
- "pmb867"}
+ "pmb44110"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Flims",
+ "ref":
+ "pmb40407"}
+ ,  {
+ "placeName":
+ "Reichenau [Schweiz]",
+ "ref":
+ "pmb41251"}
+ ,  {
+ "placeName":
+ "Chur",
+ "ref":
+ "pmb2448"}
+ ,  {
+ "placeName":
+ "Tamins",
+ "ref":
+ "pmb41250"}
+ ,  {
+ "placeName":
+ "Pension Pundschu",
+ "ref":
+ "pmb36282"}
+ ,  {
+ "placeName":
+ "Tiroler Hof",
+ "ref":
+ "pmb41088"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ,  {
+ "placeName":
+ "Monatsschlössl",
+ "ref":
+ "pmb41090"}
  ],
  "listOrg":
   [
@@ -292,11 +292,6 @@
  "pmb11740"},
  {
  "persName":
- "Richard Beer-Hofmann",
- "ref":
- "pmb10863"},
- {
- "persName":
  "Hugo von Hofmannsthal",
  "ref":
  "pmb11740"},
@@ -307,14 +302,19 @@
  "pmb2173"},
  {
  "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
  "Gertrude von Hofmannsthal",
  "ref":
  "pmb2292"},
  {
  "persName":
- "Elisabeth Steinrück",
+ "Richard Beer-Hofmann",
  "ref":
- "pmb2315"}],
+ "pmb10863"}],
  "listBibl":
   [
  {
@@ -332,11 +332,6 @@
  "pmb212"}
  ,  {
  "placeName":
- "Salzburg",
- "ref":
- "pmb30"}
- ,  {
- "placeName":
  "Wien",
  "ref":
  "pmb50"}
@@ -345,6 +340,11 @@
  "Innsbruck",
  "ref":
  "pmb867"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
  ],
  "listOrg":
   [

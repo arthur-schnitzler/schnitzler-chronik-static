@@ -109,21 +109,21 @@
  "pmb10863"},
  {
  "persName":
- "Hugo von Hofmannsthal",
- "ref":
- "pmb11740"},
- {
- "persName":
  "Christine Schönberger",
  "ref":
- "pmb24686"}],
+ "pmb24686"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
  "listPlace":
   [
  {
  "placeName":
- "Südbahnhof",
+ "Wien",
  "ref":
- "pmb132"}
+ "pmb50"}
  ,  {
  "placeName":
  "Wollzeile",
@@ -131,14 +131,14 @@
  "pmb338"}
  ,  {
  "placeName":
- "Wien",
- "ref":
- "pmb50"}
- ,  {
- "placeName":
  "Prater",
  "ref":
  "pmb8"}
+ ,  {
+ "placeName":
+ "Südbahnhof",
+ "ref":
+ "pmb132"}
  ]
 }
 }, {
@@ -181,7 +181,22 @@
  "persName":
  "Leopold Sonnemann",
  "ref":
- "pmb87771"}],
+ "pmb87771"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Otto Julius Bierbaum",
+ "ref":
+ "pmb10928"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"}],
  "listBibl":
   [
  {
@@ -189,11 +204,6 @@
  "Au jour le jour. M. Arthur Schnitzler",
  "ref":
  "pmb92645"}
- ,  {
- "title":
- "Journal des débats. Politiques et littéraires",
- "ref":
- "pmb92648"}
  ,  {
  "title":
  "Anatol",
@@ -206,14 +216,19 @@
  "pmb29823"}
  ,  {
  "title":
+ "Neue Deutsche Rundschau",
+ "ref":
+ "pmb36152"}
+ ,  {
+ "title":
  "Sterben. Novelle",
  "ref":
  "pmb30117"}
  ,  {
  "title":
- "Neue Deutsche Rundschau",
+ "Journal des débats. Politiques et littéraires",
  "ref":
- "pmb36152"}
+ "pmb92648"}
  ,  {
  "title":
  "Alkandi’s Lied",
@@ -260,6 +275,84 @@
  "Frankfurter Zeitung",
  "ref":
  "pmb29442"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L03854",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L03854.html",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 21. 3. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb2121"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Jakob Herzl",
+ "ref":
+ "pmb296543"},
+ {
+ "persName":
+ "Jeanette Herzl",
+ "ref":
+ "pmb28622"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Journal des débats. Politiques et littéraires",
+ "ref":
+ "pmb92648"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hörlgasse 12",
+ "ref":
+ "pmb298707"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
  ]
 }
 }, {

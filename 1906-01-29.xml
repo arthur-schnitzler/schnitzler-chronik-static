@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -129,13 +129,13 @@
                   </listBibl>
                   <listPlace>
                      <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb165">Ober Sankt Veit</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb45258">München</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -165,13 +165,13 @@
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb10">Alexandrinski-Theater</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb10">Alexandrinski-Theater</placeName>
                      </place>
                   </listPlace>
                   <listOrg>
@@ -193,24 +193,24 @@
                         <persName ref="pmb15716">Ehrenstein, Charlotte</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11230">Albert Ehrenstein</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb15712">Alexander Ehrenstein</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb15716">Charlotte Ehrenstein</persName>
                      </person>
                      <person>
                         <persName ref="pmb29150">Adolf Treibl</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb11230">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15712">Alexander Ehrenstein</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb168940">Edmund-Weiß-Gasse 7</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -276,6 +276,9 @@
                   </listPlace>
                   <listOrg>
                      <org>
+                        <orgName ref="pmb147380">Theater des Westens</orgName>
+                     </org>
+                     <org>
                         <orgName ref="pmb29702">B.Z. am Mittag</orgName>
                      </org>
                      <org>
@@ -283,9 +286,6 @@
                      </org>
                      <org>
                         <orgName ref="pmb29681">Ullstein Verlag</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb147380">Theater des Westens</orgName>
                      </org>
                   </listOrg>
                </desc>

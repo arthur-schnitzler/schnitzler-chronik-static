@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -119,13 +119,13 @@
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb10986">Otto Brahm</persName>
                      </person>
                      <person>
                         <persName ref="pmb11701">Georg Hirschfeld</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -135,6 +135,15 @@
                   </listBibl>
                   <listPlace>
                      <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51">I., Innere Stadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb338">Wollzeile</placeName>
                      </place>
                      <place>
@@ -142,15 +151,6 @@
                      </place>
                      <place>
                         <placeName ref="pmb44">Riedhof</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb51">I., Innere Stadt</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb59">IX., Alsergrund</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -176,14 +176,6 @@
                         <persName ref="pmb3966">Jean Thorel</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2996">
-                  Nikolaus II. von Russland
-               </persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb112786">Alix von Hessen-Darmstadt</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb112447">Jean-Louis Forain</persName>
                      </person>
                      <person>
@@ -200,6 +192,14 @@
                   ?? [Wirt im Café Tannhäuser]
                </persName>
                      </person>
+                     <person>
+                        <persName ref="pmb2996">
+                  Nikolaus II. von Russland
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb112786">Alix von Hessen-Darmstadt</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
@@ -209,10 +209,10 @@
                         <title ref="pmb92876">Amourette. Pièce en trois actes. Adaptée de Arthur Schnitzler</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <title ref="pmb112509">Tages-Rundschau [Offizier hat Bürger niedergestochen]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb112509">Tages-Rundschau [Offizier hat Bürger niedergestochen]</title>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
@@ -232,19 +232,19 @@
                         <placeName ref="pmb34438">Russland</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb166">Frankreich</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb871">Karlsruhe</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb114249">Café Tannhäuser</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb113785">Karlstraße</placeName>
+                        <placeName ref="pmb113785">Karlstraße [Karlsruhe]</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb114155">Kaiserstraße [Karlsruhe]</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
                      </place>
                   </listPlace>
                   <listOrg>
@@ -303,10 +303,10 @@
                         <placeName ref="pmb295211">Bäckerstraße 1</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
                      </place>
                   </listPlace>
                </desc>

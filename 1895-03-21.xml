@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -127,24 +127,24 @@
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                        <persName ref="pmb24686">Christine Schönberger</persName>
                      </person>
                      <person>
-                        <persName ref="pmb24686">Christine Schönberger</persName>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb132">Südbahnhof</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb338">Wollzeile</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb8">Prater</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb8">Prater</placeName>
+                        <placeName ref="pmb132">Südbahnhof</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -169,13 +169,19 @@
                      <person>
                         <persName ref="pmb87771">Leopold Sonnemann</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10928">Otto Julius Bierbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2914">Oskar Bie</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb92645">Au jour le jour. M. Arthur Schnitzler</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb92648">Journal des débats. Politiques et littéraires</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb29935">Anatol</title>
@@ -184,10 +190,13 @@
                         <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
                      </bibl>
                      <bibl>
+                        <title ref="pmb36152">Neue Deutsche Rundschau</title>
+                     </bibl>
+                     <bibl>
                         <title ref="pmb30117">Sterben. Novelle</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb36152">Neue Deutsche Rundschau</title>
+                        <title ref="pmb92648">Journal des débats. Politiques et littéraires</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb31637">Alkandi’s Lied</title>
@@ -220,6 +229,51 @@
                   </listOrg>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02731.html</idno>
+            </event>
+            <event when-iso="1895-03-21">
+               <head>Theodor Herzl an Arthur Schnitzler, 21. 3. 1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb296543">Jakob Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28622">Jeanette Herzl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb92648">Journal des débats. Politiques et littéraires</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30117">Sterben. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb298707">Hörlgasse 12</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03854.html</idno>
             </event>
             <event when-iso="1895-03-21">
                <head corresp="#pmb50">Wien</head>

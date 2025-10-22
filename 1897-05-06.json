@@ -66,44 +66,19 @@
  "pmb11740"},
  {
  "persName":
- "Samuel Fischer",
- "ref":
- "pmb11324"},
- {
- "persName":
- "Paul Goldmann",
- "ref":
- "pmb11485"},
- {
- "persName":
- "Georg Hirschfeld",
- "ref":
- "pmb11701"},
- {
- "persName":
  "Hugo von Hofmannsthal",
  "ref":
  "pmb11740"},
  {
  "persName":
- "Clara Katharina Pollaczek",
+ "Samuel Fischer",
  "ref":
- "pmb12435"},
+ "pmb11324"},
  {
  "persName":
- "Marianne Benedict",
+ "Regina Loeb",
  "ref":
- "pmb13970"},
- {
- "persName":
- "Markus Benedict",
- "ref":
- "pmb13973"},
- {
- "persName":
- "Marie Delna",
- "ref":
- "pmb15313"},
+ "pmb28299"},
  {
  "persName":
  "Louis Loeb",
@@ -111,14 +86,24 @@
  "pmb20548"},
  {
  "persName":
- "Marie Reinhard",
+ "Clara Katharina Pollaczek",
  "ref":
- "pmb2378"},
+ "pmb12435"},
  {
  "persName":
- "Hermine von Schaffgotsch",
+ "Marie Delna",
  "ref":
- "pmb24033"},
+ "pmb15313"},
+ {
+ "persName":
+ "Rosa Papier",
+ "ref":
+ "pmb4249"},
+ {
+ "persName":
+ "Sophokles",
+ "ref":
+ "pmb2693"},
  {
  "persName":
  "William Shakespeare",
@@ -131,37 +116,57 @@
  "pmb24686"},
  {
  "persName":
- "Sophokles",
+ "Hermine von Schaffgotsch",
  "ref":
- "pmb2693"},
+ "pmb24033"},
  {
  "persName":
- "Regina Loeb",
+ "Georg Hirschfeld",
  "ref":
- "pmb28299"},
+ "pmb11701"},
  {
  "persName":
- "Rosa Papier",
+ "Marianne Benedict",
  "ref":
- "pmb4249"}],
+ "pmb13970"},
+ {
+ "persName":
+ "Markus Benedict",
+ "ref":
+ "pmb13973"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Christoph Willibald Gluck",
+ "ref":
+ "pmb11450"},
+ {
+ "persName":
+ "Molière",
+ "ref":
+ "pmb3272"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
  "listBibl":
   [
  {
- "title":
- "Der Weg ins Freie. Roman",
- "ref":
- "pmb29923"}
- ,  {
- "title":
- "Agnes Jordan. Schauspiel in fünf Akten",
- "ref":
- "pmb30474"}
- ,  {
- "title":
- "Der Tod Georgs",
- "ref":
- "pmb31535"}
- ,  {
  "title":
  "Mimi. Schattenbilder aus einem Mädchenleben",
  "ref":
@@ -181,69 +186,29 @@
  "Wer nie sein Brod mit Thränen as",
  "ref":
  "pmb34334"}
+ ,  {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ,  {
+ "title":
+ "Agnes Jordan. Schauspiel in fünf Akten",
+ "ref":
+ "pmb30474"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
  ],
  "listPlace":
   [
  {
  "placeName":
- "Frankreich",
- "ref":
- "pmb166"}
- ,  {
- "placeName":
  "Paris",
  "ref":
  "pmb182"}
- ,  {
- "placeName":
- "Hütteldorf",
- "ref":
- "pmb271"}
- ,  {
- "placeName":
- "Nöstach",
- "ref":
- "pmb34350"}
- ,  {
- "placeName":
- "Königstetten",
- "ref":
- "pmb34354"}
- ,  {
- "placeName":
- "Pottenstein",
- "ref":
- "pmb40112"}
- ,  {
- "placeName":
- "Tulln an der Donau",
- "ref":
- "pmb41239"}
- ,  {
- "placeName":
- "Weidling",
- "ref":
- "pmb44392"}
- ,  {
- "placeName":
- "Alland",
- "ref":
- "pmb44715"}
- ,  {
- "placeName":
- "Rohrerhütte",
- "ref":
- "pmb456"}
- ,  {
- "placeName":
- "Neuhaus",
- "ref":
- "pmb47414"}
- ,  {
- "placeName":
- "Reichenau an der Rax",
- "ref":
- "pmb483"}
  ,  {
  "placeName":
  "Wien",
@@ -251,29 +216,14 @@
  "pmb50"}
  ,  {
  "placeName":
- "Rekawinkel",
- "ref":
- "pmb54767"}
- ,  {
- "placeName":
- "Stockerau",
- "ref":
- "pmb54769"}
- ,  {
- "placeName":
  "Comédie française",
  "ref":
  "pmb554"}
  ,  {
  "placeName":
- "Wiener Neustadt",
+ "Frankreich",
  "ref":
- "pmb587"}
- ,  {
- "placeName":
- "Donau",
- "ref":
- "pmb59370"}
+ "pmb166"}
  ,  {
  "placeName":
  "Heiligenkreuz",
@@ -281,9 +231,79 @@
  "pmb939"}
  ,  {
  "placeName":
+ "Alland",
+ "ref":
+ "pmb44715"}
+ ,  {
+ "placeName":
+ "Neuhaus",
+ "ref":
+ "pmb47414"}
+ ,  {
+ "placeName":
+ "Nöstach",
+ "ref":
+ "pmb34350"}
+ ,  {
+ "placeName":
+ "Pottenstein",
+ "ref":
+ "pmb40112"}
+ ,  {
+ "placeName":
  "Bad Vöslau",
  "ref":
  "pmb992"}
+ ,  {
+ "placeName":
+ "Rohrerhütte",
+ "ref":
+ "pmb456"}
+ ,  {
+ "placeName":
+ "Königstetten",
+ "ref":
+ "pmb34354"}
+ ,  {
+ "placeName":
+ "Tulln an der Donau",
+ "ref":
+ "pmb41239"}
+ ,  {
+ "placeName":
+ "Donau",
+ "ref":
+ "pmb59370"}
+ ,  {
+ "placeName":
+ "Weidling",
+ "ref":
+ "pmb44392"}
+ ,  {
+ "placeName":
+ "Stockerau",
+ "ref":
+ "pmb54769"}
+ ,  {
+ "placeName":
+ "Rekawinkel",
+ "ref":
+ "pmb54767"}
+ ,  {
+ "placeName":
+ "Hütteldorf",
+ "ref":
+ "pmb271"}
+ ,  {
+ "placeName":
+ "Wiener Neustadt",
+ "ref":
+ "pmb587"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
  ],
  "listOrg":
   [

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -93,10 +93,10 @@
                         <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb13923">Gabriel Beer-Hofmann</persName>
@@ -107,6 +107,15 @@
                   </listPerson>
                   <listPlace>
                      <place>
+                        <placeName ref="pmb946">Vahrn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44278">Pörtschach am Wörthersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb430">Wörthersee</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb1110">Villa Arnstein</placeName>
                      </place>
                      <place>
@@ -116,25 +125,16 @@
                         <placeName ref="pmb428">Welsberg-Taisten</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb430">Wörthersee</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb44278">Pörtschach am Wörthersee</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb723">Wildbad Waldbrunn</placeName>
+                        <placeName ref="pmb954">Trient</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb724">Pustertal</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb946">Vahrn</placeName>
+                        <placeName ref="pmb723">Wildbad Waldbrunn</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb954">Trient</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -151,7 +151,7 @@
                         <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb10815">Hermann Bahr</persName>
@@ -160,19 +160,22 @@
                         <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb12254">Robert Michel</persName>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb2173">Olga Schnitzler</persName>
                      </person>
                      <person>
-                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12254">Robert Michel</persName>
                      </person>
                   </listPerson>
                   <listBibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
                      <bibl>
                         <title ref="pmb29865">Die Frau mit dem Dolche</title>
                      </bibl>
@@ -180,39 +183,36 @@
                         <title ref="pmb29869">Literatur</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29957">Lebendige Stunden</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
                      <place>
+                        <placeName ref="pmb946">Vahrn</placeName>
+                     </place>
+                     <place>
                         <placeName ref="pmb40260">Bozen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb954">Trient</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb428">Welsberg-Taisten</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb512">Genfer See</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb657">Schloss Weiherburg</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb723">Wildbad Waldbrunn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb867">Innsbruck</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb946">Vahrn</placeName>
+                        <placeName ref="pmb657">Schloss Weiherburg</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb954">Trient</placeName>
+                        <placeName ref="pmb512">Genfer See</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -239,6 +239,15 @@
                      </person>
                      <person>
                         <persName ref="pmb5150">Eduard Devrient</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10928">Otto Julius Bierbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb7855">Alfred Walter von Heymel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12722">Rudolf Alexander Schröder</persName>
                      </person>
                   </listPerson>
                   <listBibl>
@@ -293,13 +302,13 @@
                         <placeName ref="pmb723">Wildbad Waldbrunn</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb44278">Pörtschach am Wörthersee</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb44153">Verona</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44278">Pörtschach am Wörthersee</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb168">Berlin</placeName>

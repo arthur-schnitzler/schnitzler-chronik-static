@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -98,11 +98,14 @@
                      <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb10928">Otto Julius Bierbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2914">Oskar Bie</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb29829">Das Tschaperl. Ein Wiener Stück in vier Aufzügen</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb29831">Der Ehrentag</title>
                      </bibl>
@@ -113,33 +116,36 @@
                         <title ref="pmb29835">Bei Beiden</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30061">Dämon Kleist</title>
-                     </bibl>
-                     <bibl>
                         <title ref="pmb31385">[Ankündigung der Vorlesung]</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
+                        <title ref="pmb41521">Cosmopolis</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb36152">Neue Deutsche Rundschau</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb41521">Cosmopolis</title>
+                        <title ref="pmb30061">Dämon Kleist</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29829">Das Tschaperl. Ein Wiener Stück in vier Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31737">Die Mütter. Schauspiel in vier Acten</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
                      <place>
                         <placeName ref="pmb4">Bösendorfer-Saal</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                   </listPlace>
                   <listOrg>
@@ -147,13 +153,13 @@
                         <orgName ref="pmb29213">Gemütliche Harmonie</orgName>
                      </org>
                      <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
-                     </org>
-                     <org>
                         <orgName ref="pmb29376">Romanwelt</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb36430">Volkstheater</orgName>
@@ -176,13 +182,13 @@
                         <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                        <persName ref="pmb12790">Isidor Singer</persName>
                      </person>
                      <person>
                         <persName ref="pmb11867">Heinrich Kanner</persName>
                      </person>
                      <person>
-                        <persName ref="pmb12790">Isidor Singer</persName>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb2147">Peter Altenberg</persName>
@@ -190,10 +196,10 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb296">Günthergasse</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb296">Günthergasse</placeName>
                      </place>
                   </listPlace>
                   <listOrg>
@@ -218,21 +224,21 @@
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
+                        <persName ref="pmb3068">Isabella Vengerova</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
                         <persName ref="pmb14506">Alexander Brauner</persName>
                      </person>
-                     <person>
-                        <persName ref="pmb3068">Isabella Vengerova</persName>
-                     </person>
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb34438">Russland</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb34438">Russland</placeName>
                      </place>
                   </listPlace>
                </desc>
@@ -254,13 +260,16 @@
                      <person>
                         <persName ref="pmb13797">Marie Bashkirtseff</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb36371">Desiderius Papp</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
                         <title ref="pmb296030">Orchideen [Schauspiel in drei Akten]</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb79230">Journal</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb295194">Ein Brief</title>
@@ -273,6 +282,9 @@
                      </bibl>
                      <bibl>
                         <title ref="pmb296028">Heimweh [dreiaktige Tragikomödie]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79230">Journal</title>
                      </bibl>
                   </listBibl>
                   <listPlace>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -85,6 +85,60 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-10-16.html</idno>
             </event>
             <event when-iso="1895-10-16">
+               <head>Arthur Schnitzler an Theodor Herzl, 16. 10. 1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14328">Oskar Blumenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12331">Adam Müller-Guttenbrunn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb298943">Julius Baumgarten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12265">Friedrich Mitterwurzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12809">Adolf von Sonnenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12534">Emerich Robert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76501">Tabarin. Schauspiel in einem Act. Frei nach Catulle Mendès</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03933.html</idno>
+            </event>
+            <event when-iso="1895-10-16">
                <head>Friedrich M. Fels an Arthur Schnitzler, 16. 10. 1895</head>
                <desc>
                   <listPerson>
@@ -97,27 +151,24 @@
                      <person>
                         <persName ref="pmb2450">Friedrich Michael Fels</persName>
                      </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                        <title ref="pmb29935">Anatol</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb29935">Anatol</title>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb168934">Frankgasse 1</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb41240">Österreich</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb42503">Limmatquai</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb42505">Schifflände</placeName>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb484">Zürich</placeName>
@@ -126,7 +177,13 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                        <placeName ref="pmb168934">Frankgasse 1</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb42505">Schifflände</placeName>
                      </place>
                   </listPlace>
                </desc>

@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -110,13 +110,13 @@
                         <persName ref="pmb2121">Schnitzler, Arthur</persName>
                      </person>
                      <person>
-                        <persName ref="pmb10815">Hermann Bahr</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb10863">Richard Beer-Hofmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
                      </person>
                      <person>
                         <persName ref="pmb3561">Karl Lueger</persName>
@@ -129,7 +129,13 @@
                   </listBibl>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb213">Bad Ischl</placeName>
+                        <placeName ref="pmb990">Schleb</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb767">Čáslav</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb36519">Nový Bydžov</placeName>
@@ -138,20 +144,73 @@
                         <placeName ref="pmb39547">Benatek</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
-                     </place>
-                     <place>
                         <placeName ref="pmb628">Böhmen</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb767">Čáslav</placeName>
-                     </place>
-                     <place>
-                        <placeName ref="pmb990">Schleb</placeName>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00457.html</idno>
+            </event>
+            <event when-iso="1895-06-23">
+               <head>Theodor Herzl an Arthur Schnitzler, 23. 6. 1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11904">Leon Kellner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11691">Paul Heyse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb53068">Hermann Rinn</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33053">Der Judenstaat. Versuch einer modernen Lösung der Judenfrage</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb298714">Weihe der Kunst</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb53069">Der Kunstwart</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33051">Theodor Herzls Lehrjahre</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb429">Salzkammergut</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb298719">Comptoir d’Escompte</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03896.html</idno>
             </event>
             <event when-iso="1895-06-23">
                <head>Hugo von Hofmannsthal an Arthur Schnitzler, [23. 6. 1895]</head>
@@ -169,10 +228,10 @@
                   </listPerson>
                   <listPlace>
                      <place>
-                        <placeName ref="pmb166">Frankreich</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb166">Frankreich</placeName>
                      </place>
                   </listPlace>
                </desc>

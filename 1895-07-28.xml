@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-07.">07.10.2025</date>
+            <date when-iso="2025-10-22.">22.10.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -95,31 +95,33 @@
                         <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
                      </person>
                      <person>
-                        <persName ref="pmb11485">Paul Goldmann</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
                      </person>
                      <person>
-                        <persName ref="pmb33941">Ernst Otto Lindner</persName>
+                        <persName ref="pmb5787">Arthur Schopenhauer</persName>
                      </person>
                      <person>
-                        <persName ref="pmb33945">Julius Frauenstädt</persName>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
                      </person>
                      <person>
                         <persName ref="pmb33958">Ludwig Schemann</persName>
                      </person>
                      <person>
-                        <persName ref="pmb5787">Arthur Schopenhauer</persName>
+                        <persName ref="pmb33945">Julius Frauenstädt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb33941">Ernst Otto Lindner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28820">
+                  Stendhal
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11461">Johann Wolfgang von Goethe</persName>
                      </person>
                   </listPerson>
                   <listBibl>
-                     <bibl>
-                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
-                     </bibl>
-                     <bibl>
-                        <title ref="pmb30075">Die Frau des Weisen. Erzählung</title>
-                     </bibl>
                      <bibl>
                         <title ref="pmb33935">Die Kartause von Parma</title>
                      </bibl>
@@ -127,10 +129,16 @@
                         <title ref="pmb33937">West-östlicher Divan</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb33939">Arthur Schopenhauer. Von ihm. Über ihn</title>
+                        <title ref="pmb33954">Schopenhauer-Briefe</title>
                      </bibl>
                      <bibl>
-                        <title ref="pmb33954">Schopenhauer-Briefe</title>
+                        <title ref="pmb30075">Die Frau des Weisen. Erzählung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33939">Arthur Schopenhauer. Von ihm. Über ihn</title>
                      </bibl>
                   </listBibl>
                   <listPlace>
@@ -138,20 +146,54 @@
                         <placeName ref="pmb213">Bad Ischl</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                        <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
                         <placeName ref="pmb49823">Hodonín</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb50">Wien</placeName>
+                        <placeName ref="pmb895">Strobl</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb895">Strobl</placeName>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
                      </place>
                   </listPlace>
                </desc>
                <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00467.html</idno>
+            </event>
+            <event when-iso="1895-07-28">
+               <head>Theodor Herzl an Arthur Schnitzler, [zwischen 28. 7.  und 5. 8. 1895?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb298721">Villa Fuchs</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb263516">Bahnhof Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03894.html</idno>
             </event>
             <event when-iso="1895-07-28">
                <head corresp="#pmb213">Bad Ischl</head>
