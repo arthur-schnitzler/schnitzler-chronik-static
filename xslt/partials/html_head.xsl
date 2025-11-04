@@ -9,6 +9,7 @@
         <xsl:param name="page_url" select="''"/>
         <xsl:param name="page_date" select="''"/>
         <meta charset="UTF-8"/>
+        <meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="mobile-web-app-capable" content="yes"/>
