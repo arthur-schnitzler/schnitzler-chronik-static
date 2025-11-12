@@ -69,3 +69,16 @@ Das Repository generiert eine statische Website aus TEI-XML Quelldaten:
 ## Export-Plugin
 
 Das `./xslt/export/` Verzeichnis stellt zusätzliche Transformationen für externe Systeme zur Verfügung.
+
+## Lizenzen
+
+### Saxon HE (Home Edition)
+
+Dieses Projekt verwendet Saxon HE 9.x XSLT und XQuery Processor.
+
+- **Lizenz**: Mozilla Public License Version 2.0
+- **Copyright**: Saxonica Limited
+- **Website**: http://www.saxonica.com/
+- **Lizenztext**: Die vollständige Lizenz befindet sich in [`saxon/notices/LICENSE.txt`](saxon/notices/LICENSE.txt)
+
+Saxon HE ist unter der MPL 2.0 lizenziert und erlaubt die freie Verwendung, Modifikation und Distribution. Die MPL 2.0 ist eine permissive Open-Source-Lizenz, die mit GPL kompatibel ist.
