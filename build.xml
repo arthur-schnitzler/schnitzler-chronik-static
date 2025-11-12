@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="tei2html">
     <property name="target" value="./html"/>
-    <property name="index" value="./data/1893-09-27.xml"/>
+    <property name="index" value="./data/1931-10-14.xml"/>
     
     <delete>
         <fileset dir="${target}" includes="*.html"/>
@@ -23,7 +23,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="./data/1893-09-27.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">
+    <xslt in="./data/1931-10-14.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
