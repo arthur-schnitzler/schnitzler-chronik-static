@@ -16,9 +16,10 @@ jobs:
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
-    - name: Install Saxon, Ant and Fundament
+    - name: Install Ant
       run: |
-        ./shellscripts/script.sh
+        sudo apt-get update
+        sudo apt-get install -y ant
     - name: Fetch the data
       run: |
         ./fetch_data.sh
