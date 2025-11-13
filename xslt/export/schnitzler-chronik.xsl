@@ -921,7 +921,7 @@
         
         <!-- Event-Handler für das Bootstrap-Modal -->
         <script>
-            $('#schnitzler-chronik-modal').on('shown.bs.modal', function () {
+            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
             console.log('Modal shown event triggered');
             // Kurz warten, dann initialisieren
             setTimeout(function() {
@@ -931,9 +931,9 @@
             }
             }, 100);
             });
-            
+
             // Zusätzlich: Map zurücksetzen beim Schließen
-            $('#schnitzler-chronik-modal').on('hidden.bs.modal', function () {
+            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
             window._wienerschnitzlerMapInitialized = false;
             });
         </script>
