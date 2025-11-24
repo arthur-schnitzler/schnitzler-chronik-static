@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-22.">22.10.2025</date>
+            <date when-iso="2025-11-20.">20.11.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -97,6 +97,62 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-01-16.html</idno>
             </event>
             <event when-iso="1924-01-16">
+               <head>Arthur Schnitzler an Berta Zuckerkandl, 16. 1. 1924</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Zuckerkandl, Berta</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb299366">Nicolas Nathan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb259336">Jacques Chardonne</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3138">Paul Géraldy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17536">Sacha Guitry</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12948">Hugo Thimig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12945">Hermann Thimig</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80643">Mein Vater hat recht gehabt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29741">Stock</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03952.html</idno>
+            </event>
+            <event when-iso="1924-01-16">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -128,13 +184,19 @@
                <desc>
                   <listBibl>
                      <bibl>
-                        <title key="pmb80643">Mein Vater hat recht gehabt</title>
+                        <title key="pmb80643">Mein Vater hat recht gehabt. Komödie in drei Akten</title>
                         <note type="relation-type">ist Aufführung von</note>
                      </bibl>
                   </listBibl>
                   <listPerson>
                      <person role="hat teilnehmend">
                         <persName key="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb12948">Thimig, Hugo</persName>
+                     </person>
+                     <person role="hat mitwirkend">
+                        <persName key="pmb12945">Thimig, Hermann</persName>
                      </person>
                   </listPerson>
                   <listPlace>

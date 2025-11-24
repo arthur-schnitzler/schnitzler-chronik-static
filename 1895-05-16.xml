@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-22.">22.10.2025</date>
+            <date when-iso="2025-11-20.">20.11.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -80,6 +80,63 @@
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-05-16.html</idno>
             </event>
             <event when-iso="1895-05-16">
+               <head>Arthur Schnitzler an Theodor Herzl, 16. 5. 1895</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14328">Oskar Blumenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12331">Adam Müller-Guttenbrunn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb298943">Julius Baumgarten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12265">Friedrich Mitterwurzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12809">Adolf von Sonnenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12534">Emerich Robert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb76501">Tabarin. Schauspiel in einem Act. Frei nach Catulle Mendès</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76499">Das neue Ghetto. Schauspiel in vier Acten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03933.html</idno>
+            </event>
+            <event when-iso="1895-05-16">
                <head corresp="#pmb50">Wien</head>
                <desc>
                   <listPlace>
@@ -97,19 +154,6 @@
                   </listPlace>
                </desc>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1895-05-16</idno>
-            </event>
-            <event when-iso="1895-05-16">
-               <head>Arthur Schnitzler an Theodor Herzl, 16. 5. 1895</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich
-                        Schnitzler. Frankfurt am Main: S. Fischer 1981.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
             </event>
          </listEvent>
       </body>

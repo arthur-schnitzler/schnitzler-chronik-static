@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-22.">22.10.2025</date>
+            <date when-iso="2025-11-20.">20.11.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -104,6 +104,12 @@
                         <persName ref="pmb11904">Leon Kellner</persName>
                      </person>
                      <person>
+                        <persName ref="pmb298277">Oskar Berggruen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb298279">Heinrich Kana</persName>
+                     </person>
+                     <person>
                         <persName ref="pmb2812">Julie Herzl</persName>
                      </person>
                      <person>
@@ -119,12 +125,6 @@
                         <persName ref="pmb10986">Otto Brahm</persName>
                      </person>
                      <person>
-                        <persName ref="pmb298277">Oskar Berggruen</persName>
-                     </person>
-                     <person>
-                        <persName ref="pmb298279">Heinrich Kana</persName>
-                     </person>
-                     <person>
                         <persName ref="pmb2739">Hugo Wittmann</persName>
                      </person>
                      <person>
@@ -133,7 +133,7 @@
                   </listPerson>
                   <listBibl>
                      <bibl>
-                        <title ref="pmb76502">Wilddiebe</title>
+                        <title ref="pmb76502">Wilddiebe. Lustspiel in vier Akten</title>
                      </bibl>
                      <bibl>
                         <title ref="pmb76499">Das neue Ghetto. Schauspiel in vier Acten</title>
@@ -150,18 +150,15 @@
                         <placeName ref="pmb50">Wien</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb296731">8, Rue de Monceau</placeName>
+                        <placeName ref="pmb168">Berlin</placeName>
                      </place>
                      <place>
-                        <placeName ref="pmb168">Berlin</placeName>
+                        <placeName ref="pmb296731">8, rue de Monceau</placeName>
                      </place>
                   </listPlace>
                   <listOrg>
                      <org>
                         <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
-                     </org>
-                     <org>
-                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
                      </org>
                      <org>
                         <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
@@ -177,6 +174,9 @@
                      </org>
                      <org>
                         <orgName ref="pmb29561">Freie Bühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
                      </org>
                   </listOrg>
                </desc>
@@ -205,22 +205,6 @@
                   </listPlace>
                </desc>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1894-11-13</idno>
-            </event>
-            <event when-iso="1894-11-13">
-               <head>Theodor Herzl an Arthur Schnitzler, 13.11.1894</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Theodor Herzl: Briefe und autobiographische Notizen. 1866–1895.
-                        Bearbeitet von Johannes Wachten in Zusammenarbeit mit Chaya Harel, Daisy
-                        Tycho, Manfred Winkler. Berlin: Propyläen 1983. (Theodor Herzl: Briefe und
-                        Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps.
-                        Erster Band)</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#i9ac725a-7aa1-4b66-9aaa-3fb96c91d495"/>
             </event>
          </listEvent>
       </body>

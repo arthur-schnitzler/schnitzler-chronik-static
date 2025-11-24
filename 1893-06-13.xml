@@ -25,7 +25,7 @@
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                 Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when-iso="2025-10-22.">22.10.2025</date>
+            <date when-iso="2025-11-20.">20.11.2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
@@ -72,6 +72,77 @@
                <head>Tagebuch, 13. Juni 1893</head>
                <desc/>
                <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-06-13.html</idno>
+            </event>
+            <event when-iso="1893-06-13">
+               <head>Arthur Schnitzler an Theodor Herzl, 13. 6. 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2121">Schnitzler, Arthur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Herzl, Theodor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb299034">Ludwig Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18233">Margarethe Neumann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12695">Johann Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31975">Die kleine Komödie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb63073">Der Flüchtling. Lustspiel in einem Aufzug</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb299026">Bruck an der Leitha</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb373">Rathaus [Wien]</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91568">Rathauspark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50178">Café Reichsrath (Inh. Karl Auböck)</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb39399">Internationale klinische Rundschau</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L03944.html</idno>
             </event>
             <event when-iso="1893-06-13">
                <head>Arthur Schnitzler an Felix Salten, [13. 6. 1893?]</head>
@@ -127,19 +198,6 @@
                   </listPlace>
                </desc>
                <idno type="wienerschnitzler">https://wienerschnitzler.org/tag.html#1893-06-13</idno>
-            </event>
-            <event when-iso="1893-06-13">
-               <head>Arthur Schnitzler an Theodor Herzl, 13. 6. 1893</head>
-               <desc>
-                  <listPerson>
-                     <person>
-                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
-                     </person>
-                  </listPerson>
-                  <bibl>Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich
-                        Schnitzler. Frankfurt am Main: S. Fischer 1981.</bibl>
-               </desc>
-               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
             </event>
          </listEvent>
       </body>
