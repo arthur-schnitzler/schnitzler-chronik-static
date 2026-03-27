@@ -122,6 +122,91 @@
             </body>
         </html>
     </xsl:template>
+    <!-- Default-mode-Template für tei:listEvent: schnitzler-chronik.xsl's Version
+         ist in mode="schnitzler-chronik" und wird von apply-templates auf tei:body
+         nicht erreicht. Hier wird die globale $relevant-eventtypes-Variable verwendet. -->
+    <xsl:template match="tei:listEvent">
+        <xsl:variable name="current-group" select="." as="node()"/>
+        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
+            <xsl:variable name="e-typ" as="xs:string" select="."/>
+            <xsl:for-each
+                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ])]/tei:idno[@type = $e-typ or @subtype = $e-typ][1]">
+                <xsl:variable name="e-typ-farbe">
+                    <xsl:choose>
+                        <xsl:when
+                            test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
+                            <xsl:value-of
+                                select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>blue</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:variable name="e-typ-farbe-blass" select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
+                <div class="card mb-3" style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <xsl:element name="a">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge cornered-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>color: white; text-decoration: none;</xsl:text>
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="$e-typ-farbe">
+                                        <xsl:value-of select="$e-typ-farbe"/>
+                                        <xsl:text>; </xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>black; </xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="$current-group/descendant::tei:idno[@type = $e-typ or @subtype = $e-typ][1]"
+                                />
+                            </xsl:attribute>
+                            <xsl:choose>
+                                <xsl:when
+                                    test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption">
+                                    <xsl:value-of
+                                        select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"
+                                    />
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>Unexpected behaviour: </xsl:text>
+                                    <xsl:value-of select="$e-typ"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:element>
+                        <span class="toggle-icon" data-bs-toggle="collapse"
+                            data-bs-target="#{$e-typ}" aria-expanded="true" aria-controls="content1"
+                            style="cursor: pointer; user-select: none;">−</span>
+                    </div>
+                    <div class="collapse show">
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="$e-typ"/>
+                        </xsl:attribute>
+                        <div class="card-body">
+                            <xsl:apply-templates
+                                select="$current-group/tei:event[tei:idno/@type = $e-typ or tei:idno/@subtype = $e-typ]"/>
+                        </div>
+                    </div>
+                </div>
+                <xsl:for-each
+                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
+                    <div id="content1" class="collapse show">
+                        <xsl:apply-templates mode="desc"/>
+                    </div>
+                </xsl:for-each>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:template>
     <xsl:template match="tei:p">
         <p id="{local:makeId(.)}" class="yes-index">
             <xsl:apply-templates/>
