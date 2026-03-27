@@ -103,7 +103,7 @@
                                 </li>
                                 <li>
                                     <a href="https://biblio.ub.uni-freiburg.de/sf/" target="_blank"
-                                        >Arthur Schnitzler-Archiv Freiburg (Hg.): <i>Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931.</i></a>  (2.000 Einträge)
+                                        >Arthur Schnitzler-Archiv Freiburg (Hg.): <i>Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931.</i></a>  (1.708 Einträge)
                                 </li>
                             </ul>
                             <p class="mt-3">Weiters werden Daten von folgenden Projekten
