@@ -101,6 +101,10 @@
                                         target="_blank">Arthur Schnitzler: <i>»Das Zeitlose ist von kürzester Dauer.« Interviews,
                                             Meinungen, Proteste (1891–1931)</i></a>  (236 Einträge)
                                 </li>
+                                <li>
+                                    <a href="https://biblio.ub.uni-freiburg.de/sf/" target="_blank"
+                                        >Arthur Schnitzler-Archiv Freiburg (Hg.): <i>Arthur Schnitzler und der S. Fischer Verlag. Briefdatenbank 1888–1931.</i></a>  (2.000 Einträge)
+                                </li>
                             </ul>
                             <p class="mt-3">Weiters werden Daten von folgenden Projekten
                                 berücksichtigt:</p>
