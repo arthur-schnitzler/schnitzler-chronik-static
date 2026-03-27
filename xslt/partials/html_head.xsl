@@ -103,7 +103,6 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
-        <link rel="stylesheet" href="css/micro-editor.css" type="text/css"/>
         <link rel="stylesheet" type="text/css"
             href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css"/>
         <!-- Matomo -->

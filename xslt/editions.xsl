@@ -118,7 +118,6 @@
                     </xsl:for-each>
                     <xsl:call-template name="html_footer"/>
                 </div>
-                <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
             </body>
         </html>
     </xsl:template>

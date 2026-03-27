@@ -4,11 +4,12 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
+    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
+
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type='a'][1]/text()"/>
@@ -33,24 +34,7 @@
                                 </a>
                             </div>
                             <div class="card-body containingloader">
-                                <div class="row">
-                                    <div class="col-sm-2 yearscol" >
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <p style="text-align:center;font-weight:bold;margin-bottom:0;">Jahr</p>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-md-center" id="years-table">
-                                            
-                                        </div>
-                                        <div id="sidebar-controls">
-                                            <!-- View controls and legend will be inserted here by JavaScript -->
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div id="calendar"/>
-                                    </div>
-                                </div>
+                                <div id="calendar"/>
                             </div>
                         </div>
                     </div>
