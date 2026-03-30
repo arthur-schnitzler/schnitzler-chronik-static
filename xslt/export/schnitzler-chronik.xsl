@@ -238,7 +238,7 @@
                 </xsl:variable>
                 <xsl:variable name="e-typ-farbe-blass" select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
                 <div class="card mb-3" style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
-                    <div class="card-header d-flex justify-content-between align-items-center">
+                    <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;">
                         <!-- das macht den Titel des jeweiligen Typ-Abschnitts -->
                         <xsl:element name="a">
                             <xsl:attribute name="class">
