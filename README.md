@@ -1,6 +1,6 @@
 # Arthur Schnitzler Chronik
 
-Eine statische Website, die chronologische Daten zu Arthur Schnitzlers Leben und Werk präsentiert.
+Eine statische Website, die chronologische Daten zu Arthur Schnitzlers Leben und Werk präsentiert. Zur Möglichkeit der Einbindung in anderen Websiten siehe unten, -> Export.
 
 ## Übersicht
 
@@ -68,7 +68,13 @@ Das Repository generiert eine statische Website aus TEI-XML Quelldaten:
 
 ## Export-Plugin
 
-Das `./xslt/export/` Verzeichnis stellt zusätzliche Transformationen für externe Systeme zur Verfügung.
+Das `./xslt/export/` Verzeichnis stellt die Templates zur Verfügung, die wir auf den meisten Schnitzler-Seiten verwenden. 
+
+- **list-of-relevant-uris.xml** enthält alle URIs, die berücksichtigt werden und die dazugehörigen Namen und Farben
+- **LOD-idnos** gibt eine Liste der jeweiligen URIs aus, die in der gerade erwähnten Datei aufgeführt sind
+- **schnitzler-chronik.xsl** gibt eine Liste der Einträge zu einem bestimmten Tag aus
+- **entitites.xsl** gibt die Einzelseiten zu den verschiedenen Entitätstypen Person, Werk, Ort, Ereignis, Institution aus 
+- **wienerschnitzler-map.js** enthält den js-Code für die Karte in schnitzler-chronik
 
 ## Lizenzen
 
