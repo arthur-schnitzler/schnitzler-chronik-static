@@ -312,7 +312,7 @@
             <xsl:call-template name="relationen-block">
                 <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
-            <div class="werke">
+            <div class="werke mb-3">
                 <xsl:variable name="author-ref" as="xs:string">
                     <xsl:choose>
                         <xsl:when test="$current-edition = 'schnitzler-tagebuch'">
