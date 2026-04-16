@@ -55,6 +55,36 @@
     <xsl:key name="project-place-xmlid" match="tei:place[@xml:id]" use="@xml:id"/>
     <xsl:key name="project-event-xmlid" match="tei:event[@xml:id]" use="@xml:id"/>
     <xsl:key name="project-bibl-xmlid" match="tei:bibl[@xml:id]" use="@xml:id"/>
+    <!-- Relationen aus relations.csv (selber Ordner wie listperson.xml etc.) -->
+    <xsl:variable name="relationsPath" select="'../../data/indices/relations.csv'"/>
+    <xsl:variable name="relations-csv-raw" as="xs:string?" select="
+            if (unparsed-text-available($relationsPath))
+            then
+                unparsed-text($relationsPath)
+            else
+                ()"/>
+    <xsl:variable name="relations-lines" as="xs:string*" select="
+            if ($relations-csv-raw) then
+                tokenize($relations-csv-raw, '\r?\n')[position() gt 1][normalize-space(.) != '']
+            else
+                ()"/>
+    <!-- Vorverarbeiteter Relationen-Index (wird pro Transformation einmal aufgebaut) -->
+    <xsl:variable name="relations-doc">
+        <relations>
+            <xsl:for-each select="$relations-lines">
+                <xsl:variable name="f" select="mam:split-csv-line(.)"/>
+                <xsl:if test="count($f) ge 17
+                              and matches($f[10], '^\d+$')
+                              and matches($f[16], '^\d+$')">
+                    <rel type="{$f[2]}"
+                         src-id="{$f[10]}" src-type="{$f[11]}" src-name="{$f[9]}"
+                         tgt-id="{$f[16]}" tgt-type="{$f[17]}" tgt-name="{$f[15]}"/>
+                </xsl:if>
+            </xsl:for-each>
+        </relations>
+    </xsl:variable>
+    <xsl:key name="rel-by-src" match="rel" use="@src-id"/>
+    <xsl:key name="rel-by-tgt" match="rel" use="@tgt-id"/>
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -1807,52 +1837,151 @@
             </xsl:if>
         </li>
     </xsl:template>
-    <!-- Einklappbarer Relationen-Block (nur Relationen, deren Ziel im Projekt existiert) -->
+    <!-- CSV-Zeile in Felder zerlegen (mit Anführungszeichen-Unterstützung) -->
+    <xsl:function name="mam:split-csv-line" as="xs:string*">
+        <xsl:param name="line" as="xs:string"/>
+        <xsl:variable name="tokens" as="element(t)*">
+            <xsl:analyze-string select="$line" regex='"([^"]*)"(,|$)|([^,]*)(,|$)'>
+                <xsl:matching-substring>
+                    <xsl:choose>
+                        <xsl:when test="starts-with(., '&quot;')">
+                            <t><xsl:value-of select="regex-group(1)"/></t>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <t><xsl:value-of select="regex-group(3)"/></t>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:matching-substring>
+            </xsl:analyze-string>
+        </xsl:variable>
+        <xsl:for-each select="$tokens">
+            <xsl:sequence select="string(.)"/>
+        </xsl:for-each>
+    </xsl:function>
+    <!-- Numerischen Anteil einer pmb-ID extrahieren -->
+    <xsl:function name="mam:pmb-num" as="xs:string">
+        <xsl:param name="key" as="xs:string?"/>
+        <xsl:choose>
+            <xsl:when test="matches($key, '^pmb\d+$')">
+                <xsl:value-of select="substring-after($key, 'pmb')"/>
+            </xsl:when>
+            <xsl:when test="matches($key, '^\d+$')">
+                <xsl:value-of select="$key"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="''"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <!-- Einklappbarer Relationen-Block (nur Relationen, deren Gegenstelle im Projekt existiert) -->
     <xsl:template name="relationen-block">
         <xsl:param name="entity" as="node()" select="."/>
-        <xsl:variable name="items" as="element()*">
-            <!-- Affiliations: term + orgName/persName/placeName -->
+        <xsl:variable name="pmbId" select="mam:to-pmb(string($entity/@xml:id))"/>
+        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
+        <!-- Alte Relationen aus tei:affiliation und tei:listEvent -->
+        <xsl:variable name="legacy-items" as="element()*">
             <xsl:for-each select="$entity/tei:affiliation">
                 <xsl:variable name="targetNode"
                     select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
-                <xsl:variable name="pmbId"
+                <xsl:variable name="pmbId2"
                     select="mam:to-pmb(string($targetNode/@key))"/>
-                <xsl:if test="$targetNode and mam:in-project($pmbId)">
+                <xsl:if test="$targetNode and mam:in-project($pmbId2)">
                     <li>
                         <xsl:if test="normalize-space(tei:term) != ''">
                             <xsl:value-of select="normalize-space(tei:term)"/>
                             <xsl:text> </xsl:text>
                         </xsl:if>
-                        <a href="{concat($pmbId, '.html')}">
+                        <a href="{concat($pmbId2, '.html')}">
                             <xsl:value-of select="normalize-space($targetNode)"/>
                         </a>
                     </li>
                 </xsl:if>
             </xsl:for-each>
-            <!-- listEvent/event: desc + label -->
             <xsl:for-each select="$entity/tei:listEvent/tei:event">
-                <xsl:variable name="pmbId" select="mam:to-pmb(string(@key))"/>
-                <xsl:if test="mam:in-project($pmbId)">
+                <xsl:variable name="pmbId2" select="mam:to-pmb(string(@key))"/>
+                <xsl:if test="mam:in-project($pmbId2)">
                     <li>
                         <xsl:if test="normalize-space(tei:desc) != ''">
                             <xsl:value-of select="normalize-space(tei:desc)"/>
                             <xsl:text> </xsl:text>
                         </xsl:if>
-                        <a href="{concat($pmbId, '.html')}">
+                        <a href="{concat($pmbId2, '.html')}">
                             <xsl:value-of select="normalize-space(tei:label)"/>
                         </a>
                     </li>
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:if test="$items">
+        <!-- Relationen aus relations.csv als strukturierte Items (beide Richtungen) -->
+        <xsl:variable name="csv-items" as="element(rel-item)*">
+            <xsl:if test="$num != '' and exists($relations-lines)">
+                <xsl:for-each select="
+                        key('rel-by-src', $num, $relations-doc)
+                        | key('rel-by-tgt', $num, $relations-doc)">
+                    <xsl:variable name="is-source" select="@src-id = $num"/>
+                    <xsl:variable name="other-id" as="xs:string"
+                        select="concat('pmb', (if ($is-source) then @tgt-id else @src-id))"/>
+                    <xsl:variable name="other-type" as="xs:string"
+                        select="if ($is-source) then string(@tgt-type) else string(@src-type)"/>
+                    <xsl:variable name="other-name" as="xs:string"
+                        select="if ($is-source) then string(@tgt-name) else string(@src-name)"/>
+                    <!-- Schnitzler (pmb2121): Ort-Relationen ausblenden -->
+                    <xsl:if test="not($num = '2121' and $other-type = 'Ort')
+                                  and mam:in-project($other-id)">
+                        <rel-item type="{@type}"
+                                  is-source="{$is-source}"
+                                  other-id="{$other-id}"
+                                  other-name="{$other-name}"/>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:variable>
+        <xsl:if test="exists($legacy-items) or exists($csv-items)">
             <details class="relationen mb-3" open="open">
                 <summary><legend>Relationen</legend></summary>
                 <ul class="dashed">
-                    <xsl:copy-of select="$items"/>
+                    <xsl:copy-of select="$legacy-items"/>
+                    <!-- Pro relation_type: die ersten 10 zeigen, Rest einklappbar -->
+                    <xsl:for-each-group select="$csv-items" group-by="@type">
+                        <xsl:sort select="current-grouping-key()"/>
+                        <xsl:variable name="total" select="count(current-group())"/>
+                        <xsl:for-each select="current-group()[position() le 10]">
+                            <xsl:call-template name="render-rel-item"/>
+                        </xsl:for-each>
+                        <xsl:if test="$total gt 10">
+                            <li class="relationen-mehr">
+                                <details>
+                                    <summary>
+                                        <xsl:text>alle »</xsl:text>
+                                        <xsl:value-of select="current-grouping-key()"/>
+                                        <xsl:text>« anzeigen (</xsl:text>
+                                        <xsl:value-of select="$total - 10"/>
+                                        <xsl:text> weitere)</xsl:text>
+                                    </summary>
+                                    <ul class="dashed">
+                                        <xsl:for-each select="subsequence(current-group(), 11)">
+                                            <xsl:call-template name="render-rel-item"/>
+                                        </xsl:for-each>
+                                    </ul>
+                                </details>
+                            </li>
+                        </xsl:if>
+                    </xsl:for-each-group>
                 </ul>
             </details>
         </xsl:if>
+    </xsl:template>
+    <!-- Ein einzelnes rel-item als <li> rendern -->
+    <xsl:template name="render-rel-item">
+        <li>
+            <xsl:value-of select="@type"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="if (@is-source = 'true') then '→' else '←'"/>
+            <xsl:text> </xsl:text>
+            <a href="{concat(@other-id, '.html')}">
+                <xsl:value-of select="@other-name"/>
+            </a>
+        </li>
     </xsl:template>
     <!-- Namensvarianten gruppiert ausgeben (eine Zeile pro Typ, Werte kommagetrennt) -->
     <xsl:template name="persName-gruppen">
