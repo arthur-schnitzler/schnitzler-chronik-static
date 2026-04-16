@@ -341,7 +341,7 @@
             <xsl:call-template name="relationen-block">
                 <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
-            <div class="werke mb-3">
+            <!--<div class="werke mb-3">
                 <xsl:variable name="author-ref" as="xs:string">
                     <xsl:choose>
                         <xsl:when test="$current-edition = 'schnitzler-tagebuch'">
@@ -352,7 +352,6 @@
                         <xsl:otherwise>
                             <xsl:value-of
                                 select="concat('pmb', replace(replace(@xml:id, 'person__', ''), 'pmb', ''))"/>
-                            <!-- etwas redundant, aber sicher ist sicherer -->
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
@@ -396,7 +395,7 @@
                             > Zur Leseliste </a>
                     </p>
                 </xsl:if>
-            </div>
+            </div>-->
             <xsl:choose>
                 <xsl:when test="$current-edition = 'schnitzler-kultur'">
                     <xsl:variable name="notes" as="node()">
@@ -2027,11 +2026,16 @@
                         <xsl:copy-of select="$legacy-items"/>
                     </ul>
                 </xsl:if>
-                <!-- Pro Entitätstyp eine Sektion, darin pro Anzeige-Relation gruppiert -->
+                <!-- Pro Entitätstyp eine ein-/ausklappbare Sektion, eingerückt -->
                 <xsl:for-each-group select="$csv-items" group-by="@other-type">
                     <xsl:sort select="mam:type-order(current-grouping-key())"/>
-                    <div class="relationen-typ">
-                        <h5><xsl:value-of select="mam:type-label(current-grouping-key())"/></h5>
+                    <details class="relationen-typ" open="open" style="padding-left:1em">
+                        <summary>
+                            <xsl:value-of select="mam:type-label(current-grouping-key())"/>
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="count(current-group())"/>
+                            <xsl:text>)</xsl:text>
+                        </summary>
                         <ul class="dashed">
                             <xsl:for-each-group select="current-group()" group-by="@display-name">
                                 <xsl:sort select="current-grouping-key()"/>
@@ -2059,7 +2063,7 @@
                                 </xsl:if>
                             </xsl:for-each-group>
                         </ul>
-                    </div>
+                    </details>
                 </xsl:for-each-group>
             </details>
         </xsl:if>
