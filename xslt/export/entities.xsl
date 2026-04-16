@@ -42,6 +42,19 @@
     <!-- Schnitzler-Lektüren -->
     <xsl:param name="lektueren-konkordanz" select="document('../../data/indices/konkordanz.xml')"/>
     <xsl:key name="lektueren-konk-lookup" match="ref" use="@xml:id"/>
+    <!-- Projekt-interne Entitäten (für Relationen-Block) -->
+    <xsl:variable name="listorgPath" select="'../../data/indices/listorg.xml'"/>
+    <xsl:param name="listorg" select="
+            if (unparsed-text-available($listorgPath))
+            then
+                document($listorgPath)
+            else
+                ()"/>
+    <xsl:key name="project-person-xmlid" match="tei:person[@xml:id]" use="@xml:id"/>
+    <xsl:key name="project-org-xmlid" match="tei:org[@xml:id]" use="@xml:id"/>
+    <xsl:key name="project-place-xmlid" match="tei:place[@xml:id]" use="@xml:id"/>
+    <xsl:key name="project-event-xmlid" match="tei:event[@xml:id]" use="@xml:id"/>
+    <xsl:key name="project-bibl-xmlid" match="tei:bibl[@xml:id]" use="@xml:id"/>
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -243,6 +256,9 @@
             </xsl:variable>
             <xsl:call-template name="lod-reihe">
                 <xsl:with-param name="idno" select="$idnos"/>
+            </xsl:call-template>
+            <xsl:call-template name="relationen-block">
+                <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
             <xsl:if test="$current-edition = 'schnitzler-briefe'">
                 <xsl:variable name="person-ref" as="xs:string">
@@ -481,6 +497,9 @@
             </xsl:variable>
             <xsl:call-template name="lod-reihe">
                 <xsl:with-param name="idno" select="$idnos"/>
+            </xsl:call-template>
+            <xsl:call-template name="relationen-block">
+                <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
             <xsl:if test="tei:author">
                 <div id="autor_innen">
@@ -785,6 +804,9 @@
                 <xsl:call-template name="lod-reihe">
                     <xsl:with-param name="idno" select="$idnos"/>
                 </xsl:call-template>
+                <xsl:call-template name="relationen-block">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
                 <xsl:if test=".//tei:geo/text()">
                     <div id="mapid" style="height: 400px; width:100%; clear: both;"> </div>
                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -869,6 +891,9 @@
             </xsl:variable>
             <xsl:call-template name="lod-reihe">
                 <xsl:with-param name="idno" select="$idnos"/>
+            </xsl:call-template>
+            <xsl:call-template name="relationen-block">
+                <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
             <xsl:variable name="ersterName" select="tei:orgName[1]"/>
             <xsl:if test="tei:orgName[2]">
@@ -970,6 +995,9 @@
                         </p>
                     </xsl:if>
                 </div>
+                <xsl:call-template name="relationen-block">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
                 <xsl:variable name="xmlid" select="@xml:id"/>
                 <table class="table entity-table mx-auto" style="max-width=800px">
                     <tbody>
@@ -1730,6 +1758,86 @@
         </xsl:choose>
     </xsl:function>
 
+    <!-- Hilfsfunktion: Schlüssel auf "pmb<zahl>"-Form bringen -->
+    <xsl:function name="mam:to-pmb" as="xs:string">
+        <xsl:param name="key" as="xs:string?"/>
+        <xsl:choose>
+            <xsl:when test="not($key) or normalize-space($key) = ''">
+                <xsl:value-of select="''"/>
+            </xsl:when>
+            <xsl:when test="starts-with($key, 'pmb')">
+                <xsl:value-of select="$key"/>
+            </xsl:when>
+            <xsl:when test="starts-with($key, 'person__') or starts-with($key, 'place__') or starts-with($key, 'org__') or starts-with($key, 'event__') or starts-with($key, 'work__')">
+                <xsl:value-of select="concat('pmb', substring-after($key, '__'))"/>
+            </xsl:when>
+            <xsl:when test="matches($key, '^\d+$')">
+                <xsl:value-of select="concat('pmb', $key)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$key"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <!-- Hilfsfunktion: Prüft, ob eine pmb-ID in einem der Projekt-Indizes vorkommt -->
+    <xsl:function name="mam:in-project" as="xs:boolean">
+        <xsl:param name="pmbId" as="xs:string"/>
+        <xsl:sequence select="
+                $pmbId != '' and (
+                ($listperson and exists(key('project-person-xmlid', $pmbId, $listperson))) or
+                ($listorg and exists(key('project-org-xmlid', $pmbId, $listorg))) or
+                ($places and exists(key('project-place-xmlid', $pmbId, $places))) or
+                ($events and exists(key('project-event-xmlid', $pmbId, $events))) or
+                ($works and exists(key('project-bibl-xmlid', $pmbId, $works)))
+                )"/>
+    </xsl:function>
+    <!-- Einklappbarer Relationen-Block (nur Relationen, deren Ziel im Projekt existiert) -->
+    <xsl:template name="relationen-block">
+        <xsl:param name="entity" as="node()" select="."/>
+        <xsl:variable name="items" as="element()*">
+            <!-- Affiliations: term + orgName/persName/placeName -->
+            <xsl:for-each select="$entity/tei:affiliation">
+                <xsl:variable name="targetNode"
+                    select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
+                <xsl:variable name="pmbId"
+                    select="mam:to-pmb(string($targetNode/@key))"/>
+                <xsl:if test="$targetNode and mam:in-project($pmbId)">
+                    <li>
+                        <xsl:if test="normalize-space(tei:term) != ''">
+                            <xsl:value-of select="normalize-space(tei:term)"/>
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
+                        <a href="{concat($pmbId, '.html')}">
+                            <xsl:value-of select="normalize-space($targetNode)"/>
+                        </a>
+                    </li>
+                </xsl:if>
+            </xsl:for-each>
+            <!-- listEvent/event: desc + label -->
+            <xsl:for-each select="$entity/tei:listEvent/tei:event">
+                <xsl:variable name="pmbId" select="mam:to-pmb(string(@key))"/>
+                <xsl:if test="mam:in-project($pmbId)">
+                    <li>
+                        <xsl:if test="normalize-space(tei:desc) != ''">
+                            <xsl:value-of select="normalize-space(tei:desc)"/>
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
+                        <a href="{concat($pmbId, '.html')}">
+                            <xsl:value-of select="normalize-space(tei:label)"/>
+                        </a>
+                    </li>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:if test="$items">
+            <details class="relationen mb-3" open="open">
+                <summary><legend>Relationen</legend></summary>
+                <ul class="dashed">
+                    <xsl:copy-of select="$items"/>
+                </ul>
+            </details>
+        </xsl:if>
+    </xsl:template>
     <!-- Namensvarianten gruppiert ausgeben (eine Zeile pro Typ, Werte kommagetrennt) -->
     <xsl:template name="persName-gruppen">
         <xsl:param name="namen"/>
