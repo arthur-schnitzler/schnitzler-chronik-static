@@ -1890,8 +1890,11 @@
                                 string($vocab-entry/@reverse)
                             else
                                 string(@type)"/>
-                    <!-- Schnitzler (pmb2121): Ort-Relationen ausblenden -->
+                    <xsl:variable name="self-type" as="xs:string"
+                        select="if ($is-source) then string(@src-type) else string(@tgt-type)"/>
+                    <!-- Schnitzler (pmb2121) ⇄ Ort in beide Richtungen ausblenden -->
                     <xsl:if test="not($num = '2121' and $other-type = 'Ort')
+                                  and not($other-id = 'pmb2121' and $self-type = 'Ort')
                                   and mam:in-project($other-id)">
                         <rel-item display-name="{$display-name}"
                                   other-type="{$other-type}"
@@ -1901,7 +1904,14 @@
                 </xsl:for-each>
             </xsl:if>
         </xsl:variable>
-        <xsl:if test="exists($legacy-items) or exists($csv-items)">
+        <!-- Auf eindeutige (display-name, other-id)-Paare reduzieren -->
+        <xsl:variable name="csv-items-deduped" as="element(rel-item)*">
+            <xsl:for-each-group select="$csv-items"
+                group-by="concat(@display-name, '|', @other-id)">
+                <xsl:sequence select="current-group()[1]"/>
+            </xsl:for-each-group>
+        </xsl:variable>
+        <xsl:if test="exists($legacy-items) or exists($csv-items-deduped)">
             <details class="relationen mb-3" open="open">
                 <summary><legend>Relationen</legend></summary>
                 <xsl:if test="exists($legacy-items)">
@@ -1910,7 +1920,7 @@
                     </ul>
                 </xsl:if>
                 <!-- Pro Entitätstyp eine ein-/ausklappbare Sektion, eingerückt -->
-                <xsl:for-each-group select="$csv-items" group-by="@other-type">
+                <xsl:for-each-group select="$csv-items-deduped" group-by="@other-type">
                     <xsl:sort select="mam:type-order(current-grouping-key())"/>
                     <details class="relationen-typ" open="open" style="padding-left:1em">
                         <summary>
