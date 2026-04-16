@@ -85,6 +85,35 @@
     </xsl:variable>
     <xsl:key name="rel-by-src" match="rel" use="@src-id"/>
     <xsl:key name="rel-by-tgt" match="rel" use="@tgt-id"/>
+    <!-- Vokabular für Relationen (relations.json im selben Ordner wie entities.xsl) -->
+    <xsl:variable name="vocabPath" select="'relations.json'"/>
+    <xsl:variable name="vocab-raw" as="xs:string?" select="
+            if (unparsed-text-available($vocabPath))
+            then
+                unparsed-text($vocabPath)
+            else
+                ()"/>
+    <xsl:variable name="vocab-doc">
+        <vocab>
+            <xsl:if test="$vocab-raw">
+                <xsl:analyze-string select="$vocab-raw"
+                    regex='&quot;([a-z]+relation)&quot;:\s*\[([^\]]*)\]'>
+                    <xsl:matching-substring>
+                        <xsl:variable name="cls" select="regex-group(1)"/>
+                        <xsl:variable name="body" select="regex-group(2)"/>
+                        <xsl:analyze-string select="$body"
+                            regex='&quot;name&quot;:\s*&quot;([^&quot;]*)&quot;,\s*&quot;name_reverse&quot;:\s*&quot;([^&quot;]*)&quot;'>
+                            <xsl:matching-substring>
+                                <entry class="{$cls}" name="{regex-group(1)}"
+                                    reverse="{regex-group(2)}"/>
+                            </xsl:matching-substring>
+                        </xsl:analyze-string>
+                    </xsl:matching-substring>
+                </xsl:analyze-string>
+            </xsl:if>
+        </vocab>
+    </xsl:variable>
+    <xsl:key name="vocab-by-cn" match="entry" use="concat(@class, '|', @name)"/>
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -437,6 +466,7 @@
                 <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
             <xsl:if test="tei:author">
+                <!-- »Geschaffen von« – jetzt über den Relationen-Block abgedeckt.
                 <div id="autor_innen">
                     <legend>Geschaffen von</legend>
                     <xsl:for-each select="tei:author">
@@ -631,6 +661,7 @@
                         </ul>
                     </xsl:for-each>
                 </div>
+                -->
                 <div id="erscheinungsdatum" class="mt-2">
                     <p>
                         <xsl:if test="tei:date[1]">
@@ -1873,6 +1904,46 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    <!-- PMB-Entitätstyp (dt.) auf JSON-Vokabular-Token abbilden -->
+    <xsl:function name="mam:pmb-type" as="xs:string">
+        <xsl:param name="type" as="xs:string?"/>
+        <xsl:choose>
+            <xsl:when test="$type = 'Ereignis'">event</xsl:when>
+            <xsl:when test="$type = 'Werk'">work</xsl:when>
+            <xsl:when test="$type = 'Person'">person</xsl:when>
+            <xsl:when test="$type = 'Ort'">place</xsl:when>
+            <xsl:when test="$type = 'Institution'">institution</xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="lower-case(string($type))"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <!-- Plural-Label für Entitätstyp (für Relationen-Sektionen) -->
+    <xsl:function name="mam:type-label" as="xs:string">
+        <xsl:param name="type" as="xs:string?"/>
+        <xsl:choose>
+            <xsl:when test="$type = 'Person'">Personen</xsl:when>
+            <xsl:when test="$type = 'Werk'">Werke</xsl:when>
+            <xsl:when test="$type = 'Ereignis'">Ereignisse</xsl:when>
+            <xsl:when test="$type = 'Ort'">Orte</xsl:when>
+            <xsl:when test="$type = 'Institution'">Institutionen</xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="string($type)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <!-- Sortier-Schlüssel für Entitätstyp-Sektionen -->
+    <xsl:function name="mam:type-order" as="xs:string">
+        <xsl:param name="type" as="xs:string?"/>
+        <xsl:choose>
+            <xsl:when test="$type = 'Person'">1</xsl:when>
+            <xsl:when test="$type = 'Werk'">2</xsl:when>
+            <xsl:when test="$type = 'Ereignis'">3</xsl:when>
+            <xsl:when test="$type = 'Ort'">4</xsl:when>
+            <xsl:when test="$type = 'Institution'">5</xsl:when>
+            <xsl:otherwise>9</xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     <!-- Einklappbarer Relationen-Block (nur Relationen, deren Gegenstelle im Projekt existiert) -->
     <xsl:template name="relationen-block">
         <xsl:param name="entity" as="node()" select="."/>
@@ -1925,11 +1996,23 @@
                         select="if ($is-source) then string(@tgt-type) else string(@src-type)"/>
                     <xsl:variable name="other-name" as="xs:string"
                         select="if ($is-source) then string(@tgt-name) else string(@src-name)"/>
+                    <!-- Anzeigename via Vokabular aus relations.json (Gegenrichtung bei is-source=false) -->
+                    <xsl:variable name="class-key" as="xs:string"
+                        select="concat(mam:pmb-type(@src-type), mam:pmb-type(@tgt-type), 'relation')"/>
+                    <xsl:variable name="vocab-entry"
+                        select="key('vocab-by-cn', concat($class-key, '|', @type), $vocab-doc)"/>
+                    <xsl:variable name="display-name" as="xs:string" select="
+                            if ($is-source) then
+                                string(@type)
+                            else if ($vocab-entry and $vocab-entry/@reverse != '') then
+                                string($vocab-entry/@reverse)
+                            else
+                                string(@type)"/>
                     <!-- Schnitzler (pmb2121): Ort-Relationen ausblenden -->
                     <xsl:if test="not($num = '2121' and $other-type = 'Ort')
                                   and mam:in-project($other-id)">
-                        <rel-item type="{@type}"
-                                  is-source="{$is-source}"
+                        <rel-item display-name="{$display-name}"
+                                  other-type="{$other-type}"
                                   other-id="{$other-id}"
                                   other-name="{$other-name}"/>
                     </xsl:if>
@@ -1939,44 +2022,52 @@
         <xsl:if test="exists($legacy-items) or exists($csv-items)">
             <details class="relationen mb-3" open="open">
                 <summary><legend>Relationen</legend></summary>
-                <ul class="dashed">
-                    <xsl:copy-of select="$legacy-items"/>
-                    <!-- Pro relation_type: die ersten 10 zeigen, Rest einklappbar -->
-                    <xsl:for-each-group select="$csv-items" group-by="@type">
-                        <xsl:sort select="current-grouping-key()"/>
-                        <xsl:variable name="total" select="count(current-group())"/>
-                        <xsl:for-each select="current-group()[position() le 10]">
-                            <xsl:call-template name="render-rel-item"/>
-                        </xsl:for-each>
-                        <xsl:if test="$total gt 10">
-                            <li class="relationen-mehr">
-                                <details>
-                                    <summary>
-                                        <xsl:text>alle »</xsl:text>
-                                        <xsl:value-of select="current-grouping-key()"/>
-                                        <xsl:text>« anzeigen (</xsl:text>
-                                        <xsl:value-of select="$total - 10"/>
-                                        <xsl:text> weitere)</xsl:text>
-                                    </summary>
-                                    <ul class="dashed">
-                                        <xsl:for-each select="subsequence(current-group(), 11)">
-                                            <xsl:call-template name="render-rel-item"/>
-                                        </xsl:for-each>
-                                    </ul>
-                                </details>
-                            </li>
-                        </xsl:if>
-                    </xsl:for-each-group>
-                </ul>
+                <xsl:if test="exists($legacy-items)">
+                    <ul class="dashed">
+                        <xsl:copy-of select="$legacy-items"/>
+                    </ul>
+                </xsl:if>
+                <!-- Pro Entitätstyp eine Sektion, darin pro Anzeige-Relation gruppiert -->
+                <xsl:for-each-group select="$csv-items" group-by="@other-type">
+                    <xsl:sort select="mam:type-order(current-grouping-key())"/>
+                    <div class="relationen-typ">
+                        <h5><xsl:value-of select="mam:type-label(current-grouping-key())"/></h5>
+                        <ul class="dashed">
+                            <xsl:for-each-group select="current-group()" group-by="@display-name">
+                                <xsl:sort select="current-grouping-key()"/>
+                                <xsl:variable name="total" select="count(current-group())"/>
+                                <xsl:for-each select="current-group()[position() le 10]">
+                                    <xsl:call-template name="render-rel-item"/>
+                                </xsl:for-each>
+                                <xsl:if test="$total gt 10">
+                                    <li class="relationen-mehr">
+                                        <details>
+                                            <summary>
+                                                <xsl:text>alle »</xsl:text>
+                                                <xsl:value-of select="current-grouping-key()"/>
+                                                <xsl:text>« anzeigen (</xsl:text>
+                                                <xsl:value-of select="$total - 10"/>
+                                                <xsl:text> weitere)</xsl:text>
+                                            </summary>
+                                            <ul class="dashed">
+                                                <xsl:for-each select="subsequence(current-group(), 11)">
+                                                    <xsl:call-template name="render-rel-item"/>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                </xsl:if>
+                            </xsl:for-each-group>
+                        </ul>
+                    </div>
+                </xsl:for-each-group>
             </details>
         </xsl:if>
     </xsl:template>
     <!-- Ein einzelnes rel-item als <li> rendern -->
     <xsl:template name="render-rel-item">
         <li>
-            <xsl:value-of select="@type"/>
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="if (@is-source = 'true') then '→' else '←'"/>
+            <xsl:value-of select="@display-name"/>
             <xsl:text> </xsl:text>
             <a href="{concat(@other-id, '.html')}">
                 <xsl:value-of select="@other-name"/>
