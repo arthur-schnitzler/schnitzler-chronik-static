@@ -2,342 +2,59 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:import href="./LOD-idnos.xsl"/>
-    <xsl:include href="./params.xsl"/>
-    <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
-    <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
-    <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
-    <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
-    <!-- Korrespondenzen (nur für schnitzler-briefe) -->
-    <xsl:variable name="listcorrespondencePath" select="'../../data/indices/listcorrespondence.xml'"/>
-    <xsl:param name="listcorrespondence" select="
-            if (unparsed-text-available($listcorrespondencePath))
-            then
-                document($listcorrespondencePath)
-            else
-                ()"/>
-    <xsl:key name="correspondence-lookup" match="tei:personGrp[not(@ana='planned') and not(@xml:id='correspondence_null')]" use="tei:persName[@role='main'][1]/@ref"/>
-    <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
-    <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
-    <xsl:param name="events"
-        select="document('../../data/editions/listevent.xml')/descendant::tei:listEvent[1]"/>
-    <xsl:variable name="actualFilePath" select="
-            if (unparsed-text-available($listbiblPath))
-            then
-                $listbiblPath
-            else
-                $listworkPath"/>
-    <xsl:param name="works" select="document($actualFilePath)"/>
-    <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
-    <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
-    <xsl:key name="authorwork-lookup" match="tei:bibl"
-        use="tei:author/@*[name() = 'key' or name() = 'ref']"/>
-    <!--  -->
-    <xsl:param name="konkordanz" select="document('../../data/indices/index_person_day.xml')"/>
-    <xsl:param name="work-day" select="document('../../data/indices/index_work_day.xml')"/>
-    <xsl:key name="konk-lookup" match="item" use="ref"/>
-    <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
-    <xsl:key name="work-day-lookup" match="item" use="ref"/>
-    <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
-    <!-- Schnitzler-Lektüren -->
-    <xsl:param name="lektueren-konkordanz" select="document('../../data/indices/konkordanz.xml')"/>
-    <xsl:key name="lektueren-konk-lookup" match="ref" use="@xml:id"/>
-    <!-- Projekt-interne Entitäten (für Relationen-Block) -->
-    <xsl:variable name="listorgPath" select="'../../data/indices/listorg.xml'"/>
-    <xsl:param name="listorg" select="
-            if (unparsed-text-available($listorgPath))
-            then
-                document($listorgPath)
-            else
-                ()"/>
-    <xsl:key name="project-person-xmlid" match="tei:person[@xml:id]" use="@xml:id"/>
-    <xsl:key name="project-org-xmlid" match="tei:org[@xml:id]" use="@xml:id"/>
-    <xsl:key name="project-place-xmlid" match="tei:place[@xml:id]" use="@xml:id"/>
-    <xsl:key name="project-event-xmlid" match="tei:event[@xml:id]" use="@xml:id"/>
-    <xsl:key name="project-bibl-xmlid" match="tei:bibl[@xml:id]" use="@xml:id"/>
-    <!-- Relationen aus relations.csv (selber Ordner wie listperson.xml etc.) -->
-    <xsl:variable name="relationsPath" select="'../../data/indices/relations.csv'"/>
-    <xsl:variable name="relations-csv-raw" as="xs:string?" select="
-            if (unparsed-text-available($relationsPath))
-            then
-                unparsed-text($relationsPath)
-            else
-                ()"/>
-    <xsl:variable name="relations-lines" as="xs:string*" select="
-            if ($relations-csv-raw) then
-                tokenize($relations-csv-raw, '\r?\n')[position() gt 1][normalize-space(.) != '']
-            else
-                ()"/>
-    <!-- Vorverarbeiteter Relationen-Index (wird pro Transformation einmal aufgebaut) -->
-    <xsl:variable name="relations-doc">
-        <relations>
-            <xsl:for-each select="$relations-lines">
-                <xsl:variable name="f" select="mam:split-csv-line(.)"/>
-                <xsl:if test="count($f) ge 17
-                              and matches($f[10], '^\d+$')
-                              and matches($f[16], '^\d+$')">
-                    <rel type="{$f[2]}"
-                         src-id="{$f[10]}" src-type="{$f[11]}" src-name="{$f[9]}"
-                         tgt-id="{$f[16]}" tgt-type="{$f[17]}" tgt-name="{$f[15]}"/>
-                </xsl:if>
-            </xsl:for-each>
-        </relations>
-    </xsl:variable>
-    <xsl:key name="rel-by-src" match="rel" use="@src-id"/>
-    <xsl:key name="rel-by-tgt" match="rel" use="@tgt-id"/>
-    <!-- Vokabular für Relationen (relations.json im selben Ordner wie entities.xsl) -->
-    <xsl:variable name="vocabPath" select="'relations.json'"/>
-    <xsl:variable name="vocab-raw" as="xs:string?" select="
-            if (unparsed-text-available($vocabPath))
-            then
-                unparsed-text($vocabPath)
-            else
-                ()"/>
-    <xsl:variable name="vocab-doc">
-        <vocab>
-            <xsl:if test="$vocab-raw">
-                <xsl:analyze-string select="$vocab-raw"
-                    regex='&quot;([a-z]+relation)&quot;:\s*\[([^\]]*)\]'>
-                    <xsl:matching-substring>
-                        <xsl:variable name="cls" select="regex-group(1)"/>
-                        <xsl:variable name="body" select="regex-group(2)"/>
-                        <xsl:analyze-string select="$body"
-                            regex='&quot;name&quot;:\s*&quot;([^&quot;]*)&quot;,\s*&quot;name_reverse&quot;:\s*&quot;([^&quot;]*)&quot;'>
-                            <xsl:matching-substring>
-                                <entry class="{$cls}" name="{regex-group(1)}"
-                                    reverse="{regex-group(2)}"/>
-                            </xsl:matching-substring>
-                        </xsl:analyze-string>
-                    </xsl:matching-substring>
-                </xsl:analyze-string>
-            </xsl:if>
-        </vocab>
-    </xsl:variable>
-    <xsl:key name="vocab-by-cn" match="entry" use="concat(@class, '|', @name)"/>
+    <!-- Imports, Parameter, Index-Variablen, Keys, Relationen-CSV und -Vokabular -->
+    <xsl:include href="./entities-setup.xsl"/>
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
-        <xsl:variable name="selfLink">
-            <xsl:value-of select="concat(data(@xml:id), '.html')"/>
+        <xsl:variable name="selfLink" select="concat(data(@xml:id), '.html')"/>
+        <xsl:variable name="lemma-name" select="tei:persName[(position() = 1)]" as="node()"/>
+        <xsl:variable name="namensformen" as="node()">
+            <xsl:element name="listPerson">
+                <xsl:for-each select="descendant::tei:persName[not(position() = 1)]">
+                    <xsl:copy-of select="."/>
+                </xsl:for-each>
+            </xsl:element>
+        </xsl:variable>
+        <xsl:variable name="idnos" as="node()">
+            <xsl:element name="idnos">
+                <xsl:copy-of select="tei:idno"/>
+            </xsl:element>
         </xsl:variable>
         <div class="card-body-index">
-            <xsl:variable name="lemma-name" select="tei:persName[(position() = 1)]" as="node()"/>
-            <xsl:variable name="namensformen" as="node()">
-                <xsl:element name="listPerson">
-                    <xsl:for-each select="descendant::tei:persName[not(position() = 1)]">
-                        <xsl:copy-of select="."/>
-                    </xsl:for-each>
-                </xsl:element>
-            </xsl:variable>
             <xsl:choose>
                 <xsl:when test="tei:figure/tei:graphic/@url">
                     <div class="WikimediaContainer">
-                        <!-- Left div -->
                         <div class="WikimediaLeft-div">
-                            <xsl:element name="figure">
-                                <xsl:variable name="imageUrl" select="tei:figure/tei:graphic/@url"/>
-                                <!-- Create an <img> element with the extracted URL -->
-                                <img src="{$imageUrl}" alt="Image" width="200px;"/>
-                            </xsl:element>
+                            <figure>
+                                <img src="{tei:figure/tei:graphic/@url}" alt="Image" width="200px;"/>
+                            </figure>
                         </div>
-                        <!-- Right div -->
                         <div class="WikimediaRight-div">
-                            <!-- Achtung, der Teil kommt zweimal, einmal mit Bild auf der Seite, einmal ohne -->
-                            <!-- Hauptname (mit Kindelementen) -->
-                            <xsl:for-each select="$namensformen/descendant::tei:persName[descendant::*]">
-                                <p class="personenname">
-                                    <xsl:choose>
-                                        <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
-                                            <xsl:value-of select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"/>
-                                        </xsl:when>
-                                        <xsl:when test="./tei:forename/text()">
-                                            <xsl:value-of select="./tei:forename/text()"/>
-                                        </xsl:when>
-                                        <xsl:when test="./tei:surname/text()">
-                                            <xsl:value-of select="./tei:surname/text()"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="."/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </p>
-                            </xsl:for-each>
-                            <!-- Geburtsname -->
-                            <xsl:variable name="geb_v_img" select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname']"/>
-                            <xsl:variable name="geb_n_img" select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']"/>
-                            <xsl:if test="$geb_v_img or $geb_n_img">
-                                <p class="personenname">
-                                    <xsl:text>geboren </xsl:text>
-                                    <xsl:choose>
-                                        <xsl:when test="$geb_v_img and $geb_n_img">
-                                            <xsl:value-of select="concat($geb_v_img[1], ' ', $geb_n_img[1])"/>
-                                        </xsl:when>
-                                        <xsl:when test="$geb_v_img">
-                                            <xsl:value-of select="concat($geb_v_img[1], ' ', $lemma-name//tei:surname)"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="$geb_n_img[1]"/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </p>
-                            </xsl:if>
-                            <!-- Weitere Namensvarianten (gruppiert) -->
-                            <xsl:call-template name="persName-gruppen">
-                                <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"/>
+                            <xsl:call-template name="person-namen-block">
+                                <xsl:with-param name="entity" select="."/>
+                                <xsl:with-param name="namensformen" select="$namensformen"/>
+                                <xsl:with-param name="surname-fallback" select="string($lemma-name//tei:surname)"/>
                             </xsl:call-template>
-                            <xsl:if test=".//tei:occupation">
-                                <xsl:variable name="entity" select="."/>
-                                <p>
-                                    <xsl:if test="$entity/descendant::tei:occupation">
-                                        <i>
-                                            <xsl:for-each
-                                                select="$entity/descendant::tei:occupation">
-                                                <xsl:variable name="beruf" as="xs:string">
-                                                  <xsl:choose>
-                                                  <xsl:when test="contains(., '&gt;&gt;')">
-                                                  <xsl:value-of
-                                                  select="tokenize(., '&gt;&gt;')[last()]"/>
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:otherwise>
-                                                  </xsl:choose>
-                                                </xsl:variable>
-                                                <xsl:choose>
-                                                  <xsl:when test="$entity/tei:sex/@value = 'male'">
-                                                  <xsl:value-of select="tokenize($beruf, '/')[1]"/>
-                                                  </xsl:when>
-                                                  <xsl:when test="$entity/tei:sex/@value = 'female'">
-                                                  <xsl:value-of select="tokenize($beruf, '/')[2]"/>
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of select="$beruf"/>
-                                                  </xsl:otherwise>
-                                                </xsl:choose>
-                                                <xsl:if test="not(position() = last())">
-                                                  <xsl:text>, </xsl:text>
-                                                </xsl:if>
-                                            </xsl:for-each>
-                                        </i>
-                                    </xsl:if>
-                                </p>
-                            </xsl:if>
                         </div>
                     </div>
                 </xsl:when>
                 <xsl:otherwise>
                     <div>
-                        <!-- Hauptname (mit Kindelementen) -->
-                        <xsl:for-each select="$namensformen/descendant::tei:persName[descendant::*]">
-                            <p class="personenname">
-                                <xsl:choose>
-                                    <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
-                                        <xsl:value-of select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"/>
-                                    </xsl:when>
-                                    <xsl:when test="./tei:forename/text()">
-                                        <xsl:value-of select="./tei:forename/text()"/>
-                                    </xsl:when>
-                                    <xsl:when test="./tei:surname/text()">
-                                        <xsl:value-of select="./tei:surname/text()"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="."/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </p>
-                        </xsl:for-each>
-                        <!-- Geburtsname -->
-                        <xsl:variable name="geb_v" select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname']"/>
-                        <xsl:variable name="geb_n" select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']"/>
-                        <xsl:if test="$geb_v or $geb_n">
-                            <p class="personenname">
-                                <xsl:text>geboren </xsl:text>
-                                <xsl:choose>
-                                    <xsl:when test="$geb_v and $geb_n">
-                                        <xsl:value-of select="concat($geb_v[1], ' ', $geb_n[1])"/>
-                                    </xsl:when>
-                                    <xsl:when test="$geb_v">
-                                        <xsl:value-of select="$geb_v[1]"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="$geb_n[1]"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </p>
-                        </xsl:if>
-                        <!-- Weitere Namensvarianten (gruppiert) -->
-                        <xsl:call-template name="persName-gruppen">
-                            <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"/>
+                        <xsl:call-template name="person-namen-block">
+                            <xsl:with-param name="entity" select="."/>
+                            <xsl:with-param name="namensformen" select="$namensformen"/>
                         </xsl:call-template>
-                        <xsl:if test=".//tei:occupation">
-                            <xsl:variable name="entity" select="."/>
-                            <p>
-                                <xsl:if test="$entity/descendant::tei:occupation">
-                                    <i>
-                                        <xsl:for-each select="$entity/descendant::tei:occupation">
-                                            <xsl:variable name="beruf" as="xs:string">
-                                                <xsl:choose>
-                                                  <xsl:when test="contains(., '&gt;&gt;')">
-                                                  <xsl:value-of
-                                                  select="tokenize(., '&gt;&gt;')[last()]"/>
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:otherwise>
-                                                </xsl:choose>
-                                            </xsl:variable>
-                                            <xsl:choose>
-                                                <xsl:when test="$entity/tei:sex/@value = 'male'">
-                                                  <xsl:value-of select="tokenize($beruf, '/')[1]"/>
-                                                </xsl:when>
-                                                <xsl:when test="$entity/tei:sex/@value = 'female'">
-                                                  <xsl:value-of select="tokenize($beruf, '/')[2]"/>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of select="$beruf"/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                            <xsl:if test="not(position() = last())">
-                                                <xsl:text>, </xsl:text>
-                                            </xsl:if>
-                                        </xsl:for-each>
-                                    </i>
-                                </xsl:if>
-                            </p>
-                        </xsl:if>
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:variable name="idnos" as="node()">
-                <xsl:element name="idnos">
-                    <xsl:copy-of select="tei:idno"/>
-                </xsl:element>
-            </xsl:variable>
             <xsl:call-template name="lod-reihe">
                 <xsl:with-param name="idno" select="$idnos"/>
             </xsl:call-template>
-                        <xsl:if test="$current-edition = 'schnitzler-briefe'">
-                <xsl:variable name="person-ref" as="xs:string">
-                    <xsl:value-of select="concat('#pmb', replace(replace(@xml:id, 'person__', ''), 'pmb', ''))"/>
-                </xsl:variable>
-                <xsl:variable name="correspondence" select="key('correspondence-lookup', $person-ref, $listcorrespondence)"/>
-                <xsl:if test="$correspondence">
-                    <div class="korrespondenz">
-                        <legend>Korrespondenz</legend>
-                        <ul class="dashed">
-                            <li>
-                                <a>
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="concat('toc_', replace($correspondence/@xml:id, 'correspondence_', ''), '.html')"/>
-                                    </xsl:attribute>
-                                    <xsl:text>Zum Briefwechsel Schnitzler – </xsl:text>
-                                    <xsl:value-of select="$lemma-name"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </xsl:if>
-            </xsl:if>
+            <xsl:call-template name="person-korrespondenz">
+                <xsl:with-param name="entity" select="."/>
+                <xsl:with-param name="lemma-name" select="$lemma-name"/>
+            </xsl:call-template>
             <xsl:call-template name="relationen-block">
                 <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
@@ -396,33 +113,168 @@
                     </p>
                 </xsl:if>
             </div>-->
-            <xsl:choose>
-                <xsl:when test="$current-edition = 'schnitzler-kultur'">
-                    <xsl:variable name="notes" as="node()">
-                        <xsl:call-template name="fill-event-variable">
-                            <xsl:with-param name="xmlid" select="@xml:id"/>
-                            <xsl:with-param name="entitityType" select="'persName'"/>
-                        </xsl:call-template>
-                    </xsl:variable>
-                    <xsl:call-template name="list-all-mentions">
-                        <xsl:with-param name="mentions" select="$notes"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:when test=".//tei:note[@type = 'mentions'][1]">
-                    <xsl:variable name="mentionsGrp">
-                        <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:copy-of select="descendant::tei:note[@type = 'mentions']"/>
-                        </xsl:element>
-                    </xsl:variable>
-                    <xsl:call-template name="list-all-mentions">
-                        <xsl:with-param name="mentions" select="$mentionsGrp"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:otherwise>
-                    <!-- hier ließe sich eine Fehlermeldung ausgeben -->
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:call-template name="person-mentions">
+                <xsl:with-param name="entity" select="."/>
+            </xsl:call-template>
         </div>
+    </xsl:template>
+    <!-- PERSON: Sub-Templates -->
+    <!-- Hauptname (alle persName mit Kindelementen) -->
+    <xsl:template name="person-hauptname">
+        <xsl:param name="namen" as="node()*"/>
+        <xsl:for-each select="$namen">
+            <p class="personenname">
+                <xsl:choose>
+                    <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
+                        <xsl:value-of select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"/>
+                    </xsl:when>
+                    <xsl:when test="./tei:forename/text()">
+                        <xsl:value-of select="./tei:forename/text()"/>
+                    </xsl:when>
+                    <xsl:when test="./tei:surname/text()">
+                        <xsl:value-of select="./tei:surname/text()"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </p>
+        </xsl:for-each>
+    </xsl:template>
+    <!-- Geburtsname; surname-fallback wird nur in der Wikimedia-Variante verwendet -->
+    <xsl:template name="person-geburtsname">
+        <xsl:param name="namen" as="node()*"/>
+        <xsl:param name="surname-fallback" as="xs:string?" select="''"/>
+        <xsl:variable name="geb_v" select="$namen[@type = 'person_geburtsname_vorname']"/>
+        <xsl:variable name="geb_n" select="$namen[@type = 'person_geburtsname_nachname']"/>
+        <xsl:if test="$geb_v or $geb_n">
+            <p class="personenname">
+                <xsl:text>geboren </xsl:text>
+                <xsl:choose>
+                    <xsl:when test="$geb_v and $geb_n">
+                        <xsl:value-of select="concat($geb_v[1], ' ', $geb_n[1])"/>
+                    </xsl:when>
+                    <xsl:when test="$geb_v and $surname-fallback != ''">
+                        <xsl:value-of select="concat($geb_v[1], ' ', $surname-fallback)"/>
+                    </xsl:when>
+                    <xsl:when test="$geb_v">
+                        <xsl:value-of select="$geb_v[1]"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$geb_n[1]"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </p>
+        </xsl:if>
+    </xsl:template>
+    <!-- Berufsangaben (occupation) – sex-spezifische Form, '>>'-Bereinigung -->
+    <xsl:template name="person-berufe">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="$entity//tei:occupation">
+            <p>
+                <i>
+                    <xsl:for-each select="$entity/descendant::tei:occupation">
+                        <xsl:variable name="beruf" as="xs:string">
+                            <xsl:choose>
+                                <xsl:when test="contains(., '&gt;&gt;')">
+                                    <xsl:value-of select="tokenize(., '&gt;&gt;')[last()]"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:choose>
+                            <xsl:when test="$entity/tei:sex/@value = 'male'">
+                                <xsl:value-of select="tokenize($beruf, '/')[1]"/>
+                            </xsl:when>
+                            <xsl:when test="$entity/tei:sex/@value = 'female'">
+                                <xsl:value-of select="tokenize($beruf, '/')[2]"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$beruf"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:if test="not(position() = last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </i>
+            </p>
+        </xsl:if>
+    </xsl:template>
+    <!-- Gesamtblock Hauptname + Geburtsname + Namensvarianten + Berufe -->
+    <xsl:template name="person-namen-block">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:param name="namensformen" as="node()"/>
+        <xsl:param name="surname-fallback" as="xs:string?" select="''"/>
+        <xsl:call-template name="person-hauptname">
+            <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName[descendant::*]"/>
+        </xsl:call-template>
+        <xsl:call-template name="person-geburtsname">
+            <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName"/>
+            <xsl:with-param name="surname-fallback" select="$surname-fallback"/>
+        </xsl:call-template>
+        <xsl:call-template name="persName-gruppen">
+            <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"/>
+        </xsl:call-template>
+        <xsl:call-template name="person-berufe">
+            <xsl:with-param name="entity" select="$entity"/>
+        </xsl:call-template>
+    </xsl:template>
+    <!-- Korrespondenz-Block (nur schnitzler-briefe) -->
+    <xsl:template name="person-korrespondenz">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:param name="lemma-name" as="node()"/>
+        <xsl:if test="$current-edition = 'schnitzler-briefe'">
+            <xsl:variable name="person-ref" as="xs:string"
+                select="concat('#pmb', replace(replace($entity/@xml:id, 'person__', ''), 'pmb', ''))"/>
+            <xsl:variable name="correspondence"
+                select="key('correspondence-lookup', $person-ref, $listcorrespondence)"/>
+            <xsl:if test="$correspondence">
+                <div class="korrespondenz">
+                    <legend>Korrespondenz</legend>
+                    <ul class="dashed">
+                        <li>
+                            <a>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="concat('toc_', replace($correspondence/@xml:id, 'correspondence_', ''), '.html')"/>
+                                </xsl:attribute>
+                                <xsl:text>Zum Briefwechsel Schnitzler – </xsl:text>
+                                <xsl:value-of select="$lemma-name"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
+    <!-- Mentions-Block (entweder aus events oder aus tei:note[@type='mentions']) -->
+    <xsl:template name="person-mentions">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:choose>
+            <xsl:when test="$current-edition = 'schnitzler-kultur'">
+                <xsl:variable name="notes" as="node()">
+                    <xsl:call-template name="fill-event-variable">
+                        <xsl:with-param name="xmlid" select="$entity/@xml:id"/>
+                        <xsl:with-param name="entitityType" select="'persName'"/>
+                    </xsl:call-template>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$notes"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$entity//tei:note[@type = 'mentions'][1]">
+                <xsl:variable name="mentionsGrp">
+                    <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$mentionsGrp"/>
+                </xsl:call-template>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:template name="fill-event-variable" as="node()">
         <xsl:param name="xmlid" as="xs:string"/>
@@ -661,97 +513,116 @@
                     </xsl:for-each>
                 </div>
                 -->
-                <div id="erscheinungsdatum" class="mt-2">
-                    <p>
-                        <xsl:if test="tei:date[1]">
-                            <legend>Erschienen</legend>
-                            <ul class="dashed">
-                                <li>
-                                    <xsl:choose>
-                                        <xsl:when test="contains(tei:date[1], '-')">
-                                            <xsl:choose>
-                                                <xsl:when
-                                                  test="normalize-space(tokenize(tei:date[1], '-')[1]) = normalize-space(tokenize(tei:date[1], '-')[2])">
-                                                  <xsl:value-of
-                                                  select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '-')[1])))"
-                                                  />
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select="mam:normalize-date(normalize-space(tei:date[1]))"
-                                                  />
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="mam:normalize-date(tei:date[1])"/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                    <xsl:if test="not(ends-with(tei:date[1], '.'))">
-                                        <xsl:text>.</xsl:text>
-                                    </xsl:if>
-                                </li>
-                            </ul>
-                        </xsl:if>
-                    </p>
-                </div>
+                <xsl:call-template name="work-erscheinungsdatum">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
                 <p/>
             </xsl:if>
-            <xsl:if
-                test="tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link')]">
-                <div id="labels" class="mt-2">
-                    <span class="infodesc mr-2">
-                        <ul class="dashed">
-                            <xsl:for-each select="tei:title[@type = 'werk_bibliografische-angabe']">
-                                <li>
-                                    <xsl:text>Bibliografische Angabe: </xsl:text>
-                                    <xsl:value-of select="."/>
-                                </li>
-                            </xsl:for-each>
-                            <xsl:for-each select="tei:title[@type = 'werk_link' or @type = 'anno']">
-                                <li>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:text>Online verfügbar</xsl:text>
-                                    </a>
-                                </li>
-                            </xsl:for-each>
-                        </ul>
-                    </span>
-                </div>
-            </xsl:if>
-            <xsl:choose>
-                <xsl:when test="$current-edition = 'schnitzler-kultur'">
-                    <xsl:variable name="notes" as="node()">
-                        <xsl:call-template name="fill-event-variable">
-                            <xsl:with-param name="xmlid" select="@xml:id"/>
-                            <xsl:with-param name="entitityType" select="'title'"/>
-                        </xsl:call-template>
-                    </xsl:variable>
-                    <xsl:call-template name="list-all-mentions">
-                        <xsl:with-param name="mentions" select="$notes"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:when test=".//tei:note[@type = 'mentions'][1]">
-                    <xsl:variable name="mentionsGrp">
-                        <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:copy-of select="descendant::tei:note[@type = 'mentions']"/>
-                        </xsl:element>
-                    </xsl:variable>
-                    <xsl:call-template name="list-all-mentions">
-                        <xsl:with-param name="mentions" select="$mentionsGrp"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:otherwise>
-                    <!-- hier ließe sich eine Fehlermeldung ausgeben -->
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:call-template name="work-links">
+                <xsl:with-param name="entity" select="."/>
+            </xsl:call-template>
+            <xsl:call-template name="work-mentions">
+                <xsl:with-param name="entity" select="."/>
+            </xsl:call-template>
         </div>
+    </xsl:template>
+    <!-- WORK: Sub-Templates -->
+    <!-- Erscheinungsdatum (tei:date[1]) -->
+    <xsl:template name="work-erscheinungsdatum">
+        <xsl:param name="entity" as="node()"/>
+        <div id="erscheinungsdatum" class="mt-2">
+            <p>
+                <xsl:if test="$entity/tei:date[1]">
+                    <legend>Erschienen</legend>
+                    <ul class="dashed">
+                        <li>
+                            <xsl:choose>
+                                <xsl:when test="contains($entity/tei:date[1], '-')">
+                                    <xsl:choose>
+                                        <xsl:when
+                                            test="normalize-space(tokenize($entity/tei:date[1], '-')[1]) = normalize-space(tokenize($entity/tei:date[1], '-')[2])">
+                                            <xsl:value-of
+                                                select="mam:normalize-date(normalize-space((tokenize($entity/tei:date[1], '-')[1])))"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="mam:normalize-date(normalize-space($entity/tei:date[1]))"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="mam:normalize-date($entity/tei:date[1])"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="not(ends-with($entity/tei:date[1], '.'))">
+                                <xsl:text>.</xsl:text>
+                            </xsl:if>
+                        </li>
+                    </ul>
+                </xsl:if>
+            </p>
+        </div>
+    </xsl:template>
+    <!-- Bibliografische Angabe + Online-Links -->
+    <xsl:template name="work-links">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if
+            test="$entity/tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link')]">
+            <div id="labels" class="mt-2">
+                <span class="infodesc mr-2">
+                    <ul class="dashed">
+                        <xsl:for-each select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
+                            <li>
+                                <xsl:text>Bibliografische Angabe: </xsl:text>
+                                <xsl:value-of select="."/>
+                            </li>
+                        </xsl:for-each>
+                        <xsl:for-each select="$entity/tei:title[@type = 'werk_link' or @type = 'anno']">
+                            <li>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="."/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:text>Online verfügbar</xsl:text>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </span>
+            </div>
+        </xsl:if>
+    </xsl:template>
+    <!-- Mentions-Block (events oder tei:note[@type='mentions']) -->
+    <xsl:template name="work-mentions">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:choose>
+            <xsl:when test="$current-edition = 'schnitzler-kultur'">
+                <xsl:variable name="notes" as="node()">
+                    <xsl:call-template name="fill-event-variable">
+                        <xsl:with-param name="xmlid" select="$entity/@xml:id"/>
+                        <xsl:with-param name="entitityType" select="'title'"/>
+                    </xsl:call-template>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$notes"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$entity//tei:note[@type = 'mentions'][1]">
+                <xsl:variable name="mentionsGrp">
+                    <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$mentionsGrp"/>
+                </xsl:call-template>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <!-- PLACE -->
     <xsl:template match="tei:place" name="place_detail">
@@ -772,67 +643,86 @@
                 <xsl:call-template name="relationen-block">
                     <xsl:with-param name="entity" select="."/>
                 </xsl:call-template>
-                <xsl:if test=".//tei:geo/text()">
-                    <div id="mapid" style="height: 400px; width:100%; clear: both;"> </div>
-                    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-                        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-                        crossorigin=""/>
-                    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
-                    <script>
-                        <xsl:variable name="laenge" select="replace(tokenize(descendant::tei:geo[1]/text(), ' ')[2], ',', '.')"/>
-                        <xsl:variable name="breite" select="replace(tokenize(descendant::tei:geo[1]/text(), ' ')[1], ',', '.')"/>
-                        
-                        var mymap = L.map('mapid').setView([<xsl:value-of select="$breite"/>, <xsl:value-of select="$laenge"/>], 14);
-                        
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                        attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-                        maxZoom: 18
-                        }).addTo(mymap);
-                        
-                        L.marker([<xsl:value-of select="$breite"/>, <xsl:value-of select="$laenge"/>])
-                        .addTo(mymap)
-                        .bindPopup("<b><xsl:value-of select="./tei:placeName[1]/text()"/></b>")
-                        .openPopup();
-                    </script>
-                </xsl:if>
-                <xsl:if test="count(.//tei:placeName[contains(@type, 'namensvariante')]) gt 1">
-                    <legend>Namensvarianten</legend>
-                    <ul class="dashed">
-                        <xsl:for-each select=".//tei:placeName[contains(@type, 'namensvariante')]">
-                            <li>
-                                <xsl:value-of select="./text()"/>
-                            </li>
-                        </xsl:for-each>
-                    </ul>
-                </xsl:if>
-                <xsl:choose>
-                    <xsl:when test="$current-edition = 'schnitzler-kultur'">
-                        <xsl:variable name="notes" as="node()">
-                            <xsl:call-template name="fill-event-variable">
-                                <xsl:with-param name="xmlid" select="@xml:id"/>
-                                <xsl:with-param name="entitityType" select="'placeName'"/>
-                            </xsl:call-template>
-                        </xsl:variable>
-                        <xsl:call-template name="list-all-mentions">
-                            <xsl:with-param name="mentions" select="$notes"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:when test=".//tei:note[@type = 'mentions'][1]">
-                        <xsl:variable name="mentionsGrp">
-                            <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
-                                <xsl:copy-of select="descendant::tei:note[@type = 'mentions']"/>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="list-all-mentions">
-                            <xsl:with-param name="mentions" select="$mentionsGrp"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <!-- hier ließe sich eine Fehlermeldung ausgeben -->
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:call-template name="place-map">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
+                <xsl:call-template name="place-namensvarianten">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
+                <xsl:call-template name="place-mentions">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
             </div>
         </div>
+    </xsl:template>
+    <!-- PLACE: Sub-Templates -->
+    <!-- Leaflet-Karte mit dem ersten geo-Wert -->
+    <xsl:template name="place-map">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="$entity//tei:geo/text()">
+            <div id="mapid" style="height: 400px; width:100%; clear: both;"> </div>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+                integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+                crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
+            <script>
+                <xsl:variable name="laenge" select="replace(tokenize($entity/descendant::tei:geo[1]/text(), ' ')[2], ',', '.')"/>
+                <xsl:variable name="breite" select="replace(tokenize($entity/descendant::tei:geo[1]/text(), ' ')[1], ',', '.')"/>
+
+                var mymap = L.map('mapid').setView([<xsl:value-of select="$breite"/>, <xsl:value-of select="$laenge"/>], 14);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+                maxZoom: 18
+                }).addTo(mymap);
+
+                L.marker([<xsl:value-of select="$breite"/>, <xsl:value-of select="$laenge"/>])
+                .addTo(mymap)
+                .bindPopup("<b><xsl:value-of select="$entity/tei:placeName[1]/text()"/></b>")
+                .openPopup();
+            </script>
+        </xsl:if>
+    </xsl:template>
+    <!-- Namensvarianten-Liste -->
+    <xsl:template name="place-namensvarianten">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="count($entity//tei:placeName[contains(@type, 'namensvariante')]) gt 1">
+            <legend>Namensvarianten</legend>
+            <ul class="dashed">
+                <xsl:for-each select="$entity//tei:placeName[contains(@type, 'namensvariante')]">
+                    <li>
+                        <xsl:value-of select="./text()"/>
+                    </li>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
+    </xsl:template>
+    <!-- Mentions-Block (events oder tei:note[@type='mentions']) -->
+    <xsl:template name="place-mentions">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:choose>
+            <xsl:when test="$current-edition = 'schnitzler-kultur'">
+                <xsl:variable name="notes" as="node()">
+                    <xsl:call-template name="fill-event-variable">
+                        <xsl:with-param name="xmlid" select="$entity/@xml:id"/>
+                        <xsl:with-param name="entitityType" select="'placeName'"/>
+                    </xsl:call-template>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$notes"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$entity//tei:note[@type = 'mentions'][1]">
+                <xsl:variable name="mentionsGrp">
+                    <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$mentionsGrp"/>
+                </xsl:call-template>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:function name="mam:pmbChange">
         <xsl:param name="url" as="xs:string"/>
@@ -860,81 +750,99 @@
             <xsl:call-template name="relationen-block">
                 <xsl:with-param name="entity" select="."/>
             </xsl:call-template>
-            <xsl:variable name="ersterName" select="tei:orgName[1]"/>
-            <xsl:if test="tei:orgName[2]">
-                <p>
-                    <xsl:for-each
-                        select="distinct-values(tei:orgName[@type = 'ort_alternative-name'])">
-                        <xsl:if test=". != $ersterName">
-                            <xsl:value-of select="."/>
-                        </xsl:if>
-                        <xsl:if test="not(position() = last())">
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
-                </p>
-            </xsl:if>
-            <xsl:if test="tei:location">
-                <div>
-                    <legend>Orte</legend>
-                    <ul class="dashed">
-                        <li>
-                            <xsl:for-each
-                                select="tei:location/tei:placeName[not(. = preceding-sibling::tei:placeName)]">
-                                <xsl:variable name="key-or-ref" as="xs:string?">
-                                    <xsl:value-of
-                                        select="concat(replace(@key, 'place__', 'pmb'), replace(@ref, 'place__', 'pmb'))"
-                                    />
-                                </xsl:variable>
-                                <xsl:choose>
-                                    <xsl:when test="key('place-lookup', $key-or-ref, $places)">
-                                        <xsl:element name="a">
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of select="concat($key-or-ref, '.html')"
-                                                />
-                                            </xsl:attribute>
-                                            <xsl:value-of select="."/>
-                                        </xsl:element>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="."/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
-                            </xsl:for-each>
-                        </li>
-                    </ul>
-                </div>
-            </xsl:if>
-            <xsl:choose>
-                <xsl:when test="$current-edition = 'schnitzler-kultur'">
-                    <xsl:variable name="notes" as="node()">
-                        <xsl:call-template name="fill-event-variable">
-                            <xsl:with-param name="xmlid" select="@xml:id"/>
-                            <xsl:with-param name="entitityType" select="'orgName'"/>
-                        </xsl:call-template>
-                    </xsl:variable>
-                    <xsl:call-template name="list-all-mentions">
-                        <xsl:with-param name="mentions" select="$notes"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:when test=".//tei:note[@type = 'mentions'][1]">
-                    <xsl:variable name="mentionsGrp">
-                        <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:copy-of select="descendant::tei:note[@type = 'mentions']"/>
-                        </xsl:element>
-                    </xsl:variable>
-                    <xsl:call-template name="list-all-mentions">
-                        <xsl:with-param name="mentions" select="$mentionsGrp"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:otherwise>
-                    <!-- hier ließe sich eine Fehlermeldung ausgeben -->
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:call-template name="org-namensvarianten">
+                <xsl:with-param name="entity" select="."/>
+            </xsl:call-template>
+            <xsl:call-template name="org-orte">
+                <xsl:with-param name="entity" select="."/>
+            </xsl:call-template>
+            <xsl:call-template name="org-mentions">
+                <xsl:with-param name="entity" select="."/>
+            </xsl:call-template>
         </div>
+    </xsl:template>
+    <!-- ORG: Sub-Templates -->
+    <!-- Alternative orgName-Werte als Komma-Liste -->
+    <xsl:template name="org-namensvarianten">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:variable name="ersterName" select="$entity/tei:orgName[1]"/>
+        <xsl:if test="$entity/tei:orgName[2]">
+            <p>
+                <xsl:for-each
+                    select="distinct-values($entity/tei:orgName[@type = 'ort_alternative-name'])">
+                    <xsl:if test=". != $ersterName">
+                        <xsl:value-of select="."/>
+                    </xsl:if>
+                    <xsl:if test="not(position() = last())">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </p>
+        </xsl:if>
+    </xsl:template>
+    <!-- Standorte (tei:location/tei:placeName) -->
+    <xsl:template name="org-orte">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="$entity/tei:location">
+            <div>
+                <legend>Orte</legend>
+                <ul class="dashed">
+                    <li>
+                        <xsl:for-each
+                            select="$entity/tei:location/tei:placeName[not(. = preceding-sibling::tei:placeName)]">
+                            <xsl:variable name="key-or-ref" as="xs:string?">
+                                <xsl:value-of
+                                    select="concat(replace(@key, 'place__', 'pmb'), replace(@ref, 'place__', 'pmb'))"
+                                />
+                            </xsl:variable>
+                            <xsl:choose>
+                                <xsl:when test="key('place-lookup', $key-or-ref, $places)">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat($key-or-ref, '.html')"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="."/>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="not(position() = last())">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </li>
+                </ul>
+            </div>
+        </xsl:if>
+    </xsl:template>
+    <!-- Mentions-Block (events oder tei:note[@type='mentions']) -->
+    <xsl:template name="org-mentions">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:choose>
+            <xsl:when test="$current-edition = 'schnitzler-kultur'">
+                <xsl:variable name="notes" as="node()">
+                    <xsl:call-template name="fill-event-variable">
+                        <xsl:with-param name="xmlid" select="$entity/@xml:id"/>
+                        <xsl:with-param name="entitityType" select="'orgName'"/>
+                    </xsl:call-template>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$notes"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$entity//tei:note[@type = 'mentions'][1]">
+                <xsl:variable name="mentionsGrp">
+                    <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$mentionsGrp"/>
+                </xsl:call-template>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <!-- EVENT -->
     <xsl:template match="tei:event" name="event_detail">
@@ -944,379 +852,354 @@
         </xsl:variable>
         <div class="container-fluid">
             <div class="card-body-index">
-                <div id="mentions">
-                    <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                        <p class="buttonreihe">
-                            <xsl:variable name="idnos-of-current" as="node()">
-                                <xsl:element name="nodeset_place">
-                                    <xsl:for-each select="tei:idno">
-                                        <xsl:copy-of select="."/>
-                                    </xsl:for-each>
-                                </xsl:element>
-                            </xsl:variable>
-                            <xsl:call-template name="mam:idnosToLinks">
-                                <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                            </xsl:call-template>
-                        </p>
-                    </xsl:if>
-                </div>
+                <xsl:call-template name="event-buttonreihe">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
                 <xsl:call-template name="relationen-block">
                     <xsl:with-param name="entity" select="."/>
                 </xsl:call-template>
-                <xsl:variable name="xmlid" select="@xml:id"/>
                 <table class="table entity-table mx-auto" style="max-width=800px">
                     <tbody>
-                        <tr>
-                            <th> Datum </th>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <xsl:choose>
-                                            <xsl:when test="@from-iso and @to-iso">
-                                                <xsl:value-of select="mam:wochentag(@from-iso)"/>
-                                                <xsl:text>, </xsl:text>
-                                                <xsl:value-of
-                                                  select="format-date(@from-iso, '[D1]. ')"/>
-                                                <xsl:value-of select="mam:monat(@from-iso)"/>
-                                                <xsl:value-of
-                                                  select="format-date(@from-iso, ' [Y]')"/>
-                                                <xsl:text> bis </xsl:text>
-                                                <xsl:value-of select="mam:wochentag(@to-iso)"/>
-                                                <xsl:text>, </xsl:text>
-                                                <xsl:value-of
-                                                  select="format-date(@to-iso, '[D1]. ')"/>
-                                                <xsl:value-of select="mam:monat(@to-iso)"/>
-                                                <xsl:value-of select="format-date(@to-iso, ' [Y]')"
-                                                />
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="(@from-iso = '' or not(@from-iso)) and @to-iso">
-                                                <xsl:text>bis </xsl:text>
-                                                <xsl:value-of select="mam:wochentag(@to-iso)"/>
-                                                <xsl:text>, </xsl:text>
-                                                <xsl:value-of
-                                                  select="format-date(@to-iso, '[D1]. ')"/>
-                                                <xsl:value-of select="mam:monat(@to-iso)"/>
-                                                <xsl:value-of select="format-date(@to-iso, ' [Y]')"
-                                                />
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="mam:wochentag(@when-iso)"/>
-                                                <xsl:text>, </xsl:text>
-                                                <xsl:value-of
-                                                  select="format-date(@when-iso, '[D1]. ')"/>
-                                                <xsl:value-of select="mam:monat(@when-iso)"/>
-                                                <xsl:value-of
-                                                  select="format-date(@when-iso, ' [Y]')"/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Veranstaltungsort</th>
-                            <td>
-                                <ul>
-                                    <xsl:for-each select="tei:listPlace/tei:place">
-                                        <li>
-                                            <!-- Link zum Ort -->
-                                            <xsl:element name="a">
-                                                <xsl:attribute name="target">_blank</xsl:attribute>
-                                                <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(tei:placeName/@key, '.html')"/>
-                                                </xsl:attribute>
-                                                <xsl:value-of
-                                                  select="normalize-space(tei:placeName)"/>
-                                            </xsl:element>
-                                            <!-- Karte & OSM-Link -->
-                                            <xsl:if test="./tei:location/tei:geo">
-                                                <!-- Karte -->
-                                                <div id="map_detail"
-                                                  style="height: 250px; width: 475px;"/>
-                                                <!-- Koordinaten vorbereiten -->
-                                                <xsl:variable name="mlat"
-                                                  select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
-                                                <xsl:variable name="mlong"
-                                                  select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[2], ',', '.')"/>
-                                                <xsl:variable name="mappin"
-                                                  select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)"
-                                                  as="xs:string"/>
-                                                <xsl:variable name="openstreetmapurl"
-                                                  select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
-                                                <!-- OSM-Link klein und rechtsbündig -->
-                                                <div class="text-end" style="width: 475px;">
-                                                  <a class="small d-block mt-1" target="_blank">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="$openstreetmapurl"/>
-                                                  </xsl:attribute>
-                                                  <i class="bi bi-box-arrow-up-right"/>
-                                                  OpenStreetMap </a>
-                                                </div>
-                                            </xsl:if>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
-                            </td>
-                        </tr>
-                        <xsl:if
-                            test="tei:listBibl/tei:bibl/tei:title[not(tei:note[contains(., 'rezensi')])]">
-                            <tr>
-                                <th>Aufgeführte Werke</th>
-                                <td>
-                                    <ul>
-                                        <xsl:for-each
-                                            select="tei:listBibl/tei:bibl[not(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]">
-                                            <li>
-                                                <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(tei:title/@key, '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="normalize-space(tei:title)"
-                                                  />
-                                                </xsl:element>
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>
-                                </td>
-                            </tr>
+                        <xsl:call-template name="event-row-datum">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-veranstaltungsort">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-werke">
+                            <xsl:with-param name="entity" select="."/>
+                            <xsl:with-param name="rezension" select="false()"/>
+                            <xsl:with-param name="label" select="'Aufgeführte Werke'"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-werke">
+                            <xsl:with-param name="entity" select="."/>
+                            <xsl:with-param name="rezension" select="true()"/>
+                            <xsl:with-param name="label" select="'Rezensionen'"/>
+                        </xsl:call-template>
+                        <xsl:variable name="arbeitskraefte"
+                            select="tei:listPerson/tei:person[@role = 'hat als Arbeitskraft' or contains(@role, 'mitwirkend')]"/>
+                        <xsl:if test="$arbeitskraefte">
+                            <xsl:call-template name="event-row-personen">
+                                <xsl:with-param name="persons" select="$arbeitskraefte"/>
+                                <xsl:with-param name="label" select="'Arbeitskräfte'"/>
+                            </xsl:call-template>
                         </xsl:if>
-                        <xsl:if
-                            test="tei:listBibl/tei:bibl/tei:title[(tei:note[contains(., 'rezensi')])]">
-                            <tr>
-                                <th>Rezensionen</th>
-                                <td>
-                                    <ul>
-                                        <xsl:for-each
-                                            select="tei:listBibl/tei:bibl[(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]">
-                                            <li>
-                                                <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(tei:title/@key, '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="normalize-space(tei:title)"
-                                                  />
-                                                </xsl:element>
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </xsl:if>
-                        <xsl:if test="tei:listPerson/tei:person[@role = 'hat als Arbeitskraft' or contains(@role, 'mitwirkend')]">
-                            <tr>
-                                <th>Arbeitskräfte</th>
-                                <td>
-                                    <ul>
-                                        <xsl:for-each
-                                            select="tei:listPerson/tei:person[@role = 'hat als Arbeitskraft' or contains(@role, 'mitwirkend')]">
-                                            <li>
-                                                <xsl:variable name="name" select="tei:persName"/>
-                                                <xsl:choose>
-                                                  <!-- Wenn genau ein Komma enthalten ist -->
-                                                  <xsl:when
-                                                  test="matches($name, '^[^,]+,\s*[^,]+$')">
-                                                  <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($name/@key, '.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <xsl:analyze-string select="$name"
-                                                  regex="^([^,]+),\s*(.+)$">
-                                                  <xsl:matching-substring>
-                                                  <xsl:value-of select="regex-group(2)"/>
-                                                  <xsl:text> </xsl:text>
-                                                  <xsl:value-of select="regex-group(1)"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:non-matching-substring>
-                                                  </xsl:analyze-string>
-                                                  </xsl:element>
-                                                  </xsl:when>
-                                                  <!-- Wenn kein oder mehr als ein Komma enthalten ist -->
-                                                  <xsl:otherwise>
-                                                  <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($name/@key, '.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="$name"/>
-                                                  </xsl:element>
-                                                  </xsl:otherwise>
-                                                </xsl:choose>
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </xsl:if>
-                        <tr>
-                            <th>Teilnehmende</th>
-                            <td>
-                                <ul>
-                                    <xsl:for-each
-                                        select="tei:listPerson/tei:person[@role = 'hat als Teilnehmer:in' or contains(@role, 'teilnehmend')]">
-                                        <li>
-                                            <xsl:variable name="name" select="tei:persName"/>
-                                            <xsl:choose>
-                                                <!-- Wenn genau ein Komma enthalten ist -->
-                                                <xsl:when test="matches($name, '^[^,]+,\s*[^,]+$')">
-                                                  <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($name/@key, '.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <xsl:analyze-string select="$name"
-                                                  regex="^([^,]+),\s*(.+)$">
-                                                  <xsl:matching-substring>
-                                                  <xsl:value-of select="regex-group(2)"/>
-                                                  <xsl:text> </xsl:text>
-                                                  <xsl:value-of select="regex-group(1)"/>
-                                                  </xsl:matching-substring>
-                                                  <xsl:non-matching-substring>
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:non-matching-substring>
-                                                  </xsl:analyze-string>
-                                                  </xsl:element>
-                                                </xsl:when>
-                                                <!-- Wenn kein oder mehr als ein Komma enthalten ist -->
-                                                <xsl:otherwise>
-                                                  <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($name/@key, '.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="$name"/>
-                                                  </xsl:element>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
-                            </td>
-                        </tr>
-                        <xsl:if test="descendant::tei:listOrg">
-                            <tr>
-                                <th>Beteiligte Institution</th>
-                                <td>
-                                    <ul>
-                                        <xsl:for-each
-                                            select="tei:note[@type = 'listorg']/tei:listOrg/tei:org">
-                                            <li>
-                                                <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(tei:orgName/@key, '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="tei:orgName"/>
-                                                </xsl:element>
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </xsl:if>
-                        <xsl:if
-                            test="(descendant::tei:placeName/@key = 'pmb14' or descendant::tei:placeName/@key = 'pmb185621') and not(contains(tei:eventName/@n, 'robe'))">
-                            <tr>
-                                <th>Theaterzettel</th>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <a>
-                                                <xsl:attribute name="target">
-                                                  <xsl:text>_blank</xsl:text>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="href">
-                                                  <xsl:choose>
-                                                  <xsl:when
-                                                  test="year-from-date(@when-iso) &lt; 1899">
-                                                  <xsl:value-of
-                                                  select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=wtz&amp;datum=', replace(@when-iso, '-', ''))"
-                                                  />
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=bth&amp;datum=', replace(@when-iso, '-', ''))"
-                                                  />
-                                                  </xsl:otherwise>
-                                                  </xsl:choose>
-                                                </xsl:attribute>
-                                                <xsl:text>ANNO</xsl:text>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </xsl:if>
-                        <tr>
-                            <th>Tageszeitungen</th>
-                            <td>
-                                <ul>
-                                    <li>
-                                        <a>
-                                            <xsl:attribute name="target">
-                                                <xsl:text>_blank</xsl:text>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of
-                                                  select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(@when-iso, '-', ''))"
-                                                />
-                                            </xsl:attribute>
-                                            <xsl:text>Österreich</xsl:text>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <xsl:attribute name="target">
-                                                <xsl:text>_blank</xsl:text>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of
-                                                  select="concat('https://www.deutsche-digitale-bibliothek.de/newspaper/select/month?day=', day-from-date(@when-iso), '&amp;month=', month-from-date(@when-iso), '&amp;year=', year-from-date(@when-iso))"
-                                                />
-                                            </xsl:attribute>
-                                            <xsl:text>Deutschland</xsl:text>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
+                        <xsl:call-template name="event-row-personen">
+                            <xsl:with-param name="persons"
+                                select="tei:listPerson/tei:person[@role = 'hat als Teilnehmer:in' or contains(@role, 'teilnehmend')]"/>
+                            <xsl:with-param name="label" select="'Teilnehmende'"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-institutionen">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-theaterzettel">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-tageszeitungen">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
                     </tbody>
                 </table>
-                <xsl:choose>
-                    <!--<xsl:when test="$current-edition = 'schnitzler-kultur'">
-                        <xsl:variable name="notes" as="node()">
-                            <xsl:call-template name="fill-event-variable">
-                                <xsl:with-param name="xmlid" select="@xml:id"/>
-                                <xsl:with-param name="entitityType" select="'persName'"/>
-                            </xsl:call-template>
-                        </xsl:variable>
-                        <xsl:call-template name="list-all-mentions">
-                            <xsl:with-param name="mentions" select="$notes"/>
-                        </xsl:call-template>
-                    </xsl:when>-->
-                    <!-- events in events gerade nicht vorgesehen -->
-                    <xsl:when test=".//tei:note[@type = 'mentions'][1]">
-                        <xsl:variable name="mentionsGrp">
-                            <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
-                                <xsl:copy-of select="descendant::tei:note[@type = 'mentions']"/>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="list-all-mentions">
-                            <xsl:with-param name="mentions" select="$mentionsGrp"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <!-- hier ließe sich eine Fehlermeldung ausgeben -->
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:call-template name="event-mentions">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
             </div>
         </div>
+    </xsl:template>
+    <!-- EVENT: Sub-Templates -->
+    <!-- Buttonreihe mit LOD-Idnos -->
+    <xsl:template name="event-buttonreihe">
+        <xsl:param name="entity" as="node()"/>
+        <div id="mentions">
+            <xsl:if test="key('only-relevant-uris', $entity/tei:idno/@subtype, $relevant-uris)[1]">
+                <p class="buttonreihe">
+                    <xsl:variable name="idnos-of-current" as="node()">
+                        <xsl:element name="nodeset_place">
+                            <xsl:for-each select="$entity/tei:idno">
+                                <xsl:copy-of select="."/>
+                            </xsl:for-each>
+                        </xsl:element>
+                    </xsl:variable>
+                    <xsl:call-template name="mam:idnosToLinks">
+                        <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                    </xsl:call-template>
+                </p>
+            </xsl:if>
+        </div>
+    </xsl:template>
+    <!-- Datums-Zeile -->
+    <xsl:template name="event-row-datum">
+        <xsl:param name="entity" as="node()"/>
+        <tr>
+            <th> Datum </th>
+            <td>
+                <ul>
+                    <li>
+                        <xsl:choose>
+                            <xsl:when test="$entity/@from-iso and $entity/@to-iso">
+                                <xsl:value-of select="mam:wochentag($entity/@from-iso)"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="format-date($entity/@from-iso, '[D1]. ')"/>
+                                <xsl:value-of select="mam:monat($entity/@from-iso)"/>
+                                <xsl:value-of select="format-date($entity/@from-iso, ' [Y]')"/>
+                                <xsl:text> bis </xsl:text>
+                                <xsl:value-of select="mam:wochentag($entity/@to-iso)"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="format-date($entity/@to-iso, '[D1]. ')"/>
+                                <xsl:value-of select="mam:monat($entity/@to-iso)"/>
+                                <xsl:value-of select="format-date($entity/@to-iso, ' [Y]')"/>
+                            </xsl:when>
+                            <xsl:when
+                                test="($entity/@from-iso = '' or not($entity/@from-iso)) and $entity/@to-iso">
+                                <xsl:text>bis </xsl:text>
+                                <xsl:value-of select="mam:wochentag($entity/@to-iso)"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="format-date($entity/@to-iso, '[D1]. ')"/>
+                                <xsl:value-of select="mam:monat($entity/@to-iso)"/>
+                                <xsl:value-of select="format-date($entity/@to-iso, ' [Y]')"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="mam:wochentag($entity/@when-iso)"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="format-date($entity/@when-iso, '[D1]. ')"/>
+                                <xsl:value-of select="mam:monat($entity/@when-iso)"/>
+                                <xsl:value-of select="format-date($entity/@when-iso, ' [Y]')"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- Veranstaltungsort-Zeile (mit Karte) -->
+    <xsl:template name="event-row-veranstaltungsort">
+        <xsl:param name="entity" as="node()"/>
+        <tr>
+            <th>Veranstaltungsort</th>
+            <td>
+                <ul>
+                    <xsl:for-each select="$entity/tei:listPlace/tei:place">
+                        <li>
+                            <xsl:element name="a">
+                                <xsl:attribute name="target">_blank</xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="concat(tei:placeName/@key, '.html')"/>
+                                </xsl:attribute>
+                                <xsl:value-of select="normalize-space(tei:placeName)"/>
+                            </xsl:element>
+                            <xsl:if test="./tei:location/tei:geo">
+                                <div id="map_detail" style="height: 250px; width: 475px;"/>
+                                <xsl:variable name="mlat"
+                                    select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
+                                <xsl:variable name="mlong"
+                                    select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[2], ',', '.')"/>
+                                <xsl:variable name="mappin"
+                                    select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)"
+                                    as="xs:string"/>
+                                <xsl:variable name="openstreetmapurl"
+                                    select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
+                                <div class="text-end" style="width: 475px;">
+                                    <a class="small d-block mt-1" target="_blank">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="$openstreetmapurl"/>
+                                        </xsl:attribute>
+                                        <i class="bi bi-box-arrow-up-right"/>
+                                        OpenStreetMap </a>
+                                </div>
+                            </xsl:if>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- Werke- bzw. Rezensions-Zeile (Filter über $rezension) -->
+    <xsl:template name="event-row-werke">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:param name="rezension" as="xs:boolean"/>
+        <xsl:param name="label" as="xs:string"/>
+        <xsl:variable name="bibls" select="
+                if ($rezension)
+                then $entity/tei:listBibl/tei:bibl[(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]
+                else $entity/tei:listBibl/tei:bibl[not(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]"/>
+        <xsl:if test="$bibls">
+            <tr>
+                <th>
+                    <xsl:value-of select="$label"/>
+                </th>
+                <td>
+                    <ul>
+                        <xsl:for-each select="$bibls">
+                            <li>
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat(tei:title/@key, '.html')"/>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="normalize-space(tei:title)"/>
+                                </xsl:element>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </td>
+            </tr>
+        </xsl:if>
+    </xsl:template>
+    <!-- Personen-Zeile (Arbeitskräfte / Teilnehmende) -->
+    <xsl:template name="event-row-personen">
+        <xsl:param name="persons" as="node()*"/>
+        <xsl:param name="label" as="xs:string"/>
+        <tr>
+            <th>
+                <xsl:value-of select="$label"/>
+            </th>
+            <td>
+                <ul>
+                    <xsl:for-each select="$persons">
+                        <li>
+                            <xsl:variable name="name" select="tei:persName"/>
+                            <xsl:choose>
+                                <xsl:when test="matches($name, '^[^,]+,\s*[^,]+$')">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat($name/@key, '.html')"/>
+                                        </xsl:attribute>
+                                        <xsl:analyze-string select="$name" regex="^([^,]+),\s*(.+)$">
+                                            <xsl:matching-substring>
+                                                <xsl:value-of select="regex-group(2)"/>
+                                                <xsl:text> </xsl:text>
+                                                <xsl:value-of select="regex-group(1)"/>
+                                            </xsl:matching-substring>
+                                            <xsl:non-matching-substring>
+                                                <xsl:value-of select="."/>
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat($name/@key, '.html')"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="$name"/>
+                                    </xsl:element>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- Beteiligte Institutionen -->
+    <xsl:template name="event-row-institutionen">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="$entity/descendant::tei:listOrg">
+            <tr>
+                <th>Beteiligte Institution</th>
+                <td>
+                    <ul>
+                        <xsl:for-each
+                            select="$entity/tei:note[@type = 'listorg']/tei:listOrg/tei:org">
+                            <li>
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat(tei:orgName/@key, '.html')"/>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="tei:orgName"/>
+                                </xsl:element>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </td>
+            </tr>
+        </xsl:if>
+    </xsl:template>
+    <!-- Theaterzettel-Zeile (nur Burgtheater-Vorstellungen) -->
+    <xsl:template name="event-row-theaterzettel">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if
+            test="($entity/descendant::tei:placeName/@key = 'pmb14' or $entity/descendant::tei:placeName/@key = 'pmb185621') and not(contains($entity/tei:eventName/@n, 'robe'))">
+            <tr>
+                <th>Theaterzettel</th>
+                <td>
+                    <ul>
+                        <li>
+                            <a>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="year-from-date($entity/@when-iso) &lt; 1899">
+                                            <xsl:value-of
+                                                select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=wtz&amp;datum=', replace($entity/@when-iso, '-', ''))"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=bth&amp;datum=', replace($entity/@when-iso, '-', ''))"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:text>ANNO</xsl:text>
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </xsl:if>
+    </xsl:template>
+    <!-- Tageszeitungen-Zeile (ANNO + DDB) -->
+    <xsl:template name="event-row-tageszeitungen">
+        <xsl:param name="entity" as="node()"/>
+        <tr>
+            <th>Tageszeitungen</th>
+            <td>
+                <ul>
+                    <li>
+                        <a>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace($entity/@when-iso, '-', ''))"
+                                />
+                            </xsl:attribute>
+                            <xsl:text>Österreich</xsl:text>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="concat('https://www.deutsche-digitale-bibliothek.de/newspaper/select/month?day=', day-from-date($entity/@when-iso), '&amp;month=', month-from-date($entity/@when-iso), '&amp;year=', year-from-date($entity/@when-iso))"
+                                />
+                            </xsl:attribute>
+                            <xsl:text>Deutschland</xsl:text>
+                        </a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- Mentions-Block (events-in-events deaktiviert; nur tei:note[@type='mentions']) -->
+    <xsl:template name="event-mentions">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="$entity//tei:note[@type = 'mentions'][1]">
+            <xsl:variable name="mentionsGrp">
+                <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
+                </xsl:element>
+            </xsl:variable>
+            <xsl:call-template name="list-all-mentions">
+                <xsl:with-param name="mentions" select="$mentionsGrp"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
     <xsl:function name="mam:ahref-namen">
         <xsl:param name="typityp" as="xs:string"/>
