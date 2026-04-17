@@ -674,48 +674,20 @@
                     <xsl:call-template name="event-buttonreihe">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
-                    <table class="table entity-table mx-auto" style="max-width:800px">
-                        <tbody>
-                            <xsl:call-template name="event-row-datum">
-                                <xsl:with-param name="entity" select="."/>
-                            </xsl:call-template>
-                            <xsl:call-template name="event-row-veranstaltungsort">
-                                <xsl:with-param name="entity" select="."/>
-                            </xsl:call-template>
-                            <xsl:call-template name="event-row-werke">
-                                <xsl:with-param name="entity" select="."/>
-                                <xsl:with-param name="rezension" select="false()"/>
-                                <xsl:with-param name="label" select="'Aufgeführte Werke'"/>
-                            </xsl:call-template>
-                            <xsl:call-template name="event-row-werke">
-                                <xsl:with-param name="entity" select="."/>
-                                <xsl:with-param name="rezension" select="true()"/>
-                                <xsl:with-param name="label" select="'Rezensionen'"/>
-                            </xsl:call-template>
-                            <xsl:variable name="arbeitskraefte"
-                                select="tei:listPerson/tei:person[@role = 'hat als Arbeitskraft' or contains(@role, 'mitwirkend')]"/>
-                            <xsl:if test="$arbeitskraefte">
-                                <xsl:call-template name="event-row-personen">
-                                    <xsl:with-param name="persons" select="$arbeitskraefte"/>
-                                    <xsl:with-param name="label" select="'Arbeitskräfte'"/>
-                                </xsl:call-template>
-                            </xsl:if>
-                            <xsl:call-template name="event-row-personen">
-                                <xsl:with-param name="persons"
-                                    select="tei:listPerson/tei:person[@role = 'hat als Teilnehmer:in' or contains(@role, 'teilnehmend')]"/>
-                                <xsl:with-param name="label" select="'Teilnehmende'"/>
-                            </xsl:call-template>
-                            <xsl:call-template name="event-row-institutionen">
-                                <xsl:with-param name="entity" select="."/>
-                            </xsl:call-template>
-                            <xsl:call-template name="event-row-theaterzettel">
-                                <xsl:with-param name="entity" select="."/>
-                            </xsl:call-template>
-                            <xsl:call-template name="event-row-tageszeitungen">
-                                <xsl:with-param name="entity" select="."/>
-                            </xsl:call-template>
-                        </tbody>
-                    </table>
+                    <div>
+                        <xsl:call-template name="event-row-datum">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-veranstaltungsort">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-theaterzettel">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-tageszeitungen">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                    </div>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
                 <div class="entity-main">
@@ -761,88 +733,78 @@
     <!-- Datums-Zeile -->
     <xsl:template name="event-row-datum">
         <xsl:param name="entity" as="node()"/>
-        <tr>
-            <th> Datum </th>
-            <td>
-                <ul>
-                    <li>
-                        <xsl:choose>
-                            <xsl:when test="$entity/@from-iso and $entity/@to-iso">
-                                <xsl:value-of select="mam:wochentag($entity/@from-iso)"/>
-                                <xsl:text>, </xsl:text>
-                                <xsl:value-of select="format-date($entity/@from-iso, '[D1]. ')"/>
-                                <xsl:value-of select="mam:monat($entity/@from-iso)"/>
-                                <xsl:value-of select="format-date($entity/@from-iso, ' [Y]')"/>
-                                <xsl:text> bis </xsl:text>
-                                <xsl:value-of select="mam:wochentag($entity/@to-iso)"/>
-                                <xsl:text>, </xsl:text>
-                                <xsl:value-of select="format-date($entity/@to-iso, '[D1]. ')"/>
-                                <xsl:value-of select="mam:monat($entity/@to-iso)"/>
-                                <xsl:value-of select="format-date($entity/@to-iso, ' [Y]')"/>
-                            </xsl:when>
-                            <xsl:when
-                                test="($entity/@from-iso = '' or not($entity/@from-iso)) and $entity/@to-iso">
-                                <xsl:text>bis </xsl:text>
-                                <xsl:value-of select="mam:wochentag($entity/@to-iso)"/>
-                                <xsl:text>, </xsl:text>
-                                <xsl:value-of select="format-date($entity/@to-iso, '[D1]. ')"/>
-                                <xsl:value-of select="mam:monat($entity/@to-iso)"/>
-                                <xsl:value-of select="format-date($entity/@to-iso, ' [Y]')"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="mam:wochentag($entity/@when-iso)"/>
-                                <xsl:text>, </xsl:text>
-                                <xsl:value-of select="format-date($entity/@when-iso, '[D1]. ')"/>
-                                <xsl:value-of select="mam:monat($entity/@when-iso)"/>
-                                <xsl:value-of select="format-date($entity/@when-iso, ' [Y]')"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </li>
-                </ul>
-            </td>
-        </tr>
+        <h6>Datum</h6>
+        <p>
+            <xsl:choose>
+                <xsl:when test="$entity/@from-iso and $entity/@to-iso">
+                    <xsl:value-of select="mam:wochentag($entity/@from-iso)"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="format-date($entity/@from-iso, '[D1]. ')"/>
+                    <xsl:value-of select="mam:monat($entity/@from-iso)"/>
+                    <xsl:value-of select="format-date($entity/@from-iso, ' [Y]')"/>
+                    <xsl:text> bis </xsl:text>
+                    <xsl:value-of select="mam:wochentag($entity/@to-iso)"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="format-date($entity/@to-iso, '[D1]. ')"/>
+                    <xsl:value-of select="mam:monat($entity/@to-iso)"/>
+                    <xsl:value-of select="format-date($entity/@to-iso, ' [Y]')"/>
+                </xsl:when>
+                <xsl:when
+                    test="($entity/@from-iso = '' or not($entity/@from-iso)) and $entity/@to-iso">
+                    <xsl:text>bis </xsl:text>
+                    <xsl:value-of select="mam:wochentag($entity/@to-iso)"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="format-date($entity/@to-iso, '[D1]. ')"/>
+                    <xsl:value-of select="mam:monat($entity/@to-iso)"/>
+                    <xsl:value-of select="format-date($entity/@to-iso, ' [Y]')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="mam:wochentag($entity/@when-iso)"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="format-date($entity/@when-iso, '[D1]. ')"/>
+                    <xsl:value-of select="mam:monat($entity/@when-iso)"/>
+                    <xsl:value-of select="format-date($entity/@when-iso, ' [Y]')"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </p>
     </xsl:template>
     <!-- Veranstaltungsort-Zeile (mit Karte) -->
     <xsl:template name="event-row-veranstaltungsort">
         <xsl:param name="entity" as="node()"/>
-        <tr>
-            <th>Veranstaltungsort</th>
-            <td>
-                <ul>
-                    <xsl:for-each select="$entity/tei:listPlace/tei:place">
-                        <li>
-                            <xsl:element name="a">
-                                <xsl:attribute name="target">_blank</xsl:attribute>
+        <h6>Veranstaltungsort</h6>
+        <ul class="list-unstyled">
+            <xsl:for-each select="$entity/tei:listPlace/tei:place">
+                <li>
+                    <xsl:element name="a">
+                        <xsl:attribute name="target">_blank</xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat(tei:placeName/@key, '.html')"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="normalize-space(tei:placeName)"/>
+                    </xsl:element>
+                    <xsl:if test="./tei:location/tei:geo">
+                        <div id="map_detail" style="height: 250px; width: 475px;"/>
+                        <xsl:variable name="mlat"
+                            select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
+                        <xsl:variable name="mlong"
+                            select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[2], ',', '.')"/>
+                        <xsl:variable name="mappin"
+                            select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)"
+                            as="xs:string"/>
+                        <xsl:variable name="openstreetmapurl"
+                            select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
+                        <div class="text-end" style="width: 475px;">
+                            <a class="small d-block mt-1" target="_blank">
                                 <xsl:attribute name="href">
-                                    <xsl:value-of select="concat(tei:placeName/@key, '.html')"/>
+                                    <xsl:value-of select="$openstreetmapurl"/>
                                 </xsl:attribute>
-                                <xsl:value-of select="normalize-space(tei:placeName)"/>
-                            </xsl:element>
-                            <xsl:if test="./tei:location/tei:geo">
-                                <div id="map_detail" style="height: 250px; width: 475px;"/>
-                                <xsl:variable name="mlat"
-                                    select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
-                                <xsl:variable name="mlong"
-                                    select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[2], ',', '.')"/>
-                                <xsl:variable name="mappin"
-                                    select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)"
-                                    as="xs:string"/>
-                                <xsl:variable name="openstreetmapurl"
-                                    select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
-                                <div class="text-end" style="width: 475px;">
-                                    <a class="small d-block mt-1" target="_blank">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="$openstreetmapurl"/>
-                                        </xsl:attribute>
-                                        <i class="bi bi-box-arrow-up-right"/>
-                                        OpenStreetMap </a>
-                                </div>
-                            </xsl:if>
-                        </li>
-                    </xsl:for-each>
-                </ul>
-            </td>
-        </tr>
+                                <i class="bi bi-box-arrow-up-right"/>
+                                OpenStreetMap </a>
+                        </div>
+                    </xsl:if>
+                </li>
+            </xsl:for-each>
+        </ul>
     </xsl:template>
     <!-- Werke- bzw. Rezensions-Zeile (Filter über $rezension) -->
     <xsl:template name="event-row-werke">
@@ -950,73 +912,63 @@
         <xsl:param name="entity" as="node()"/>
         <xsl:if
             test="($entity/descendant::tei:placeName/@key = 'pmb14' or $entity/descendant::tei:placeName/@key = 'pmb185621') and not(contains($entity/tei:eventName/@n, 'robe'))">
-            <tr>
-                <th>Theaterzettel</th>
-                <td>
-                    <ul>
-                        <li>
-                            <a>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="href">
-                                    <xsl:choose>
-                                        <xsl:when test="year-from-date($entity/@when-iso) &lt; 1899">
-                                            <xsl:value-of
-                                                select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=wtz&amp;datum=', replace($entity/@when-iso, '-', ''))"
-                                            />
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=bth&amp;datum=', replace($entity/@when-iso, '-', ''))"
-                                            />
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:attribute>
-                                <xsl:text>ANNO</xsl:text>
-                            </a>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
+            <h6>Theaterzettel</h6>
+            <p>
+                <a>
+                    <xsl:attribute name="target">
+                        <xsl:text>_blank</xsl:text>
+                    </xsl:attribute>
+                    <xsl:attribute name="href">
+                        <xsl:choose>
+                            <xsl:when test="year-from-date($entity/@when-iso) &lt; 1899">
+                                <xsl:value-of
+                                    select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=wtz&amp;datum=', replace($entity/@when-iso, '-', ''))"
+                                />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of
+                                    select="concat('https://anno.onb.ac.at/cgi-content/anno?aid=bth&amp;datum=', replace($entity/@when-iso, '-', ''))"
+                                />
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:text>ANNO</xsl:text>
+                </a>
+            </p>
         </xsl:if>
     </xsl:template>
     <!-- Tageszeitungen-Zeile (ANNO + DDB) -->
     <xsl:template name="event-row-tageszeitungen">
         <xsl:param name="entity" as="node()"/>
-        <tr>
-            <th>Tageszeitungen</th>
-            <td>
-                <ul>
-                    <li>
-                        <a>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace($entity/@when-iso, '-', ''))"
-                                />
-                            </xsl:attribute>
-                            <xsl:text>Österreich</xsl:text>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="concat('https://www.deutsche-digitale-bibliothek.de/newspaper/select/month?day=', day-from-date($entity/@when-iso), '&amp;month=', month-from-date($entity/@when-iso), '&amp;year=', year-from-date($entity/@when-iso))"
-                                />
-                            </xsl:attribute>
-                            <xsl:text>Deutschland</xsl:text>
-                        </a>
-                    </li>
-                </ul>
-            </td>
-        </tr>
+        <h6>Tageszeitungen</h6>
+        <ul class="list-unstyled">
+            <li>
+                <a>
+                    <xsl:attribute name="target">
+                        <xsl:text>_blank</xsl:text>
+                    </xsl:attribute>
+                    <xsl:attribute name="href">
+                        <xsl:value-of
+                            select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace($entity/@when-iso, '-', ''))"
+                        />
+                    </xsl:attribute>
+                    <xsl:text>Österreich</xsl:text>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <xsl:attribute name="target">
+                        <xsl:text>_blank</xsl:text>
+                    </xsl:attribute>
+                    <xsl:attribute name="href">
+                        <xsl:value-of
+                            select="concat('https://www.deutsche-digitale-bibliothek.de/newspaper/select/month?day=', day-from-date($entity/@when-iso), '&amp;month=', month-from-date($entity/@when-iso), '&amp;year=', year-from-date($entity/@when-iso))"
+                        />
+                    </xsl:attribute>
+                    <xsl:text>Deutschland</xsl:text>
+                </a>
+            </li>
+        </ul>
     </xsl:template>
     <!-- Mentions-Block (events-in-events deaktiviert; nur tei:note[@type='mentions']) -->
     <xsl:template name="event-mentions">

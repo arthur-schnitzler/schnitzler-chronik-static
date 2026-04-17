@@ -12,6 +12,30 @@
     --entity-tab-text: #495057;
 }
 
+/* ── Eltern-Container aufweiten wenn entity-layout drin ist ──── */
+.card:has(.entity-layout) {
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+}
+
+.card:has(.entity-layout) > .card-body,
+.card:has(.entity-layout) > .card-body-index {
+    padding: 0;
+}
+
+.container-fluid:has(.entity-layout) {
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+/* Fallback fuer Browser ohne :has() – die entity-layout-Klasse
+   liegt direkt auf card-body-index, daher reicht das: */
+.card-body-index.entity-layout {
+    max-width: 100%;
+}
+
 /* ── Zwei-Spalten-Grid ───────────────────────────────────────── */
 .entity-layout {
     display: grid;
@@ -142,6 +166,11 @@
     display: none; /* Summary ist redundant, weil Tab-Titel schon zeigt */
 }
 
+/* Erwähnungen-Legend im Tab ausblenden (Tab-Titel reicht) */
+.entity-tab-panel #mentions > .infodesc > legend {
+    display: none;
+}
+
 .entity-tab-panel .relationen[open] {
     padding: 0;
 }
@@ -200,31 +229,36 @@
     }
 }
 
-/* ── WikimediaContainer in Sidebar ───────────────────────────── */
+/* ── WikimediaContainer in Sidebar: Bild oben, Text darunter ── */
 .entity-sidebar .WikimediaContainer {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
+    display: block;
 }
 
 .entity-sidebar .WikimediaLeft-div {
-    flex-shrink: 0;
+    margin-bottom: 1rem;
 }
 
 .entity-sidebar .WikimediaLeft-div img {
-    width: 140px;
+    width: 100%;
+    max-width: 280px;
     height: auto;
     border-radius: .35rem;
 }
 
 .entity-sidebar .WikimediaRight-div {
-    flex: 1;
-    min-width: 0;
+    text-align: left;
 }
 
 /* Ohne Bild: kompakter */
 .entity-sidebar > div:first-child:not(.WikimediaContainer) {
     margin-bottom: .5rem;
+}
+
+/* Sidebar-Text generell linksbündig */
+.entity-sidebar p,
+.entity-sidebar .personenname,
+.entity-sidebar i {
+    text-align: left;
 }
 
 /* ── Dashed Listen vereinheitlichen ──────────────────────────── */
@@ -237,4 +271,61 @@
     content: "–";
     margin-right: .5em;
     color: #999;
+}
+
+/* ── "Mehr anzeigen"-Bereich bei langen Listen ───────────────── */
+.entity-tab-panel .relationen-mehr {
+    list-style: none;
+    margin-top: .5rem;
+}
+
+.entity-tab-panel .relationen-mehr::before {
+    content: none; /* kein Dash vor dem Aufklapper */
+}
+
+.entity-tab-panel .relationen-mehr > details > summary {
+    display: inline-block;
+    padding: .35rem .9rem;
+    font-size: .85rem;
+    color: var(--entity-accent);
+    background: var(--entity-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background .15s, color .15s;
+    margin-top: .25rem;
+}
+
+.entity-tab-panel .relationen-mehr > details > summary:hover {
+    background: var(--entity-accent);
+    color: #fff;
+}
+
+.entity-tab-panel .relationen-mehr > details[open] > summary {
+    background: var(--entity-accent);
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.entity-tab-panel .relationen-mehr > details > ul.dashed {
+    padding-left: 0;
+    border-left: 3px solid var(--entity-border);
+    margin-left: .5rem;
+    padding-left: .75rem;
+}
+
+/* ── Legacy-Relationen (ohne Typ-Überschrift) ────────────────── */
+.entity-tab-panel .relationen > ul.dashed {
+    padding: .5rem 0 .75rem 1rem;
+    border-left: 3px solid var(--entity-accent);
+    margin-bottom: 1rem;
+}
+
+.entity-tab-panel .relationen > ul.dashed::before {
+    content: "Weitere Beziehungen";
+    display: block;
+    font-weight: 600;
+    color: var(--entity-tab-text);
+    margin-bottom: .4rem;
+    margin-left: -.25rem;
 }
