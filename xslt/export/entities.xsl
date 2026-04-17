@@ -29,14 +29,16 @@
                         <div class="WikimediaContainer">
                             <div class="WikimediaLeft-div">
                                 <figure>
-                                    <img src="{tei:figure/tei:graphic/@url}" alt="Image" width="200px;"/>
+                                    <img src="{tei:figure/tei:graphic/@url}" alt="Image"
+                                        width="200px;"/>
                                 </figure>
                             </div>
                             <div class="WikimediaRight-div">
                                 <xsl:call-template name="person-namen-block">
                                     <xsl:with-param name="entity" select="."/>
                                     <xsl:with-param name="namensformen" select="$namensformen"/>
-                                    <xsl:with-param name="surname-fallback" select="string($lemma-name//tei:surname)"/>
+                                    <xsl:with-param name="surname-fallback"
+                                        select="string($lemma-name//tei:surname)"/>
                                 </xsl:call-template>
                             </div>
                         </div>
@@ -61,7 +63,8 @@
             <!-- Rechte Spalte: Tabs -->
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                        >Relationen</button>
                     <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                 </div>
                 <div id="tab-relationen" class="entity-tab-panel active">
@@ -85,7 +88,8 @@
             <p class="personenname">
                 <xsl:choose>
                     <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
-                        <xsl:value-of select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"/>
+                        <xsl:value-of
+                            select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"/>
                     </xsl:when>
                     <xsl:when test="./tei:forename/text()">
                         <xsl:value-of select="./tei:forename/text()"/>
@@ -168,14 +172,17 @@
         <xsl:param name="namensformen" as="node()"/>
         <xsl:param name="surname-fallback" as="xs:string?" select="''"/>
         <xsl:call-template name="person-hauptname">
-            <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName[descendant::*]"/>
+            <xsl:with-param name="namen"
+                select="$namensformen/descendant::tei:persName[descendant::*]"/>
         </xsl:call-template>
         <xsl:call-template name="person-geburtsname">
             <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName"/>
             <xsl:with-param name="surname-fallback" select="$surname-fallback"/>
         </xsl:call-template>
         <xsl:call-template name="persName-gruppen">
-            <xsl:with-param name="namen" select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"/>
+            <xsl:with-param name="namen"
+                select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"
+            />
         </xsl:call-template>
         <xsl:call-template name="person-berufe">
             <xsl:with-param name="entity" select="$entity"/>
@@ -197,7 +204,9 @@
                         <li>
                             <a>
                                 <xsl:attribute name="href">
-                                    <xsl:value-of select="concat('toc_', replace($correspondence/@xml:id, 'correspondence_', ''), '.html')"/>
+                                    <xsl:value-of
+                                        select="concat('toc_', replace($correspondence/@xml:id, 'correspondence_', ''), '.html')"
+                                    />
                                 </xsl:attribute>
                                 <xsl:text>Zum Briefwechsel Schnitzler – </xsl:text>
                                 <xsl:value-of select="$lemma-name"/>
@@ -286,7 +295,8 @@
             <!-- Rechte Spalte: Tabs -->
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                        >Relationen</button>
                     <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                 </div>
                 <div id="tab-relationen" class="entity-tab-panel active">
@@ -349,13 +359,15 @@
             <div id="labels" class="mt-2">
                 <span class="infodesc mr-2">
                     <ul class="dashed">
-                        <xsl:for-each select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
+                        <xsl:for-each
+                            select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
                             <li>
                                 <xsl:text>Bibliografische Angabe: </xsl:text>
                                 <xsl:value-of select="."/>
                             </li>
                         </xsl:for-each>
-                        <xsl:for-each select="$entity/tei:title[@type = 'werk_link' or @type = 'anno']">
+                        <xsl:for-each
+                            select="$entity/tei:title[@type = 'werk_link' or @type = 'anno']">
                             <li>
                                 <a>
                                     <xsl:attribute name="href">
@@ -425,11 +437,13 @@
                 <!-- Rechte Spalte: Tabs -->
                 <div class="entity-main">
                     <div class="entity-tabs">
-                        <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                        <button class="entity-tab-btn active" data-tab="tab-relationen"
+                            >Relationen</button>
                         <xsl:if test=".//tei:geo/text()">
                             <button class="entity-tab-btn" data-tab="tab-karte">Karte</button>
                         </xsl:if>
-                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen"
+                            >Erwähnungen</button>
                     </div>
                     <div id="tab-relationen" class="entity-tab-panel active">
                         <xsl:call-template name="relationen-block">
@@ -562,7 +576,8 @@
             <!-- Rechte Spalte: Tabs -->
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                        >Relationen</button>
                     <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                 </div>
                 <div id="tab-relationen" class="entity-tab-panel active">
@@ -671,39 +686,39 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
-                        <xsl:call-template name="event-row-datum">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
+                    <xsl:call-template name="event-row-datum">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
                     <xsl:call-template name="event-buttonreihe">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
-                        <xsl:call-template name="event-row-veranstaltungsort">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-theaterzettel">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-tageszeitungen">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                    </div>
+                    <xsl:call-template name="event-row-veranstaltungsort">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                    <xsl:call-template name="event-row-theaterzettel">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                    <xsl:call-template name="event-row-tageszeitungen">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
                 </div>
-                <!-- Rechte Spalte: Tabs -->
-                <div class="entity-main">
-                    <div class="entity-tabs">
-                        <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
-                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
-                    </div>
-                    <div id="tab-relationen" class="entity-tab-panel active">
-                        <xsl:call-template name="relationen-block">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                    </div>
-                    <div id="tab-erwaehnungen" class="entity-tab-panel">
-                        <xsl:call-template name="event-mentions">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                    </div>
+            </div>
+            <!-- Rechte Spalte: Tabs -->
+            <div class="entity-main">
+                <div class="entity-tabs">
+                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                        >Relationen</button>
+                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                </div>
+                <div id="tab-relationen" class="entity-tab-panel active">
+                    <xsl:call-template name="relationen-block">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+                <div id="tab-erwaehnungen" class="entity-tab-panel">
+                    <xsl:call-template name="event-mentions">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
                 </div>
             </div>
         </div>
@@ -732,7 +747,6 @@
     <!-- Datums-Zeile -->
     <xsl:template name="event-row-datum">
         <xsl:param name="entity" as="node()"/>
-        
         <h6>
             <xsl:choose>
                 <xsl:when test="$entity/@from-iso and $entity/@to-iso">
@@ -787,8 +801,7 @@
                         <xsl:variable name="mlong"
                             select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[2], ',', '.')"/>
                         <xsl:variable name="mappin"
-                            select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)"
-                            as="xs:string"/>
+                            select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)" as="xs:string"/>
                         <xsl:variable name="openstreetmapurl"
                             select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
                         <div class="text-end">
@@ -796,8 +809,7 @@
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="$openstreetmapurl"/>
                                 </xsl:attribute>
-                                <i class="bi bi-box-arrow-up-right"/>
-                                OpenStreetMap </a>
+                                <i class="bi bi-box-arrow-up-right"/> OpenStreetMap </a>
                         </div>
                     </xsl:if>
                 </li>
@@ -811,8 +823,10 @@
         <xsl:param name="label" as="xs:string"/>
         <xsl:variable name="bibls" select="
                 if ($rezension)
-                then $entity/tei:listBibl/tei:bibl[(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]
-                else $entity/tei:listBibl/tei:bibl[not(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]"/>
+                then
+                    $entity/tei:listBibl/tei:bibl[(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]
+                else
+                    $entity/tei:listBibl/tei:bibl[not(tei:note[contains(., 'rezensi')]) and normalize-space(tei:title)]"/>
         <xsl:if test="$bibls">
             <tr>
                 <th>
@@ -1038,9 +1052,11 @@
                 <span class="infodesc mr-2">
                     <legend>Erwähnungen</legend>
                     <xsl:if test="$commentaryMentionCount > 0">
-                        <div class="annotation-toggle" data-type="commentary" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.9rem; font-weight: normal;">
+                        <div class="annotation-toggle" data-type="commentary"
+                            style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.9rem; font-weight: normal;">
                             <label class="switch" style="margin: 0;">
-                                <input type="checkbox" id="toggle-commentary-mentions" checked="checked"/>
+                                <input type="checkbox" id="toggle-commentary-mentions"
+                                    checked="checked"/>
                                 <span class="i-slider round" style="background-color: #A63437;"/>
                             </label>
                             <span class="opt-title">Kommentar ein-/ausblenden</span>
@@ -1065,8 +1081,8 @@
                             </xsl:element>
                         </xsl:variable>
                         <!-- SVG Balkendiagramm -->
-                        <svg viewBox="0 0 600 200" style="width:100%; max-width:600px;" height="300px"
-                            preserveAspectRatio="xMidYMid meet"
+                        <svg viewBox="0 0 600 200" style="width:100%; max-width:600px;"
+                            height="300px" preserveAspectRatio="xMidYMid meet"
                             aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
                             <!-- Achsen -->
                             <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"/>
@@ -1105,7 +1121,12 @@
                                     <rect x="{$xPos}" y="{160 - $editionstext-height}" width="4"
                                         height="{$editionstext-height}" fill="{$current-colour}">
                                         <title>
-                                            <xsl:value-of select="concat($year, ': ', $editionstext-count, ' Erwähnung', if ($editionstext-count = 1) then '' else 'en', ' (Editionstext)')"/>
+                                            <xsl:value-of select="
+                                                    concat($year, ': ', $editionstext-count, ' Erwähnung', if ($editionstext-count = 1) then
+                                                        ''
+                                                    else
+                                                        'en', ' (Editionstext)')"
+                                            />
                                         </title>
                                     </rect>
                                 </xsl:if>
@@ -1113,7 +1134,8 @@
                                 <xsl:if test="$commentary-only-count > 0">
                                     <xsl:variable name="commentary-colour">
                                         <xsl:choose>
-                                            <xsl:when test="$current-colour = '#A63437'">#D98B8E</xsl:when>
+                                            <xsl:when test="$current-colour = '#A63437'"
+                                                >#D98B8E</xsl:when>
                                             <xsl:otherwise>#CCCCCC</xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:variable>
@@ -1122,7 +1144,12 @@
                                         width="4" height="{$commentary-height}"
                                         fill="{$commentary-colour}" data-type="commentary">
                                         <title>
-                                            <xsl:value-of select="concat($year, ': ', $commentary-only-count, ' Erwähnung', if ($commentary-only-count = 1) then '' else 'en', ' (im Kommentar)')"/>
+                                            <xsl:value-of select="
+                                                    concat($year, ': ', $commentary-only-count, ' Erwähnung', if ($commentary-only-count = 1) then
+                                                        ''
+                                                    else
+                                                        'en', ' (im Kommentar)')"
+                                            />
                                         </title>
                                     </rect>
                                 </xsl:if>
@@ -1130,15 +1157,18 @@
                         </svg>
                         <xsl:if test="$commentaryMentionCount > 0">
                             <div class="text-center" style="font-size: 0.85rem; margin-top: 5px;">
-                                <span style="display: inline-block; width: 15px; height: 3px; background-color: {$current-colour}; vertical-align: middle; margin-right: 5px;"/>
+                                <span
+                                    style="display: inline-block; width: 15px; height: 3px; background-color: {$current-colour}; vertical-align: middle; margin-right: 5px;"/>
                                 <span style="margin-right: 15px;">Editionstext</span>
                                 <xsl:variable name="legend-commentary-colour">
                                     <xsl:choose>
-                                        <xsl:when test="$current-colour = '#A63437'">#D98B8E</xsl:when>
+                                        <xsl:when test="$current-colour = '#A63437'"
+                                            >#D98B8E</xsl:when>
                                         <xsl:otherwise>#CCCCCC</xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:variable>
-                                <span style="display: inline-block; width: 15px; height: 3px; background-color: {$legend-commentary-colour}; vertical-align: middle; margin-right: 5px;"/>
+                                <span
+                                    style="display: inline-block; width: 15px; height: 3px; background-color: {$legend-commentary-colour}; vertical-align: middle; margin-right: 5px;"/>
                                 <span>im Kommentar</span>
                             </div>
                         </xsl:if>
@@ -1216,7 +1246,8 @@
                                                   select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
                                                   <li>
                                                   <xsl:attribute name="class">
-                                                  <xsl:if test="@ana = 'comment'">mention-commentary</xsl:if>
+                                                  <xsl:if test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:if>
                                                   </xsl:attribute>
                                                   <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
@@ -1242,7 +1273,8 @@
                                                   </xsl:variable>
                                                   <li>
                                                   <xsl:attribute name="class">
-                                                  <xsl:if test="@ana = 'comment'">mention-commentary</xsl:if>
+                                                  <xsl:if test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:if>
                                                   </xsl:attribute>
                                                   <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
@@ -1272,7 +1304,8 @@
                                             </xsl:variable>
                                             <li>
                                                 <xsl:attribute name="class">
-                                                    <xsl:if test="@ana = 'comment'">mention-commentary</xsl:if>
+                                                  <xsl:if test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:if>
                                                 </xsl:attribute>
                                                 <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
@@ -1386,7 +1419,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-
     <!-- Hilfsfunktion: Schlüssel auf "pmb<zahl>"-Form bringen -->
     <xsl:function name="mam:to-pmb" as="xs:string">
         <xsl:param name="key" as="xs:string?"/>
@@ -1397,7 +1429,8 @@
             <xsl:when test="starts-with($key, 'pmb')">
                 <xsl:value-of select="$key"/>
             </xsl:when>
-            <xsl:when test="starts-with($key, 'person__') or starts-with($key, 'place__') or starts-with($key, 'org__') or starts-with($key, 'event__') or starts-with($key, 'work__')">
+            <xsl:when
+                test="starts-with($key, 'person__') or starts-with($key, 'place__') or starts-with($key, 'org__') or starts-with($key, 'event__') or starts-with($key, 'work__')">
                 <xsl:value-of select="concat('pmb', substring-after($key, '__'))"/>
             </xsl:when>
             <xsl:when test="matches($key, '^\d+$')">
@@ -1444,8 +1477,7 @@
                     <xsl:for-each
                         select="tei:author[not(replace(@*[name() = 'key' or name() = 'ref'], '#', '') = $author-ref)]">
                         <xsl:choose>
-                            <xsl:when
-                                test="tei:persName/tei:forename and tei:persName/tei:surname">
+                            <xsl:when test="tei:persName/tei:forename and tei:persName/tei:surname">
                                 <xsl:value-of select="tei:persName/tei:forename"/>
                                 <xsl:text> </xsl:text>
                                 <xsl:value-of select="tei:persName/tei:surname"/>
@@ -1470,23 +1502,19 @@
                                 <xsl:value-of select="."/>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if
-                            test="@role = 'editor' or @role = 'hat-herausgegeben'">
+                        <xsl:if test="@role = 'editor' or @role = 'hat-herausgegeben'">
                             <xsl:text> (Herausgabe)</xsl:text>
                         </xsl:if>
-                        <xsl:if
-                            test="@role = 'translator' or @role = 'hat-ubersetzt'">
+                        <xsl:if test="@role = 'translator' or @role = 'hat-ubersetzt'">
                             <xsl:text> (Übersetzung)</xsl:text>
                         </xsl:if>
-                        <xsl:if
-                            test="@role = 'illustrator' or @role = 'hat-illustriert'">
+                        <xsl:if test="@role = 'illustrator' or @role = 'hat-illustriert'">
                             <xsl:text> (Illustration)</xsl:text>
                         </xsl:if>
                         <xsl:if test="@role = 'hat-einen-beitrag-geschaffen-zu'">
                             <xsl:text> (Beitrag)</xsl:text>
                         </xsl:if>
-                        <xsl:if
-                            test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
+                        <xsl:if test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
                             <xsl:text> (Vor-/Nachwort)</xsl:text>
                         </xsl:if>
                         <xsl:choose>
@@ -1518,8 +1546,7 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of
-                                    select="mam:normalize-date(normalize-space(tei:date[1]))"
-                                />
+                                    select="mam:normalize-date(normalize-space(tei:date[1]))"/>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
@@ -1539,10 +1566,14 @@
                 <xsl:matching-substring>
                     <xsl:choose>
                         <xsl:when test="starts-with(., '&quot;')">
-                            <t><xsl:value-of select="regex-group(1)"/></t>
+                            <t>
+                                <xsl:value-of select="regex-group(1)"/>
+                            </t>
                         </xsl:when>
                         <xsl:otherwise>
-                            <t><xsl:value-of select="regex-group(3)"/></t>
+                            <t>
+                                <xsl:value-of select="regex-group(3)"/>
+                            </t>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:matching-substring>
@@ -1617,8 +1648,7 @@
             <xsl:for-each select="$entity/tei:affiliation">
                 <xsl:variable name="targetNode"
                     select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
-                <xsl:variable name="pmbId2"
-                    select="mam:to-pmb(string($targetNode/@key))"/>
+                <xsl:variable name="pmbId2" select="mam:to-pmb(string($targetNode/@key))"/>
                 <xsl:if test="$targetNode and mam:in-project($pmbId2)">
                     <li>
                         <xsl:if test="normalize-space(tei:term) != ''">
@@ -1653,12 +1683,21 @@
                         key('rel-by-src', $num, $relations-doc)
                         | key('rel-by-tgt', $num, $relations-doc)">
                     <xsl:variable name="is-source" select="@src-id = $num"/>
-                    <xsl:variable name="other-id" as="xs:string"
-                        select="concat('pmb', (if ($is-source) then @tgt-id else @src-id))"/>
-                    <xsl:variable name="other-type" as="xs:string"
-                        select="if ($is-source) then string(@tgt-type) else string(@src-type)"/>
-                    <xsl:variable name="other-name" as="xs:string"
-                        select="if ($is-source) then string(@tgt-name) else string(@src-name)"/>
+                    <xsl:variable name="other-id" as="xs:string" select="
+                            concat('pmb', (if ($is-source) then
+                                @tgt-id
+                            else
+                                @src-id))"/>
+                    <xsl:variable name="other-type" as="xs:string" select="
+                            if ($is-source) then
+                                string(@tgt-type)
+                            else
+                                string(@src-type)"/>
+                    <xsl:variable name="other-name" as="xs:string" select="
+                            if ($is-source) then
+                                string(@tgt-name)
+                            else
+                                string(@src-name)"/>
                     <!-- Anzeigename via Vokabular aus relations.json (Gegenrichtung bei is-source=false) -->
                     <xsl:variable name="class-key" as="xs:string"
                         select="concat(mam:pmb-type(@src-type), mam:pmb-type(@tgt-type), 'relation')"/>
@@ -1667,34 +1706,38 @@
                     <xsl:variable name="display-name" as="xs:string" select="
                             if ($is-source) then
                                 string(@type)
-                            else if ($vocab-entry and $vocab-entry/@reverse != '') then
-                                string($vocab-entry/@reverse)
                             else
-                                string(@type)"/>
-                    <xsl:variable name="self-type" as="xs:string"
-                        select="if ($is-source) then string(@src-type) else string(@tgt-type)"/>
+                                if ($vocab-entry and $vocab-entry/@reverse != '') then
+                                    string($vocab-entry/@reverse)
+                                else
+                                    string(@type)"/>
+                    <xsl:variable name="self-type" as="xs:string" select="
+                            if ($is-source) then
+                                string(@src-type)
+                            else
+                                string(@tgt-type)"/>
                     <!-- Schnitzler (pmb2121) ⇄ Ort in beide Richtungen ausblenden -->
-                    <xsl:if test="not($num = '2121' and $other-type = 'Ort')
-                                  and not($other-id = 'pmb2121' and $self-type = 'Ort')
-                                  and mam:in-project($other-id)">
-                        <rel-item display-name="{$display-name}"
-                                  other-type="{$other-type}"
-                                  other-id="{$other-id}"
-                                  other-name="{$other-name}"/>
+                    <xsl:if test="
+                            not($num = '2121' and $other-type = 'Ort')
+                            and not($other-id = 'pmb2121' and $self-type = 'Ort')
+                            and mam:in-project($other-id)">
+                        <rel-item display-name="{$display-name}" other-type="{$other-type}"
+                            other-id="{$other-id}" other-name="{$other-name}"/>
                     </xsl:if>
                 </xsl:for-each>
             </xsl:if>
         </xsl:variable>
         <!-- Auf eindeutige (display-name, other-id)-Paare reduzieren -->
         <xsl:variable name="csv-items-deduped" as="element(rel-item)*">
-            <xsl:for-each-group select="$csv-items"
-                group-by="concat(@display-name, '|', @other-id)">
+            <xsl:for-each-group select="$csv-items" group-by="concat(@display-name, '|', @other-id)">
                 <xsl:sequence select="current-group()[1]"/>
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:if test="exists($legacy-items) or exists($csv-items-deduped)">
             <details class="relationen mb-3" open="open">
-                <summary><legend>Relationen</legend></summary>
+                <summary>
+                    <legend>Relationen</legend>
+                </summary>
                 <xsl:if test="exists($legacy-items)">
                     <ul class="dashed">
                         <xsl:copy-of select="$legacy-items"/>
@@ -1728,8 +1771,9 @@
                                                 <xsl:text> weitere)</xsl:text>
                                             </summary>
                                             <ul class="dashed">
-                                                <xsl:for-each select="subsequence(current-group(), 11)">
-                                                    <xsl:call-template name="render-rel-item"/>
+                                                <xsl:for-each
+                                                  select="subsequence(current-group(), 11)">
+                                                  <xsl:call-template name="render-rel-item"/>
                                                 </xsl:for-each>
                                             </ul>
                                         </details>
@@ -1784,9 +1828,12 @@
                             <xsl:otherwise>Namensvariante</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-nachname'">Namensvariante Nachname</xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-vorname'">Namensvariante Vorname</xsl:when>
-                    <xsl:when test="$typ = 'person_adoptierter-nachname'">Nachname durch Adoption</xsl:when>
+                    <xsl:when test="$typ = 'person_namensvariante-nachname'">Namensvariante
+                        Nachname</xsl:when>
+                    <xsl:when test="$typ = 'person_namensvariante-vorname'">Namensvariante
+                        Vorname</xsl:when>
+                    <xsl:when test="$typ = 'person_adoptierter-nachname'">Nachname durch
+                        Adoption</xsl:when>
                     <xsl:when test="$typ = 'person_geschieden_nachname'">geschieden</xsl:when>
                     <xsl:when test="$typ = 'person_verwitwet_nachname'">verwitwet</xsl:when>
                 </xsl:choose>
