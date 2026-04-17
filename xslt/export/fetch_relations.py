@@ -66,8 +66,20 @@ def fetch(url: str, dest: Path) -> Path:
     return tmp
 
 
-def filter_csv(src: Path, dest: Path, ids: set[str]) -> tuple[int, int]:
+# Spalten, die bei der Eindeutigkeitsprüfung ignoriert werden
+# (Primärschlüssel + sämtliche Zeitangaben)
+IGNORE_COLS = {0, 4, 5, 6, 7, 11, 12, 17, 18}
+
+
+def _dedup_key(row: list[str]) -> tuple[str, ...]:
+    """Erzeugt einen Schlüssel aus allen Spalten außer PK und Zeitangaben."""
+    return tuple(v for i, v in enumerate(row) if i not in IGNORE_COLS)
+
+
+def filter_csv(src: Path, dest: Path, ids: set[str]) -> tuple[int, int, int]:
     kept = total = 0
+    seen: set[tuple[str, ...]] = set()
+    dupes = 0
     with src.open(newline="", encoding="utf-8") as f_in, \
             dest.open("w", newline="", encoding="utf-8") as f_out:
         reader = csv.reader(f_in)
@@ -75,15 +87,20 @@ def filter_csv(src: Path, dest: Path, ids: set[str]) -> tuple[int, int]:
         try:
             writer.writerow(next(reader))
         except StopIteration:
-            return 0, 0
+            return 0, 0, 0
         for row in reader:
             total += 1
             if len(row) < MIN_COLS:
                 continue
             if row[COL_SOURCE_ID] in ids or row[COL_TARGET_ID] in ids:
+                key = _dedup_key(row)
+                if key in seen:
+                    dupes += 1
+                    continue
+                seen.add(key)
                 writer.writerow(row)
                 kept += 1
-    return kept, total
+    return kept, total, dupes
 
 
 def main() -> int:
@@ -112,11 +129,11 @@ def main() -> int:
     print(f"Lade {args.url} ...")
     tmp = fetch(args.url, args.output)
     try:
-        kept, total = filter_csv(tmp, args.output, ids)
+        kept, total, dupes = filter_csv(tmp, args.output, ids)
     finally:
         tmp.unlink(missing_ok=True)
 
-    print(f"{kept} von {total} Relationen behalten → {args.output}")
+    print(f"{kept} von {total} Relationen behalten ({dupes} Duplikate entfernt) → {args.output}")
     return 0
 
 

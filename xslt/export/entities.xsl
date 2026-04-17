@@ -21,101 +21,60 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <div class="card-body-index">
-            <xsl:choose>
-                <xsl:when test="tei:figure/tei:graphic/@url">
-                    <div class="WikimediaContainer">
-                        <div class="WikimediaLeft-div">
-                            <figure>
-                                <img src="{tei:figure/tei:graphic/@url}" alt="Image" width="200px;"/>
-                            </figure>
+        <div class="card-body-index entity-layout">
+            <!-- Linke Spalte: Steckbrief -->
+            <div class="entity-sidebar">
+                <xsl:choose>
+                    <xsl:when test="tei:figure/tei:graphic/@url">
+                        <div class="WikimediaContainer">
+                            <div class="WikimediaLeft-div">
+                                <figure>
+                                    <img src="{tei:figure/tei:graphic/@url}" alt="Image" width="200px;"/>
+                                </figure>
+                            </div>
+                            <div class="WikimediaRight-div">
+                                <xsl:call-template name="person-namen-block">
+                                    <xsl:with-param name="entity" select="."/>
+                                    <xsl:with-param name="namensformen" select="$namensformen"/>
+                                    <xsl:with-param name="surname-fallback" select="string($lemma-name//tei:surname)"/>
+                                </xsl:call-template>
+                            </div>
                         </div>
-                        <div class="WikimediaRight-div">
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <div>
                             <xsl:call-template name="person-namen-block">
                                 <xsl:with-param name="entity" select="."/>
                                 <xsl:with-param name="namensformen" select="$namensformen"/>
-                                <xsl:with-param name="surname-fallback" select="string($lemma-name//tei:surname)"/>
                             </xsl:call-template>
                         </div>
-                    </div>
-                </xsl:when>
-                <xsl:otherwise>
-                    <div>
-                        <xsl:call-template name="person-namen-block">
-                            <xsl:with-param name="entity" select="."/>
-                            <xsl:with-param name="namensformen" select="$namensformen"/>
-                        </xsl:call-template>
-                    </div>
-                </xsl:otherwise>
-            </xsl:choose>
-            <xsl:call-template name="lod-reihe">
-                <xsl:with-param name="idno" select="$idnos"/>
-            </xsl:call-template>
-            <xsl:call-template name="person-korrespondenz">
-                <xsl:with-param name="entity" select="."/>
-                <xsl:with-param name="lemma-name" select="$lemma-name"/>
-            </xsl:call-template>
-            <xsl:call-template name="relationen-block">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
-            <!--<div class="werke mb-3">
-                <xsl:variable name="author-ref" as="xs:string">
-                    <xsl:choose>
-                        <xsl:when test="$current-edition = 'schnitzler-tagebuch'">
-                            <xsl:value-of
-                                select="replace(concat('pmb', tei:idno[@subtype = 'pmb'][1]/substring-after(., 'https://pmb.acdh.oeaw.ac.at/entity/')), '/', '')"
-                            />
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of
-                                select="concat('pmb', replace(replace(@xml:id, 'person__', ''), 'pmb', ''))"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
-                    <xsl:variable name="works-sorted" as="node()*">
-                        <xsl:for-each select="key('authorwork-lookup', $author-ref, $works)">
-                            <xsl:sort select="descendant::tei:date[1]"/>
-                            <xsl:sequence select="."/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="werke-total" select="count($works-sorted)"/>
-                    <details class="werke-block" open="open">
-                        <summary><legend>Werke</legend></summary>
-                        <ul class="dashed">
-                            <xsl:for-each select="$works-sorted[position() le 10]">
-                                <xsl:call-template name="work-list-item">
-                                    <xsl:with-param name="author-ref" select="$author-ref"/>
-                                </xsl:call-template>
-                            </xsl:for-each>
-                        </ul>
-                        <xsl:if test="$werke-total gt 10">
-                            <details class="werke-mehr">
-                                <summary>alle Werke anzeigen (<xsl:value-of select="$werke-total - 10"/> weitere)</summary>
-                                <ul class="dashed">
-                                    <xsl:for-each select="subsequence($works-sorted, 11)">
-                                        <xsl:call-template name="work-list-item">
-                                            <xsl:with-param name="author-ref" select="$author-ref"/>
-                                        </xsl:call-template>
-                                    </xsl:for-each>
-                                </ul>
-                            </details>
-                        </xsl:if>
-                    </details>
-                </xsl:if>
-                <xsl:if test="$current-edition = 'schnitzler-lektueren'">
-                    <p class="text-center">
-                        <xsl:variable name="link"
-                            select="key('lektueren-konk-lookup', @xml:id, $lektueren-konkordanz)[1]/@target"/>
-                        <a href="{concat($link, '#', @xml:id)}"
-                            style="display: inline-block; background-color: #022954; color: white; padding: 0.5em 1em; border-radius: 0.25rem; text-decoration: none;"
-                            > Zur Leseliste </a>
-                    </p>
-                </xsl:if>
-            </div>-->
-            <xsl:call-template name="person-mentions">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:call-template name="lod-reihe">
+                    <xsl:with-param name="idno" select="$idnos"/>
+                </xsl:call-template>
+                <xsl:call-template name="person-korrespondenz">
+                    <xsl:with-param name="entity" select="."/>
+                    <xsl:with-param name="lemma-name" select="$lemma-name"/>
+                </xsl:call-template>
+            </div>
+            <!-- Rechte Spalte: Tabs -->
+            <div class="entity-main">
+                <div class="entity-tabs">
+                    <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                </div>
+                <div id="tab-relationen" class="entity-tab-panel active">
+                    <xsl:call-template name="relationen-block">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+                <div id="tab-erwaehnungen" class="entity-tab-panel">
+                    <xsl:call-template name="person-mentions">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+            </div>
         </div>
     </xsl:template>
     <!-- PERSON: Sub-Templates -->
@@ -304,226 +263,43 @@
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
-        <div class="card-body-index">
+        <div class="card-body-index entity-layout">
             <xsl:variable name="idnos" as="node()">
                 <xsl:element name="idnos">
                     <xsl:copy-of select="tei:idno"/>
                 </xsl:element>
             </xsl:variable>
-            <xsl:call-template name="lod-reihe">
-                <xsl:with-param name="idno" select="$idnos"/>
-            </xsl:call-template>
-            <xsl:call-template name="relationen-block">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
-            <xsl:if test="tei:author">
-                <!-- »Geschaffen von« – jetzt über den Relationen-Block abgedeckt.
-                <div id="autor_innen">
-                    <legend>Geschaffen von</legend>
-                    <xsl:for-each select="tei:author">
-                        <ul class="dashed">
-                            <li>
-                                <xsl:variable name="keyToRef" as="xs:string">
-                                    <xsl:choose>
-                                        <xsl:when test="@key != ''">
-                                            <xsl:value-of select="@key"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="@ref"/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:variable>
-                                <xsl:variable name="autor-ref" as="xs:string">
-                                    <xsl:choose>
-                                        <xsl:when test="contains($keyToRef, 'person__')">
-                                            <xsl:value-of
-                                                select="concat('pmb', substring-after($keyToRef, 'person__'))"
-                                            />
-                                        </xsl:when>
-                                        <xsl:when test="starts-with($keyToRef, 'pmb')">
-                                            <xsl:value-of select="$keyToRef"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="concat('pmb', $keyToRef)"/>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:variable>
-                                <xsl:choose>
-                                    <xsl:when
-                                        test="$autor-ref = 'pmb2121' and $current-edition = 'schnitzler-tagebuch'">
-                                        <xsl:text>Arthur Schnitzler</xsl:text>
-                                    </xsl:when>
-                                    <xsl:when test="$autor-ref = 'pmb2121'">
-                                        <a href="pmb2121.html">
-                                            <xsl:text>Arthur Schnitzler</xsl:text>
-                                        </a>
-                                    </xsl:when>
-                                    <xsl:when test="$current-edition = 'schnitzler-tagebuch'">
-                                        <xsl:variable name="author-lookup-mit-schraegstrich"
-                                            select="
-                                                key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'),
-                                                $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
-                                        <xsl:variable name="autor-ref-schnitzler-tagebuch">
-                                            <xsl:choose>
-                                                <xsl:when
-                                                  test="$author-lookup-mit-schraegstrich != ''">
-                                                  <xsl:value-of
-                                                  select="$author-lookup-mit-schraegstrich"/>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select="(key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/'))"
-                                                  />
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:variable>
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of
-                                                  select="$autor-ref-schnitzler-tagebuch"/>
-                                            </xsl:attribute>
-                                            <xsl:choose>
-                                                <xsl:when
-                                                  test="child::tei:forename and child::tei:surname">
-                                                  <xsl:value-of select="tei:persName/tei:forename"/>
-                                                  <xsl:text> </xsl:text>
-                                                  <xsl:value-of select="tei:persName/tei:surname"/>
-                                                </xsl:when>
-                                                <xsl:when test="child::tei:surname">
-                                                  <xsl:value-of select="child::tei:surname"/>
-                                                </xsl:when>
-                                                <xsl:when test="child::tei:forename">
-                                                  <xsl:value-of select="child::tei:forename"/>"/> </xsl:when>
-                                                <xsl:when test="contains(., ', ')">
-                                                  <xsl:value-of
-                                                  select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
-                                                  />
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of select="."/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </a>
-                                        <xsl:choose>
-                                            <xsl:when
-                                                test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                                <xsl:text> (Herausgabe)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                                <xsl:text> (Übersetzung)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-ubersetzt'">
-                                                <xsl:text> (unter Pseudonym)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'hat-unter-einem-kurzel-veroffentlicht'">
-                                                <xsl:text> (unter Kürzel)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-illustriert'">
-                                                <xsl:text> (Illustration)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-vertont'">
-                                                <xsl:text> (Vertonung)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'hat-einen-beitrag-geschaffen-zu'">
-                                                <xsl:text> (Beitrag)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
-                                                <xsl:text> (Vorwort/Nachwort)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-anonym-veroffentlicht'">
-                                                <xsl:text> (ohne Namensnennung)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'bekommt-zugeschrieben'">
-                                                <xsl:text> (Zuschreibung)</xsl:text>
-                                            </xsl:when>
-                                        </xsl:choose>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of select="concat($autor-ref, '.html')"/>
-                                            </xsl:attribute>
-                                            <xsl:choose>
-                                                <xsl:when
-                                                  test="child::tei:forename and child::tei:surname">
-                                                  <xsl:value-of select="tei:persName/tei:forename"/>
-                                                  <xsl:text> </xsl:text>
-                                                  <xsl:value-of select="tei:persName/tei:surname"/>
-                                                </xsl:when>
-                                                <xsl:when test="child::tei:surname">
-                                                  <xsl:value-of select="child::tei:surname"/>
-                                                </xsl:when>
-                                                <xsl:when test="child::tei:forename">
-                                                  <xsl:value-of select="child::tei:forename"/>"/> </xsl:when>
-                                                <xsl:when test="contains(., ', ')">
-                                                  <xsl:value-of
-                                                  select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
-                                                  />
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of select="."/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </a>
-                                        <xsl:choose>
-                                            <xsl:when
-                                                test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                                <xsl:text> (Herausgabe)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                                <xsl:text> (Übersetzung)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-ubersetzt'">
-                                                <xsl:text> (unter Pseudonym)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'hat-unter-einem-kurzel-veroffentlicht'">
-                                                <xsl:text> (unter Kürzel)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-illustriert'">
-                                                <xsl:text> (Illustration)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-vertont'">
-                                                <xsl:text> (Vertonung)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'hat-einen-beitrag-geschaffen-zu'">
-                                                <xsl:text> (Beitrag)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when
-                                                test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
-                                                <xsl:text> (Vorwort/Nachwort)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'hat-anonym-veroffentlicht'">
-                                                <xsl:text> (ohne Namensnennung)</xsl:text>
-                                            </xsl:when>
-                                            <xsl:when test="@role = 'bekommt-zugeschrieben'">
-                                                <xsl:text> (Zuschreibung)</xsl:text>
-                                            </xsl:when>
-                                        </xsl:choose>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </li>
-                        </ul>
-                    </xsl:for-each>
-                </div>
-                -->
-                <xsl:call-template name="work-erscheinungsdatum">
+            <!-- Linke Spalte: Steckbrief -->
+            <div class="entity-sidebar">
+                <xsl:call-template name="lod-reihe">
+                    <xsl:with-param name="idno" select="$idnos"/>
+                </xsl:call-template>
+                <xsl:if test="tei:author">
+                    <xsl:call-template name="work-erscheinungsdatum">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </xsl:if>
+                <xsl:call-template name="work-links">
                     <xsl:with-param name="entity" select="."/>
                 </xsl:call-template>
-                <p/>
-            </xsl:if>
-            <xsl:call-template name="work-links">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
-            <xsl:call-template name="work-mentions">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
+            </div>
+            <!-- Rechte Spalte: Tabs -->
+            <div class="entity-main">
+                <div class="entity-tabs">
+                    <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                </div>
+                <div id="tab-relationen" class="entity-tab-panel active">
+                    <xsl:call-template name="relationen-block">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+                <div id="tab-erwaehnungen" class="entity-tab-panel">
+                    <xsl:call-template name="work-mentions">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+            </div>
         </div>
     </xsl:template>
     <!-- WORK: Sub-Templates -->
@@ -631,27 +407,48 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="container-fluid">
-            <div class="card-body-index">
+            <div class="card-body-index entity-layout">
                 <xsl:variable name="idnos" as="node()">
                     <xsl:element name="idnos">
                         <xsl:copy-of select="tei:idno"/>
                     </xsl:element>
                 </xsl:variable>
-                <xsl:call-template name="lod-reihe">
-                    <xsl:with-param name="idno" select="$idnos"/>
-                </xsl:call-template>
-                <xsl:call-template name="relationen-block">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
-                <xsl:call-template name="place-map">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
-                <xsl:call-template name="place-namensvarianten">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
-                <xsl:call-template name="place-mentions">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
+                <!-- Linke Spalte: Steckbrief -->
+                <div class="entity-sidebar">
+                    <xsl:call-template name="lod-reihe">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="place-namensvarianten">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+                <!-- Rechte Spalte: Tabs -->
+                <div class="entity-main">
+                    <div class="entity-tabs">
+                        <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                        <xsl:if test=".//tei:geo/text()">
+                            <button class="entity-tab-btn" data-tab="tab-karte">Karte</button>
+                        </xsl:if>
+                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    </div>
+                    <div id="tab-relationen" class="entity-tab-panel active">
+                        <xsl:call-template name="relationen-block">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                    </div>
+                    <xsl:if test=".//tei:geo/text()">
+                        <div id="tab-karte" class="entity-tab-panel">
+                            <xsl:call-template name="place-map">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                        </div>
+                    </xsl:if>
+                    <div id="tab-erwaehnungen" class="entity-tab-panel">
+                        <xsl:call-template name="place-mentions">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                    </div>
+                </div>
             </div>
         </div>
     </xsl:template>
@@ -669,17 +466,23 @@
                 <xsl:variable name="laenge" select="replace(tokenize($entity/descendant::tei:geo[1]/text(), ' ')[2], ',', '.')"/>
                 <xsl:variable name="breite" select="replace(tokenize($entity/descendant::tei:geo[1]/text(), ' ')[1], ',', '.')"/>
 
-                var mymap = L.map('mapid').setView([<xsl:value-of select="$breite"/>, <xsl:value-of select="$laenge"/>], 14);
-
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-                maxZoom: 18
-                }).addTo(mymap);
-
-                L.marker([<xsl:value-of select="$breite"/>, <xsl:value-of select="$laenge"/>])
-                .addTo(mymap)
-                .bindPopup("<b><xsl:value-of select="$entity/tei:placeName[1]/text()"/></b>")
-                .openPopup();
+                window._mapData = {
+                    lat: <xsl:value-of select="$breite"/>,
+                    lng: <xsl:value-of select="$laenge"/>,
+                    label: "<xsl:value-of select="$entity/tei:placeName[1]/text()"/>"
+                };
+                window.initEntityMap = function() {
+                    if (window.mymap) return;
+                    window.mymap = L.map('mapid').setView([window._mapData.lat, window._mapData.lng], 14);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+                        maxZoom: 18
+                    }).addTo(window.mymap);
+                    L.marker([window._mapData.lat, window._mapData.lng])
+                        .addTo(window.mymap)
+                        .bindPopup("<b>" + window._mapData.label + "</b>")
+                        .openPopup();
+                };
             </script>
         </xsl:if>
     </xsl:template>
@@ -738,27 +541,41 @@
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
-        <div class="card-body-index">
+        <div class="card-body-index entity-layout">
             <xsl:variable name="idnos" as="node()">
                 <xsl:element name="idnos">
                     <xsl:copy-of select="tei:idno"/>
                 </xsl:element>
             </xsl:variable>
-            <xsl:call-template name="lod-reihe">
-                <xsl:with-param name="idno" select="$idnos"/>
-            </xsl:call-template>
-            <xsl:call-template name="relationen-block">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
-            <xsl:call-template name="org-namensvarianten">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
-            <xsl:call-template name="org-orte">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
-            <xsl:call-template name="org-mentions">
-                <xsl:with-param name="entity" select="."/>
-            </xsl:call-template>
+            <!-- Linke Spalte: Steckbrief -->
+            <div class="entity-sidebar">
+                <xsl:call-template name="lod-reihe">
+                    <xsl:with-param name="idno" select="$idnos"/>
+                </xsl:call-template>
+                <xsl:call-template name="org-namensvarianten">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
+                <xsl:call-template name="org-orte">
+                    <xsl:with-param name="entity" select="."/>
+                </xsl:call-template>
+            </div>
+            <!-- Rechte Spalte: Tabs -->
+            <div class="entity-main">
+                <div class="entity-tabs">
+                    <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                </div>
+                <div id="tab-relationen" class="entity-tab-panel active">
+                    <xsl:call-template name="relationen-block">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+                <div id="tab-erwaehnungen" class="entity-tab-panel">
+                    <xsl:call-template name="org-mentions">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                </div>
+            </div>
         </div>
     </xsl:template>
     <!-- ORG: Sub-Templates -->
@@ -851,58 +668,72 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="container-fluid">
-            <div class="card-body-index">
-                <xsl:call-template name="event-buttonreihe">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
-                <xsl:call-template name="relationen-block">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
-                <table class="table entity-table mx-auto" style="max-width=800px">
-                    <tbody>
-                        <xsl:call-template name="event-row-datum">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-veranstaltungsort">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-werke">
-                            <xsl:with-param name="entity" select="."/>
-                            <xsl:with-param name="rezension" select="false()"/>
-                            <xsl:with-param name="label" select="'Aufgeführte Werke'"/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-werke">
-                            <xsl:with-param name="entity" select="."/>
-                            <xsl:with-param name="rezension" select="true()"/>
-                            <xsl:with-param name="label" select="'Rezensionen'"/>
-                        </xsl:call-template>
-                        <xsl:variable name="arbeitskraefte"
-                            select="tei:listPerson/tei:person[@role = 'hat als Arbeitskraft' or contains(@role, 'mitwirkend')]"/>
-                        <xsl:if test="$arbeitskraefte">
-                            <xsl:call-template name="event-row-personen">
-                                <xsl:with-param name="persons" select="$arbeitskraefte"/>
-                                <xsl:with-param name="label" select="'Arbeitskräfte'"/>
+            <div class="card-body-index entity-layout">
+                <!-- Linke Spalte: Steckbrief -->
+                <div class="entity-sidebar">
+                    <xsl:call-template name="event-buttonreihe">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                    <table class="table entity-table mx-auto" style="max-width:800px">
+                        <tbody>
+                            <xsl:call-template name="event-row-datum">
+                                <xsl:with-param name="entity" select="."/>
                             </xsl:call-template>
-                        </xsl:if>
-                        <xsl:call-template name="event-row-personen">
-                            <xsl:with-param name="persons"
-                                select="tei:listPerson/tei:person[@role = 'hat als Teilnehmer:in' or contains(@role, 'teilnehmend')]"/>
-                            <xsl:with-param name="label" select="'Teilnehmende'"/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-institutionen">
+                            <xsl:call-template name="event-row-veranstaltungsort">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                            <xsl:call-template name="event-row-werke">
+                                <xsl:with-param name="entity" select="."/>
+                                <xsl:with-param name="rezension" select="false()"/>
+                                <xsl:with-param name="label" select="'Aufgeführte Werke'"/>
+                            </xsl:call-template>
+                            <xsl:call-template name="event-row-werke">
+                                <xsl:with-param name="entity" select="."/>
+                                <xsl:with-param name="rezension" select="true()"/>
+                                <xsl:with-param name="label" select="'Rezensionen'"/>
+                            </xsl:call-template>
+                            <xsl:variable name="arbeitskraefte"
+                                select="tei:listPerson/tei:person[@role = 'hat als Arbeitskraft' or contains(@role, 'mitwirkend')]"/>
+                            <xsl:if test="$arbeitskraefte">
+                                <xsl:call-template name="event-row-personen">
+                                    <xsl:with-param name="persons" select="$arbeitskraefte"/>
+                                    <xsl:with-param name="label" select="'Arbeitskräfte'"/>
+                                </xsl:call-template>
+                            </xsl:if>
+                            <xsl:call-template name="event-row-personen">
+                                <xsl:with-param name="persons"
+                                    select="tei:listPerson/tei:person[@role = 'hat als Teilnehmer:in' or contains(@role, 'teilnehmend')]"/>
+                                <xsl:with-param name="label" select="'Teilnehmende'"/>
+                            </xsl:call-template>
+                            <xsl:call-template name="event-row-institutionen">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                            <xsl:call-template name="event-row-theaterzettel">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                            <xsl:call-template name="event-row-tageszeitungen">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Rechte Spalte: Tabs -->
+                <div class="entity-main">
+                    <div class="entity-tabs">
+                        <button class="entity-tab-btn active" data-tab="tab-relationen">Relationen</button>
+                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    </div>
+                    <div id="tab-relationen" class="entity-tab-panel active">
+                        <xsl:call-template name="relationen-block">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
-                        <xsl:call-template name="event-row-theaterzettel">
+                    </div>
+                    <div id="tab-erwaehnungen" class="entity-tab-panel">
+                        <xsl:call-template name="event-mentions">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
-                        <xsl:call-template name="event-row-tageszeitungen">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                    </tbody>
-                </table>
-                <xsl:call-template name="event-mentions">
-                    <xsl:with-param name="entity" select="."/>
-                </xsl:call-template>
+                    </div>
+                </div>
             </div>
         </div>
     </xsl:template>

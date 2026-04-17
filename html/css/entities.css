@@ -1,0 +1,240 @@
+/* entities.css – Layout für Entitätsseiten
+   Übernimmt Farben und Schrift vom Hauptprojekt (style.css / Bootstrap)
+   ================================================================== */
+
+/* ── Variablen (aus dem Projekt) ─────────────────────────────── */
+:root {
+    --entity-accent: #008B8B;
+    --entity-bg: #f8f9fa;
+    --entity-card-bg: #fff;
+    --entity-border: #dee2e6;
+    --entity-tab-active: #008B8B;
+    --entity-tab-text: #495057;
+}
+
+/* ── Zwei-Spalten-Grid ───────────────────────────────────────── */
+.entity-layout {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    padding: 1rem 0;
+}
+
+/* ── Linke Spalte: Steckbrief (sticky) ───────────────────────── */
+.entity-sidebar {
+    position: sticky;
+    top: 100px; /* unterhalb der Navbar */
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .5rem;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+.entity-sidebar figure {
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.entity-sidebar figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: .35rem;
+}
+
+.entity-sidebar .personenname {
+    font-size: 1.05rem;
+    margin-bottom: .25rem;
+}
+
+.entity-sidebar legend {
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--entity-accent);
+    border-bottom: 2px solid var(--entity-accent);
+    padding-bottom: .25rem;
+    margin-bottom: .5rem;
+}
+
+.entity-sidebar .buttonreihe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin-top: .75rem;
+}
+
+.entity-sidebar .korrespondenz {
+    margin-top: 1rem;
+}
+
+/* ── Rechte Spalte: Tabs ─────────────────────────────────────── */
+.entity-main {
+    min-width: 0; /* Grid-Overflow verhindern */
+}
+
+/* Tab-Navigation */
+.entity-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border-bottom: 2px solid var(--entity-border);
+    margin-bottom: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.entity-tab-btn {
+    padding: .6rem 1.2rem;
+    border: none;
+    background: none;
+    font-size: .95rem;
+    color: var(--entity-tab-text);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: color .15s, border-color .15s;
+    white-space: nowrap;
+}
+
+.entity-tab-btn:hover {
+    color: var(--entity-tab-active);
+}
+
+.entity-tab-btn.active {
+    color: var(--entity-tab-active);
+    border-bottom-color: var(--entity-tab-active);
+    font-weight: 600;
+}
+
+/* Tab-Panels */
+.entity-tab-panel {
+    display: none;
+    animation: fadeIn .2s ease;
+}
+
+.entity-tab-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Sektions-Styling ────────────────────────────────────────── */
+.entity-tab-panel legend {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--entity-accent);
+    border-bottom: 2px solid var(--entity-accent);
+    padding-bottom: .3rem;
+    margin-bottom: .75rem;
+}
+
+.entity-tab-panel .relationen {
+    border: none;
+}
+
+.entity-tab-panel .relationen > summary {
+    display: none; /* Summary ist redundant, weil Tab-Titel schon zeigt */
+}
+
+.entity-tab-panel .relationen[open] {
+    padding: 0;
+}
+
+.entity-tab-panel .relationen-typ {
+    margin-bottom: .75rem;
+}
+
+.entity-tab-panel .relationen-typ > summary {
+    font-weight: 600;
+    color: var(--entity-tab-text);
+    cursor: pointer;
+    padding: .3rem 0;
+}
+
+/* Karte – volle Breite im Tab */
+.entity-tab-panel #mapid {
+    height: 450px;
+    width: 100%;
+    border-radius: .35rem;
+    margin-bottom: 1rem;
+}
+
+/* Mentions-Chart responsive */
+.entity-tab-panel #mentions-chart svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Erwähnungsliste */
+.entity-tab-panel .year-details {
+    margin-bottom: .5rem;
+}
+
+/* Entity-Tabelle (Events) */
+.entity-tab-panel .entity-table {
+    margin: 0;
+}
+
+/* ── Responsive: einspaltiges Layout auf schmalen Screens ────── */
+@media (max-width: 992px) {
+    .entity-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .entity-sidebar {
+        position: static;
+        max-height: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .entity-tab-btn {
+        padding: .5rem .7rem;
+        font-size: .85rem;
+    }
+}
+
+/* ── WikimediaContainer in Sidebar ───────────────────────────── */
+.entity-sidebar .WikimediaContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.entity-sidebar .WikimediaLeft-div {
+    flex-shrink: 0;
+}
+
+.entity-sidebar .WikimediaLeft-div img {
+    width: 140px;
+    height: auto;
+    border-radius: .35rem;
+}
+
+.entity-sidebar .WikimediaRight-div {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Ohne Bild: kompakter */
+.entity-sidebar > div:first-child:not(.WikimediaContainer) {
+    margin-bottom: .5rem;
+}
+
+/* ── Dashed Listen vereinheitlichen ──────────────────────────── */
+.entity-tab-panel ul.dashed {
+    list-style: none;
+    padding-left: 0;
+}
+
+.entity-tab-panel ul.dashed li::before {
+    content: "–";
+    margin-right: .5em;
+    color: #999;
+}
