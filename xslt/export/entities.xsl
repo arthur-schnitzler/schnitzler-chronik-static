@@ -671,13 +671,12 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
-                    <xsl:call-template name="event-buttonreihe">
-                        <xsl:with-param name="entity" select="."/>
-                    </xsl:call-template>
-                    <div>
                         <xsl:call-template name="event-row-datum">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
+                    <xsl:call-template name="event-buttonreihe">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
                         <xsl:call-template name="event-row-veranstaltungsort">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
@@ -733,8 +732,8 @@
     <!-- Datums-Zeile -->
     <xsl:template name="event-row-datum">
         <xsl:param name="entity" as="node()"/>
-        <h6>Datum</h6>
-        <p>
+        
+        <h6>
             <xsl:choose>
                 <xsl:when test="$entity/@from-iso and $entity/@to-iso">
                     <xsl:value-of select="mam:wochentag($entity/@from-iso)"/>
@@ -766,12 +765,11 @@
                     <xsl:value-of select="format-date($entity/@when-iso, ' [Y]')"/>
                 </xsl:otherwise>
             </xsl:choose>
-        </p>
+        </h6>
     </xsl:template>
     <!-- Veranstaltungsort-Zeile (mit Karte) -->
     <xsl:template name="event-row-veranstaltungsort">
         <xsl:param name="entity" as="node()"/>
-        <h6>Veranstaltungsort</h6>
         <ul class="list-unstyled">
             <xsl:for-each select="$entity/tei:listPlace/tei:place">
                 <li>
@@ -783,7 +781,7 @@
                         <xsl:value-of select="normalize-space(tei:placeName)"/>
                     </xsl:element>
                     <xsl:if test="./tei:location/tei:geo">
-                        <div id="map_detail" style="height: 250px; width: 475px;"/>
+                        <div id="map_detail" style="height: 250px; width: 100%;"/>
                         <xsl:variable name="mlat"
                             select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
                         <xsl:variable name="mlong"
@@ -793,7 +791,7 @@
                             as="xs:string"/>
                         <xsl:variable name="openstreetmapurl"
                             select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
-                        <div class="text-end" style="width: 475px;">
+                        <div class="text-end">
                             <a class="small d-block mt-1" target="_blank">
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="$openstreetmapurl"/>
@@ -940,7 +938,7 @@
     <!-- Tageszeitungen-Zeile (ANNO + DDB) -->
     <xsl:template name="event-row-tageszeitungen">
         <xsl:param name="entity" as="node()"/>
-        <h6>Tageszeitungen</h6>
+        <h6>Tageszeitungen vom aktuellen Tag</h6>
         <ul class="list-unstyled">
             <li>
                 <a>
@@ -1048,7 +1046,7 @@
                             <span class="opt-title">Kommentar ein-/ausblenden</span>
                         </div>
                     </xsl:if>
-                    <div id="mentions-chart" class="mt-3 mb-3">
+                    <div id="mentions-chart" class="mt-3 mb-3" style="max-width:600px;">
                         <xsl:variable name="start-year" as="xs:integer">
                             <xsl:choose>
                                 <xsl:when test="$current-edition = 'schnitzler-kultur'"> 1876 </xsl:when>
@@ -1067,7 +1065,7 @@
                             </xsl:element>
                         </xsl:variable>
                         <!-- SVG Balkendiagramm -->
-                        <svg viewBox="0 0 600 200" width="100%" height="300px"
+                        <svg viewBox="0 0 600 200" style="width:100%; max-width:600px;" height="300px"
                             preserveAspectRatio="xMidYMid meet"
                             aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
                             <!-- Achsen -->
