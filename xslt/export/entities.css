@@ -111,6 +111,8 @@
 }
 
 .entity-tab-btn {
+    flex: 1 1 0;
+    text-align: center;
     padding: .6rem 1.2rem;
     border: none;
     background: none;
@@ -314,18 +316,3 @@
     padding-left: .75rem;
 }
 
-/* ── Legacy-Relationen (ohne Typ-Überschrift) ────────────────── */
-.entity-tab-panel .relationen > ul.dashed {
-    padding: .5rem 0 .75rem 1rem;
-    border-left: 3px solid var(--entity-accent);
-    margin-bottom: 1rem;
-}
-
-.entity-tab-panel .relationen > ul.dashed::before {
-    content: "Weitere Beziehungen";
-    display: block;
-    font-weight: 600;
-    color: var(--entity-tab-text);
-    margin-bottom: .4rem;
-    margin-left: -.25rem;
-}
