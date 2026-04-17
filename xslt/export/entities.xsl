@@ -975,19 +975,32 @@
             </li>
         </ul>
     </xsl:template>
-    <!-- Mentions-Block (events-in-events deaktiviert; nur tei:note[@type='mentions']) -->
+    <!-- Mentions-Block (events oder tei:note[@type='mentions']) -->
     <xsl:template name="event-mentions">
         <xsl:param name="entity" as="node()"/>
-        <xsl:if test="$entity//tei:note[@type = 'mentions'][1]">
-            <xsl:variable name="mentionsGrp">
-                <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
-                </xsl:element>
-            </xsl:variable>
-            <xsl:call-template name="list-all-mentions">
-                <xsl:with-param name="mentions" select="$mentionsGrp"/>
-            </xsl:call-template>
-        </xsl:if>
+        <xsl:choose>
+            <xsl:when test="$current-edition = 'schnitzler-kultur'">
+                <xsl:variable name="notes" as="node()">
+                    <xsl:call-template name="fill-event-variable">
+                        <xsl:with-param name="xmlid" select="$entity/@xml:id"/>
+                        <xsl:with-param name="entitityType" select="'eventName'"/>
+                    </xsl:call-template>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$notes"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$entity//tei:note[@type = 'mentions'][1]">
+                <xsl:variable name="mentionsGrp">
+                    <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:copy-of select="$entity//tei:note[@type = 'mentions']"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:call-template name="list-all-mentions">
+                    <xsl:with-param name="mentions" select="$mentionsGrp"/>
+                </xsl:call-template>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:function name="mam:ahref-namen">
         <xsl:param name="typityp" as="xs:string"/>
@@ -1321,6 +1334,7 @@
         <div id="lod-mentions">
             <xsl:if
                 test="key('only-relevant-uris', $idno/tei:idno[not(@subtype = $current-edition)]/@subtype, $relevant-uris)[1]">
+                <legend>Ressourcen</legend>
                 <p class="buttonreihe">
                     <xsl:variable name="idnos-of-current" as="node()">
                         <xsl:element name="nodeset_person">

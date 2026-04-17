@@ -103,16 +103,18 @@
 /* Tab-Navigation */
 .entity-tabs {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0;
     border-bottom: 2px solid var(--entity-border);
     margin-bottom: 1rem;
     padding: 0;
     list-style: none;
+    width: 100%;
 }
 
 .entity-tab-btn {
-    flex: 1 1 0;
+    flex: 1 1 0%;
+    min-width: 0;
     text-align: center;
     padding: .6rem 1.2rem;
     border: none;
@@ -304,5 +306,9 @@ details.rel-inline > summary:hover {
 
 details.rel-inline[open] > summary {
     display: none;
+}
+
+details.rel-inline[open] {
+    display: inline;
 }
 
