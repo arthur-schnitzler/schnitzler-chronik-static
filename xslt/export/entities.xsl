@@ -63,17 +63,17 @@
             <!-- Rechte Spalte: Tabs -->
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                    <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    <button class="entity-tab-btn" data-tab="tab-relationen"
                         >Relationen</button>
-                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                 </div>
-                <div id="tab-relationen" class="entity-tab-panel active">
-                    <xsl:call-template name="relationen-block">
+                <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                    <xsl:call-template name="person-mentions">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                 </div>
-                <div id="tab-erwaehnungen" class="entity-tab-panel">
-                    <xsl:call-template name="person-mentions">
+                <div id="tab-relationen" class="entity-tab-panel">
+                    <xsl:call-template name="relationen-block">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                 </div>
@@ -295,17 +295,17 @@
             <!-- Rechte Spalte: Tabs -->
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                    <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    <button class="entity-tab-btn" data-tab="tab-relationen"
                         >Relationen</button>
-                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                 </div>
-                <div id="tab-relationen" class="entity-tab-panel active">
-                    <xsl:call-template name="relationen-block">
+                <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                    <xsl:call-template name="work-mentions">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                 </div>
-                <div id="tab-erwaehnungen" class="entity-tab-panel">
-                    <xsl:call-template name="work-mentions">
+                <div id="tab-relationen" class="entity-tab-panel">
+                    <xsl:call-template name="relationen-block">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                 </div>
@@ -433,32 +433,25 @@
                     <xsl:call-template name="place-namensvarianten">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
+                    <xsl:call-template name="place-map">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
                 <div class="entity-main">
                     <div class="entity-tabs">
-                        <button class="entity-tab-btn active" data-tab="tab-relationen"
-                            >Relationen</button>
-                        <xsl:if test=".//tei:geo/text()">
-                            <button class="entity-tab-btn" data-tab="tab-karte">Karte</button>
-                        </xsl:if>
-                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen"
+                        <button class="entity-tab-btn active" data-tab="tab-erwaehnungen"
                             >Erwähnungen</button>
+                        <button class="entity-tab-btn" data-tab="tab-relationen"
+                            >Relationen</button>
                     </div>
-                    <div id="tab-relationen" class="entity-tab-panel active">
-                        <xsl:call-template name="relationen-block">
+                    <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                        <xsl:call-template name="place-mentions">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                     </div>
-                    <xsl:if test=".//tei:geo/text()">
-                        <div id="tab-karte" class="entity-tab-panel">
-                            <xsl:call-template name="place-map">
-                                <xsl:with-param name="entity" select="."/>
-                            </xsl:call-template>
-                        </div>
-                    </xsl:if>
-                    <div id="tab-erwaehnungen" class="entity-tab-panel">
-                        <xsl:call-template name="place-mentions">
+                    <div id="tab-relationen" class="entity-tab-panel">
+                        <xsl:call-template name="relationen-block">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                     </div>
@@ -471,7 +464,7 @@
     <xsl:template name="place-map">
         <xsl:param name="entity" as="node()"/>
         <xsl:if test="$entity//tei:geo/text()">
-            <div id="mapid" style="height: 400px; width:100%; clear: both;"> </div>
+            <div id="mapid" style="height: 250px; width:100%; clear: both;"> </div>
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
                 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
                 crossorigin=""/>
@@ -576,17 +569,17 @@
             <!-- Rechte Spalte: Tabs -->
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-relationen"
+                    <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    <button class="entity-tab-btn" data-tab="tab-relationen"
                         >Relationen</button>
-                    <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                 </div>
-                <div id="tab-relationen" class="entity-tab-panel active">
-                    <xsl:call-template name="relationen-block">
+                <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                    <xsl:call-template name="org-mentions">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                 </div>
-                <div id="tab-erwaehnungen" class="entity-tab-panel">
-                    <xsl:call-template name="org-mentions">
+                <div id="tab-relationen" class="entity-tab-panel">
+                    <xsl:call-template name="relationen-block">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                 </div>
@@ -705,17 +698,17 @@
                 <!-- Rechte Spalte: Tabs -->
                 <div class="entity-main">
                     <div class="entity-tabs">
-                        <button class="entity-tab-btn active" data-tab="tab-relationen"
+                        <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
+                        <button class="entity-tab-btn" data-tab="tab-relationen"
                             >Relationen</button>
-                        <button class="entity-tab-btn" data-tab="tab-erwaehnungen">Erwähnungen</button>
                     </div>
-                    <div id="tab-relationen" class="entity-tab-panel active">
-                        <xsl:call-template name="relationen-block">
+                    <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                        <xsl:call-template name="event-mentions">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                     </div>
-                    <div id="tab-erwaehnungen" class="entity-tab-panel">
-                        <xsl:call-template name="event-mentions">
+                    <div id="tab-relationen" class="entity-tab-panel">
+                        <xsl:call-template name="relationen-block">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                     </div>
@@ -1612,6 +1605,18 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    <!-- Personennamen umkehren: "Nachname, Vorname" → "Vorname Nachname" -->
+    <xsl:function name="mam:vn-nn" as="xs:string">
+        <xsl:param name="name" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="matches($name, '^[^,]+,\s*.+$')">
+                <xsl:value-of select="replace($name, '^([^,]+),\s*(.+)$', '$2 $1')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$name"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     <!-- Plural-Label für Entitätstyp (für Relationen-Sektionen) -->
     <xsl:function name="mam:type-label" as="xs:string">
         <xsl:param name="type" as="xs:string?"/>
@@ -1702,13 +1707,19 @@
                                 string(@tgt-name)
                             else
                                 string(@src-name)"/>
-                    <!-- Anzeigename via Vokabular aus relations.json (Gegenrichtung bei is-source=false) -->
+                    <!-- Anzeigename via Vokabular aus relations.json -->
                     <xsl:variable name="class-key" as="xs:string"
                         select="concat(mam:pmb-type(@src-type), mam:pmb-type(@tgt-type), 'relation')"/>
                     <xsl:variable name="vocab-entry"
                         select="key('vocab-by-cn', concat($class-key, '|', @type), $vocab-doc)"/>
+                    <!-- Bei person–person und person–event ist die Richtung im CSV
+                         umgekehrt zur gewünschten Anzeigerichtung: swap -->
+                    <xsl:variable name="swap" as="xs:boolean"
+                        select="$class-key = 'personpersonrelation'
+                                or $class-key = 'personeventrelation'"/>
                     <xsl:variable name="display-name" as="xs:string" select="
-                            if ($is-source) then
+                            if ($is-source and not($swap)
+                                or not($is-source) and $swap) then
                                 string(@type)
                             else
                                 if ($vocab-entry and $vocab-entry/@reverse != '') then
@@ -1770,24 +1781,22 @@
                                     <xsl:text>: </xsl:text>
                                     <xsl:for-each select="$sorted-targets[position() le 10]">
                                         <a href="{concat(@other-id, '.html')}">
-                                            <xsl:value-of select="@other-name"/>
+                                            <xsl:value-of select="mam:vn-nn(@other-name)"/>
                                         </a>
-                                        <xsl:if test="position() != last()">
+                                        <xsl:if test="position() != last() or $total gt 10">
                                             <xsl:text>; </xsl:text>
                                         </xsl:if>
                                     </xsl:for-each>
                                     <xsl:if test="$total gt 10">
-                                        <xsl:text> </xsl:text>
-                                        <details style="display:inline">
-                                            <summary style="display:inline; cursor:pointer; color:var(--entity-accent); font-size:.9em">
+                                        <details class="rel-inline">
+                                            <summary>
                                                 <xsl:text>… </xsl:text>
                                                 <xsl:value-of select="$total - 10"/>
                                                 <xsl:text> weitere</xsl:text>
                                             </summary>
-                                            <xsl:text>; </xsl:text>
                                             <xsl:for-each select="subsequence($sorted-targets, 11)">
                                                 <a href="{concat(@other-id, '.html')}">
-                                                    <xsl:value-of select="@other-name"/>
+                                                    <xsl:value-of select="mam:vn-nn(@other-name)"/>
                                                 </a>
                                                 <xsl:if test="position() != last()">
                                                     <xsl:text>; </xsl:text>

@@ -17,15 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
             });
             var panel = container.querySelector('#' + tabId);
             if (panel) panel.classList.add('active');
-            // Leaflet-Karte: lazy init + invalidateSize
-            if (tabId === 'tab-karte') {
-                if (typeof window.initEntityMap === 'function') {
-                    window.initEntityMap();
-                }
-                if (window.mymap) {
-                    setTimeout(function () { window.mymap.invalidateSize(); }, 150);
-                }
-            }
         });
     });
+    // Leaflet-Karte in der Sidebar sofort initialisieren
+    if (typeof window.initEntityMap === 'function') {
+        window.initEntityMap();
+    }
 });

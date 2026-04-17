@@ -97,6 +97,7 @@
 /* ── Rechte Spalte: Tabs ─────────────────────────────────────── */
 .entity-main {
     min-width: 0; /* Grid-Overflow verhindern */
+    width: 100%;
 }
 
 /* Tab-Navigation */
@@ -188,12 +189,12 @@
     padding: .3rem 0;
 }
 
-/* Karte – volle Breite im Tab */
-.entity-tab-panel #mapid {
-    height: 450px;
+/* Karte in der Sidebar */
+.entity-sidebar #mapid {
     width: 100%;
     border-radius: .35rem;
-    margin-bottom: 1rem;
+    margin-top: .75rem;
+    margin-bottom: .5rem;
 }
 
 /* Mentions-Chart responsive */
@@ -266,6 +267,11 @@
 /* ── Dashed Listen vereinheitlichen ──────────────────────────── */
 .entity-tab-panel ul.dashed {
     list-style: none;
+    padding-left: 1.2em;
+}
+
+.entity-tab-panel ul.dashed li {
+    text-indent: -1.2em;
     padding-left: 0;
 }
 
@@ -275,44 +281,28 @@
     color: #999;
 }
 
-/* ── "Mehr anzeigen"-Bereich bei langen Listen ───────────────── */
-.entity-tab-panel .relationen-mehr {
-    list-style: none;
-    margin-top: .5rem;
+/* ── Links in Relationen: fett bei Hover ────────────────────── */
+.entity-tab-panel .relationen a:hover {
+    font-weight: 700;
 }
 
-.entity-tab-panel .relationen-mehr::before {
-    content: none; /* kein Dash vor dem Aufklapper */
+/* ── Inline-Details für "… N weitere" ───────────────────────── */
+details.rel-inline {
+    display: inline;
 }
 
-.entity-tab-panel .relationen-mehr > details > summary {
-    display: inline-block;
-    padding: .35rem .9rem;
-    font-size: .85rem;
-    color: var(--entity-accent);
-    background: var(--entity-bg);
-    border: 1px solid var(--entity-border);
-    border-radius: 1rem;
+details.rel-inline > summary {
+    display: inline;
     cursor: pointer;
-    transition: background .15s, color .15s;
-    margin-top: .25rem;
+    color: var(--entity-accent);
+    font-size: .9em;
 }
 
-.entity-tab-panel .relationen-mehr > details > summary:hover {
-    background: var(--entity-accent);
-    color: #fff;
+details.rel-inline > summary:hover {
+    text-decoration: underline;
 }
 
-.entity-tab-panel .relationen-mehr > details[open] > summary {
-    background: var(--entity-accent);
-    color: #fff;
-    margin-bottom: .5rem;
-}
-
-.entity-tab-panel .relationen-mehr > details > ul.dashed {
-    padding-left: 0;
-    border-left: 3px solid var(--entity-border);
-    margin-left: .5rem;
-    padding-left: .75rem;
+details.rel-inline[open] > summary {
+    display: none;
 }
 
