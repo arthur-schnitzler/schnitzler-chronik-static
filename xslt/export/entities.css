@@ -288,27 +288,30 @@
     font-weight: 700;
 }
 
-/* ── Inline-Details für "… N weitere" ───────────────────────── */
-details.rel-inline {
-    display: inline;
+/* ── Inline-Toggle für "… N weitere" (Checkbox-Hack, rein CSS) ─ */
+.rel-more-toggle {
+    display: none;
 }
 
-details.rel-inline > summary {
-    display: inline;
+.rel-more-label {
     cursor: pointer;
     color: var(--entity-accent);
     font-size: .9em;
 }
 
-details.rel-inline > summary:hover {
+.rel-more-label:hover {
     text-decoration: underline;
 }
 
-details.rel-inline[open] > summary {
+.rel-more-content {
     display: none;
 }
 
-details.rel-inline[open] {
+.rel-more-toggle:checked ~ .rel-more-label {
+    display: none;
+}
+
+.rel-more-toggle:checked ~ .rel-more-content {
     display: inline;
 }
 

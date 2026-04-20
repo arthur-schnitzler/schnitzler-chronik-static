@@ -1257,8 +1257,7 @@
                                                   </xsl:attribute>
                                                   <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
-                                                  <xsl:text>&#160;</xsl:text>
-                                                  <i class="fas fa-external-link-alt"/>
+                                            
                                                   </a>
                                                   </li>
                                                   </xsl:for-each>
@@ -1284,8 +1283,6 @@
                                                   </xsl:attribute>
                                                   <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
-                                                  <xsl:text>&#160;</xsl:text>
-                                                  <i class="fas fa-external-link-alt"/>
                                                   </a>
                                                   </li>
                                                   </xsl:for-each>
@@ -1315,8 +1312,7 @@
                                                 </xsl:attribute>
                                                 <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
-                                                  <xsl:text>&#160;</xsl:text>
-                                                  <i class="fas fa-external-link-alt"/>
+                                                 
                                                 </a>
                                             </li>
                                         </xsl:for-each>
@@ -1796,12 +1792,16 @@
                                         </xsl:if>
                                     </xsl:for-each>
                                     <xsl:if test="$total gt 10">
-                                        <details class="rel-inline">
-                                            <summary>
-                                                <xsl:text>… </xsl:text>
-                                                <xsl:value-of select="$total - 10"/>
-                                                <xsl:text> weitere</xsl:text>
-                                            </summary>
+                                        <xsl:variable name="toggleId"
+                                            select="concat('rel-more-', generate-id())"/>
+                                        <input type="checkbox" id="{$toggleId}"
+                                            class="rel-more-toggle"/>
+                                        <label for="{$toggleId}" class="rel-more-label">
+                                            <xsl:text>… </xsl:text>
+                                            <xsl:value-of select="$total - 10"/>
+                                            <xsl:text> weitere</xsl:text>
+                                        </label>
+                                        <span class="rel-more-content">
                                             <xsl:for-each select="subsequence($sorted-targets, 11)">
                                                 <a href="{concat(@other-id, '.html')}">
                                                     <xsl:value-of select="mam:vn-nn(@other-name)"/>
@@ -1810,7 +1810,7 @@
                                                     <xsl:text>; </xsl:text>
                                                 </xsl:if>
                                             </xsl:for-each>
-                                        </details>
+                                        </span>
                                     </xsl:if>
                                 </li>
                             </xsl:for-each-group>
