@@ -295,7 +295,7 @@
                                                 <xsl:choose>
                                                     <xsl:when test="position() lt $showNumberOfMentions + 1">
                                                         <li>
-                                                            <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
+                                                            <xsl:value-of select=".//tei:title"/><xsl:text>&#160;</xsl:text>
                                                             <a href="{$linkToDocument}">
                                                                 <i class="fas fa-external-link-alt"></i>
                                                             </a>
@@ -403,7 +403,7 @@
                                                 <xsl:choose>
                                                     <xsl:when test="position() lt $showNumberOfMentions + 1">
                                                         <li>
-                                                            <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
+                                                            <xsl:value-of select=".//tei:title"/><xsl:text>&#160;</xsl:text>
                                                             <a href="{$linkToDocument}">
                                                                 <i class="fas fa-external-link-alt"></i>
                                                             </a>
@@ -501,7 +501,7 @@
                                                 <xsl:choose>
                                                     <xsl:when test="position() lt $showNumberOfMentions + 1">
                                                         <li>
-                                                            <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
+                                                            <xsl:value-of select=".//tei:title"/><xsl:text>&#160;</xsl:text>
                                                             <a href="{$linkToDocument}">
                                                                 <i class="fas fa-external-link-alt"></i>
                                                             </a>
@@ -616,7 +616,7 @@
                                                 <xsl:choose>
                                                     <xsl:when test="position() lt $showNumberOfMentions + 1">
                                                         <li>
-                                                            <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
+                                                            <xsl:value-of select=".//tei:title"/><xsl:text>&#160;</xsl:text>
                                                             <a href="{$linkToDocument}">
                                                                 <i class="fas fa-external-link-alt"></i>
                                                             </a>

@@ -283,6 +283,12 @@
     color: #999;
 }
 
+.entity-tab-panel ul.dashed a i.fa-external-link-alt {
+    margin-left: .3em;
+    font-size: .85em;
+    vertical-align: baseline;
+}
+
 /* ── Links in Relationen: fett bei Hover ────────────────────── */
 .entity-tab-panel .relationen a:hover {
     font-weight: 700;
