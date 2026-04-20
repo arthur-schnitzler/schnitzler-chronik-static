@@ -1065,7 +1065,7 @@
                                     checked="checked"/>
                                 <span class="i-slider round" style="background-color: #A63437;"/>
                             </label>
-                            <span class="opt-title">Kommentar ein-/ausblenden</span>
+                            <span class="opt-title">Kommentar berücksichtigen ein/aus</span>
                         </div>
                     </xsl:if>
                     <div id="mentions-chart" class="mt-3 mb-3" style="max-width:600px;">
@@ -1216,10 +1216,10 @@
                                                   <xsl:variable name="monthKey"
                                                   select="current-grouping-key()"/>
                                                   <details
-                                                  class="month-details ms-4 mb-3 bg-light rounded p-2"
+                                                  class="month-details ms-4 mb-3 rounded p-2"
                                                   open="open">
                                                   <summary
-                                                  class="month-summary p-2 bg-light rounded fw-medium">
+                                                  class="month-summary p-2 rounded fw-medium">
                                                   <xsl:variable name="monthNum"
                                                   select="number(substring(current-grouping-key(), 6, 2))"/>
                                                   <xsl:choose>

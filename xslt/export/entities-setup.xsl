@@ -26,8 +26,18 @@
     <!-- Werke / Bibliografie -->
     <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
     <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
-    <xsl:param name="events"
-        select="document('../../data/editions/listevent.xml')/descendant::tei:listEvent[1]"/>
+    <xsl:variable name="listeventIndicesPath" select="'../../data/indices/listevent.xml'"/>
+    <xsl:variable name="listeventEditionsPath" select="'../../data/editions/listevent.xml'"/>
+    <xsl:param name="events" select="
+            if (unparsed-text-available($listeventIndicesPath))
+            then
+                document($listeventIndicesPath)/descendant::tei:listEvent[1]
+            else
+                if (unparsed-text-available($listeventEditionsPath))
+                then
+                    document($listeventEditionsPath)/descendant::tei:listEvent[1]
+                else
+                    ()"/>
     <xsl:variable name="actualFilePath" select="
             if (unparsed-text-available($listbiblPath))
             then
