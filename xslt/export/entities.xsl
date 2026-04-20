@@ -1726,14 +1726,8 @@
                         select="concat(mam:pmb-type(@src-type), mam:pmb-type(@tgt-type), 'relation')"/>
                     <xsl:variable name="vocab-entry"
                         select="key('vocab-by-cn', concat($class-key, '|', @type), $vocab-doc)"/>
-                    <!-- Bei person–person und person–event ist die Richtung im CSV
-                         umgekehrt zur gewünschten Anzeigerichtung: swap -->
-                    <xsl:variable name="swap" as="xs:boolean"
-                        select="$class-key = 'personpersonrelation'
-                                or $class-key = 'personeventrelation'"/>
                     <xsl:variable name="display-name" as="xs:string" select="
-                            if ($is-source and not($swap)
-                                or not($is-source) and $swap) then
+                            if ($is-source) then
                                 string(@type)
                             else
                                 if ($vocab-entry and $vocab-entry/@reverse != '') then
