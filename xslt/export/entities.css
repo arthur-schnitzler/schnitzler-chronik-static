@@ -110,6 +110,7 @@
     padding: 0;
     list-style: none;
     width: 100%;
+    position: relative;
 }
 
 .entity-tab-btn {
@@ -136,6 +137,71 @@
     color: var(--entity-tab-active);
     border-bottom-color: var(--entity-tab-active);
     font-weight: 600;
+}
+
+/* Info-Button neben dem Relationen-Tab (CSS-only Popup via <details>) */
+.relationen-info-popup {
+    flex: 0 0 auto;
+    position: static;
+    align-self: center;
+    margin-left: .25rem;
+}
+
+.relationen-info-btn {
+    cursor: pointer;
+    list-style: none;
+    padding: .3rem .5rem;
+    font-size: 1.1rem;
+    color: var(--entity-tab-text);
+    user-select: none;
+    line-height: 1;
+    border-radius: .25rem;
+    transition: color .15s, background-color .15s;
+}
+
+.relationen-info-btn::-webkit-details-marker {
+    display: none;
+}
+
+.relationen-info-btn::marker {
+    content: '';
+}
+
+.relationen-info-btn:hover {
+    color: var(--entity-tab-active);
+    background-color: rgba(0, 139, 139, 0.08);
+}
+
+.relationen-info-popup[open] .relationen-info-btn {
+    color: var(--entity-tab-active);
+}
+
+.relationen-info-content {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 4px);
+    z-index: 20;
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .35rem;
+    padding: .9rem 1rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
+    width: 340px;
+    max-width: 90vw;
+    font-size: .9rem;
+    line-height: 1.4;
+    color: var(--entity-tab-text);
+}
+
+.relationen-info-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Fallback-Hinweis im Erwähnungen-Tab */
+.no-mentions-hint {
+    color: var(--entity-tab-text);
+    font-style: italic;
+    padding: 1rem 0;
 }
 
 /* Tab-Panels */

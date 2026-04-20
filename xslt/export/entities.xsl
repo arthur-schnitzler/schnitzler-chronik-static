@@ -61,18 +61,33 @@
                 </xsl:call-template>
             </div>
             <!-- Rechte Spalte: Tabs -->
+            <xsl:variable name="hasMentions"
+                select="mam:has-mentions(., 'persName')" as="xs:boolean"/>
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
-                    <button class="entity-tab-btn" data-tab="tab-relationen"
-                        >Relationen</button>
+                    <button
+                        class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
+                        data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    <button
+                        class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
+                        data-tab="tab-relationen">Relationen</button>
+                    <xsl:call-template name="relationen-info-popup"/>
                 </div>
-                <div id="tab-erwaehnungen" class="entity-tab-panel active">
-                    <xsl:call-template name="person-mentions">
-                        <xsl:with-param name="entity" select="."/>
-                    </xsl:call-template>
+                <div id="tab-erwaehnungen"
+                    class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
+                    <xsl:choose>
+                        <xsl:when test="$hasMentions">
+                            <xsl:call-template name="person-mentions">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:call-template name="no-mentions-hint"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </div>
-                <div id="tab-relationen" class="entity-tab-panel">
+                <div id="tab-relationen"
+                    class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                     <xsl:call-template name="relationen-block">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
@@ -275,6 +290,60 @@
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
+    <!-- Prüft, ob für die Entität direkte Nennungen existieren (analog zur
+         Logik in *-mentions / fill-event-variable). -->
+    <xsl:function name="mam:has-mentions" as="xs:boolean">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:param name="entitityType" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="$current-edition = 'schnitzler-kultur'">
+                <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
+                <xsl:variable name="authored-work-ids" as="xs:string*" select="
+                        if ($entitityType = 'persName') then
+                            $works//tei:bibl[tei:author/@key = $xmlid]/@xml:id/string()
+                        else
+                            ()"/>
+                <xsl:sequence select="
+                        exists($events/tei:event[
+                        descendant::*[name() = $entitityType]/@key = $xmlid
+                        or (exists($authored-work-ids)
+                        and descendant::tei:title/@key = $authored-work-ids)
+                        ])"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:sequence select="exists($entity//tei:note[@type = 'mentions'])"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <!-- Fallback-Hinweis im Erwähnungen-Tab, wenn es keine direkten Nennungen gibt. -->
+    <xsl:template name="no-mentions-hint">
+        <p class="no-mentions-hint">Keine direkte Nennung in diesem Projekt. Siehe den
+            Menüpunkt ›Relationen‹ für Werke und andere Beziehungen</p>
+    </xsl:template>
+    <!-- Info-Button mit ausklappbarem Text neben dem Relationen-Tab. -->
+    <xsl:template name="relationen-info-popup">
+        <details class="relationen-info-popup">
+            <summary class="relationen-info-btn" title="Info zu Relationen"
+                aria-label="Info zu Relationen">
+                <xsl:text>&#9432;</xsl:text>
+            </summary>
+            <div class="relationen-info-content">
+                <xsl:call-template name="relationen-info-text"/>
+            </div>
+        </details>
+    </xsl:template>
+    <!-- Erläuternder Text zum Menüpunkt Relationen. Hier kann der Inhalt
+         ergänzt oder angepasst werden; wird im Info-Popup angezeigt. -->
+    <xsl:template name="relationen-info-text">
+        <p>Hier sind jene Beziehungen zu Entitäten (Personen, Werken, Orten,
+        Organisationen, Ereignissen) abgebildet, die in der vorliegenden Edition 
+        vorkommen.</p>
+        <p>Bei Geburts- und Sterbeorten führt das dazu, dass nur jene
+        Orte als Beziehung dargestellt werden, die auch unmittelbar vorkommen. 
+        </p>
+        <p>Alle Beziehungen können im Webservice PMB <a href="https://pmb.acdh.oeaw.ac.at/" target="_blank">studiert werden.</p>
+        
+    </xsl:template>
     <!-- WORK / WERKE -->
     <xsl:template match="tei:listBibl/tei:bibl" name="work_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -302,18 +371,33 @@
                 </xsl:call-template>
             </div>
             <!-- Rechte Spalte: Tabs -->
+            <xsl:variable name="hasMentions"
+                select="mam:has-mentions(., 'title')" as="xs:boolean"/>
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
-                    <button class="entity-tab-btn" data-tab="tab-relationen"
-                        >Relationen</button>
+                    <button
+                        class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
+                        data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    <button
+                        class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
+                        data-tab="tab-relationen">Relationen</button>
+                    <xsl:call-template name="relationen-info-popup"/>
                 </div>
-                <div id="tab-erwaehnungen" class="entity-tab-panel active">
-                    <xsl:call-template name="work-mentions">
-                        <xsl:with-param name="entity" select="."/>
-                    </xsl:call-template>
+                <div id="tab-erwaehnungen"
+                    class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
+                    <xsl:choose>
+                        <xsl:when test="$hasMentions">
+                            <xsl:call-template name="work-mentions">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:call-template name="no-mentions-hint"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </div>
-                <div id="tab-relationen" class="entity-tab-panel">
+                <div id="tab-relationen"
+                    class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                     <xsl:call-template name="relationen-block">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
@@ -447,19 +531,33 @@
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
+                <xsl:variable name="hasMentions"
+                    select="mam:has-mentions(., 'placeName')" as="xs:boolean"/>
                 <div class="entity-main">
                     <div class="entity-tabs">
-                        <button class="entity-tab-btn active" data-tab="tab-erwaehnungen"
-                            >Erwähnungen</button>
-                        <button class="entity-tab-btn" data-tab="tab-relationen"
-                            >Relationen</button>
+                        <button
+                            class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
+                            data-tab="tab-erwaehnungen">Erwähnungen</button>
+                        <button
+                            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
+                            data-tab="tab-relationen">Relationen</button>
+                        <xsl:call-template name="relationen-info-popup"/>
                     </div>
-                    <div id="tab-erwaehnungen" class="entity-tab-panel active">
-                        <xsl:call-template name="place-mentions">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
+                    <div id="tab-erwaehnungen"
+                        class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
+                        <xsl:choose>
+                            <xsl:when test="$hasMentions">
+                                <xsl:call-template name="place-mentions">
+                                    <xsl:with-param name="entity" select="."/>
+                                </xsl:call-template>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:call-template name="no-mentions-hint"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </div>
-                    <div id="tab-relationen" class="entity-tab-panel">
+                    <div id="tab-relationen"
+                        class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                         <xsl:call-template name="relationen-block">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
@@ -576,18 +674,33 @@
                 </xsl:call-template>
             </div>
             <!-- Rechte Spalte: Tabs -->
+            <xsl:variable name="hasMentions"
+                select="mam:has-mentions(., 'orgName')" as="xs:boolean"/>
             <div class="entity-main">
                 <div class="entity-tabs">
-                    <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
-                    <button class="entity-tab-btn" data-tab="tab-relationen"
-                        >Relationen</button>
+                    <button
+                        class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
+                        data-tab="tab-erwaehnungen">Erwähnungen</button>
+                    <button
+                        class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
+                        data-tab="tab-relationen">Relationen</button>
+                    <xsl:call-template name="relationen-info-popup"/>
                 </div>
-                <div id="tab-erwaehnungen" class="entity-tab-panel active">
-                    <xsl:call-template name="org-mentions">
-                        <xsl:with-param name="entity" select="."/>
-                    </xsl:call-template>
+                <div id="tab-erwaehnungen"
+                    class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
+                    <xsl:choose>
+                        <xsl:when test="$hasMentions">
+                            <xsl:call-template name="org-mentions">
+                                <xsl:with-param name="entity" select="."/>
+                            </xsl:call-template>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:call-template name="no-mentions-hint"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </div>
-                <div id="tab-relationen" class="entity-tab-panel">
+                <div id="tab-relationen"
+                    class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                     <xsl:call-template name="relationen-block">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
@@ -705,18 +818,33 @@
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
+                <xsl:variable name="hasMentions"
+                    select="mam:has-mentions(., 'eventName')" as="xs:boolean"/>
                 <div class="entity-main">
                     <div class="entity-tabs">
-                        <button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen</button>
-                        <button class="entity-tab-btn" data-tab="tab-relationen"
-                            >Relationen</button>
+                        <button
+                            class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
+                            data-tab="tab-erwaehnungen">Erwähnungen</button>
+                        <button
+                            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
+                            data-tab="tab-relationen">Relationen</button>
+                        <xsl:call-template name="relationen-info-popup"/>
                     </div>
-                    <div id="tab-erwaehnungen" class="entity-tab-panel active">
-                        <xsl:call-template name="event-mentions">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
+                    <div id="tab-erwaehnungen"
+                        class="entity-tab-panel{if ($hasMentions) then ' active' else ''}">
+                        <xsl:choose>
+                            <xsl:when test="$hasMentions">
+                                <xsl:call-template name="event-mentions">
+                                    <xsl:with-param name="entity" select="."/>
+                                </xsl:call-template>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:call-template name="no-mentions-hint"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </div>
-                    <div id="tab-relationen" class="entity-tab-panel">
+                    <div id="tab-relationen"
+                        class="entity-tab-panel{if ($hasMentions) then '' else ' active'}">
                         <xsl:call-template name="relationen-block">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
@@ -1761,28 +1889,40 @@
                 <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
                 <xsl:variable name="authored-work-ids" as="xs:string*"
                     select="$works//tei:bibl[tei:author/@key = $xmlid]/@xml:id/string()"/>
-                <xsl:variable name="my-events" select="
+                <!-- Events, in denen die Person direkt als persName vorkommt -->
+                <xsl:variable name="direct-events" select="
+                        $events/tei:event[descendant::tei:persName/@key = $xmlid]"/>
+                <!-- Events, in denen nur ein verfasstes Werk vorkommt (Person nicht direkt genannt) -->
+                <xsl:variable name="authored-only-events" select="
                         $events/tei:event[
-                        descendant::tei:persName/@key = $xmlid
-                        or descendant::tei:title/@key = $authored-work-ids
+                        not(descendant::tei:persName/@key = $xmlid)
+                        and descendant::tei:title/@key = $authored-work-ids
                         ]"/>
-                <xsl:for-each select="$my-events/descendant::tei:placeName[@key]">
+                <!-- Aus direct-events: alle Mit-Entitäten als Relationen -->
+                <xsl:for-each select="$direct-events/descendant::tei:placeName[@key]">
                     <xsl:if test="not($num = '2121')">
                         <rel-item display-name="{(@role, 'Ort')[1]}" other-type="Ort"
                             other-id="{@key}" other-name="{normalize-space(.)}"/>
                     </xsl:if>
                 </xsl:for-each>
-                <xsl:for-each select="$my-events/descendant::tei:orgName[@key]">
+                <xsl:for-each select="$direct-events/descendant::tei:orgName[@key]">
                     <rel-item display-name="{(@role, 'Organisation')[1]}" other-type="Organisation"
                         other-id="{@key}" other-name="{normalize-space(.)}"/>
                 </xsl:for-each>
-                <xsl:for-each select="$my-events/descendant::tei:title[@key]">
+                <xsl:for-each select="$direct-events/descendant::tei:title[@key]">
                     <rel-item display-name="Werk" other-type="Werk" other-id="{@key}"
                         other-name="{normalize-space(.)}"/>
                 </xsl:for-each>
-                <xsl:for-each select="$my-events/descendant::tei:persName[@key and @key != $xmlid]">
+                <xsl:for-each
+                    select="$direct-events/descendant::tei:persName[@key and @key != $xmlid]">
                     <rel-item display-name="{(../@role, 'Person')[1]}" other-type="Person"
                         other-id="{@key}" other-name="{normalize-space(.)}"/>
+                </xsl:for-each>
+                <!-- Aus authored-only-events: nur die eigenen Werke -->
+                <xsl:for-each
+                    select="$authored-only-events/descendant::tei:title[@key = $authored-work-ids]">
+                    <rel-item display-name="Werk" other-type="Werk" other-id="{@key}"
+                        other-name="{normalize-space(.)}"/>
                 </xsl:for-each>
             </xsl:if>
         </xsl:variable>
