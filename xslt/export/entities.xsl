@@ -247,8 +247,17 @@
     <xsl:template name="fill-event-variable" as="node()">
         <xsl:param name="xmlid" as="xs:string"/>
         <xsl:param name="entitityType" as="xs:string"/>
-        <xsl:variable name="matchingEvents"
-            select="$events/tei:event[descendant::*[name() = $entitityType]/@key = $xmlid]"/>
+        <xsl:variable name="authored-work-ids" as="xs:string*" select="
+                if ($entitityType = 'persName' and $current-edition = 'schnitzler-kultur') then
+                    $works//tei:bibl[tei:author/@key = $xmlid]/@xml:id/string()
+                else
+                    ()"/>
+        <xsl:variable name="matchingEvents" select="
+                $events/tei:event[
+                descendant::*[name() = $entitityType]/@key = $xmlid
+                or (exists($authored-work-ids)
+                and descendant::tei:title/@key = $authored-work-ids)
+                ]"/>
         <xsl:element name="noteGrp" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:for-each select="$matchingEvents">
                 <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
@@ -1746,9 +1755,40 @@
                 </xsl:for-each>
             </xsl:if>
         </xsl:variable>
+        <!-- Relationen aus listevent.xml (nur schnitzler-kultur, nur Personen) -->
+        <xsl:variable name="kultur-items" as="element(rel-item)*">
+            <xsl:if test="$current-edition = 'schnitzler-kultur' and $entity/self::tei:person">
+                <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
+                <xsl:variable name="authored-work-ids" as="xs:string*"
+                    select="$works//tei:bibl[tei:author/@key = $xmlid]/@xml:id/string()"/>
+                <xsl:variable name="my-events" select="
+                        $events/tei:event[
+                        descendant::tei:persName/@key = $xmlid
+                        or descendant::tei:title/@key = $authored-work-ids
+                        ]"/>
+                <xsl:for-each select="$my-events/descendant::tei:placeName[@key]">
+                    <xsl:if test="not($num = '2121')">
+                        <rel-item display-name="{(@role, 'Ort')[1]}" other-type="Ort"
+                            other-id="{@key}" other-name="{normalize-space(.)}"/>
+                    </xsl:if>
+                </xsl:for-each>
+                <xsl:for-each select="$my-events/descendant::tei:orgName[@key]">
+                    <rel-item display-name="{(@role, 'Organisation')[1]}" other-type="Organisation"
+                        other-id="{@key}" other-name="{normalize-space(.)}"/>
+                </xsl:for-each>
+                <xsl:for-each select="$my-events/descendant::tei:title[@key]">
+                    <rel-item display-name="Werk" other-type="Werk" other-id="{@key}"
+                        other-name="{normalize-space(.)}"/>
+                </xsl:for-each>
+                <xsl:for-each select="$my-events/descendant::tei:persName[@key and @key != $xmlid]">
+                    <rel-item display-name="{(../@role, 'Person')[1]}" other-type="Person"
+                        other-id="{@key}" other-name="{normalize-space(.)}"/>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:variable>
         <!-- Alle Items zusammenführen und auf eindeutige (display-name, other-id)-Paare reduzieren -->
         <xsl:variable name="all-items" as="element(rel-item)*"
-            select="$legacy-items | $csv-items"/>
+            select="$legacy-items | $csv-items | $kultur-items"/>
         <xsl:variable name="all-items-deduped" as="element(rel-item)*">
             <xsl:for-each-group select="$all-items" group-by="concat(@display-name, '|', @other-id)">
                 <xsl:sequence select="current-group()[1]"/>
