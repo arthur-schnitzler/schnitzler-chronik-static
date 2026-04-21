@@ -365,11 +365,14 @@
 
 .rel-more-label {
     cursor: pointer;
-    color: var(--entity-accent);
+    color: var(--entity-tab-text);
+    font-style: italic;
     font-size: .9em;
+    margin-left: .15em;
 }
 
 .rel-more-label:hover {
+    color: var(--entity-accent);
     text-decoration: underline;
 }
 

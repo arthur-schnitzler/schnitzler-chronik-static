@@ -1751,10 +1751,14 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    <!-- Personennamen umkehren: "Nachname, Vorname" → "Vorname Nachname" -->
+    <!-- Personennamen umkehren: "Nachname, Vorname" → "Vorname Nachname".
+         Übersprungen, wenn der Eintrag mit "[" oder "?? [" beginnt (Platzhalter). -->
     <xsl:function name="mam:vn-nn" as="xs:string">
         <xsl:param name="name" as="xs:string"/>
         <xsl:choose>
+            <xsl:when test="matches($name, '^(\?\?\s*)?\[')">
+                <xsl:value-of select="$name"/>
+            </xsl:when>
             <xsl:when test="matches($name, '^[^,]+,\s*.+$')">
                 <xsl:value-of select="replace($name, '^([^,]+),\s*(.+)$', '$2 $1')"/>
             </xsl:when>
@@ -1964,7 +1968,7 @@
                                     <xsl:text>: </xsl:text>
                                     <xsl:for-each select="$sorted-targets[position() le 10]">
                                         <a href="{concat(@other-id, '.html')}">
-                                            <xsl:value-of select="mam:vn-nn(@other-name)"/>
+                                            <xsl:value-of select="if (@other-type = 'Person') then mam:vn-nn(@other-name) else string(@other-name)"/>
                                         </a>
                                         <xsl:if test="position() != last() or $total gt 10">
                                             <xsl:text>; </xsl:text>
@@ -1983,7 +1987,7 @@
                                         <span class="rel-more-content">
                                             <xsl:for-each select="subsequence($sorted-targets, 11)">
                                                 <a href="{concat(@other-id, '.html')}">
-                                                    <xsl:value-of select="mam:vn-nn(@other-name)"/>
+                                                    <xsl:value-of select="if (@other-type = 'Person') then mam:vn-nn(@other-name) else string(@other-name)"/>
                                                 </a>
                                                 <xsl:if test="position() != last()">
                                                     <xsl:text>; </xsl:text>

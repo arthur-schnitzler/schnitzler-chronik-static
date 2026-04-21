@@ -322,3 +322,33 @@ details.rel-inline[open] {
     display: inline;
 }
 
+/* ── Inline-Toggle für "… N weitere" (Checkbox-Hack, rein CSS) ─ */
+.rel-more-toggle {
+    display: none;
+}
+
+.rel-more-label {
+    cursor: pointer;
+    color: var(--entity-tab-text);
+    font-style: italic;
+    font-size: .9em;
+    margin-left: .15em;
+}
+
+.rel-more-label:hover {
+    color: var(--entity-accent);
+    text-decoration: underline;
+}
+
+.rel-more-content {
+    display: none;
+}
+
+.rel-more-toggle:checked ~ .rel-more-label {
+    display: none;
+}
+
+.rel-more-toggle:checked ~ .rel-more-content {
+    display: inline;
+}
+
