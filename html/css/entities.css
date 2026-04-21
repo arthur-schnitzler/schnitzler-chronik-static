@@ -8,8 +8,8 @@
     --entity-bg: #f8f9fa;
     --entity-card-bg: #fff;
     --entity-border: #dee2e6;
-    --entity-tab-active: #008B8B;
     --entity-tab-text: #495057;
+    --entity-tab-active-bg: color-mix(in srgb, var(--entity-accent) 12%, transparent);
 }
 
 /* ── Eltern-Container aufweiten wenn entity-layout drin ist ──── */
@@ -129,12 +129,16 @@
 }
 
 .entity-tab-btn:hover {
-    color: var(--entity-tab-active);
+    color: var(--entity-accent);
+    background-color: color-mix(in srgb, var(--entity-accent) 6%, transparent);
 }
 
 .entity-tab-btn.active {
-    color: var(--entity-tab-active);
-    border-bottom-color: var(--entity-tab-active);
+    color: var(--entity-accent);
+    background-color: var(--entity-tab-active-bg);
+    border-bottom-color: var(--entity-accent);
+    border-top-left-radius: .35rem;
+    border-top-right-radius: .35rem;
     font-weight: 600;
 }
 

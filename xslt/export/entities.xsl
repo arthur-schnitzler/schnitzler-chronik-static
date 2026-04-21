@@ -341,8 +341,7 @@
         <p>Bei Geburts- und Sterbeorten führt das dazu, dass nur jene
         Orte als Beziehung dargestellt werden, die auch unmittelbar vorkommen. 
         </p>
-        <p>Alle Beziehungen können im Webservice PMB <a href="https://pmb.acdh.oeaw.ac.at/" target="_blank">studiert werden.</p>
-        
+        <p>Alle Beziehungen können im Webservice PMB <a href="https://pmb.acdh.oeaw.ac.at/" target="_blank">studiert werden</a>.</p>
     </xsl:template>
     <!-- WORK / WERKE -->
     <xsl:template match="tei:listBibl/tei:bibl" name="work_detail">
