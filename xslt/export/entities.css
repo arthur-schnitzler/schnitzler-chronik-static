@@ -88,6 +88,7 @@
     border: 1px solid var(--entity-border);
     border-radius: .625rem;
     overflow: hidden;
+    flex-shrink: 0;
 }
 .entity-portrait-frame {
     width: 100%;
@@ -100,6 +101,7 @@
 
 .entity-portrait-frame img {
     width: 100%;
+    min-width: 
     height: auto; /* Ändere 100% auf auto, damit das Verhältnis gewahrt bleibt */
     min-height: 100%; /* Stellt sicher, dass der Frame gefüllt wird */
     object-fit: cover;
