@@ -23,7 +23,7 @@
         </xsl:variable>
         <div class="entity-page" style="--project-color: {$current-colour};">
         <!-- Breadcrumbs -->
-        <div class="crumbs">
+        <div class="crumbs mt-1">
             <span class="type-pill">Person</span>
             <span>Register</span>
             <span class="sep">/</span>
@@ -62,7 +62,9 @@
             </xsl:choose>
         </h1>
         <!-- Lebensdaten-Zeile unter dem h1 -->
-        <xsl:value-of select="mam:lebensdaten(.)"/>
+            <div class="life-dates">
+                <xsl:value-of select="mam:lebensdaten(.)"/>
+            </div>
         <!-- Tab-Counts vorbestimmen -->
         <xsl:variable name="hasMentions" select="mam:has-mentions(., 'persName')" as="xs:boolean"/>
         <xsl:variable name="mentionsCount" select="mam:mentions-count(., 'persName')"
@@ -158,7 +160,7 @@
                 </xsl:if>
             </xsl:when>
             <xsl:when test="$geburtsdatum != ''">
-                <xsl:text>geb. </xsl:text>
+                <b><xsl:text>geb. </xsl:text></b>
                 <xsl:value-of select="$geburtsdatum"/>
                 <xsl:if test="$geburtsort != ''">
                     <xsl:text> </xsl:text>
@@ -166,7 +168,7 @@
                 </xsl:if>
             </xsl:when>
             <xsl:when test="$todesdatum != ''">
-                <xsl:text>gest. </xsl:text>
+                <b><xsl:text>gest. </xsl:text></b>
                 <xsl:value-of select="$todesdatum"/>
                 <xsl:if test="$todessort != ''">
                     <xsl:text> </xsl:text>
@@ -710,7 +712,7 @@
         <xsl:variable name="workPage" select="'listbibl.html'"/>
         <div class="entity-page" style="--project-color: {$current-colour};">
         <!-- Breadcrumbs -->
-        <div class="crumbs">
+        <div class="crumbs mt-1">
             <span class="type-pill">Werk</span>
             <span>Register</span>
             <span class="sep">/</span>
@@ -911,7 +913,7 @@
         </xsl:variable>
         <div class="entity-page" style="--project-color: {$current-colour};">
         <!-- Breadcrumbs -->
-        <div class="crumbs">
+        <div class="crumbs mt-1">
             <span class="type-pill">Ort</span>
             <span>Register</span>
             <span class="sep">/</span>
@@ -1095,7 +1097,7 @@
             </xsl:element>
         </xsl:variable>
         <div class="entity-page" style="--project-color: {$current-colour};">
-        <div class="crumbs">
+        <div class="crumbs mt-1">
             <span class="type-pill">Institution</span>
             <span>Register</span>
             <span class="sep">/</span>
@@ -1274,7 +1276,7 @@
             </xsl:element>
         </xsl:variable>
         <div class="entity-page" style="--project-color: {$current-colour};">
-        <div class="crumbs">
+        <div class="crumbs mt-1">
             <span class="type-pill">Ereignis</span>
             <span>Register</span>
             <span class="sep">/</span>
