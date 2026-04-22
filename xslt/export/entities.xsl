@@ -21,15 +21,51 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
+        <!-- Breadcrumbs -->
+        <div class="crumbs">
+            <span class="type-pill">Person</span>
+            <span>Register</span>
+            <span class="sep">/</span>
+            <a href="listperson.html">Personen</a>
+            <span class="sep">/</span>
+            <xsl:choose>
+                <xsl:when
+                    test="child::tei:persName[1]/tei:forename[1] and child::tei:persName[1]/tei:surname[1]">
+                    <xsl:value-of
+                        select="concat(tei:persName[1]/tei:surname[1], ' ', tei:persName[1]/tei:forename[1])"
+                    />
+                </xsl:when>
+                <xsl:when test="child::tei:persName[1]/tei:forename[1]">
+                    <xsl:value-of select="normalize-space(child::tei:persName[1]/tei:forename[1])"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(child::tei:persName[1]/tei:surname[1])"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </div>
+        <!-- Titel -->
+        <h1 class="entity-name">
+            <xsl:choose>
+                <xsl:when
+                    test="child::tei:persName[1]/tei:forename[1] and child::tei:persName[1]/tei:surname[1]">
+                    <xsl:value-of
+                        select="normalize-space(concat(child::tei:persName[1]/tei:forename[1], ' ', child::tei:persName[1]/tei:surname[1]))"
+                    />
+                </xsl:when>
+                <xsl:when test="child::tei:persName[1]/tei:forename[1]">
+                    <xsl:value-of select="normalize-space(child::tei:persName[1]/tei:forename[1])"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(child::tei:persName[1]/tei:surname[1])"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </h1>
         <!-- Lebensdaten-Zeile unter dem h1 -->
-        <xsl:call-template name="person-lebensdaten">
-            <xsl:with-param name="entity" select="."/>
-        </xsl:call-template>
+        <xsl:value-of select="mam:lebensdaten(.)"/>
         <!-- Tab-Counts vorbestimmen -->
-        <xsl:variable name="hasMentions"
-            select="mam:has-mentions(., 'persName')" as="xs:boolean"/>
-        <xsl:variable name="mentionsCount"
-            select="mam:mentions-count(., 'persName')" as="xs:integer"/>
+        <xsl:variable name="hasMentions" select="mam:has-mentions(., 'persName')" as="xs:boolean"/>
+        <xsl:variable name="mentionsCount" select="mam:mentions-count(., 'persName')"
+            as="xs:integer"/>
         <xsl:variable name="rel-items-raw" as="element(rel-item)*">
             <xsl:call-template name="collect-relation-items">
                 <xsl:with-param name="entity" select="."/>
@@ -95,45 +131,55 @@
     </xsl:template>
     <!-- PERSON: Sub-Templates -->
     <!-- Lebensdaten (* Geburt · † Tod) unter dem h1 -->
-    <xsl:template name="person-lebensdaten">
+    <xsl:function name="mam:lebensdaten">
         <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="birth-date" select="$entity/tei:birth/tei:date[1]"/>
-        <xsl:variable name="birth-place" select="$entity/tei:birth/tei:placeName[1]"/>
-        <xsl:variable name="death-date" select="$entity/tei:death/tei:date[1]"/>
-        <xsl:variable name="death-place" select="$entity/tei:death/tei:placeName[1]"/>
-        <xsl:if test="$birth-date or $death-date">
-            <p class="life-dates">
-                <xsl:if test="$birth-date">
-                    <b>*</b>
+        <xsl:variable name="geburtsort" as="xs:string?"
+            select="$entity/tei:birth[1]/tei:settlement[1]/tei:placeName[1]"/>
+        <xsl:variable name="geburtsdatum" as="xs:string?"
+            select="mam:normalize-date($entity/tei:birth[1]/tei:date[1]/text())"/>
+        <xsl:variable name="todessort" as="xs:string?"
+            select="$entity/tei:death[1]/tei:settlement[1]/tei:placeName[1]"/>
+        <xsl:variable name="todesdatum" as="xs:string?"
+            select="mam:normalize-date($entity/tei:death[1]/tei:date[1]/text())"/>
+        <xsl:choose>
+            <xsl:when test="$geburtsdatum != '' and $todesdatum != ''">
+                <xsl:value-of select="$geburtsdatum"/>
+                <xsl:if test="$geburtsort != ''">
                     <xsl:text> </xsl:text>
-                    <xsl:value-of select="mam:normalize-date(string($birth-date))"/>
-                    <xsl:if test="$birth-place">
-                        <xsl:text>, </xsl:text>
-                        <xsl:value-of select="normalize-space($birth-place)"/>
-                    </xsl:if>
+                    <xsl:value-of select="$geburtsort"/>
                 </xsl:if>
-                <xsl:if test="$birth-date and $death-date">
-                    <xsl:text> · </xsl:text>
-                </xsl:if>
-                <xsl:if test="$death-date">
-                    <b>gest.</b>
+                <xsl:text> – </xsl:text>
+                <xsl:value-of select="$todesdatum"/>
+                <xsl:if test="$todessort != ''">
                     <xsl:text> </xsl:text>
-                    <xsl:value-of select="mam:normalize-date(string($death-date))"/>
-                    <xsl:if test="$death-place">
-                        <xsl:text>, </xsl:text>
-                        <xsl:value-of select="normalize-space($death-place)"/>
-                    </xsl:if>
+                    <xsl:value-of select="$todessort"/>
                 </xsl:if>
-            </p>
-        </xsl:if>
-    </xsl:template>
+            </xsl:when>
+            <xsl:when test="$geburtsdatum != ''">
+                <xsl:text>geb. </xsl:text>
+                <xsl:value-of select="$geburtsdatum"/>
+                <xsl:if test="$geburtsort != ''">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="$geburtsort"/>
+                </xsl:if>
+            </xsl:when>
+            <xsl:when test="$todesdatum != ''">
+                <xsl:text>gest. </xsl:text>
+                <xsl:value-of select="$todesdatum"/>
+                <xsl:if test="$todessort != ''">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="$todessort"/>
+                </xsl:if>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:function>
     <!-- Portrait-Karte mit optionalem Bild und Meta-Zeilen -->
     <xsl:template name="person-portrait-card">
         <xsl:param name="entity" as="node()"/>
         <xsl:param name="namensformen" as="node()"/>
         <xsl:param name="surname-fallback" as="xs:string?" select="''"/>
-        <xsl:variable name="has-image"
-            select="exists($entity/tei:figure/tei:graphic/@url)" as="xs:boolean"/>
+        <xsl:variable name="has-image" select="exists($entity/tei:figure/tei:graphic/@url)"
+            as="xs:boolean"/>
         <div class="entity-portrait-card{if (not($has-image)) then ' no-image' else ''}">
             <xsl:if test="$has-image">
                 <div class="entity-portrait-frame">
@@ -215,9 +261,12 @@
                             <xsl:otherwise>Namensvariante</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-nachname'">Namensvariante Nachname</xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-vorname'">Namensvariante Vorname</xsl:when>
-                    <xsl:when test="$typ = 'person_adoptierter-nachname'">Nachname durch Adoption</xsl:when>
+                    <xsl:when test="$typ = 'person_namensvariante-nachname'">Namensvariante
+                        Nachname</xsl:when>
+                    <xsl:when test="$typ = 'person_namensvariante-vorname'">Namensvariante
+                        Vorname</xsl:when>
+                    <xsl:when test="$typ = 'person_adoptierter-nachname'">Nachname durch
+                        Adoption</xsl:when>
                     <xsl:when test="$typ = 'person_geschieden_nachname'">geschieden</xsl:when>
                     <xsl:when test="$typ = 'person_verwitwet_nachname'">verwitwet</xsl:when>
                 </xsl:choose>
@@ -489,8 +538,8 @@
     </xsl:function>
     <!-- Fallback-Hinweis im Erwähnungen-Tab, wenn es keine direkten Nennungen gibt. -->
     <xsl:template name="no-mentions-hint">
-        <p class="no-mentions-hint">Keine direkte Nennung in diesem Projekt. Siehe den
-            Menüpunkt ›Relationen‹ für Werke und andere Beziehungen</p>
+        <p class="no-mentions-hint">Keine direkte Nennung in diesem Projekt. Siehe den Menüpunkt
+            ›Relationen‹ für Werke und andere Beziehungen</p>
     </xsl:template>
     <!-- Info-Button mit ausklappbarem Text neben dem Relationen-Tab. -->
     <xsl:template name="relationen-info-popup">
@@ -507,13 +556,12 @@
     <!-- Erläuternder Text zum Menüpunkt Relationen. Hier kann der Inhalt
          ergänzt oder angepasst werden; wird im Info-Popup angezeigt. -->
     <xsl:template name="relationen-info-text">
-        <p>Hier sind jene Beziehungen zu Entitäten (Personen, Werken, Orten,
-        Organisationen, Ereignissen) abgebildet, die in der vorliegenden Edition 
-        vorkommen.</p>
-        <p>Bei Geburts- und Sterbeorten führt das dazu, dass nur jene
-        Orte als Beziehung dargestellt werden, die auch unmittelbar vorkommen. 
-        </p>
-        <p>Alle Beziehungen können im Webservice PMB <a href="https://pmb.acdh.oeaw.ac.at/" target="_blank">studiert werden</a>.</p>
+        <p>Hier sind jene Beziehungen zu Entitäten (Personen, Werken, Orten, Organisationen,
+            Ereignissen) abgebildet, die in der vorliegenden Edition vorkommen.</p>
+        <p>Bei Geburts- und Sterbeorten führt das dazu, dass nur jene Orte als Beziehung dargestellt
+            werden, die auch unmittelbar vorkommen. </p>
+        <p>Alle Beziehungen können im Webservice PMB <a href="https://pmb.acdh.oeaw.ac.at/"
+                target="_blank">studiert werden</a>.</p>
     </xsl:template>
     <!-- Gemeinsames Tab-Button-Markup (Erwähnungen + Relationen mit Counts) -->
     <xsl:template name="entity-tab-buttons">
@@ -549,15 +597,14 @@
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
         <xsl:variable name="matching"
-    select="($idno/descendant::tei:idno[@subtype = ('gnd', 'pmb')])[1]"/>
+            select="($idno/descendant::tei:idno[@subtype = ('gnd', 'pmb')])[1]"/>
         <xsl:if test="$matching">
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
                     <xsl:for-each select="$normdaten-abbrs">
                         <xsl:variable name="abbr" select="." as="xs:string"/>
-                        <xsl:for-each
-                            select="$idno/descendant::tei:idno[@subtype = $abbr]">
+                        <xsl:for-each select="$idno/descendant::tei:idno[@subtype = $abbr]">
                             <xsl:variable name="item"
                                 select="key('only-relevant-uris', $abbr, $relevant-uris)"/>
                             <xsl:variable name="label" as="xs:string">
@@ -570,10 +617,8 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
-                            <xsl:variable name="url"
-                                select="replace(normalize-space(.), '/$', '')"/>
-                            <xsl:variable name="id-tail"
-                                select="tokenize($url, '/')[last()]"/>
+                            <xsl:variable name="url" select="replace(normalize-space(.), '/$', '')"/>
+                            <xsl:variable name="id-tail" select="tokenize($url, '/')[last()]"/>
                             <div class="meta-row">
                                 <span class="label">
                                     <xsl:value-of select="$label"/>
@@ -605,7 +650,8 @@
                 </xsl:for-each>
             </xsl:element>
         </xsl:variable>
-        <xsl:if test="$wiki-idno or key('only-relevant-uris', $res-idnos/tei:idno/@subtype, $relevant-uris)[1]">
+        <xsl:if
+            test="$wiki-idno or key('only-relevant-uris', $res-idnos/tei:idno/@subtype, $relevant-uris)[1]">
             <div class="side-block">
                 <h3>Ressourcen</h3>
                 <p class="buttonreihe">
@@ -659,10 +705,39 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <xsl:variable name="hasMentions"
-            select="mam:has-mentions(., 'title')" as="xs:boolean"/>
-        <xsl:variable name="mentionsCount"
-            select="mam:mentions-count(., 'title')" as="xs:integer"/>
+        <xsl:variable name="workPage" select="'listbibl.html'"/>
+        <!-- Breadcrumbs -->
+        <div class="crumbs">
+            <span class="type-pill">Werk</span>
+            <span>Register</span>
+            <span class="sep">/</span>
+            <xsl:choose>
+                <xsl:when test="$workPage = 'listbibl.html'">
+                    <a href="listbibl.html">Werke</a>
+                </xsl:when>
+                <xsl:when test="$workPage = 'listwork.html'">
+                    <a href="listwork.html">Werke</a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <a href="listbibl.html">Werke</a>
+                </xsl:otherwise>
+            </xsl:choose>
+            <span class="sep">/</span>
+            <xsl:choose>
+                <xsl:when test="string-length(child::tei:title[1]) > 25">
+                    <xsl:value-of select="concat(substring(child::tei:title, 1, 25), '…')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(child::tei:title[1])"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </div>
+        <!-- Titel -->
+        <h1 class="entity-name">
+            <xsl:value-of select="normalize-space(child::tei:title[1])"/>
+        </h1>
+        <xsl:variable name="hasMentions" select="mam:has-mentions(., 'title')" as="xs:boolean"/>
+        <xsl:variable name="mentionsCount" select="mam:mentions-count(., 'title')" as="xs:integer"/>
         <xsl:variable name="rel-items-raw" as="element(rel-item)*">
             <xsl:call-template name="collect-relation-items">
                 <xsl:with-param name="entity" select="."/>
@@ -769,15 +844,13 @@
             <div class="side-block">
                 <h3>Werk</h3>
                 <ul class="dashed">
-                    <xsl:for-each
-                        select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
+                    <xsl:for-each select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
                         <li>
                             <xsl:text>Bibliografische Angabe: </xsl:text>
                             <xsl:value-of select="."/>
                         </li>
                     </xsl:for-each>
-                    <xsl:for-each
-                        select="$entity/tei:title[@type = 'werk_link' or @type = 'anno']">
+                    <xsl:for-each select="$entity/tei:title[@type = 'werk_link' or @type = 'anno']">
                         <li>
                             <a>
                                 <xsl:attribute name="href">
@@ -832,10 +905,29 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <xsl:variable name="hasMentions"
-            select="mam:has-mentions(., 'placeName')" as="xs:boolean"/>
-        <xsl:variable name="mentionsCount"
-            select="mam:mentions-count(., 'placeName')" as="xs:integer"/>
+        <!-- Breadcrumbs -->
+        <div class="crumbs">
+            <span class="type-pill">Ort</span>
+            <span>Register</span>
+            <span class="sep">/</span>
+            <a href="listplace.html">Orte</a>
+            <span class="sep">/</span>
+            <xsl:choose>
+                <xsl:when test="string-length(child::tei:placeName[1]) > 25">
+                    <xsl:value-of select="concat(substring(child::tei:placeName, 1, 25), '…')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(child::tei:placeName[1])"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </div>
+        <!-- Titel -->
+        <h1 class="entity-name">
+            <xsl:value-of select="normalize-space(child::tei:placeName[1])"/>
+        </h1>
+        <xsl:variable name="hasMentions" select="mam:has-mentions(., 'placeName')" as="xs:boolean"/>
+        <xsl:variable name="mentionsCount" select="mam:mentions-count(., 'placeName')"
+            as="xs:integer"/>
         <xsl:variable name="rel-items-raw" as="element(rel-item)*">
             <xsl:call-template name="collect-relation-items">
                 <xsl:with-param name="entity" select="."/>
@@ -996,10 +1088,27 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <xsl:variable name="hasMentions"
-            select="mam:has-mentions(., 'orgName')" as="xs:boolean"/>
-        <xsl:variable name="mentionsCount"
-            select="mam:mentions-count(., 'orgName')" as="xs:integer"/>
+        <div class="crumbs">
+            <span class="type-pill">Institution</span>
+            <span>Register</span>
+            <span class="sep">/</span>
+            <a href="listorg.html">Institutionen</a>
+            <span class="sep">/</span>
+            <xsl:choose>
+                <xsl:when test="string-length(child::tei:orgName[1]) > 25">
+                    <xsl:value-of select="concat(substring(child::tei:orgName, 1, 25), '…')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(child::tei:orgName[1])"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </div>
+        <!-- Titel -->
+        <h1 class="entity-name">
+            <xsl:value-of select="normalize-space(child::tei:orgName[1])"/>
+        </h1>
+        <xsl:variable name="hasMentions" select="mam:has-mentions(., 'orgName')" as="xs:boolean"/>
+        <xsl:variable name="mentionsCount" select="mam:mentions-count(., 'orgName')" as="xs:integer"/>
         <xsl:variable name="rel-items-raw" as="element(rel-item)*">
             <xsl:call-template name="collect-relation-items">
                 <xsl:with-param name="entity" select="."/>
@@ -1156,10 +1265,28 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
-        <xsl:variable name="hasMentions"
-            select="mam:has-mentions(., 'eventName')" as="xs:boolean"/>
-        <xsl:variable name="mentionsCount"
-            select="mam:mentions-count(., 'eventName')" as="xs:integer"/>
+        <div class="crumbs">
+            <span class="type-pill">Ereignis</span>
+            <span>Register</span>
+            <span class="sep">/</span>
+            <a href="listorg.html">Ereignisse</a>
+            <span class="sep">/</span>
+            <xsl:choose>
+                <xsl:when test="string-length(child::tei:eventName[1]) > 25">
+                    <xsl:value-of select="concat(substring(child::tei:eventName, 1, 25), '…')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="normalize-space(child::tei:eventName[1])"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </div>
+        <!-- Titel -->
+        <h1 class="entity-name">
+            <xsl:value-of select="normalize-space(child::tei:eventName[1])"/>
+        </h1>
+        <xsl:variable name="hasMentions" select="mam:has-mentions(., 'eventName')" as="xs:boolean"/>
+        <xsl:variable name="mentionsCount" select="mam:mentions-count(., 'eventName')"
+            as="xs:integer"/>
         <xsl:variable name="rel-items-raw" as="element(rel-item)*">
             <xsl:call-template name="collect-relation-items">
                 <xsl:with-param name="entity" select="."/>
@@ -1305,13 +1432,15 @@
                                 <xsl:value-of select="normalize-space(tei:placeName)"/>
                             </xsl:element>
                             <xsl:if test="./tei:location/tei:geo">
-                                <div id="map_detail" style="height: 200px; width: 100%; margin-top: .5rem;"/>
+                                <div id="map_detail"
+                                    style="height: 200px; width: 100%; margin-top: .5rem;"/>
                                 <xsl:variable name="mlat"
                                     select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[1], ',', '.')"/>
                                 <xsl:variable name="mlong"
                                     select="replace(tokenize(./tei:location[1]/tei:geo[1], '\s')[2], ',', '.')"/>
                                 <xsl:variable name="mappin"
-                                    select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)" as="xs:string"/>
+                                    select="concat('mlat=', $mlat, '&amp;mlon=', $mlong)"
+                                    as="xs:string"/>
                                 <xsl:variable name="openstreetmapurl"
                                     select="concat('https://www.openstreetmap.org/?', $mappin, '#map=12/', $mlat, '/', $mlong)"/>
                                 <div class="text-end">
@@ -1747,10 +1876,9 @@
                                 <div class="mentions-by-year">
                                     <xsl:for-each-group select="$mentions//tei:note"
                                         group-by="substring(@corresp, 1, 4)">
-                                        <xsl:sort select="current-grouping-key()"
-                                            data-type="number" order="ascending"/>
-                                        <xsl:variable name="year"
-                                            select="current-grouping-key()"/>
+                                        <xsl:sort select="current-grouping-key()" data-type="number"
+                                            order="ascending"/>
+                                        <xsl:variable name="year" select="current-grouping-key()"/>
                                         <xsl:variable name="year-count"
                                             select="count(current-group())" as="xs:integer"/>
                                         <xsl:variable name="bar-pct"
@@ -1759,94 +1887,99 @@
                                             <summary>
                                                 <span class="year-chevron"/>
                                                 <span class="year-label">
-                                                    <xsl:value-of select="$year"/>
+                                                  <xsl:value-of select="$year"/>
                                                 </span>
                                                 <span class="year-entries">
-                                                    <xsl:value-of select="$year-count"/>
-                                                    <xsl:text> Eintr</xsl:text>
-                                                    <xsl:choose>
-                                                        <xsl:when test="$year-count = 1">ag</xsl:when>
-                                                        <xsl:otherwise>äge</xsl:otherwise>
-                                                    </xsl:choose>
+                                                  <xsl:value-of select="$year-count"/>
+                                                  <xsl:text> Eintr</xsl:text>
+                                                  <xsl:choose>
+                                                  <xsl:when test="$year-count = 1">ag</xsl:when>
+                                                  <xsl:otherwise>äge</xsl:otherwise>
+                                                  </xsl:choose>
                                                 </span>
                                                 <span class="year-bar">
-                                                    <i style="width: {$bar-pct}%;"/>
+                                                  <i style="width: {$bar-pct}%;"/>
                                                 </span>
                                                 <span class="year-count">
-                                                    <xsl:value-of select="$year-count"/>
+                                                  <xsl:value-of select="$year-count"/>
                                                 </span>
                                             </summary>
                                             <div class="year-content">
                                                 <xsl:choose>
-                                                    <xsl:when test="$year-count > 10">
-                                                        <xsl:for-each-group select="current-group()"
-                                                            group-by="substring(@corresp, 1, 7)">
-                                                            <xsl:sort select="current-grouping-key()"
-                                                                order="ascending"/>
-                                                            <details class="month-details" open="open">
-                                                                <summary class="month-summary">
-                                                                    <xsl:variable name="monthNum"
-                                                                        select="number(substring(current-grouping-key(), 6, 2))"/>
-                                                                    <xsl:choose>
-                                                                        <xsl:when test="$monthNum = 1">Jänner</xsl:when>
-                                                                        <xsl:when test="$monthNum = 2">Februar</xsl:when>
-                                                                        <xsl:when test="$monthNum = 3">März</xsl:when>
-                                                                        <xsl:when test="$monthNum = 4">April</xsl:when>
-                                                                        <xsl:when test="$monthNum = 5">Mai</xsl:when>
-                                                                        <xsl:when test="$monthNum = 6">Juni</xsl:when>
-                                                                        <xsl:when test="$monthNum = 7">Juli</xsl:when>
-                                                                        <xsl:when test="$monthNum = 8">August</xsl:when>
-                                                                        <xsl:when test="$monthNum = 9">September</xsl:when>
-                                                                        <xsl:when test="$monthNum = 10">Oktober</xsl:when>
-                                                                        <xsl:when test="$monthNum = 11">November</xsl:when>
-                                                                        <xsl:when test="$monthNum = 12">Dezember</xsl:when>
-                                                                        <xsl:otherwise>
-                                                                            <xsl:value-of select="current-grouping-key()"/>
-                                                                        </xsl:otherwise>
-                                                                    </xsl:choose>
-                                                                </summary>
-                                                                <div class="month-content py-2">
-                                                                    <ul class="dashed">
-                                                                        <xsl:for-each select="current-group()">
-                                                                            <xsl:sort select="replace(@corresp, '-', '')"
-                                                                                order="ascending" data-type="number"/>
-                                                                            <xsl:variable name="linkToDocument"
-                                                                                select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
-                                                                            <li>
-                                                                                <xsl:attribute name="class">
-                                                                                    <xsl:if test="@ana = 'comment'">mention-commentary</xsl:if>
-                                                                                </xsl:attribute>
-                                                                                <a href="{$linkToDocument}">
-                                                                                    <xsl:value-of select="."/>
-                                                                                </a>
-                                                                            </li>
-                                                                        </xsl:for-each>
-                                                                    </ul>
-                                                                </div>
-                                                            </details>
-                                                        </xsl:for-each-group>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <ul class="dashed">
-                                                            <xsl:for-each select="current-group()">
-                                                                <xsl:sort select="replace(@corresp, '-', '')"
-                                                                    order="ascending" data-type="number"/>
-                                                                <xsl:variable name="linkToDocument">
-                                                                    <xsl:value-of
-                                                                        select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                                                    />
-                                                                </xsl:variable>
-                                                                <li>
-                                                                    <xsl:attribute name="class">
-                                                                        <xsl:if test="@ana = 'comment'">mention-commentary</xsl:if>
-                                                                    </xsl:attribute>
-                                                                    <a href="{$linkToDocument}">
-                                                                        <xsl:value-of select="."/>
-                                                                    </a>
-                                                                </li>
-                                                            </xsl:for-each>
-                                                        </ul>
-                                                    </xsl:otherwise>
+                                                  <xsl:when test="$year-count > 10">
+                                                  <xsl:for-each-group select="current-group()"
+                                                  group-by="substring(@corresp, 1, 7)">
+                                                  <xsl:sort select="current-grouping-key()"
+                                                  order="ascending"/>
+                                                  <details class="month-details" open="open">
+                                                  <summary class="month-summary">
+                                                  <xsl:variable name="monthNum"
+                                                  select="number(substring(current-grouping-key(), 6, 2))"/>
+                                                  <xsl:choose>
+                                                  <xsl:when test="$monthNum = 1">Jänner</xsl:when>
+                                                  <xsl:when test="$monthNum = 2">Februar</xsl:when>
+                                                  <xsl:when test="$monthNum = 3">März</xsl:when>
+                                                  <xsl:when test="$monthNum = 4">April</xsl:when>
+                                                  <xsl:when test="$monthNum = 5">Mai</xsl:when>
+                                                  <xsl:when test="$monthNum = 6">Juni</xsl:when>
+                                                  <xsl:when test="$monthNum = 7">Juli</xsl:when>
+                                                  <xsl:when test="$monthNum = 8">August</xsl:when>
+                                                  <xsl:when test="$monthNum = 9"
+                                                  >September</xsl:when>
+                                                  <xsl:when test="$monthNum = 10">Oktober</xsl:when>
+                                                  <xsl:when test="$monthNum = 11"
+                                                  >November</xsl:when>
+                                                  <xsl:when test="$monthNum = 12"
+                                                  >Dezember</xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:value-of select="current-grouping-key()"/>
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
+                                                  </summary>
+                                                  <div class="month-content py-2">
+                                                  <ul class="dashed">
+                                                  <xsl:for-each select="current-group()">
+                                                  <xsl:sort select="replace(@corresp, '-', '')"
+                                                  order="ascending" data-type="number"/>
+                                                  <xsl:variable name="linkToDocument"
+                                                  select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
+                                                  <li>
+                                                  <xsl:attribute name="class">
+                                                  <xsl:if test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:if>
+                                                  </xsl:attribute>
+                                                  <a href="{$linkToDocument}">
+                                                  <xsl:value-of select="."/>
+                                                  </a>
+                                                  </li>
+                                                  </xsl:for-each>
+                                                  </ul>
+                                                  </div>
+                                                  </details>
+                                                  </xsl:for-each-group>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <ul class="dashed">
+                                                  <xsl:for-each select="current-group()">
+                                                  <xsl:sort select="replace(@corresp, '-', '')"
+                                                  order="ascending" data-type="number"/>
+                                                  <xsl:variable name="linkToDocument">
+                                                  <xsl:value-of
+                                                  select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
+                                                  />
+                                                  </xsl:variable>
+                                                  <li>
+                                                  <xsl:attribute name="class">
+                                                  <xsl:if test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:if>
+                                                  </xsl:attribute>
+                                                  <a href="{$linkToDocument}">
+                                                  <xsl:value-of select="."/>
+                                                  </a>
+                                                  </li>
+                                                  </xsl:for-each>
+                                                  </ul>
+                                                  </xsl:otherwise>
                                                 </xsl:choose>
                                             </div>
                                         </details>
@@ -1865,7 +1998,8 @@
                                         </xsl:variable>
                                         <li>
                                             <xsl:attribute name="class">
-                                                <xsl:if test="@ana = 'comment'">mention-commentary</xsl:if>
+                                                <xsl:if test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:if>
                                             </xsl:attribute>
                                             <a href="{$linkToDocument}">
                                                 <xsl:value-of select="."/>
@@ -2225,8 +2359,7 @@
         <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
         <!-- Alte Relationen aus tei:affiliation und tei:listEvent -->
         <xsl:for-each select="$entity/tei:affiliation">
-            <xsl:variable name="targetNode"
-                select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
+            <xsl:variable name="targetNode" select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
             <xsl:variable name="pmbId2" select="mam:to-pmb(string($targetNode/@key))"/>
             <xsl:if test="$targetNode and mam:in-project($pmbId2)">
                 <xsl:variable name="dn" select="
@@ -2235,11 +2368,15 @@
                         else
                             '(ohne Bezeichnung)'"/>
                 <xsl:variable name="ot" select="
-                        if ($targetNode/self::tei:orgName) then 'Organisation'
-                        else if ($targetNode/self::tei:persName) then 'Person'
-                        else 'Ort'"/>
-                <rel-item display-name="{$dn}" other-type="{$ot}"
-                    other-id="{$pmbId2}" other-name="{normalize-space($targetNode)}"/>
+                        if ($targetNode/self::tei:orgName) then
+                            'Organisation'
+                        else
+                            if ($targetNode/self::tei:persName) then
+                                'Person'
+                            else
+                                'Ort'"/>
+                <rel-item display-name="{$dn}" other-type="{$ot}" other-id="{$pmbId2}"
+                    other-name="{normalize-space($targetNode)}"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:for-each select="$entity/tei:listEvent/tei:event">
@@ -2250,8 +2387,8 @@
                             normalize-space(tei:desc)
                         else
                             '(ohne Bezeichnung)'"/>
-                <rel-item display-name="{$dn}" other-type="Veranstaltung"
-                    other-id="{$pmbId2}" other-name="{normalize-space(tei:label)}"/>
+                <rel-item display-name="{$dn}" other-type="Veranstaltung" other-id="{$pmbId2}"
+                    other-name="{normalize-space(tei:label)}"/>
             </xsl:if>
         </xsl:for-each>
         <!-- Relationen aus relations.csv (beide Richtungen) -->
@@ -2360,8 +2497,11 @@
                                         <a class="rel-chip" href="{concat(@other-id, '.html')}">
                                             <xsl:value-of select="
                                                     if (@other-type = 'Person')
-                                                    then mam:vn-nn(@other-name)
-                                                    else string(@other-name)"/>
+                                                    then
+                                                        mam:vn-nn(@other-name)
+                                                    else
+                                                        string(@other-name)"
+                                            />
                                         </a>
                                     </xsl:for-each>
                                 </div>
