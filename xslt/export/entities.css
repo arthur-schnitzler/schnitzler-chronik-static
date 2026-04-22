@@ -17,7 +17,7 @@
     --red-softer: oklch(from var(--project-color) 0.975 0.018 h);
     --red-line: oklch(from var(--project-color) 0.88 0.06 h);
 
-    --entity-accent: var(--red);
+    --entity-accent: var(--project-color);
     --entity-bg: oklch(0.985 0.003 60);
     --entity-card-bg: #ffffff;
     --entity-border: oklch(0.9 0.005 60);
@@ -836,3 +836,34 @@
     height: auto;
     border-radius: .35rem;
 }
+
+.crumbs{
+    font-size:12px; color:var(--ink-muted); letter-spacing:.08em; text-transform:uppercase;
+    display:flex; gap:10px; align-items:center; margin-bottom:14px;
+  }
+  .crumbs a{color:var(--project-color); text-decoration:none;}
+  .crumbs .sep{opacity:.4;}
+  .crumbs .type-pill{
+    background: var(--project-color);
+    color:#fff;
+    padding:3px 10px;
+    border-radius: 999px;
+    letter-spacing:.14em;
+    font-weight:600;
+    font-size:10.5px;
+  }
+  h1.entity-name{
+    font-family:'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin:0;
+  }
+  .life-dates{
+    color:var(--ink-soft);
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: 500;
+  }
+  .life-dates b{color:var(--ink); font-weight:600;}
