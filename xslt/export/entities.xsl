@@ -21,6 +21,7 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
+        <div class="entity-page" style="--project-color: {$current-colour};">
         <!-- Breadcrumbs -->
         <div class="crumbs">
             <span class="type-pill">Person</span>
@@ -78,7 +79,7 @@
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-        <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
+        <div class="card-body-index entity-layout">
             <!-- Linke Spalte: Steckbrief -->
             <div class="entity-sidebar">
                 <xsl:call-template name="person-portrait-card">
@@ -127,6 +128,7 @@
                     </xsl:call-template>
                 </div>
             </div>
+        </div>
         </div>
     </xsl:template>
     <!-- PERSON: Sub-Templates -->
@@ -706,6 +708,7 @@
             </xsl:element>
         </xsl:variable>
         <xsl:variable name="workPage" select="'listbibl.html'"/>
+        <div class="entity-page" style="--project-color: {$current-colour};">
         <!-- Breadcrumbs -->
         <div class="crumbs">
             <span class="type-pill">Werk</span>
@@ -750,7 +753,7 @@
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-        <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
+        <div class="card-body-index entity-layout">
             <!-- Linke Spalte: Steckbrief -->
             <div class="entity-sidebar">
                 <xsl:call-template name="lod-normdaten">
@@ -797,6 +800,7 @@
                     </xsl:call-template>
                 </div>
             </div>
+        </div>
         </div>
     </xsl:template>
     <!-- WORK: Sub-Templates -->
@@ -905,6 +909,7 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
+        <div class="entity-page" style="--project-color: {$current-colour};">
         <!-- Breadcrumbs -->
         <div class="crumbs">
             <span class="type-pill">Ort</span>
@@ -941,7 +946,7 @@
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
         <div class="container-fluid">
-            <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
+            <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
                     <xsl:call-template name="lod-normdaten">
@@ -987,6 +992,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </xsl:template>
     <!-- PLACE: Sub-Templates -->
@@ -1088,6 +1094,7 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
+        <div class="entity-page" style="--project-color: {$current-colour};">
         <div class="crumbs">
             <span class="type-pill">Institution</span>
             <span>Register</span>
@@ -1121,7 +1128,7 @@
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-        <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
+        <div class="card-body-index entity-layout">
             <!-- Linke Spalte: Steckbrief -->
             <div class="entity-sidebar">
                 <xsl:call-template name="lod-normdaten">
@@ -1166,6 +1173,7 @@
                     </xsl:call-template>
                 </div>
             </div>
+        </div>
         </div>
     </xsl:template>
     <!-- ORG: Sub-Templates -->
@@ -1265,6 +1273,7 @@
                 <xsl:copy-of select="tei:idno"/>
             </xsl:element>
         </xsl:variable>
+        <div class="entity-page" style="--project-color: {$current-colour};">
         <div class="crumbs">
             <span class="type-pill">Ereignis</span>
             <span>Register</span>
@@ -1300,7 +1309,7 @@
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
         <div class="container-fluid">
-            <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
+            <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
                     <xsl:call-template name="event-row-datum">
@@ -1352,6 +1361,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </xsl:template>
     <!-- EVENT: Sub-Templates -->

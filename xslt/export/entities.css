@@ -5,11 +5,11 @@
 
 /* ── Variablen ───────────────────────────────────────────────── */
 /* Die Akzentfarbe wird pro Edition als --project-color gesetzt
-   (Inline-Style auf .entity-layout, Wert aus list-of-relevant-uris.xml).
-   Alle --red-*-Ableitungen werden via oklch(from …) aus dieser Farbe
-   berechnet, sodass Lightness/Chroma konsistent bleiben,
+   (Inline-Style auf .entity-page, Wert aus $current-colour der jeweiligen
+   params.xsl). Alle --red-*-Ableitungen werden via oklch(from …) aus
+   dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
-:root {
+.entity-page {
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
@@ -28,20 +28,20 @@
     --entity-tab-active-bg: var(--red-softer);
 }
 
-/* ── Eltern-Container aufweiten wenn entity-layout drin ist ──── */
-.card:has(.entity-layout) {
+/* ── Eltern-Container aufweiten wenn entity-page drin ist ──── */
+.card:has(.entity-page) {
     max-width: 100%;
     box-shadow: none;
     border: none;
     margin: 0;
 }
 
-.card:has(.entity-layout) > .card-body,
-.card:has(.entity-layout) > .card-body-index {
+.card:has(.entity-page) > .card-body,
+.card:has(.entity-page) > .card-body-index {
     padding: 0;
 }
 
-.container-fluid:has(.entity-layout) {
+.container-fluid:has(.entity-page) {
     max-width: 100%;
     padding: 0 1rem;
 }
