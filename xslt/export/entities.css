@@ -402,6 +402,7 @@
     font-weight: normal;
     margin: 0;
 }
+
 .annotation-toggle .switch {
     position: relative;
     display: inline-block;
@@ -437,6 +438,7 @@
 }
 .annotation-toggle .switch input:checked + .i-slider::before {
     left: 16px;
+    transform: none; /* Add this to stop the extra movement */
 }
 
 /* Mentions-Chart: Kopf mit Legende + Range */
