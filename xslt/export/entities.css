@@ -10,7 +10,6 @@
    berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
 :root {
-    --project-color: #A63437;
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
@@ -859,6 +858,7 @@
     letter-spacing: -0.02em;
     line-height: 1.05;
     margin:0;
+    text-align:left;
   }
   .life-dates{
     color:var(--ink-soft);

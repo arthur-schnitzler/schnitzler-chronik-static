@@ -2326,7 +2326,6 @@
         <xsl:choose>
             <xsl:when test="$type = 'Person'">Personen</xsl:when>
             <xsl:when test="$type = 'Werk'">Werke</xsl:when>
-            <xsl:when test="$type = 'Ereignis'">Ereignisse</xsl:when>
             <xsl:when test="$type = 'Ort'">Orte</xsl:when>
             <xsl:when test="$type = 'Institution'">Institutionen</xsl:when>
             <xsl:when test="$type = 'Organisation'">Institutionen</xsl:when>
