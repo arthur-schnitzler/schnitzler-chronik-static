@@ -91,10 +91,10 @@
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
                             
-                            <div class="container-fluid">
-                                <div class="container-fluid">
+                            <div>
+                                
                                     <xsl:call-template name="person_detail"/>
-                                </div>
+                                
                             </div>
                             
                             <xsl:call-template name="html_footer"/>
