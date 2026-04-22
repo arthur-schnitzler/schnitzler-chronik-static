@@ -42,7 +42,7 @@
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-        <div class="card-body-index entity-layout">
+        <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
             <!-- Linke Spalte: Steckbrief -->
             <div class="entity-sidebar">
                 <xsl:call-template name="person-portrait-card">
@@ -544,12 +544,12 @@
     </xsl:template>
     <!-- Liste der Idno-Subtypen, die als Normdaten ausgewiesen werden -->
     <xsl:variable name="normdaten-abbrs" as="xs:string*"
-        select="('gnd', 'wikidata', 'pmb', 'geonames', 'wikipedia')"/>
+        select="('gnd', 'wikidata', 'pmb', 'geonames')"/>
     <!-- Normdaten-Block: kleine Mono-Badges für GND/Wikidata/PMB/… -->
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
         <xsl:variable name="matching"
-            select="$idno/descendant::tei:idno[@subtype = $normdaten-abbrs]"/>
+    select="($idno/descendant::tei:idno[@subtype = ('gnd', 'pmb')])[1]"/>
         <xsl:if test="$matching">
             <div class="side-block">
                 <h3>Normdaten</h3>
@@ -592,22 +592,31 @@
         </xsl:if>
     </xsl:template>
     <!-- Ressourcen-Block: bunte Pills aus list-of-relevant-uris
-         (alle Idnos, die nicht Normdaten sind) -->
+         (alle Idnos, die nicht Normdaten sind). Wikipedia wird zuerst gerendert. -->
     <xsl:template name="lod-ressourcen">
         <xsl:param name="idno" as="node()"/>
+        <xsl:variable name="wiki-idno"
+            select="$idno/descendant::tei:idno[@subtype = 'wikipedia'][1]"/>
         <xsl:variable name="res-idnos" as="node()">
             <xsl:element name="idnos">
                 <xsl:for-each
-                    select="$idno/descendant::tei:idno[not(@subtype = $normdaten-abbrs) and not(@subtype = $current-edition)]">
+                    select="$idno/descendant::tei:idno[not(@subtype = $normdaten-abbrs) and not(@subtype = 'wikipedia') and not(@subtype = $current-edition)]">
                     <xsl:copy-of select="."/>
                 </xsl:for-each>
             </xsl:element>
         </xsl:variable>
-        <xsl:if
-            test="key('only-relevant-uris', $res-idnos/tei:idno/@subtype, $relevant-uris)[1]">
+        <xsl:if test="$wiki-idno or key('only-relevant-uris', $res-idnos/tei:idno/@subtype, $relevant-uris)[1]">
             <div class="side-block">
                 <h3>Ressourcen</h3>
                 <p class="buttonreihe">
+                    <xsl:if test="$wiki-idno">
+                        <xsl:variable name="wiki-item"
+                            select="key('only-relevant-uris', 'wikipedia', $relevant-uris)"/>
+                        <xsl:call-template name="mam:pill">
+                            <xsl:with-param name="current-idno" select="$wiki-idno"/>
+                            <xsl:with-param name="pill" select="$wiki-item"/>
+                        </xsl:call-template>
+                    </xsl:if>
                     <xsl:call-template name="mam:idnosToLinks">
                         <xsl:with-param name="idnos-of-current" select="$res-idnos"/>
                     </xsl:call-template>
@@ -666,7 +675,7 @@
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-        <div class="card-body-index entity-layout">
+        <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
             <!-- Linke Spalte: Steckbrief -->
             <div class="entity-sidebar">
                 <xsl:call-template name="lod-normdaten">
@@ -840,7 +849,7 @@
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
         <div class="container-fluid">
-            <div class="card-body-index entity-layout">
+            <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
                     <xsl:call-template name="lod-normdaten">
@@ -1003,7 +1012,7 @@
             </xsl:for-each-group>
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-        <div class="card-body-index entity-layout">
+        <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
             <!-- Linke Spalte: Steckbrief -->
             <div class="entity-sidebar">
                 <xsl:call-template name="lod-normdaten">
@@ -1164,7 +1173,7 @@
         </xsl:variable>
         <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
         <div class="container-fluid">
-            <div class="card-body-index entity-layout">
+            <div class="card-body-index entity-layout" style="--project-color: {$current-colour};">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
                     <xsl:call-template name="event-row-datum">
@@ -2295,15 +2304,8 @@
         <!-- Relationen aus listevent.xml (nur schnitzler-kultur, nur Personen) -->
         <xsl:if test="$current-edition = 'schnitzler-kultur' and $entity/self::tei:person">
             <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
-            <xsl:variable name="authored-work-ids" as="xs:string*"
-                select="$works//tei:bibl[tei:author/@key = $xmlid]/@xml:id/string()"/>
             <xsl:variable name="direct-events" select="
                     $events/tei:event[descendant::tei:persName/@key = $xmlid]"/>
-            <xsl:variable name="authored-only-events" select="
-                    $events/tei:event[
-                    not(descendant::tei:persName/@key = $xmlid)
-                    and descendant::tei:title/@key = $authored-work-ids
-                    ]"/>
             <xsl:for-each select="$direct-events/descendant::tei:placeName[@key]">
                 <xsl:if test="not($num = '2121')">
                     <rel-item display-name="{(@role, 'Ort')[1]}" other-type="Ort"
@@ -2314,19 +2316,10 @@
                 <rel-item display-name="{(@role, 'Organisation')[1]}" other-type="Organisation"
                     other-id="{@key}" other-name="{normalize-space(.)}"/>
             </xsl:for-each>
-            <xsl:for-each select="$direct-events/descendant::tei:title[@key]">
-                <rel-item display-name="Werk" other-type="Werk" other-id="{@key}"
-                    other-name="{normalize-space(.)}"/>
-            </xsl:for-each>
             <xsl:for-each
                 select="$direct-events/descendant::tei:persName[@key and @key != $xmlid]">
                 <rel-item display-name="{(../@role, 'Person')[1]}" other-type="Person"
                     other-id="{@key}" other-name="{normalize-space(.)}"/>
-            </xsl:for-each>
-            <xsl:for-each
-                select="$authored-only-events/descendant::tei:title[@key = $authored-work-ids]">
-                <rel-item display-name="Werk" other-type="Werk" other-id="{@key}"
-                    other-name="{normalize-space(.)}"/>
             </xsl:for-each>
         </xsl:if>
     </xsl:template>

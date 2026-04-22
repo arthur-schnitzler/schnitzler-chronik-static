@@ -4,15 +4,18 @@
    ================================================================== */
 
 /* ── Variablen ───────────────────────────────────────────────── */
+/* Die Akzentfarbe wird pro Edition als --project-color gesetzt
+   (Inline-Style auf .entity-layout, Wert aus list-of-relevant-uris.xml).
+   Alle --red-*-Ableitungen werden via oklch(from …) aus dieser Farbe
+   berechnet, sodass Lightness/Chroma konsistent bleiben,
+   die Hue aber aus der Projektfarbe kommt. */
 :root {
-    --red-h: 25;
-    --red-c: 0.17;
-    --red-l: 0.48;
-    --red: oklch(var(--red-l) var(--red-c) var(--red-h));
-    --red-ink: oklch(0.34 0.14 var(--red-h));
-    --red-soft: oklch(0.94 0.04 var(--red-h));
-    --red-softer: oklch(0.975 0.018 var(--red-h));
-    --red-line: oklch(0.88 0.06 var(--red-h));
+    --project-color: #A63437;
+    --red: var(--project-color);
+    --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
+    --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
+    --red-softer: oklch(from var(--project-color) 0.975 0.018 h);
+    --red-line: oklch(from var(--project-color) 0.88 0.06 h);
 
     --entity-accent: var(--red);
     --entity-bg: oklch(0.985 0.003 60);
@@ -583,6 +586,8 @@
     font-size: 12.5px;
     color: var(--entity-ink-muted);
     flex: 0 0 auto;
+    width: 96px;
+    text-align: right;
 }
 .year-bar {
     flex: 1 1 auto;
