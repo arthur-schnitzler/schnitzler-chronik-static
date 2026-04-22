@@ -1628,7 +1628,7 @@
                             <div class="legend">
                                 <span>
                                     <span class="dot"/>
-                                    <xsl:text>Editionstext</xsl:text>
+                                    <xsl:text>Erwähnungen</xsl:text>
                                 </span>
                                 <xsl:if test="$commentaryMentionCount > 0">
                                     <span>
@@ -2299,27 +2299,6 @@
                     <rel-item display-name="{$display-name}" other-type="{$other-type}"
                         other-id="{$other-id}" other-name="{$other-name}"/>
                 </xsl:if>
-            </xsl:for-each>
-        </xsl:if>
-        <!-- Relationen aus listevent.xml (nur schnitzler-kultur, nur Personen) -->
-        <xsl:if test="$current-edition = 'schnitzler-kultur' and $entity/self::tei:person">
-            <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
-            <xsl:variable name="direct-events" select="
-                    $events/tei:event[descendant::tei:persName/@key = $xmlid]"/>
-            <xsl:for-each select="$direct-events/descendant::tei:placeName[@key]">
-                <xsl:if test="not($num = '2121')">
-                    <rel-item display-name="{(@role, 'Ort')[1]}" other-type="Ort"
-                        other-id="{@key}" other-name="{normalize-space(.)}"/>
-                </xsl:if>
-            </xsl:for-each>
-            <xsl:for-each select="$direct-events/descendant::tei:orgName[@key]">
-                <rel-item display-name="{(@role, 'Organisation')[1]}" other-type="Organisation"
-                    other-id="{@key}" other-name="{normalize-space(.)}"/>
-            </xsl:for-each>
-            <xsl:for-each
-                select="$direct-events/descendant::tei:persName[@key and @key != $xmlid]">
-                <rel-item display-name="{(../@role, 'Person')[1]}" other-type="Person"
-                    other-id="{@key}" other-name="{normalize-space(.)}"/>
             </xsl:for-each>
         </xsl:if>
     </xsl:template>
