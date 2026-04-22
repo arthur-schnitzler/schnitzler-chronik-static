@@ -725,7 +725,7 @@
             <span class="sep">/</span>
             <xsl:choose>
                 <xsl:when test="string-length(child::tei:title[1]) > 25">
-                    <xsl:value-of select="concat(substring(child::tei:title, 1, 25), '…')"/>
+                    <xsl:value-of select="concat(substring(child::tei:title[1], 1, 25), '…')"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="normalize-space(child::tei:title[1])"/>
@@ -914,7 +914,7 @@
             <span class="sep">/</span>
             <xsl:choose>
                 <xsl:when test="string-length(child::tei:placeName[1]) > 25">
-                    <xsl:value-of select="concat(substring(child::tei:placeName, 1, 25), '…')"/>
+                    <xsl:value-of select="concat(substring(child::tei:placeName[1], 1, 25), '…')"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="normalize-space(child::tei:placeName[1])"/>
@@ -1096,7 +1096,7 @@
             <span class="sep">/</span>
             <xsl:choose>
                 <xsl:when test="string-length(child::tei:orgName[1]) > 25">
-                    <xsl:value-of select="concat(substring(child::tei:orgName, 1, 25), '…')"/>
+                    <xsl:value-of select="concat(substring(child::tei:orgName[1], 1, 25), '…')"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="normalize-space(child::tei:orgName[1])"/>
@@ -1269,11 +1269,11 @@
             <span class="type-pill">Ereignis</span>
             <span>Register</span>
             <span class="sep">/</span>
-            <a href="listorg.html">Ereignisse</a>
+            <a href="listevent.html">Ereignisse</a>
             <span class="sep">/</span>
             <xsl:choose>
                 <xsl:when test="string-length(child::tei:eventName[1]) > 25">
-                    <xsl:value-of select="concat(substring(child::tei:eventName, 1, 25), '…')"/>
+                    <xsl:value-of select="concat(substring(child::tei:eventName[1], 1, 25), '…')"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="normalize-space(child::tei:eventName[1])"/>
