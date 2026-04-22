@@ -14,7 +14,7 @@
                     aria-label="Toggle navigation" style="border: none;">
                     <span class="navbar-toggler-icon"/>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="calendar.html">Kalender</a>
