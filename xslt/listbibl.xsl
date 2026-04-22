@@ -96,16 +96,7 @@
                             <xsl:call-template name="nav_bar"/>
                             
                             <div class="container-fluid">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h1>
-                                            <xsl:value-of select="$name"/>
-                                        </h1>
-                                    </div>
-                                    <div class="card-body">
-                                        <xsl:call-template name="bibl_detail"/>  
-                                    </div>
-                                </div>
+                                <xsl:call-template name="bibl_detail"/>
                             </div>
                             
                             <xsl:call-template name="html_footer"/>
