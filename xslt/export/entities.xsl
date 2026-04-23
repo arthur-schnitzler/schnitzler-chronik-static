@@ -600,18 +600,16 @@
     <!-- Normdaten-Block: kleine Mono-Badges für GND/Wikidata/PMB/… -->
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
-        <xsl:variable name="distinct-normdata-idnos" as="node()">
+        <xsl:variable name="distinct-normdata-idnos">
             <xsl:for-each select="$normdaten-abbrs">
-                <xsl:if test="$idno/descendant::tei:idno[@subtype = .][1]">
-                    <xsl:copy-of select="$idno/descendant::tei:idno[@subtype = .][1]"/>
-                </xsl:if>
+                <xsl:copy-of select="$idno/descendant::tei:idno[@subtype = current()][1]"/>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:if test="$distinct-normdata-idnos/descendant::tei:idno[1]">
+        <xsl:if test="$distinct-normdata-idnos/tei:idno[1]">
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
-                    <xsl:for-each select="$distinct-normdata-idnos/descendant::tei:idno">
+                    <xsl:for-each select="$distinct-normdata-idnos/tei:idno">
                         <xsl:variable name="abbr" select="." as="xs:string"/>
                         <xsl:for-each select="$idno/descendant::tei:idno[@subtype = $abbr]">
                             <xsl:variable name="item"
