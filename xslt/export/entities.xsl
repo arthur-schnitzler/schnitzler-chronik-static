@@ -609,8 +609,7 @@
     <!-- Normdaten-Block: kleine Mono-Badges für GND/Wikidata/PMB/… -->
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
-        <xsl:if
-            test="$idno/descendant::tei:idno[@subtype = $normdaten-abbrs][1]">
+        <xsl:if test="$idno/descendant::tei:idno[@subtype = $normdaten-abbrs][1]">
             <xsl:variable name="distinct-normdata-idnos">
                 <xsl:element name="{name($idno)}" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:for-each select="$normdaten-abbrs">
@@ -621,37 +620,34 @@
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
-                    
-                        
                     <xsl:for-each select="$distinct-normdata-idnos/descendant::*:idno">
-                            <xsl:variable name="abbr" select="@subtype"/>
-                            <xsl:variable name="item"
-                                select="key('only-relevant-uris', $abbr, $relevant-uris)"/>
-                            <xsl:variable name="label" as="xs:string">
-                                <xsl:choose>
-                                    <xsl:when test="$item/caption">
-                                        <xsl:value-of select="$item/caption"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="$abbr"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:variable>
-                            <xsl:variable name="url" select="replace(normalize-space(.), '/$', '')"/>
-                            <xsl:variable name="id-tail" select="tokenize($url, '/')[last()]"/>
-                            <div class="meta-row">
-                                <span class="label">
-                                    <xsl:value-of select="$label"/>
-                                </span>
-                                <a class="gnd-badge" target="_blank">
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="."/>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="$id-tail"/>
-                                </a>
-                            </div>
-                        </xsl:for-each>
-                    
+                        <xsl:variable name="abbr" select="@subtype"/>
+                        <xsl:variable name="item"
+                            select="key('only-relevant-uris', $abbr, $relevant-uris)"/>
+                        <xsl:variable name="label" as="xs:string">
+                            <xsl:choose>
+                                <xsl:when test="$item/caption">
+                                    <xsl:value-of select="$item/caption"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="$abbr"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:variable name="url" select="replace(normalize-space(.), '/$', '')"/>
+                        <xsl:variable name="id-tail" select="tokenize($url, '/')[last()]"/>
+                        <div class="meta-row">
+                            <span class="label">
+                                <xsl:value-of select="$label"/>
+                            </span>
+                            <a class="gnd-badge" target="_blank">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="."/>
+                                </xsl:attribute>
+                                <xsl:value-of select="$id-tail"/>
+                            </a>
+                        </div>
+                    </xsl:for-each>
                 </div>
             </div>
         </xsl:if>
