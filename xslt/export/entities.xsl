@@ -611,7 +611,7 @@
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
-                    <xsl:for-each select="$normdaten-abbrs">
+                    <xsl:for-each select="$distinct-normdata-idnos/descendant::tei:idno">
                         <xsl:variable name="abbr" select="." as="xs:string"/>
                         <xsl:for-each select="$idno/descendant::tei:idno[@subtype = $abbr]">
                             <xsl:variable name="item"
