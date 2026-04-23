@@ -610,20 +610,18 @@
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
         <xsl:if
-            test="$idno/descendant::tei:idno[@subtype = 'gnd' or @subtype = 'wikidata' or @subtype = 'pmb' or @subtype = 'geonames'][1]">
+            test="$idno/descendant::tei:idno[@subtype = $normdaten-abbrs][1]">
             <xsl:variable name="distinct-normdata-idnos">
-                <xsl:variable name="idno-wrapper" select="$idno/name()" as="xs:string"/>
-                <xsl:element name="{$idno-wrapper}" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:copy-of select="$idno/descendant::tei:idno[@type = 'gnd'][1]"/>
-                    <xsl:copy-of select="$idno/descendant::tei:idno[@type = 'wikidata'][1]"/>
-                    <xsl:copy-of select="$idno/descendant::tei:idno[@type = 'geonames'][1]"/>
-                    <xsl:copy-of select="$idno/descendant::tei:idno[@type = 'pmb'][1]"/>
+                <xsl:element name="{name($idno)}" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:for-each select="$normdaten-abbrs">
+                        <xsl:copy-of select="$idno/descendant::tei:idno[@subtype = current()][1]"/>
+                    </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
-                    <xsl:for-each select="$distinct-normdata-idnos/tei:idno">
+                    <xsl:for-each select="$distinct-normdata-idnos/descendant::tei:idno">
                         <xsl:variable name="abbr" select="." as="xs:string"/>
                         <xsl:for-each select="$idno/descendant::tei:idno[@subtype = $abbr]">
                             <xsl:variable name="item"
