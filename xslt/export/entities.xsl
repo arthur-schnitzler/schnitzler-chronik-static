@@ -597,7 +597,6 @@
     <!-- Liste der Idno-Subtypen, die als Normdaten ausgewiesen werden -->
     <xsl:variable name="normdaten-abbrs" as="xs:string*"
         select="('gnd', 'wikidata', 'pmb', 'geonames')"/>
-    
     <!-- Normdaten-Block: kleine Mono-Badges für GND/Wikidata/PMB/… -->
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
@@ -608,7 +607,7 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
-        <xsl:if test="$normdaten-abbrs">
+        <xsl:if test="$distinct-normdata-idnos/descendant::tei:idno[1]">
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
