@@ -102,7 +102,7 @@
                 </xsl:call-template>
             </div>
             <!-- Rechte Spalte: Tabs -->
-            <div class="entity-main">
+            <div class="entity-main mw-100 me-auto" style="max-width: 1400px;">
                 <div class="entity-tabs">
                     <xsl:call-template name="entity-tab-buttons">
                         <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -597,12 +597,18 @@
     <!-- Liste der Idno-Subtypen, die als Normdaten ausgewiesen werden -->
     <xsl:variable name="normdaten-abbrs" as="xs:string*"
         select="('gnd', 'wikidata', 'pmb', 'geonames')"/>
+    
     <!-- Normdaten-Block: kleine Mono-Badges für GND/Wikidata/PMB/… -->
     <xsl:template name="lod-normdaten">
         <xsl:param name="idno" as="node()"/>
-        <xsl:variable name="matching"
-            select="($idno/descendant::tei:idno[@subtype = ('gnd', 'pmb')])[1]"/>
-        <xsl:if test="$matching">
+        <xsl:variable name="distinct-normdata-idnos" as="node()">
+            <xsl:for-each select="$normdaten-abbrs">
+                <xsl:if test="$idno/descendant::tei:idno[@subtype = .][1]">
+                    <xsl:copy-of select="$idno/descendant::tei:idno[@subtype = .][1]"/>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:if test="$normdaten-abbrs">
             <div class="side-block">
                 <h3>Normdaten</h3>
                 <div class="normdaten-list">
@@ -774,7 +780,7 @@
                 </xsl:call-template>
             </div>
             <!-- Rechte Spalte: Tabs -->
-            <div class="entity-main">
+            <div class="entity-main mw-100 me-auto" style="max-width: 1400px;">
                 <div class="entity-tabs">
                     <xsl:call-template name="entity-tab-buttons">
                         <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -965,7 +971,7 @@
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
-                <div class="entity-main">
+                <div class="entity-main mw-100 me-auto" style="max-width: 1400px;">
                     <div class="entity-tabs">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -1147,7 +1153,7 @@
                 </xsl:call-template>
             </div>
             <!-- Rechte Spalte: Tabs -->
-            <div class="entity-main">
+            <div class="entity-main mw-100 me-auto" style="max-width: 1400px;">
                 <div class="entity-tabs">
                     <xsl:call-template name="entity-tab-buttons">
                         <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -1334,7 +1340,7 @@
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
-                <div class="entity-main">
+                <div class="entity-main mw-100 me-auto" style="max-width: 1400px;">
                     <div class="entity-tabs">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
