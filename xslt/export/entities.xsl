@@ -2446,10 +2446,7 @@
                             string(@src-type)
                         else
                             string(@tgt-type)"/>
-                <xsl:if test="
-                        not($num = '2121' and $other-type = 'Ort')
-                        and not($other-id = 'pmb2121' and $self-type = 'Ort')
-                        and mam:in-project($other-id)">
+                <xsl:if test="mam:in-project($other-id)">
                     <rel-item display-name="{$display-name}" other-type="{$other-type}"
                         other-id="{$other-id}" other-name="{$other-name}"/>
                 </xsl:if>
