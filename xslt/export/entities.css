@@ -80,7 +80,8 @@
     max-height: calc(100vh - 120px);
     max-height: none !important;
     overflow: visible !important;
-    position: relative; /* Oder static, falls Sticky-Verhalten gar nicht gewünscht ist */
+    position: sticky; 
+    margin-bottom: 100px;
 }
 
 /* Portrait-Karte */
@@ -145,6 +146,7 @@
     border: 1px solid var(--entity-border);
     border-radius: .625rem;
     padding: 14px 16px 16px;
+    margin-bottom: 2rem;
 }
 .side-block > h3,
 .side-block > legend {
