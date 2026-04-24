@@ -5,19 +5,18 @@
 
 /* ── Variablen ───────────────────────────────────────────────── */
 /* Die Akzentfarbe wird pro Edition als --project-color gesetzt
-   (Inline-Style auf .entity-layout, Wert aus list-of-relevant-uris.xml).
-   Alle --red-*-Ableitungen werden via oklch(from …) aus dieser Farbe
-   berechnet, sodass Lightness/Chroma konsistent bleiben,
+   (Inline-Style auf .entity-page, Wert aus $current-colour der jeweiligen
+   params.xsl). Alle --red-*-Ableitungen werden via oklch(from …) aus
+   dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
-:root {
-    --project-color: #A63437;
+.entity-page {
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
     --red-softer: oklch(from var(--project-color) 0.975 0.018 h);
     --red-line: oklch(from var(--project-color) 0.88 0.06 h);
 
-    --entity-accent: var(--red);
+    --entity-accent: var(--project-color);
     --entity-bg: oklch(0.985 0.003 60);
     --entity-card-bg: #ffffff;
     --entity-border: oklch(0.9 0.005 60);
@@ -29,20 +28,20 @@
     --entity-tab-active-bg: var(--red-softer);
 }
 
-/* ── Eltern-Container aufweiten wenn entity-layout drin ist ──── */
-.card:has(.entity-layout) {
+/* ── Eltern-Container aufweiten wenn entity-page drin ist ──── */
+.card:has(.entity-page) {
     max-width: 100%;
     box-shadow: none;
     border: none;
     margin: 0;
 }
 
-.card:has(.entity-layout) > .card-body,
-.card:has(.entity-layout) > .card-body-index {
+.card:has(.entity-page) > .card-body,
+.card:has(.entity-page) > .card-body-index {
     padding: 0;
 }
 
-.container-fluid:has(.entity-layout) {
+.container-fluid:has(.entity-page) {
     max-width: 100%;
     padding: 0 1rem;
 }
@@ -74,13 +73,15 @@
 
 /* ── Linke Spalte: Steckbrief (sticky, Stack aus Karten) ─────── */
 .entity-sidebar {
-    position: sticky;
     top: 100px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     max-height: calc(100vh - 120px);
-    overflow-y: auto;
+    max-height: none !important;
+    overflow: visible !important;
+    position: sticky; 
+    margin-bottom: 100px;
 }
 
 /* Portrait-Karte */
@@ -89,25 +90,25 @@
     border: 1px solid var(--entity-border);
     border-radius: .625rem;
     overflow: hidden;
+    flex-shrink: 0;
 }
 .entity-portrait-frame {
     width: 100%;
-    aspect-ratio: 3/4;
-    display: grid;
-    place-items: center;
-    border-bottom: 1px solid var(--entity-border);
-    background:
-        repeating-linear-gradient(45deg,
-            oklch(0.94 0.005 60) 0 8px,
-            oklch(0.97 0.003 60) 8px 16px);
+    /* Entferne oder ändere display: grid, falls es nicht zwingend nötig ist */
+    display: block; 
+    aspect-ratio: 3 / 4;
     overflow: hidden;
+    border-bottom: 1px solid var(--entity-border);
 }
+
 .entity-portrait-frame img {
     width: 100%;
-    height: 100%;
+    min-width: 
+    height: auto; /* Ändere 100% auf auto, damit das Verhältnis gewahrt bleibt */
+    min-height: 100%; /* Stellt sicher, dass der Frame gefüllt wird */
     object-fit: cover;
-    display: block;
 }
+
 .entity-portrait-meta {
     padding: 14px 16px 16px;
 }
@@ -145,6 +146,7 @@
     border: 1px solid var(--entity-border);
     border-radius: .625rem;
     padding: 14px 16px 16px;
+    margin-bottom: 2rem;
 }
 .side-block > h3,
 .side-block > legend {
@@ -403,6 +405,7 @@
     font-weight: normal;
     margin: 0;
 }
+
 .annotation-toggle .switch {
     position: relative;
     display: inline-block;
@@ -438,6 +441,13 @@
 }
 .annotation-toggle .switch input:checked + .i-slider::before {
     left: 16px;
+    transform: none; /* Add this to stop the extra movement */
+}
+
+/* Toggle aus: Kommentar-Erwähnungen in Liste & Chart ausblenden */
+#mentions.hide-commentary .mention-commentary,
+#mentions.hide-commentary #mentions-chart [data-type="commentary"] {
+    display: none;
 }
 
 /* Mentions-Chart: Kopf mit Legende + Range */
@@ -836,3 +846,35 @@
     height: auto;
     border-radius: .35rem;
 }
+
+.crumbs{
+    font-size:12px; color:var(--ink-muted); letter-spacing:.08em; text-transform:uppercase;
+    display:flex; gap:10px; align-items:center; margin-bottom:14px;
+  }
+  .crumbs a{color:var(--project-color); text-decoration:none;}
+  .crumbs .sep{opacity:.4;}
+  .crumbs .type-pill{
+    background: var(--project-color);
+    color:#fff;
+    padding:3px 10px;
+    border-radius: 999px;
+    letter-spacing:.14em;
+    font-weight:600;
+    font-size:10.5px;
+  }
+  h1.entity-name{
+    font-family:'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin:0;
+    text-align:left;
+  }
+  .life-dates{
+    color:var(--ink-soft);
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: 500;
+  }
+  .life-dates b{color:var(--ink); font-weight:600;}

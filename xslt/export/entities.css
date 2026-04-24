@@ -444,6 +444,12 @@
     transform: none; /* Add this to stop the extra movement */
 }
 
+/* Toggle aus: Kommentar-Erwähnungen in Liste & Chart ausblenden */
+#mentions.hide-commentary .mention-commentary,
+#mentions.hide-commentary #mentions-chart [data-type="commentary"] {
+    display: none;
+}
+
 /* Mentions-Chart: Kopf mit Legende + Range */
 .entity-tab-panel #mentions-chart {
     position: relative;

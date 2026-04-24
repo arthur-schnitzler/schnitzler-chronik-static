@@ -1769,17 +1769,21 @@
                             </div>
                         </xsl:if>
                         <span class="mentions-summary">
-                            <b>
-                                <xsl:value-of select="$mentionCount"/>
-                            </b>
-                            <xsl:text> Erwähnung</xsl:text>
-                            <xsl:if test="$mentionCount != 1">en</xsl:if>
+                            <span class="ms-mentions">
+                                <b>
+                                    <xsl:value-of select="$mentionCount"/>
+                                </b>
+                                <xsl:text> Erwähnung</xsl:text>
+                                <xsl:if test="$mentionCount != 1">en</xsl:if>
+                            </span>
                             <xsl:text> · </xsl:text>
-                            <b class="neutral">
-                                <xsl:value-of select="$years-with-entries"/>
-                            </b>
-                            <xsl:text> Jahr</xsl:text>
-                            <xsl:if test="$years-with-entries != 1">e</xsl:if>
+                            <span class="ms-years">
+                                <b class="neutral">
+                                    <xsl:value-of select="$years-with-entries"/>
+                                </b>
+                                <xsl:text> Jahr</xsl:text>
+                                <xsl:if test="$years-with-entries != 1">e</xsl:if>
+                            </span>
                         </span>
                     </div>
                     <!-- Chart mit Kopf (Legende + Jahr-Range) -->
@@ -1888,34 +1892,35 @@
                         </svg>
                     </div>
                     <div id="mentions-liste">
-                        <xsl:choose>
-                            <xsl:when test="$mentionCount > 10">
-                                <!-- Max-Count pro Jahr für Balken-Proportion -->
-                                <xsl:variable name="max-year-count" as="xs:integer">
-                                    <xsl:variable name="counts" as="xs:integer*">
-                                        <xsl:for-each-group select="$mentions//tei:note"
-                                            group-by="substring(@corresp, 1, 4)">
-                                            <xsl:sequence select="count(current-group())"/>
-                                        </xsl:for-each-group>
-                                    </xsl:variable>
-                                    <xsl:sequence select="
-                                            if (exists($counts)) then
-                                                max($counts)
-                                            else
-                                                1"/>
-                                </xsl:variable>
-                                <div class="mentions-by-year">
-                                    <xsl:for-each-group select="$mentions//tei:note"
-                                        group-by="substring(@corresp, 1, 4)">
-                                        <xsl:sort select="current-grouping-key()" data-type="number"
-                                            order="ascending"/>
-                                        <xsl:variable name="year" select="current-grouping-key()"/>
-                                        <xsl:variable name="year-count"
-                                            select="count(current-group())" as="xs:integer"/>
-                                        <xsl:variable name="bar-pct"
-                                            select="round(100 * $year-count div $max-year-count)"/>
-                                        <details class="year-details">
-                                            <summary>
+                        <!-- Max-Count pro Jahr für Balken-Proportion -->
+                        <xsl:variable name="max-year-count" as="xs:integer">
+                            <xsl:variable name="counts" as="xs:integer*">
+                                <xsl:for-each-group select="$mentions//tei:note"
+                                    group-by="substring(@corresp, 1, 4)">
+                                    <xsl:sequence select="count(current-group())"/>
+                                </xsl:for-each-group>
+                            </xsl:variable>
+                            <xsl:sequence select="
+                                    if (exists($counts)) then
+                                        max($counts)
+                                    else
+                                        1"/>
+                        </xsl:variable>
+                        <div class="mentions-by-year">
+                            <xsl:for-each-group select="$mentions//tei:note"
+                                group-by="substring(@corresp, 1, 4)">
+                                <xsl:sort select="current-grouping-key()" data-type="number"
+                                    order="ascending"/>
+                                <xsl:variable name="year" select="current-grouping-key()"/>
+                                <xsl:variable name="year-count" select="count(current-group())"
+                                    as="xs:integer"/>
+                                <xsl:variable name="bar-pct"
+                                    select="round(100 * $year-count div $max-year-count)"/>
+                                <details class="year-details">
+                                    <xsl:if test="position() = 1">
+                                        <xsl:attribute name="open">open</xsl:attribute>
+                                    </xsl:if>
+                                    <summary>
                                                 <span class="year-chevron"/>
                                                 <span class="year-label">
                                                   <xsl:value-of select="$year"/>
@@ -2014,32 +2019,8 @@
                                                 </xsl:choose>
                                             </div>
                                         </details>
-                                    </xsl:for-each-group>
-                                </div>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <ul class="dashed" id="simple-mentions-list">
-                                    <xsl:for-each select="$mentions//tei:note">
-                                        <xsl:sort select="replace(@corresp, '-', '')"
-                                            order="ascending" data-type="number"/>
-                                        <xsl:variable name="linkToDocument">
-                                            <xsl:value-of
-                                                select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                            />
-                                        </xsl:variable>
-                                        <li>
-                                            <xsl:attribute name="class">
-                                                <xsl:if test="@ana = 'comment'"
-                                                  >mention-commentary</xsl:if>
-                                            </xsl:attribute>
-                                            <a href="{$linkToDocument}">
-                                                <xsl:value-of select="."/>
-                                            </a>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                            </xsl:for-each-group>
+                        </div>
                     </div>
                 </span>
             </div>
