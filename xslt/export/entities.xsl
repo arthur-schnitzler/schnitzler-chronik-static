@@ -95,18 +95,18 @@
                         <xsl:with-param name="surname-fallback"
                             select="string($lemma-name//tei:surname)"/>
                     </xsl:call-template>
-                    <xsl:call-template name="lod-normdaten">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-ressourcen">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
                     <xsl:call-template name="person-korrespondenz">
                         <xsl:with-param name="entity" select="."/>
                         <xsl:with-param name="lemma-name" select="$lemma-name"/>
                     </xsl:call-template>
                     <xsl:call-template name="person-leseliste">
                         <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-ressourcen">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-normdaten">
+                        <xsl:with-param name="idno" select="$idnos"/>
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
@@ -794,12 +794,6 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
-                    <xsl:call-template name="lod-normdaten">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-ressourcen">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
                     <xsl:if test="tei:author">
                         <xsl:call-template name="work-erscheinungsdatum">
                             <xsl:with-param name="entity" select="."/>
@@ -807,6 +801,12 @@
                     </xsl:if>
                     <xsl:call-template name="work-links">
                         <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-ressourcen">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-normdaten">
+                        <xsl:with-param name="idno" select="$idnos"/>
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
@@ -989,17 +989,17 @@
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
                     <div class="entity-sidebar">
-                        <xsl:call-template name="lod-normdaten">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
-                        <xsl:call-template name="lod-ressourcen">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
                         <xsl:call-template name="place-namensvarianten">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                         <xsl:call-template name="place-map">
                             <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="lod-ressourcen">
+                            <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="lod-normdaten">
+                            <xsl:with-param name="idno" select="$idnos"/>
                         </xsl:call-template>
                     </div>
                     <!-- Rechte Spalte: Tabs -->
@@ -1173,17 +1173,17 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <div class="entity-sidebar">
-                    <xsl:call-template name="lod-normdaten">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="lod-ressourcen">
-                        <xsl:with-param name="idno" select="$idnos"/>
-                    </xsl:call-template>
                     <xsl:call-template name="org-namensvarianten">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
                     <xsl:call-template name="org-orte">
                         <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-ressourcen">
+                        <xsl:with-param name="idno" select="$idnos"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="lod-normdaten">
+                        <xsl:with-param name="idno" select="$idnos"/>
                     </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
@@ -1359,12 +1359,6 @@
                         <xsl:call-template name="event-row-datum">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
-                        <xsl:call-template name="lod-normdaten">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
-                        <xsl:call-template name="lod-ressourcen">
-                            <xsl:with-param name="idno" select="$idnos"/>
-                        </xsl:call-template>
                         <xsl:call-template name="event-row-veranstaltungsort">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
@@ -1373,6 +1367,12 @@
                         </xsl:call-template>
                         <xsl:call-template name="event-row-tageszeitungen">
                             <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="lod-ressourcen">
+                            <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="lod-normdaten">
+                            <xsl:with-param name="idno" select="$idnos"/>
                         </xsl:call-template>
                     </div>
                     <!-- Rechte Spalte: Tabs -->
@@ -2464,11 +2464,10 @@
         <xsl:choose>
             <xsl:when test="$type = 'Person'">1</xsl:when>
             <xsl:when test="$type = 'Werk'">2</xsl:when>
-            <xsl:when test="$type = 'Ereignis'">3</xsl:when>
+            <xsl:when test="$type = 'Veranstaltung'">3</xsl:when>
             <xsl:when test="$type = 'Ort'">4</xsl:when>
             <xsl:when test="$type = 'Institution'">5</xsl:when>
             <xsl:when test="$type = 'Organisation'">5</xsl:when>
-            <xsl:when test="$type = 'Veranstaltung'">6</xsl:when>
             <xsl:otherwise>9</xsl:otherwise>
         </xsl:choose>
     </xsl:function>
@@ -2525,11 +2524,18 @@
                             @tgt-id
                         else
                             @src-id))"/>
-                <xsl:variable name="other-type" as="xs:string" select="
+                <xsl:variable name="other-type-raw" as="xs:string" select="
                         if ($is-source) then
                             string(@tgt-type)
                         else
                             string(@src-type)"/>
+                <!-- 'Ereignis' aus der CSV mit dem Legacy-listEvent-Label
+                     'Veranstaltung' zusammenführen, damit nur ein Tab erscheint. -->
+                <xsl:variable name="other-type" as="xs:string" select="
+                        if ($other-type-raw = 'Ereignis') then
+                            'Veranstaltung'
+                        else
+                            $other-type-raw"/>
                 <xsl:variable name="other-name" as="xs:string" select="
                         if ($is-source) then
                             string(@tgt-name)
