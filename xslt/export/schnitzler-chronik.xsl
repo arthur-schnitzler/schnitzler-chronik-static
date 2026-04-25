@@ -680,16 +680,13 @@
                 <xsl:when test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb')">
                     <xsl:value-of select="concat('https://correspsearch.net/de/suche.html?s=', replace($ref, 'https', 'http'))"/>
                 </xsl:when>
-                <xsl:when test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
-                    <xsl:value-of select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"/>
-                </xsl:when>
                 <xsl:when test="$e-typ = 'schnitzler-fischer' and starts-with($ref, 'pmb')">
                     <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($ref, 'pmb', ''), '/')"/>
                 </xsl:when>
                 <xsl:when test="$e-typ = 'schnitzler-kultur' and starts-with($ref, 'pmb')">
                     <xsl:value-of select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"/>
                 </xsl:when>
-                <xsl:when test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
+                <xsl:when test="starts-with($ref, 'pmb')">
                     <xsl:value-of select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"/>
                 </xsl:when>
             </xsl:choose>
