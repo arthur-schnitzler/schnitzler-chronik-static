@@ -279,7 +279,7 @@
                     <body class="d-flex flex-column h-100">
                         <xsl:call-template name="nav_bar"/>
                         <main class="flex-shrink-0 flex-grow-1">
-                            <div class="container-fluid">
+                            <div class="container-fluid" style="max-width: 2000px; margin: 0 auto;">
                                 <xsl:call-template name="event_detail"/>
                             </div>
                         </main>

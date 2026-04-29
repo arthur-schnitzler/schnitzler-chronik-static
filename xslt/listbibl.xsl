@@ -94,11 +94,9 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            
-                            <div>
+                            <div style="max-width: 2000px; margin: 0 auto;">
                                 <xsl:call-template name="bibl_detail"/>
                             </div>
-                            
                             <xsl:call-template name="html_footer"/>
                         </div>
                     </body>
