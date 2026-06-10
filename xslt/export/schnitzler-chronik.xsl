@@ -97,14 +97,18 @@
                         color: white;
                         text-decoration: none;
                     }
+                    /* Masonry über CSS-Spalten: jede Spalte mindestens 22rem breit,
+                       alle Spalten gleich breit, Kästchen füllen die Spalte ganz aus */
                     #chronik-modal-body .chronik-cards {
-                        display: grid;
-                        grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
-                        gap: 1rem;
-                        align-items: start;
+                        column-width: 22rem;
+                        column-gap: 1rem;
                     }
-                    #chronik-modal-body .chronik-cards > .card {
-                        margin-bottom: 0;
+                    #chronik-modal-body .chronik-cards > * {
+                        break-inside: avoid;
+                        -webkit-column-break-inside: avoid;
+                        width: 100%;
+                        min-width: 0;
+                        margin-bottom: 1rem;
                         scroll-margin-top: 1rem;
                     }
                 </style>
