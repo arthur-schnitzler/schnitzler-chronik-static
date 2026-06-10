@@ -99,7 +99,7 @@
                     }
                     #chronik-modal-body .chronik-cards {
                         display: grid;
-                        grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+                        grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
                         gap: 1rem;
                         align-items: start;
                     }
@@ -108,13 +108,18 @@
                         scroll-margin-top: 1rem;
                     }
                 </style>
+                <xsl:apply-templates select="$fetchURLohneTeiSource"
+                    mode="schnitzler-chronik-toc">
+                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
+                </xsl:apply-templates>
+                <div class="chronik-cards">
                 <xsl:call-template name="karte-mit-datum">
                     <xsl:with-param name="datum" select="$datum-iso"/>
                 </xsl:call-template>
                 <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
                     <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                 </xsl:apply-templates>
-                <div class="weiteres" style="margin-top:2.5em;">
+                <div class="card mb-3 weiteres" style="background-color: rgba(0, 0, 0, 0.03)">
                     <xsl:variable name="datum-written" select="
                             format-date($datum-iso, '[D1].&#160;[M1].&#160;[Y0001]',
                             'en',
@@ -176,7 +181,11 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:variable>
-                    <h3>Weiteres</h3>
+                    <div class="card-header" style="background-color: transparent;">
+                        <span class="badge cornered-pill"
+                            style="color: white; background-color: #595959;">Weiteres</span>
+                    </div>
+                    <div class="card-body">
                     <ul>
                         <li>
                             <xsl:text>Zeitungen vom </xsl:text>
@@ -237,14 +246,16 @@
                             </xsl:element>
                         </li>
                     </ul>
+                    </div>
+                </div>
                 </div>
             </div>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
+    <!-- Inhaltsverzeichnis: ein Badge je Typ, springt zum jeweiligen Kästchen -->
+    <xsl:template match="tei:listEvent" mode="schnitzler-chronik-toc">
         <xsl:param name="relevant-eventtypes"/>
         <xsl:variable name="current-group" select="." as="node()"/>
-        <!-- die an diesem Tag tatsächlich vorhandenen Typen, in der Reihenfolge von $relevant-eventtypes -->
         <xsl:variable name="vorhandene-typen" as="xs:string*">
             <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
                 <xsl:variable name="e-typ" as="xs:string" select="."/>
@@ -254,7 +265,6 @@
                 </xsl:if>
             </xsl:for-each>
         </xsl:variable>
-        <!-- Inhaltsverzeichnis: ein Badge je Typ, springt zum jeweiligen Kästchen -->
         <xsl:if test="count($vorhandene-typen) gt 1">
             <nav class="chronik-toc">
                 <xsl:for-each select="$vorhandene-typen">
@@ -289,7 +299,20 @@
                 </xsl:for-each>
             </nav>
         </xsl:if>
-        <div class="chronik-cards">
+    </xsl:template>
+    <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
+        <xsl:param name="relevant-eventtypes"/>
+        <xsl:variable name="current-group" select="." as="node()"/>
+        <!-- die an diesem Tag tatsächlich vorhandenen Typen, in der Reihenfolge von $relevant-eventtypes -->
+        <xsl:variable name="vorhandene-typen" as="xs:string*">
+            <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
+                <xsl:variable name="e-typ" as="xs:string" select="."/>
+                <xsl:if
+                    test="$current-group/tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ]">
+                    <xsl:sequence select="$e-typ"/>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:variable>
         <xsl:for-each select="$vorhandene-typen">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
@@ -372,10 +395,15 @@
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
-        </div>
-        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
-            <xsl:apply-templates mode="desc"/>
-        </xsl:for-each>
+        <xsl:if
+            test="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
+            <div>
+                <xsl:for-each
+                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
+                    <xsl:apply-templates mode="desc"/>
+                </xsl:for-each>
+            </div>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:event">
         <!-- jeder einzelne eintrag -->
@@ -830,10 +858,19 @@
     </xsl:function>
     <xsl:template name="karte-mit-datum">
         <xsl:param name="datum"/>
-        <div id="collapseMap">
-            <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="{$datum}"></div>
+        <div class="card mb-3" style="background-color: rgba(0, 0, 0, 0.03)">
+            <div class="card-header" style="background-color: transparent;">
+                <span class="badge cornered-pill"
+                    style="color: white; background-color: #595959;">Karte</span>
+            </div>
+            <div class="card-body">
+                <div id="collapseMap">
+                    <div id="wienerschnitzler-map" style="height: 300px; width: 100%;"
+                        data-datum="{$datum}"></div>
+                </div>
+            </div>
         </div>
-        
+
         <!-- Externes Leaflet-Script -->
         <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script>
         
