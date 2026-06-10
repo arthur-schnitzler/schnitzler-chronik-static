@@ -84,6 +84,30 @@
             <div id="chronik-modal-body">
                 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"/>
                 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+                <!-- Layout der Typ-Kästchen: nebeneinander, sobald Platz ist; sonst untereinander.
+                     Das CSS liegt hier im Plugin, damit importierende Projekte nichts ergänzen müssen. -->
+                <style>
+                    #chronik-modal-body .chronik-toc {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 0.4em;
+                        margin: 1.5em 0 1em 0;
+                    }
+                    #chronik-modal-body .chronik-toc a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    #chronik-modal-body .chronik-cards {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+                        gap: 1rem;
+                        align-items: start;
+                    }
+                    #chronik-modal-body .chronik-cards > .card {
+                        margin-bottom: 0;
+                        scroll-margin-top: 1rem;
+                    }
+                </style>
                 <xsl:call-template name="karte-mit-datum">
                     <xsl:with-param name="datum" select="$datum-iso"/>
                 </xsl:call-template>
@@ -220,7 +244,53 @@
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
         <xsl:param name="relevant-eventtypes"/>
         <xsl:variable name="current-group" select="." as="node()"/>
-        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
+        <!-- die an diesem Tag tatsächlich vorhandenen Typen, in der Reihenfolge von $relevant-eventtypes -->
+        <xsl:variable name="vorhandene-typen" as="xs:string*">
+            <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
+                <xsl:variable name="e-typ" as="xs:string" select="."/>
+                <xsl:if
+                    test="$current-group/tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ]">
+                    <xsl:sequence select="$e-typ"/>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:variable>
+        <!-- Inhaltsverzeichnis: ein Badge je Typ, springt zum jeweiligen Kästchen -->
+        <xsl:if test="count($vorhandene-typen) gt 1">
+            <nav class="chronik-toc">
+                <xsl:for-each select="$vorhandene-typen">
+                    <xsl:variable name="e-typ" as="xs:string" select="."/>
+                    <xsl:variable name="e-typ-farbe">
+                        <xsl:choose>
+                            <xsl:when
+                                test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
+                                <xsl:value-of
+                                    select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
+                                />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>blue</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <a class="badge cornered-pill" href="#chronik-card-{$e-typ}"
+                        style="background-color: {$e-typ-farbe};">
+                        <xsl:choose>
+                            <xsl:when
+                                test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption">
+                                <xsl:value-of
+                                    select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"
+                                />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$e-typ"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </a>
+                </xsl:for-each>
+            </nav>
+        </xsl:if>
+        <div class="chronik-cards">
+        <xsl:for-each select="$vorhandene-typen">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:for-each
                 select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ])]/tei:idno[@type = $e-typ or @subtype = $e-typ][1]">
@@ -237,7 +307,8 @@
                     </xsl:choose>
                 </xsl:variable>
                 <xsl:variable name="e-typ-farbe-blass" select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
-                <div class="card mb-3" style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
+                <div class="card mb-3" id="chronik-card-{$e-typ}"
+                    style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
                     <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;">
                         <!-- das macht den Titel des jeweiligen Typ-Abschnitts -->
                         <xsl:element name="a">
@@ -301,6 +372,7 @@
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
+        </div>
         <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
             <xsl:apply-templates mode="desc"/>
         </xsl:for-each>
