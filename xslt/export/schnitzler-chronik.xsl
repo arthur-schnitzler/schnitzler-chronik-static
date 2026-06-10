@@ -642,7 +642,7 @@
         <section class="chronik-card chronik-card-map" id="chronik-card-karte"
             style="--c: #595959;">
             <header class="chronik-card-head">
-                <span>Karte</span>
+                <span>Aufenthaltsorte</span>
             </header>
             <div class="chronik-card-body">
                 <div id="wienerschnitzler-map" data-datum="{$datum}"></div>
@@ -652,7 +652,10 @@
         <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script>
         <!-- Initialisierung: im Bootstrap-Modal beim Öffnen, sonst (Drawer/Inline),
              sobald die Karte sichtbar wird. Doppelte Initialisierung wird über
-             _leaflet_id verhindert. -->
+             _leaflet_id verhindert.
+             Achtung: kein && und kein < im Inline-JS verwenden – method="xhtml"
+             serialisiert die als Entities, die der Browser in script nicht
+             dekodiert (SyntaxError, Karte erscheint nicht). -->
         <script>
             (function () {
                 function initMap() {
@@ -672,15 +675,16 @@
                         window.dispatchEvent(new Event('resize'));
                     });
                     var el = document.getElementById('wienerschnitzler-map');
-                    if (el &amp;&amp; 'IntersectionObserver' in window) {
+                    if (!el) {
+                        initMap();
+                    } else if ('IntersectionObserver' in window) {
                         new IntersectionObserver(function (entries, obs) {
-                            for (var i = 0; i &lt; entries.length; i++) {
-                                if (entries[i].isIntersecting) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
                                     obs.disconnect();
                                     initMap();
-                                    break;
                                 }
-                            }
+                            });
                         }).observe(el);
                     } else {
                         initMap();
