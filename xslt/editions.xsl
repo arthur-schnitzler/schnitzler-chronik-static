@@ -61,8 +61,6 @@
                     .navBarNavDropdown ul li:nth-child(2) {
                         display: none !important;
                     }</style>
-                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"/>
-                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
             </head>
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -104,10 +102,18 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <xsl:call-template name="karte-mit-datum">
-                                    <xsl:with-param name="datum" select="$datum-iso"/>
+                                <!-- gemeinsames Kachel-Layout aus export/schnitzler-chronik.xsl
+                                     (inkl. Karte und »Weiteres«); teiSource/current-type greifen
+                                     hier nicht, da die Chronik sich nicht selbst referenziert -->
+                                <xsl:call-template name="mam:schnitzler-chronik">
+                                    <xsl:with-param name="datum-iso" select="$datum-iso"/>
+                                    <xsl:with-param name="current-type"
+                                        select="'schnitzler-chronik'"/>
+                                    <xsl:with-param name="teiSource" select="string($teiSource)"/>
+                                    <xsl:with-param name="fetchContentsFromURL" select="/"/>
+                                    <xsl:with-param name="import-eventtypes"
+                                        select="$relevant-eventtypes"/>
                                 </xsl:call-template>
-                                <xsl:apply-templates select=".//tei:body"/>
                             </div>
                         </div>
                     </div>
@@ -121,91 +127,6 @@
             </body>
         </html>
     </xsl:template>
-    <!-- Default-mode-Template für tei:listEvent: schnitzler-chronik.xsl's Version
-         ist in mode="schnitzler-chronik" und wird von apply-templates auf tei:body
-         nicht erreicht. Hier wird die globale $relevant-eventtypes-Variable verwendet. -->
-    <xsl:template match="tei:listEvent">
-        <xsl:variable name="current-group" select="." as="node()"/>
-        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
-            <xsl:variable name="e-typ" as="xs:string" select="."/>
-            <xsl:for-each
-                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ])]/tei:idno[@type = $e-typ or @subtype = $e-typ][1]">
-                <xsl:variable name="e-typ-farbe">
-                    <xsl:choose>
-                        <xsl:when
-                            test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                            <xsl:value-of
-                                select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:text>blue</xsl:text>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:variable name="e-typ-farbe-blass" select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
-                <div class="card mb-3" style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
-                    <div class="card-header d-flex justify-content-between align-items-center">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>badge cornered-pill</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: white; text-decoration: none;</xsl:text>
-                                <xsl:text>background-color: </xsl:text>
-                                <xsl:choose>
-                                    <xsl:when test="$e-typ-farbe">
-                                        <xsl:value-of select="$e-typ-farbe"/>
-                                        <xsl:text>; </xsl:text>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:text>black; </xsl:text>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="$current-group/descendant::tei:idno[@type = $e-typ or @subtype = $e-typ][1]"
-                                />
-                            </xsl:attribute>
-                            <xsl:choose>
-                                <xsl:when
-                                    test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption">
-                                    <xsl:value-of
-                                        select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"
-                                    />
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:text>Unexpected behaviour: </xsl:text>
-                                    <xsl:value-of select="$e-typ"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:element>
-                        <span class="toggle-icon" data-bs-toggle="collapse"
-                            data-bs-target="#{$e-typ}" aria-expanded="true" aria-controls="content1"
-                            style="cursor: pointer; user-select: none;">−</span>
-                    </div>
-                    <div class="collapse show">
-                        <xsl:attribute name="id">
-                            <xsl:value-of select="$e-typ"/>
-                        </xsl:attribute>
-                        <div class="card-body">
-                            <xsl:apply-templates
-                                select="$current-group/tei:event[tei:idno/@type = $e-typ or tei:idno/@subtype = $e-typ]"/>
-                        </div>
-                    </div>
-                </div>
-                <xsl:for-each
-                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
-                    <div id="content1" class="collapse show">
-                        <xsl:apply-templates mode="desc"/>
-                    </div>
-                </xsl:for-each>
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:template>
     <xsl:template match="tei:p">
         <p id="{local:makeId(.)}" class="yes-index">
             <xsl:apply-templates/>
@@ -215,20 +136,5 @@
         <div id="{local:makeId(.)}" style="margin-top:1.5em;">
             <xsl:apply-templates/>
         </div>
-    </xsl:template>
-    <!-- Nur in editions.xsl: plain-text-Darstellung der desc -->
-    <xsl:template match="tei:event/tei:desc" mode="text">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <!-- Überschreibt schnitzler-chronik.xsl's karte-mit-datum:
-         Auf der eigenständigen Seite kein Modal-Event-Handler nötig. -->
-    <xsl:template name="karte-mit-datum">
-        <xsl:param name="datum"/>
-        <div id="collapseMap">
-            <div id="wienerschnitzler-map" style="height: 300px;" data-datum="{$datum}"/>
-        </div>
-        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@418b500/xslt/export/wienerschnitzler-map.js?v=4"></script>
     </xsl:template>
 </xsl:stylesheet>
