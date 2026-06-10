@@ -5,9 +5,8 @@
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
-    <!-- This documentation is late in being generated thus it might not fully reflect what is going on 
-    here. The idea is to call the templates in this file something like this:
-    
+    <!-- Einbindung in anderen Projekten:
+
     <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
     <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
     <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-briefe'"/>
@@ -29,19 +28,36 @@
                                     <xsl:with-param name="current-type" select="$schnitzler-chronik_current-type"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
                                     <xsl:with-param name="fetchContentsFromURL" select="$fetchContentsFromURL"/>
-                                    <xsl:with-param name="relevant-eventtypes" select="''"/>
+                                    <xsl:with-param name="import-eventtypes" select="''"/>
                                 </xsl:call-template>
-                                
-    where teiSource lists the current filename/xml:id without .xml-ending. This is to make sure the chronik doesn't reduplicate it, i.e. 'L000122'
-    
-   fetchContentsFromURL already contains the chronik-day. this allows for local processing of the chronik, which increases the speed
-        
-   -->
+
+    teiSource ist der aktuelle Dateiname/die xml:id ohne .xml-Endung (z. B. 'L000122'); Einträge,
+    die auf das aktuelle Dokument selbst zeigen, werden ausgelassen.
+
+    fetchContentsFromURL enthält bereits den Chronik-Tag; das erlaubt lokale Verarbeitung
+    (schneller als der Download je Datei).
+
+    Die Ausgabe ist selbsttragend (CSS im <style>-Block, gescoped auf .chronik-embed) und
+    funktioniert sowohl in einem Bootstrap-Modal als auch in einem breiten Container
+    (Querformat/Drawer): Die Kacheln packen sich über CSS-Spalten platzsparend zusammen,
+    je nach verfügbarer Breite ein- oder mehrspaltig.
+    -->
     <xsl:param name="relevant-uris"
         select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
     <!--<xsl:param name="relevant-uris" select="document('list-of-relevant-uris.xml')"/>-->
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
+    <!-- Farbe eines Eventtyps laut list-of-relevant-uris.xml, Fallback 'blue' -->
+    <xsl:function name="mam:typ-farbe" as="xs:string">
+        <xsl:param name="e-typ" as="xs:string?"/>
+        <xsl:variable name="color"
+            select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color[. != '#fff']"/>
+        <xsl:sequence select="
+                if (exists($color)) then
+                    string($color[1])
+                else
+                    'blue'"/>
+    </xsl:function>
     <xsl:template name="mam:schnitzler-chronik">
         <xsl:param name="datum-iso" as="xs:date"/>
         <xsl:param name="current-type" as="xs:string"/>
@@ -51,7 +67,7 @@
         <xsl:variable name="relevant-eventtypes" as="xs:string">
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
             <xsl:choose>
-                <xsl:when test="empty($import-eventtypes)">
+                <xsl:when test="empty($import-eventtypes) or $import-eventtypes = ''">
                     <xsl:text>Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,wienerschnitzler,schnitzler-kultur,schnitzler-fischer,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,dla-marbach,kalliope-verbund</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
@@ -59,10 +75,8 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:variable name="link">
-            <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
-        </xsl:variable>
         <xsl:if test="$fetchContentsFromURL/descendant::*:listEvent/*:event">
+            <!-- Einträge, die auf das aktuelle Dokument selbst verweisen, werden entfernt -->
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:for-each select="$fetchContentsFromURL/descendant::*:listEvent/*:event">
@@ -72,700 +86,451 @@
                             <xsl:otherwise>
                                 <xsl:copy-of select="."/>
                             </xsl:otherwise>
-                        </xsl:choose> 
+                        </xsl:choose>
                     </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
-            <xsl:variable name="doc_title">
-                <xsl:value-of
-                    select="$fetchContentsFromURL/descendant::*:titleStmt[1]/*:title[@level = 'a'][1]/text()"
-                />
-            </xsl:variable>
-            <div id="chronik-modal-body">
+            <div id="chronik-modal-body" class="chronik-embed">
                 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"/>
                 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-                <!-- Layout der Typ-Kästchen: nebeneinander, sobald Platz ist; sonst untereinander.
-                     Das CSS liegt hier im Plugin, damit importierende Projekte nichts ergänzen müssen. -->
+                <!-- Selbsttragendes, auf .chronik-embed gescopetes CSS, damit importierende
+                     Projekte nichts ergänzen müssen. Kachel-Farbe steckt je Kachel in der
+                     Custom Property &#45;&#45;c; Hintergrund-Tönung via color-mix. -->
                 <style>
-                    #chronik-modal-body .chronik-toc {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 0.4em;
-                        margin: 1.5em 0 1em 0;
+                    .chronik-embed {
+                        font-size: .85rem;
+                        line-height: 1.35;
                     }
-                    #chronik-modal-body .chronik-toc a {
-                        color: white;
-                        text-decoration: none;
+                    /* Masonry über CSS-Spalten: packt die Kacheln platzsparend,
+                       im schmalen Modal einspaltig, im Querformat mehrspaltig */
+                    .chronik-embed .chronik-cards {
+                        column-width: 17rem;
+                        column-gap: .6rem;
                     }
-                    /* Masonry über CSS-Spalten: jede Spalte mindestens 22rem breit,
-                       alle Spalten gleich breit, Kästchen füllen die Spalte ganz aus */
-                    #chronik-modal-body .chronik-cards {
-                        column-width: 22rem;
-                        column-gap: 1rem;
-                    }
-                    #chronik-modal-body .chronik-cards > * {
+                    /* inline-block statt block: verhindert, dass der untere Außenabstand
+                       am Spaltenumbruch in die nächste Spalte »blutet« und deren erste
+                       Kachel nach unten schiebt */
+                    .chronik-embed .chronik-card {
+                        display: inline-block;
+                        width: 100%;
+                        vertical-align: top;
                         break-inside: avoid;
                         -webkit-column-break-inside: avoid;
+                        margin: 0 0 .6rem 0;
+                        border-radius: .45rem;
+                        overflow: hidden;
+                        background-color: #f4f4f4;
+                        background-color: color-mix(in srgb, var(--c, #595959) 9%, white);
+                    }
+                    .chronik-embed .chronik-card-head {
+                        background-color: var(--c, #595959);
+                        padding: .2rem .65rem .25rem .65rem;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-card-head a,
+                    .chronik-embed .chronik-card-head span {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: .72rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .04em;
+                    }
+                    .chronik-embed .chronik-card-head a:hover {
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-card-body {
+                        padding: .45rem .65rem .55rem .65rem;
+                    }
+                    .chronik-embed .chronik-event p {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .entry-title {
+                        color: var(--c, inherit);
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                    .chronik-embed a.entry-title:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-entities {
+                        margin: 0 0 .2rem 0;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-entities > i {
+                        color: var(--c, #595959);
+                        margin-right: .3rem;
+                        font-size: .75em;
+                    }
+                    .chronik-embed ul.horizontal-list {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.horizontal-list li {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .chronik-embed ul.horizontal-list li::before {
+                        content: none;
+                    }
+                    .chronik-embed ul.horizontal-list li:not(:last-child)::after {
+                        content: ' · ';
+                        color: var(--c, #888);
+                    }
+                    .chronik-embed ul.horizontal-list a {
+                        color: inherit;
+                    }
+                    .chronik-embed .chronik-card-body a {
+                        text-decoration: none;
+                    }
+                    .chronik-embed .chronik-card-body a:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed ul.chronik-place-list {
+                        margin: 0;
+                        padding-left: 1.1em;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-text {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .chronik-quelle {
+                        font-size: .75rem;
+                        opacity: .75;
+                    }
+                    .chronik-embed .chronik-links {
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-card-map .chronik-card-body {
+                        padding: 0;
+                    }
+                    .chronik-embed #wienerschnitzler-map {
+                        height: 240px;
                         width: 100%;
-                        min-width: 0;
-                        margin-bottom: 1rem;
-                        scroll-margin-top: 1rem;
+                    }
+                    .chronik-embed ul.chronik-misc-list {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.chronik-misc-list li + li {
+                        margin-top: .2rem;
                     }
                 </style>
-                <xsl:apply-templates select="$fetchURLohneTeiSource"
-                    mode="schnitzler-chronik-toc">
-                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
-                </xsl:apply-templates>
                 <div class="chronik-cards">
-                <xsl:call-template name="karte-mit-datum">
-                    <xsl:with-param name="datum" select="$datum-iso"/>
-                </xsl:call-template>
-                <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
-                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
-                </xsl:apply-templates>
-                <div class="card mb-3 weiteres" style="background-color: rgba(0, 0, 0, 0.03)">
-                    <xsl:variable name="datum-written" select="
-                            format-date($datum-iso, '[D1].&#160;[M1].&#160;[Y0001]',
-                            'en',
-                            'AD',
-                            'EN')"/>
-                    <xsl:variable name="wochentag">
-                        <xsl:choose>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Monday'">
-                                <xsl:text>Montag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Tuesday'">
-                                <xsl:text>Dienstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Wednesday'">
-                                <xsl:text>Mittwoch</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Thursday'">
-                                <xsl:text>Donnerstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Friday'">
-                                <xsl:text>Freitag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Saturday'">
-                                <xsl:text>Samstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum-iso, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Sunday'">
-                                <xsl:text>Sonntag</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>DATUMSFEHLER</xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:variable>
-                    <div class="card-header" style="background-color: transparent;">
-                        <span class="badge cornered-pill"
-                            style="color: white; background-color: #595959;">Weiteres</span>
-                    </div>
-                    <div class="card-body">
-                    <ul>
-                        <li>
-                            <xsl:text>Zeitungen vom </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
-                            </xsl:element>
-                            <xsl:text> bei </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="style">
-                                    <xsl:text>color: black;</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:text>ANNO</xsl:text>
-                            </xsl:element>
-                        </li>
-                        <li>
-                            <xsl:text>Briefe vom </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
-                            </xsl:element>
-                            <xsl:text> bei </xsl:text>
-                            <xsl:element name="a">
-                                <xsl:attribute name="style">
-                                    <xsl:text>color: black;</xsl:text>
-                                </xsl:attribute>
-                                <xsl:attribute name="href">
-                                    <xsl:value-of
-                                        select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"
-                                    />
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:text>correspSearch</xsl:text>
-                            </xsl:element>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
+                    <xsl:call-template name="karte-mit-datum">
+                        <xsl:with-param name="datum" select="$datum-iso"/>
+                    </xsl:call-template>
+                    <xsl:apply-templates select="$fetchURLohneTeiSource" mode="schnitzler-chronik">
+                        <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
+                    </xsl:apply-templates>
+                    <xsl:call-template name="mam:chronik-weiteres">
+                        <xsl:with-param name="datum-iso" select="$datum-iso"/>
+                    </xsl:call-template>
                 </div>
             </div>
         </xsl:if>
     </xsl:template>
-    <!-- Inhaltsverzeichnis: ein Badge je Typ, springt zum jeweiligen Kästchen -->
-    <xsl:template match="tei:listEvent" mode="schnitzler-chronik-toc">
-        <xsl:param name="relevant-eventtypes"/>
-        <xsl:variable name="current-group" select="." as="node()"/>
-        <xsl:variable name="vorhandene-typen" as="xs:string*">
-            <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
-                <xsl:variable name="e-typ" as="xs:string" select="."/>
-                <xsl:if
-                    test="$current-group/tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ]">
-                    <xsl:sequence select="$e-typ"/>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:variable>
-        <xsl:if test="count($vorhandene-typen) gt 1">
-            <nav class="chronik-toc">
-                <xsl:for-each select="$vorhandene-typen">
-                    <xsl:variable name="e-typ" as="xs:string" select="."/>
-                    <xsl:variable name="e-typ-farbe">
-                        <xsl:choose>
-                            <xsl:when
-                                test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                                <xsl:value-of
-                                    select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
-                                />
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>blue</xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:variable>
-                    <a class="badge cornered-pill" href="#chronik-card-{$e-typ}"
-                        style="background-color: {$e-typ-farbe};">
-                        <xsl:choose>
-                            <xsl:when
-                                test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption">
-                                <xsl:value-of
-                                    select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"
-                                />
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="$e-typ"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </a>
-                </xsl:for-each>
-            </nav>
-        </xsl:if>
+    <!-- Kachel »Weiteres«: externe Tagesangebote (ANNO, correspSearch) -->
+    <xsl:template name="mam:chronik-weiteres">
+        <xsl:param name="datum-iso" as="xs:date"/>
+        <xsl:variable name="datum-written" select="
+                format-date($datum-iso, '[D1].&#160;[M1].&#160;[Y0001]',
+                'en',
+                'AD',
+                'EN')"/>
+        <xsl:variable name="wochentag" select="
+                ('Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag')[index-of(
+                ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'),
+                format-date($datum-iso, '[F]', 'en', 'AD', 'EN'))]"/>
+        <xsl:variable name="anno-url"
+            select="concat('https://anno.onb.ac.at/cgi-content/anno?datum=', replace(string($datum-iso), '-', ''))"/>
+        <xsl:variable name="correspsearch-url"
+            select="concat('https://correspsearch.net/de/suche.html?d=', $datum-iso, '&amp;x=1&amp;w=0')"/>
+        <section class="chronik-card" id="chronik-card-weiteres" style="--c: #595959;">
+            <header class="chronik-card-head">
+                <span>Weiteres</span>
+            </header>
+            <div class="chronik-card-body">
+                <ul class="chronik-misc-list">
+                    <li>
+                        <xsl:text>Zeitungen vom </xsl:text>
+                        <a href="{$anno-url}" target="_blank">
+                            <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
+                        </a>
+                        <xsl:text> (ANNO)</xsl:text>
+                    </li>
+                    <li>
+                        <xsl:text>Briefe vom </xsl:text>
+                        <a href="{$correspsearch-url}" target="_blank">
+                            <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
+                        </a>
+                        <xsl:text> (correspSearch)</xsl:text>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </xsl:template>
+    <!-- eine Kachel je Ereignis, Typen in der Reihenfolge von $relevant-eventtypes;
+         kleine Einheiten geben dem Spalten-Masonry mehr Spielraum beim Packen -->
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
         <xsl:param name="relevant-eventtypes"/>
         <xsl:variable name="current-group" select="." as="node()"/>
-        <!-- die an diesem Tag tatsächlich vorhandenen Typen, in der Reihenfolge von $relevant-eventtypes -->
-        <xsl:variable name="vorhandene-typen" as="xs:string*">
-            <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
-                <xsl:variable name="e-typ" as="xs:string" select="."/>
-                <xsl:if
-                    test="$current-group/tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ]">
-                    <xsl:sequence select="$e-typ"/>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:variable>
-        <xsl:for-each select="$vorhandene-typen">
-            <xsl:variable name="e-typ" as="xs:string" select="."/>
-            <xsl:for-each
-                select="$current-group/tei:event[not(preceding-sibling::tei:event/tei:idno[@type = $e-typ or @subtype = $e-typ])]/tei:idno[@type = $e-typ or @subtype = $e-typ][1]">
-                <xsl:variable name="e-typ-farbe">
-                    <xsl:choose>
-                        <xsl:when
-                            test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                            <xsl:value-of
-                                select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:text>blue</xsl:text>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:variable name="e-typ-farbe-blass" select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
-                <div class="card mb-3" id="chronik-card-{$e-typ}"
-                    style="background-color: rgba({$e-typ-farbe-blass}, 0.1)">
-                    <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;">
-                        <!-- das macht den Titel des jeweiligen Typ-Abschnitts -->
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>badge cornered-pill</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: white; text-decoration: none;</xsl:text>
-                                <xsl:text>background-color: </xsl:text>
-                                <xsl:choose>
-                                    <xsl:when test="$e-typ-farbe">
-                                        <xsl:value-of select="$e-typ-farbe"/>
-                                        <xsl:text>; </xsl:text>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:text>black; </xsl:text>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="$current-group/descendant::tei:idno[@type = $e-typ or @subtype = $e-typ][1]"
-                                />
-                            </xsl:attribute>
-                            <xsl:choose>
-                                <xsl:when
-                                    test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption">
-                                    <xsl:value-of
-                                        select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"
-                                    />
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:text>Unexpected behaviour: </xsl:text>
-                                    <xsl:value-of select="$e-typ"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:element>
-                        <span class="toggle-icon" data-bs-toggle="collapse"
-                            data-bs-target="#{$e-typ}" aria-expanded="true" aria-controls="content1"
-                            style="cursor: pointer; user-select: none;">−</span>
-                    </div>
-                    <div class="collapse show">
-                        <xsl:attribute name="id">
-                            <xsl:value-of select="$e-typ"/>
-                        </xsl:attribute>
-                        <div class="card-body">
-                            <xsl:apply-templates
-                                select="$current-group/tei:event[tei:idno/@type = $e-typ or tei:idno/@subtype = $e-typ]"/>
-                        </div>
-                    </div>
-                </div>
-                <xsl:for-each
-                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
-                    <!-- hier nun die einzelnen events -->
-                    <div id="content1" class="collapse">
-                        <xsl:apply-templates mode="desc"/>
-                    </div>
-                </xsl:for-each>
-            </xsl:for-each>
-        </xsl:for-each>
-        <xsl:if
-            test="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
-            <div>
-                <xsl:for-each
-                    select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))] and tei:idno/@subtype[not(contains($relevant-eventtypes, .))]]">
-                    <xsl:apply-templates mode="desc"/>
-                </xsl:for-each>
-            </div>
-        </xsl:if>
-    </xsl:template>
-    <xsl:template match="tei:event">
-        <!-- jeder einzelne eintrag -->
-        <xsl:variable name="e-typ" select="(tei:idno/@type[. != 'URL'], tei:idno/@subtype)[1]"/>
-        <xsl:variable name="e-typ-farbe">
-            <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
-                    />
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>blue</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:variable name="e-typ-multiple" as="xs:boolean">
-            <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/@ana = 'multiple'">
-                    <xsl:value-of select="true()"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="false()"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:if test="tei:head">
-            <p>
+        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
+            <xsl:variable name="e-typ" as="xs:string" select="normalize-space(.)"/>
+            <xsl:variable name="kopf-caption">
                 <xsl:choose>
-                    <xsl:when test="$e-typ='wienerschnitzler'">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="concat('http://wienerschnitzler.org/', replace(tei:head/@corresp, '#', ''), '.html')"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: </xsl:text>
-                                <xsl:value-of select="$e-typ-farbe"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="tei:idno[1]/text()"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="style">
-                                <xsl:text>color: </xsl:text>
-                                <xsl:value-of select="$e-typ-farbe"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="tei:head[@corresp]">
-                        <xsl:element name="a">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(tei:head/@corresp, '#', ''), 'pmb', ''), '/')"
-                                />
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
+                    <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption">
+                        <xsl:value-of
+                            select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">
-                                <xsl:text>entry-title</xsl:text>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:head/text()"/>
-                        </xsl:element>
+                        <xsl:value-of select="$e-typ"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </p>
-        </xsl:if>
-        <xsl:choose>
-            <xsl:when test="tei:desc/child::*[1]">
-                <xsl:element name="ul">
-                    <xsl:attribute name="style">
-                        <xsl:text>list-style-type: none; padding-left: 0px;</xsl:text>
-                    </xsl:attribute>
+            </xsl:variable>
+            <xsl:for-each
+                select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]">
+                <xsl:variable name="kopf-idno"
+                    select="string(tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
+                <xsl:variable name="kopf-url">
+                    <xsl:choose>
+                        <xsl:when test="starts-with($kopf-idno, 'http')">
+                            <xsl:value-of select="$kopf-idno"/>
+                        </xsl:when>
+                        <xsl:when test="starts-with($kopf-idno, 'doi')">
+                            <xsl:value-of select="concat('https://', $kopf-idno)"/>
+                        </xsl:when>
+                        <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url">
+                            <xsl:value-of
+                                select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url"/>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:variable>
+                <section class="chronik-card" id="chronik-card-{$e-typ}-{position()}"
+                    style="--c: {mam:typ-farbe($e-typ)};">
+                    <header class="chronik-card-head">
+                        <xsl:choose>
+                            <xsl:when test="$kopf-url != ''">
+                                <a href="{$kopf-url}" target="_blank">
+                                    <xsl:value-of select="$kopf-caption"/>
+                                </a>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <span>
+                                    <xsl:value-of select="$kopf-caption"/>
+                                </span>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </header>
+                    <div class="chronik-card-body">
+                        <xsl:apply-templates select="."/>
+                    </div>
+                </section>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:template>
+    <!-- jeder einzelne Eintrag -->
+    <xsl:template match="tei:event">
+        <xsl:variable name="e-typ" select="(tei:idno/@type[. != 'URL'], tei:idno/@subtype)[1]"/>
+        <xsl:variable name="e-typ-multiple" as="xs:boolean"
+            select="key('only-relevant-uris', $e-typ, $relevant-uris)/@ana = 'multiple'"/>
+        <div class="chronik-event">
+            <xsl:if test="tei:head">
+                <xsl:variable name="head-url">
+                    <xsl:choose>
+                        <xsl:when test="$e-typ = 'wienerschnitzler' and tei:head/@corresp">
+                            <xsl:value-of
+                                select="concat('https://wienerschnitzler.org/', replace(tei:head/@corresp, '#', ''), '.html')"
+                            />
+                        </xsl:when>
+                        <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
+                            <xsl:value-of select="tei:idno[1]/text()"/>
+                        </xsl:when>
+                        <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
+                            <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
+                        </xsl:when>
+                        <xsl:when test="tei:head/@corresp">
+                            <xsl:value-of
+                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(tei:head/@corresp, '#', ''), 'pmb', ''), '/')"
+                            />
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:variable>
+                <p>
+                    <xsl:choose>
+                        <xsl:when test="$head-url != ''">
+                            <a class="entry-title" href="{$head-url}" target="_blank">
+                                <xsl:value-of select="tei:head/text()"/>
+                            </a>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <span class="entry-title">
+                                <xsl:value-of select="tei:head/text()"/>
+                            </span>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </p>
+            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="tei:desc/child::*[1]">
                     <xsl:apply-templates select="tei:desc" mode="desc"/>
-                </xsl:element>
-            </xsl:when>
-            <xsl:when test="normalize-space(.) != ''">
-                <xsl:element name="ul">
-                    <xsl:attribute name="style">
-                        <xsl:text>list-style-type: none; padding-left: 0px;</xsl:text>
-                    </xsl:attribute>
-                    <li>
-                        <xsl:apply-templates select="tei:desc" mode="text"/>
-                    </li>
-                </xsl:element>
-            </xsl:when>
-        </xsl:choose>
-        <xsl:choose>
-            <xsl:when test="tei:idno[@type = $e-typ or @subtype = $e-typ][2] and $e-typ-multiple">
-                <xsl:for-each select="tei:idno[@type = $e-typ or @subtype = $e-typ]">
-                    <xsl:element name="a">
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="."/>
-                        </xsl:attribute>
-                        <xsl:value-of select="concat('Link ', position())"/>
-                    </xsl:element>
-                    <xsl:if test="position() != last()">
-                        <xsl:text> / </xsl:text>
-                    </xsl:if>
-                </xsl:for-each>
-            </xsl:when>
-        </xsl:choose>
+                </xsl:when>
+                <xsl:when test="normalize-space(tei:desc) != ''">
+                    <p class="chronik-text">
+                        <xsl:value-of select="normalize-space(tei:desc)"/>
+                    </p>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:if test="$e-typ-multiple and tei:idno[@type = $e-typ or @subtype = $e-typ][2]">
+                <p class="chronik-links">
+                    <xsl:for-each select="tei:idno[@type = $e-typ or @subtype = $e-typ]">
+                        <a href="{.}" target="_blank">
+                            <xsl:value-of select="concat('Link ', position())"/>
+                        </a>
+                        <xsl:if test="position() != last()">
+                            <xsl:text> / </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </p>
+            </xsl:if>
+        </div>
     </xsl:template>
     <xsl:template match="tei:event/tei:desc" mode="desc">
-        <li>
-            <xsl:if
-                test="child::tei:listPerson or child::tei:listBibl or child::tei:listPlace or child::tei:listOrg">
-                <ul>
-                    <xsl:attribute name="style">
-                        <xsl:text>list-style-type: none; padding-left: 0px;</xsl:text>
-                    </xsl:attribute>
-                    <xsl:for-each select="child::*[starts-with(name(), 'list')]">
+        <xsl:for-each select="*[starts-with(name(), 'list')]">
+            <div class="chronik-entities">
+                <xsl:choose>
+                    <xsl:when test="self::tei:listPlace">
+                        <i class="fa-solid fa-location-dot" title="Orte" aria-label="Orte"/>
+                    </xsl:when>
+                    <xsl:when test="self::tei:listPerson">
+                        <i class="fa-solid fa-users" title="Personen" aria-label="Personen"/>
+                    </xsl:when>
+                    <xsl:when test="self::tei:listOrg">
+                        <i class="fa-solid fa-building-columns" title="Organisationen"
+                            aria-label="Organisationen"/>
+                    </xsl:when>
+                    <xsl:when test="self::tei:listBibl">
+                        <i class="fa-regular fa-image" title="Werke" aria-label="Werke"/>
+                    </xsl:when>
+                </xsl:choose>
+                <xsl:apply-templates select="." mode="desc"/>
+            </div>
+        </xsl:for-each>
+        <xsl:apply-templates select="tei:*[not(starts-with(name(), 'list'))]" mode="desc"/>
+        <xsl:if test="text()[normalize-space(.) != '']">
+            <p class="chronik-text">
+                <xsl:value-of
+                    select="normalize-space(string-join(text()[normalize-space(.) != ''], ' '))"/>
+            </p>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:listPerson" mode="desc">
+        <xsl:variable name="e-typ"
+            select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
+        <ul class="horizontal-list" style="--dot-color: {mam:typ-farbe($e-typ)};">
+            <xsl:for-each select="tei:person/tei:persName[1]">
+                <xsl:variable name="ref" select="replace(concat(@ref[1], @key[1]), '^#', '')"/>
+                <li>
+                    <xsl:call-template name="mam:entity-link">
+                        <xsl:with-param name="ref" select="$ref"/>
+                        <xsl:with-param name="e-typ" select="$e-typ"/>
+                        <xsl:with-param name="label" select="normalize-space(.)"/>
+                    </xsl:call-template>
+                </li>
+            </xsl:for-each>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:listOrg" mode="desc">
+        <xsl:variable name="e-typ"
+            select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
+        <ul class="horizontal-list" style="--dot-color: {mam:typ-farbe($e-typ)};">
+            <xsl:for-each select="tei:org/tei:orgName">
+                <xsl:variable name="ref" select="replace(concat(@ref, @key), '^#', '')"/>
+                <li>
+                    <xsl:call-template name="mam:entity-link">
+                        <xsl:with-param name="ref" select="$ref"/>
+                        <xsl:with-param name="e-typ" select="$e-typ"/>
+                        <xsl:with-param name="label" select="normalize-space(.)"/>
+                    </xsl:call-template>
+                </li>
+            </xsl:for-each>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:listPlace" mode="desc">
+        <xsl:variable name="e-typ"
+            select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
+        <xsl:choose>
+            <!-- Wiener Schnitzler: Orte als Block-Liste, ggf. verschachtelt -->
+            <xsl:when test="$e-typ = 'wienerschnitzler'">
+                <ul class="chronik-place-list" style="--dot-color: {mam:typ-farbe($e-typ)};">
+                    <xsl:for-each select="tei:place">
+                        <xsl:variable name="ref" select="replace(@corresp, '#', '')"/>
                         <li>
-                            <xsl:choose>
-                                <xsl:when test="name() = 'listPlace'">
-                                    <i title="Orte" class="fa-solid fa-location-dot"/>&#160;Orte </xsl:when>
-                                <xsl:when test="name() = 'listPerson'">
-                                    <i class="fa-solid fa-users" title="Personen"/>&#160;Personen </xsl:when>
-                                <xsl:when test="name() = 'listOrg'">
-                                    <i class="fa-solid fa-building-columns" title="Organisationen"
-                                    />&#160; Organisationen </xsl:when>
-                                <xsl:when test="name() = 'listBibl'">
-                                    <i title="Werke" class="fa-regular fa-image"/>&#160;Werke
-                                </xsl:when>
-                            </xsl:choose>
-                            <xsl:apply-templates select="." mode="desc"/>
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:choose>
+                                        <xsl:when test="starts-with($ref, 'pmb')">
+                                            <xsl:value-of
+                                                select="concat('https://www.wienerschnitzler.org/', $ref, '.html')"
+                                            />
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="tei:placeName[1]"/>
+                            </xsl:element>
+                            <xsl:apply-templates select="tei:listPlace" mode="desc"/>
                         </li>
                     </xsl:for-each>
                 </ul>
-            </xsl:if>
-            <xsl:if
-                test="tei:*[not(self::tei:listPerson or self::tei:listBibl or self::tei:listPlace or self::tei:listOrg)]">
-                <xsl:apply-templates
-                    select="tei:*[not(self::tei:listPerson or self::tei:listBibl or self::tei:listPlace or self::tei:listOrg)]"
-                    mode="desc"/>
-            </xsl:if>
-            <xsl:if test="text()[not(normalize-space(.) = '')]">
-                <p>
-                    <xsl:value-of select="normalize-space(text()[not(normalize-space(.) = '')])"/>
-                </p>
-            </xsl:if>
-        </li>
-    </xsl:template>
-    <xsl:template match="tei:listPerson" mode="desc">
-        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
-        <xsl:variable name="e-type-farbe">
-            <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
-                    />
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>blue</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <div class="list-container">
-            <ul class="horizontal-list">
-                <xsl:attribute name="style">
-                    <xsl:text>--dot-color: </xsl:text>
-                    <xsl:value-of select="$e-type-farbe"/>
-                    <xsl:text>;</xsl:text>
-                </xsl:attribute>
-                <xsl:for-each select="tei:person/tei:persName[1]">
-                    <xsl:variable name="ref" select="replace(concat(@ref[1], @key[1]), '^#', '')"/>
-                    <xsl:element name="li">
-                        <xsl:call-template name="mam:entity-link">
-                            <xsl:with-param name="ref" select="$ref"/>
-                            <xsl:with-param name="e-typ" select="$e-typ"/>
-                            <xsl:with-param name="label" select="normalize-space(.)"/>
-                        </xsl:call-template>
-                    </xsl:element>
-                </xsl:for-each>
-            </ul>
-        </div>
-    </xsl:template>
-    <xsl:template match="tei:listOrg" mode="desc">
-        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
-        <xsl:variable name="e-type-farbe">
-            <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
-                    />
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>blue</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <div class="list-container">
-            <ul class="horizontal-list">
-                <xsl:attribute name="style">
-                    <xsl:text>--dot-color: </xsl:text>
-                    <xsl:value-of select="$e-type-farbe"/>
-                    <xsl:text>;</xsl:text>
-                </xsl:attribute>
-                <xsl:for-each select="tei:org/tei:orgName">
-                    <xsl:variable name="ref" select="replace(concat(@ref, @key), '^#', '')"/>
-                    <xsl:element name="li">
-                        <xsl:call-template name="mam:entity-link">
-                            <xsl:with-param name="ref" select="$ref"/>
-                            <xsl:with-param name="e-typ" select="$e-typ"/>
-                            <xsl:with-param name="label" select="normalize-space(.)"/>
-                        </xsl:call-template>
-                    </xsl:element>
-                </xsl:for-each>
-            </ul>
-        </div>
-    </xsl:template>
-    <xsl:template match="tei:listPlace" mode="desc">
-        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
-        <xsl:variable name="e-type-farbe">
-            <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
-                    />
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>blue</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <div class="list-container">
-            <xsl:choose>
-                <xsl:when test="$e-typ = 'wienerschnitzler'">
-                    <ul>
-                        <xsl:attribute name="style">
-                            <xsl:text>--dot-color: </xsl:text>
-                            <xsl:value-of select="$e-type-farbe"/>
-                            <xsl:text>;</xsl:text>
-                        </xsl:attribute>
-                        <xsl:for-each select="tei:place">
-                            <xsl:variable name="ref" select="replace(@corresp, '#', '')"/>
-                            <xsl:element name="li">
-                                <xsl:element name="a">
-                                    <xsl:attribute name="href">
-                                        <xsl:choose>
-                                            <xsl:when
-                                                test="starts-with($ref, 'pmb')">
-                                                <xsl:value-of
-                                                    select="concat('https://www.wienerschnitzler.org/', $ref, '.html')"
-                                                />
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of
-                                                    select="concat('https://www.wienerschnitzler.org/pmb', $ref, '.html')"
-                                                />
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="target">
-                                        <xsl:text>_blank</xsl:text>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="tei:placeName[1]"/>
-                                </xsl:element>
-                                <xsl:if test="tei:listPlace">
-                                    <xsl:apply-templates select="tei:listPlace" mode="desc"/>
-                                </xsl:if>
-                            </xsl:element>
-                        </xsl:for-each>
-                    </ul>
-                </xsl:when>
-                <xsl:otherwise>
-                    <ul class="horizontal-list">
-                        <xsl:attribute name="style">
-                            <xsl:text>--dot-color: </xsl:text>
-                            <xsl:value-of select="$e-type-farbe"/>
-                            <xsl:text>;</xsl:text>
-                        </xsl:attribute>
-                        <xsl:for-each select="tei:place/tei:placeName">
-                            <xsl:variable name="ref" select="replace(concat(@ref, @key), '^#', '')"/>
-                            <xsl:element name="li">
-                                <xsl:call-template name="mam:entity-link">
-                                    <xsl:with-param name="ref" select="$ref"/>
-                                    <xsl:with-param name="e-typ" select="$e-typ"/>
-                                    <xsl:with-param name="label" select="normalize-space(.)"/>
-                                </xsl:call-template>
-                            </xsl:element>
-                        </xsl:for-each>
-                    </ul>
-                </xsl:otherwise>
-            </xsl:choose>
-        </div>
+            </xsl:when>
+            <xsl:otherwise>
+                <ul class="horizontal-list" style="--dot-color: {mam:typ-farbe($e-typ)};">
+                    <xsl:for-each select="tei:place/tei:placeName">
+                        <xsl:variable name="ref" select="replace(concat(@ref, @key), '^#', '')"/>
+                        <li>
+                            <xsl:call-template name="mam:entity-link">
+                                <xsl:with-param name="ref" select="$ref"/>
+                                <xsl:with-param name="e-typ" select="$e-typ"/>
+                                <xsl:with-param name="label" select="normalize-space(.)"/>
+                            </xsl:call-template>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:desc/tei:listBibl" mode="desc">
-        <xsl:variable name="e-typ" select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
-        <xsl:variable name="e-type-farbe">
-            <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
-                    />
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>blue</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <div class="list-container">
-            <ul class="horizontal-list">
-                <xsl:attribute name="style">
-                    <xsl:text>--dot-color: </xsl:text>
-                    <xsl:value-of select="$e-type-farbe"/>
-                    <xsl:text>;</xsl:text>
-                </xsl:attribute>
-                <xsl:for-each select="descendant::tei:title">
-                    <xsl:variable name="ref" select="replace(concat(@ref, @key), '^#', '')"/>
-                    <xsl:element name="li">
-                        <xsl:call-template name="mam:entity-link">
-                            <xsl:with-param name="ref" select="$ref"/>
-                            <xsl:with-param name="e-typ" select="$e-typ"/>
-                            <xsl:with-param name="label" select="normalize-space(.)"/>
-                            <xsl:with-param name="truncate" select="true()"/>
-                        </xsl:call-template>
-                    </xsl:element>
-                </xsl:for-each>
-            </ul>
-        </div>
+        <xsl:variable name="e-typ"
+            select="(ancestor::tei:event/tei:idno/@type[. != 'URL'], ancestor::tei:event/tei:idno/@subtype)[1]"/>
+        <ul class="horizontal-list" style="--dot-color: {mam:typ-farbe($e-typ)};">
+            <xsl:for-each select="descendant::tei:title">
+                <xsl:variable name="ref" select="replace(concat(@ref, @key), '^#', '')"/>
+                <li>
+                    <xsl:call-template name="mam:entity-link">
+                        <xsl:with-param name="ref" select="$ref"/>
+                        <xsl:with-param name="e-typ" select="$e-typ"/>
+                        <xsl:with-param name="label" select="normalize-space(.)"/>
+                        <xsl:with-param name="truncate" select="true()"/>
+                    </xsl:call-template>
+                </li>
+            </xsl:for-each>
+        </ul>
     </xsl:template>
     <xsl:template match="tei:bibl[parent::tei:desc]" mode="desc">
-        <p>
+        <p class="chronik-quelle">
             <xsl:text>Quelle: </xsl:text>
             <i>
                 <xsl:value-of select="."/>
@@ -781,17 +546,25 @@
         <xsl:param name="truncate" as="xs:boolean" select="false()"/>
         <xsl:variable name="url">
             <xsl:choose>
-                <xsl:when test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb')">
-                    <xsl:value-of select="concat('https://correspsearch.net/de/suche.html?s=', replace($ref, 'https', 'http'))"/>
+                <xsl:when
+                    test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb')">
+                    <xsl:value-of
+                        select="concat('https://correspsearch.net/de/suche.html?s=', replace($ref, 'https', 'http'))"
+                    />
                 </xsl:when>
                 <xsl:when test="$e-typ = 'schnitzler-fischer' and starts-with($ref, 'pmb')">
-                    <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($ref, 'pmb', ''), '/')"/>
+                    <xsl:value-of
+                        select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($ref, 'pmb', ''), '/')"
+                    />
                 </xsl:when>
                 <xsl:when test="$e-typ = 'schnitzler-kultur' and starts-with($ref, 'pmb')">
-                    <xsl:value-of select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"/>
+                    <xsl:value-of
+                        select="concat('https://schnitzler-kultur.acdh.oeaw.ac.at/', $ref, '.html')"
+                    />
                 </xsl:when>
                 <xsl:when test="starts-with($ref, 'pmb')">
-                    <xsl:value-of select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"/>
+                    <xsl:value-of
+                        select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
@@ -816,6 +589,9 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <!-- mam:hexNachRGBfarbe/mam:hexToDec/mam:power werden hier nicht mehr gebraucht
+         (Tönung via CSS color-mix), bleiben aber erhalten, weil importierende
+         Stylesheets (z. B. editions.xsl der Chronik selbst) sie verwenden. -->
     <xsl:function name="mam:hexNachRGBfarbe">
         <xsl:param name="hexColor" as="xs:string"/>
         <xsl:variable name="red" select="substring($hexColor, 2, 2)"/>
@@ -828,7 +604,6 @@
     </xsl:function>
     <xsl:function name="mam:hexToDec">
         <xsl:param name="hex"/>
-        <!-- Konvertiere Kleinbuchstaben in Großbuchstaben -->
         <xsl:variable name="uppercaseHex" select="translate($hex, 'abcdef', 'ABCDEF')"/>
         <xsl:variable name="dec"
             select="string-length(substring-before('0123456789ABCDEF', substring($uppercaseHex, 1, 1)))"/>
@@ -860,41 +635,58 @@
                     else
                         $base * mam:power($base, $exp - 1)"/>
     </xsl:function>
+    <!-- Karten-Kachel; wird von einzelnen Projekten (schnitzler-briefe, Chronik selbst)
+         mit eigener Version überschrieben -->
     <xsl:template name="karte-mit-datum">
         <xsl:param name="datum"/>
-        <div class="card mb-3" style="background-color: rgba(0, 0, 0, 0.03)">
-            <div class="card-header" style="background-color: transparent;">
-                <span class="badge cornered-pill"
-                    style="color: white; background-color: #595959;">Karte</span>
+        <section class="chronik-card chronik-card-map" id="chronik-card-karte"
+            style="--c: #595959;">
+            <header class="chronik-card-head">
+                <span>Karte</span>
+            </header>
+            <div class="chronik-card-body">
+                <div id="wienerschnitzler-map" data-datum="{$datum}"></div>
             </div>
-            <div class="card-body">
-                <div id="collapseMap">
-                    <div id="wienerschnitzler-map" style="height: 300px; width: 100%;"
-                        data-datum="{$datum}"></div>
-                </div>
-            </div>
-        </div>
-
+        </section>
         <!-- Externes Leaflet-Script -->
         <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script>
-        
-        <!-- Event-Handler für das Bootstrap-Modal -->
+        <!-- Initialisierung: im Bootstrap-Modal beim Öffnen, sonst (Drawer/Inline),
+             sobald die Karte sichtbar wird. Doppelte Initialisierung wird über
+             _leaflet_id verhindert. -->
         <script>
-            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
-            console.log('Modal shown event triggered');
-            // Kurz warten, dann initialisieren
-            setTimeout(function() {
-            if (!window._wienerschnitzlerMapInitialized) {
-            window.initWienerschnitzlerMap();
-            window._wienerschnitzlerMapInitialized = true;
-            }
-            }, 100);
-            });
-
-            // Zusätzlich: Map zurücksetzen beim Schließen
-            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
-            window._wienerschnitzlerMapInitialized = false;
-            });
+            (function () {
+                function initMap() {
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el || el._leaflet_id) { return; }
+                    if (window.initWienerschnitzlerMap) { window.initWienerschnitzlerMap(); }
+                }
+                var modal = document.getElementById('schnitzler-chronik-modal');
+                if (modal) {
+                    modal.addEventListener('shown.bs.modal', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                } else {
+                    document.addEventListener('drawer:open', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (el &amp;&amp; 'IntersectionObserver' in window) {
+                        new IntersectionObserver(function (entries, obs) {
+                            for (var i = 0; i &lt; entries.length; i++) {
+                                if (entries[i].isIntersecting) {
+                                    obs.disconnect();
+                                    initMap();
+                                    break;
+                                }
+                            }
+                        }).observe(el);
+                    } else {
+                        initMap();
+                    }
+                }
+            })();
         </script>
     </xsl:template>
 </xsl:stylesheet>
