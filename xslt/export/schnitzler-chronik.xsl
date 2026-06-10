@@ -450,17 +450,19 @@
             <div class="chronik-entities">
                 <xsl:choose>
                     <xsl:when test="self::tei:listPlace">
-                        <i class="fa-solid fa-location-dot" title="Orte" aria-label="Orte"/>
+                        <i class="fa-solid fa-location-dot" role="img" title="Orte"
+                            aria-label="Orte"/>
                     </xsl:when>
                     <xsl:when test="self::tei:listPerson">
-                        <i class="fa-solid fa-users" title="Personen" aria-label="Personen"/>
+                        <i class="fa-solid fa-users" role="img" title="Personen"
+                            aria-label="Personen"/>
                     </xsl:when>
                     <xsl:when test="self::tei:listOrg">
-                        <i class="fa-solid fa-building-columns" title="Organisationen"
+                        <i class="fa-solid fa-building-columns" role="img" title="Organisationen"
                             aria-label="Organisationen"/>
                     </xsl:when>
                     <xsl:when test="self::tei:listBibl">
-                        <i class="fa-regular fa-image" title="Werke" aria-label="Werke"/>
+                        <i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"/>
                     </xsl:when>
                 </xsl:choose>
                 <xsl:apply-templates select="." mode="desc"/>
