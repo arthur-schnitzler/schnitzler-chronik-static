@@ -338,45 +338,67 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <xsl:for-each
-                select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]">
-                <xsl:variable name="kopf-idno"
-                    select="string(tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
-                <xsl:variable name="kopf-url">
-                    <xsl:choose>
-                        <xsl:when test="starts-with($kopf-idno, 'http')">
-                            <xsl:value-of select="$kopf-idno"/>
-                        </xsl:when>
-                        <xsl:when test="starts-with($kopf-idno, 'doi')">
-                            <xsl:value-of select="concat('https://', $kopf-idno)"/>
-                        </xsl:when>
-                        <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url">
-                            <xsl:value-of
-                                select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url"/>
-                        </xsl:when>
-                    </xsl:choose>
-                </xsl:variable>
-                <section class="chronik-card" id="chronik-card-{$e-typ}-{position()}"
-                    style="--c: {mam:typ-farbe($e-typ)};">
-                    <header class="chronik-card-head">
-                        <xsl:choose>
-                            <xsl:when test="$kopf-url != ''">
-                                <a href="{$kopf-url}" target="_blank">
-                                    <xsl:value-of select="$kopf-caption"/>
-                                </a>
-                            </xsl:when>
-                            <xsl:otherwise>
+            <xsl:choose>
+                <!-- Wiener Schnitzler: alle Ereignisse des Tages in einem einzelnen Kästchen -->
+                <xsl:when test="$e-typ = 'wienerschnitzler'">
+                    <xsl:variable name="ws-events"
+                        select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]"/>
+                    <xsl:if test="$ws-events">
+                        <section class="chronik-card" id="chronik-card-{$e-typ}"
+                            style="--c: {mam:typ-farbe($e-typ)};">
+                            <header class="chronik-card-head">
                                 <span>
                                     <xsl:value-of select="$kopf-caption"/>
                                 </span>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </header>
-                    <div class="chronik-card-body">
-                        <xsl:apply-templates select="."/>
-                    </div>
-                </section>
-            </xsl:for-each>
+                            </header>
+                            <div class="chronik-card-body">
+                                <xsl:apply-templates select="$ws-events"/>
+                            </div>
+                        </section>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:for-each
+                        select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]">
+                        <xsl:variable name="kopf-idno"
+                            select="string(tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
+                        <xsl:variable name="kopf-url">
+                            <xsl:choose>
+                                <xsl:when test="starts-with($kopf-idno, 'http')">
+                                    <xsl:value-of select="$kopf-idno"/>
+                                </xsl:when>
+                                <xsl:when test="starts-with($kopf-idno, 'doi')">
+                                    <xsl:value-of select="concat('https://', $kopf-idno)"/>
+                                </xsl:when>
+                                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url">
+                                    <xsl:value-of
+                                        select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url"/>
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <section class="chronik-card" id="chronik-card-{$e-typ}-{position()}"
+                            style="--c: {mam:typ-farbe($e-typ)};">
+                            <header class="chronik-card-head">
+                                <xsl:choose>
+                                    <xsl:when test="$kopf-url != ''">
+                                        <a href="{$kopf-url}" target="_blank">
+                                            <xsl:value-of select="$kopf-caption"/>
+                                        </a>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <span>
+                                            <xsl:value-of select="$kopf-caption"/>
+                                        </span>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </header>
+                            <div class="chronik-card-body">
+                                <xsl:apply-templates select="."/>
+                            </div>
+                        </section>
+                    </xsl:for-each>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:for-each>
     </xsl:template>
     <!-- jeder einzelne Eintrag -->
