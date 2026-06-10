@@ -64,6 +64,9 @@
         <xsl:param name="teiSource" as="xs:string"/>
         <xsl:param name="fetchContentsFromURL" as="node()?"/>
         <xsl:param name="import-eventtypes" as="xs:string?"/>
+        <!-- prominente Datums-Überschrift (klar als Link) über den Kacheln; in der
+             Standalone-Chronikseite ausgeschaltet, weil dort schon der h1-Titel steht -->
+        <xsl:param name="show-date-heading" as="xs:boolean" select="true()"/>
         <xsl:variable name="relevant-eventtypes" as="xs:string">
             <!-- falls keine typen übergeben werden, werden die standardwerte genommen -->
             <xsl:choose>
@@ -100,6 +103,31 @@
                     .chronik-embed {
                         font-size: .85rem;
                         line-height: 1.35;
+                    }
+                    /* prominente, klar als Link erkennbare Datums-Überschrift */
+                    .chronik-embed .chronik-date-heading {
+                        margin: 0 0 .7rem 0;
+                        text-align: center;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-date-heading a {
+                        display: inline-block;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        color: #008B8B;
+                        text-decoration: underline;
+                        text-decoration-thickness: .08em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-date-heading a::after {
+                        content: "\00A0\2197";
+                        font-size: .7em;
+                        text-decoration: none;
+                        vertical-align: .15em;
+                    }
+                    .chronik-embed .chronik-date-heading a:hover {
+                        color: #006d6d;
+                        text-decoration: underline;
                     }
                     /* Masonry über CSS-Spalten: packt die Kacheln platzsparend,
                        im schmalen Modal einspaltig, im Querformat mehrspaltig */
@@ -221,6 +249,23 @@
                         margin-top: .2rem;
                     }
                 </style>
+                <xsl:if test="$show-date-heading">
+                    <xsl:variable name="datum-written" select="
+                            format-date($datum-iso, '[D1].&#160;[M1].&#160;[Y0001]',
+                            'en',
+                            'AD',
+                            'EN')"/>
+                    <xsl:variable name="wochentag" select="
+                            ('Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag')[index-of(
+                            ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'),
+                            format-date($datum-iso, '[F]', 'en', 'AD', 'EN'))]"/>
+                    <h2 class="chronik-date-heading">
+                        <a href="{concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum-iso, '.html')}"
+                            target="_blank">
+                            <xsl:value-of select="concat($wochentag, ', ', $datum-written)"/>
+                        </a>
+                    </h2>
+                </xsl:if>
                 <div class="chronik-cards">
                     <xsl:call-template name="karte-mit-datum">
                         <xsl:with-param name="datum" select="$datum-iso"/>

@@ -113,6 +113,8 @@
                                     <xsl:with-param name="fetchContentsFromURL" select="/"/>
                                     <xsl:with-param name="import-eventtypes"
                                         select="$relevant-eventtypes"/>
+                                    <!-- Datums-Überschrift aus, da hier schon der h1-Titel steht -->
+                                    <xsl:with-param name="show-date-heading" select="false()"/>
                                 </xsl:call-template>
                             </div>
                         </div>
