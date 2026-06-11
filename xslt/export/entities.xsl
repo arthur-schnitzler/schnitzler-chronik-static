@@ -1039,7 +1039,6 @@
                         </div>
                     </section>
                 </div>
-            </div>
         </article>
     </xsl:template>
     <!-- PLACE: Sub-Templates -->
@@ -1411,7 +1410,6 @@
                         </div>
                     </section>
                 </div>
-            </div>
         </article>
     </xsl:template>
     <!-- EVENT: Sub-Templates -->
