@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
+<xsl:stylesheet
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="2.0" exclude-result-prefixes="xsl tei xs">
-    
+
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
@@ -23,41 +23,33 @@
                 <script src="js-data/calendarData.js"></script>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    
-                    <div class="container-fluid">                        
-                        <div class="card">
-                            <div class="card-header" style="text-align:center">
-                                <h1 style="display:inline-block;margin-bottom:0;padding-right:5px;">
-                                    Kalender</h1>
-                                <a style="padding-left:5px;" href="js-data/calendarData.js">
-                                    <i class="fas fa-download" title="Data"/>
+
+                    <main id="calendar-main"
+                        style="max-width:1240px;margin:0 auto;padding:30px 32px 80px;">
+                        <div
+                            style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:24px;">
+                            <div>
+                                <h1
+                                    style="font-weight:600;font-size:34px;line-height:1.05;margin:0 0 6px;color:#26241f;">
+                                    <xsl:text>Kalender</xsl:text>
+                                </h1>
+                                <p style="margin:0;font-size:14px;color:#6f6b62;max-width:60ch;">
+                                    <xsl:text>Chronologische Einträge zu Leben und Werk Arthur Schnitzlers. Tage anklicken für die Einträge; Quellen unten ein- und ausblenden.</xsl:text>
+                                </p>
+                            </div>
+                            <div style="display:flex;gap:14px;align-items:center;">
+                                <a href="js-data/calendarData.js"
+                                    aria-label="Kalenderdaten herunterladen">
+                                    <i class="fas fa-download" title="Kalenderdaten herunterladen"/>
                                 </a>
                             </div>
-                            <div class="card-body containingloader">
-                                <div id="calendar"/>
-                            </div>
                         </div>
-                    </div>
-                    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Kalenderansicht</h5>
-                                </div>
-                                <div class="modal-body">
-                                    <p>
-                                        Das erklärt sich doch von selbst?
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+
+                        <!-- Calendar Container -->
+                        <div id="calendar"/>
+                    </main>
+
                     <script type="text/javascript" src="js/calendar.js" charset="UTF-8"/>
-                    <div id="loadModal"/>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
