@@ -718,7 +718,7 @@
             </div>
         </section>
         <!-- Externes Leaflet-Script -->
-        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=5"></script>
+        <script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@57de659/xslt/export/wienerschnitzler-map.js?v=5"></script>
         <!-- Initialisierung: im Bootstrap-Modal beim Öffnen, sonst (Drawer/Inline),
              sobald die Karte sichtbar wird. Doppelte Initialisierung wird über
              _leaflet_id verhindert.
