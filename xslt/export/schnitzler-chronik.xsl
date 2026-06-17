@@ -164,6 +164,19 @@
                         text-transform: uppercase;
                         letter-spacing: .04em;
                     }
+                    /* Kachel-Überschrift klar als Link kennzeichnen: dezenter
+                       Unterstrich plus Pfeil-Symbol (nur am echten Link, nicht am span) */
+                    .chronik-embed .chronik-card-head a {
+                        text-decoration: underline;
+                        text-decoration-thickness: .06em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-card-head a::after {
+                        content: "\00A0\2197";
+                        font-size: .9em;
+                        text-decoration: none;
+                        vertical-align: .1em;
+                    }
                     .chronik-embed .chronik-card-head a:hover {
                         color: #fff;
                         text-decoration: underline;
@@ -344,12 +357,34 @@
                     <xsl:variable name="ws-events"
                         select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]"/>
                     <xsl:if test="$ws-events">
+                        <xsl:variable name="ws-idno"
+                            select="string($ws-events[1]/tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
+                        <xsl:variable name="ws-url">
+                            <xsl:choose>
+                                <xsl:when test="starts-with($ws-idno, 'http')">
+                                    <xsl:value-of select="$ws-idno"/>
+                                </xsl:when>
+                                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url">
+                                    <xsl:value-of
+                                        select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:url"/>
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:variable>
                         <section class="chronik-card" id="chronik-card-{$e-typ}"
                             style="--c: {mam:typ-farbe($e-typ)};">
                             <header class="chronik-card-head">
-                                <span>
-                                    <xsl:value-of select="$kopf-caption"/>
-                                </span>
+                                <xsl:choose>
+                                    <xsl:when test="$ws-url != ''">
+                                        <a href="{$ws-url}" target="_blank">
+                                            <xsl:value-of select="$kopf-caption"/>
+                                        </a>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <span>
+                                            <xsl:value-of select="$kopf-caption"/>
+                                        </span>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </header>
                             <div class="chronik-card-body">
                                 <xsl:apply-templates select="$ws-events"/>
