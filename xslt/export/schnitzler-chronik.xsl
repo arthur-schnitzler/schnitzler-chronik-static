@@ -31,8 +31,8 @@
                                     <xsl:with-param name="import-eventtypes" select="''"/>
                                 </xsl:call-template>
 
-    teiSource ist der aktuelle Dateiname/die xml:id ohne .xml-Endung (z. B. 'L000122'); Einträge,
-    die auf das aktuelle Dokument selbst zeigen, werden ausgelassen.
+    teiSource ist der aktuelle Dateiname bzw. die xml:id, mit oder ohne Endung (z. B. 'L000122'
+    oder 'L000122.xml'); Einträge, die auf das aktuelle Dokument selbst zeigen, werden ausgelassen.
 
     fetchContentsFromURL enthält bereits den Chronik-Tag; das erlaubt lokale Verarbeitung
     (schneller als der Download je Datei).
@@ -79,13 +79,17 @@
             </xsl:choose>
         </xsl:variable>
         <xsl:if test="$fetchContentsFromURL/descendant::*:listEvent/*:event">
-            <!-- Einträge, die auf das aktuelle Dokument selbst verweisen, werden entfernt -->
+            <!-- Einträge, die auf das aktuelle Dokument selbst verweisen, werden entfernt.
+                 Verglichen wird der Dateiname ohne Endung, weil teiSource je nach Projekt
+                 mit .xml-Endung kommt, die idno in den Chronik-Daten aber auf .html endet -->
+            <xsl:variable name="teiSource-basis" as="xs:string"
+                select="replace(tokenize($teiSource, '/')[last()], '\.(xml|html)$', '')"/>
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:for-each select="$fetchContentsFromURL/descendant::*:listEvent/*:event">
                         <xsl:choose>
                             <xsl:when
-                                test="*:idno[@type = $current-type or @subtype = $current-type][1]/contains(., $teiSource)"/>
+                                test="*:idno[@type = $current-type or @subtype = $current-type][replace(tokenize(normalize-space(.), '/')[last()], '\.(xml|html)$', '') = $teiSource-basis]"/>
                             <xsl:otherwise>
                                 <xsl:copy-of select="."/>
                             </xsl:otherwise>
