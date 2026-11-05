@@ -766,7 +766,7 @@
             <xsl:when test="contains($n, 'namensvariante') and contains($n, 'vorname')">variante-vorname</xsl:when>
             <xsl:when test="contains($n, 'namensvariante') and contains($n, 'nachname')">variante-nachname</xsl:when>
             <xsl:when test="contains($n, 'namensvariante') or contains($n, 'alternativename')">variante</xsl:when>
-            <xsl:otherwise/>
+            <xsl:otherwise><xsl:sequence select="''"/></xsl:otherwise>
         </xsl:choose>
     </xsl:function>
     <!-- WORK / WERKE -->
