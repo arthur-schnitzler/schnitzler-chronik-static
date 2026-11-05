@@ -1850,24 +1850,24 @@
                                 </label>
                                 <span class="opt-title">Kommentar berücksichtigen</span>
                             </div>
+                            <span class="mentions-summary">
+                                <span class="ms-mentions">
+                                    <b>
+                                        <xsl:value-of select="$mentionCount"/>
+                                    </b>
+                                    <xsl:text> Erwähnung</xsl:text>
+                                    <xsl:if test="$mentionCount != 1">en</xsl:if>
+                                </span>
+                                <xsl:text> · </xsl:text>
+                                <span class="ms-years">
+                                    <b class="neutral">
+                                        <xsl:value-of select="$years-with-entries"/>
+                                    </b>
+                                    <xsl:text> Jahr</xsl:text>
+                                    <xsl:if test="$years-with-entries != 1">e</xsl:if>
+                                </span>
+                            </span>
                         </xsl:if>
-                        <span class="mentions-summary">
-                            <span class="ms-mentions">
-                                <b>
-                                    <xsl:value-of select="$mentionCount"/>
-                                </b>
-                                <xsl:text> Erwähnung</xsl:text>
-                                <xsl:if test="$mentionCount != 1">en</xsl:if>
-                            </span>
-                            <xsl:text> · </xsl:text>
-                            <span class="ms-years">
-                                <b class="neutral">
-                                    <xsl:value-of select="$years-with-entries"/>
-                                </b>
-                                <xsl:text> Jahr</xsl:text>
-                                <xsl:if test="$years-with-entries != 1">e</xsl:if>
-                            </span>
-                        </span>
                     </div>
                     <!-- Chart mit Kopf (Legende + Jahr-Range) -->
                     <div id="mentions-chart">
