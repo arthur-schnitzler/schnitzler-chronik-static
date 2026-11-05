@@ -610,28 +610,36 @@
             aria-selected="{if ($hasMentions) then 'true' else 'false'}"
             tabindex="{if ($hasMentions) then '0' else '-1'}"
             class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
-            data-tab="tab-erwaehnungen">
-            <xsl:text>Erwähnungen</xsl:text>
-            <xsl:if test="$mentionsCount gt 0">
-                <xsl:text> </xsl:text>
-                <span class="tab-count">
-                    <xsl:value-of select="$mentionsCount"/>
-                </span>
-            </xsl:if>
+            data-tab="tab-erwaehnungen"
+            data-hash="erwaehnungen">
+            <span class="tab-title-row">
+                <span class="tab-title">Erwähnungen</span>
+                <xsl:if test="$mentionsCount gt 0">
+                    <span class="tab-count">
+                        <xsl:value-of select="$mentionsCount"/>
+                    </span>
+                </xsl:if>
+                <span class="tab-arrow" aria-hidden="true">→</span>
+            </span>
+            <span class="tab-sub" data-sub="mentions"/>
         </button>
         <button id="btn-tab-relationen" type="button" role="tab"
             aria-controls="tab-relationen"
             aria-selected="{if ($hasMentions) then 'false' else 'true'}"
             tabindex="{if ($hasMentions) then '-1' else '0'}"
-            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
-            data-tab="tab-relationen">
-            <xsl:text>Relationen</xsl:text>
-            <xsl:if test="$relationsCount gt 0">
-                <xsl:text> </xsl:text>
-                <span class="tab-count">
-                    <xsl:value-of select="$relationsCount"/>
-                </span>
-            </xsl:if>
+            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}{if ($relationsCount gt 0) then '' else ' is-empty'}"
+            data-tab="tab-relationen"
+            data-hash="relationen">
+            <span class="tab-title-row">
+                <span class="tab-title">Relationen</span>
+                <xsl:if test="$relationsCount gt 0">
+                    <span class="tab-count">
+                        <xsl:value-of select="$relationsCount"/>
+                    </span>
+                </xsl:if>
+                <span class="tab-arrow" aria-hidden="true">→</span>
+            </span>
+            <span class="tab-sub" data-sub="relations"/>
         </button>
         <xsl:call-template name="relationen-info-popup"/>
     </xsl:template>
@@ -1113,7 +1121,7 @@
     <!-- Namensvarianten-Liste -->
     <xsl:template name="place-namensvarianten">
         <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="varianten" select="$entity/tei:placeName[mam:name-kind(@type) = 'variante']"/>
+        <xsl:variable name="varianten" select="$entity/tei:placeName[position() gt 1][mam:name-kind(@type) = ('variante', '') and not(starts-with(@type, 'wien-geschichte') or starts-with(@type, 'x_'))][normalize-space(.) != normalize-space($entity/tei:placeName[1])]"/>
         <xsl:variable name="frueher" select="$entity/tei:placeName[mam:name-kind(@type) = 'frueher']"/>
         <xsl:if test="$varianten">
             <div class="side-block">
