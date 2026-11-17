@@ -613,7 +613,9 @@
             data-tab="tab-erwaehnungen"
             data-hash="erwaehnungen">
             <span class="tab-title-row">
-                <span class="tab-title">Erwähnungen</span>
+                <span class="tab-title">
+                    <xsl:value-of select="$mentions-tab-label"/>
+                </span>
                 <xsl:if test="$mentionsCount gt 0">
                     <span class="tab-count">
                         <xsl:value-of select="$mentionsCount"/>
@@ -1835,13 +1837,13 @@
         <xsl:variable name="commentaryMentionCount"
             select="count($mentions//tei:note[@ana = 'comment'])"/>
         <xsl:variable name="mentionCount" select="count($mentions//tei:note)"/>
-        <xsl:variable name="start-year" as="xs:integer">
-            <xsl:choose>
-                <xsl:when test="$current-edition = 'schnitzler-kultur'">1876</xsl:when>
-                <xsl:otherwise>1879</xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:variable name="end-year" as="xs:integer" select="1931"/>
+        <!-- Kontext beim Aufruf ist die Entität (person_detail, place_detail …) -->
+        <xsl:variable name="mentions-entity" select="."/>
+        <xsl:variable name="start-year" as="xs:integer" select="$mentions-start-year"/>
+        <xsl:variable name="end-year" as="xs:integer" select="$mentions-end-year"/>
+        <!-- zu viele Erwähnungen: Jahresblöcke ohne Einzeleinträge -->
+        <xsl:variable name="overflow" as="xs:boolean"
+            select="$mentions-max-inline gt 0 and count($mentions//tei:note) gt $mentions-max-inline"/>
         <xsl:if test="$mentionCount > 0">
             <!-- Anzahl der Jahre mit mindestens einer Erwähnung -->
             <xsl:variable name="years-with-entries" as="xs:integer">
@@ -1949,7 +1951,7 @@
                                         <xsl:value-of select="$tick"/>
                                     </text>
                                 </xsl:for-each>
-                                <xsl:for-each select="188 to 193">
+                                <xsl:for-each select="xs:integer(ceiling($start-year div 10)) to xs:integer(floor($end-year div 10))">
                                     <xsl:variable name="decade" select=". * 10"/>
                                     <text class="chart-tick"
                                         x="{round-half-to-even(50 + ($decade - $start-year + 0.5) * $stepWidth, 2)}"
@@ -2086,6 +2088,13 @@
                                             </summary>
                                             <div class="year-content">
                                                 <xsl:choose>
+                                                  <xsl:when test="$overflow">
+                                                  <xsl:call-template name="mentions-year-overflow">
+                                                  <xsl:with-param name="entity" select="$mentions-entity"/>
+                                                  <xsl:with-param name="year" select="xs:integer($year)"/>
+                                                  <xsl:with-param name="year-count" select="$year-count"/>
+                                                  </xsl:call-template>
+                                                  </xsl:when>
                                                   <xsl:when test="$year-count > 10">
                                                   <xsl:for-each-group select="current-group()"
                                                   group-by="substring(@corresp, 1, 7)">
@@ -2169,6 +2178,18 @@
                 </span>
             </div>
         </xsl:if>
+    </xsl:template>
+    <!-- Inhalt eines Jahresblocks, wenn die Liste zu lang ist ($mentions-max-inline).
+         Projekte können das Template überschreiben, etwa mit einem Link auf eine
+         gefilterte Ansicht. -->
+    <xsl:template name="mentions-year-overflow">
+        <xsl:param name="entity"/>
+        <xsl:param name="year" as="xs:integer"/>
+        <xsl:param name="year-count" as="xs:integer"/>
+        <p class="mentions-overflow">
+            <xsl:value-of select="$year-count"/>
+            <xsl:text> Einträge, hier nicht einzeln aufgeführt.</xsl:text>
+        </p>
     </xsl:template>
     <xsl:template name="lod-reihe">
         <xsl:param name="idno" as="node()"/>
