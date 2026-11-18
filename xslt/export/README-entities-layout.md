@@ -37,6 +37,13 @@ Ablageorte sind im Script fix (`ASSETS`-Tupel). Fehlende Zielordner werden
 automatisch angelegt. Konfiguration ist nur durch Editieren der Konstanten
 `REMOTE_BASE` und `ASSETS` moeglich.
 
+Zusaetzlich wendet das Script `LOCAL_PATCHES` an: kleine, idempotente
+Textersetzungen in projekteigenen Dateien, die nicht vom Upstream
+ueberschrieben werden duerfen. Derzeit: `xslt/partials/LOD-idnos.xsl`, Modal
+"Mehrfache Links" (h5 -> h2, eindeutige id statt `exampleModalLabel`).
+Das Script selbst wird nicht mitsynchronisiert – nach Aenderungen einmal neu
+ins Projekt-Root kopieren.
+
 `fetch_relations.py` wird von `check_entities_xsl.py` **nicht** mitsynchronisiert
 und muss einmalig manuell kopiert werden (siehe Variante B).
 
