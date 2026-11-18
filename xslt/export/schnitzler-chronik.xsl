@@ -58,6 +58,17 @@
                 else
                     'blue'"/>
     </xsl:function>
+    <!-- Link-Ziel einer idno: normalisiert; bei anno-theaterzettel wird das
+         nur zur Eindeutigkeit angehängte "#…" entfernt, weil ANNO das nicht mehr akzeptiert -->
+    <xsl:function name="mam:idno-href" as="xs:string">
+        <xsl:param name="idno" as="element()?"/>
+        <xsl:variable name="url" select="normalize-space(string($idno))"/>
+        <xsl:sequence select="
+                if ($idno/@subtype = 'anno-theaterzettel' or $idno/@type = 'anno-theaterzettel') then
+                    substring-before(concat($url, '#'), '#')
+                else
+                    $url"/>
+    </xsl:function>
     <xsl:template name="mam:schnitzler-chronik">
         <xsl:param name="datum-iso" as="xs:date"/>
         <xsl:param name="current-type" as="xs:string"/>
@@ -362,7 +373,7 @@
                         select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]"/>
                     <xsl:if test="$ws-events">
                         <xsl:variable name="ws-idno"
-                            select="string($ws-events[1]/tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
+                            select="mam:idno-href($ws-events[1]/tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
                         <xsl:variable name="ws-url">
                             <xsl:choose>
                                 <xsl:when test="starts-with($ws-idno, 'http')">
@@ -400,7 +411,7 @@
                     <xsl:for-each
                         select="$current-group/tei:event[tei:idno[@type = $e-typ or @subtype = $e-typ]]">
                         <xsl:variable name="kopf-idno"
-                            select="string(tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
+                            select="mam:idno-href(tei:idno[@type = $e-typ or @subtype = $e-typ][1])"/>
                         <xsl:variable name="kopf-url">
                             <xsl:choose>
                                 <xsl:when test="starts-with($kopf-idno, 'http')">
@@ -454,8 +465,8 @@
                                 select="concat('https://wienerschnitzler.org/', replace(tei:head/@corresp, '#', ''), '.html')"
                             />
                         </xsl:when>
-                        <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
-                            <xsl:value-of select="tei:idno[1]/text()"/>
+                        <xsl:when test="starts-with(mam:idno-href(tei:idno[1]), 'http')">
+                            <xsl:value-of select="mam:idno-href(tei:idno[1])"/>
                         </xsl:when>
                         <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
                             <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
@@ -495,7 +506,7 @@
             <xsl:if test="$e-typ-multiple and tei:idno[@type = $e-typ or @subtype = $e-typ][2]">
                 <p class="chronik-links">
                     <xsl:for-each select="tei:idno[@type = $e-typ or @subtype = $e-typ]">
-                        <a href="{.}" target="_blank">
+                        <a href="{mam:idno-href(.)}" target="_blank">
                             <xsl:value-of select="concat('Link ', position())"/>
                         </a>
                         <xsl:if test="position() != last()">
