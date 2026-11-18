@@ -87,6 +87,7 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <aside class="entity-sidebar" aria-label="Steckbrief">
+                    <h2 class="visually-hidden">Steckbrief</h2>
                     <xsl:call-template name="person-portrait-card">
                         <xsl:with-param name="entity" select="."/>
                         <xsl:with-param name="namensformen" select="$namensformen"/>
@@ -838,6 +839,7 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <aside class="entity-sidebar" aria-label="Steckbrief">
+                    <h2 class="visually-hidden">Steckbrief</h2>
                     <xsl:variable name="work-kind" select="normalize-space(tei:note[@type = 'work_kind'][1])"/>
                     <xsl:if test="tei:author and tei:date[1] or $work-kind != '' or tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link') or @type = 'anno' or mam:name-kind(@type) = ('variante', 'arbeitstitel', 'veroeffentlicht', 'pseudonym', 'frueher')]">
                         <div class="side-block">
@@ -1036,6 +1038,7 @@
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
                     <aside class="entity-sidebar" aria-label="Steckbrief">
+                        <h2 class="visually-hidden">Steckbrief</h2>
                         <xsl:call-template name="place-namensvarianten">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
@@ -1233,6 +1236,7 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <aside class="entity-sidebar" aria-label="Steckbrief">
+                    <h2 class="visually-hidden">Steckbrief</h2>
                     <xsl:call-template name="org-namensvarianten">
                         <xsl:with-param name="entity" select="."/>
                     </xsl:call-template>
@@ -1417,6 +1421,7 @@
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
                     <aside class="entity-sidebar" aria-label="Steckbrief">
+                        <h2 class="visually-hidden">Steckbrief</h2>
                         <xsl:call-template name="event-row-datum">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
@@ -2631,6 +2636,7 @@
             </xsl:variable>
             <xsl:variable name="first-type" select="$types-present[1]"/>
             <div class="relationen">
+                <h2 class="visually-hidden">Relationen</h2>
                 <!-- Sub-Navigation -->
                 <div class="rel-subnav" role="tablist" aria-label="Relationstypen">
                     <xsl:for-each select="$types-present">
@@ -2667,14 +2673,14 @@
                                 </xsl:for-each>
                             </xsl:variable>
                             <div class="rel-group">
-                                <h4>
+                                <h3>
                                     <span>
                                         <xsl:value-of select="current-grouping-key()"/>
                                     </span>
                                     <span class="rel-count">
                                         <xsl:value-of select="count($sorted-targets)"/>
                                     </span>
-                                </h4>
+                                </h3>
                                 <div class="rel-list">
                                     <xsl:for-each select="$sorted-targets">
                                         <a class="rel-chip" href="{concat(@other-id, '.html')}">

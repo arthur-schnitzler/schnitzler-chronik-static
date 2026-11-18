@@ -102,12 +102,12 @@
             </xsl:variable>
             <xsl:variable name="abbr" select="child::abbr" as="xs:string"/>
             <div class="modal fade modal-sm" id="{$pill/caption}" tabindex="-1" focus="true"
-                keyboard="true" aria-labelledby="{$pill/caption}" aria-hidden="true"
+                keyboard="true" aria-labelledby="{$pill/caption}-label" aria-hidden="true"
                 data-bs-backdrop="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5>
+                            <h2 class="modal-title h5" id="{$pill/caption}-label">Mehrfache Links</h2>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Schließen"/>
                         </div>
