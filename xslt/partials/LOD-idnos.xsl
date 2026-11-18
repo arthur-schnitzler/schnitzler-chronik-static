@@ -10,7 +10,11 @@
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:template name="mam:idnosToLinks">
         <xsl:param name="idnos-of-current" as="node()"/>
-        <xsl:for-each select="$relevant-uris/descendant::item[not(@type)]">
+        <!-- URLs der anno-theaterzettel-idnos ohne "#…": ein "anno"-Badge, das nur auf
+             dieselben Seiten zeigt, wäre ein Duplikat und wird unterdrückt -->
+        <xsl:variable name="theaterzettel-urls" as="xs:string*"
+            select="for $i in $idnos-of-current/descendant::tei:idno[@subtype = 'anno-theaterzettel'] return substring-before(concat(normalize-space($i), '#'), '#')"/>
+        <xsl:for-each select="$relevant-uris/descendant::item[not(@type)][not(abbr = 'anno' and exists($theaterzettel-urls) and (every $i in $idnos-of-current/descendant::tei:idno[@subtype = 'anno'] satisfies substring-before(concat(normalize-space($i), '#'), '#') = $theaterzettel-urls))]">
             <xsl:variable name="pill" as="node()">
                 <item>
                     <xsl:copy-of select="child::*"/>
@@ -138,7 +142,12 @@
         <xsl:variable name="caption" select="$pill//caption" as="xs:string"/>
         <xsl:element name="a">
             <xsl:attribute name="href">
-                <xsl:value-of select="normalize-space($current-idno)"/>
+                <!-- bei anno-theaterzettel ist "#…" nur Eindeutigkeits-Suffix, ANNO lehnt es ab -->
+                <xsl:value-of select="
+                        if ($abbr = 'anno-theaterzettel') then
+                            substring-before(concat(normalize-space($current-idno), '#'), '#')
+                        else
+                            normalize-space($current-idno)"/>
             </xsl:attribute>
             <xsl:attribute name="target">
                 <xsl:text>_blank</xsl:text>
