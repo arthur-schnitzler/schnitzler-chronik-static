@@ -149,13 +149,24 @@ document.addEventListener('DOMContentLoaded', function () {
     // Mentions-Chart: Zoom auf Monate und Vollbild
     var mentionsChart = document.getElementById('mentions-chart');
     if (mentionsChart) initMentionsChart(mentionsChart);
-    // Kommentar-Toggle: blendet Kommentar-Erwähnungen aus und aktualisiert Jahresliste
+    // Toggles für Kommentar und Versand-/Empfangsorte: blenden die jeweiligen
+    // Erwähnungen aus und aktualisieren die Jahresliste
     var commentaryToggle = document.getElementById('toggle-commentary-mentions');
-    if (commentaryToggle) {
+    var placeToggle = document.getElementById('toggle-corresp-place-mentions');
+    if (commentaryToggle || placeToggle) {
         var mentionsRoot = document.getElementById('mentions');
         function applyCommentaryState() {
-            var showCommentary = commentaryToggle.checked;
-            if (mentionsRoot) mentionsRoot.classList.toggle('hide-commentary', !showCommentary);
+            var showCommentary = !commentaryToggle || commentaryToggle.checked;
+            var showPlaces = !placeToggle || placeToggle.checked;
+            function isShown(li) {
+                if (!showCommentary && li.classList.contains('mention-commentary')) return false;
+                if (!showPlaces && li.classList.contains('mention-corresp-place')) return false;
+                return true;
+            }
+            if (mentionsRoot) {
+                mentionsRoot.classList.toggle('hide-commentary', !showCommentary);
+                mentionsRoot.classList.toggle('hide-corresp-place', !showPlaces);
+            }
             var list = mentionsRoot && mentionsRoot.querySelector('.mentions-by-year');
             if (!list) return;
             var yearDetails = list.querySelectorAll(':scope > .year-details');
@@ -164,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 var lis = details.querySelectorAll('.year-content li');
                 var visible = 0;
                 lis.forEach(function (li) {
-                    if (showCommentary || !li.classList.contains('mention-commentary')) visible++;
+                    if (isShown(li)) visible++;
                 });
                 stats.push({ details: details, visible: visible });
             });
@@ -192,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     var monthLis = month.querySelectorAll('li');
                     var monthVisible = 0;
                     monthLis.forEach(function (li) {
-                        if (showCommentary || !li.classList.contains('mention-commentary')) monthVisible++;
+                        if (isShown(li)) monthVisible++;
                     });
                     month.hidden = monthVisible === 0;
                 });
@@ -218,9 +229,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 msYears.appendChild(document.createTextNode(' Jahr' + (visibleYears === 1 ? '' : 'e')));
             }
         }
-        commentaryToggle.addEventListener('change', function () {
-            applyCommentaryState();
-            updateTabSubs();
+        [commentaryToggle, placeToggle].forEach(function (t) {
+            if (!t) return;
+            t.addEventListener('change', function () {
+                applyCommentaryState();
+                updateTabSubs();
+            });
         });
         applyCommentaryState();
         updateTabSubs();
@@ -229,7 +243,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /* Erwähnungs-Chart: Klick auf ein Jahr zoomt auf dessen Monate, ⤢ schaltet das Vollbild.
    Die Jahresansicht kommt fertig aus entities.xsl (Template list-all-mentions), die
-   Monatsansicht entsteht hier aus data-m und data-k. Zeichenfläche und Achsenstufen
+   Monatsansicht entsteht hier aus data-m, data-k und data-o (Versand-/Empfangsorte,
+   in data-m enthalten). Zeichenfläche und Achsenstufen
    müssen mit der XSLT übereinstimmen. */
 function initMentionsChart(chart) {
     var SVG_NS = 'http://www.w3.org/2000/svg';
@@ -246,6 +261,8 @@ function initMentionsChart(chart) {
     // Noch nicht neu gebaute Seiten behalten ihr statisches Chart
     if (!years || !title || !nav) return;
     var toggle = document.getElementById('toggle-commentary-mentions');
+    var placeToggle = document.getElementById('toggle-corresp-place-mentions');
+    var yearUnit = Number(years.dataset.unit);
     var overviewText = title.textContent.trim();
     var zoomedCol = null;
     var monthsGroup = null;
@@ -269,26 +286,61 @@ function initMentionsChart(chart) {
     function commentaryVisible() {
         return !toggle || toggle.checked;
     }
+    function placesVisible() {
+        return !placeToggle || placeToggle.checked;
+    }
+    // Text-Erwähnungen einer Spalte; Versand-/Empfangsorte sind in data-text enthalten
+    function textCount(col) {
+        return Number(col.dataset.text) - (placesVisible() ? 0 : Number(col.dataset.place || 0));
+    }
     function shownCount(col) {
-        return Number(col.dataset.text) + (commentaryVisible() ? Number(col.dataset.comment) : 0);
+        return textCount(col) + (commentaryVisible() ? Number(col.dataset.comment) : 0);
     }
     function mentionsLabel(n) {
         return n + ' Erwähnung' + (n === 1 ? '' : 'en');
     }
     function commentNote(col) {
+        var notes = [];
         var k = commentaryVisible() ? Number(col.dataset.comment) : 0;
-        return k ? ', davon ' + k + ' im Kommentar' : '';
+        var o = placesVisible() ? Number(col.dataset.place || 0) : 0;
+        if (k) notes.push(k + ' im Kommentar');
+        if (o) notes.push(o + ' als Versand-/Empfangsort');
+        return notes.length ? ', davon ' + notes.join(', ') : '';
     }
     function describeColumn(col) {
         col.setAttribute('aria-label', col.dataset.label + ': ' +
             mentionsLabel(shownCount(col)) + commentNote(col) +
             (col.classList.contains('year-col') ? '. Monate anzeigen' : ''));
     }
-    // Spalten der aktuellen Ansicht; reine Kommentar-Jahre fallen bei ausgeblendetem Kommentar weg
+    // Spalten der aktuellen Ansicht; Jahre ohne sichtbare Erwähnung fallen weg
     function columns() {
         var all = (monthsGroup || years).querySelectorAll('.chart-col');
         return Array.prototype.filter.call(all, function (col) {
-            return commentaryVisible() || col.dataset.type !== 'commentary';
+            return !col.classList.contains('year-col') || shownCount(col) > 0;
+        });
+    }
+    // Jahresbalken neu stapeln, wenn Versand-/Empfangsorte ausgeblendet werden.
+    // Die Achse bleibt wie aus der XSLT (data-unit), wie beim Kommentar-Toggle.
+    function restackYears() {
+        if (!placeToggle || !yearUnit) return;
+        years.querySelectorAll('.year-col').forEach(function (col) {
+            var t = textCount(col);
+            var textBar = col.querySelector('.chart-bar:not(.chart-bar-k)');
+            var commentBar = col.querySelector('.chart-bar-k');
+            var textHeight = t > 0 ? Math.max(MIN_BAR_HEIGHT, t * yearUnit) : 0;
+            if (textBar) {
+                textBar.style.display = t > 0 ? '' : 'none';
+                if (t > 0) {
+                    textBar.setAttribute('y', (BASE - textHeight).toFixed(2));
+                    textBar.setAttribute('height', textHeight.toFixed(2));
+                }
+            }
+            if (commentBar) {
+                var commentHeight = Number(commentBar.getAttribute('height'));
+                commentBar.setAttribute('y',
+                    (BASE - textHeight - (t > 0 ? STACK_GAP : 0) - commentHeight).toFixed(2));
+            }
+            col.style.display = shownCount(col) > 0 ? '' : 'none';
         });
     }
     // Das Diagramm ist ein einziger Tab-Stopp, die Pfeiltasten wechseln die Spalte
@@ -344,8 +396,12 @@ function initMentionsChart(chart) {
     function drawMonths(animate) {
         if (monthsGroup) monthsGroup.remove();
         var withComments = commentaryVisible();
+        var withPlaces = placesVisible();
         var year = zoomedCol.dataset.year;
-        var text = monthCounts(zoomedCol.dataset.m);
+        var place = monthCounts(zoomedCol.dataset.o);
+        var text = monthCounts(zoomedCol.dataset.m).map(function (t, i) {
+            return withPlaces ? t : t - place[i];
+        });
         var comment = monthCounts(zoomedCol.dataset.k);
         var totals = text.map(function (t, i) {
             return t + (withComments ? comment[i] : 0);
@@ -381,7 +437,8 @@ function initMentionsChart(chart) {
             var col = addSvg(monthsGroup, 'g', {
                 class: 'chart-col', role: 'img', tabindex: '-1',
                 'data-label': name + ' ' + year,
-                'data-text': text[i], 'data-comment': comment[i]
+                'data-text': text[i], 'data-comment': comment[i],
+                'data-place': withPlaces ? place[i] : 0
             });
             addSvg(col, 'rect', {
                 class: 'chart-hit', x: x, y: TOP, width: band, height: BASE - TOP,
@@ -415,8 +472,10 @@ function initMentionsChart(chart) {
         var shown = shownCount(zoomedCol);
         var undated = shown - totals.reduce(function (sum, n) { return sum + n; }, 0);
         var shownComments = withComments ? Number(zoomedCol.dataset.comment) : 0;
+        var shownPlaces = withPlaces ? Number(zoomedCol.dataset.place || 0) : 0;
         var notes = [];
         if (shownComments) notes.push('davon ' + shownComments + ' im Kommentar');
+        if (shownPlaces) notes.push((shownComments ? '' : 'davon ') + shownPlaces + ' als Versand-/Empfangsort');
         if (undated > 0) notes.push(undated + ' ohne Monatsangabe');
         title.textContent = mentionsLabel(shown) + ' ' + year;
         if (notes.length) {
@@ -520,9 +579,11 @@ function initMentionsChart(chart) {
     });
     svg.addEventListener('focusout', hideTip);
 
-    if (toggle) {
-        toggle.addEventListener('change', function () {
+    [toggle, placeToggle].forEach(function (t) {
+        if (!t) return;
+        t.addEventListener('change', function () {
             hideTip();
+            restackYears();
             years.querySelectorAll('.chart-col').forEach(describeColumn);
             if (zoomedCol) {
                 if (shownCount(zoomedCol) > 0) drawMonths(false); else zoomOut();
@@ -530,5 +591,5 @@ function initMentionsChart(chart) {
                 setTabStop(columns()[0]);
             }
         });
-    }
+    });
 }

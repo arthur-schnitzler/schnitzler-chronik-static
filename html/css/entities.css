@@ -520,6 +520,11 @@
 #mentions.hide-commentary #mentions-chart [data-type="commentary"] {
     display: none;
 }
+/* Toggle aus: Erwähnungen nur als Versand-/Empfangsort ausblenden
+   (Chart stapelt entity-tabs.js neu) */
+#mentions.hide-corresp-place .mention-corresp-place {
+    display: none;
+}
 
 /* Mentions-Chart: Kopf mit Legende + Range */
 .entity-tab-panel #mentions-chart {

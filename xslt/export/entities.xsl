@@ -1841,6 +1841,9 @@
         <xsl:param name="mentions" as="node()"/>
         <xsl:variable name="commentaryMentionCount"
             select="count($mentions//tei:note[@ana = 'comment'])"/>
+        <!-- Orte, die in einem Brief nur als Versand- oder Empfangsort stehen -->
+        <xsl:variable name="placeMentionCount"
+            select="count($mentions//tei:note[@ana = 'correspPlace'])"/>
         <xsl:variable name="mentionCount" select="count($mentions//tei:note)"/>
         <!-- Kontext beim Aufruf ist die Entität (person_detail, place_detail …) -->
         <xsl:variable name="mentions-entity" select="."/>
@@ -1863,7 +1866,7 @@
             <div id="mentions">
                 <span class="infodesc mr-2">
                     <h2 class="visually-hidden">Erwähnungen</h2>
-                    <!-- Toolbar: Kommentar-Toggle + Summary -->
+                    <!-- Toolbar: Toggles (Kommentar, Versand-/Empfangsorte) + Summary -->
                     <div class="mentions-toolbar">
                         <xsl:if test="$commentaryMentionCount > 0">
                             <div class="annotation-toggle" data-type="commentary">
@@ -1874,6 +1877,19 @@
                                 </label>
                                 <span class="opt-title">Kommentar berücksichtigen</span>
                             </div>
+                        </xsl:if>
+                        <xsl:if test="$placeMentionCount > 0">
+                            <div class="annotation-toggle" data-type="corresp-place">
+                                <label class="switch">
+                                    <input type="checkbox" id="toggle-corresp-place-mentions"
+                                        checked="checked"/>
+                                    <span class="i-slider round" aria-hidden="true"/>
+                                </label>
+                                <span class="opt-title">Versand- und Empfangsorte
+                                    berücksichtigen</span>
+                            </div>
+                        </xsl:if>
+                        <xsl:if test="$commentaryMentionCount > 0 or $placeMentionCount > 0">
                             <span class="mentions-summary">
                                 <span class="ms-mentions">
                                     <b>
@@ -1944,7 +1960,7 @@
                             select="530 div ($end-year - $start-year + 1)"/>
                         <svg viewBox="0 0 600 185" preserveAspectRatio="xMidYMid meet"
                             aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
-                            <g class="chart-years">
+                            <g class="chart-years" data-unit="{$unit}">
                                 <xsl:for-each select="0 to xs:integer($axis-top div $axis-step)">
                                     <xsl:variable name="tick" select=". * $axis-step"/>
                                     <xsl:variable name="y"
@@ -1973,6 +1989,8 @@
                                         select="current-group()[not(@ana = 'comment')]"/>
                                     <xsl:variable name="comment-notes"
                                         select="current-group()[@ana = 'comment']"/>
+                                    <xsl:variable name="place-notes"
+                                        select="current-group()[@ana = 'correspPlace']"/>
                                     <xsl:variable name="text-count" select="count($text-notes)"/>
                                     <xsl:variable name="comment-count"
                                         select="count($comment-notes)"/>
@@ -2003,6 +2021,14 @@
                                         <xsl:if test="$comment-count gt 0">
                                             <xsl:attribute name="data-k"
                                                 select="mam:month-counts($comment-notes)"/>
+                                        </xsl:if>
+                                        <!-- Versand-/Empfangsorte zählen im Balken als Text
+                                             und sind in data-text enthalten -->
+                                        <xsl:if test="exists($place-notes)">
+                                            <xsl:attribute name="data-place"
+                                                select="count($place-notes)"/>
+                                            <xsl:attribute name="data-o"
+                                                select="mam:month-counts($place-notes)"/>
                                         </xsl:if>
                                         <xsl:if test="$text-count = 0">
                                             <xsl:attribute name="data-type">commentary</xsl:attribute>
@@ -2139,12 +2165,19 @@
                                                   select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
                                                   <li>
                                                   <xsl:attribute name="class">
-                                                  <xsl:if test="@ana = 'comment'"
-                                                  >mention-commentary</xsl:if>
+                                                  <xsl:choose>
+                                                  <xsl:when test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:when>
+                                                  <xsl:when test="@ana = 'correspPlace'"
+                                                  >mention-corresp-place</xsl:when>
+                                                  </xsl:choose>
                                                   </xsl:attribute>
                                                   <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
                                                   </a>
+                                                  <xsl:if test="@ana = ('implied', 'implicit')">
+                                                  <xsl:text> [implizit erwähnt]</xsl:text>
+                                                  </xsl:if>
                                                   </li>
                                                   </xsl:for-each>
                                                   </ul>
@@ -2164,12 +2197,19 @@
                                                   </xsl:variable>
                                                   <li>
                                                   <xsl:attribute name="class">
-                                                  <xsl:if test="@ana = 'comment'"
-                                                  >mention-commentary</xsl:if>
+                                                  <xsl:choose>
+                                                  <xsl:when test="@ana = 'comment'"
+                                                  >mention-commentary</xsl:when>
+                                                  <xsl:when test="@ana = 'correspPlace'"
+                                                  >mention-corresp-place</xsl:when>
+                                                  </xsl:choose>
                                                   </xsl:attribute>
                                                   <a href="{$linkToDocument}">
                                                   <xsl:value-of select="."/>
                                                   </a>
+                                                  <xsl:if test="@ana = ('implied', 'implicit')">
+                                                  <xsl:text> [implizit erwähnt]</xsl:text>
+                                                  </xsl:if>
                                                   </li>
                                                   </xsl:for-each>
                                                   </ul>
